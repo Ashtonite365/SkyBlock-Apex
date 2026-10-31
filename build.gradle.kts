@@ -31,7 +31,7 @@ plugins {
 	alias(libs.plugins.mcAutoTranslations)
 }
 
-version = "1.0.0+mc${libs.versions.minecraft.get()}"
+version = "2.0.0+mc${libs.versions.minecraft.get()}"
 
 base.archivesName.set("SkyBlockApex")
 
