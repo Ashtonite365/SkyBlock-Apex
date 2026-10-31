@@ -1,0 +1,16 @@
+{
+	"box": "ENCHANTED_BOOK_BUNDLE_REFLECTION",
+	"source": "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Book_Bundle",
+	"total_weight": null,
+	"drops": [
+		{
+			"type": "item",
+			"id": "REFLECTION;1",
+			"min": 3,
+			"max": 3,
+			"weight": null,
+			"chance": 1.0
+		}
+	],
+	"note": "fixed contents stated by wiki"
+}

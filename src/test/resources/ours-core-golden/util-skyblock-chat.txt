@@ -1,0 +1,43 @@
+sack sacks/gain-rotten-flesh [SackUpdate(itemId=ROTTEN_FLESH, itemName=Rotten Flesh, changeAmount=1)]
+sack sacks/gain-and-lose-regular [SackUpdate(itemId=ROTTEN_FLESH, itemName=Rotten Flesh, changeAmount=1)]
+sack all-chat []
+sackHand [SackUpdate(itemId=ENCHANTED_DIAMOND, itemName=Enchanted Diamond, changeAmount=1234), SackUpdate(itemId=null, itemName=Nothing Real, changeAmount=5), SackUpdate(itemId=ROTTEN_FLESH, itemName=Rotten Flesh, changeAmount=-2000)]
+change '  +1 Diamond (x)' true
+change '  -1.5k Enchanted Diamond (Mining Sack)' true
+change ' +1 Diamond (x)' false
+change '  +1 Diamond' false
+stored 'Stored: 1/2' true
+stored 'Stored: 1.2k/60k' true
+stored 'Stored: x/2' false
+widget COMMISSIONS label=Commissions regex=Commissions: t=[] f=[]
+widget SKILLS label=Skills regex=Skills:( .*)? t=[] f=[]
+widget PROFILE label=Profile regex=Profile: (.*) t=[Profile: Strawberry,  SB Level: [210] 26/100 XP,  Bank: 1.4B,  Interest: 12 Hours (689.1k)] f=[ SB Level: [210] 26/100 XP,  Bank: 1.4B,  Interest: 12 Hours (689.1k)]
+widget COLLECTION label=Collection regex=Collection: t=[Collection:,  Bonzo IV: 110/150,  Scarf II: 25/50,  The Professor IV: 141/150,  Thorn I: 29/50,  Livid II: 91/100,  Sadan V: 388/500,  Necron VI: 531/750] f=[ Bonzo IV: 110/150,  Scarf II: 25/50,  The Professor IV: 141/150,  Thorn I: 29/50,  Livid II: 91/100,  Sadan V: 388/500,  Necron VI: 531/750]
+widget ESSENCE label=Essence regex=Essence: t=[Essence:,  Undead: 1,907,  Wither: 318] f=[ Undead: 1,907,  Wither: 318]
+widget PET label=Pet regex=Pet: t=[] f=[]
+widget COMPOSTER label=Composter regex=Composter: t=[] f=[]
+widgetTitle true true true false
+chat '[MVP+] Alice joined the party.' -> ERR:NullPointerException
+chat 'Bob joined the party.' -> ERR:NullPointerException
+chat 'Party Finder > Carol joined the Dungeon group! (Combat Level 30)' -> ERR:NullPointerException
+chat 'Bob has left the party.' -> null
+chat 'The party was transferred to Alice by [VIP] Carol' -> null
+chat 'Dave joined the party.' -> ERR:NullPointerException
+chat 'The party was transferred to Dave because Alice left' -> null
+chat 'Kicked Carol because they were offline.' -> null
+chat 'Eve was removed from your party because they disconnected.' -> null
+chat 'Frank has been removed from the party.' -> null
+chat 'Gina joined the party.' -> ERR:NullPointerException
+chat 'Dave has disbanded the party!' -> null
+chat 'Hank joined the party.' -> ERR:NullPointerException
+chat 'You left the party.' -> null
+chat 'Ian joined the party.' -> ERR:NullPointerException
+chat 'You have been kicked from the party by Ian .' -> null
+chat 'Jo joined the party.' -> ERR:NullPointerException
+chat 'The party was disbanded because all invites expired and the party was empty.' -> null
+chat 'random chat line' -> null
+chat2 'Zed joined the party.' -> [Me:LEADER, Zed:MEMBER]
+chat2 'The party was transferred to Yan because Me left.' -> [Zed:MEMBER, Yan:LEADER]
+chat2 'The party was transferred to Zed by Yan.' -> [Zed:LEADER, Yan:MOD]
+regex (\[[^\]]+\] )?(?<name>[a-zA-Z0-9_]{2,16}) (\[[^\]]+\] )?(?<name2>[a-zA-Z0-9_]{2,16})
+items [SKYBLOCK_COIN, ROTTEN_FLESH, ETHERWARP_CONDUIT, HUNTING_TOOLKIT]

@@ -1,0 +1,247 @@
+timer	(Infinity,true,Infinity)
+pid	true
+bazaar	(BUY_ORDER,SELL_ORDER,NPC_SELL)
+ignoredWarps	(carnival,)
+colour #ff0000	(255,0,0,255,-65536)
+colour #FF00FF80	(0,255,128,255,-16711808)
+colour #80ff00ff	(255,0,255,128,-2130771713)
+colour #fff	!java.lang.IllegalStateException: Hexcolor #fff needs to be exactly 6 or 8 hex digits long
+colour #1234567	!java.lang.IllegalStateException: Hexcolor #1234567 needs to be exactly 6 or 8 hex digits long
+colour #	!java.lang.NumberFormatException: For input string: "" under radix 16
+colour #zzzzzz	!java.lang.NumberFormatException: For input string: "zzzzzz" under radix 16
+colour 123	(0,0,123,0,123)
+colour -1	(255,255,255,255,-1)
+colour 0	(0,0,0,0,0)
+colour 4294967295	!java.lang.NumberFormatException: For input string: "4294967295"
+colour -16777216	(0,0,0,255,-16777216)
+colour abc	!java.lang.NumberFormatException: For input string: "abc"
+colour 	!java.lang.NumberFormatException: For input string: ""
+colour #00000000	(0,0,0,0,0)
+colour #ffffffff	(255,255,255,255,-1)
+colour  12	!java.lang.NumberFormatException: For input string: " 12"
+colour #+12345	(1,35,69,255,-16702651)
+colour #-12345	(254,220,187,255,-74565)
+colour 2147483647	(255,255,255,127,2147483647)
+colour 2147483648	!java.lang.NumberFormatException: For input string: "2147483648"
+shedColour #ff0000	(255,0,0,255,-65536)
+shedColour #FF00FF80	(0,255,128,255,-16711808)
+shedColour #80ff00ff	(255,0,255,128,-2130771713)
+shedColour #fff	!java.lang.IllegalStateException: Hexcolor #fff needs to be exactly 6 or 8 hex digits long
+shedColour #1234567	!java.lang.IllegalStateException: Hexcolor #1234567 needs to be exactly 6 or 8 hex digits long
+shedColour #	!java.lang.NumberFormatException: For input string: "" under radix 16
+shedColour #zzzzzz	!java.lang.NumberFormatException: For input string: "zzzzzz" under radix 16
+shedColour 123	(0,0,123,0,123)
+shedColour -1	(255,255,255,255,-1)
+shedColour 0	(0,0,0,0,0)
+shedColour 4294967295	!java.lang.NumberFormatException: For input string: "4294967295"
+shedColour -16777216	(0,0,0,255,-16777216)
+shedColour abc	!java.lang.NumberFormatException: For input string: "abc"
+shedColour 	!java.lang.NumberFormatException: For input string: ""
+shedColour #00000000	(0,0,0,0,0)
+shedColour #ffffffff	(255,255,255,255,-1)
+shedColour  12	!java.lang.NumberFormatException: For input string: " 12"
+shedColour #+12345	(1,35,69,255,-16702651)
+shedColour #-12345	(254,220,187,255,-74565)
+shedColour 2147483647	(255,255,255,127,2147483647)
+shedColour 2147483648	!java.lang.NumberFormatException: For input string: "2147483648"
+colourFuzz #5	!java.lang.IllegalStateException: Hexcolor #5 needs to be exactly 6 or 8 hex digits long
+colourFuzz a	!java.lang.NumberFormatException: For input string: "a"
+colourFuzz b--x	!java.lang.NumberFormatException: For input string: "b--x"
+colourFuzz #eB2	!java.lang.IllegalStateException: Hexcolor #eB2 needs to be exactly 6 or 8 hex digits long
+colourFuzz #A2xgd-f	!java.lang.NumberFormatException: For input string: "A2xgd-f" under radix 16
+colourFuzz #8De0C1Ax	!java.lang.NumberFormatException: For input string: "8De0C1Ax" under radix 16
+colourFuzz fA1F0	!java.lang.NumberFormatException: For input string: "fA1F0"
+colourFuzz B	!java.lang.NumberFormatException: For input string: "B"
+colourFuzz c5f8b-FE	!java.lang.NumberFormatException: For input string: "c5f8b-FE"
+colourFuzz F3cbg7314	!java.lang.NumberFormatException: For input string: "F3cbg7314"
+colourFuzz #0A	!java.lang.IllegalStateException: Hexcolor #0A needs to be exactly 6 or 8 hex digits long
+colourFuzz #92155fa	!java.lang.IllegalStateException: Hexcolor #92155fa needs to be exactly 6 or 8 hex digits long
+colourFuzz #f54b0aE	!java.lang.IllegalStateException: Hexcolor #f54b0aE needs to be exactly 6 or 8 hex digits long
+colourFuzz #	!java.lang.NumberFormatException: For input string: "" under radix 16
+colourFuzz #12	!java.lang.IllegalStateException: Hexcolor #12 needs to be exactly 6 or 8 hex digits long
+colourFuzz acda	!java.lang.NumberFormatException: For input string: "acda"
+colourFuzz 08E	!java.lang.NumberFormatException: For input string: "08E"
+colourFuzz #2ECB65-c6	!java.lang.NumberFormatException: For input string: "2ECB65-c6" under radix 16
+colourFuzz 72c3	!java.lang.NumberFormatException: For input string: "72c3"
+colourFuzz #af07CD4	!java.lang.IllegalStateException: Hexcolor #af07CD4 needs to be exactly 6 or 8 hex digits long
+colourFuzz #F-234eF-3	!java.lang.NumberFormatException: For input string: "F-234eF-3" under radix 16
+colourFuzz D7Dbd	!java.lang.NumberFormatException: For input string: "D7Dbd"
+colourFuzz #4D	!java.lang.IllegalStateException: Hexcolor #4D needs to be exactly 6 or 8 hex digits long
+colourFuzz #2	!java.lang.IllegalStateException: Hexcolor #2 needs to be exactly 6 or 8 hex digits long
+colourFuzz 3F1	!java.lang.NumberFormatException: For input string: "3F1"
+colourFuzz 4eE1F936	!java.lang.NumberFormatException: For input string: "4eE1F936"
+colourFuzz 0cE3336A8	!java.lang.NumberFormatException: For input string: "0cE3336A8"
+colourFuzz #a36E1g4	!java.lang.NumberFormatException: For input string: "a36E1g4" under radix 16
+colourFuzz Abc-CDEc6	!java.lang.NumberFormatException: For input string: "Abc-CDEc6"
+colourFuzz #54	!java.lang.IllegalStateException: Hexcolor #54 needs to be exactly 6 or 8 hex digits long
+colourFuzz --96Bg9	!java.lang.NumberFormatException: For input string: "--96Bg9"
+colourFuzz dbFE-BCF	!java.lang.NumberFormatException: For input string: "dbFE-BCF"
+colourFuzz #9fg8A4	!java.lang.NumberFormatException: For input string: "9fg8A4" under radix 16
+colourFuzz 66g49c	!java.lang.NumberFormatException: For input string: "66g49c"
+colourFuzz #30e7Cce	!java.lang.IllegalStateException: Hexcolor #30e7Cce needs to be exactly 6 or 8 hex digits long
+colourFuzz 44x	!java.lang.NumberFormatException: For input string: "44x"
+colourFuzz #8E6	!java.lang.IllegalStateException: Hexcolor #8E6 needs to be exactly 6 or 8 hex digits long
+colourFuzz DEg69-5-	!java.lang.NumberFormatException: For input string: "DEg69-5-"
+colourFuzz #-A99	!java.lang.IllegalStateException: Hexcolor #-A99 needs to be exactly 6 or 8 hex digits long
+colourFuzz bg	!java.lang.NumberFormatException: For input string: "bg"
+colourFuzz #Ff9CF	!java.lang.IllegalStateException: Hexcolor #Ff9CF needs to be exactly 6 or 8 hex digits long
+colourFuzz #	!java.lang.NumberFormatException: For input string: "" under radix 16
+colourFuzz eD-FxA7	!java.lang.NumberFormatException: For input string: "eD-FxA7"
+colourFuzz #1dBEAaeE	499034862
+colourFuzz 	!java.lang.NumberFormatException: For input string: ""
+colourFuzz 3763e9	!java.lang.NumberFormatException: For input string: "3763e9"
+colourFuzz #Ead2ffDB	-355270693
+colourFuzz #d3Ef5Ad	!java.lang.IllegalStateException: Hexcolor #d3Ef5Ad needs to be exactly 6 or 8 hex digits long
+colourFuzz #	!java.lang.NumberFormatException: For input string: "" under radix 16
+colourFuzz #A0x83dF0	!java.lang.NumberFormatException: For input string: "A0x83dF0" under radix 16
+colourFuzz #e844	!java.lang.IllegalStateException: Hexcolor #e844 needs to be exactly 6 or 8 hex digits long
+colourFuzz #xDB	!java.lang.NumberFormatException: For input string: "xDB" under radix 16
+colourFuzz #	!java.lang.NumberFormatException: For input string: "" under radix 16
+colourFuzz #eCeC	!java.lang.IllegalStateException: Hexcolor #eCeC needs to be exactly 6 or 8 hex digits long
+colourFuzz 25D2b4	!java.lang.NumberFormatException: For input string: "25D2b4"
+colourFuzz 7bb0A5Dg	!java.lang.NumberFormatException: For input string: "7bb0A5Dg"
+colourFuzz #xggAdA4e	!java.lang.NumberFormatException: For input string: "xggAdA4e" under radix 16
+colourFuzz 5618x	!java.lang.NumberFormatException: For input string: "5618x"
+colourFuzz 2aC	!java.lang.NumberFormatException: For input string: "2aC"
+colourFuzz #50AAc	!java.lang.IllegalStateException: Hexcolor #50AAc needs to be exactly 6 or 8 hex digits long
+colourFuzz #Ba-45b	!java.lang.NumberFormatException: For input string: "Ba-45b" under radix 16
+colourFuzz #444F	!java.lang.IllegalStateException: Hexcolor #444F needs to be exactly 6 or 8 hex digits long
+colourFuzz 1704Cb438	!java.lang.NumberFormatException: For input string: "1704Cb438"
+colourFuzz #ddAx--0E8	!java.lang.NumberFormatException: For input string: "ddAx--0E8" under radix 16
+colourFuzz #2BEbx	!java.lang.NumberFormatException: For input string: "2BEbx" under radix 16
+colourFuzz 9	9
+colourFuzz 822gdCC	!java.lang.NumberFormatException: For input string: "822gdCC"
+colourFuzz #D1-	!java.lang.NumberFormatException: For input string: "D1-" under radix 16
+colourFuzz #	!java.lang.NumberFormatException: For input string: "" under radix 16
+colourFuzz e9F-CF	!java.lang.NumberFormatException: For input string: "e9F-CF"
+colourFuzz d7b17	!java.lang.NumberFormatException: For input string: "d7b17"
+colourFuzz -F4a6EB44	!java.lang.NumberFormatException: For input string: "-F4a6EB44"
+colourFuzz 8C55	!java.lang.NumberFormatException: For input string: "8C55"
+colourFuzz Dd	!java.lang.NumberFormatException: For input string: "Dd"
+colourFuzz D-	!java.lang.NumberFormatException: For input string: "D-"
+colourFuzz #3C99	!java.lang.IllegalStateException: Hexcolor #3C99 needs to be exactly 6 or 8 hex digits long
+colourFuzz #	!java.lang.NumberFormatException: For input string: "" under radix 16
+colourFuzz 	!java.lang.NumberFormatException: For input string: ""
+colourFuzz #	!java.lang.NumberFormatException: For input string: "" under radix 16
+colourFuzz #e42x9	!java.lang.NumberFormatException: For input string: "e42x9" under radix 16
+colourFuzz b	!java.lang.NumberFormatException: For input string: "b"
+colourFuzz #	!java.lang.NumberFormatException: For input string: "" under radix 16
+colourFuzz #2B	!java.lang.IllegalStateException: Hexcolor #2B needs to be exactly 6 or 8 hex digits long
+colourFuzz f	!java.lang.NumberFormatException: For input string: "f"
+colourFuzz Ad6ba	!java.lang.NumberFormatException: For input string: "Ad6ba"
+colourFuzz #FF4BxE633	!java.lang.NumberFormatException: For input string: "FF4BxE633" under radix 16
+colourFuzz 40b6C	!java.lang.NumberFormatException: For input string: "40b6C"
+colourFuzz #	!java.lang.NumberFormatException: For input string: "" under radix 16
+colourFuzz C0e91g8BA	!java.lang.NumberFormatException: For input string: "C0e91g8BA"
+colourFuzz 8fcC2DA0x	!java.lang.NumberFormatException: For input string: "8fcC2DA0x"
+colourFuzz -EDg96	!java.lang.NumberFormatException: For input string: "-EDg96"
+colourFuzz A315-0D5	!java.lang.NumberFormatException: For input string: "A315-0D5"
+colourFuzz #4Bcgx1	!java.lang.NumberFormatException: For input string: "4Bcgx1" under radix 16
+colourFuzz #D0Bed3A	!java.lang.IllegalStateException: Hexcolor #D0Bed3A needs to be exactly 6 or 8 hex digits long
+colourFuzz 2-b	!java.lang.NumberFormatException: For input string: "2-b"
+colourFuzz #AgD09Cgx-	!java.lang.NumberFormatException: For input string: "AgD09Cgx-" under radix 16
+colourFuzz #F51eA	!java.lang.IllegalStateException: Hexcolor #F51eA needs to be exactly 6 or 8 hex digits long
+colourFuzz Aba1x7	!java.lang.NumberFormatException: For input string: "Aba1x7"
+colourFuzz #5ex7Dgae	!java.lang.NumberFormatException: For input string: "5ex7Dgae" under radix 16
+colourFuzz 	!java.lang.NumberFormatException: For input string: ""
+colourFuzz c66	!java.lang.NumberFormatException: For input string: "c66"
+colourFuzz 0f	!java.lang.NumberFormatException: For input string: "0f"
+colourFuzz #B	!java.lang.IllegalStateException: Hexcolor #B needs to be exactly 6 or 8 hex digits long
+colourFuzz c--cA-	!java.lang.NumberFormatException: For input string: "c--cA-"
+colourFuzz AaBcB	!java.lang.NumberFormatException: For input string: "AaBcB"
+colourFuzz x8	!java.lang.NumberFormatException: For input string: "x8"
+colourFuzz 	!java.lang.NumberFormatException: For input string: ""
+colourFuzz #B	!java.lang.IllegalStateException: Hexcolor #B needs to be exactly 6 or 8 hex digits long
+colourFuzz #Fgfxc22	!java.lang.NumberFormatException: For input string: "Fgfxc22" under radix 16
+colourFuzz #bB9	!java.lang.IllegalStateException: Hexcolor #bB9 needs to be exactly 6 or 8 hex digits long
+colourFuzz 90cxDxe	!java.lang.NumberFormatException: For input string: "90cxDxe"
+colourFuzz fd53	!java.lang.NumberFormatException: For input string: "fd53"
+colourFuzz A5e	!java.lang.NumberFormatException: For input string: "A5e"
+colourFuzz 6	6
+colourFuzz 	!java.lang.NumberFormatException: For input string: ""
+colourFuzz bfa469512	!java.lang.NumberFormatException: For input string: "bfa469512"
+colourFuzz #DD2a49ECC	!java.lang.NumberFormatException: For input string: "DD2a49ECC" under radix 16
+colourFuzz 37F6AxfF0	!java.lang.NumberFormatException: For input string: "37F6AxfF0"
+colourFuzz #aF	!java.lang.IllegalStateException: Hexcolor #aF needs to be exactly 6 or 8 hex digits long
+colourFuzz #gdA9CF7Fc	!java.lang.NumberFormatException: For input string: "gdA9CF7Fc" under radix 16
+colourFuzz #BFA7g	!java.lang.NumberFormatException: For input string: "BFA7g" under radix 16
+colourFuzz #6cF44	!java.lang.IllegalStateException: Hexcolor #6cF44 needs to be exactly 6 or 8 hex digits long
+colourFuzz 4xb9aF	!java.lang.NumberFormatException: For input string: "4xb9aF"
+colourFuzz #	!java.lang.NumberFormatException: For input string: "" under radix 16
+colourFuzz b0x7AA0	!java.lang.NumberFormatException: For input string: "b0x7AA0"
+colourFuzz c5xe	!java.lang.NumberFormatException: For input string: "c5xe"
+colourFuzz g	!java.lang.NumberFormatException: For input string: "g"
+colourFuzz 6BE8-E	!java.lang.NumberFormatException: For input string: "6BE8-E"
+colourFuzz #AgA	!java.lang.NumberFormatException: For input string: "AgA" under radix 16
+colourFuzz exaEAFaa0	!java.lang.NumberFormatException: For input string: "exaEAFaa0"
+colourFuzz B1-2Bfga	!java.lang.NumberFormatException: For input string: "B1-2Bfga"
+colourFuzz dx0eE54b	!java.lang.NumberFormatException: For input string: "dx0eE54b"
+colourFuzz 3-4-B1	!java.lang.NumberFormatException: For input string: "3-4-B1"
+colourFuzz F1F	!java.lang.NumberFormatException: For input string: "F1F"
+colourFuzz 10DBAx	!java.lang.NumberFormatException: For input string: "10DBAx"
+colourFuzz #g6g0	!java.lang.NumberFormatException: For input string: "g6g0" under radix 16
+colourFuzz #ACA7F2	-5462030
+colourFuzz -e8EC	!java.lang.NumberFormatException: For input string: "-e8EC"
+colourFuzz #Cbf-Ddfx9	!java.lang.NumberFormatException: For input string: "Cbf-Ddfx9" under radix 16
+colourFuzz #435Cb0B	!java.lang.IllegalStateException: Hexcolor #435Cb0B needs to be exactly 6 or 8 hex digits long
+colourFuzz #77C248	-8928696
+colourFuzz F36c31	!java.lang.NumberFormatException: For input string: "F36c31"
+colourFuzz f0	!java.lang.NumberFormatException: For input string: "f0"
+colourFuzz A6AEb7cb	!java.lang.NumberFormatException: For input string: "A6AEb7cb"
+colourFuzz #3BfFe4Ab	1006625963
+colourFuzz -c5Agc	!java.lang.NumberFormatException: For input string: "-c5Agc"
+colourFuzz #d3d	!java.lang.IllegalStateException: Hexcolor #d3d needs to be exactly 6 or 8 hex digits long
+colourFuzz #3cx65E8da	!java.lang.NumberFormatException: For input string: "3cx65E8da" under radix 16
+colourFuzz #BDecBB	-4330309
+colourFuzz 	!java.lang.NumberFormatException: For input string: ""
+colourFuzz 218c5ax	!java.lang.NumberFormatException: For input string: "218c5ax"
+colourFuzz AF2D77be6	!java.lang.NumberFormatException: For input string: "AF2D77be6"
+colourFuzz F0f7FD9b9	!java.lang.NumberFormatException: For input string: "F0f7FD9b9"
+colourFuzz #e73dD7	-1622569
+colourFuzz #D86	!java.lang.IllegalStateException: Hexcolor #D86 needs to be exactly 6 or 8 hex digits long
+colourFuzz gf	!java.lang.NumberFormatException: For input string: "gf"
+colourFuzz #A8c74-DBB	!java.lang.NumberFormatException: For input string: "A8c74-DBB" under radix 16
+colourFuzz 2A	!java.lang.NumberFormatException: For input string: "2A"
+colourFuzz 0dcgDx29a	!java.lang.NumberFormatException: For input string: "0dcgDx29a"
+colourFuzz 17bd77--D	!java.lang.NumberFormatException: For input string: "17bd77--D"
+colourFuzz #fa27D3	-383021
+colourFuzz #3	!java.lang.IllegalStateException: Hexcolor #3 needs to be exactly 6 or 8 hex digits long
+colourFuzz x-e10aCb4	!java.lang.NumberFormatException: For input string: "x-e10aCb4"
+colourFuzz #Fde0	!java.lang.IllegalStateException: Hexcolor #Fde0 needs to be exactly 6 or 8 hex digits long
+colourFuzz #5FbF	!java.lang.IllegalStateException: Hexcolor #5FbF needs to be exactly 6 or 8 hex digits long
+colourFuzz #89-0beb1	!java.lang.NumberFormatException: For input string: "89-0beb1" under radix 16
+colourFuzz #Fg5f6Ce8	!java.lang.NumberFormatException: For input string: "Fg5f6Ce8" under radix 16
+colourFuzz #cB	!java.lang.IllegalStateException: Hexcolor #cB needs to be exactly 6 or 8 hex digits long
+colourFuzz #A-	!java.lang.NumberFormatException: For input string: "A-" under radix 16
+colourFuzz 0	0
+colourFuzz #xc0g6	!java.lang.NumberFormatException: For input string: "xc0g6" under radix 16
+colourFuzz D2-F7134	!java.lang.NumberFormatException: For input string: "D2-F7134"
+colourFuzz #Aegg	!java.lang.NumberFormatException: For input string: "Aegg" under radix 16
+colourFuzz #BEABFC1	!java.lang.IllegalStateException: Hexcolor #BEABFC1 needs to be exactly 6 or 8 hex digits long
+colourFuzz 3	3
+colourFuzz De9xeE	!java.lang.NumberFormatException: For input string: "De9xeE"
+colourFuzz #6773	!java.lang.IllegalStateException: Hexcolor #6773 needs to be exactly 6 or 8 hex digits long
+colourFuzz #a564	!java.lang.IllegalStateException: Hexcolor #a564 needs to be exactly 6 or 8 hex digits long
+colourFuzz e88Dg58f	!java.lang.NumberFormatException: For input string: "e88Dg58f"
+colourFuzz afbg674	!java.lang.NumberFormatException: For input string: "afbg674"
+colourFuzz #81gFFA5f	!java.lang.NumberFormatException: For input string: "81gFFA5f" under radix 16
+colourFuzz e86d	!java.lang.NumberFormatException: For input string: "e86d"
+colourFuzz a4cA	!java.lang.NumberFormatException: For input string: "a4cA"
+colourFuzz #7DdDEAx	!java.lang.NumberFormatException: For input string: "7DdDEAx" under radix 16
+colourFuzz 8a15d3B33	!java.lang.NumberFormatException: For input string: "8a15d3B33"
+colourFuzz f	!java.lang.NumberFormatException: For input string: "f"
+colourFuzz #3xc-B	!java.lang.NumberFormatException: For input string: "3xc-B" under radix 16
+colourFuzz #	!java.lang.NumberFormatException: For input string: "" under radix 16
+colourFuzz B00	!java.lang.NumberFormatException: For input string: "B00"
+colourFuzz 	!java.lang.NumberFormatException: For input string: ""
+colourFuzz BxC	!java.lang.NumberFormatException: For input string: "BxC"
+colourFuzz #A	!java.lang.IllegalStateException: Hexcolor #A needs to be exactly 6 or 8 hex digits long
+colourFuzz #F15axe	!java.lang.NumberFormatException: For input string: "F15axe" under radix 16
+colourFuzz #054e9A	-16429414
+colourFuzz F6g35	!java.lang.NumberFormatException: For input string: "F6g35"
+colourFuzz #BAFdbdDd9	!java.lang.NumberFormatException: For input string: "BAFdbdDd9" under radix 16
+colourFuzz #e1cF7D	-1978499
+colourFuzz 	!java.lang.NumberFormatException: For input string: ""
+colourFuzz 67gA	!java.lang.NumberFormatException: For input string: "67gA"
+colourFuzz #-ABdADfDE	!java.lang.NumberFormatException: For input string: "-ABdADfDE" under radix 16
+warpData	{"excludedWarps":["a","b"]}

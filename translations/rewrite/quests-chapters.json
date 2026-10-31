@@ -1,0 +1,17 @@
+{
+	"apex.config.custom-menu-quests-chapters": "Custom Menu: Quests & Chapters",
+	"apex.config.custom-menu-quests-chapters.accent": "Accent Colour",
+	"apex.config.custom-menu-quests-chapters.accent.description": "Highlight colour for active tabs and buttons in menus that use the shared theme.",
+	"apex.config.custom-menu-quests-chapters.height": "Height",
+	"apex.config.custom-menu-quests-chapters.height.description": "Menu height in pixels at 100 % scale (0 = the menu's default).",
+	"apex.config.custom-menu-quests-chapters.mode": "Menu",
+	"apex.config.custom-menu-quests-chapters.mode.choice.apex": "Apex",
+	"apex.config.custom-menu-quests-chapters.mode.choice.normal": "Normal",
+	"apex.config.custom-menu-quests-chapters.mode.description": "Apex: the Apex menu in front of Hypixel's chest. Normal: Hypixel's own chest.",
+	"apex.config.custom-menu-quests-chapters.reset": "Reset",
+	"apex.config.custom-menu-quests-chapters.reset.description": "Put this menu back to Apex with its default size, scale and colour.",
+	"apex.config.custom-menu-quests-chapters.scale": "Scale %",
+	"apex.config.custom-menu-quests-chapters.scale.description": "Menu size in percent; it never grows past the screen.",
+	"apex.config.custom-menu-quests-chapters.width": "Width",
+	"apex.config.custom-menu-quests-chapters.width.description": "Menu width in pixels at 100 % scale (0 = the menu's default)."
+}

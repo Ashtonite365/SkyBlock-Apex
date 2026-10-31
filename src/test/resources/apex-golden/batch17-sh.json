@@ -1,0 +1,3445 @@
+{
+  "cases": 860,
+  "data": [
+    {
+      "in": "sweepH|Sweep Details: 12∮ Sweep",
+      "out": "12"
+    },
+    {
+      "in": "sweepH|Sweep Details: 1,234.5∮ Sweep",
+      "out": "1,234.5"
+    },
+    {
+      "in": "sweepH|Sweep Details: 7 Sweep",
+      "out": "7"
+    },
+    {
+      "in": "sweepH|Sweep Details: 7xx Sweep",
+      "out": "null"
+    },
+    {
+      "in": "sweepH|Sweep Details: ∮ Sweep",
+      "out": "null"
+    },
+    {
+      "in": "sweepH| Sweep Details: 3∮ Sweep",
+      "out": "null"
+    },
+    {
+      "in": "sweepH|Sweep Details: 3∮ Sweep ",
+      "out": "null"
+    },
+    {
+      "in": "sweepH|sweep details: 3∮ Sweep",
+      "out": "null"
+    },
+    {
+      "in": "sweepH|Sweep Details: 3.0.0∮ Sweep",
+      "out": "3.0.0"
+    },
+    {
+      "in": "sweepH|",
+      "out": "null"
+    },
+    {
+      "in": "tough|  Fig Tree Toughness: 3.5 18.13 Logs",
+      "out": "(Fig, 18.13)"
+    },
+    {
+      "in": "tough| Mangrove Tree Toughness: 2 1,000 Logs",
+      "out": "(Mangrove, 1,000)"
+    },
+    {
+      "in": "tough|Fig Tree Toughness: 3.5 18.13 Logs",
+      "out": "null"
+    },
+    {
+      "in": "tough|  Big Fig Tree Toughness: 1 2 Logs",
+      "out": "(Big Fig, 2)"
+    },
+    {
+      "in": "tough|  Fig Tree Toughness: 3.5 Logs",
+      "out": "null"
+    },
+    {
+      "in": "tough|  Fig Tree Toughness: a 1 Logs",
+      "out": "null"
+    },
+    {
+      "in": "tough|\t Oak Tree Toughness: 1.0 2.0 Logs",
+      "out": "(Oak, 2.0)"
+    },
+    {
+      "in": "tough|  Tree Toughness: 1 2 Logs",
+      "out": "null"
+    },
+    {
+      "in": "sum|12|null|null",
+      "out": "§6Sweep: §212∮"
+    },
+    {
+      "in": "sum|12|Fig|null",
+      "out": "§6Sweep: §212∮ §7(Fig)"
+    },
+    {
+      "in": "sum|1,234.5|Fig|18.13",
+      "out": "§6Sweep: §21,234.5∮ §7(Fig, §a18.13 logs§7)"
+    },
+    {
+      "in": "sum|||",
+      "out": "§6Sweep: §2∮ §7(, §a logs§7)"
+    },
+    {
+      "in": "sum|x|null|5",
+      "out": "§6Sweep: §2x∮"
+    },
+    {
+      "in": "amt|0|[Booster Cookie x, Booster Cookie x, 99999999999999999999 Bits, Cookie x3]",
+      "out": "1"
+    },
+    {
+      "in": "bits|0|[Booster Cookie x, Booster Cookie x, 99999999999999999999 Bits, Cookie x3]",
+      "out": "null"
+    },
+    {
+      "in": "amt|1|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|1|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|2|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|2|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|3|[Amount: 99999999999x, Amount: 99999999999x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|3|[Amount: 99999999999x, Amount: 99999999999x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|4|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|4|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|5|[99999999999999999999 Bits, Amount: 99999999999x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|5|[99999999999999999999 Bits, Amount: 99999999999x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|6|[1,500 Bits!, 99999999999999999999 Bits, Bits, Amount:6x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|6|[1,500 Bits!, 99999999999999999999 Bits, Bits, Amount:6x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|7|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|7|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|8|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|8|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|9|[Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|9|[Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|10|[Amount: x,   Amount: 64x ]",
+      "out": "64"
+    },
+    {
+      "in": "bits|10|[Amount: x,   Amount: 64x ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|11|[Cookie x3, Booster Cookie x12 extra, Amount: 99999999999x]",
+      "out": "12"
+    },
+    {
+      "in": "bits|11|[Cookie x3, Booster Cookie x12 extra, Amount: 99999999999x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|12|[Amount: 0x, Amount: 6x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|12|[Amount: 0x, Amount: 6x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|13|[1500 bits, 1,500 Bits!,  2,000 Bits , Booster Cookie x12 extra]",
+      "out": "12"
+    },
+    {
+      "in": "bits|13|[1500 bits, 1,500 Bits!,  2,000 Bits , Booster Cookie x12 extra]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|14|[0 Bits, Amount: -1x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|14|[0 Bits, Amount: -1x]",
+      "out": "0"
+    },
+    {
+      "in": "amt|15|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|15|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|16|[1,500 Bits, ,,, Bits,  2,000 Bits , Amount: 6x]",
+      "out": "6"
+    },
+    {
+      "in": "bits|16|[1,500 Bits, ,,, Bits,  2,000 Bits , Amount: 6x]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|17|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|17|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|18|[99999999999999999999 Bits,   Amount: 64x , 1,500 Bits!]",
+      "out": "64"
+    },
+    {
+      "in": "bits|18|[99999999999999999999 Bits,   Amount: 64x , 1,500 Bits!]",
+      "out": "null"
+    },
+    {
+      "in": "amt|19|[99999999999999999999 Bits,   Amount: 64x , Booster Cookie x12 extra]",
+      "out": "64"
+    },
+    {
+      "in": "bits|19|[99999999999999999999 Bits,   Amount: 64x , Booster Cookie x12 extra]",
+      "out": "null"
+    },
+    {
+      "in": "amt|20|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|20|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|21|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|21|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|22|[Amount: -1x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|22|[Amount: -1x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|23|[1500 bits, Amount: 99999999999x, ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|23|[1500 bits, Amount: 99999999999x, ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|24|[1,500 Bits, Booster Cookie x12 extra, Cookie x3, Booster Cookie x12 extra]",
+      "out": "12"
+    },
+    {
+      "in": "bits|24|[1,500 Bits, Booster Cookie x12 extra, Cookie x3, Booster Cookie x12 extra]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|25|[1500 bits, 1500 bits, Cost, ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|25|[1500 bits, 1500 bits, Cost, ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|26|[Amount:6x, Booster Cookie x6]",
+      "out": "6"
+    },
+    {
+      "in": "bits|26|[Amount:6x, Booster Cookie x6]",
+      "out": "null"
+    },
+    {
+      "in": "amt|27|[0 Bits, Amount: 99999999999x, Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|27|[0 Bits, Amount: 99999999999x, Bits]",
+      "out": "0"
+    },
+    {
+      "in": "amt|28|[Bits, 1,500 Bits!, Cost]",
+      "out": "1"
+    },
+    {
+      "in": "bits|28|[Bits, 1,500 Bits!, Cost]",
+      "out": "null"
+    },
+    {
+      "in": "amt|29|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|29|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|30|[Booster Cookie x6, 1,500 Bits]",
+      "out": "6"
+    },
+    {
+      "in": "bits|30|[Booster Cookie x6, 1,500 Bits]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|31|[99999999999999999999 Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|31|[99999999999999999999 Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|32|[Booster Cookie x, Amount: -1x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|32|[Booster Cookie x, Amount: -1x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|33|[Amount: -1x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|33|[Amount: -1x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|34|[Amount:6x, Amount: 0x, Booster Cookie x, 1,500 Bits!]",
+      "out": "0"
+    },
+    {
+      "in": "bits|34|[Amount:6x, Amount: 0x, Booster Cookie x, 1,500 Bits!]",
+      "out": "null"
+    },
+    {
+      "in": "amt|35|[Booster Cookie x6]",
+      "out": "6"
+    },
+    {
+      "in": "bits|35|[Booster Cookie x6]",
+      "out": "null"
+    },
+    {
+      "in": "amt|36|[Amount:6x, 99999999999999999999 Bits, Amount: 6x, 99999999999999999999 Bits]",
+      "out": "6"
+    },
+    {
+      "in": "bits|36|[Amount:6x, 99999999999999999999 Bits, Amount: 6x, 99999999999999999999 Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|37|[Cookie x3, 0 Bits, Cookie x3]",
+      "out": "1"
+    },
+    {
+      "in": "bits|37|[Cookie x3, 0 Bits, Cookie x3]",
+      "out": "0"
+    },
+    {
+      "in": "amt|38|[ 2,000 Bits ,  2,000 Bits , Amount: 6x]",
+      "out": "6"
+    },
+    {
+      "in": "bits|38|[ 2,000 Bits ,  2,000 Bits , Amount: 6x]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|39|[Cookie x3, ,,, Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|39|[Cookie x3, ,,, Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|40|[  Amount: 64x , 0 Bits, 1500 bits, Bits]",
+      "out": "64"
+    },
+    {
+      "in": "bits|40|[  Amount: 64x , 0 Bits, 1500 bits, Bits]",
+      "out": "0"
+    },
+    {
+      "in": "amt|41|[Amount: 6x, ]",
+      "out": "6"
+    },
+    {
+      "in": "bits|41|[Amount: 6x, ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|42|[Booster Cookie x6, 1,500 Bits, Amount: 6x]",
+      "out": "6"
+    },
+    {
+      "in": "bits|42|[Booster Cookie x6, 1,500 Bits, Amount: 6x]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|43|[Amount: x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|43|[Amount: x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|44|[99999999999999999999 Bits,  2,000 Bits ,  2,000 Bits ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|44|[99999999999999999999 Bits,  2,000 Bits ,  2,000 Bits ]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|45|[1,500 Bits!, Cookie x3]",
+      "out": "1"
+    },
+    {
+      "in": "bits|45|[1,500 Bits!, Cookie x3]",
+      "out": "null"
+    },
+    {
+      "in": "amt|46|[Amount: x, Amount:6x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|46|[Amount: x, Amount:6x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|47|[Booster Cookie x6, Amount: -1x, Amount: -1x]",
+      "out": "6"
+    },
+    {
+      "in": "bits|47|[Booster Cookie x6, Amount: -1x, Amount: -1x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|48|[Amount: 6x, Booster Cookie x6, 0 Bits]",
+      "out": "6"
+    },
+    {
+      "in": "bits|48|[Amount: 6x, Booster Cookie x6, 0 Bits]",
+      "out": "0"
+    },
+    {
+      "in": "amt|49|[Amount: 0x, 1,500 Bits!, 1,500 Bits!]",
+      "out": "0"
+    },
+    {
+      "in": "bits|49|[Amount: 0x, 1,500 Bits!, 1,500 Bits!]",
+      "out": "null"
+    },
+    {
+      "in": "amt|50|[Amount: x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|50|[Amount: x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|51|[Amount: x, Cookie x3]",
+      "out": "1"
+    },
+    {
+      "in": "bits|51|[Amount: x, Cookie x3]",
+      "out": "null"
+    },
+    {
+      "in": "amt|52|[Bits, Cost, 1,500 Bits!,  2,000 Bits ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|52|[Bits, Cost, 1,500 Bits!,  2,000 Bits ]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|53|[  Amount: 64x ]",
+      "out": "64"
+    },
+    {
+      "in": "bits|53|[  Amount: 64x ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|54|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|54|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|55|[Booster Cookie x12 extra, 99999999999999999999 Bits]",
+      "out": "12"
+    },
+    {
+      "in": "bits|55|[Booster Cookie x12 extra, 99999999999999999999 Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|56|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|56|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|57|[Amount:6x, , Cookie x3, 1,500 Bits!]",
+      "out": "1"
+    },
+    {
+      "in": "bits|57|[Amount:6x, , Cookie x3, 1,500 Bits!]",
+      "out": "null"
+    },
+    {
+      "in": "amt|58|[Amount: 6x, Booster Cookie x,  2,000 Bits ]",
+      "out": "6"
+    },
+    {
+      "in": "bits|58|[Amount: 6x, Booster Cookie x,  2,000 Bits ]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|59|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|59|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|60|[Booster Cookie x12 extra]",
+      "out": "12"
+    },
+    {
+      "in": "bits|60|[Booster Cookie x12 extra]",
+      "out": "null"
+    },
+    {
+      "in": "amt|61|[Amount: 0x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|61|[Amount: 0x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|62|[1,500 Bits, Amount: 0x, Amount: x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|62|[1,500 Bits, Amount: 0x, Amount: x]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|63|[, 1,500 Bits!, Amount:6x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|63|[, 1,500 Bits!, Amount:6x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|64|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|64|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|65|[Amount: 0x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|65|[Amount: 0x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|66|[1500 bits, Amount: 0x, 99999999999999999999 Bits]",
+      "out": "0"
+    },
+    {
+      "in": "bits|66|[1500 bits, Amount: 0x, 99999999999999999999 Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|67|[ 2,000 Bits , ,,, Bits, ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|67|[ 2,000 Bits , ,,, Bits, ]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|68|[, Amount: -1x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|68|[, Amount: -1x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|69|[Amount: 0x, Amount: x, Amount: -1x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|69|[Amount: 0x, Amount: x, Amount: -1x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|70|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|70|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|71|[0 Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|71|[0 Bits]",
+      "out": "0"
+    },
+    {
+      "in": "amt|72|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|72|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|73|[Bits, ,,, Bits, Amount: 0x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|73|[Bits, ,,, Bits, Amount: 0x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|74|[Bits, ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|74|[Bits, ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|75|[Cost, 0 Bits, 1500 bits, Amount: 0x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|75|[Cost, 0 Bits, 1500 bits, Amount: 0x]",
+      "out": "0"
+    },
+    {
+      "in": "amt|76|[Amount:6x, Amount: 6x, Booster Cookie x12 extra,  2,000 Bits ]",
+      "out": "6"
+    },
+    {
+      "in": "bits|76|[Amount:6x, Amount: 6x, Booster Cookie x12 extra,  2,000 Bits ]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|77|[Cost, Booster Cookie x6]",
+      "out": "6"
+    },
+    {
+      "in": "bits|77|[Cost, Booster Cookie x6]",
+      "out": "null"
+    },
+    {
+      "in": "amt|78|[1,500 Bits!]",
+      "out": "1"
+    },
+    {
+      "in": "bits|78|[1,500 Bits!]",
+      "out": "null"
+    },
+    {
+      "in": "amt|79|[0 Bits, ,,, Bits,  2,000 Bits ,  2,000 Bits ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|79|[0 Bits, ,,, Bits,  2,000 Bits ,  2,000 Bits ]",
+      "out": "0"
+    },
+    {
+      "in": "amt|80|[ 2,000 Bits , 1500 bits, Bits, Booster Cookie x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|80|[ 2,000 Bits , 1500 bits, Bits, Booster Cookie x]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|81|[,,, Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|81|[,,, Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|82|[  Amount: 64x , Cookie x3,   Amount: 64x , 1,500 Bits]",
+      "out": "64"
+    },
+    {
+      "in": "bits|82|[  Amount: 64x , Cookie x3,   Amount: 64x , 1,500 Bits]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|83|[1,500 Bits, Booster Cookie x12 extra,   Amount: 64x ]",
+      "out": "12"
+    },
+    {
+      "in": "bits|83|[1,500 Bits, Booster Cookie x12 extra,   Amount: 64x ]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|84|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|84|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|85|[, ,,, Bits, Amount: 99999999999x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|85|[, ,,, Bits, Amount: 99999999999x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|86|[,  2,000 Bits ,   Amount: 64x , 1,500 Bits!]",
+      "out": "64"
+    },
+    {
+      "in": "bits|86|[,  2,000 Bits ,   Amount: 64x , 1,500 Bits!]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|87|[Amount: x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|87|[Amount: x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|88|[0 Bits, Amount: 99999999999x, ,  2,000 Bits ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|88|[0 Bits, Amount: 99999999999x, ,  2,000 Bits ]",
+      "out": "0"
+    },
+    {
+      "in": "amt|89|[Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|89|[Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|90|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|90|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|91|[Booster Cookie x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|91|[Booster Cookie x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|92|[Amount: 0x, Amount: 0x, Booster Cookie x, Amount:6x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|92|[Amount: 0x, Amount: 0x, Booster Cookie x, Amount:6x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|93|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|93|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|94|[Booster Cookie x, Amount: 0x, 99999999999999999999 Bits]",
+      "out": "0"
+    },
+    {
+      "in": "bits|94|[Booster Cookie x, Amount: 0x, 99999999999999999999 Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|95|[0 Bits, Booster Cookie x, Booster Cookie x12 extra]",
+      "out": "12"
+    },
+    {
+      "in": "bits|95|[0 Bits, Booster Cookie x, Booster Cookie x12 extra]",
+      "out": "0"
+    },
+    {
+      "in": "amt|96|[ 2,000 Bits ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|96|[ 2,000 Bits ]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|97|[Amount: 6x, ,,, Bits,   Amount: 64x ]",
+      "out": "6"
+    },
+    {
+      "in": "bits|97|[Amount: 6x, ,,, Bits,   Amount: 64x ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|98|[Amount: -1x, ,,, Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|98|[Amount: -1x, ,,, Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|99|[Amount: 99999999999x, 1,500 Bits,  2,000 Bits ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|99|[Amount: 99999999999x, 1,500 Bits,  2,000 Bits ]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|100|[Booster Cookie x12 extra, Cost, 1500 bits, 1,500 Bits]",
+      "out": "12"
+    },
+    {
+      "in": "bits|100|[Booster Cookie x12 extra, Cost, 1500 bits, 1,500 Bits]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|101|[1500 bits, 99999999999999999999 Bits, Cost]",
+      "out": "1"
+    },
+    {
+      "in": "bits|101|[1500 bits, 99999999999999999999 Bits, Cost]",
+      "out": "null"
+    },
+    {
+      "in": "amt|102|[Amount: 0x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|102|[Amount: 0x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|103|[Amount: -1x,   Amount: 64x ]",
+      "out": "64"
+    },
+    {
+      "in": "bits|103|[Amount: -1x,   Amount: 64x ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|104|[Booster Cookie x12 extra, Bits, ]",
+      "out": "12"
+    },
+    {
+      "in": "bits|104|[Booster Cookie x12 extra, Bits, ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|105|[Booster Cookie x, ,,, Bits, ,,, Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|105|[Booster Cookie x, ,,, Bits, ,,, Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|106|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|106|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|107|[Amount: x, Cookie x3, Amount: 99999999999x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|107|[Amount: x, Cookie x3, Amount: 99999999999x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|108|[Cost, Booster Cookie x12 extra, , 1,500 Bits]",
+      "out": "12"
+    },
+    {
+      "in": "bits|108|[Cost, Booster Cookie x12 extra, , 1,500 Bits]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|109|[Amount:6x, 0 Bits,   Amount: 64x ]",
+      "out": "64"
+    },
+    {
+      "in": "bits|109|[Amount:6x, 0 Bits,   Amount: 64x ]",
+      "out": "0"
+    },
+    {
+      "in": "amt|110|[Amount: -1x,   Amount: 64x , ]",
+      "out": "64"
+    },
+    {
+      "in": "bits|110|[Amount: -1x,   Amount: 64x , ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|111|[1,500 Bits, 99999999999999999999 Bits, 1,500 Bits!]",
+      "out": "1"
+    },
+    {
+      "in": "bits|111|[1,500 Bits, 99999999999999999999 Bits, 1,500 Bits!]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|112|[Booster Cookie x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|112|[Booster Cookie x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|113|[, 1,500 Bits, ,,, Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|113|[, 1,500 Bits, ,,, Bits]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|114|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|114|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|115|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|115|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|116|[1500 bits, 1,500 Bits!, ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|116|[1500 bits, 1,500 Bits!, ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|117|[Booster Cookie x6,  2,000 Bits , Amount: x, 1500 bits]",
+      "out": "6"
+    },
+    {
+      "in": "bits|117|[Booster Cookie x6,  2,000 Bits , Amount: x, 1500 bits]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|118|[Amount: 99999999999x, Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|118|[Amount: 99999999999x, Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|119|[Bits, 0 Bits, Cookie x3]",
+      "out": "1"
+    },
+    {
+      "in": "bits|119|[Bits, 0 Bits, Cookie x3]",
+      "out": "0"
+    },
+    {
+      "in": "amt|120|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|120|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|121|[Amount:6x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|121|[Amount:6x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|122|[Amount: 99999999999x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|122|[Amount: 99999999999x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|123|[0 Bits, Bits, , Booster Cookie x6]",
+      "out": "6"
+    },
+    {
+      "in": "bits|123|[0 Bits, Bits, , Booster Cookie x6]",
+      "out": "0"
+    },
+    {
+      "in": "amt|124|[1,500 Bits, 99999999999999999999 Bits, Cookie x3]",
+      "out": "1"
+    },
+    {
+      "in": "bits|124|[1,500 Bits, 99999999999999999999 Bits, Cookie x3]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|125|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|125|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|126|[Cookie x3, Amount:6x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|126|[Cookie x3, Amount:6x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|127|[,   Amount: 64x , 1500 bits]",
+      "out": "64"
+    },
+    {
+      "in": "bits|127|[,   Amount: 64x , 1500 bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|128|[  Amount: 64x ]",
+      "out": "64"
+    },
+    {
+      "in": "bits|128|[  Amount: 64x ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|129|[Booster Cookie x12 extra, Booster Cookie x6, Amount: 0x]",
+      "out": "12"
+    },
+    {
+      "in": "bits|129|[Booster Cookie x12 extra, Booster Cookie x6, Amount: 0x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|130|[1,500 Bits, Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|130|[1,500 Bits, Bits]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|131|[Amount: 99999999999x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|131|[Amount: 99999999999x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|132|[Amount: -1x, Amount: 0x, 1500 bits, Amount: 99999999999x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|132|[Amount: -1x, Amount: 0x, 1500 bits, Amount: 99999999999x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|133|[  Amount: 64x ]",
+      "out": "64"
+    },
+    {
+      "in": "bits|133|[  Amount: 64x ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|134|[99999999999999999999 Bits, 1,500 Bits!]",
+      "out": "1"
+    },
+    {
+      "in": "bits|134|[99999999999999999999 Bits, 1,500 Bits!]",
+      "out": "null"
+    },
+    {
+      "in": "amt|135|[1,500 Bits!, Booster Cookie x6, Amount: 99999999999x]",
+      "out": "6"
+    },
+    {
+      "in": "bits|135|[1,500 Bits!, Booster Cookie x6, Amount: 99999999999x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|136|[Cookie x3, ,,, Bits, Amount:6x, Amount: 0x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|136|[Cookie x3, ,,, Bits, Amount:6x, Amount: 0x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|137|[Booster Cookie x, Amount: x, Cost]",
+      "out": "1"
+    },
+    {
+      "in": "bits|137|[Booster Cookie x, Amount: x, Cost]",
+      "out": "null"
+    },
+    {
+      "in": "amt|138|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|138|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|139|[Amount: x, Booster Cookie x12 extra]",
+      "out": "12"
+    },
+    {
+      "in": "bits|139|[Amount: x, Booster Cookie x12 extra]",
+      "out": "null"
+    },
+    {
+      "in": "amt|140|[Cost,  2,000 Bits ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|140|[Cost,  2,000 Bits ]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|141|[Amount: 99999999999x, Amount: -1x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|141|[Amount: 99999999999x, Amount: -1x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|142|[99999999999999999999 Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|142|[99999999999999999999 Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|143|[Booster Cookie x6]",
+      "out": "6"
+    },
+    {
+      "in": "bits|143|[Booster Cookie x6]",
+      "out": "null"
+    },
+    {
+      "in": "amt|144|[Cost, 99999999999999999999 Bits, Cost]",
+      "out": "1"
+    },
+    {
+      "in": "bits|144|[Cost, 99999999999999999999 Bits, Cost]",
+      "out": "null"
+    },
+    {
+      "in": "amt|145|[1500 bits, 1,500 Bits!, Cookie x3, 99999999999999999999 Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|145|[1500 bits, 1,500 Bits!, Cookie x3, 99999999999999999999 Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|146|[Cookie x3,  2,000 Bits , Amount:6x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|146|[Cookie x3,  2,000 Bits , Amount:6x]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|147|[0 Bits, Amount: 0x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|147|[0 Bits, Amount: 0x]",
+      "out": "0"
+    },
+    {
+      "in": "amt|148|[Amount:6x, Amount: x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|148|[Amount:6x, Amount: x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|149|[  Amount: 64x , 1,500 Bits, 1,500 Bits!, ]",
+      "out": "64"
+    },
+    {
+      "in": "bits|149|[  Amount: 64x , 1,500 Bits, 1,500 Bits!, ]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|150|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|150|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|151|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|151|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|152|[Booster Cookie x, Booster Cookie x12 extra]",
+      "out": "12"
+    },
+    {
+      "in": "bits|152|[Booster Cookie x, Booster Cookie x12 extra]",
+      "out": "null"
+    },
+    {
+      "in": "amt|153|[Amount:6x, Booster Cookie x, 1500 bits, Booster Cookie x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|153|[Amount:6x, Booster Cookie x, 1500 bits, Booster Cookie x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|154|[ 2,000 Bits , ,  2,000 Bits ,   Amount: 64x ]",
+      "out": "64"
+    },
+    {
+      "in": "bits|154|[ 2,000 Bits , ,  2,000 Bits ,   Amount: 64x ]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|155|[Amount: 0x,  2,000 Bits ]",
+      "out": "0"
+    },
+    {
+      "in": "bits|155|[Amount: 0x,  2,000 Bits ]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|156|[, ,,, Bits, Amount: -1x,  2,000 Bits ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|156|[, ,,, Bits, Amount: -1x,  2,000 Bits ]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|157|[Amount: 0x,   Amount: 64x , Amount: x, 1500 bits]",
+      "out": "0"
+    },
+    {
+      "in": "bits|157|[Amount: 0x,   Amount: 64x , Amount: x, 1500 bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|158|[0 Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|158|[0 Bits]",
+      "out": "0"
+    },
+    {
+      "in": "amt|159|[Amount: x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|159|[Amount: x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|160|[,,, Bits, Amount: 99999999999x, Booster Cookie x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|160|[,,, Bits, Amount: 99999999999x, Booster Cookie x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|161|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|161|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|162|[Amount: x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|162|[Amount: x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|163|[1,500 Bits, ,,, Bits, Booster Cookie x6]",
+      "out": "6"
+    },
+    {
+      "in": "bits|163|[1,500 Bits, ,,, Bits, Booster Cookie x6]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|164|[Booster Cookie x6, ,,, Bits]",
+      "out": "6"
+    },
+    {
+      "in": "bits|164|[Booster Cookie x6, ,,, Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|165|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|165|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|166|[Amount: 99999999999x, , Bits, Booster Cookie x6]",
+      "out": "6"
+    },
+    {
+      "in": "bits|166|[Amount: 99999999999x, , Bits, Booster Cookie x6]",
+      "out": "null"
+    },
+    {
+      "in": "amt|167|[Booster Cookie x, 99999999999999999999 Bits, Amount: 99999999999x, Amount: -1x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|167|[Booster Cookie x, 99999999999999999999 Bits, Amount: 99999999999x, Amount: -1x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|168|[, Bits, Amount: -1x, Amount: x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|168|[, Bits, Amount: -1x, Amount: x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|169|[,,, Bits, Booster Cookie x12 extra, 1500 bits]",
+      "out": "12"
+    },
+    {
+      "in": "bits|169|[,,, Bits, Booster Cookie x12 extra, 1500 bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|170|[1,500 Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|170|[1,500 Bits]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|171|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|171|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|172|[  Amount: 64x ]",
+      "out": "64"
+    },
+    {
+      "in": "bits|172|[  Amount: 64x ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|173|[Amount: x, Booster Cookie x12 extra, ]",
+      "out": "12"
+    },
+    {
+      "in": "bits|173|[Amount: x, Booster Cookie x12 extra, ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|174|[Booster Cookie x6, 1500 bits, 0 Bits, ]",
+      "out": "6"
+    },
+    {
+      "in": "bits|174|[Booster Cookie x6, 1500 bits, 0 Bits, ]",
+      "out": "0"
+    },
+    {
+      "in": "amt|175|[Amount: -1x, Booster Cookie x6, ]",
+      "out": "6"
+    },
+    {
+      "in": "bits|175|[Amount: -1x, Booster Cookie x6, ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|176|[Booster Cookie x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|176|[Booster Cookie x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|177|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|177|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|178|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|178|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|179|[Amount: -1x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|179|[Amount: -1x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|180|[Bits, Amount: 6x, ,   Amount: 64x ]",
+      "out": "6"
+    },
+    {
+      "in": "bits|180|[Bits, Amount: 6x, ,   Amount: 64x ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|181|[Amount: 6x]",
+      "out": "6"
+    },
+    {
+      "in": "bits|181|[Amount: 6x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|182|[Cost,  2,000 Bits , Bits, Cost]",
+      "out": "1"
+    },
+    {
+      "in": "bits|182|[Cost,  2,000 Bits , Bits, Cost]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|183|[Cookie x3, Cookie x3,  2,000 Bits ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|183|[Cookie x3, Cookie x3,  2,000 Bits ]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|184|[ 2,000 Bits , 1,500 Bits!, 1500 bits, Amount: x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|184|[ 2,000 Bits , 1,500 Bits!, 1500 bits, Amount: x]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|185|[Cost]",
+      "out": "1"
+    },
+    {
+      "in": "bits|185|[Cost]",
+      "out": "null"
+    },
+    {
+      "in": "amt|186|[Amount: x,  2,000 Bits , Amount: 0x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|186|[Amount: x,  2,000 Bits , Amount: 0x]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|187|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|187|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|188|[ 2,000 Bits , Booster Cookie x6, Bits]",
+      "out": "6"
+    },
+    {
+      "in": "bits|188|[ 2,000 Bits , Booster Cookie x6, Bits]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|189|[Amount: -1x, 1500 bits, Booster Cookie x, Amount: x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|189|[Amount: -1x, 1500 bits, Booster Cookie x, Amount: x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|190|[Booster Cookie x6, Booster Cookie x12 extra, Booster Cookie x12 extra]",
+      "out": "6"
+    },
+    {
+      "in": "bits|190|[Booster Cookie x6, Booster Cookie x12 extra, Booster Cookie x12 extra]",
+      "out": "null"
+    },
+    {
+      "in": "amt|191|[ 2,000 Bits ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|191|[ 2,000 Bits ]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|192|[Amount: 0x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|192|[Amount: 0x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|193|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|193|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|194|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|194|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|195|[Cost, Booster Cookie x, ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|195|[Cost, Booster Cookie x, ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|196|[Bits, Amount: 99999999999x, Cost, Cost]",
+      "out": "1"
+    },
+    {
+      "in": "bits|196|[Bits, Amount: 99999999999x, Cost, Cost]",
+      "out": "null"
+    },
+    {
+      "in": "amt|197|[Cookie x3, 1,500 Bits!, Cookie x3]",
+      "out": "1"
+    },
+    {
+      "in": "bits|197|[Cookie x3, 1,500 Bits!, Cookie x3]",
+      "out": "null"
+    },
+    {
+      "in": "amt|198|[Amount: 0x, Bits]",
+      "out": "0"
+    },
+    {
+      "in": "bits|198|[Amount: 0x, Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|199|[Amount: 6x, Booster Cookie x6, Booster Cookie x6]",
+      "out": "6"
+    },
+    {
+      "in": "bits|199|[Amount: 6x, Booster Cookie x6, Booster Cookie x6]",
+      "out": "null"
+    },
+    {
+      "in": "amt|200|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|200|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|201|[99999999999999999999 Bits,  2,000 Bits , 99999999999999999999 Bits, Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|201|[99999999999999999999 Bits,  2,000 Bits , 99999999999999999999 Bits, Bits]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|202|[Bits,   Amount: 64x , Booster Cookie x6]",
+      "out": "64"
+    },
+    {
+      "in": "bits|202|[Bits,   Amount: 64x , Booster Cookie x6]",
+      "out": "null"
+    },
+    {
+      "in": "amt|203|[Cookie x3, ]",
+      "out": "1"
+    },
+    {
+      "in": "bits|203|[Cookie x3, ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|204|[Booster Cookie x12 extra]",
+      "out": "12"
+    },
+    {
+      "in": "bits|204|[Booster Cookie x12 extra]",
+      "out": "null"
+    },
+    {
+      "in": "amt|205|[,,, Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|205|[,,, Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|206|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|206|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|207|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|207|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|208|[Cookie x3, Amount: 99999999999x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|208|[Cookie x3, Amount: 99999999999x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|209|[Amount:6x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|209|[Amount:6x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|210|[1,500 Bits!, Amount: 0x,  2,000 Bits , Booster Cookie x6]",
+      "out": "0"
+    },
+    {
+      "in": "bits|210|[1,500 Bits!, Amount: 0x,  2,000 Bits , Booster Cookie x6]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|211|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|211|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|212|[  Amount: 64x , Bits, 1,500 Bits!, Amount: -1x]",
+      "out": "64"
+    },
+    {
+      "in": "bits|212|[  Amount: 64x , Bits, 1,500 Bits!, Amount: -1x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|213|[Booster Cookie x12 extra, Amount: x, ,,, Bits, Amount: 99999999999x]",
+      "out": "12"
+    },
+    {
+      "in": "bits|213|[Booster Cookie x12 extra, Amount: x, ,,, Bits, Amount: 99999999999x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|214|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|214|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|215|[1,500 Bits!, ,,, Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|215|[1,500 Bits!, ,,, Bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|216|[99999999999999999999 Bits,   Amount: 64x , Amount: 0x]",
+      "out": "64"
+    },
+    {
+      "in": "bits|216|[99999999999999999999 Bits,   Amount: 64x , Amount: 0x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|217|[99999999999999999999 Bits,   Amount: 64x ]",
+      "out": "64"
+    },
+    {
+      "in": "bits|217|[99999999999999999999 Bits,   Amount: 64x ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|218|[Bits, 1,500 Bits!, Amount: 6x]",
+      "out": "6"
+    },
+    {
+      "in": "bits|218|[Bits, 1,500 Bits!, Amount: 6x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|219|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|219|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|220|[,,, Bits, 1,500 Bits!, Booster Cookie x6, Amount: -1x]",
+      "out": "6"
+    },
+    {
+      "in": "bits|220|[,,, Bits, 1,500 Bits!, Booster Cookie x6, Amount: -1x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|221|[ 2,000 Bits ,   Amount: 64x ]",
+      "out": "64"
+    },
+    {
+      "in": "bits|221|[ 2,000 Bits ,   Amount: 64x ]",
+      "out": "2000"
+    },
+    {
+      "in": "amt|222|[Cookie x3, Amount: x, Cost]",
+      "out": "1"
+    },
+    {
+      "in": "bits|222|[Cookie x3, Amount: x, Cost]",
+      "out": "null"
+    },
+    {
+      "in": "amt|223|[, Amount: 99999999999x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|223|[, Amount: 99999999999x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|224|[1,500 Bits!, Booster Cookie x6, Amount: 99999999999x]",
+      "out": "6"
+    },
+    {
+      "in": "bits|224|[1,500 Bits!, Booster Cookie x6, Amount: 99999999999x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|225|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|225|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|226|[Amount: -1x, Amount: -1x, Cookie x3]",
+      "out": "1"
+    },
+    {
+      "in": "bits|226|[Amount: -1x, Amount: -1x, Cookie x3]",
+      "out": "null"
+    },
+    {
+      "in": "amt|227|[1,500 Bits, Booster Cookie x]",
+      "out": "1"
+    },
+    {
+      "in": "bits|227|[1,500 Bits, Booster Cookie x]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|228|[Booster Cookie x12 extra, Cookie x3, 1,500 Bits!, 1,500 Bits]",
+      "out": "12"
+    },
+    {
+      "in": "bits|228|[Booster Cookie x12 extra, Cookie x3, 1,500 Bits!, 1,500 Bits]",
+      "out": "1500"
+    },
+    {
+      "in": "amt|229|[Amount: 6x, 1500 bits]",
+      "out": "6"
+    },
+    {
+      "in": "bits|229|[Amount: 6x, 1500 bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|230|[0 Bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|230|[0 Bits]",
+      "out": "0"
+    },
+    {
+      "in": "amt|231|[0 Bits, Booster Cookie x6, 0 Bits]",
+      "out": "6"
+    },
+    {
+      "in": "bits|231|[0 Bits, Booster Cookie x6, 0 Bits]",
+      "out": "0"
+    },
+    {
+      "in": "amt|232|[  Amount: 64x ]",
+      "out": "64"
+    },
+    {
+      "in": "bits|232|[  Amount: 64x ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|233|[Amount:6x, Booster Cookie x6, Amount: -1x]",
+      "out": "6"
+    },
+    {
+      "in": "bits|233|[Amount:6x, Booster Cookie x6, Amount: -1x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|234|[Booster Cookie x6]",
+      "out": "6"
+    },
+    {
+      "in": "bits|234|[Booster Cookie x6]",
+      "out": "null"
+    },
+    {
+      "in": "amt|235|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|235|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|236|[Amount: 0x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|236|[Amount: 0x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|237|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|237|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|238|[Booster Cookie x12 extra]",
+      "out": "12"
+    },
+    {
+      "in": "bits|238|[Booster Cookie x12 extra]",
+      "out": "null"
+    },
+    {
+      "in": "amt|239|[]",
+      "out": "1"
+    },
+    {
+      "in": "bits|239|[]",
+      "out": "null"
+    },
+    {
+      "in": "amt|240|[Booster Cookie x6]",
+      "out": "6"
+    },
+    {
+      "in": "bits|240|[Booster Cookie x6]",
+      "out": "null"
+    },
+    {
+      "in": "amt|241|[1,500 Bits!]",
+      "out": "1"
+    },
+    {
+      "in": "bits|241|[1,500 Bits!]",
+      "out": "null"
+    },
+    {
+      "in": "amt|242|[1500 bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|242|[1500 bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|243|[Amount: 99999999999x, Amount: -1x, Amount:6x, Cost]",
+      "out": "1"
+    },
+    {
+      "in": "bits|243|[Amount: 99999999999x, Amount: -1x, Amount:6x, Cost]",
+      "out": "null"
+    },
+    {
+      "in": "amt|244|[Cost, 0 Bits, Amount: x, 1,500 Bits!]",
+      "out": "1"
+    },
+    {
+      "in": "bits|244|[Cost, 0 Bits, Amount: x, 1,500 Bits!]",
+      "out": "0"
+    },
+    {
+      "in": "amt|245|[Amount: -1x, Amount: 0x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|245|[Amount: -1x, Amount: 0x]",
+      "out": "null"
+    },
+    {
+      "in": "amt|246|[99999999999999999999 Bits, 0 Bits, Booster Cookie x6, Amount: -1x]",
+      "out": "6"
+    },
+    {
+      "in": "bits|246|[99999999999999999999 Bits, 0 Bits, Booster Cookie x6, Amount: -1x]",
+      "out": "0"
+    },
+    {
+      "in": "amt|247|[1500 bits]",
+      "out": "1"
+    },
+    {
+      "in": "bits|247|[1500 bits]",
+      "out": "null"
+    },
+    {
+      "in": "amt|248|[Cookie x3, Amount:6x,   Amount: 64x , ]",
+      "out": "64"
+    },
+    {
+      "in": "bits|248|[Cookie x3, Amount:6x,   Amount: 64x , ]",
+      "out": "null"
+    },
+    {
+      "in": "amt|249|[Amount: 0x]",
+      "out": "0"
+    },
+    {
+      "in": "bits|249|[Amount: 0x]",
+      "out": "null"
+    },
+    {
+      "in": "bpc|-5",
+      "out": "-2400.0"
+    },
+    {
+      "in": "bpc|0",
+      "out": "0.0"
+    },
+    {
+      "in": "bpc|1",
+      "out": "480.0"
+    },
+    {
+      "in": "bpc|10",
+      "out": "4800.0"
+    },
+    {
+      "in": "bpc|11",
+      "out": "5280.0"
+    },
+    {
+      "in": "bpc|15",
+      "out": "7200.0"
+    },
+    {
+      "in": "bpc|30",
+      "out": "14400.0"
+    },
+    {
+      "in": "bpc|35",
+      "out": "16800.0"
+    },
+    {
+      "in": "bpc|1000",
+      "out": "480000.0"
+    },
+    {
+      "in": "cpb|0.0|0.0",
+      "out": "null"
+    },
+    {
+      "in": "cpb|1.0|0.0",
+      "out": "null"
+    },
+    {
+      "in": "cpb|1.0|-1.0",
+      "out": "null"
+    },
+    {
+      "in": "cpb|100.0|3.0",
+      "out": "33.333333333333336"
+    },
+    {
+      "in": "cpb|5000000.0|4800.0",
+      "out": "1041.6666666666667"
+    },
+    {
+      "in": "cpb|NaN|1.0",
+      "out": "NaN"
+    },
+    {
+      "in": "cpb|1.0|NaN",
+      "out": "NaN"
+    },
+    {
+      "in": "cpb|1.0|4.9E-324",
+      "out": "Infinity"
+    },
+    {
+      "in": "cpb|-2.0|7.0",
+      "out": "-0.2857142857142857"
+    },
+    {
+      "in": "const",
+      "out": "4800 BOOSTER_COOKIE"
+    },
+    {
+      "in": "run|0|[NO CHESTS OPENED, Opened Chest: Bedrock, Opened Chest: Bedrock, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|1|[No chests opened yet!, Opened Chest: Bedrock]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|2|[, no more chests to open, no more chests to open,   Opened Chest: Obsidian]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|3|[no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|4|[Opened Chests: 2, No chests opened yet!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|5|[Opened Chests: 2,   Opened Chest: Obsidian, Floor VII]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|6|[opened chest: x, no more chests to open, ]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|7|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|8|[Opened Chest: Bedrock]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|9|[  Opened Chest: Obsidian, Opened Chest: Bedrock, Click to view]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|10|[No more Chests to open!, no more chests to open, Click to view, opened chest: x]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|11|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|12|[opened chest: x, Floor VII, No chests opened yet!, Opened Chest:]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|13|[Floor VII, opened chest: x]",
+      "out": "null"
+    },
+    {
+      "in": "run|14|[Opened Chest:, No chests opened yet!, Floor VII, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|15|[Floor VII, , Click to view, No chests opened yet!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|16|[No more Chests to open!]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|17|[opened chest: x, Opened Chest: Bedrock]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|18|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|19|[No more Chests to open!, Opened Chest: Bedrock, NO CHESTS OPENED]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|20|[Opened Chest: Bedrock, No chests opened yet!, Click to view, No more Chests to open!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|21|[No chests opened yet!, Floor VII, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|22|[No Chests Opened!, , no more chests to open, Opened Chest:]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|23|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|24|[No chests opened yet!, Opened Chest: Bedrock, No chests opened yet!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|25|[No more Chests to open!, NO CHESTS OPENED]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|26|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|27|[Click to view, No chests opened yet!, No more Chests to open!, opened chest: x]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|28|[No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|29|[No chests opened yet!, No chests opened yet!, Click to view, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|30|[Opened Chests: 2, opened chest: x,   Opened Chest: Obsidian, No more Chests to open!]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|31|[Click to view, Click to view]",
+      "out": "null"
+    },
+    {
+      "in": "run|32|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|33|[Opened Chests: 2]",
+      "out": "null"
+    },
+    {
+      "in": "run|34|[no more chests to open, No Chests Opened!, No Chests Opened!,   Opened Chest: Obsidian]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|35|[no more chests to open, Opened Chest:, , no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|36|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|37|[NO CHESTS OPENED,   Opened Chest: Obsidian, Opened Chests: 2,   Opened Chest: Obsidian]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|38|[NO CHESTS OPENED, Opened Chest:]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|39|[Opened Chest:]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|40|[No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|41|[no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|42|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|43|[No more Chests to open!, No chests opened yet!, Opened Chest: Bedrock]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|44|[, opened chest: x]",
+      "out": "null"
+    },
+    {
+      "in": "run|45|[Floor VII, No chests opened yet!, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|46|[no more chests to open, no more chests to open, ]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|47|[NO CHESTS OPENED, opened chest: x, Opened Chests: 2,   Opened Chest: Obsidian]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|48|[Click to view, Floor VII, Click to view,   Opened Chest: Obsidian]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|49|[No Chests Opened!,   Opened Chest: Obsidian, NO CHESTS OPENED, No chests opened yet!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|50|[Opened Chests: 2, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|51|[No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|52|[Opened Chests: 2]",
+      "out": "null"
+    },
+    {
+      "in": "run|53|[Opened Chests: 2, opened chest: x]",
+      "out": "null"
+    },
+    {
+      "in": "run|54|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|55|[opened chest: x, Opened Chest: Bedrock, NO CHESTS OPENED, Opened Chests: 2]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|56|[Opened Chest: Bedrock]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|57|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|58|[Opened Chest:,   Opened Chest: Obsidian]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|59|[NO CHESTS OPENED]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|60|[  Opened Chest: Obsidian, NO CHESTS OPENED, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|61|[NO CHESTS OPENED, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|62|[opened chest: x, Opened Chest: Bedrock]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|63|[Opened Chests: 2]",
+      "out": "null"
+    },
+    {
+      "in": "run|64|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|65|[, opened chest: x, No Chests Opened!, ]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|66|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|67|[NO CHESTS OPENED, no more chests to open, ]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|68|[No chests opened yet!, Opened Chest:]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|69|[opened chest: x]",
+      "out": "null"
+    },
+    {
+      "in": "run|70|[No chests opened yet!, no more chests to open, , NO CHESTS OPENED]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|71|[no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|72|[  Opened Chest: Obsidian, no more chests to open, Floor VII]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|73|[No more Chests to open!, Opened Chests: 2, opened chest: x, no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|74|[opened chest: x,   Opened Chest: Obsidian]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|75|[opened chest: x]",
+      "out": "null"
+    },
+    {
+      "in": "run|76|[no more chests to open, No more Chests to open!]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|77|[  Opened Chest: Obsidian, No Chests Opened!, Floor VII]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|78|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|79|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|80|[Opened Chest: Bedrock, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|81|[opened chest: x]",
+      "out": "null"
+    },
+    {
+      "in": "run|82|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|83|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|84|[NO CHESTS OPENED, No Chests Opened!, opened chest: x, Opened Chest:]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|85|[No chests opened yet!, No chests opened yet!, No Chests Opened!, Opened Chest:]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|86|[Opened Chests: 2]",
+      "out": "null"
+    },
+    {
+      "in": "run|87|[NO CHESTS OPENED]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|88|[Click to view]",
+      "out": "null"
+    },
+    {
+      "in": "run|89|[No chests opened yet!, opened chest: x, opened chest: x, No more Chests to open!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|90|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|91|[Opened Chest: Bedrock, Opened Chest: Bedrock]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|92|[, no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|93|[No more Chests to open!, Click to view]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|94|[opened chest: x]",
+      "out": "null"
+    },
+    {
+      "in": "run|95|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|96|[Opened Chest:, Opened Chest:, No more Chests to open!, No chests opened yet!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|97|[No Chests Opened!, No more Chests to open!, No Chests Opened!, Click to view]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|98|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|99|[Opened Chest: Bedrock]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|100|[, No Chests Opened!, Click to view, No chests opened yet!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|101|[No chests opened yet!, Opened Chest: Bedrock, , no more chests to open]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|102|[No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|103|[Floor VII, Floor VII, Click to view,   Opened Chest: Obsidian]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|104|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|105|[NO CHESTS OPENED, Click to view, No more Chests to open!, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|106|[no more chests to open, no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|107|[No chests opened yet!,   Opened Chest: Obsidian]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|108|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|109|[opened chest: x]",
+      "out": "null"
+    },
+    {
+      "in": "run|110|[NO CHESTS OPENED, , Opened Chest: Bedrock]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|111|[No more Chests to open!]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|112|[No more Chests to open!, NO CHESTS OPENED]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|113|[opened chest: x, No more Chests to open!, no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|114|[Floor VII, No more Chests to open!, Click to view, no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|115|[Opened Chest: Bedrock, NO CHESTS OPENED, No more Chests to open!, ]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|116|[Click to view, opened chest: x, Opened Chest:]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|117|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|118|[Floor VII]",
+      "out": "null"
+    },
+    {
+      "in": "run|119|[  Opened Chest: Obsidian, Floor VII, Opened Chests: 2, No more Chests to open!]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|120|[Opened Chests: 2]",
+      "out": "null"
+    },
+    {
+      "in": "run|121|[Click to view]",
+      "out": "null"
+    },
+    {
+      "in": "run|122|[NO CHESTS OPENED]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|123|[Click to view, No Chests Opened!, Floor VII, Floor VII]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|124|[No Chests Opened!, Opened Chest:, Floor VII]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|125|[No more Chests to open!, opened chest: x]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|126|[Floor VII, Click to view, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|127|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|128|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|129|[No chests opened yet!, no more chests to open,   Opened Chest: Obsidian, Click to view]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|130|[  Opened Chest: Obsidian]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|131|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|132|[no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|133|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|134|[Opened Chest: Bedrock]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|135|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|136|[Floor VII,   Opened Chest: Obsidian]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|137|[No Chests Opened!, opened chest: x]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|138|[Opened Chest: Bedrock, ,   Opened Chest: Obsidian]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|139|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|140|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|141|[No more Chests to open!, No more Chests to open!, Opened Chest: Bedrock, No more Chests to open!]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|142|[  Opened Chest: Obsidian, No chests opened yet!, No chests opened yet!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|143|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|144|[Floor VII, , No chests opened yet!, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|145|[No Chests Opened!, NO CHESTS OPENED, Opened Chest:, Opened Chests: 2]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|146|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|147|[no more chests to open, No Chests Opened!, Floor VII]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|148|[Floor VII, Opened Chest:, no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|149|[Opened Chests: 2, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|150|[Opened Chest: Bedrock]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|151|[Click to view, opened chest: x]",
+      "out": "null"
+    },
+    {
+      "in": "run|152|[Floor VII, Opened Chest:]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|153|[Opened Chests: 2, Opened Chests: 2, Opened Chest:,   Opened Chest: Obsidian]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|154|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|155|[Opened Chests: 2, Opened Chest: Bedrock, Click to view, No chests opened yet!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|156|[opened chest: x,   Opened Chest: Obsidian, NO CHESTS OPENED, no more chests to open]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|157|[No Chests Opened!, Click to view]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|158|[No more Chests to open!]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|159|[opened chest: x, NO CHESTS OPENED]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|160|[No chests opened yet!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|161|[no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|162|[Opened Chests: 2, Opened Chests: 2]",
+      "out": "null"
+    },
+    {
+      "in": "run|163|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|164|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|165|[No more Chests to open!, No more Chests to open!, ,   Opened Chest: Obsidian]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|166|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|167|[Opened Chest: Bedrock]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|168|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|169|[  Opened Chest: Obsidian, No chests opened yet!, Click to view]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|170|[, Opened Chest: Bedrock, No more Chests to open!]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|171|[Opened Chests: 2, opened chest: x]",
+      "out": "null"
+    },
+    {
+      "in": "run|172|[NO CHESTS OPENED]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|173|[Click to view, no more chests to open, , No chests opened yet!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|174|[Floor VII, Opened Chest: Bedrock]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|175|[no more chests to open, No chests opened yet!,   Opened Chest: Obsidian, opened chest: x]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|176|[No more Chests to open!, No more Chests to open!, ]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|177|[NO CHESTS OPENED, Opened Chests: 2]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|178|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|179|[No more Chests to open!, Click to view, no more chests to open, opened chest: x]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|180|[NO CHESTS OPENED, Click to view, No chests opened yet!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|181|[, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|182|[no more chests to open, Opened Chest:, Floor VII]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|183|[  Opened Chest: Obsidian, ]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|184|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|185|[No more Chests to open!, opened chest: x, Opened Chests: 2]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|186|[Floor VII]",
+      "out": "null"
+    },
+    {
+      "in": "run|187|[no more chests to open, opened chest: x, Opened Chest:, no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|188|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|189|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|190|[opened chest: x]",
+      "out": "null"
+    },
+    {
+      "in": "run|191|[Click to view, Opened Chest: Bedrock,   Opened Chest: Obsidian]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|192|[No Chests Opened!, no more chests to open]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|193|[No more Chests to open!, No chests opened yet!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|194|[NO CHESTS OPENED, Floor VII, opened chest: x]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|195|[opened chest: x]",
+      "out": "null"
+    },
+    {
+      "in": "run|196|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|197|[No chests opened yet!, Opened Chest:, Opened Chests: 2]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|198|[No more Chests to open!, Opened Chests: 2, Opened Chest: Bedrock]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|199|[NO CHESTS OPENED]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|200|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|201|[No chests opened yet!, no more chests to open, No chests opened yet!, Opened Chest:]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|202|[Opened Chests: 2, , Floor VII,   Opened Chest: Obsidian]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|203|[opened chest: x]",
+      "out": "null"
+    },
+    {
+      "in": "run|204|[Click to view, Opened Chest: Bedrock, No more Chests to open!, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|205|[, NO CHESTS OPENED, NO CHESTS OPENED, Opened Chests: 2]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|206|[Opened Chests: 2]",
+      "out": "null"
+    },
+    {
+      "in": "run|207|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|208|[Opened Chest:, No more Chests to open!, no more chests to open, No more Chests to open!]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|209|[No more Chests to open!, Click to view, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|210|[Floor VII, Opened Chest: Bedrock]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|211|[Click to view, Floor VII]",
+      "out": "null"
+    },
+    {
+      "in": "run|212|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|213|[no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|214|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|215|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|216|[Floor VII, No chests opened yet!, Floor VII, Click to view]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|217|[No more Chests to open!, No Chests Opened!, NO CHESTS OPENED, ]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|218|[Click to view, No chests opened yet!, opened chest: x]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|219|[  Opened Chest: Obsidian, No more Chests to open!]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|220|[No chests opened yet!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|221|[no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|222|[Opened Chest:, opened chest: x, No more Chests to open!, No more Chests to open!]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|223|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|224|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|225|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|226|[Floor VII]",
+      "out": "null"
+    },
+    {
+      "in": "run|227|[Opened Chest: Bedrock, Click to view,   Opened Chest: Obsidian, No more Chests to open!]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|228|[  Opened Chest: Obsidian, Floor VII, ]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|229|[opened chest: x]",
+      "out": "null"
+    },
+    {
+      "in": "run|230|[Opened Chest: Bedrock, Opened Chest: Bedrock, No Chests Opened!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|231|[, Opened Chests: 2,   Opened Chest: Obsidian, Opened Chest: Bedrock]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|232|[No more Chests to open!, Opened Chests: 2, No Chests Opened!, Floor VII]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|233|[, No more Chests to open!, opened chest: x]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|234|[  Opened Chest: Obsidian, Floor VII, opened chest: x, Opened Chest: Bedrock]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|235|[  Opened Chest: Obsidian, No chests opened yet!, No chests opened yet!, No more Chests to open!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|236|[no more chests to open, No Chests Opened!, NO CHESTS OPENED, Click to view]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|237|[Opened Chests: 2, ]",
+      "out": "null"
+    },
+    {
+      "in": "run|238|[]",
+      "out": "null"
+    },
+    {
+      "in": "run|239|[Opened Chest:]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|240|[No Chests Opened!, Opened Chest: Bedrock,   Opened Chest: Obsidian]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|241|[Opened Chest: Bedrock, Opened Chests: 2, No chests opened yet!]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "run|242|[opened chest: x, , no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|243|[Floor VII, opened chest: x, no more chests to open]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|244|[Click to view, Opened Chest: Bedrock]",
+      "out": "PARTIAL"
+    },
+    {
+      "in": "run|245|[opened chest: x, Floor VII]",
+      "out": "null"
+    },
+    {
+      "in": "run|246|[no more chests to open, opened chest: x, , Click to view]",
+      "out": "DONE"
+    },
+    {
+      "in": "run|247|[Opened Chests: 2]",
+      "out": "null"
+    },
+    {
+      "in": "run|248|[Opened Chests: 2, Opened Chests: 2, Opened Chests: 2]",
+      "out": "null"
+    },
+    {
+      "in": "run|249|[  Opened Chest: Obsidian, opened chest: x, No Chests Opened!, Opened Chest:]",
+      "out": "UNOPENED"
+    },
+    {
+      "in": "kismet|plain",
+      "out": "false"
+    },
+    {
+      "in": "kismet|struck",
+      "out": "true"
+    },
+    {
+      "in": "kismet|struckPart",
+      "out": "true"
+    },
+    {
+      "in": "kismet|struckOther",
+      "out": "false"
+    },
+    {
+      "in": "kismet|split",
+      "out": "false"
+    },
+    {
+      "in": "kismet|parentStrike",
+      "out": "true"
+    },
+    {
+      "in": "kismet|parentStrikeOff",
+      "out": "false"
+    },
+    {
+      "in": "kismet|fmt",
+      "out": "true"
+    },
+    {
+      "in": "kismet|lower",
+      "out": "false"
+    },
+    {
+      "in": "kismet|empty",
+      "out": "false"
+    },
+    {
+      "in": "kismet|nested",
+      "out": "true"
+    },
+    {
+      "in": "tex|0|null",
+      "out": "null"
+    },
+    {
+      "in": "tex|1|",
+      "out": "null"
+    },
+    {
+      "in": "tex|2|====",
+      "out": "null"
+    },
+    {
+      "in": "tex|3|!!!!",
+      "out": "null"
+    },
+    {
+      "in": "tex|4|abc",
+      "out": "null"
+    },
+    {
+      "in": "tex|5|abc=",
+      "out": "null"
+    },
+    {
+      "in": "tex|6|abc==",
+      "out": "null"
+    },
+    {
+      "in": "tex|7|a",
+      "out": "null"
+    },
+    {
+      "in": "tex|8|bm90aGluZyBoZXJl",
+      "out": "null"
+    },
+    {
+      "in": "tex|9|e30=",
+      "out": "null"
+    },
+    {
+      "in": "tex|10|eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvQUJDZGVmMDEyMyJ9fX0=",
+      "out": "abcdef0123"
+    },
+    {
+      "in": "tex|11|eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvIn19fQ==",
+      "out": "null"
+    },
+    {
+      "in": "tex|12|eyJ1cmwiOiJ0ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJmZno5In0=",
+      "out": "12ff"
+    },
+    {
+      "in": "tex|13|dGV4dHVyZXNYbWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FhIHRleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYg==",
+      "out": "bb"
+    },
+    {
+      "in": "tex|14|eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FiY0RFRjAxMjMifQ==",
+      "out": "abcdef0123"
+    },
+    {
+      "in": "tex|15|eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FiY0RFRjAxMjMifQ",
+      "out": "abcdef0123"
+    },
+    {
+      "in": "tex|16|eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FiY0RFRjAxMjMifQ====",
+      "out": "abcdef0123"
+    },
+    {
+      "in": "tex|17|eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FiY0RFRjAxMjMifQ=======",
+      "out": "abcdef0123"
+    },
+    {
+      "in": "tex|18|eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzAifQ==",
+      "out": "0"
+    },
+    {
+      "in": "tex|19|eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzAifQ",
+      "out": "0"
+    },
+    {
+      "in": "tex|20|eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzAifQ====",
+      "out": "0"
+    },
+    {
+      "in": "tex|21|eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzAifQ=======",
+      "out": "0"
+    },
+    {
+      "in": "tex|22|eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RlYWRiZWVmIn0=",
+      "out": "deadbeef"
+    },
+    {
+      "in": "tex|23|eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RlYWRiZWVmIn0",
+      "out": "deadbeef"
+    },
+    {
+      "in": "tex|24|eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RlYWRiZWVmIn0===",
+      "out": "deadbeef"
+    },
+    {
+      "in": "tex|25|eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RlYWRiZWVmIn0======",
+      "out": "deadbeef"
+    },
+    {
+      "in": "tex|26|w7/DviB0ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBmZmVl",
+      "out": "c0ffee"
+    },
+    {
+      "in": "tex|27|AAAA",
+      "out": "null"
+    },
+    {
+      "in": "tex|28|/+/+",
+      "out": "null"
+    },
+    {
+      "in": "tex|29|-_-_",
+      "out": "null"
+    },
+    {
+      "in": "skull|0",
+      "out": "null"
+    },
+    {
+      "in": "skull|1",
+      "out": "null"
+    },
+    {
+      "in": "skull|2",
+      "out": "null"
+    },
+    {
+      "in": "skull|3",
+      "out": "null"
+    },
+    {
+      "in": "skull|4",
+      "out": "null"
+    },
+    {
+      "in": "skull|5",
+      "out": "null"
+    },
+    {
+      "in": "skull|6",
+      "out": "abcdef0123"
+    },
+    {
+      "in": "skull|7",
+      "out": "null"
+    },
+    {
+      "in": "skull|8",
+      "out": "null"
+    },
+    {
+      "in": "skull|9",
+      "out": "null"
+    },
+    {
+      "in": "skull|10",
+      "out": "abcdef0123"
+    },
+    {
+      "in": "skull|11",
+      "out": "null"
+    },
+    {
+      "in": "vermin|VERMIN VACUUMED! You vacuumed a Silverfish!",
+      "out": "Silverfish"
+    },
+    {
+      "in": "vermin|VERMIN VACUUMED! You vacuumed an Spider!",
+      "out": "Spider"
+    },
+    {
+      "in": "vermin|VERMIN VACUUMED! You vacuumed a Fly!",
+      "out": "Fly"
+    },
+    {
+      "in": "vermin|VERMIN VACUUMED! You vacuumed a Bug!",
+      "out": "Fly"
+    },
+    {
+      "in": "vermin|VERMIN VACUUMED! You vacuumed a Giant Silverfish Spider!",
+      "out": "Silverfish"
+    },
+    {
+      "in": "vermin|VERMIN VACUUMED! You vacuumed a Ladybug!",
+      "out": "Ladybug"
+    },
+    {
+      "in": "vermin|VERMIN VACUUMED! You vacuumed a Firefly! +5 Motes",
+      "out": "Firefly"
+    },
+    {
+      "in": "vermin|VERMIN VACUUMED! You vacuumed a Rat!",
+      "out": "Rat"
+    },
+    {
+      "in": "vermin|VERMIN VACUUMED! You vacuumed a !",
+      "out": "null"
+    },
+    {
+      "in": "vermin|VERMIN VACUUMED! You vacuumed a Fly",
+      "out": "null"
+    },
+    {
+      "in": "vermin|vermin vacuumed! You vacuumed a Fly!",
+      "out": "null"
+    },
+    {
+      "in": "vermin|VERMIN VACUUMED! You vacuumed a fly!",
+      "out": "fly"
+    },
+    {
+      "in": "vermin|VERMIN VACUUMED! You vacuumed a Fly! Bug!",
+      "out": "Fly"
+    },
+    {
+      "in": "vermin|",
+      "out": "null"
+    },
+    {
+      "in": "vermin|You vacuumed a Fly!",
+      "out": "null"
+    }
+  ]
+}

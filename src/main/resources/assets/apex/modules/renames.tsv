@@ -1,0 +1,41 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Phase O migration 1005 (DESIGN.md 6.3, section 8): old_key<TAB>new_key. A key is a holder id or holder.option.
+# Holder names are the Q11 defaults (DECISIONS-coding-0355): descriptive Apex names, no collisions. Reversible.
+# The holders use the new ids in code (renames pass, 28 Oct); 1005 moves saved settings from the old ids.
+# Data holders (STORAGE folder) are renamed like settings holders. Chat filter ids (sh-frozen-treasure -> frozen-treasure,
+# sh-far-deaths -> far-deaths) were renamed in code too; they are never saved, so there is nothing for 1005 to move.
+sh-combat	combat-extras
+sh-dragon-profit	dragon-profit
+sh-dungeon	dungeon-tweaks
+sh-ender-node	ender-node-profit
+sh-fishing	fishing-extras
+sh-fishing-profit	fishing-profit
+sh-foraging	foraging-extras
+sh-foraging-profit	foraging-profit
+sh-hunting	hunting-extras
+sh-hunting-profit	hunting-profit
+sh-inventory	inventory-extras
+sh-lava-replacement	lava-replacement
+sh-misc	misc-tweaks
+sh-rift	rift-misc
+sh-rift-areas	rift-areas
+sh-rift-dance-room	rift-dance-room
+sh-rift-dreadfarm	rift-dreadfarm
+sh-rift-effigies	rift-effigies
+sh-rift-enigma-souls	rift-enigma-souls
+sh-rift-extras	rift-extras
+sh-rift-highlights	rift-mob-highlights
+sh-rift-living-cave	rift-living-cave
+sh-rift-motes	rift-motes
+sh-rift-parkour	rift-parkour
+sh-rift-puzzles	rift-puzzles
+sh-sea-creature-settings	sea-creature-settings
+sh-sea-creatures	sea-creature-extras
+sh-shard-checklist	shard-checklist
+sh-slayer	slayer-extras
+sh-slayer-profit	slayer-profit
+sh-stranded	stranded
+sh-thunder-sparks	thunder-sparks
+sh-todos	todos
+sh-trophy-fillet	trophy-fillet
+sh-trophy-fishing	trophy-fishing

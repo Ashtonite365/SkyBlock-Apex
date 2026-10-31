@@ -1,0 +1,493 @@
+TIME_PATTERN	[0-9]+[ms]
+SHORT_NUMBER_FORMAT	[0-9]+(?:,[0-9]+)*(?:\\.[0-9]+)?[kKmMbB]?
+siScalars	(k=1000.0,K=1000.0,m=1000000.0,M=1000000.0,b=1.0E9,B=1.0E9)
+ifMatches abc12	(abc12,abc,12)
+useMatch abc12	abc|12
+ifDropLast abc12	<null>
+ifDropLastEmpty abc12	<abc12>
+ifMatches abc	(abc,abc,)
+useMatch abc	abc|
+ifDropLast abc	<null>
+ifDropLastEmpty abc	<abc>
+ifMatches 12	<null>
+useMatch 12	<null>
+ifDropLast 12	<null>
+ifDropLastEmpty 12	<12>
+ifMatches 	<null>
+useMatch 	<null>
+ifDropLast 	<null>
+ifDropLastEmpty 	<>
+ifMatches ab c	<null>
+useMatch ab c	<null>
+ifDropLast ab c	<null>
+ifDropLastEmpty ab c	<ab c>
+ifMatches a1bbb	<null>
+useMatch a1bbb	<null>
+ifDropLast a1bbb	<null>
+ifDropLastEmpty a1bbb	<a1bbb>
+ifMatches  a 	<null>
+useMatch  a 	<null>
+ifDropLast  a 	<null>
+ifDropLastEmpty  a 	< a >
+ifMatches a a	<null>
+useMatch a a	<null>
+ifDropLast a a	<null>
+ifDropLastEmpty a a	<a a>
+ifMatches 1	<null>
+useMatch 1	<null>
+ifDropLast 1	<>
+ifDropLastEmpty 1	<1>
+ifMatches   ab	<null>
+useMatch   ab	<null>
+ifDropLast   ab	<null>
+ifDropLastEmpty   ab	<  ab>
+ifMatches  	<null>
+useMatch  	<null>
+ifDropLast  	<null>
+ifDropLastEmpty  	< >
+ifMatches  	<null>
+useMatch  	<null>
+ifDropLast  	<null>
+ifDropLastEmpty  	< >
+ifMatches baaa	(baaa,baaa,)
+useMatch baaa	baaa|
+ifDropLast baaa	<null>
+ifDropLastEmpty baaa	<baaa>
+ifMatches  11	<null>
+useMatch  11	<null>
+ifDropLast  11	< 1>
+ifDropLastEmpty  11	< 11>
+ifMatches 	<null>
+useMatch 	<null>
+ifDropLast 	<null>
+ifDropLastEmpty 	<>
+ifMatches  a	<null>
+useMatch  a	<null>
+ifDropLast  a	<null>
+ifDropLastEmpty  a	< a>
+ifMatches 	<null>
+useMatch 	<null>
+ifDropLast 	<null>
+ifDropLastEmpty 	<>
+ifMatches 1	<null>
+useMatch 1	<null>
+ifDropLast 1	<>
+ifDropLastEmpty 1	<1>
+ifMatches    	<null>
+useMatch    	<null>
+ifDropLast    	<null>
+ifDropLastEmpty    	<   >
+ifMatches a   	<null>
+useMatch a   	<null>
+ifDropLast a   	<null>
+ifDropLastEmpty a   	<a   >
+ifMatches 	<null>
+useMatch 	<null>
+ifDropLast 	<null>
+ifDropLastEmpty 	<>
+ifMatches  	<null>
+useMatch  	<null>
+ifDropLast  	<null>
+ifDropLastEmpty  	< >
+ifMatches b   b	<null>
+useMatch b   b	<null>
+ifDropLast b   b	<null>
+ifDropLastEmpty b   b	<b   b>
+ifMatches a	(a,a,)
+useMatch a	a|
+ifDropLast a	<null>
+ifDropLastEmpty a	<a>
+ifMatches bb	(bb,bb,)
+useMatch bb	bb|
+ifDropLast bb	<null>
+ifDropLastEmpty bb	<bb>
+ifMatches  	<null>
+useMatch  	<null>
+ifDropLast  	<null>
+ifDropLastEmpty  	< >
+ifMatches 	<null>
+useMatch 	<null>
+ifDropLast 	<null>
+ifDropLastEmpty 	<>
+ifMatches b 	<null>
+useMatch b 	<null>
+ifDropLast b 	<null>
+ifDropLastEmpty b 	<b >
+ifMatches b	(b,b,)
+useMatch b	b|
+ifDropLast b	<null>
+ifDropLastEmpty b	<b>
+ifMatches b 1b1	<null>
+useMatch b 1b1	<null>
+ifDropLast b 1b1	<b 1b>
+ifDropLastEmpty b 1b1	<b 1b1>
+ifMatches ab	(ab,ab,)
+useMatch ab	ab|
+ifDropLast ab	<null>
+ifDropLastEmpty ab	<ab>
+ifMatches 1a111	<null>
+useMatch 1a111	<null>
+ifDropLast 1a111	<1a11>
+ifDropLastEmpty 1a111	<1a111>
+ifMatches 	<null>
+useMatch 	<null>
+ifDropLast 	<null>
+ifDropLastEmpty 	<>
+ifMatches b	(b,b,)
+useMatch b	b|
+ifDropLast b	<null>
+ifDropLastEmpty b	<b>
+ifMatches  	<null>
+useMatch  	<null>
+ifDropLast  	<null>
+ifDropLastEmpty  	< >
+ifMatches 11bb	<null>
+useMatch 11bb	<null>
+ifDropLast 11bb	<null>
+ifDropLastEmpty 11bb	<11bb>
+ifMatches aa	(aa,aa,)
+useMatch aa	aa|
+ifDropLast aa	<null>
+ifDropLastEmpty aa	<aa>
+ifMatches baa	(baa,baa,)
+useMatch baa	baa|
+ifDropLast baa	<null>
+ifDropLastEmpty baa	<baa>
+ifMatches b1 bb	<null>
+useMatch b1 bb	<null>
+ifDropLast b1 bb	<null>
+ifDropLastEmpty b1 bb	<b1 bb>
+ifMatches 1a11b	<null>
+useMatch 1a11b	<null>
+ifDropLast 1a11b	<null>
+ifDropLastEmpty 1a11b	<1a11b>
+ifMatches a1a	<null>
+useMatch a1a	<null>
+ifDropLast a1a	<null>
+ifDropLastEmpty a1a	<a1a>
+ifMatches a1	(a1,a,1)
+useMatch a1	a|1
+ifDropLast a1	<a>
+ifDropLastEmpty a1	<a1>
+ifMatches bba	(bba,bba,)
+useMatch bba	bba|
+ifDropLast bba	<null>
+ifDropLastEmpty bba	<bba>
+ifMatches   bb	<null>
+useMatch   bb	<null>
+ifDropLast   bb	<null>
+ifDropLastEmpty   bb	<  bb>
+ifMatches 1 	<null>
+useMatch 1 	<null>
+ifDropLast 1 	<null>
+ifDropLastEmpty 1 	<1 >
+useMatchNull	<null>
+time 5m	5m
+time 0s	0s
+time 120s	2m
+time 7m	7m
+time 12	!java.lang.IllegalStateException: Invalid pattern for time 12
+time 3h	!java.lang.IllegalStateException: Invalid pattern for time 3h
+time m	!java.lang.NumberFormatException: For input string: ""
+time -4s	-4s
+time 10S	!java.lang.IllegalStateException: Invalid pattern for time 10S
+short 1.2k	D4092c00000000000/1200.0
+shortN 1.2k	D4092c00000000000/1200.0
+shortRe 1.2k	true
+timeRe 1.2k	false
+short 3M	D4146e36000000000/3000000.0
+shortN 3M	D4146e36000000000/3000000.0
+shortRe 3M	true
+timeRe 3M	false
+short 48§7 Mana	D4048000000000000/48.0
+shortN 48§7 Mana	D4048000000000000/48.0
+shortRe 48§7 Mana	false
+timeRe 48§7 Mana	false
+short 1,234	D4093480000000000/1234.0
+shortN 1,234	D4093480000000000/1234.0
+shortRe 1,234	true
+timeRe 1,234	false
+short -5	D-3fec000000000000/-5.0
+shortN -5	D-3fec000000000000/-5.0
+shortRe -5	false
+timeRe -5	false
+short +.5k	D407f400000000000/500.0
+shortN +.5k	D407f400000000000/500.0
+shortRe +.5k	false
+timeRe +.5k	false
+short abc	D0/0.0
+shortN abc	<null>
+shortRe abc	false
+timeRe abc	false
+short 	D0/0.0
+shortN 	<null>
+shortRe 	false
+timeRe 	false
+short 1.2.3	D3ff3333333333333/1.2
+shortN 1.2.3	D3ff3333333333333/1.2
+shortRe 1.2.3	false
+timeRe 1.2.3	false
+short 7b	D41fa13b860000000/7.0E9
+shortN 7b	D41fa13b860000000/7.0E9
+shortRe 7b	true
+timeRe 7b	false
+short §a12§r	D4028000000000000/12.0
+shortN §a12§r	D4028000000000000/12.0
+shortRe §a12§r	false
+timeRe §a12§r	false
+short 1,000,000.5	D412e848100000000/1000000.5
+shortN 1,000,000.5	D412e848100000000/1000000.5
+shortRe 1,000,000.5	true
+timeRe 1,000,000.5	false
+short 9B	D4200c388d0000000/9.0E9
+shortN 9B	D4200c388d0000000/9.0E9
+shortRe 9B	true
+timeRe 9B	false
+short .5	D3fe0000000000000/0.5
+shortN .5	D3fe0000000000000/0.5
+shortRe .5	false
+timeRe .5	false
+short 12x	D4028000000000000/12.0
+shortN 12x	D4028000000000000/12.0
+shortRe 12x	false
+timeRe 12x	false
+short +11-122	D4026000000000000/11.0
+shortN +11-122	D4026000000000000/11.0
+shortRe +11-122	false
+timeRe +11-122	false
+short  §12k	D409f400000000000/2000.0
+shortN  §12k	D409f400000000000/2000.0
+shortRe  §12k	false
+timeRe  §12k	false
+short  M0a§	D0/0.0
+shortN  M0a§	<null>
+shortRe  M0a§	false
+timeRe  M0a§	false
+short b32+0.1	D0/0.0
+shortN b32+0.1	<null>
+shortRe b32+0.1	false
+timeRe b32+0.1	false
+short 	D0/0.0
+shortN 	<null>
+shortRe 	false
+timeRe 	false
+short k102§§0	D0/0.0
+shortN k102§§0	<null>
+shortRe k102§§0	false
+timeRe k102§§0	false
+short a.-a§-	D0/0.0
+shortN a.-a§-	<null>
+shortRe a.-a§-	false
+timeRe a.-a§-	false
+short +,b 	D0/0.0
+shortN +,b 	<null>
+shortRe +,b 	false
+timeRe +,b 	false
+short 01 b§k+	D3ff0000000000000/1.0
+shortN 01 b§k+	D3ff0000000000000/1.0
+shortRe 01 b§k+	false
+timeRe 01 b§k+	false
+short -2M+2 	D-3ec17b8000000000/-2000000.0
+shortN -2M+2 	D-3ec17b8000000000/-2000000.0
+shortRe -2M+2 	false
+timeRe -2M+2 	false
+short §,	D0/0.0
+shortN §,	<null>
+shortRe §,	false
+timeRe §,	false
+short 2§1-	D4000000000000000/2.0
+shortN 2§1-	D4000000000000000/2.0
+shortRe 2§1-	false
+timeRe 2§1-	false
+short a0 bk	D0/0.0
+shortN a0 bk	<null>
+shortRe a0 bk	false
+timeRe a0 bk	false
+short  3§ M	D4146e36000000000/3000000.0
+shortN  3§ M	D4146e36000000000/3000000.0
+shortRe  3§ M	false
+timeRe  3§ M	false
+short b1+aakM	D0/0.0
+shortN b1+aakM	<null>
+shortRe b1+aakM	false
+timeRe b1+aakM	false
+short §	D0/0.0
+shortN §	<null>
+shortRe §	false
+timeRe §	false
+short ab,2b3	D0/0.0
+shortN ab,2b3	<null>
+shortRe ab,2b3	false
+timeRe ab,2b3	false
+short 3- 01	D4008000000000000/3.0
+shortN 3- 01	D4008000000000000/3.0
+shortRe 3- 01	false
+timeRe 3- 01	false
+short 	D0/0.0
+shortN 	<null>
+shortRe 	false
+timeRe 	false
+short 3-.+ 	D4008000000000000/3.0
+shortN 3-.+ 	D4008000000000000/3.0
+shortRe 3-.+ 	false
+timeRe 3-.+ 	false
+short M.a3	D0/0.0
+shortN M.a3	<null>
+shortRe M.a3	false
+timeRe M.a3	false
+short 0-akb-	D0/0.0
+shortN 0-akb-	D0/0.0
+shortRe 0-akb-	false
+timeRe 0-akb-	false
+short -3	D-3ff8000000000000/-3.0
+shortN -3	D-3ff8000000000000/-3.0
+shortRe -3	false
+timeRe -3	false
+short k1,§2b	D0/0.0
+shortN k1,§2b	<null>
+shortRe k1,§2b	false
+timeRe k1,§2b	false
+short 12+	D4028000000000000/12.0
+shortN 12+	D4028000000000000/12.0
+shortRe 12+	false
+timeRe 12+	false
+short 2 -	D4000000000000000/2.0
+shortN 2 -	D4000000000000000/2.0
+shortRe 2 -	false
+timeRe 2 -	false
+short 	D0/0.0
+shortN 	<null>
+shortRe 	false
+timeRe 	false
+short 	D0/0.0
+shortN 	<null>
+shortRe 	false
+timeRe 	false
+short 0	D0/0.0
+shortN 0	D0/0.0
+shortRe 0	true
+timeRe 0	false
+short k.03	D0/0.0
+shortN k.03	<null>
+shortRe k.03	false
+timeRe k.03	false
+short ka+	D0/0.0
+shortN ka+	<null>
+shortRe ka+	false
+timeRe ka+	false
+short a	D0/0.0
+shortN a	<null>
+shortRe a	false
+timeRe a	false
+short aM .a	D0/0.0
+shortN aM .a	<null>
+shortRe aM .a	false
+timeRe aM .a	false
+short §+M,k	D0/0.0
+shortN §+M,k	<null>
+shortRe §+M,k	false
+timeRe §+M,k	false
+short 1Mba. 	D412e848000000000/1000000.0
+shortN 1Mba. 	D412e848000000000/1000000.0
+shortRe 1Mba. 	false
+timeRe 1Mba. 	false
+short +.,b	D0/0.0
+shortN +.,b	<null>
+shortRe +.,b	false
+timeRe +.,b	false
+short 3,-0k+	D4008000000000000/3.0
+shortN 3,-0k+	D4008000000000000/3.0
+shortRe 3,-0k+	false
+timeRe 3,-0k+	false
+short k10	D0/0.0
+shortN k10	<null>
+shortRe k10	false
+timeRe k10	false
+short  1k	D408f400000000000/1000.0
+shortN  1k	D408f400000000000/1000.0
+shortRe  1k	false
+timeRe  1k	false
+short §M,--0	D0/0.0
+shortN §M,--0	<null>
+shortRe §M,--0	false
+timeRe §M,--0	false
+short -3	D-3ff8000000000000/-3.0
+shortN -3	D-3ff8000000000000/-3.0
+shortRe -3	false
+timeRe -3	false
+short 	D0/0.0
+shortN 	<null>
+shortRe 	false
+timeRe 	false
+short k	D0/0.0
+shortN k	<null>
+shortRe k	false
+timeRe k	false
+short 12,§k3k	D40fe078000000000/123000.0
+shortN 12,§k3k	D40fe078000000000/123000.0
+shortRe 12,§k3k	false
+timeRe 12,§k3k	false
+short -2,+-	D-4000000000000000/-2.0
+shortN -2,+-	D-4000000000000000/-2.0
+shortRe -2,+-	false
+timeRe -2,+-	false
+short  b01§M	D0/0.0
+shortN  b01§M	<null>
+shortRe  b01§M	false
+timeRe  b01§M	false
+short 3+a	D4008000000000000/3.0
+shortN 3+a	D4008000000000000/3.0
+shortRe 3+a	false
+timeRe 3+a	false
+short 	D0/0.0
+shortN 	<null>
+shortRe 	false
+timeRe 	false
+short MM	D0/0.0
+shortN MM	<null>
+shortRe MM	false
+timeRe MM	false
+short M11+k3+	D0/0.0
+shortN M11+k3+	<null>
+shortRe M11+k3+	false
+timeRe M11+k3+	false
+short M	D0/0.0
+shortN M	<null>
+shortRe M	false
+timeRe M	false
+short -§1a-	D0/0.0
+shortN -§1a-	<null>
+shortRe -§1a-	false
+timeRe -§1a-	false
+short ,0	D0/0.0
+shortN ,0	<null>
+shortRe ,0	false
+timeRe ,0	false
+short b3§§ 3a	D0/0.0
+shortN b3§§ 3a	<null>
+shortRe b3§§ 3a	false
+timeRe b3§§ 3a	false
+short -1,	D-4010000000000000/-1.0
+shortN -1,	D-4010000000000000/-1.0
+shortRe -1,	false
+timeRe -1,	false
+short 30	D403e000000000000/30.0
+shortN 30	D403e000000000000/30.0
+shortRe 30	true
+timeRe 30	false
+short +k0.	D0/0.0
+shortN +k0.	<null>
+shortRe +k0.	false
+timeRe +k0.	false
+short  	D0/0.0
+shortN  	<null>
+shortRe  	false
+timeRe  	false
+short k-k,	D0/0.0
+shortN k-k,	<null>
+shortRe k-k,	false
+timeRe k-k,	false
+short 	D0/0.0
+shortN 	<null>
+shortRe 	false
+timeRe 	false

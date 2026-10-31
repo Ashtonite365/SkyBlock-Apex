@@ -1,0 +1,24 @@
+regex https://[^. ]+\.[^ ]+(\.?(\s|$)) ext=[jpg, png, gif, jpeg]
+url [https://a.b] image=false entire=[https://a.b, , ] find=[https://a.b, , ]
+url [https://example.com/x.png] image=true entire=[https://example.com/x.png, , ] find=[https://example.com/x.png, , ]
+url [https://example.com/x.PNG] image=true entire=[https://example.com/x.PNG, , ] find=[https://example.com/x.PNG, , ]
+url [https://x.y/z.jpeg?q] image=false entire=[https://x.y/z.jpeg?q, , ] find=[https://x.y/z.jpeg?q, , ]
+url [https://x.y/z.gif.] image=false entire=[https://x.y/z.gif., , ] find=[https://x.y/z.gif., , ]
+url [https://x] image=false entire=null find=null
+url [http://a.b/c] image=false entire=null find=null
+url [https://a.b/c d] image=false entire=null find=[https://a.b/c ,  ,  ]
+url [https://a.b/c.webp] image=false entire=[https://a.b/c.webp, , ] find=[https://a.b/c.webp, , ]
+url [x.png] image=true entire=null find=null
+url [] image=false entire=null find=null
+chat "no links here" ok -> "no links here"
+chat "see https://example.org/page now" ok -> {"extra":["see https://example.org/page now"],"text":""}
+chat "two https://a.example/x and https://b.example/y." ok -> {"extra":["two https://a.example/x and https://b.example/y."],"text":""}
+chat "end https://example.org/pic.png" ok -> {"extra":["end ",{"click_event":{"action":"open_url","url":"https://example.org/pic.png"},"color":"aqua","hover_event":{"action":"show_text","value":"https://example.org/pic.png"},"text":"https://example.org/pic.png","underlined":true}],"text":""}
+chat "bad https://exa mple" ok -> {"extra":["bad https://exa mple"],"text":""}
+chat "weird https://ex^ample.org/%%% end" ok -> {"extra":["weird https://ex^ample.org/%%% end"],"text":""}
+chat "scheme ftp://example.org/ only" ok -> {"extra":["scheme ftp://example.org/ only"],"text":""}
+chat {"color":"red","extra":[{"bold":true,"text":"https://red.example/a b"}],"text":"styled "} ok -> {"color":"red","extra":[{"bold":true,"extra":["https://red.example/a b"],"text":""}],"text":"styled "}
+chat "https://start.example/ at start" ok -> {"extra":["https://start.example/ at start"],"text":""}
+chat "dot https://dot.example/a. next" ok -> {"extra":["dot https://dot.example/a. next"],"text":""}
+chat {"translate":"chat.type.text","with":["Name","go https://tr.example/q"]} ok -> {"translate":"chat.type.text","with":["Name",{"extra":["go ",{"click_event":{"action":"open_url","url":"https://tr.example/q"},"color":"aqua","hover_event":{"action":"show_text","value":"https://tr.example/q"},"text":"https://tr.example/q","underlined":true}],"text":""}]}
+cache []

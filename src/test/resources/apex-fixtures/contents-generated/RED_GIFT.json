@@ -1,0 +1,265 @@
+{
+	"box": "RED_GIFT",
+	"source": "https://hypixelskyblock.minecraft.wiki/w/Red_Gift",
+	"total_weight": null,
+	"drops": [
+		{
+			"type": "coins",
+			"min": 5000,
+			"max": 5000,
+			"weight": 400,
+			"chance": 0.1032
+		},
+		{
+			"type": "coins",
+			"min": 20000,
+			"max": 20000,
+			"weight": 750,
+			"chance": 0.1935
+		},
+		{
+			"type": "coins",
+			"min": 100000,
+			"max": 100000,
+			"weight": 20,
+			"chance": 0.0052
+		},
+		{
+			"type": "coins",
+			"min": 1000000,
+			"max": 1000000,
+			"weight": 1,
+			"chance": 0.0003
+		},
+		{
+			"type": "skill_xp",
+			"skill": null,
+			"min": 250,
+			"max": 250,
+			"note": "skill not specified on wiki",
+			"weight": 100,
+			"chance": 0.0258
+		},
+		{
+			"type": "skill_xp",
+			"skill": null,
+			"min": 500,
+			"max": 500,
+			"note": "skill not specified on wiki",
+			"weight": 1000,
+			"chance": 0.258
+		},
+		{
+			"type": "skill_xp",
+			"skill": null,
+			"min": 2500,
+			"max": 2500,
+			"note": "skill not specified on wiki",
+			"weight": 5,
+			"chance": 0.0013
+		},
+		{
+			"type": "item",
+			"id": null,
+			"min": 1,
+			"max": 1,
+			"note": "one random skill XP Boost potion of this tier (Farming XP Boost II Potion; Mining XP Boost II Potion; Combat XP Boost II Potion; Foraging XP Boost II Potion; Fishing XP Boost II Potion; Alchemy XP Boost II Potion; Enchanting XP Boost II Potion); potion ids are NBT variants, not repo items",
+			"weight": 125,
+			"chance": 0.0322
+		},
+		{
+			"type": "item",
+			"id": null,
+			"min": 1,
+			"max": 1,
+			"note": "one random skill XP Boost potion of this tier (Farming XP Boost III Potion; Mining XP Boost III Potion; Combat XP Boost III Potion; Foraging XP Boost III Potion; Fishing XP Boost III Potion; Alchemy XP Boost III Potion; Enchanting XP Boost III Potion); potion ids are NBT variants, not repo items",
+			"weight": 500,
+			"chance": 0.129
+		},
+		{
+			"type": "item",
+			"id": null,
+			"min": 1,
+			"max": 1,
+			"note": "Ice Rune I (no rune item ids in Apex repo)",
+			"weight": 400,
+			"chance": 0.1032
+		},
+		{
+			"type": "item",
+			"id": "LARGE_WINTER_SACK",
+			"min": 1,
+			"max": 1,
+			"weight": 70,
+			"chance": 0.0181
+		},
+		{
+			"type": "item",
+			"id": "SNOW_GENERATOR_1",
+			"min": 1,
+			"max": 1,
+			"weight": 65,
+			"chance": 0.0168
+		},
+		{
+			"type": "item",
+			"id": "NEW_BOTTLE_OF_JYRRE",
+			"min": 1,
+			"max": 1,
+			"weight": 60,
+			"chance": 0.0168
+		},
+		{
+			"type": "item",
+			"id": "BATTLE_DISC",
+			"min": 1,
+			"max": 1,
+			"weight": 60,
+			"chance": 0.0155
+		},
+		{
+			"type": "item",
+			"id": "WINTER_DISC",
+			"min": 1,
+			"max": 1,
+			"weight": 60,
+			"chance": 0.0155
+		},
+		{
+			"type": "item",
+			"id": "GINGERBREAD_PERSONALITY",
+			"min": 1,
+			"max": 1,
+			"weight": 25,
+			"chance": 0.0064
+		},
+		{
+			"type": "item",
+			"id": "GRINCH_PERSONALITY",
+			"min": 1,
+			"max": 1,
+			"weight": 25,
+			"chance": 0.0064
+		},
+		{
+			"type": "item",
+			"id": "SANTA_PERSONALITY",
+			"min": 1,
+			"max": 1,
+			"weight": 25,
+			"chance": 0.0064
+		},
+		{
+			"type": "item",
+			"id": "SNOW_SUIT_HELMET",
+			"min": 1,
+			"max": 1,
+			"weight": 25,
+			"chance": 0.0064
+		},
+		{
+			"type": "item",
+			"id": "SNOW_SUIT_CHESTPLATE",
+			"min": 1,
+			"max": 1,
+			"weight": 25,
+			"chance": 0.0064
+		},
+		{
+			"type": "item",
+			"id": "SNOW_SUIT_LEGGINGS",
+			"min": 1,
+			"max": 1,
+			"weight": 25,
+			"chance": 0.0064
+		},
+		{
+			"type": "item",
+			"id": "SNOW_SUIT_BOOTS",
+			"min": 1,
+			"max": 1,
+			"weight": 25,
+			"chance": 0.0064
+		},
+		{
+			"type": "item",
+			"id": "NUTCRACKER",
+			"min": 1,
+			"max": 1,
+			"weight": 20,
+			"chance": 0.0052
+		},
+		{
+			"type": "item",
+			"id": "PRESENTS",
+			"min": 1,
+			"max": 1,
+			"weight": 20,
+			"chance": 0.0052
+		},
+		{
+			"type": "item",
+			"id": "BIG_XTREE",
+			"min": 1,
+			"max": 1,
+			"weight": 20,
+			"chance": 0.0052
+		},
+		{
+			"type": "item",
+			"id": "GIFT_THE_FISH",
+			"min": 1,
+			"max": 1,
+			"weight": 6,
+			"chance": 0.0015
+		},
+		{
+			"type": "item",
+			"id": "GOLD_GIFT",
+			"min": 1,
+			"max": 1,
+			"weight": 5,
+			"chance": 0.0013
+		},
+		{
+			"type": "item",
+			"id": "KRAMPUS_HELMET",
+			"min": 1,
+			"max": 1,
+			"weight": 4,
+			"chance": 0.001
+		},
+		{
+			"type": "item",
+			"id": "CRYOPOWDER_SHARD",
+			"min": 1,
+			"max": 1,
+			"weight": 4,
+			"chance": 0.001
+		},
+		{
+			"type": "item",
+			"id": "WINTER_ISLAND",
+			"min": 1,
+			"max": 1,
+			"weight": 4,
+			"chance": 0.001
+		},
+		{
+			"type": "item",
+			"id": "SNOWMAN;4",
+			"min": 1,
+			"max": 1,
+			"weight": 2,
+			"chance": 0.0005
+		},
+		{
+			"type": "item",
+			"id": "DYE_HOLLY",
+			"min": 1,
+			"max": 1,
+			"weight": null,
+			"chance": 0.000125
+		}
+	]
+}

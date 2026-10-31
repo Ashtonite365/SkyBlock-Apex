@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns="http://notenoughupdates.org/moulconfig" xmlns:apex="http://apex.ashtonite365.dev/moulconfig">
+	<Column>
+		<Array data="@pigs">
+			<Row>
+				<Text text="Pig: "/>
+				<apex:Bar progress="@timeLeft" total="1" fillColor="#ffb6c1" emptyColor="#db7093"/>
+			</Row>
+		</Array>
+		<Text text="Profits:"/>
+		<Array data="@rewards">
+			<When condition="@isKnown">
+				<Row>
+					<Text text="@count"/>
+					<Text text="x "/>
+					<Text text="@name"/>
+				</Row>
+				<Row>
+					<Text text="Unknown reward: "/>
+					<Text text="@name"/>
+				</Row>
+			</When>
+		</Array>
+	</Column>
+</Root>

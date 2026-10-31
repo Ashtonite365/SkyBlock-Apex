@@ -1,0 +1,29 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Duplicate features collapsed by the settings migration (REWRITE_PLAN.md, Duplicates D1-D10).
+# old_keys(comma)<TAB>target new path<TAB>policy
+fishing-helper.golden-fish-timer,timers-overlay.show-golden-fish	timers.fishing.show-golden-fish	ANY_TRUE
+crimson-isle.miniboss-timers,timers-overlay.show-crimson-minibosses	timers.crimson-isle.show-crimson-minibosses	ANY_TRUE
+rift-helper.time-left,timers-overlay.show-rift-time	timers.rift.show-rift-time	ANY_TRUE
+treecapitator.enabled,timers-overlay.show-treecapitator	timers.cooldowns.show-treecapitator	ANY_TRUE
+mining-event-timers.enabled,timers-overlay.show-mining-event	timers.mining.show-mining-event	ANY_TRUE
+ability-cooldowns.enabled,timers-overlay.show-abilities	timers.cooldowns.ability-cooldowns.enabled	ANY_TRUE
+trevor.enabled,timers-overlay.show-trevor	farming.trevor.enabled	ANY_TRUE
+gap-extras.thunder-bottle,plus-misc.charge-bottle	misc.item-helpers.thunder-bottle	ANY_TRUE
+sea-creature-settings.highlight,fishing-helper.highlight-rare-creatures	fishing.sea-creatures.highlight-rare-creatures	ANY_TRUE
+diana.rare-mob-alert,gap-misc.inquisitor-alert	misc.diana.rare-mob-alert	ANY_TRUE
+# D12 (H2, Booster Cookie merge): the old CoreMiscTweaks warning is removed; its values move to Timers > Buffs.
+core-misc.cookie-warning,timers-overlay.cookie-warning	timers.buffs.cookie-warning	FIRST_SAVED
+core-misc.cookie-warning-minutes,timers-overlay.cookie-warning-minutes	timers.buffs.cookie-warning-minutes	FIRST_SAVED
+mining-event-timers.enabled,timers-overlay.show-sky-mall	timers.mining.show-sky-mall	ANY_TRUE
+puzzle-solvers.spirit-leap-keybinds,puzzle-solvers.leap-class-keybinds	dungeons.spirit-leap.spirit-leap-keybinds	ANY_TRUE
+# D15 (batch 3c): per-menu "<X> Apex Menus" stand-ins (custom-menu-anvil.apex-menus, custom-menu-brewing-stand.apex-menus,
+# custom-menu-city-project.section-city-projects, custom-menu-community.section-community-shop) duplicated the central
+# custom-menu-sections.<group> switch + the menu's own mode. Removed with no row here (a toggle cannot feed a choice):
+# a saved OFF becomes that menu's mode = NORMAL in MenuSettings.migrate (LegacyMenuSwitches); the section switch is untouched.
+# D16 (feat-museum-inventory): the Museum Milestones page's own "Inventory grid" panel option is merged into Museum
+# Inventory Access (Misc > Render), which now switches the live inventory panel on every Apex Museum page.
+museum-inventory.enabled,custom-menu-museum-milestones.panel-inventory	misc.museum-inventory.enabled	FIRST_SAVED
+# Added by scripts/settings_groups.py (settings regroup): legacy D13 keys feed the live options' rows
+fishing-helper.nearby-creatures-health,sea-creature-extras.health-display	fishing.sea-creatures.nearby-creatures-health	FIRST_SAVED
+fishing-helper.nearby-creatures-hud,sea-creature-extras.health-hud	fishing.sea-creatures.nearby-creatures-hud	FIRST_SAVED
+fishing-helper.nearby-creatures-limit,sea-creature-extras.health-limit	fishing.sea-creatures.nearby-creatures-limit	FIRST_SAVED

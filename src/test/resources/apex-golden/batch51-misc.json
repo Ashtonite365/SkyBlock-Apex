@@ -1,0 +1,4541 @@
+{
+  "cases": 1134,
+  "data": [
+    {
+      "in": "km|-2147483648",
+      "out": "-536870909000"
+    },
+    {
+      "in": "km|-1",
+      "out": "3250"
+    },
+    {
+      "in": "km|0",
+      "out": "3000"
+    },
+    {
+      "in": "km|1",
+      "out": "2750"
+    },
+    {
+      "in": "km|2",
+      "out": "2500"
+    },
+    {
+      "in": "km|11",
+      "out": "250"
+    },
+    {
+      "in": "km|12",
+      "out": "0"
+    },
+    {
+      "in": "km|13",
+      "out": "-250"
+    },
+    {
+      "in": "km|100",
+      "out": "-22000"
+    },
+    {
+      "in": "km|2147483647",
+      "out": "-536870908750"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "1"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "12"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|Get back in the arena or you will DIE!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "null"
+    },
+    {
+      "in": "kx| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!! ⚠!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!! ⚠",
+      "out": "7"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!!! ⚠!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!!!!! ⚠",
+      "out": "15"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!!! ⚠!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "1"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!! ⚠",
+      "out": "2"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!! ⚠",
+      "out": "11"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!! ⚠!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!! ⚠",
+      "out": "9"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE ⚠!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!!!!! ⚠",
+      "out": "15"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!! ⚠",
+      "out": "2"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!! ⚠!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!! ⚠!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "3"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!! ⚠",
+      "out": "11"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!! ⚠",
+      "out": "10"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "12"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "12"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!! ⚠",
+      "out": "11"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE ⚠!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!!!! ⚠",
+      "out": "14"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!⚠",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!!!! ⚠!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!! ⚠",
+      "out": "6"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "12"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE! ⚠!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!",
+      "out": "null"
+    },
+    {
+      "in": "kx|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "12"
+    },
+    {
+      "in": "shy",
+      "out": "[I'm ugly! :(, Eek!, Don't look at me!, Look away!]"
+    },
+    {
+      "in": "inrift|null|0",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|0|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|0|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|0|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|0|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|0|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|0|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|0|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|0| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|0|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|0",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|1",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|1|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|1|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|1|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|1|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|1|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|1|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|1|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|1| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|1|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|1",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|2",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|2|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|2|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|2|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|2|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|2|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|2|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|2|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|2| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|2|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|2",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|3",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|3|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|3|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|3|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|3|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|3|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|3|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|3|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|3| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|3|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|3",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|4",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|4|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|4|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|4|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|4|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|4|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|4|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|4|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|4| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|4|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|4",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|5",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|5|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|5|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|5|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|5|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|5|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|5|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|5|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|5| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|5|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|5",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|6",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|6|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|6|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|6|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|6|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|6|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|6|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|6|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|6| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|6|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|6",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|7",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|7|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|7|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|7|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|7|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|7|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|7|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|7|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|7| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|7|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|7",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|8",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|8|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|8|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|8|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|8|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|8|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|8|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|8|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|8| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|8|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|8",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|9",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|9|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|9|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|9|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|9|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|9|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|9|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|9|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|9| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|9|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|9",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|10",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|10|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|10|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|10|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|10|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|10|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|10|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|10|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|10| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|10|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|10",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|11",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|11|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|11|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|11|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|11|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|11|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|11|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|11|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|11| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|11|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|11",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|12",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|12|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|12|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|12|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|12|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|12|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|12|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|12|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|12| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|12|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|12",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|13",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|13|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|13|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|13|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|13|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|13|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|13|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|13|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|13| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|13|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|13",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|14",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|14|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|14|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|14|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|14|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|14|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|14|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|14|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|14| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|14|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|14",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|15",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|15|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|15|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|15|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|15|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|15|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|15|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|15|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|15| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|15|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|15",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|16",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|16|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|16|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|16|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|16|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|16|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|16|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|16|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|16| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|16|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|16",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|17",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|17|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|17|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|17|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|17|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|17|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|17|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|17|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|17| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|17|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|17",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|18",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|18|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|18|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|18|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|18|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|18|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|18|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|18|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|18| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|18|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|18",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|19",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|19|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|19|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|19|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|19|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|19|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|19|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|19|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|19| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|19|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|19",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|20",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|20|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|20|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|20|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|20|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|20|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|20|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|20|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|20| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|20|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|20",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|21",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|21|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|21|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|21|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|21|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|21|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|21|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|21|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|21| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|21|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|21",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|22",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|22|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|22|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|22|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|22|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|22|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|22|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|22|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|22| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|22|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|22",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|23",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|23|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|23|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|23|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|23|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|23|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|23|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|23|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|23| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|23|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|23",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|24",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|24|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|24|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|24|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|24|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|24|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|24|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|24|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|24| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|24|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|24",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|25",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|25|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|25|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|25|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|25|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|25|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|25|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|25|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|25| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|25|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|25",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|26",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|26|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|26|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|26|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|26|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|26|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|26|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|26|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|26| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|26|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|26",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|27",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|27|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|27|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|27|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|27|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|27|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|27|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|27|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|27| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|27|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|27",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|28",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|28|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|28|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|28|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|28|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|28|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|28|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|28|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|28| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|28|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|28",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|29",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|29|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|29|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|29|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|29|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|29|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|29|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|29|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|29| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|29|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|29",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|30",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|30|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|30|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|30|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|30|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|30|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|30|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|30|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|30| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|30|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|30",
+      "out": "false"
+    },
+    {
+      "in": "inrift|null|31",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|31|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|null|31|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|null|31|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|31|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|31|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|31|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|31|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|31| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|null|31|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|null|31",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|0",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|0|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|0|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|0|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|0|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|0|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|0|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|0|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|0| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|0|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|0",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|1",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|1|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|1|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|1|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|1|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|1|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|1|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|1|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|1| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|1|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|1",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|2",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|2|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|2|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|2|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|2|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|2|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|2|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|2|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|2| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|2|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|2",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|3",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|3|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|3|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|3|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|3|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|3|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|3|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|3|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|3| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|3|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|3",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|4",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|4|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|4|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|4|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|4|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|4|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|4|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|4|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|4| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|4|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|4",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|5",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|5|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|5|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|5|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|5|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|5|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|5|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|5|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|5| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|5|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|5",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|6",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|6|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|6|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|6|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|6|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|6|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|6|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|6|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|6| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|6|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|6",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|7",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|7|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|7|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|7|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|7|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|7|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|7|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|7|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|7| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|7|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|7",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|8",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|8|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|8|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|8|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|8|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|8|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|8|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|8|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|8| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|8|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|8",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|9",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|9|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|9|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|9|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|9|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|9|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|9|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|9|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|9| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|9|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|9",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|10",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|10|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|10|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|10|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|10|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|10|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|10|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|10|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|10| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|10|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|10",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|11",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|11|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|11|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|11|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|11|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|11|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|11|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|11|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|11| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|11|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|11",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|12",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|12|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|12|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|12|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|12|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|12|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|12|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|12|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|12| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|12|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|12",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|13",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|13|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|13|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|13|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|13|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|13|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|13|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|13|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|13| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|13|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|13",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|14",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|14|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|14|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|14|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|14|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|14|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|14|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|14|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|14| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|14|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|14",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|15",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|15|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|15|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|15|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|15|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|15|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|15|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|15|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|15| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|15|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|15",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|16",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|16|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|16|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|16|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|16|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|16|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|16|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|16|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|16| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|16|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|16",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|17",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|17|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|17|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|17|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|17|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|17|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|17|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|17|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|17| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|17|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|17",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|18",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|18|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|18|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|18|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|18|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|18|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|18|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|18|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|18| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|18|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|18",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|19",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|19|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|19|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|19|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|19|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|19|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|19|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|19|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|19| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|19|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|19",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|20",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|20|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|20|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|20|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|20|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|20|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|20|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|20|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|20| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|20|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|20",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|21",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|21|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|21|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|21|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|21|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|21|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|21|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|21|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|21| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|21|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|21",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|22",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|22|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|22|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|22|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|22|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|22|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|22|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|22|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|22| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|22|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|22",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|23",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|23|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|23|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|23|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|23|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|23|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|23|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|23|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|23| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|23|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|23",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|24",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|24|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|24|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|24|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|24|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|24|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|24|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|24|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|24| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|24|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|24",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|25",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|25|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|25|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|25|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|25|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|25|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|25|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|25|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|25| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|25|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|25",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|26",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|26|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|26|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|26|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|26|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|26|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|26|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|26|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|26| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|26|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|26",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|27",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|27|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|27|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|27|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|27|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|27|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|27|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|27|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|27| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|27|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|27",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|28",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|28|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|28|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|28|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|28|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|28|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|28|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|28|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|28| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|28|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|28",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|29",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|29|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|29|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|29|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|29|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|29|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|29|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|29|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|29| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|29|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|29",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|30",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|30|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|30|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|30|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|30|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|30|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|30|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|30|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|30| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|30|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|30",
+      "out": "false"
+    },
+    {
+      "in": "inrift|hub|31",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|31|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|hub|31|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|hub|31|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|31|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|31|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|31|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|31|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|31| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|hub|31|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|hub|31",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|0",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|0|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|0|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|0|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|0|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|0|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|0|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|0|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|0| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|0|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|0",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|1",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|1|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|1|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|1|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|1|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|1|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|1|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|1|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|1| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|1|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|1",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|2",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|2|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|2|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|2|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|2|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|2|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|2|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|2|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|2| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|2|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|2",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|3",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|3|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|3|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|3|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|3|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|3|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|3|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|3|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|3| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|3|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|3",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|4",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|4|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|4|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|4|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|4|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|4|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|4|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|4|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|4| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|4|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|4",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|5",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|5|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|5|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|5|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|5|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|5|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|5|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|5|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|5| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|5|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|5",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|6",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|6|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|6|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|6|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|6|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|6|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|6|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|6|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|6| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|6|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|6",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|7",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|7|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|7|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|7|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|7|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|7|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|7|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|7|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|7| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|7|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|7",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|8",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|8|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|8|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|8|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|8|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|8|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|8|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|8|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|8| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|8|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|8",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|9",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|9|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|9|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|9|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|9|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|9|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|9|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|9|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|9| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|9|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|9",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|10",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|10|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|10|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|10|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|10|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|10|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|10|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|10|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|10| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|10|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|10",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|11",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|11|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|11|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|11|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|11|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|11|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|11|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|11|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|11| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|11|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|11",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|12",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|12|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|12|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|12|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|12|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|12|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|12|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|12|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|12| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|12|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|12",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|13",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|13|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|13|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|13|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|13|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|13|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|13|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|13|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|13| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|13|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|13",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|14",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|14|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|14|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|14|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|14|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|14|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|14|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|14|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|14| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|14|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|14",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|15",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|15|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|15|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|15|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|15|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|15|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|15|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|15|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|15| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|15|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|15",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|16",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|16|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|16|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|16|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|16|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|16|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|16|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|16|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|16| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|16|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|16",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|17",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|17|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|17|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|17|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|17|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|17|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|17|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|17|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|17| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|17|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|17",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|18",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|18|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|18|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|18|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|18|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|18|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|18|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|18|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|18| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|18|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|18",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|19",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|19|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|19|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|19|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|19|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|19|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|19|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|19|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|19| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|19|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|19",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|20",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|20|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|20|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|20|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|20|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|20|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|20|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|20|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|20| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|20|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|20",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|21",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|21|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|21|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|21|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|21|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|21|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|21|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|21|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|21| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|21|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|21",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|22",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|22|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|22|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|22|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|22|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|22|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|22|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|22|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|22| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|22|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|22",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|23",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|23|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|23|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|23|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|23|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|23|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|23|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|23|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|23| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|23|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|23",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|24",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|24|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|24|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|24|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|24|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|24|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|24|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|24|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|24| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|24|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|24",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|25",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|25|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|25|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|25|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|25|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|25|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|25|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|25|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|25| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|25|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|25",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|26",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|26|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|26|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|26|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|26|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|26|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|26|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|26|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|26| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|26|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|26",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|27",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|27|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|27|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|27|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|27|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|27|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|27|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|27|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|27| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|27|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|27",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|28",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|28|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|28|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|28|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|28|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|28|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|28|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|28|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|28| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|28|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|28",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|29",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|29|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|29|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|29|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|29|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|29|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|29|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|29|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|29| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|[§cGet back in the arena! §7N.NNs left|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "kill|rift|29|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|29",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|30",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|30|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|30|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|30|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|30|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|30|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|30|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|30|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|30| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|30|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|30",
+      "out": "false"
+    },
+    {
+      "in": "inrift|rift|31",
+      "out": "true"
+    },
+    {
+      "in": "hide|rift|31|horse",
+      "out": "false"
+    },
+    {
+      "in": "hide|rift|31|stand",
+      "out": "false"
+    },
+    {
+      "in": "kill|rift|31|⚠ Get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|31|⚠ Get back in the arena or you will DIE!!!!!!!!!!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|31|⚠ Get back in the arena or you will DIE ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|31|Get back in the arena or you will DIE!",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|31|⚠ Get back in the arena or you will DIE!!! ⚠ ",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|31| ⚠ Get back in the arena or you will DIE!!! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "kill|rift|31|⚠ get back in the arena or you will DIE! ⚠",
+      "out": "ok|-"
+    },
+    {
+      "in": "heart|rift|31",
+      "out": "false"
+    }
+  ]
+}

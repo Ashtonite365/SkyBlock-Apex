@@ -1,0 +1,7 @@
+Strength|12.5|null|[{"bold":false,"color":"blue","italic":false,"text":"(+12.5) "}]|{"extra":[{"bold":false,"color":"gray","italic":false,"text":"Strength: "},{"color":"red","text":"+12.5 "},{"bold":false,"color":"blue","italic":false,"text":"(+12.5) "}],"italic":false,"text":""}|{"extra":[{"bold":false,"color":"gray","italic":false,"text":"Stre: "},{"color":"red","text":"+12.5 "},{"bold":false,"color":"blue","italic":false,"text":"(+12.5) "}],"italic":false,"text":""}
+Crit Damage|8.0|null|[]|{"extra":[{"bold":false,"color":"gray","italic":false,"text":"Crit Damage: "},{"color":"red","text":"+8% "}],"italic":false,"text":""}|{"extra":[{"bold":false,"color":"gray","italic":false,"text":"Cr Da: "},{"color":"red","text":"+8% "}],"italic":false,"text":""}
+Mining Speed|99.0|null|[{"bold":false,"color":"dark_gray","italic":false,"text":"(-1) "}]|{"extra":[{"bold":false,"color":"gray","italic":false,"text":"Mining Speed: "},{"color":"green","text":"+99 "},{"bold":false,"color":"dark_gray","italic":false,"text":"(-1) "}],"italic":false,"text":""}|{"extra":[{"bold":false,"color":"gray","italic":false,"text":"Mi Sp: "},{"color":"green","text":"+99 "},{"bold":false,"color":"dark_gray","italic":false,"text":"(-1) "}],"italic":false,"text":""}
+Unknown Stat|7.0|"7"|[]|{"extra":[{"bold":false,"color":"gray","italic":false,"text":"Unknown Stat: "},"7"],"italic":false,"text":""}|{"extra":[{"bold":false,"color":"gray","italic":false,"text":"Un St: "},"7"],"italic":false,"text":""}
+REFORGE|§9|(|)|false
+STAR_BUFF|§r|||true
+CATA_STAR_BUFF|§8|(|)|false

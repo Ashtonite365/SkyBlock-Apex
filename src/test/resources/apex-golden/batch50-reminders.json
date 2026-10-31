@@ -1,0 +1,2029 @@
+{
+  "cases": 506,
+  "data": [
+    {
+      "in": "kick|false|",
+      "out": "-|[]"
+    },
+    {
+      "in": "kick|false|You were kicked while joining that server!",
+      "out": "-|[]"
+    },
+    {
+      "in": "kick|false|There was a problem joining SkyBlock, try again in a moment!",
+      "out": "-|[]"
+    },
+    {
+      "in": "kick|false|  You were kicked while joining that server!  ",
+      "out": "-|[]"
+    },
+    {
+      "in": "kick|false|You were kicked while joining that server",
+      "out": "-|[]"
+    },
+    {
+      "in": "kick|false|§cYou were kicked while joining that server!",
+      "out": "-|[]"
+    },
+    {
+      "in": "kick|false|Hello",
+      "out": "-|[]"
+    },
+    {
+      "in": "kick|true|",
+      "out": "-|[]"
+    },
+    {
+      "in": "kick|true|You were kicked while joining that server!",
+      "out": "-|[§eKicked from SkyBlock; you can rejoin in about 60 seconds.]"
+    },
+    {
+      "in": "kick|true|There was a problem joining SkyBlock, try again in a moment!",
+      "out": "-|[§eKicked from SkyBlock; you can rejoin in about 60 seconds.]"
+    },
+    {
+      "in": "kick|true|  You were kicked while joining that server!  ",
+      "out": "-|[§eKicked from SkyBlock; you can rejoin in about 60 seconds.]"
+    },
+    {
+      "in": "kick|true|You were kicked while joining that server",
+      "out": "-|[]"
+    },
+    {
+      "in": "kick|true|§cYou were kicked while joining that server!",
+      "out": "-|[§eKicked from SkyBlock; you can rejoin in about 60 seconds.]"
+    },
+    {
+      "in": "kick|true|Hello",
+      "out": "-|[]"
+    },
+    {
+      "in": "restart|null|false|0|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|0|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|1|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|1|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|2|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|2|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|3|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|3|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|4|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|4|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|5|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|5|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|6|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|6|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|7|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|7|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|8|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|false|8|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|0|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|0|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|1|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|1|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|2|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|2|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|3|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|3|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|4|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|4|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|5|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|5|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|6|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|6|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|7|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|7|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|8|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|null|true|8|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|0|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|0|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|1|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|1|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|2|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|2|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|3|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|3|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|4|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|4|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|5|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|5|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|6|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|6|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|7|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|7|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|8|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|false|8|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|0|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|0|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|1|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|1|20",
+      "out": "ok|[§cServer restart in §b1m 0s|null|b=false|h=null|c=null]"
+    },
+    {
+      "in": "restart|hub|true|2|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|2|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|3|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|3|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|4|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|4|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|5|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|5|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|6|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|6|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|7|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|7|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|8|19",
+      "out": "ok|-"
+    },
+    {
+      "in": "restart|hub|true|8|20",
+      "out": "ok|-"
+    },
+    {
+      "in": "srv|0|0true|0|mini1A|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|0|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|0|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|0|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|0|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|0|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|0true|0",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|1|mini2B|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|1|mini2B|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|1|mini2B|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|1|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|1|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|1|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|0true|1",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|2|mega7|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|2|mega7|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|2|mega7|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|2|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|2|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|2|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|0true|2",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|3|mini1A|20",
+      "out": "[§eYou were already on server §bmini1A §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|0true|3|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|3|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|3|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|3|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|3|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|0true|3",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|4|mini3C|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|4|mini3C|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|4|mini3C|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|4|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|4|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|4|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|0true|4",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|5|mini2B|20",
+      "out": "[§eYou were already on server §bmini2B §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|0true|5|mini2B|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|5|mini2B|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|5|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|5|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|5|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|0true|5",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|6|mini1A|20",
+      "out": "[§eYou were already on server §bmini1A §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|0true|6|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|6|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|6|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|6|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|6|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|0true|6",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|7|m9|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|7|m9|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|7|m9|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|7|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|7|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|7|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|0true|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|8|mega7|20",
+      "out": "[§eYou were already on server §bmega7 §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|0true|8|mega7|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|8|mega7|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|8|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|8|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|8|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|0true|8",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|9|m9|20",
+      "out": "[§eYou were already on server §bm9 §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|0true|9|m9|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|9|m9|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|9|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|9|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|0true|9|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|0true|9",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|0|mini1A|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|0|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|0|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|0|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|0|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|0|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|1false|0",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|1|mini2B|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|1|mini2B|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|1|mini2B|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|1|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|1|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|1|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|1false|1",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|2|mega7|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|2|mega7|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|2|mega7|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|2|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|2|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|2|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|1false|2",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|3|mini1A|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|3|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|3|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|3|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|3|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|3|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|1false|3",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|4|mini3C|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|4|mini3C|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|4|mini3C|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|4|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|4|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|4|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|1false|4",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|5|mini2B|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|5|mini2B|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|5|mini2B|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|5|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|5|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|5|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|1false|5",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|6|mini1A|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|6|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|6|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|6|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|6|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|6|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|1false|6",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|7|m9|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|7|m9|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|7|m9|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|7|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|7|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|7|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|1false|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|8|mega7|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|8|mega7|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|8|mega7|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|8|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|8|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|8|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|1false|8",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|9|m9|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|9|m9|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|9|m9|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|9|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|9|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|1false|9|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|1false|9",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|0|mini1A|20",
+      "out": "[§eYou were already on server §bmini1A §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|2true|0|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|0|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|0|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|0|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|0|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|2true|0",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|1|mini2B|20",
+      "out": "[§eYou were already on server §bmini2B §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|2true|1|mini2B|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|1|mini2B|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|1|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|1|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|1|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|2true|1",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|2|mega7|20",
+      "out": "[§eYou were already on server §bmega7 §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|2true|2|mega7|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|2|mega7|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|2|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|2|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|2|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|2true|2",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|3|mini1A|20",
+      "out": "[§eYou were already on server §bmini1A §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|2true|3|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|3|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|3|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|3|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|3|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|2true|3",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|4|mini3C|20",
+      "out": "[§eYou were already on server §bmini3C §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|2true|4|mini3C|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|4|mini3C|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|4|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|4|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|4|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|2true|4",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|5|mini2B|20",
+      "out": "[§eYou were already on server §bmini2B §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|2true|5|mini2B|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|5|mini2B|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|5|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|5|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|5|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|2true|5",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|6|mini1A|20",
+      "out": "[§eYou were already on server §bmini1A §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|2true|6|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|6|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|6|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|6|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|6|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|2true|6",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|7|m9|20",
+      "out": "[§eYou were already on server §bm9 §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|2true|7|m9|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|7|m9|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|7|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|7|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|7|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|2true|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|8|mega7|20",
+      "out": "[§eYou were already on server §bmega7 §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|2true|8|mega7|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|8|mega7|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|8|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|8|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|8|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|2true|8",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|9|m9|20",
+      "out": "[§eYou were already on server §bm9 §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|0|2true|9|m9|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|9|m9|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|9|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|9|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|0|2true|9|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|0|2true|9",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|0|mini1A|20",
+      "out": "[§eYou were already on server §bmini1A §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|0true|0|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|0|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|0|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|0|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|0|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|0true|0",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|1|mini2B|20",
+      "out": "[§eYou were already on server §bmini2B §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|0true|1|mini2B|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|1|mini2B|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|1|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|1|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|1|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|0true|1",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|2|mega7|20",
+      "out": "[§eYou were already on server §bmega7 §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|0true|2|mega7|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|2|mega7|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|2|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|2|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|2|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|0true|2",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|3|mini1A|20",
+      "out": "[§eYou were already on server §bmini1A §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|0true|3|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|3|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|3|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|3|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|3|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|0true|3",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|4|mini3C|20",
+      "out": "[§eYou were already on server §bmini3C §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|0true|4|mini3C|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|4|mini3C|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|4|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|4|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|4|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|0true|4",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|5|mini2B|20",
+      "out": "[§eYou were already on server §bmini2B §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|0true|5|mini2B|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|5|mini2B|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|5|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|5|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|5|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|0true|5",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|6|mini1A|20",
+      "out": "[§eYou were already on server §bmini1A §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|0true|6|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|6|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|6|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|6|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|6|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|0true|6",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|7|m9|20",
+      "out": "[§eYou were already on server §bm9 §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|0true|7|m9|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|7|m9|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|7|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|7|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|7|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|0true|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|8|mega7|20",
+      "out": "[§eYou were already on server §bmega7 §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|0true|8|mega7|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|8|mega7|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|8|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|8|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|8|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|0true|8",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|9|m9|20",
+      "out": "[§eYou were already on server §bm9 §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|0true|9|m9|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|9|m9|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|9|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|9|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|0true|9|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|0true|9",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|0|mini1A|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|0|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|0|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|0|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|0|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|0|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|1false|0",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|1|mini2B|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|1|mini2B|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|1|mini2B|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|1|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|1|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|1|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|1false|1",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|2|mega7|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|2|mega7|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|2|mega7|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|2|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|2|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|2|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|1false|2",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|3|mini1A|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|3|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|3|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|3|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|3|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|3|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|1false|3",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|4|mini3C|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|4|mini3C|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|4|mini3C|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|4|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|4|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|4|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|1false|4",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|5|mini2B|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|5|mini2B|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|5|mini2B|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|5|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|5|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|5|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|1false|5",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|6|mini1A|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|6|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|6|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|6|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|6|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|6|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|1false|6",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|7|m9|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|7|m9|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|7|m9|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|7|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|7|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|7|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|1false|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|8|mega7|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|8|mega7|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|8|mega7|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|8|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|8|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|8|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|1false|8",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|9|m9|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|9|m9|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|9|m9|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|9|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|9|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|1false|9|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|1false|9",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|0|mini1A|20",
+      "out": "[§eYou were already on server §bmini1A §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|2true|0|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|0|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|0|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|0|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|0|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|2true|0",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|1|mini2B|20",
+      "out": "[§eYou were already on server §bmini2B §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|2true|1|mini2B|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|1|mini2B|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|1|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|1|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|1|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|2true|1",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|2|mega7|20",
+      "out": "[§eYou were already on server §bmega7 §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|2true|2|mega7|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|2|mega7|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|2|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|2|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|2|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|2true|2",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|3|mini1A|20",
+      "out": "[§eYou were already on server §bmini1A §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|2true|3|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|3|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|3|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|3|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|3|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|2true|3",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|4|mini3C|20",
+      "out": "[§eYou were already on server §bmini3C §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|2true|4|mini3C|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|4|mini3C|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|4|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|4|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|4|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|2true|4",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|5|mini2B|20",
+      "out": "[§eYou were already on server §bmini2B §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|2true|5|mini2B|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|5|mini2B|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|5|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|5|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|5|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|2true|5",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|6|mini1A|20",
+      "out": "[§eYou were already on server §bmini1A §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|2true|6|mini1A|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|6|mini1A|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|6|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|6|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|6|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|2true|6",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|7|m9|20",
+      "out": "[§eYou were already on server §bm9 §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|2true|7|m9|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|7|m9|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|7|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|7|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|7|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|2true|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|8|mega7|20",
+      "out": "[§eYou were already on server §bmega7 §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|2true|8|mega7|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|8|mega7|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|8|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|8|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|8|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|2true|8",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|9|m9|20",
+      "out": "[§eYou were already on server §bm9 §eNm Ns ago.]"
+    },
+    {
+      "in": "srv|1|2true|9|m9|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|9|m9|40",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|9|null|20",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|9|null|7",
+      "out": "[]"
+    },
+    {
+      "in": "srv|1|2true|9|null|40",
+      "out": "[]"
+    },
+    {
+      "in": "srvnon|1|2true|9",
+      "out": "[]"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+icon ⛃
+team SLICE_OF_BLUEBERRY_CAKE §9 rgb=5555ff bright=ff5555ff lookup=true
+team SLICE_OF_CHEESECAKE §e rgb=ffff55 bright=ffffff55 lookup=true
+team SLICE_OF_GREEN_VELVET_CAKE §a rgb=55ff55 bright=ff55ff55 lookup=true
+team SLICE_OF_RED_VELVET_CAKE §c rgb=ff5555 bright=ffff5555 lookup=true
+team SLICE_OF_STRAWBERRY_SHORTCAKE §d rgb=ff55ff bright=ffff55ff lookup=true
+map [SLICE_OF_BLUEBERRY_CAKE, SLICE_OF_CHEESECAKE, SLICE_OF_GREEN_VELVET_CAKE, SLICE_OF_RED_VELVET_CAKE, SLICE_OF_STRAWBERRY_SHORTCAKE]
+carnival carnival

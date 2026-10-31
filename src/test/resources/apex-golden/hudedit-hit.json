@@ -1,0 +1,37 @@
+{
+  "cases": 8,
+  "data": [
+    {
+      "in": "0",
+      "out": "NONE"
+    },
+    {
+      "in": "1",
+      "out": "TOOLBAR"
+    },
+    {
+      "in": "2",
+      "out": "ELEMENT"
+    },
+    {
+      "in": "3",
+      "out": "ELEMENT"
+    },
+    {
+      "in": "4",
+      "out": "HANDLE"
+    },
+    {
+      "in": "5",
+      "out": "HANDLE"
+    },
+    {
+      "in": "6",
+      "out": "HANDLE"
+    },
+    {
+      "in": "7",
+      "out": "HANDLE"
+    }
+  ]
+}

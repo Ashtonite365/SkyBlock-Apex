@@ -1,0 +1,17 @@
+construct {} ERR:IllegalStateException
+construct {"entity":"Nope"} ERR:IllegalStateException
+construct {"entity":"Cow"} ERR:IllegalStateException
+construct {"entity":"Cow","modifiers":[{"type":"zzz"}]} ERR:IllegalStateException
+construct {"entity":"Cow","modifiers":[]} ERR:IllegalStateException
+construct {"entity":3} ERR:IllegalStateException
+construct {"modifiers":[{"type":"age"}]} ERR:IllegalStateException
+apply-unknown ERR:IllegalStateException
+apply-player ERR:IllegalStateException
+slots {} {}
+slots {"hand":"ASPECT_OF_THE_END"} {MAINHAND=ASPECT_OF_THE_END}
+slots {"mainhand":"A","hand":"B"} {MAINHAND=B}
+slots {"helmet":" ","head":"H"} {HEAD=H}
+slots {"boots":"B","feet":"F","legs":"L","leggings":"G","chest":"C","chestplate":"P","off_hand":"O","offhand":"Q"} {OFFHAND=Q, CHEST=P, LEGS=G, FEET=F}
+slots {"hand":{"x":1},"helmet":["a"],"chest":5,"legs":true} {CHEST=5, LEGS=true}
+slots {"HAND":"x","type":"equipment"} {}
+slots {"helmet":"SKULL#abc","chestplate":"LEATHER_CHESTPLATE#ff0000","boots":"IRON#1"} {HEAD=SKULL#abc, CHEST=LEATHER_CHESTPLATE#ff0000, FEET=IRON#1}

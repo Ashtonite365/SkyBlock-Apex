@@ -1,0 +1,20 @@
+id=apex debug=false dataDir=.apex logger=Apex
+identifier=apex:a/b_c ERR:IdentifierException
+gson={"k":[1,null]}
+json config JsonConfiguration(encodeDefaults=true, ignoreUnknownKeys=true, isLenient=true, allowStructuredMapKeys=false, prettyPrint=false, explicitNulls=true, prettyPrintIndent='    ', coerceInputValues=false, useArrayPolymorphism=false, classDiscriminator='type', allowSpecialFloatingPointValues=false, useAlternativeNames=true, namingStrategy=null, decodeEnumsCaseInsensitive=false, allowTrailingComma=true, allowComments=true, classDiscriminatorMode=POLYMORPHIC, exceptionsWithDebugInfo=true)
+json default {"a":1,"b":null,"c":[1,2],"d":{"x":0.5}}
+json custom {"a":2,"b":"s","c":[],"d":{}}
+json lenient Sample(a=3, b=unquoted, c=[4, 5], d={x=0.5})
+twoSpace config JsonConfiguration(encodeDefaults=true, ignoreUnknownKeys=true, isLenient=true, allowStructuredMapKeys=false, prettyPrint=true, explicitNulls=true, prettyPrintIndent='  ', coerceInputValues=false, useArrayPolymorphism=false, classDiscriminator='type', allowSpecialFloatingPointValues=false, useAlternativeNames=true, namingStrategy=null, decodeEnumsCaseInsensitive=false, allowTrailingComma=true, allowComments=true, classDiscriminatorMode=POLYMORPHIC, exceptionsWithDebugInfo=true)
+twoSpace default {\n  "a": 1,\n  "b": null,\n  "c": [\n    1,\n    2\n  ],\n  "d": {\n    "x": 0.5\n  }\n}
+twoSpace custom {\n  "a": 2,\n  "b": "s",\n  "c": [],\n  "d": {}\n}
+twoSpace lenient Sample(a=3, b=unquoted, c=[4, 5], d={x=0.5})
+tight config JsonConfiguration(encodeDefaults=true, ignoreUnknownKeys=true, isLenient=true, allowStructuredMapKeys=false, prettyPrint=false, explicitNulls=false, prettyPrintIndent='    ', coerceInputValues=false, useArrayPolymorphism=false, classDiscriminator='type', allowSpecialFloatingPointValues=false, useAlternativeNames=true, namingStrategy=null, decodeEnumsCaseInsensitive=false, allowTrailingComma=true, allowComments=true, classDiscriminatorMode=POLYMORPHIC, exceptionsWithDebugInfo=true)
+tight default {"a":1,"c":[1,2],"d":{"x":0.5}}
+tight custom {"a":2,"b":"s","c":[],"d":{}}
+tight lenient Sample(a=3, b=unquoted, c=[4, 5], d={x=0.5})
+stream ok Success(Sample(a=7, b=null, c=[1, 2], d={x=0.5}))
+stream bad JsonDecodingException
+stream list Success([1, 2, 3])
+scope CoroutineName(Apex) job=true
+handler true

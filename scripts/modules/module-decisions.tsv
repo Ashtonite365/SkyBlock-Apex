@@ -1,0 +1,368 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Phase O tag decisions: the one hand-edited source of module and option tags (DESIGN.md 2-3, DECISIONS-coding-0355).
+# Edit this file, then run: python3 scripts/gen_module_table.py  (writes src/main/resources/assets/apex/modules/modules.tsv).
+# kind: module | core | excluded | option | screen.  tag: allowed | red | purple.  rule: DESIGN.md 2.1 codes.
+# ask: 'ashton' = a reversible default that still needs Ashton (DESIGN.md 9.1).  deps: comma-separated module ids (step O2).
+# master: the option that is the module switch (Q17) when it is not named enabled/enable/enabled-toggle; empty = auto.
+key	kind	category	tag	rule	deps	master	ask	note
+ability-cooldowns	module	Timers	allowed	A0				
+abiphone	module	Miscellaneous > Misc	allowed	A0				
+accessory-bag-helper	module	GUI	allowed	A0				
+ah-price-tools	module	GUI	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3)
+ah-tile-counts	module	GUI	allowed	A0				
+alerts	core	Miscellaneous > General	allowed	A0				
+anniversary	module	Miscellaneous > Events	allowed	A0				
+anvil-reforge	module	GUI	allowed	A0				
+apex-far-terrain	excluded	Miscellaneous > Render	allowed	A0				Q10: not in the module list (far terrain out of scope)
+auction-browser	module	GUI	allowed	A0				
+auction-tools	module	GUI	allowed	A0				
+auto-completions	module	Miscellaneous > Chat	allowed	A4				
+bang-shortcuts	module	Miscellaneous > Chat	allowed	A0				Typed ! shortcuts: rewrites only a line you type yourself (one in, one out); never answers other chat
+bazaar-orders	module	GUI	allowed	A0				amount presets removed 31 Oct 2026 (bazaar-1031); no tagged options left
+block-zapper-overlay	module	Miscellaneous > Misc	allowed	A0				
+blood-mob-esp	module	Dungeons	allowed	A0				
+bonemerang-overlay	module	Miscellaneous > Combat	allowed	A0				
+boss-tick-timers	module	Timers	allowed	A0				
+breakable-walls	module	Secrets	purple	P1				code FeatureRisk has SOFT: fix
+bz-menu	module	Custom Menus	allowed	A0				
+bz-order-book	module	GUI	allowed	A0				
+camera-tweaks	module	Miscellaneous > Render	allowed	A0				
+carnival	module	Miscellaneous > Events	allowed	A0				
+centuryraffle	module	Miscellaneous > Events	allowed	A0				
+chat-extras	module	Miscellaneous > Chat	allowed	A0				
+chat-commands	core	Miscellaneous > Chat	allowed	A0				
+chat-filters	module	Miscellaneous > Chat	allowed	A0				
+chat-links	module	Miscellaneous > Chat	allowed	A0				
+chat-peek	module	Miscellaneous > Chat	allowed	A0				
+chat-search	module	Miscellaneous > Chat	allowed	A0				
+chat-tabs	module	Miscellaneous > Chat	allowed	A0				
+commissions	module	Mining	allowed	A0				
+compact-chat	module	Miscellaneous > Chat	allowed	A0				
+compact-tab-list	module	HUD	allowed	A0				
+composter	module	Farming	allowed	A0				
+configconfig	core	Miscellaneous > General	allowed	A0				
+connected-textures	module	Miscellaneous > Render	allowed	A0				
+cookie-converter	module	GUI	allowed	A0				
+copy-chat	module	Miscellaneous > Chat	allowed	A0				
+core-inventory-overlays	module	GUI	allowed	A0				
+core-misc	module	Miscellaneous > Misc	allowed	A0				
+credits	core	Credits	allowed	A0				
+crimson-isle	module	Miscellaneous > Crimson Isle	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3)
+crystal-hollows-chests	module	Mining	red	R1				
+crystal-hollows-minimap	module	Mining	red	C1				Page: "Ashton: kept, soft gray"
+crystal-hollows-overlay	module	Mining	allowed	A0				
+crystal-hollows-waypoints	module	Mining	allowed	A0				
+custom-menu-accessory-thaumaturgy	module	Custom Menus	allowed	A6				
+custom-menu-ah	module	Custom Menus	allowed	A6				
+custom-menu-ah-hub	module	Custom Menus	allowed	A6				
+custom-menu-ah-stats	module	Custom Menus	allowed	A6				
+custom-menu-anvil	module	Custom Menus	allowed	A6				
+custom-menu-attribute-menu	module	Custom Menus	allowed	A6				
+custom-menu-bags	module	Custom Menus	allowed	A6				
+custom-menu-bank	module	Custom Menus	allowed	A6				
+custom-menu-bazaar	module	Custom Menus	allowed	A6				
+custom-menu-bestiary	module	Custom Menus	allowed	A6				
+custom-menu-bestiary-areas	module	Custom Menus	allowed	A6				
+custom-menu-bestiary-milestones	module	Custom Menus	allowed	A6				
+custom-menu-block-guide	module	Custom Menus	allowed	A6				
+custom-menu-booster-cookie	module	Custom Menus	allowed	A6				
+custom-menu-brewing-stand	module	Custom Menus	allowed	A6				
+custom-menu-calendar	module	Custom Menus	allowed	A6				
+custom-menu-chapters	module	Custom Menus	allowed	A6				
+custom-menu-chocolate	module	Custom Menus	allowed	A6				
+custom-menu-city-project	module	Custom Menus	allowed	A6				
+custom-menu-collection-pages	module	Custom Menus	allowed	A6				
+custom-menu-collections	module	Custom Menus	allowed	A6				
+custom-menu-community	module	Custom Menus	allowed	A6				
+custom-menu-craft	module	Custom Menus	allowed	A6				
+custom-menu-dragon-guide	module	Custom Menus	allowed	A6				
+custom-menu-dungeoneering	module	Custom Menus	allowed	A6				
+custom-menu-election	module	Custom Menus	allowed	A6				
+custom-menu-emblems	module	Custom Menus	allowed	A6				
+custom-menu-enchant	module	Custom Menus	allowed	A6				
+custom-menu-enchant-guide	module	Custom Menus	allowed	A6				
+custom-menu-enchant-level	module	Custom Menus	allowed	A6				
+custom-menu-essence	module	Custom Menus	allowed	A6				
+custom-menu-exptable	module	Experimentation	allowed	A6				
+custom-menu-fancy-warp	module	Custom Menus	allowed	A6				
+custom-menu-fast-travel	module	Custom Menus	allowed	A6				
+custom-menu-garden-crop-milestones	module	Custom Menus	allowed	A6				
+custom-menu-garden-crop-upgrades	module	Custom Menus	allowed	A6				
+custom-menu-garden-desk	module	Custom Menus	allowed	A6				
+custom-menu-garden-farming-toolkit	module	Custom Menus	allowed	A6				
+custom-menu-garden-levels	module	Custom Menus	allowed	A6				
+custom-menu-garden-milestones	module	Custom Menus	allowed	A6				
+custom-menu-garden-plots	module	Custom Menus	allowed	A6				
+custom-menu-garden-skins	module	Custom Menus	allowed	A6				
+custom-menu-garden-skymart	module	Custom Menus	allowed	A6				
+custom-menu-garden-visitor-logbook	module	Custom Menus	allowed	A6				
+custom-menu-garden-visitor-milestones	module	Custom Menus	allowed	A6				
+custom-menu-hotf	module	Custom Menus	allowed	A6				
+custom-menu-hotm	module	Custom Menus	allowed	A6				
+custom-menu-hub-selector	module	Custom Menus	allowed	A6				
+custom-menu-hunting-box	module	Custom Menus	allowed	A6				
+custom-menu-island-browser	module	Custom Menus	allowed	A6				
+custom-menu-leveling-reward-list	module	Custom Menus	allowed	A6				
+custom-menu-leveling-rewards	module	Custom Menus	allowed	A6				
+custom-menu-loadouts	module	Custom Menus	allowed	A6				
+custom-menu-malik	module	Custom Menus	allowed	A6				
+custom-menu-mayor	module	Custom Menus	allowed	A6				
+custom-menu-melody	module	Custom Menus	allowed	A6				
+custom-menu-minion	module	Custom Menus	allowed	A6				
+custom-menu-minion-chest	module	Custom Menus	allowed	A6				
+custom-menu-minion-craft	module	Custom Menus	allowed	A6				
+custom-menu-minion-ideal-layout	module	Custom Menus	allowed	A6				
+custom-menu-museum	module	Custom Menus	allowed	A6				
+custom-menu-museum-milestones	module	Custom Menus	allowed	A6				
+custom-menu-npc-shop	module	Custom Menus	allowed	A6				
+custom-menu-pet-care	module	Custom Menus	allowed	A6				
+custom-menu-pets	module	Custom Menus	allowed	A6				
+custom-menu-player-profile	module	Custom Menus	allowed	A6				
+custom-menu-previous-city-projects	module	Custom Menus	allowed	A6				
+custom-menu-profiles	module	Custom Menus	allowed	A6				
+custom-menu-quests	module	Custom Menus	allowed	A6				
+custom-menu-quests-chapters	module	Custom Menus	allowed	A6				
+custom-menu-recipe-book	module	Custom Menus	allowed	A6				
+custom-menu-reforge-guide	module	Custom Menus	allowed	A6				
+custom-menu-rng-meter	module	Custom Menus	allowed	A6				
+custom-menu-salvage	module	Custom Menus	allowed	A6				
+custom-menu-sam	module	Custom Menus	allowed	A6				
+custom-menu-sb-settings	module	Custom Menus	allowed	A6				
+custom-menu-sections	module	Custom Menus	allowed	A6				
+custom-menu-skill-page	module	Custom Menus	allowed	A6				
+custom-menu-skills	module	Custom Menus	allowed	A6				
+custom-menu-skyblock-guides	module	Custom Menus	allowed	A6				
+custom-menu-skyblock-levelling	module	Custom Menus	allowed	A6				
+custom-menu-skyblock-menu	module	Custom Menus	allowed	A6				
+custom-menu-spooky-rewards	module	Custom Menus	allowed	A6				
+custom-menu-stats	module	Custom Menus	allowed	A6				
+custom-menu-taylor-cosmetics	module	Custom Menus	allowed	A6				
+custom-menu-wardrobe	module	Custom Menus	allowed	A6				
+custom-menu-xp-guide	module	Custom Menus	allowed	A6				
+custom-menus	core	Custom Menus	allowed	A6				
+custom-scoreboard	module	HUD	allowed	A0				
+damage-commas	module	Miscellaneous > Misc	allowed	A0				
+dangerous	core	Miscellaneous > Misc	allowed	-				the Dangerous switch itself (system, not a module)
+modules	core	Miscellaneous > Misc	allowed	-				phase O module switches (ModuleSwitches, O6); not a module itself
+deployable-hud	module	HUD	allowed	A0				
+diana	module	Miscellaneous > Events	allowed	A0				
+discord-status	module	Miscellaneous > Misc	allowed	A0				
+dragon-tracker	module	Miscellaneous > Combat	allowed	A0				
+dungeon-chest-profit	module	Dungeons	allowed	A0				
+dungeon-extras	module	Dungeons	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3); (Q1 default); options split over sections dungeons/secrets
+dungeon-loot-highlighter	module	Dungeons	allowed	A0				
+dungeon-map	module	Dungeons	allowed	A0				options split over sections dungeons/secrets
+dungeon-score	module	Dungeons	allowed	A0				
+dungeon-secrets	module	Secrets	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3)
+dungeon-splits	module	Dungeons	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3); options split over sections dungeons/secrets
+dungeon-status-huds	module	Dungeons	allowed	A0				
+dwarven-waypoints	module	Mining	allowed	A0				
+enchant-colours	module	GUI	allowed	A0				
+etherwarp-overlay	module	Miscellaneous > Misc	allowed	A0				
+event-helpers	module	Miscellaneous > Events	allowed	A0				
+experimentation-table	module	Experimentation	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3); see section 3.3
+f7-devices	module	Dungeons	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3); see section 3.3 (tag per option)
+fairy-souls	module	Miscellaneous > Misc	allowed	A0				
+fishing-helper	module	Fishing	allowed	A0				
+fishing-risky	module	Fishing	allowed	A0				
+fishing-tracker	module	Fishing	allowed	A0				
+fixes	module	Miscellaneous > General	allowed	A0				
+flip-finder	module	GUI	allowed	A0				
+flip-history	module	GUI	allowed	A0				
+fossil-excavator	module	Mining	allowed	A0				
+frozen-treasure	module	Miscellaneous > Events	allowed	A0				
+fullbright	module	Miscellaneous > Render	allowed	A0				
+galatea	module	Miscellaneous > Foraging	allowed	A0				
+gap-extras	module	Miscellaneous > Misc	allowed	A0				
+gap-misc	module	Miscellaneous > Misc	allowed	A0				
+garden-tools	module	Farming	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3); (no-break, Q6 default); red: sensitivity-reducer
+great-spook	module	Miscellaneous > Events	allowed	A0				
+gyro-wand-ring	module	Miscellaneous > Render	allowed	A0				
+hide-players	module	Miscellaneous > Render	allowed	A1			ashton	not on the Page (7d3fd849); Q9 rule-derived; newly tagged
+hide-weather	module	Miscellaneous > Render	allowed	A0				
+hotbar-storage-selector	module	GUI	red	C2				Page: one key press sends one command. Q6 default: Page call kept
+hotf-whispers	module	Miscellaneous > Foraging	allowed	A0				
+hud	core	HUD	allowed	A0				
+hud-style	core	HUD	allowed	A0				
+hunting-risky	module	Miscellaneous > Foraging	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3)
+hypixel-chat-layout	module	Miscellaneous > Chat	allowed	A0				
+hypixel-resource-pack	module	Miscellaneous > General	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3)
+instasell-guard	module	GUI	allowed	A0				
+inventory-buttons-config	module	GUI	allowed	A0				
+inventory-search	module	GUI	allowed	A0				
+item-customizer	module	GUI	allowed	A0				
+item-hotkeys	module	GUI	allowed	A0				
+item-pickup-log	module	Miscellaneous > Chat	allowed	A0				
+item-rarity-cosmetics	module	GUI	allowed	A0				
+item-value	module	GUI	allowed	A0				
+item-wiki	module	GUI	allowed	A0				
+jerry-helper	module	Miscellaneous > Events	allowed	A0				
+junk-highlighter	module	GUI	allowed	A0				
+king-relics	module	Dungeons	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3)
+kuudra-info	module	Dungeons	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3); (pre-alert)
+kuudra-profit	module	Dungeons	allowed	A0				
+kuudra-splits	module	Dungeons	allowed	A0				
+kuudra-supplies	module	Dungeons	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3); (Q4 default)
+loadout-keybinds	module	GUI	allowed	A5				
+lore-timers	module	Timers	allowed	A0				
+max-buy	module	GUI	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3)
+metal-detector	module	Mining	allowed	A0				
+mining-extras	module	Mining	allowed	A0				
+mining-loot	module	Mining	allowed	A0				
+mining-overlay	module	Mining	allowed	A0				
+mining-risky	module	Mining	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3)
+mining-solvers	module	Mining	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3)
+minion-helper	module	GUI	allowed	A0				
+misc-extras	module	Miscellaneous > Misc	allowed	A0				
+misc-render	module	Miscellaneous > Misc	allowed	A0				
+missing-enchantments	module	GUI	allowed	A0				
+museum-helper	module	GUI	allowed	A0				
+museum-inventory	module	Miscellaneous > Render	allowed	A0				
+no-fog	module	Miscellaneous > Render	allowed	A0				
+party-commands	module	Miscellaneous > Chat	allowed	A0				Q8 default: emotes only, Allowed; code FeatureRisk HARD: fix
+pet-keybinds	module	GUI	allowed	A5				
+pets	module	GUI	allowed	A0				
+pickaxe-info	module	Mining	allowed	A0				
+player-chat-format	module	Miscellaneous > Chat	allowed	A0				
+plus-chat-compact	module	Miscellaneous > Chat	allowed	A0				
+plus-chat-extras	module	Miscellaneous > Chat	allowed	A0				
+plus-data	core	Miscellaneous > Misc	allowed	A0				
+plus-events	module	Miscellaneous > Events	allowed	A0				
+plus-garden-warps	module	Farming	red	C2				Q5: red, off by default (Ashton confirmed 28 Oct 09:43)
+plus-lore	module	Miscellaneous > Misc	allowed	A0				
+plus-misc	module	Miscellaneous > Misc	allowed	A0				
+plus-plots	module	Farming	allowed	A0				
+plus-seasonal	module	Miscellaneous > Events	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3)
+plus-spray	module	Farming	allowed	A0				
+plus-visual-words	module	Miscellaneous > Misc	allowed	A0				
+powder-grinding	module	Mining	allowed	A0				
+price-data	core	GUI	allowed	A0				
+pristine-profit	module	Mining	allowed	A0				
+profile-viewer	module	GUI	allowed	A0				
+puzzle-solvers	module	Dungeons	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3); (leap-quadrants)
+quick-commands	module	Miscellaneous > Chat	allowed	A0				
+ragnarock-alert	module	Miscellaneous > Combat	allowed	A0				
+rarity-tooltips	module	GUI	allowed	A0				
+render-hides	module	Miscellaneous > Render	allowed	A0				
+repo	core	Miscellaneous > General	allowed	A0				
+rift-helper	module	Miscellaneous > Rift	allowed	A0				
+rift-highlights	module	Miscellaneous > Rift	allowed	A0				
+sack-hud	module	HUD	allowed	A0				
+save-cursor-position	module	GUI	allowed	A0				
+combat-extras	module	Miscellaneous > Combat	allowed	A0				id renamed by migration 1005 (Q11)
+dungeon-tweaks	module	Dungeons	allowed	A0				options split over sections dungeons/secrets; id renamed by migration 1005 (Q11)
+fishing-extras	module	Fishing	allowed	A0				id renamed by migration 1005 (Q11)
+fishing-profit	module	Fishing	allowed	A0				id renamed by migration 1005 (Q11)
+foraging-extras	module	Miscellaneous > Foraging	allowed	A0				id renamed by migration 1005 (Q11)
+foraging-profit	module	Miscellaneous > Foraging	allowed	A0				id renamed by migration 1005 (Q11)
+hunting-extras	module	Miscellaneous > Foraging	allowed	A0				id renamed by migration 1005 (Q11)
+hunting-profit	module	Miscellaneous > Foraging	allowed	A0				id renamed by migration 1005 (Q11)
+inventory-extras	module	GUI	allowed	A0				id renamed by migration 1005 (Q11)
+lava-replacement	module	Fishing	red	R4				id renamed by migration 1005 (Q11)
+misc-tweaks	module	Miscellaneous > Misc	allowed	A0				id renamed by migration 1005 (Q11)
+rift-misc	module	Miscellaneous > Rift	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3); id renamed by migration 1005 (Q11)
+rift-areas	module	Miscellaneous > Rift	allowed	A0				id renamed by migration 1005 (Q11)
+rift-dance-room	module	Miscellaneous > Rift	allowed	A0				id renamed by migration 1005 (Q11)
+rift-dreadfarm	module	Miscellaneous > Rift	allowed	A0				id renamed by migration 1005 (Q11)
+rift-effigies	module	Miscellaneous > Rift	allowed	A0				id renamed by migration 1005 (Q11)
+rift-enigma-souls	module	Miscellaneous > Rift	allowed	A0				id renamed by migration 1005 (Q11)
+rift-extras	module	Miscellaneous > Rift	allowed	A0				id renamed by migration 1005 (Q11)
+rift-mob-highlights	module	Miscellaneous > Rift	allowed	A0				id renamed by migration 1005 (Q11)
+rift-living-cave	module	Miscellaneous > Rift	allowed	A0				id renamed by migration 1005 (Q11)
+rift-motes	module	Miscellaneous > Rift	allowed	A0				id renamed by migration 1005 (Q11)
+rift-parkour	module	Miscellaneous > Rift	allowed	A0				id renamed by migration 1005 (Q11)
+rift-puzzles	module	Miscellaneous > Rift	allowed	A0				id renamed by migration 1005 (Q11)
+sea-creature-settings	module	Fishing	allowed	A0				id renamed by migration 1005 (Q11)
+sea-creature-extras	module	Fishing	allowed	A0				id renamed by migration 1005 (Q11)
+shard-checklist	module	Miscellaneous > Foraging	allowed	A0				id renamed by migration 1005 (Q11)
+slayer-extras	module	Miscellaneous > Slayers	allowed	A0				id renamed by migration 1005 (Q11)
+stranded	module	Miscellaneous > Misc	allowed	A0				id renamed by migration 1005 (Q11)
+thunder-sparks	module	Fishing	allowed	A0				id renamed by migration 1005 (Q11)
+trophy-fillet	module	Fishing	allowed	A0				id renamed by migration 1005 (Q11)
+trophy-fishing	module	Fishing	allowed	A0				id renamed by migration 1005 (Q11)
+shadow-assassin-finder	module	Dungeons	red	R2				
+sharpshooter	module	Dungeons	red	R4				
+sign-enter-confirm	module	GUI	allowed	A0				
+skill-overlay	module	HUD	allowed	A0				
+skyblock-chat-filters	module	Miscellaneous > Chat	allowed	A0				
+slayer-overlay	module	Miscellaneous > Slayers	allowed	A0				
+slot-locking	module	GUI	allowed	A0				
+solid-menus	module	GUI	allowed	A0				
+spirit-bear-timer	module	Timers	allowed	A0				
+stack-size-numbers	module	GUI	allowed	A0				
+starlyn-coupon-profit	module	Miscellaneous > Foraging	allowed	A0				
+stat-bars	module	HUD	allowed	A0				
+stat-bars-action-bar	module	HUD	allowed	A0				
+stat-bars-vanilla	module	HUD	allowed	A0				
+storage-overlay	module	GUI	red	C2		always-replace		Page: custom screen forwards clicks + sends /storage; A6 says 1:1 custom menus are Allowed. Q6 default: Page call kept
+streamer-mode	module	Miscellaneous > Misc	allowed	A0				
+terminal-extras	module	Dungeons	allowed	A0				
+terminal-solver	module	Dungeons	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3); see section 3.3
+terracotta-timer	module	Timers	allowed	A0				
+timers-overlay	module	Timers	allowed	A0				
+timer-boards	core	Timers	allowed	A0				
+toolkit-key	module	GUI	allowed	A5				Ashton 29 Oct 01:23: one press = one vanilla action (select slot, or one normal right-click)
+treecapitator	module	Timers	allowed	A0				
+trevor	module	Farming	allowed	A0				
+value-protection	module	GUI	allowed	A0				
+vesuvius	module	Miscellaneous > Crimson Isle	allowed	A0				
+wardrobe-keybinds	module	GUI	allowed	A5				
+warp-menu	module	GUI	allowed	A0				
+waypoint-style	core	Miscellaneous > General	allowed	A0				
+waypoint-looks	core	Miscellaneous > General	allowed	A0				
+waypoints	module	Miscellaneous > Render	allowed	A0				
+wishing-compass	module	Mining	allowed	A0				
+wither-dragons	module	Dungeons	allowed	A0				mixed: own row allowed, options tagged (DESIGN 3.3); (Q4 default)
+world-lines	core	Miscellaneous > Render	allowed	A0				
+ah-price-tools.lbin-minus-one	option		red	C2				Page: types a value into a sign. Q6 default: Page call kept
+auto-completions.prevent-early-commands	option		allowed	A4				Page says red; Q3 default: Allowed (17:14 group rule is later)
+auto-completions.transfer-cooldown	option		allowed	A4				code FeatureRisk has SOFT: fix
+bang-shortcuts.dm-invite-prompt	option		allowed	A0				Ashton 29 Oct: local click line only; /p invite is sent once per click, never on its own
+bang-shortcuts.others-prompts	option		allowed	A0				Ashton 29 Oct 01:25: local click lines only, rate-limited; each click sends one command, nothing on its own
+breakable-walls.superboom	option		purple	P1				
+breakable-walls.through-walls	option		purple	P1				
+crimson-isle.sulphur-skitter-box	option		red	R1				box around the sponge-block area (SulphurSkitterBox.kt:24)
+custom-chat-commands	screen	Miscellaneous > Chat	red	C2				Q8 default: keep red; screen entry attached to the Chat category (no holder)
+dungeon-extras.nearest-door-highlight	option		allowed	A3				Q1 default: doors through walls Allowed (16:21, latest); Page red, 16:14 purple
+dungeon-extras.nearest-door-path	option		allowed	A1				
+dungeon-secrets.chests-through-walls	option		red	R1				
+dungeon-secrets.crypts-through-walls	option		red	R1				
+dungeon-secrets.minibosses-through-walls	option		allowed	A3				
+dungeon-secrets.wayfinder	option		red	R1				Q4 default: Ashton named the secret wayfinder (16:14), keeps red
+dungeon-splits.auto-extra-stats	option		red	C1				Page: "Ashton: Auto show extra stats, red"
+experimentation-table.block-wrong-clicks	option		purple	P2				
+f7-devices.arrow-align	option		allowed	A2				
+f7-devices.arrow-align-block-wrong	option		purple	P3				
+f7-devices.simon-says	option		allowed	A2				
+f7-devices.simon-says-block-wrong	option		purple	P2				
+garden-tools.no-break	option		purple	P2				Page Allowed; Q6: click blocker stays purple (Ashton confirmed 28 Oct 09:43)
+garden-tools.phantomleaf-solver	option		allowed	A2				Page red; Q4 default: display solver, Allowed (16:21 rule)
+garden-tools.sensitivity-reducer	option		red	C2				Page: changes mouse input. Q6 default: Page call kept
+hunting-risky.beacon-solver	option		allowed	A2				
+hunting-risky.hidden-mob-finder	option		red	R2				
+hunting-risky.temple-solver	option		allowed	A2				
+hypixel-resource-pack.skip-pack	option		red	C2				Page: tells the server the pack loaded when it did not. Q6 default: Page call kept
+king-relics.beacon	option		red	C1				Page: "Ashton: through-walls" (cauldron beacon)
+kuudra-info.pile-waypoints	option		allowed	A1				Page red; Q4 default: waypoints, Allowed (16:21 rule)
+kuudra-info.pre-alert	option		red	C2				Page: alert is local only now. Q6 default: Page call kept
+kuudra-supplies.drop-waypoints	option		allowed	A1				Page red; Q4 default: waypoints, Allowed (16:21 rule)
+kuudra-supplies.pearl-waypoints	option		allowed	A1				Page red; Q4 default: waypoints, Allowed (16:21 rule)
+kuudra-supplies.render-area	option		allowed	A1				Page red; Q4 default: labels, Allowed (16:21 rule)
+max-buy.prefill-amount	option		red	C2				Page: types a value into a sign. Q6 default: Page call kept
+mining-risky.corpse-locator	option		allowed	A3				armour stands
+mining-risky.ghost-visibility	option		red	R2				
+mining-risky.items-through-walls	option		allowed	A3				dropped items (entities)
+mining-risky.ladder-locator	option		red	R1				
+mining-solvers.gemstone-waypoints	option		red	R1				gemstone blocks through walls
+plus-seasonal.treasure-highlight	option		red	R4				
+puzzle-solvers.leap-quadrants	option		red	C2				Page: red; it is a replacement menu that forwards the click 1:1, which A6 makes Allowed. Q6 default: Page call kept
+puzzle-solvers.lost-adventurer	option		allowed	C1			ashton	Q7: code behaviour kept (FORCED_OFF) although the Page says Allowed
+puzzle-solvers.spirit-leap-keybinds	option		allowed	C1				Page: "Ashton: Spirit Leap keybind, allowed"; code FeatureRisk has HARD: fix
+rift-misc.ubik-quick-close	option		red	C2				Page: closes the menu for you. Q6 default: Page call kept
+shadow-assassin-finder.invisible-mobs	option		red	R2				
+terminal-solver.block-wrong-clicks	option		purple	P2				
+terminal-solver.first-click-protection	option		allowed	C1				Ashton 28 Oct 09:43: allowed, no box (overrides the 08:50 purple default)
+wither-dragons.boxes	option		allowed	A3				Page red; Q4 default: mobs through walls, Allowed (16:21 rule)
+custom-skyblock-textures	module	Miscellaneous > Render	allowed	A1				Page: Custom SkyBlock Item Textures, allowed (Textures)
+jade-integration	module	Miscellaneous > General	allowed	A0			ashton	not on the Page; compat (Jade tooltips), Q9 rule-derived; newly tagged
+terminal-simulator	module	Dungeons	allowed	A0				Page: Terminal simulator (feat:termsim), allowed

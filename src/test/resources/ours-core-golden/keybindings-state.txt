@@ -1,0 +1,5 @@
+after press 65/30: 65=true 30=false
+after repeat: true
+after release: false
+after unknown action: false neg=threw IndexOutOfBoundsException negset=threw IndexOutOfBoundsException
+registry cats=true bindings=LinkedHashMap

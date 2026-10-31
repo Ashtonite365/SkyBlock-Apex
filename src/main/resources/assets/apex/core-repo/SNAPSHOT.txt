@@ -1,0 +1,5 @@
+NotEnoughUpdates-REPO snapshot (MIT, Copyright (c) 2020 Moulberry), https://github.com/NotEnoughUpdates/NotEnoughUpdates-REPO @ 75c2ecf80e0484f03ce21960e24a1b0dd562075a, copied 2026-10-17 from the repo the mod had downloaded.
+Only the file listed below is bundled, unmodified. See LICENSE-NEU-REPO.txt.
+It is the OFFLINE FALLBACK for the Enchant Item picker's conflict groups ("enchant_pools"); the live repo loaded by
+RepoManager is preferred whenever it is available.
+constants/enchants.json

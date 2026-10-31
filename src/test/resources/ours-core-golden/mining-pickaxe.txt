@@ -1,0 +1,29 @@
+id pickaxe-info types=[DRILL, GAUNTLET, PICKAXE]
+tools ALL all all [DRILL, PICKAXE, AXE, SHOVEL]
+tools PICKAXES_AND_DRILLS pick-and-drill pick-and-drill [DRILL, PICKAXE]
+tools DRILLS drills drills [DRILL]
+defaults {Mining Speed Boost=2m, Pickobulus=1m 50s, Gemstone Infusion=2m 20s, Hazardous Miner=2m 20s, Maniac Miner=59s, Vein Seeker=1m}
+pattern use You used your (?<name>.*) Pickaxe Ability!
+pattern fuel Fuel: .*/(?<maxFuel>[0-9]+(?:,[0-9]+)*(?:\.[0-9]+)?[kKmMbB]?)
+pattern cd Your pickaxe ability is on cooldown for (?<remainingCooldown>[0-9]+[ms])\.
+pattern now (?<name>[a-zA-Z0-9 ]+) is now available!
+pattern lore Cooldown: (?<cooldown>[0-9]+[ms])
+pattern switch You selected (?<ability>.*) as your Pickaxe Ability\. This ability will apply to all of your pickaxes!
+chat 'You used your Mining Speed Boost Pickaxe Ability!' ok override=Mining Speed Boost usage=[Mining Speed Boost:0]
+chat 'Your pickaxe ability is on cooldown for 30s.' ok override=Mining Speed Boost usage=[Mining Speed Boost:90]
+chat 'You selected Pickobulus as your Pickaxe Ability. This ability will apply to all of your pickaxes!' ok override=Pickobulus usage=[Mining Speed Boost:90]
+chat 'Your pickaxe ability is on cooldown for 1m.' ok override=Pickobulus usage=[Mining Speed Boost:90, Pickobulus:50]
+chat 'Your pickaxe ability is on cooldown for 5x.' ok override=Pickobulus usage=[Mining Speed Boost:90, Pickobulus:50]
+chat 'Mining Speed Boost is now available!' IllegalStateException override=Pickobulus usage=[Mining Speed Boost:far, Pickobulus:50]
+chat 'You used your Unknown Thing Pickaxe Ability!' ok override=Unknown Thing usage=[Mining Speed Boost:far, Pickobulus:50, Unknown Thing:0]
+chat 'Your pickaxe ability is on cooldown for 10s.' ok override=Unknown Thing usage=[Mining Speed Boost:far, Pickobulus:50, Unknown Thing:0]
+chat 'Pickobulus is now available!' IllegalStateException override=Unknown Thing usage=[Mining Speed Boost:far, Pickobulus:far, Unknown Thing:0]
+chat 'random chat' ok override=Unknown Thing usage=[Mining Speed Boost:far, Pickobulus:far, Unknown Thing:0]
+pct A 1m 0.50
+pct A 10s 1.00
+pct B 1m 1.00
+pct C 1m 1.00
+pct A 0s 1.00
+profileSwitch override=Unknown Thing usage=[]
+worldReady override=null join=0
+data PickaxeAbilityData(name=X, cooldown=5s)

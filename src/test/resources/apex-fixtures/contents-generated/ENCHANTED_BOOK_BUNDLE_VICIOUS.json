@@ -1,0 +1,17 @@
+{
+	"box": "ENCHANTED_BOOK_BUNDLE_VICIOUS",
+	"source": "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Book_Bundle",
+	"total_weight": null,
+	"drops": [
+		{
+			"type": "item",
+			"id": null,
+			"min": 5,
+			"max": 5,
+			"weight": null,
+			"chance": 1.0,
+			"note": "Vicious III (Hypixel id VICIOUS;3): book item not in Apex repo"
+		}
+	],
+	"note": "fixed contents stated by wiki"
+}

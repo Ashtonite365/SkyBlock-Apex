@@ -1,0 +1,218 @@
+== apex:crafting_recipe io.github.moulberry.repo.data.NEUCraftingRecipe@#
+item 36,43 SMALL_INPUT GOLD_BLOCKx1*0rnullpnull[]
+craft set
+item 36,7 SMALL_INPUT RED_SANDSTONEx1*0rnullpnull[]
+inputs [[RED_SANDSTONEx1*0rnullpnull[]], [RED_SANDSTONEx1*0rnullpnull[]], [RED_SANDSTONEx1*0rnullpnull[]], [RED_SANDSTONEx1*0rnullpnull[]]]
+item 18,25 SMALL_INPUT DRAGON_HORNx1*0rnullpnull[]
+item 54,43 SMALL_INPUT CRYSTAL_FRAGMENTx8*0rnullpnull[]
+arrow 77,24
+item 54,7 SMALL_INPUT IRON_INGOTx1*0rnullpnull[]
+run craft -> [cmd craft]
+item 36,25 SMALL_INPUT -
+outputs [[SMOOTH_BRICK-3x1*0rnullpnull[]]]
+item 18,43 SMALL_INPUT -
+item 112,25 BIG_OUTPUT KUUDRA_INFERNAL_TIER_KEYx1*0rnullpnull[]
+item 18,7 SMALL_INPUT ENCHANTED_REDSTONEx8*0rnullpnull[]
+item 54,25 SMALL_INPUT ENCHANTED_REDSTONEx8*0rnullpnull[]
+== apex:crafting_recipe io.github.moulberry.repo.data.NEUCraftingRecipe@#
+item 36,25 SMALL_INPUT ENCHANTED_EMERALD_BLOCKx1*0rnullpnull[]
+outputs [[EMERALD_ARMOR_CHESTPLATEx1*0rnullpnull[]]]
+item 18,43 SMALL_INPUT -
+item 112,25 BIG_OUTPUT HOLY_DRAGON_BOOTSx1*0rnullpnull[]
+item 18,7 SMALL_INPUT -
+item 54,25 SMALL_INPUT ROUGH_AQUAMARINE_GEMx16*0rnullpnull[]
+== apex:crafting_recipe io.github.moulberry.repo.data.NEUCraftingRecipe@#
+item 36,25 SMALL_INPUT ENCHANTED_HARD_STONEx64*0rnullpnull[]
+outputs [[CONCENTRATED_STONEx1*0rnullpnull[]]]
+item 18,25 SMALL_INPUT WHEATx10*0rnullpnull[]
+item 54,43 SMALL_INPUT WHEATx10*0rnullpnull[]
+arrow 90,45
+outputs [[AMBER_MATERIALx1*0rnullpnull[]]]
+item 41,76 SMALL_INPUT SKYBLOCK_COINx50000*0rnullpnull[]
+== apex:forge_recipe io.github.moulberry.repo.data.NEUForgeRecipe@#
+item 124,46 BIG_OUTPUT DWARVEN_METALx1*0rnullpnull[]
+flame 41,46 25
+== apex:forge_recipe io.github.moulberry.repo.data.NEUForgeRecipe@#
+inputs [[GLOSSY_GEMSTONEx32*0rnullpnull[]], [FLAWLESS_AMETHYST_GEMx2*0rnullpnull[]]]
+item 41,28 SMALL_INPUT STARFALLx256*0rnullpnull[]
+hover 90,45,24x17 [{"extra":[{"translate":"apex.recipe.forge.time","with":["30s"]},"\n","Requires: HotM 5"],"text":""}]
+inputs [[REFINED_DIAMONDx5*0rnullpnull[]], [REFINED_TITANIUMx10*0rnullpnull[]], [FUEL_TANKx5*0rnullpnull[]], [MITHRIL_FUEL_TANKx1*0rnullpnull[]]]
+item 41,28 SMALL_INPUT ENCHANTED_MITHRILx3*0rnullpnull[]
+hover 90,45,24x17 [{"extra":[{"translate":"apex.recipe.forge.time","with":["3h"]},"\n","Requires: Umber VI & HotM 7"],"text":""}]
+craft null
+item 16,63 SMALL_INPUT PRECURSOR_APPARATUSx16*0rnullpnull[]
+== apex:forge_recipe io.github.moulberry.repo.data.NEUForgeRecipe@#
+outputs [[DIAMONITEx1*0rnullpnull[]]]
+item 124,46 BIG_OUTPUT MITHRIL_NECKLACEx1*0rnullpnull[]
+item 122,25 SMALL_OUTPUT INFERNAL_CRIMSON_CHESTPLATEx1*1rnullpnull[]
+item 12,34 SMALL_INPUT ESSENCE_CRIMSONx55*0rnullpnull[]
+== apex:essence_upgrade EssenceUpgradeRecipe(itemId=TARANTULA_LEGGINGS, starCountAfter=1, essenceCost=10, essenceType=ESSENCE_SPIDER, extraItems=[])
+craft null
+item 76,24 SMALL_INPUT SKYBLOCK_COINx2500000*0rnullpnull[]
+item 122,25 SMALL_OUTPUT DIAMOND_PROFESSOR_HEADx1*1rnullpnull[]
+item 12,34 SMALL_INPUT ESSENCE_UNDEADx10*0rnullpnull[]
+item 12,16 SMALL_INPUT INFERNAL_HOLLOW_LEGGINGSx1*6rnullpnull[]
+craft null
+inputs [[WISE_DRAGON_HELMETx1*0rnullpnull[]], [ESSENCE_DRAGONx150*0rnullpnull[]], [SKYBLOCK_COINx25000*0rnullpnull[]]]
+arrow 63,25
+item 122,25 SMALL_OUTPUT INFERNAL_HOLLOW_CHESTPLATEx1*13rnullpnull[]
+== apex:essence_upgrade EssenceUpgradeRecipe(itemId=CRYPT_WITHERLORD_CHESTPLATE, starCountAfter=3, essenceCost=40, essenceType=ESSENCE_UNDEAD, extraItems=[])
+craft null
+inputs [[DIAMOND_SADAN_HEADx1*0rnullpnull[]], [ESSENCE_DIAMONDx250*0rnullpnull[]], [SKYBLOCK_COINx10000*0rnullpnull[]]]
+label 78,19 ""
+slot 10,24 SMALL_INPUT [TITANIUM_PICKAXEx1*0rnullpnull[],RUSTY_TITANIUM_PICKAXEx1*0rnullpnull[],WOOD_PICKAXEx1*0rnullpnull[],IRON_PICKAXEx1*0rnullpnull[],ELLES_PICKAXEx1*0rnullpnull[],GOLD_PICKAXEx1*0rnullpnull[],ALPHA_PICKx1*0rnullpnull[],DIAMOND_PICKAXEx1*0rnullpnull[],PICKONIMBUSx1*0rnullpnull[],FRACTURED_MITHRIL_PICKAXEx1*0rnullpnull[],STONE_PICKAXEx1*0rnullpnull[],JUNGLE_PICKAXEx1*0rnullpnull[],BINGONIMBUS_2000x1*0rnullpnull[],LAPIS_PICKAXEx1*0rnullpnull[],BANDAGED_MITHRIL_PICKAXEx1*0rnullpnull[],MITHRIL_PICKAXEx1*0rnullpnull[],REFINED_MITHRIL_PICKAXEx1*0rnullpnull[],STONK_PICKAXEx1*0rnullpnull[],ZOMBIE_PICKAXEx1*0rnullpnull[],PROMISING_PICKAXEx1*0rnullpnull[],REFINED_TITANIUM_PICKAXEx1*0rnullpnull[],ROOKIE_PICKAXEx1*0rnullpnull[]]
+craft null
+inputs []
+label 78,19 ""
+outputs []
+draw ERR:NullPointerException
+label 78,8 ""
+item 58,24 SMALL_OUTPUT -
+craft null
+item 34,14 SMALL_INPUT ENTROPY_SUPPRESSORx1*0rnullpnull[]
+slot 10,24 SMALL_INPUT [ASPECT_OF_THE_JERRYx1*0rnullpnull[],ASPECT_OF_THE_JERRY_SIGNATUREx1*0rnullpnull[]]
+hover 34,34,16x16 [{"extra":[{"color":"white","text":"COMMON"},": ",{"bold":false,"color":"gold","italic":false,"text":"1 Coins"}],"text":""}, {"extra":[{"color":"green","text":"UNCOMMON"},": ",{"bold":false,"color":"gold","italic":false,"text":"2 Coins"}],"text":""}, {"extra":[{"color":"blue","text":"RARE"},": ",{"bold":false,"color":"gold","italic":false,"text":"3 Coins"}],"text":""}]
+label 78,8 ""
+== apex:reforge_recipe Reforge(prefixName=Pitchin', stoneId=PITCHIN_KOI, modifierOverride=null, onlyRarities=[COMMON, UNCOMMON, RARE, EPIC, LEGENDARY, MYTHIC], typeField=[OfKind(kind=ROD)], allowList=null, costByTier=Tabled(values={COMMON=5000.0, UNCOMMON=20000.0, RARE=40000.0, EPIC=80000.0, LEGENDARY=120000.0, MYTHIC=280000.0}), abilityByTier=null, statsByTier=Tabled(values={COMMON={fishing_speed=1.0, sea_creature_chance=1.0}, UNCOMMON={fishing_speed=2.0, sea_creature_chance=1.0}, RARE={fishing_speed=4.0, sea_creature_chance=2.0}, EPIC={fishing_speed=6.0, sea_creature_chance=3.0}, LEGENDARY={fishing_speed=8.0, sea_creature_chance=4.0}, MYTHIC={fishing_speed=10.0, sea_creature_chance=5.0}}))
+hover 34,34,16x16 [{"extra":[{"color":"white","text":"COMMON"},": ",{"bold":false,"color":"gold","italic":false,"text":"5,000 Coins"}],"text":""}, {"extra":[{"color":"green","text":"UNCOMMON"},": ",{"bold":false,"color":"gold","italic":false,"text":"20,000 Coins"}],"text":""}, {"extra":[{"color":"blue","text":"RARE"},": ",{"bold":false,"color":"gold","italic":false,"text":"40,000 Coins"}],"text":""}, {"extra":[{"color":"dark_purple","text":"EPIC"},": ",{"bold":false,"color":"gold","italic":false,"text":"80,000 Coins"}],"text":""}, {"extra":[{"color":"gold","text":"LEGENDARY"},": ",{"bold":false,"color":"gold","italic":false,"text":"120,000 Coins"}],"text":""}, {"extra":[{"color":"light_purple","text":"MYTHIC"},": ",{"bold":false,"color":"gold","italic":false,"text":"280,000 Coins"}],"text":""}]
+label 78,8 ""
+outputs []
+outputs [[LYNX_TALISMANx1*0rnullpnull[]]]
+outputs [[FROZEN_CHICKENx1*0rnullpnull[]]]
+outputs [[JELLYFISH;3x1*0rnullpPetData(rarity=EPIC, petId=JELLYFISH, exp=0.0, isStub=true)[]]]
+outputs [[NOPE_THE_FISHx1*0rnullpnull[]]]
+outputs [[PET_ITEM_FARMING_SKILL_BOOST_EPICx1*0rnullpnull[]]]
+outputs [[FALLEN_STAR_HATx1*0rnullpnull[]]]
+inputs [[GLOWSTONE_DUSTx1*0rnullpnull[]]]
+item 102,7 BIG_OUTPUT EMERALDx1*0rnullpnull[]
+hover 63,11,24x17 ["§7Amount: 68-74"]
+arrow 63,11
+item 30,11 SMALL_INPUT GOLD_INGOTx1*0rnullpnull[]
+== apex:trade_recipe io.github.moulberry.repo.data.NEUTradeRecipe@#
+== apex:kat_recipe io.github.moulberry.repo.data.NEUKatUpgradeRecipe@#
+inputs [[PIGMAN;3x1*0rnullpPetData(rarity=EPIC, petId=PIGMAN, exp=0.0, isStub=true)[]], [ENCHANTED_GRILLED_PORKx8*0rnullpnull[]]]
+hover 84,8,24x17 ["§6250,000 coins", "§7Time: 5d"]
+item 6,8 SMALL_INPUT ELEPHANT;3x1*0rnullpPetData(rarity=EPIC, petId=ELEPHANT, exp=0.0, isStub=true)[]
+craft null
+item 120,4 BIG_OUTPUT PARROT;4x1*0rnullpPetData(rarity=LEGENDARY, petId=PARROT, exp=0.0, isStub=true)[]
+hover 84,8,24x17 ["§675,000 coins", "§7Time: 2d"]
+item 6,8 SMALL_INPUT ZOMBIE;2x1*0rnullpPetData(rarity=RARE, petId=ZOMBIE, exp=0.0, isStub=true)[]
+craft null
+item 120,4 BIG_OUTPUT TURTLE;4x1*0rnullpPetData(rarity=LEGENDARY, petId=TURTLE, exp=0.0, isStub=true)[]
+arrow 84,8
+== apex:kat_recipe io.github.moulberry.repo.data.NEUKatUpgradeRecipe@#
+outputs [[SHEEP;2x1*0rnullpPetData(rarity=RARE, petId=SHEEP, exp=0.0, isStub=true)[]]]
+item 120,4 BIG_OUTPUT BLUE_WHALE;2x1*0rnullpPetData(rarity=RARE, petId=BLUE_WHALE, exp=0.0, isStub=true)[]
+arrow 84,8
+== apex:kat_recipe io.github.moulberry.repo.data.NEUKatUpgradeRecipe@#
+outputs [[MITHRIL_GOLEM;3x1*0rnullpPetData(rarity=EPIC, petId=MITHRIL_GOLEM, exp=0.0, isStub=true)[]]]
+item 78,20 SMALL_OUTPUT FLAWED_JADE_GEMx1*0rnullpnull[§7Chance: §e20%]
+inputs []
+click 0,0,56x100
+item 96,38 SMALL_OUTPUT MASTER_SKULL_TIER_1x1*0rnullpnull[§e§lChest Price: §6250,000 coins|§7Chance: §e3.8%]
+text 5,4 w140 ["§cDeformed Revenant"]
+== apex:mob_drop_recipe MobPageRef(mobId=gaia_construct_monster)
+item 114,20 SMALL_OUTPUT ENCHANTED_IRONx1*0rnullpnull[§7Chance: §e100%]
+run click 0,0,56x100 -> [tab.mobs gaia_construct_monster]
+item 96,20 SMALL_OUTPUT LAVATEARS_RUNE;1x1*0rnullpnull[§7Chance: §e1.06%]
+item 78,56 SMALL_OUTPUT MAGMA_CREAM_DISTILLATEx1*0rnullpnull[§7Chance: §e3.72%]
+outputs [[DERELICT_ASHEx1*0rnullpnull[x60-80|§7Chance: §e100%]], [ENCHANTED_BLAZE_POWDERx1*0rnullpnull[x4-8|§7Chance: §e12.68%]], [LAVATEARS_RUNE;1x1*0rnullpnull[§7Chance: §e1.06%]], [ARROW_BUNDLE_MAGMAx1*0rnullpnull[§7Chance: §e7.98%]], [MANA_DISINTEGRATORx1*0rnullpnull[§7Chance: §e3.72%]], [SCORCHED_BOOKSx1*0rnullpnull[§7Chance: §e2.13%]], [KELVIN_INVERTERx1*0rnullpnull[§7Chance: §e2.66%]], [BLAZE_ROD_DISTILLATEx1*0rnullpnull[§7Chance: §e3.72%]], [GLOWSTONE_DUST_DISTILLATEx1*0rnullpnull[§7Chance: §e3.72%]], [MAGMA_CREAM_DISTILLATEx1*0rnullpnull[§7Chance: §e3.72%]], [NETHER_STALK_DISTILLATEx1*0rnullpnull[§7Chance: §e3.72%]], [CRUDE_GABAGOOL_DISTILLATEx1*0rnullpnull[§7Chance: §e7.45%]], [SCORCHED_POWER_CRYSTALx1*0rnullpnull[§7Chance: §e3.19%]], [ARCHFIEND_DICEx1*0rnullpnull[§7Chance: §e1.06%]], [DYE_FLAMEx1*0rnullpnull[§7Chance: §e0.0001%]]]
+item 60,20 SMALL_OUTPUT BLAZE_RODx1*0rnullpnull[§7Chance: §ex32]
+outputs [[BLAZE_RODx1*0rnullpnull[§7Chance: §ex32]], [BLAZE_ASHESx1*0rnullpnull[§7Chance: §e20%]], [MILLENIA_OLD_BLAZE_ASHESx1*0rnullpnull[§7Chance: §e4.5%]], [NETHERRACK_LOOKING_SUNSHADEx1*0rnullpnull[§7Chance: §e1%]], [SMOLDERING;1x1*0rnullpnull[§7Chance: §e0.016%]], [DYE_CYCLAMENx1*0rnullpnull[§7Chance: §e0.00004%]]]
+item 60,20 SMALL_OUTPUT SHARK_FINx2*0rnullpnull[§7Chance: §e100%]
+mob revenant_horror 5,15,50x80 ["§6Revenant Horror IV", "§eClick to open in the Mobs tab"]
+item 60,38 SMALL_OUTPUT SMITE;6x1*0rnullpnull[§7Chance: §e0.81%]
+item 114,56 SMALL_OUTPUT ZOMBIE_SLAYER_RUNE;1x1*0rnullpnull[§7Chance: §e0.67%]
+item 96,92 SMALL_OUTPUT BEHEADED_HORRORx1*0rnullpnull[§7Chance: §e0.08%]
+== apex:mob_drop_recipe MobPageRef(mobId=skeleton_monster)
+craft null
+inputs []
+click 0,0,56x100
+run click 0,0,56x100 -> [tab.mobs treasure_hoarder]
+item 96,20 SMALL_OUTPUT WISE_FRAGMENTx1*0rnullpnull[§7Chance: §e100%]
+item 78,56 SMALL_OUTPUT DRAGON_CLAWx1*0rnullpnull[§7Chance: §e2% per Summoning Eye]
+mob zombie_miner 4,4,50x80 ["[Lv150] §cAbyssal Miner"]
+item 130,16 DISPLAY ROUGH_JADE_GEMx20*0rnullpnull[§7Chance: §e100%]
+craft null
+item 94,16 DISPLAY CORLEONITEx1*0rnullpnull[§7Chance: §e25%]
+text 58,4 w98 ["§cDeformed Revenant"]
+== apex:skyblock_mobs MobPageRef(mobId=frozille)
+inputs [[FROZILLE_MONSTERx1*0rnullpnull[]]]
+item 58,16 DISPLAY DERELICT_ASHEx1*0rnullpnull[x12-22|§7Chance: §e100%]
+item 94,34 DISPLAY GLOWSTONE_DUST_DISTILLATEx1*0rnullpnull[§7Chance: §e3.93%]
+outputs [[INFERNO_DEMONLORD_2_BOSSx1*0rnullpnull[]]]
+item 76,16 DISPLAY BLAZE_ASHESx1*0rnullpnull[§7Chance: §e20%]
+outputs [[MILLENIA_AGED_BLAZE_MONSTERx1*0rnullpnull[]]]
+item 76,16 DISPLAY WALNUTx1*0rnullpnull[§7Chance: §e100%]
+craft null
+item 94,16 DISPLAY ZOMBIE_SLAYER_RUNE;1x1*0rnullpnull[§7Chance: §e6.33%]
+item 130,34 DISPLAY DYE_MATCHAx1*0rnullpnull[§7Chance: §e0.0002%]
+item 76,70 DISPLAY UNDEAD_CATALYSTx1*0rnullpnull[§7Chance: §e2.01%]
+outputs [[REVENANT_HORROR_4_BOSSx1*0rnullpnull[]], [REVENANT_HORROR_2_BOSSx1*0rnullpnull[]], [REVENANT_HORROR_3_BOSSx1*0rnullpnull[]], [REVENANT_HORROR_1_BOSSx1*0rnullpnull[]]]
+item 76,16 DISPLAY SKELETON_GRUNT_HELMETx1*0rnullpnull[§7Chance: §e5%]
+outputs [[SKELETON_GRUNT_MONSTERx1*0rnullpnull[]]]
+item 76,16 DISPLAY SUPER_HEAVY_CHESTPLATEx1*0rnullpnull[§7Chance: §e5%]
+outputs [[SUPER_TANK_ZOMBIE_MONSTERx1*0rnullpnull[]]]
+item 76,16 DISPLAY ENCHANTED_SLIME_BALLx1*0rnullpnull[§7Chance: §e50%]
+mob wise_ender_dragon_boss 4,4,50x80 ["[Lv100] §bWise Ender Dragon"]
+item 130,16 DISPLAY WISE_DRAGON_CHESTPLATEx1*0rnullpnull[§7Chance: §e30%]
+lookup [WISE_ENDER_DRAGON_BOSSx1*0rnullpnull[]]
+  line 0 "§lHow to obtain" -
+  line 7 "§lBazaar / AH" -
+== apex:how_to_get ItemPageRef(itemId=TOY)
+  line 4 "§7No recipe produces this item" -
+craft null
+  line 1 "§7https://wiki.hypixel.net/Arachne" -
+  line 8 "§b> No live price" act
+item 4,4 SMALL_OUTPUT PET_SKIN_SHEEP_PINKx1*0rnullpnull[]
+  line 5 "§lMob drops" -
+run line 2 -> [] ERR:NullPointerException
+  line 2 "§b> Open wiki page" act
+inputs []
+scroll 4,24,162x134 8
+  line 6 "§lBazaar / AH" -
+== apex:how_to_get ItemPageRef(itemId=DIAMOND_ORE)
+  line 4 "§lMob drops" -
+run line 1 -> [] ERR:NullPointerException
+  line 2 "§b> Open wiki page" act
+inputs []
+scroll 4,24,162x134 9
+  line 6 "§7Not dropped by any known mob" -
+run line 8 -> [tab.prices WINONA_NPC]
+  line 3 "§lCrafting / recipes" -
+outputs [[PET_SKIN_SHEEP_BLACK_WOOLYx1*0rnullpnull[]]]
+  line 0 "§lHow to obtain" -
+  line 7 "§lBazaar / AH" -
+== apex:how_to_get ItemPageRef(itemId=HEAVY_PEARL)
+  line 4 "§7No recipe produces this item" -
+craft null
+item 93,24 BIG_OUTPUT SILKRIDER_SAFETY_BELTx1*0rnullpnull[]
+item 43,24 SMALL_INPUT SKYBLOCK_COINx1000*0rnullpnull[]
+arrow 61,27
+item 64,9 DISPLAY EINARY_NPCx1*0rnullpnull[]
+craft null
+outputs [[ADVANCED_GARDENING_HOEx1*0rnullpnull[]]]
+inputs [[SKYBLOCK_COINx1000*0rnullpnull[]]]
+item 43,24 SMALL_INPUT ENCHANTED_RED_SANDx2*0rnullpnull[]
+item 64,9 DISPLAY ADVENTURER_NPCx1*0rnullpnull[]
+== apex:npc_shopping io.github.moulberry.repo.data.NEUNpcShopRecipe@#
+craft null
+outputs [[MINING_PUMPKINx1*0rnullpnull[]]]
+inputs [[SKYBLOCK_COINx60000*0rnullpnull[]]]
+item 93,24 BIG_OUTPUT POTIONx1*0rnullpnull[]
+item 4,34 SMALL_OUTPUT AMMONITE;4x1*0rnullpPetData(rarity=LEGENDARY, petId=AMMONITE, exp=0.0, isStub=true)[]
+item 4,34 SMALL_OUTPUT BEE;0x1*0rnullpPetData(rarity=COMMON, petId=BEE, exp=0.0, isStub=true)[]
+craft null
+item 58,34 SMALL_OUTPUT DOLPHIN;3x1*0rnullpPetData(rarity=EPIC, petId=DOLPHIN, exp=0.0, isStub=true)[]
+label 32,8 "4 rarities §8(cycling)"
+craft null
+craft null
+item 58,34 SMALL_OUTPUT HORSE;3x1*0rnullpPetData(rarity=EPIC, petId=HORSE, exp=0.0, isStub=true)[]
+label 32,8 "1 rarities §8(cycling)"
+label 32,8 "5 rarities §8(cycling)"
+outputs [[OCELOT;0x1*0rnullpPetData(rarity=COMMON, petId=OCELOT, exp=0.0, isStub=true)[],OCELOT;1x1*0rnullpPetData(rarity=UNCOMMON, petId=OCELOT, exp=0.0, isStub=true)[],OCELOT;2x1*0rnullpPetData(rarity=RARE, petId=OCELOT, exp=0.0, isStub=true)[],OCELOT;3x1*0rnullpPetData(rarity=EPIC, petId=OCELOT, exp=0.0, isStub=true)[],OCELOT;4x1*0rnullpPetData(rarity=LEGENDARY, petId=OCELOT, exp=0.0, isStub=true)[]], [OCELOT;0x1*0rnullpPetData(rarity=COMMON, petId=OCELOT, exp=0.0, isStub=true)[]], [OCELOT;1x1*0rnullpPetData(rarity=UNCOMMON, petId=OCELOT, exp=0.0, isStub=true)[]], [OCELOT;2x1*0rnullpPetData(rarity=RARE, petId=OCELOT, exp=0.0, isStub=true)[]], [OCELOT;3x1*0rnullpPetData(rarity=EPIC, petId=OCELOT, exp=0.0, isStub=true)[]], [OCELOT;4x1*0rnullpPetData(rarity=LEGENDARY, petId=OCELOT, exp=0.0, isStub=true)[]]]
+inputs []
+item 22,34 SMALL_OUTPUT SHEEP;1x1*0rnullpPetData(rarity=UNCOMMON, petId=SHEEP, exp=0.0, isStub=true)[]
+== apex:pet_rarities PetBaseRef(base=SNOWMAN)
+craft null
+inputs []

@@ -1,0 +1,31 @@
+base jar:file:/a/b.jar!/dev/x/Y.class -> file:/a/b.jar
+base file:/r/dev/ashtonite365/apex/init/AutoDiscoveryPlugin.class -> file:/r/
+base file:/r/ -> file:/r/
+base file:/r/other/Thing.class -> file:/r/other/Thing.class
+base jar:file:/a/c.jar!/ -> file:/a/c.jar
+pkg dev.ashtonite365.apex.mixins dev/ashtonite365/apex/mixins
+scan missing=[] extra=[] dupes=0
+sameInstance true
+try dev/ashtonite365/apex/mixins/Foo.class ok
+try dev\ashtonite365\apex\mixins\Bar.class ok
+try dev/ashtonite365/apex/mixins/Foo.txt ok
+try dev/ashtonite365/apex/mixinsX/Baz.class ok
+try dev/ashtonite365/apex/mixins/.class ok
+try dev/ashtonite365/apex/mixins/sub/Q.class IllegalArgumentException
+try dev.ashtonite365.apex.mixins.Dotted.class ok
+try other/Foo.class ok
+added [Foo, Bar, Dotted]
+registered true
+defaults true true
+mp pkg=dev.ashtonite365.apex.mixins refmap=null inInstances=true
+mp mixins=true
+mp expected=145 true
+apply dev.ashtonite365.apex.mixins.devenv.X false req(none)=true req(all)=true
+apply devenv.X false req(none)=true req(all)=true
+apply dev.ashtonite365.apex.mixins.sodium.Y true req(none)=false req(all)=true
+apply sodium.Y true req(none)=false req(all)=true
+apply dev.ashtonite365.apex.mixins.Normal true req(none)=true req(all)=true
+apply Normal true req(none)=true req(all)=true
+apply xsodium.Z true req(none)=true req(all)=true
+req(null) true
+applied [a.B] list=[a.B, a.B]

@@ -1,0 +1,63 @@
+SkyBlock Apex - clean public source copy (prepared 1 Nov 2026, Australia/Sydney)
+Source: branch fix-sweep-1101, commit 947f13918 (f626a99eb + old Fast Travel map removal),
+plus the 4 uncommitted files that are built into the jar: src/main/kotlin/commands/ApexCommands.kt,
+src/main/kotlin/features/dungeon/DungeonMap.kt, src/test/kotlin/features/dungeon/RoomFootprintTest.kt,
+src/test/kotlin/features/world/WaypointCompletionTest.kt.
+Matching jar: SkyBlockApex-sweep-1101-f626a99e.jar (sha256 984629519af265271aee9e383ebe4459554cb7458d58f2a00198cc91a89eba87);
+the 947f13918 change only touches CREDITS text, REUSE.toml and the non-jar archive folder.
+Size: about 163M, 3496 files (most of it is test golden data under src/test/resources).
+Licence: GPL-3.0-or-later (LICENSE, LICENSES/, NOTICE, CREDITS.md, REUSE.toml).
+
+Top level:
+  .editorconfig
+  .envrc
+  .github
+  .gitignore
+  .pre-commit-config.yaml
+  CONTRIBUTING.md
+  CREDITS.md
+  INVENTORY.md
+  LICENSE
+  LICENSES
+  LOD-DESIGN.md
+  MANIFEST.txt
+  NOTICE
+  README.md
+  REUSE.toml
+  build-logic
+  build.gradle.kts
+  check-translation-ordering.sh
+  custom-menus
+  docs
+  gradle
+  gradle.properties
+  gradlew
+  gradlew.bat
+  javaplugin
+  scripts
+  settings.gradle.kts
+  shell.nix
+  src
+  symbols
+  test-libs
+  testagent
+  third-party-licenses
+  tools
+  translations
+  web
+
+Excluded:
+  reference/hypixel_skyblock-trimmed/ and the rest of reference/ (Hypixel resource pack copy, not redistributable)
+  archive/ (old/retired code and art, incl. inherited textures; not built)
+  archive/old-fast-travel-map-1031/ (removed from the tree; kept privately)
+  residue/, refboards/ (internal rewrite records and reference screenshots)
+  internal notes: STATUS-*.md, H4-shared-changes.patch, H5_SHARED_CHANGES.md, H6-PLUS-PLAN.md, REWRITE_PLAN.md,
+    SPLIT.md, OWNERS.tsv, WATERBOARD-STATUS.md
+  scripts/verify-item-textures.py (reads a local Hypixel pack copy), scripts/__pycache__/, *.pyc
+  build/, .gradle/, .kotlin/, .fabric/, config/, run/, logs, git metadata
+Not included anywhere: tokens, keys, decompiled Minecraft/Hypixel code.
+
+Known leftovers (harmless, comments/defaults only): a few sandbox paths (/workspace/...) in code comments
+(MenuChrome.kt, StylePalette.kt, 5 test files) and a default argument in tools/fast-travel-map/gen_fast_travel_map.py.
+Still open before public release: rarity tooltip sprites and the non-Atoll part of fast_travel_map.png have no
+confirmed origin (REUSE.toml: LicenseRef-Unverified).

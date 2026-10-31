@@ -1,0 +1,176 @@
+targets [net/minecraft/client/gui/screens/Screen, net/minecraft/client/gui/screens/inventory/AbstractContainerScreen, net/minecraft/nbt/CompoundTag]
+class net/minecraft/client/gui/screens/Screen fields=[1 height I, 1 width I, 18 children Ljava/util/List;, 18 narratables Ljava/util/List;, 18 narrationState Lnet/minecraft/client/gui/narration/ScreenNarrationCollector;, 18 renderables Ljava/util/List;, 2 initialized Z, 2 lastNarratable Lnet/minecraft/client/gui/narration/NarratableEntry;, 2 narrationSuppressTime J, 2 nextNarrationTime J, 2 nextNarrationTriggeredBy Lnet/minecraft/client/gui/narration/NarrationTrigger;, 20 font Lnet/minecraft/client/gui/Font;, 20 minecraft Lnet/minecraft/client/Minecraft;, 20 screenExecutor Ljava/util/concurrent/Executor;, 20 title Lnet/minecraft/network/chat/Component;, 25 FOOTER_SEPARATOR Lnet/minecraft/resources/Identifier;, 25 HEADER_SEPARATOR Lnet/minecraft/resources/Identifier;, 25 INWORLD_FOOTER_SEPARATOR Lnet/minecraft/resources/Identifier;, 25 INWORLD_HEADER_SEPARATOR Lnet/minecraft/resources/Identifier;, 25 MENU_BACKGROUND Lnet/minecraft/resources/Identifier;, 26 INWORLD_MENU_BACKGROUND Lnet/minecraft/resources/Identifier;, 26 LOGGER Lorg/slf4j/Logger;, 26 NARRATE_DELAY_KEYBOARD_ACTION J, 26 NARRATE_DELAY_MOUSE_ACTION J, 26 NARRATE_DELAY_MOUSE_MOVE J, 26 NARRATE_DELAY_NARRATOR_ENABLED J, 26 NARRATE_SUPPRESS_AFTER_INIT_TIME J, 26 SCREEN_USAGE_NARRATION Lnet/minecraft/network/chat/Component;, 28 FADE_IN_TIME F, 4 narratorButton Lnet/minecraft/client/gui/components/CycleButton;] methods=6
+method 1 charTyped(Lnet/minecraft/client/input/CharacterEvent;)Z sig=null ex=[]
+  ALOAD 0
+  ALOAD 1
+  INVOKEVIRTUAL net/minecraft/client/gui/screens/Screen.charTyped_apex(Lnet/minecraft/client/input/CharacterEvent;)Z itf=false
+  IFEQ L0
+  LDC Integer:1
+  IRETURN InsnNode
+  L0:
+  ALOAD 0
+  ALOAD 1
+  INVOKESPECIAL net/minecraft/client/gui/components/events/AbstractContainerEventHandler.charTyped(Lnet/minecraft/client/input/CharacterEvent;)Z itf=false
+  IRETURN InsnNode
+method 1 keyReleased(Lnet/minecraft/client/input/KeyEvent;)Z sig=null ex=[]
+  ALOAD 0
+  ALOAD 1
+  INVOKEVIRTUAL net/minecraft/client/gui/screens/Screen.keyReleased_apex(Lnet/minecraft/client/input/KeyEvent;)Z itf=false
+  IFEQ L0
+  LDC Integer:1
+  IRETURN InsnNode
+  L0:
+  ALOAD 0
+  ALOAD 1
+  INVOKESPECIAL net/minecraft/client/gui/components/events/AbstractContainerEventHandler.keyReleased(Lnet/minecraft/client/input/KeyEvent;)Z itf=false
+  IRETURN InsnNode
+method 1 mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z sig=null ex=[]
+  ALOAD 0
+  ALOAD 1
+  ILOAD 2
+  INVOKEVIRTUAL net/minecraft/client/gui/screens/Screen.mouseClicked_apex_customGui(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z itf=false
+  IFEQ L0
+  LDC Integer:1
+  IRETURN InsnNode
+  L0:
+  ALOAD 0
+  ALOAD 1
+  ILOAD 2
+  INVOKEVIRTUAL net/minecraft/client/gui/screens/Screen.onMouseClicked_apex_generic(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z itf=false
+  IFEQ L1
+  LDC Integer:1
+  IRETURN InsnNode
+  L1:
+  ALOAD 0
+  ALOAD 1
+  ILOAD 2
+  INVOKESPECIAL net/minecraft/client/gui/components/events/AbstractContainerEventHandler.mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z itf=false
+  IRETURN InsnNode
+method 1 mouseDragged(Lnet/minecraft/client/input/MouseButtonEvent;DD)Z sig=null ex=[]
+  ALOAD 0
+  ALOAD 1
+  DLOAD 2
+  DLOAD 4
+  INVOKEVIRTUAL net/minecraft/client/gui/screens/Screen.mouseDragged_apex(Lnet/minecraft/client/input/MouseButtonEvent;DD)Z itf=false
+  IFEQ L0
+  LDC Integer:1
+  IRETURN InsnNode
+  L0:
+  ALOAD 0
+  ALOAD 1
+  DLOAD 2
+  DLOAD 4
+  INVOKESPECIAL net/minecraft/client/gui/components/events/AbstractContainerEventHandler.mouseDragged(Lnet/minecraft/client/input/MouseButtonEvent;DD)Z itf=false
+  IRETURN InsnNode
+method 1 mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z sig=null ex=[]
+  ALOAD 0
+  ALOAD 1
+  INVOKEVIRTUAL net/minecraft/client/gui/screens/Screen.mouseReleased_apex(Lnet/minecraft/client/input/MouseButtonEvent;)Z itf=false
+  IFEQ L0
+  LDC Integer:1
+  IRETURN InsnNode
+  L0:
+  ALOAD 0
+  ALOAD 1
+  INVOKESPECIAL net/minecraft/client/gui/components/events/AbstractContainerEventHandler.mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z itf=false
+  IRETURN InsnNode
+method 1 mouseScrolled(DDDD)Z sig=null ex=[]
+  ALOAD 0
+  DLOAD 1
+  DLOAD 3
+  DLOAD 5
+  DLOAD 7
+  INVOKEVIRTUAL net/minecraft/client/gui/screens/Screen.mouseScrolled_apex(DDDD)Z itf=false
+  IFEQ L0
+  LDC Integer:1
+  IRETURN InsnNode
+  L0:
+  ALOAD 0
+  DLOAD 1
+  DLOAD 3
+  DLOAD 5
+  DLOAD 7
+  INVOKESPECIAL net/minecraft/client/gui/components/events/AbstractContainerEventHandler.mouseScrolled(DDDD)Z itf=false
+  IRETURN InsnNode
+removed []
+class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen fields=[18 itemSlotMouseActions Ljava/util/List;, 2 doubleclick Z, 2 lastClickSlot Lnet/minecraft/world/inventory/Slot;, 2 lastQuickMoved Lnet/minecraft/world/item/ItemStack;, 2 quickCraftingButton I, 2 quickCraftingRemainder I, 2 quickCraftingType I, 2 skipNextRelease Z, 20 imageHeight I, 20 imageWidth I, 20 menu Lnet/minecraft/world/inventory/AbstractContainerMenu;, 20 playerInventoryTitle Lnet/minecraft/network/chat/Component;, 20 quickCraftSlots Ljava/util/Set;, 25 INVENTORY_LOCATION Lnet/minecraft/resources/Identifier;, 26 SLOT_HIGHLIGHT_BACK_SPRITE Lnet/minecraft/resources/Identifier;, 26 SLOT_HIGHLIGHT_FRONT_SPRITE Lnet/minecraft/resources/Identifier;, 28 BACKGROUND_TEXTURE_HEIGHT I, 28 BACKGROUND_TEXTURE_WIDTH I, 28 DEFAULT_IMAGE_HEIGHT I, 28 DEFAULT_IMAGE_WIDTH I, 4 hoveredSlot Lnet/minecraft/world/inventory/Slot;, 4 inventoryLabelX I, 4 inventoryLabelY I, 4 isQuickCrafting Z, 4 leftPos I, 4 titleLabelX I, 4 titleLabelY I, 4 topPos I] methods=0
+method 1 mouseScrolled(DDDD)Z sig=null ex=[]
+  L0:
+  LINE 159 L0
+  ALOAD 0
+  GETFIELD net/minecraft/client/gui/screens/inventory/AbstractContainerScreen.hoveredSlot Lnet/minecraft/world/inventory/Slot;
+  IFNULL L1
+  ALOAD 0
+  GETFIELD net/minecraft/client/gui/screens/inventory/AbstractContainerScreen.hoveredSlot Lnet/minecraft/world/inventory/Slot;
+  INVOKEVIRTUAL net/minecraft/world/inventory/Slot.hasItem()Z itf=false
+  IFEQ L1
+  L2:
+  LINE 160 L2
+  ALOAD 0
+  GETFIELD net/minecraft/client/gui/screens/inventory/AbstractContainerScreen.itemSlotMouseActions Ljava/util/List;
+  INVOKEINTERFACE java/util/List.iterator()Ljava/util/Iterator; itf=true
+  ASTORE 9
+  L3:
+  FRAME 1
+  ALOAD 9
+  INVOKEINTERFACE java/util/Iterator.hasNext()Z itf=true
+  IFEQ L1
+  ALOAD 9
+  INVOKEINTERFACE java/util/Iterator.next()Ljava/lang/Object; itf=true
+  CHECKCAST net/minecraft/client/gui/ItemSlotMouseAction
+  ASTORE 10
+  L4:
+  LINE 161 L4
+  ALOAD 10
+  ALOAD 0
+  GETFIELD net/minecraft/client/gui/screens/inventory/AbstractContainerScreen.hoveredSlot Lnet/minecraft/world/inventory/Slot;
+  INVOKEINTERFACE net/minecraft/client/gui/ItemSlotMouseAction.matches(Lnet/minecraft/world/inventory/Slot;)Z itf=true
+  IFEQ L5
+  L6:
+  LINE 162 L6
+  ALOAD 10
+  DLOAD 5
+  DLOAD 7
+  ALOAD 0
+  GETFIELD net/minecraft/client/gui/screens/inventory/AbstractContainerScreen.hoveredSlot Lnet/minecraft/world/inventory/Slot;
+  GETFIELD net/minecraft/world/inventory/Slot.index I
+  ALOAD 0
+  GETFIELD net/minecraft/client/gui/screens/inventory/AbstractContainerScreen.hoveredSlot Lnet/minecraft/world/inventory/Slot;
+  INVOKEVIRTUAL net/minecraft/world/inventory/Slot.getItem()Lnet/minecraft/world/item/ItemStack; itf=false
+  INVOKEINTERFACE net/minecraft/client/gui/ItemSlotMouseAction.onMouseScrolled(DDILnet/minecraft/world/item/ItemStack;)Z itf=true
+  IFEQ L5
+  L7:
+  LINE 163 L7
+  ICONST_1 InsnNode
+  IRETURN InsnNode
+  L5:
+  LINE 166 L5
+  FRAME 3
+  GOTO L3
+  L1:
+  LINE 168 L1
+  FRAME 2
+  ICONST_0 InsnNode
+  ALOAD 0
+  DLOAD 1
+  DLOAD 3
+  DLOAD 5
+  DLOAD 7
+  INVOKESPECIAL net/minecraft/client/gui/screens/Screen.mouseScrolled(DDDD)Z itf=false
+  IRETURN InsnNode
+  L8:
+removed []
+class net/minecraft/nbt/CompoundTag fields=[1 _apex_snapshot_source Lnet/minecraft/nbt/CompoundTag;, 18 tags Ljava/util/Map;, 25 CODEC Lcom/mojang/serialization/Codec;, 25 TYPE Lnet/minecraft/nbt/TagType;, 26 LOGGER Lorg/slf4j/Logger;, 26 MAP_ENTRY_SIZE_IN_BYTES I, 26 SELF_SIZE_IN_BYTES I] methods=1
+method 1 finalize()V sig=null ex=[]
+  ALOAD 0
+  GETFIELD net/minecraft/nbt/CompoundTag._apex_snapshot_source Lnet/minecraft/nbt/CompoundTag;
+  IFNULL L0
+  ALOAD 0
+  ALOAD 0
+  GETFIELD net/minecraft/nbt/CompoundTag._apex_snapshot_source Lnet/minecraft/nbt/CompoundTag;
+  INVOKESTATIC dev/ashtonite365/apex/util/mc/NbtSnapshotGuard.compareOnFinalize(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/CompoundTag;)V itf=false
+  L0:
+  ALOAD 0
+  INVOKESPECIAL java/lang/Object.finalize()V itf=false
+  RETURN InsnNode
+removed []

@@ -1,0 +1,22 @@
+{
+	"apex.config.fishing-helper.nearby-creatures": "Nearby Sea Creatures HUD",
+	"apex.config.fishing-helper.nearby-creatures-health": "Show Creature Health",
+	"apex.config.fishing-helper.nearby-creatures-health.description": "List each nearby sea creature with its health under the count (was the sea creature health display).",
+	"apex.config.fishing-helper.nearby-creatures-hud": "Creature Health List Position",
+	"apex.config.fishing-helper.nearby-creatures-hud.description": "Where the health list is drawn when \"Separate Health List\" is on.",
+	"apex.config.fishing-helper.nearby-creatures-limit": "Health List Limit",
+	"apex.config.fishing-helper.nearby-creatures-limit.description": "Maximum number of sea creatures in the health list; the rest are shown as \"+N more\".",
+	"apex.config.fishing-helper.nearby-creatures-rare-first": "Rare & Low Health First",
+	"apex.config.fishing-helper.nearby-creatures-rare-first.description": "Sort the health list with rare creatures first, then lowest health. Off: scan order (behaviour).",
+	"apex.config.fishing-helper.nearby-creatures-separate": "Separate Health List",
+	"apex.config.fishing-helper.nearby-creatures-separate.description": "Draw the health list as its own movable HUD instead of inside the fishing HUD.",
+	"apex.config.fishing-helper.nearby-creatures.description": "Count living sea creatures near you and how long since the first one spawned (barn timer); optionally list each with its health.",
+	"apex.settings.hud.deployables": "Deployables",
+	"apex.settings.hud.layout": "Layout",
+	"apex.settings.hud.sacks": "Sacks",
+	"apex.settings.hud.scoreboard": "Scoreboard",
+	"apex.settings.hud.skills": "Skills",
+	"apex.settings.hud.stat-bars": "Stat Bars",
+	"apex.settings.hud.style": "Style",
+	"apex.settings.hud.tab-list": "Tab List"
+}

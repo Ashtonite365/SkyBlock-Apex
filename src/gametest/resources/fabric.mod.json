@@ -1,0 +1,14 @@
+{
+	"schemaVersion": 1,
+	"id": "apex-gametest",
+	"version": "1.0.0",
+	"name": "Apex Game Tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": [
+		],
+		"fabric-client-gametest": [
+			"dev.ashtonite365.apex.gametest.GameTest"
+		]
+	}
+}

@@ -1,0 +1,2475 @@
+0 compact	{}
+0 pretty	{\n  }
+0 stringify	true
+0 compactFlag	false
+0 snbt	{\n}
+0 prettify	true
+1 compact	[]
+1 pretty	[\n  ]
+1 stringify	true
+1 compactFlag	false
+1 snbt	[\n]
+1 prettify	true
+2 compact	
+2 pretty	
+2 stringify	true
+2 compactFlag	false
+2 snbt	END
+2 prettify	true
+3 compact	""
+3 pretty	""
+3 stringify	true
+3 compactFlag	false
+3 snbt	""
+3 prettify	true
+4 compact	0
+4 pretty	0
+4 stringify	true
+4 compactFlag	false
+4 snbt	0
+4 prettify	true
+5 compact	[]
+5 pretty	[\n  ]
+5 stringify	true
+5 compactFlag	false
+5 snbt	[B;\n]
+5 prettify	true
+6 compact	[0:1,1:-2]
+6 pretty	[\n  0: 1,\n  1: -2\n]
+6 stringify	true
+6 compactFlag	false
+6 snbt	[I;\n\t1,\n\t-2\n]
+6 prettify	true
+7 compact	[0:-9223372036854775808L]
+7 pretty	[\n  0: -9223372036854775808L\n]
+7 stringify	true
+7 compactFlag	false
+7 snbt	[L;\n\t-9223372036854775808L\n]
+7 prettify	true
+8 compact	{"weird key":"v\\"q",x:[],y:{}}
+8 pretty	{\n  "weird key": "v\\"q",\n  x: [\n    ],\n  y: {\n    }\n}
+8 stringify	true
+8 compactFlag	false
+8 snbt	{\n\t"weird key": 'v"q',\n\tx: [\n\t],\n\ty: {\n\t}\n}
+8 prettify	true
+9 compact	{_Y:[0:-1650184784,1:616283903],y:29B,yz:{ExtraAttributes:[0:[0:-846394664621972494L],1:"3Z\\"{1',\\\\"],Name:-7807S,"aéébc":-2.25D,"é\\"d":-86B}}
+9 pretty	{\n  _Y: [\n    0: -1650184784,\n    1: 616283903\n  ],\n  y: 29B,\n  yz: {\n    ExtraAttributes: [\n      0: [\n        0: -846394664621972494L\n      ],\n      1: "3Z\\"{1',\\\\"\n    ],\n    Name: -7807S,\n    "aéébc": -2.25D,\n    "é\\"d": -86B\n  }\n}
+9 stringify	true
+9 compactFlag	false
+9 snbt	{\n\t_Y: [I;\n\t\t-1650184784,\n\t\t616283903\n\t],\n\ty: 29b,\n\tyz: {\n\t\tExtraAttributes: [\n\t\t\t[L;\n\t\t\t\t-846394664621972494L\n\t\t\t],\n\t\t\t'3Z"{1\\',\\\\'\n\t\t],\n\t\tName: -7807s,\n\t\t"aéébc": -2.25d,\n\t\t'é"d': -86b\n\t}\n}
+9 prettify	true
+10 compact	{}
+10 pretty	{\n  }
+10 stringify	true
+10 compactFlag	false
+10 snbt	{\n}
+10 prettify	true
+11 compact	7.0D
+11 pretty	7.0D
+11 stringify	true
+11 compactFlag	false
+11 snbt	7.0d
+11 prettify	true
+12 compact	{0:[0:-20B,1:-75B,2:68B],60cf0q:0.0F,x_zy:[0:-351998561],"{baa":[]}
+12 pretty	{\n  0: [\n    0: -20B,\n    1: -75B,\n    2: 68B\n  ],\n  60cf0q: 0.0F,\n  x_zy: [\n    0: -351998561\n  ],\n  "{baa": [\n    ]\n}
+12 stringify	true
+12 compactFlag	false
+12 snbt	{\n\t0: [B;\n\t\t-20b,\n\t\t-75b,\n\t\t68b\n\t],\n\t60cf0q: 0.0f,\n\tx_zy: [I;\n\t\t-351998561\n\t],\n\t"{baa": [B;\n\t]\n}
+12 prettify	true
+13 compact	62B
+13 pretty	62B
+13 stringify	true
+13 compactFlag	false
+13 snbt	62b
+13 prettify	true
+14 compact	[0:95B]
+14 pretty	[\n  0: 95B\n]
+14 stringify	true
+14 compactFlag	false
+14 snbt	[B;\n\t95b\n]
+14 prettify	true
+15 compact	{YYy:-12398S,z_Y:1.0E-7F}
+15 pretty	{\n  YYy: -12398S,\n  z_Y: 1.0E-7F\n}
+15 stringify	true
+15 compactFlag	false
+15 snbt	{\n\tYYy: -12398s,\n\tz_Y: 1.0E-7f\n}
+15 prettify	true
+16 compact	{ExtraAttributes:[0:6201155569004325986L,1:-2892165147616469043L,2:-3817932887422832352L],Lore:{Y_:296L},Name:-68L,k5x:"a;"}
+16 pretty	{\n  ExtraAttributes: [\n    0: 6201155569004325986L,\n    1: -2892165147616469043L,\n    2: -3817932887422832352L\n  ],\n  Lore: {\n    Y_: 296L\n  },\n  Name: -68L,\n  k5x: "a;"\n}
+16 stringify	true
+16 compactFlag	false
+16 snbt	{\n\tExtraAttributes: [L;\n\t\t6201155569004325986L,\n\t\t-2892165147616469043L,\n\t\t-3817932887422832352L\n\t],\n\tLore: {\n\t\tY_: 296L\n\t},\n\tName: -68L,\n\tk5x: "a;"\n}
+16 prettify	true
+17 compact	{Name:-8132811285387075858L,_rg3ksu:5691S}
+17 pretty	{\n  Name: -8132811285387075858L,\n  _rg3ksu: 5691S\n}
+17 stringify	true
+17 compactFlag	false
+17 snbt	{\n\tName: -8132811285387075858L,\n\t_rg3ksu: 5691s\n}
+17 prettify	true
+18 compact	{"":-2.25D,bd:{7mo:[0:-518715833437638107L],By:[0:307423082,1:632863878,2:1448330194],"\\\\\\"b}":-11488S,yyz:[0:949600069]}}
+18 pretty	{\n  "": -2.25D,\n  bd: {\n    7mo: [\n      0: -518715833437638107L\n    ],\n    By: [\n      0: 307423082,\n      1: 632863878,\n      2: 1448330194\n    ],\n    "\\\\\\"b}": -11488S,\n    yyz: [\n      0: 949600069\n    ]\n  }\n}
+18 stringify	true
+18 compactFlag	false
+18 snbt	{\n\t"": -2.25d,\n\tbd: {\n\t\t7mo: [L;\n\t\t\t-518715833437638107L\n\t\t],\n\t\tBy: [I;\n\t\t\t307423082,\n\t\t\t632863878,\n\t\t\t1448330194\n\t\t],\n\t\t'\\\\"b}': -11488s,\n\t\tyyz: [I;\n\t\t\t949600069\n\t\t]\n\t}\n}
+18 prettify	true
+19 compact	[0:0.38203006230187564D,1:0.08288439843845019D,2:0.43117363483975646D,3:0.8700277175608848D]
+19 pretty	[\n  0: 0.38203006230187564D,\n  1: 0.08288439843845019D,\n  2: 0.43117363483975646D,\n  3: 0.8700277175608848D\n]
+19 stringify	true
+19 compactFlag	false
+19 snbt	[\n\t0.38203006230187564d,\n\t0.08288439843845019d,\n\t0.43117363483975646d,\n\t0.8700277175608848d\n]
+19 prettify	true
+20 compact	7.0D
+20 pretty	7.0D
+20 stringify	true
+20 compactFlag	false
+20 snbt	7.0d
+20 prettify	true
+21 compact	{" ":{"":19427S},5a6sf:{2kdoz:[0:-17B,1:34B]},zX:[]}
+21 pretty	{\n  " ": {\n    "": 19427S\n  },\n  5a6sf: {\n    2kdoz: [\n      0: -17B,\n      1: 34B\n    ]\n  },\n  zX: [\n    ]\n}
+21 stringify	true
+21 compactFlag	false
+21 snbt	{\n\t" ": {\n\t\t"": 19427s\n\t},\n\t5a6sf: {\n\t\t2kdoz: [B;\n\t\t\t-17b,\n\t\t\t34b\n\t\t]\n\t},\n\tzX: [L;\n\t]\n}
+21 prettify	true
+22 compact	[0:[0:85B,1:-45B],1:{"\\"bc a":"'2{",Name:763L,i9hle7:[0:-779399502,1:-1035635633,2:-1336011167]},2:-5601S,3:705576894]
+22 pretty	[\n  0: [\n    0: 85B,\n    1: -45B\n  ],\n  1: {\n    "\\"bc a": "'2{",\n    Name: 763L,\n    i9hle7: [\n      0: -779399502,\n      1: -1035635633,\n      2: -1336011167\n    ]\n  },\n  2: -5601S,\n  3: 705576894\n]
+22 stringify	true
+22 compactFlag	false
+22 snbt	[\n\t[B;\n\t\t85b,\n\t\t-45b\n\t],\n\t{\n\t\t'"bc a': "'2{",\n\t\tName: 763L,\n\t\ti9hle7: [I;\n\t\t\t-779399502,\n\t\t\t-1035635633,\n\t\t\t-1336011167\n\t\t]\n\t},\n\t-5601s,\n\t705576894\n]
+22 prettify	true
+23 compact	0.0F
+23 pretty	0.0F
+23 stringify	true
+23 compactFlag	false
+23 snbt	0.0f
+23 prettify	true
+24 compact	{"":-87B,4+db:[],":\\"dc":1.0E-9D,xsx:[]}
+24 pretty	{\n  "": -87B,\n  4+db: [\n    ],\n  ":\\"dc": 1.0E-9D,\n  xsx: [\n    ]\n}
+24 stringify	true
+24 compactFlag	false
+24 snbt	{\n\t"": -87b,\n\t4+db: [L;\n\t],\n\t':"dc': 1.0E-9d,\n\txsx: [\n\t]\n}
+24 prettify	true
+25 compact	3.4028235E38F
+25 pretty	3.4028235E38F
+25 stringify	true
+25 compactFlag	false
+25 snbt	3.4028235E38f
+25 prettify	true
+26 compact	-18B
+26 pretty	-18B
+26 stringify	true
+26 compactFlag	false
+26 snbt	-18b
+26 prettify	true
+27 compact	{Name:-2.25D,X:-22802S,"a\\"{\\\\":3.0F,y8t:[0:607252847,1:1028528215,2:-1225093438]}
+27 pretty	{\n  Name: -2.25D,\n  X: -22802S,\n  "a\\"{\\\\": 3.0F,\n  y8t: [\n    0: 607252847,\n    1: 1028528215,\n    2: -1225093438\n  ]\n}
+27 stringify	true
+27 compactFlag	false
+27 snbt	{\n\tName: -2.25d,\n\tX: -22802s,\n\t'a"{\\\\': 3.0f,\n\ty8t: [I;\n\t\t607252847,\n\t\t1028528215,\n\t\t-1225093438\n\t]\n}
+27 prettify	true
+28 compact	-23693S
+28 pretty	-23693S
+28 stringify	true
+28 compactFlag	false
+28 snbt	-23693s
+28 prettify	true
+29 compact	3008547487001878118L
+29 pretty	3008547487001878118L
+29 stringify	true
+29 compactFlag	false
+29 snbt	3008547487001878118L
+29 prettify	true
+30 compact	{":\\\\: ":31935S,_:[0:-43B,1:-127B],display:106B,xa:"\\n"}
+30 pretty	{\n  ":\\\\: ": 31935S,\n  _: [\n    0: -43B,\n    1: -127B\n  ],\n  display: 106B,\n  xa: "\\n"\n}
+30 stringify	true
+30 compactFlag	false
+30 snbt	{\n\t":\\\\: ": 31935s,\n\t_: [B;\n\t\t-43b,\n\t\t-127b\n\t],\n\tdisplay: 106b,\n\txa: "\\n"\n}
+30 prettify	true
+31 compact	-796
+31 pretty	-796
+31 stringify	true
+31 compactFlag	false
+31 snbt	-796
+31 prettify	true
+32 compact	954L
+32 pretty	954L
+32 stringify	true
+32 compactFlag	false
+32 snbt	954L
+32 prettify	true
+33 compact	{rl2y6:[0:14B]}
+33 pretty	{\n  rl2y6: [\n    0: 14B\n  ]\n}
+33 stringify	true
+33 compactFlag	false
+33 snbt	{\n\trl2y6: [B;\n\t\t14b\n\t]\n}
+33 prettify	true
+34 compact	0.0F
+34 pretty	0.0F
+34 stringify	true
+34 compactFlag	false
+34 snbt	0.0f
+34 prettify	true
+35 compact	[0:5190037728273670105L,1:5162673015235723647L,2:2451028297710816310L]
+35 pretty	[\n  0: 5190037728273670105L,\n  1: 5162673015235723647L,\n  2: 2451028297710816310L\n]
+35 stringify	true
+35 compactFlag	false
+35 snbt	[L;\n\t5190037728273670105L,\n\t5162673015235723647L,\n\t2451028297710816310L\n]
+35 prettify	true
+36 compact	{ExtraAttributes:[0:69B],Name:[0:2001677481],Xx:-12419S}
+36 pretty	{\n  ExtraAttributes: [\n    0: 69B\n  ],\n  Name: [\n    0: 2001677481\n  ],\n  Xx: -12419S\n}
+36 stringify	true
+36 compactFlag	false
+36 snbt	{\n\tExtraAttributes: [B;\n\t\t69b\n\t],\n\tName: [I;\n\t\t2001677481\n\t],\n\tXx: -12419s\n}
+36 prettify	true
+37 compact	-714017436
+37 pretty	-714017436
+37 stringify	true
+37 compactFlag	false
+37 snbt	-714017436
+37 prettify	true
+38 compact	""
+38 pretty	""
+38 stringify	true
+38 compactFlag	false
+38 snbt	""
+38 prettify	true
+39 compact	{5:{Lore:"b\\",\\t\\t3;b3","}b":[]}}
+39 pretty	{\n  5: {\n    Lore: "b\\",\\t\\t3;b3",\n    "}b": [\n      ]\n  }\n}
+39 stringify	true
+39 compactFlag	false
+39 snbt	{\n\t5: {\n\t\tLore: 'b",\\t\\t3;b3',\n\t\t"}b": [\n\t\t]\n\t}\n}
+39 prettify	true
+40 compact	1499S
+40 pretty	1499S
+40 stringify	true
+40 compactFlag	false
+40 snbt	1499s
+40 prettify	true
+41 compact	0.0F
+41 pretty	0.0F
+41 stringify	true
+41 compactFlag	false
+41 snbt	0.0f
+41 prettify	true
+42 compact	{_Zz:"Y"}
+42 pretty	{\n  _Zz: "Y"\n}
+42 stringify	true
+42 compactFlag	false
+42 snbt	{\n\t_Zz: "Y"\n}
+42 prettify	true
+43 compact	-70B
+43 pretty	-70B
+43 stringify	true
+43 compactFlag	false
+43 snbt	-70b
+43 prettify	true
+44 compact	-3320861134750560581L
+44 pretty	-3320861134750560581L
+44 stringify	true
+44 compactFlag	false
+44 snbt	-3320861134750560581L
+44 prettify	true
+45 compact	{3c:150395.2374325802D,":ab\\\\":[],tag:[0:105035902]}
+45 pretty	{\n  3c: 150395.2374325802D,\n  ":ab\\\\": [\n    ],\n  tag: [\n    0: 105035902\n  ]\n}
+45 stringify	true
+45 compactFlag	false
+45 snbt	{\n\t3c: 150395.2374325802d,\n\t":ab\\\\": [I;\n\t],\n\ttag: [I;\n\t\t105035902\n\t]\n}
+45 prettify	true
+46 compact	{}
+46 pretty	{\n  }
+46 stringify	true
+46 compactFlag	false
+46 snbt	{\n}
+46 prettify	true
+47 compact	[]
+47 pretty	[\n  ]
+47 stringify	true
+47 compactFlag	false
+47 snbt	[L;\n]
+47 prettify	true
+48 compact	{ExtraAttributes:47,xxX:-778,xzyx:[]}
+48 pretty	{\n  ExtraAttributes: 47,\n  xxX: -778,\n  xzyx: [\n    ]\n}
+48 stringify	true
+48 compactFlag	false
+48 snbt	{\n\tExtraAttributes: 47,\n\txxX: -778,\n\txzyx: [I;\n\t]\n}
+48 prettify	true
+49 compact	[0:96B,1:-125B]
+49 pretty	[\n  0: 96B,\n  1: -125B\n]
+49 stringify	true
+49 compactFlag	false
+49 snbt	[B;\n\t96b,\n\t-125b\n]
+49 prettify	true
+50 compact	[]
+50 pretty	[\n  ]
+50 stringify	true
+50 compactFlag	false
+50 snbt	[I;\n]
+50 prettify	true
+51 compact	{"{c é":[]}
+51 pretty	{\n  "{c é": [\n    ]\n}
+51 stringify	true
+51 compactFlag	false
+51 snbt	{\n\t"{c é": [L;\n\t]\n}
+51 prettify	true
+52 compact	1213S
+52 pretty	1213S
+52 stringify	true
+52 compactFlag	false
+52 snbt	1213s
+52 prettify	true
+53 compact	19926S
+53 pretty	19926S
+53 stringify	true
+53 compactFlag	false
+53 snbt	19926s
+53 prettify	true
+54 compact	{"":-5631254151739230880L,Lore:-953,zYx:"3"}
+54 pretty	{\n  "": -5631254151739230880L,\n  Lore: -953,\n  zYx: "3"\n}
+54 stringify	true
+54 compactFlag	false
+54 snbt	{\n\t"": -5631254151739230880L,\n\tLore: -953,\n\tzYx: "3"\n}
+54 prettify	true
+55 compact	-2706649692109232435L
+55 pretty	-2706649692109232435L
+55 stringify	true
+55 compactFlag	false
+55 snbt	-2706649692109232435L
+55 prettify	true
+56 compact	-14051S
+56 pretty	-14051S
+56 stringify	true
+56 compactFlag	false
+56 snbt	-14051s
+56 prettify	true
+57 compact	{a:-88908.96611478471D}
+57 pretty	{\n  a: -88908.96611478471D\n}
+57 stringify	true
+57 compactFlag	false
+57 snbt	{\n\ta: -88908.96611478471d\n}
+57 prettify	true
+58 compact	[0:-56B,1:22521S]
+58 pretty	[\n  0: -56B,\n  1: 22521S\n]
+58 stringify	true
+58 compactFlag	false
+58 snbt	[\n\t-56b,\n\t22521s\n]
+58 prettify	true
+59 compact	[0:2346597865560671052L,1:6227346892146214566L,2:-2955354594024855382L]
+59 pretty	[\n  0: 2346597865560671052L,\n  1: 6227346892146214566L,\n  2: -2955354594024855382L\n]
+59 stringify	true
+59 compactFlag	false
+59 snbt	[L;\n\t2346597865560671052L,\n\t6227346892146214566L,\n\t-2955354594024855382L\n]
+59 prettify	true
+60 compact	{Y:373,gj.a_.e6:-18998S,sr926:-3687683540065127139L,x:-5801277497609768749L,yYZ:[0:{":}\\\\a":1},1:{"":1}]}
+60 pretty	{\n  Y: 373,\n  gj.a_.e6: -18998S,\n  sr926: -3687683540065127139L,\n  x: -5801277497609768749L,\n  yYZ: [\n    0: {\n      ":}\\\\a": 1\n    },\n    1: {\n      "": 1\n    }\n  ]\n}
+60 stringify	true
+60 compactFlag	false
+60 snbt	{\n\tY: 373,\n\tgj.a_.e6: -18998s,\n\tsr926: -3687683540065127139L,\n\tx: -5801277497609768749L,\n\tyYZ: [\n\t\t{\n\t\t\t":}\\\\a": 1\n\t\t},\n\t\t{\n\t\t\t"": 1\n\t\t}\n\t]\n}
+60 prettify	true
+61 compact	[]
+61 pretty	[\n  ]
+61 stringify	true
+61 compactFlag	false
+61 snbt	[L;\n]
+61 prettify	true
+62 compact	"Z:"
+62 pretty	"Z:"
+62 stringify	true
+62 compactFlag	false
+62 snbt	"Z:"
+62 prettify	true
+63 compact	{Lore:-23731S,Z:660,i1fi5o5l:"c; 'c\\"[,",xYZY:{"\\"":-16B,ExtraAttributes:14146S,"bd{ \\"":-32B,"}céc{":7533S}}
+63 pretty	{\n  Lore: -23731S,\n  Z: 660,\n  i1fi5o5l: "c; 'c\\"[,",\n  xYZY: {\n    "\\"": -16B,\n    ExtraAttributes: 14146S,\n    "bd{ \\"": -32B,\n    "}céc{": 7533S\n  }\n}
+63 stringify	true
+63 compactFlag	false
+63 snbt	{\n\tLore: -23731s,\n\tZ: 660,\n\ti1fi5o5l: "c; 'c\\"[,",\n\txYZY: {\n\t\t'"': -16b,\n\t\tExtraAttributes: 14146s,\n\t\t'bd{ "': -32b,\n\t\t"}céc{": 7533s\n\t}\n}
+63 prettify	true
+64 compact	1929457749
+64 pretty	1929457749
+64 stringify	true
+64 compactFlag	false
+64 snbt	1929457749
+64 prettify	true
+65 compact	3.0F
+65 pretty	3.0F
+65 stringify	true
+65 compactFlag	false
+65 snbt	3.0f
+65 prettify	true
+66 compact	{0x:-75B,rxkss:[0:1794257634]}
+66 pretty	{\n  0x: -75B,\n  rxkss: [\n    0: 1794257634\n  ]\n}
+66 stringify	true
+66 compactFlag	false
+66 snbt	{\n\t0x: -75b,\n\trxkss: [I;\n\t\t1794257634\n\t]\n}
+66 prettify	true
+67 compact	870919881
+67 pretty	870919881
+67 stringify	true
+67 compactFlag	false
+67 snbt	870919881
+67 prettify	true
+68 compact	-92B
+68 pretty	-92B
+68 stringify	true
+68 compactFlag	false
+68 snbt	-92b
+68 prettify	true
+69 compact	{"":[],1b:-79B,odA3z4B:3.0F}
+69 pretty	{\n  "": [\n    ],\n  1b: -79B,\n  odA3z4B: 3.0F\n}
+69 stringify	true
+69 compactFlag	false
+69 snbt	{\n\t"": [B;\n\t],\n\t1b: -79b,\n\todA3z4B: 3.0f\n}
+69 prettify	true
+70 compact	-13039S
+70 pretty	-13039S
+70 stringify	true
+70 compactFlag	false
+70 snbt	-13039s
+70 prettify	true
+71 compact	[0:-71B,1:16B]
+71 pretty	[\n  0: -71B,\n  1: 16B\n]
+71 stringify	true
+71 compactFlag	false
+71 snbt	[B;\n\t-71b,\n\t16b\n]
+71 prettify	true
+72 compact	{"":12491S,Lore:-69L}
+72 pretty	{\n  "": 12491S,\n  Lore: -69L\n}
+72 stringify	true
+72 compactFlag	false
+72 snbt	{\n\t"": 12491s,\n\tLore: -69L\n}
+72 prettify	true
+73 compact	[0:" 2;\\n",1:-8676906711863768399L]
+73 pretty	[\n  0: " 2;\\n",\n  1: -8676906711863768399L\n]
+73 stringify	true
+73 compactFlag	false
+73 snbt	[\n\t" 2;\\n",\n\t-8676906711863768399L\n]
+73 prettify	true
+74 compact	[0:65,1:22]
+74 pretty	[\n  0: 65,\n  1: 22\n]
+74 stringify	true
+74 compactFlag	false
+74 snbt	[\n\t65,\n\t22\n]
+74 prettify	true
+75 compact	{" ca ":[0:"a",1:""],2:[0:567224901749453751L,1:-5410852894059676548L,2:5319531394234671796L],Yx__:-10104S,Yxx_:35B,x-:[0:{C0f_:1.0E-7F,a:[0:{zy_z:1},1:{"\\\\:}{":1},2:{Z:1}],xZ:[0:-72B,1:84B,2:122B]},1:-1146S,2:-836,3:[0:32B,1:[]]]}
+75 pretty	{\n  " ca ": [\n    0: "a",\n    1: ""\n  ],\n  2: [\n    0: 567224901749453751L,\n    1: -5410852894059676548L,\n    2: 5319531394234671796L\n  ],\n  Yx__: -10104S,\n  Yxx_: 35B,\n  x-: [\n    0: {\n      C0f_: 1.0E-7F,\n      a: [\n        0: {\n          zy_z: 1\n        },\n        1: {\n          "\\\\:}{": 1\n        },\n        2: {\n          Z: 1\n        }\n      ],\n      xZ: [\n        0: -72B,\n        1: 84B,\n        2: 122B\n      ]\n    },\n    1: -1146S,\n    2: -836,\n    3: [\n      0: 32B,\n      1: [\n        ]\n    ]\n  ]\n}
+75 stringify	true
+75 compactFlag	false
+75 snbt	{\n\t" ca ": [\n\t\t"a",\n\t\t""\n\t],\n\t2: [L;\n\t\t567224901749453751L,\n\t\t-5410852894059676548L,\n\t\t5319531394234671796L\n\t],\n\tYx__: -10104s,\n\tYxx_: 35b,\n\tx-: [\n\t\t{\n\t\t\tC0f_: 1.0E-7f,\n\t\t\ta: [\n\t\t\t\t{\n\t\t\t\t\tzy_z: 1\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"\\\\:}{": 1\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\tZ: 1\n\t\t\t\t}\n\t\t\t],\n\t\t\txZ: [B;\n\t\t\t\t-72b,\n\t\t\t\t84b,\n\t\t\t\t122b\n\t\t\t]\n\t\t},\n\t\t-1146s,\n\t\t-836,\n\t\t[\n\t\t\t32b,\n\t\t\t[I;\n\t\t\t]\n\t\t]\n\t]\n}
+75 prettify	true
+76 compact	"é ]c["
+76 pretty	"é ]c["
+76 stringify	true
+76 compactFlag	false
+76 snbt	"é ]c["
+76 prettify	true
+77 compact	-1493156303264582412L
+77 pretty	-1493156303264582412L
+77 stringify	true
+77 compactFlag	false
+77 snbt	-1493156303264582412L
+77 prettify	true
+78 compact	{Xzx:-1181287303911132918L,ZZ:-869}
+78 pretty	{\n  Xzx: -1181287303911132918L,\n  ZZ: -869\n}
+78 stringify	true
+78 compactFlag	false
+78 snbt	{\n\tXzx: -1181287303911132918L,\n\tZZ: -869\n}
+78 prettify	true
+79 compact	-20B
+79 pretty	-20B
+79 stringify	true
+79 compactFlag	false
+79 snbt	-20b
+79 prettify	true
+80 compact	1.0E-7F
+80 pretty	1.0E-7F
+80 stringify	true
+80 compactFlag	false
+80 snbt	1.0E-7f
+80 prettify	true
+81 compact	{ExtraAttributes:16685S,_:3.4028235E38F,o_55+y:-6B}
+81 pretty	{\n  ExtraAttributes: 16685S,\n  _: 3.4028235E38F,\n  o_55+y: -6B\n}
+81 stringify	true
+81 compactFlag	false
+81 snbt	{\n\tExtraAttributes: 16685s,\n\t_: 3.4028235E38f,\n\to_55+y: -6b\n}
+81 prettify	true
+82 compact	23953S
+82 pretty	23953S
+82 stringify	true
+82 compactFlag	false
+82 snbt	23953s
+82 prettify	true
+83 compact	100B
+83 pretty	100B
+83 stringify	true
+83 compactFlag	false
+83 snbt	100b
+83 prettify	true
+84 compact	{X:[]}
+84 pretty	{\n  X: [\n    ]\n}
+84 stringify	true
+84 compactFlag	false
+84 snbt	{\n\tX: [L;\n\t]\n}
+84 prettify	true
+85 compact	-2.25D
+85 pretty	-2.25D
+85 stringify	true
+85 compactFlag	false
+85 snbt	-2.25d
+85 prettify	true
+86 compact	{ExtraAttributes:-508L,u8exhijm:[]}
+86 pretty	{\n  ExtraAttributes: -508L,\n  u8exhijm: [\n    ]\n}
+86 stringify	true
+86 compactFlag	false
+86 snbt	{\n\tExtraAttributes: -508L,\n\tu8exhijm: [L;\n\t]\n}
+86 prettify	true
+87 compact	{Zx_Z:-91B,_Y:[0:-19065S,1:13366S,2:-8416947625430066967L,3:-1537594842],yzy:[0:-72B,1:31B],"éa:d":[0:-1715609730,1:907675543]}
+87 pretty	{\n  Zx_Z: -91B,\n  _Y: [\n    0: -19065S,\n    1: 13366S,\n    2: -8416947625430066967L,\n    3: -1537594842\n  ],\n  yzy: [\n    0: -72B,\n    1: 31B\n  ],\n  "éa:d": [\n    0: -1715609730,\n    1: 907675543\n  ]\n}
+87 stringify	true
+87 compactFlag	false
+87 snbt	{\n\tZx_Z: -91b,\n\t_Y: [\n\t\t-19065s,\n\t\t13366s,\n\t\t-8416947625430066967L,\n\t\t-1537594842\n\t],\n\tyzy: [B;\n\t\t-72b,\n\t\t31b\n\t],\n\t"éa:d": [I;\n\t\t-1715609730,\n\t\t907675543\n\t]\n}
+87 prettify	true
+88 compact	"0\\n\\taY{\\""
+88 pretty	"0\\n\\taY{\\""
+88 stringify	true
+88 compactFlag	false
+88 snbt	'0\\n\\taY{"'
+88 prettify	true
+89 compact	30380S
+89 pretty	30380S
+89 stringify	true
+89 compactFlag	false
+89 snbt	30380s
+89 prettify	true
+90 compact	{Y:[],b:{xXxy:[0:1240798523,1:232406654,2:1685415496]},ukwd5_0B:-35B}
+90 pretty	{\n  Y: [\n    ],\n  b: {\n    xXxy: [\n      0: 1240798523,\n      1: 232406654,\n      2: 1685415496\n    ]\n  },\n  ukwd5_0B: -35B\n}
+90 stringify	true
+90 compactFlag	false
+90 snbt	{\n\tY: [I;\n\t],\n\tb: {\n\t\txXxy: [I;\n\t\t\t1240798523,\n\t\t\t232406654,\n\t\t\t1685415496\n\t\t]\n\t},\n\tukwd5_0B: -35b\n}
+90 prettify	true
+91 compact	[0:-59B,1:-16B]
+91 pretty	[\n  0: -59B,\n  1: -16B\n]
+91 stringify	true
+91 compactFlag	false
+91 snbt	[B;\n\t-59b,\n\t-16b\n]
+91 prettify	true
+92 compact	0.0F
+92 pretty	0.0F
+92 stringify	true
+92 compactFlag	false
+92 snbt	0.0f
+92 prettify	true
+93 compact	{" c }é":{" : a":[0:-1570148783,1:-1044334539],4q3o:-294L,"a{c":-12706S,id:[0:6471367916206102221L]},Lore:112B,t:{Z:[],_X:[0:5803858,1:1894894546],id:[0:49,1:63,2:11],x_:[]}}
+93 pretty	{\n  " c }é": {\n    " : a": [\n      0: -1570148783,\n      1: -1044334539\n    ],\n    4q3o: -294L,\n    "a{c": -12706S,\n    id: [\n      0: 6471367916206102221L\n    ]\n  },\n  Lore: 112B,\n  t: {\n    Z: [\n      ],\n    _X: [\n      0: 5803858,\n      1: 1894894546\n    ],\n    id: [\n      0: 49,\n      1: 63,\n      2: 11\n    ],\n    x_: [\n      ]\n  }\n}
+93 stringify	true
+93 compactFlag	false
+93 snbt	{\n\t" c }é": {\n\t\t" : a": [I;\n\t\t\t-1570148783,\n\t\t\t-1044334539\n\t\t],\n\t\t4q3o: -294L,\n\t\t"a{c": -12706s,\n\t\tid: [L;\n\t\t\t6471367916206102221L\n\t\t]\n\t},\n\tLore: 112b,\n\tt: {\n\t\tZ: [L;\n\t\t],\n\t\t_X: [I;\n\t\t\t5803858,\n\t\t\t1894894546\n\t\t],\n\t\tid: [\n\t\t\t49,\n\t\t\t63,\n\t\t\t11\n\t\t],\n\t\tx_: [L;\n\t\t]\n\t}\n}
+93 prettify	true
+94 compact	-975L
+94 pretty	-975L
+94 stringify	true
+94 compactFlag	false
+94 snbt	-975L
+94 prettify	true
+95 compact	21L
+95 pretty	21L
+95 stringify	true
+95 compactFlag	false
+95 snbt	21L
+95 prettify	true
+96 compact	{b:3.0F,jjk3nivn:{r5e:-67B}}
+96 pretty	{\n  b: 3.0F,\n  jjk3nivn: {\n    r5e: -67B\n  }\n}
+96 stringify	true
+96 compactFlag	false
+96 snbt	{\n\tb: 3.0f,\n\tjjk3nivn: {\n\t\tr5e: -67b\n\t}\n}
+96 prettify	true
+97 compact	[0:4341898367752016520L,1:2538994662173524540L]
+97 pretty	[\n  0: 4341898367752016520L,\n  1: 2538994662173524540L\n]
+97 stringify	true
+97 compactFlag	false
+97 snbt	[L;\n\t4341898367752016520L,\n\t2538994662173524540L\n]
+97 prettify	true
+98 compact	[]
+98 pretty	[\n  ]
+98 stringify	true
+98 compactFlag	false
+98 snbt	[I;\n]
+98 prettify	true
+99 compact	{ExtraAttributes:2084S}
+99 pretty	{\n  ExtraAttributes: 2084S\n}
+99 stringify	true
+99 compactFlag	false
+99 snbt	{\n\tExtraAttributes: 2084s\n}
+99 prettify	true
+100 compact	943L
+100 pretty	943L
+100 stringify	true
+100 compactFlag	false
+100 snbt	943L
+100 prettify	true
+101 compact	[0:-127B,1:107B,2:1B]
+101 pretty	[\n  0: -127B,\n  1: 107B,\n  2: 1B\n]
+101 stringify	true
+101 compactFlag	false
+101 snbt	[B;\n\t-127b,\n\t107b,\n\t1b\n]
+101 prettify	true
+102 compact	{"":[],YZx:[],nuAk_w8:0.0F,tag:-817534978}
+102 pretty	{\n  "": [\n    ],\n  YZx: [\n    ],\n  nuAk_w8: 0.0F,\n  tag: -817534978\n}
+102 stringify	true
+102 compactFlag	false
+102 snbt	{\n\t"": [I;\n\t],\n\tYZx: [B;\n\t],\n\tnuAk_w8: 0.0f,\n\ttag: -817534978\n}
+102 prettify	true
+103 compact	{Name:-493249618,x:-10B}
+103 pretty	{\n  Name: -493249618,\n  x: -10B\n}
+103 stringify	true
+103 compactFlag	false
+103 snbt	{\n\tName: -493249618,\n\tx: -10b\n}
+103 prettify	true
+104 compact	{zre:[0:2122453790879319709L,1:4825073813948404636L,2:-7385705567864037127L]}
+104 pretty	{\n  zre: [\n    0: 2122453790879319709L,\n    1: 4825073813948404636L,\n    2: -7385705567864037127L\n  ]\n}
+104 stringify	true
+104 compactFlag	false
+104 snbt	{\n\tzre: [L;\n\t\t2122453790879319709L,\n\t\t4825073813948404636L,\n\t\t-7385705567864037127L\n\t]\n}
+104 prettify	true
+105 compact	{"":22752S,x:-374,zYy:[0:0.99758375171011D,1:0.21756596127764039D,2:0.39760920843547054D],zyy:"1}Z1{:']X2"}
+105 pretty	{\n  "": 22752S,\n  x: -374,\n  zYy: [\n    0: 0.99758375171011D,\n    1: 0.21756596127764039D,\n    2: 0.39760920843547054D\n  ],\n  zyy: "1}Z1{:']X2"\n}
+105 stringify	true
+105 compactFlag	false
+105 snbt	{\n\t"": 22752s,\n\tx: -374,\n\tzYy: [\n\t\t0.99758375171011d,\n\t\t0.21756596127764039d,\n\t\t0.39760920843547054d\n\t],\n\tzyy: "1}Z1{:']X2"\n}
+105 prettify	true
+106 compact	-208L
+106 pretty	-208L
+106 stringify	true
+106 compactFlag	false
+106 snbt	-208L
+106 prettify	true
+107 compact	0.0D
+107 pretty	0.0D
+107 stringify	true
+107 compactFlag	false
+107 snbt	0.0d
+107 prettify	true
+108 compact	{1:[0:125B,1:-8B,2:-7B],"é}b{":"baZ{a"}
+108 pretty	{\n  1: [\n    0: 125B,\n    1: -8B,\n    2: -7B\n  ],\n  "é}b{": "baZ{a"\n}
+108 stringify	true
+108 compactFlag	false
+108 snbt	{\n\t1: [B;\n\t\t125b,\n\t\t-8b,\n\t\t-7b\n\t],\n\t"é}b{": "baZ{a"\n}
+108 prettify	true
+109 compact	313658351
+109 pretty	313658351
+109 stringify	true
+109 compactFlag	false
+109 snbt	313658351
+109 prettify	true
+110 compact	-478
+110 pretty	-478
+110 stringify	true
+110 compactFlag	false
+110 snbt	-478
+110 prettify	true
+111 compact	{" }":"[\\\\}0:\\t1"}
+111 pretty	{\n  " }": "[\\\\}0:\\t1"\n}
+111 stringify	true
+111 compactFlag	false
+111 snbt	{\n\t" }": "[\\\\}0:\\t1"\n}
+111 prettify	true
+112 compact	{4:"c'132,é["}
+112 pretty	{\n  4: "c'132,é["\n}
+112 stringify	true
+112 compactFlag	false
+112 snbt	{\n\t4: "c'132,é["\n}
+112 prettify	true
+113 compact	{5:":éé\\"a01['",Xyxy:[0:[0:477160624],1:3.4028235E38F,2:-2707S,3:"cY;2§\\\\\\\\c["],"\\\\":75B}
+113 pretty	{\n  5: ":éé\\"a01['",\n  Xyxy: [\n    0: [\n      0: 477160624\n    ],\n    1: 3.4028235E38F,\n    2: -2707S,\n    3: "cY;2§\\\\\\\\c["\n  ],\n  "\\\\": 75B\n}
+113 stringify	true
+113 compactFlag	false
+113 snbt	{\n\t5: ':éé"a01[\\'',\n\tXyxy: [\n\t\t[I;\n\t\t\t477160624\n\t\t],\n\t\t3.4028235E38f,\n\t\t-2707s,\n\t\t"cY;2§\\\\\\\\c["\n\t],\n\t"\\\\": 75b\n}
+113 prettify	true
+114 compact	{"":[0:-2.25D,1:-610,2:-59B],d:[],tag:"3::2,3\\"{§",zXx:88B}
+114 pretty	{\n  "": [\n    0: -2.25D,\n    1: -610,\n    2: -59B\n  ],\n  d: [\n    ],\n  tag: "3::2,3\\"{§",\n  zXx: 88B\n}
+114 stringify	true
+114 compactFlag	false
+114 snbt	{\n\t"": [\n\t\t-2.25d,\n\t\t-610,\n\t\t-59b\n\t],\n\td: [L;\n\t],\n\ttag: '3::2,3"{§',\n\tzXx: 88b\n}
+114 prettify	true
+115 compact	0.0F
+115 pretty	0.0F
+115 stringify	true
+115 compactFlag	false
+115 snbt	0.0f
+115 prettify	true
+116 compact	{a:[0:-35B,1:-31B]}
+116 pretty	{\n  a: [\n    0: -35B,\n    1: -31B\n  ]\n}
+116 stringify	true
+116 compactFlag	false
+116 snbt	{\n\ta: [B;\n\t\t-35b,\n\t\t-31b\n\t]\n}
+116 prettify	true
+117 compact	{9y:{},_YYZ:-296L,"bé:\\\\":[]}
+117 pretty	{\n  9y: {\n    },\n  _YYZ: -296L,\n  "bé:\\\\": [\n    ]\n}
+117 stringify	true
+117 compactFlag	false
+117 snbt	{\n\t9y: {\n\t},\n\t_YYZ: -296L,\n\t"bé:\\\\": [L;\n\t]\n}
+117 prettify	true
+118 compact	[0:-497813153,1:231094745,2:-1664156113]
+118 pretty	[\n  0: -497813153,\n  1: 231094745,\n  2: -1664156113\n]
+118 stringify	true
+118 compactFlag	false
+118 snbt	[I;\n\t-497813153,\n\t231094745,\n\t-1664156113\n]
+118 prettify	true
+119 compact	0.0F
+119 pretty	0.0F
+119 stringify	true
+119 compactFlag	false
+119 snbt	0.0f
+119 prettify	true
+120 compact	{" \\\\{a":-28B,.f:113B,zX_:"1",zxz:[0:-1699400572,1:466L,2:"Y2"]}
+120 pretty	{\n  " \\\\{a": -28B,\n  .f: 113B,\n  zX_: "1",\n  zxz: [\n    0: -1699400572,\n    1: 466L,\n    2: "Y2"\n  ]\n}
+120 stringify	true
+120 compactFlag	false
+120 snbt	{\n\t" \\\\{a": -28b,\n\t.f: 113b,\n\tzX_: "1",\n\tzxz: [\n\t\t-1699400572,\n\t\t466L,\n\t\t"Y2"\n\t]\n}
+120 prettify	true
+121 compact	[0:1322829022755358L]
+121 pretty	[\n  0: 1322829022755358L\n]
+121 stringify	true
+121 compactFlag	false
+121 snbt	[\n\t1322829022755358L\n]
+121 prettify	true
+122 compact	[0:"abb",1:"ccb",2:"a",3:""]
+122 pretty	[\n  0: "abb",\n  1: "ccb",\n  2: "a",\n  3: ""\n]
+122 stringify	true
+122 compactFlag	false
+122 snbt	[\n\t"abb",\n\t"ccb",\n\t"a",\n\t""\n]
+122 prettify	true
+123 compact	{"}":-23412S}
+123 pretty	{\n  "}": -23412S\n}
+123 stringify	true
+123 compactFlag	false
+123 snbt	{\n\t"}": -23412s\n}
+123 prettify	true
+124 compact	[0:[],1:1.0E20D,2:[]]
+124 pretty	[\n  0: [\n    ],\n  1: 1.0E20D,\n  2: [\n    ]\n]
+124 stringify	true
+124 compactFlag	false
+124 snbt	[\n\t[B;\n\t],\n\t1.0E20d,\n\t[I;\n\t]\n]
+124 prettify	true
+125 compact	4437988706688415144L
+125 pretty	4437988706688415144L
+125 stringify	true
+125 compactFlag	false
+125 snbt	4437988706688415144L
+125 prettify	true
+126 compact	{" a\\\\\\"":1.0E20D,YyzZ:-24434S,_zz:11920S,yz:993}
+126 pretty	{\n  " a\\\\\\"": 1.0E20D,\n  YyzZ: -24434S,\n  _zz: 11920S,\n  yz: 993\n}
+126 stringify	true
+126 compactFlag	false
+126 snbt	{\n\t' a\\\\"': 1.0E20d,\n\tYyzZ: -24434s,\n\t_zz: 11920s,\n\tyz: 993\n}
+126 prettify	true
+127 compact	-122B
+127 pretty	-122B
+127 stringify	true
+127 compactFlag	false
+127 snbt	-122b
+127 prettify	true
+128 compact	[0:-75B,1:1B]
+128 pretty	[\n  0: -75B,\n  1: 1B\n]
+128 stringify	true
+128 compactFlag	false
+128 snbt	[B;\n\t-75b,\n\t1b\n]
+128 prettify	true
+129 compact	{67v-y+e:16732S,_:17915S}
+129 pretty	{\n  67v-y+e: 16732S,\n  _: 17915S\n}
+129 stringify	true
+129 compactFlag	false
+129 snbt	{\n\t67v-y+e: 16732s,\n\t_: 17915s\n}
+129 prettify	true
+130 compact	-560714421
+130 pretty	-560714421
+130 stringify	true
+130 compactFlag	false
+130 snbt	-560714421
+130 prettify	true
+131 compact	{"":[],Name:-91B,Yy:1.5F,dl9:-472}
+131 pretty	{\n  "": [\n    ],\n  Name: -91B,\n  Yy: 1.5F,\n  dl9: -472\n}
+131 stringify	true
+131 compactFlag	false
+131 snbt	{\n\t"": [I;\n\t],\n\tName: -91b,\n\tYy: 1.5f,\n\tdl9: -472\n}
+131 prettify	true
+132 compact	{Count:0.0F,YYx:{" }":[0:0.0F,1:[0:-571085127]],yX:-17266S},f48gzw4p:",\\\\\\t["}
+132 pretty	{\n  Count: 0.0F,\n  YYx: {\n    " }": [\n      0: 0.0F,\n      1: [\n        0: -571085127\n      ]\n    ],\n    yX: -17266S\n  },\n  f48gzw4p: ",\\\\\\t["\n}
+132 stringify	true
+132 compactFlag	false
+132 snbt	{\n\tCount: 0.0f,\n\tYYx: {\n\t\t" }": [\n\t\t\t0.0f,\n\t\t\t[I;\n\t\t\t\t-571085127\n\t\t\t]\n\t\t],\n\t\tyX: -17266s\n\t},\n\tf48gzw4p: ",\\\\\\t["\n}
+132 prettify	true
+133 compact	12819S
+133 pretty	12819S
+133 stringify	true
+133 compactFlag	false
+133 snbt	12819s
+133 prettify	true
+134 compact	-19156S
+134 pretty	-19156S
+134 stringify	true
+134 compactFlag	false
+134 snbt	-19156s
+134 prettify	true
+135 compact	{"\\"\\"\\\\d":[0:-107B,1:-20B],9:172L,Xyz:6211S,"ba}":[0:[0:823427295,1:1395587831],1:-14B],"bc\\\\a":1.0E20D}
+135 pretty	{\n  "\\"\\"\\\\d": [\n    0: -107B,\n    1: -20B\n  ],\n  9: 172L,\n  Xyz: 6211S,\n  "ba}": [\n    0: [\n      0: 823427295,\n      1: 1395587831\n    ],\n    1: -14B\n  ],\n  "bc\\\\a": 1.0E20D\n}
+135 stringify	true
+135 compactFlag	false
+135 snbt	{\n\t'""\\\\d': [B;\n\t\t-107b,\n\t\t-20b\n\t],\n\t9: 172L,\n\tXyz: 6211s,\n\t"ba}": [\n\t\t[I;\n\t\t\t823427295,\n\t\t\t1395587831\n\t\t],\n\t\t-14b\n\t],\n\t"bc\\\\a": 1.0E20d\n}
+135 prettify	true
+136 compact	"\\t{{\\na"
+136 pretty	"\\t{{\\na"
+136 stringify	true
+136 compactFlag	false
+136 snbt	"\\t{{\\na"
+136 prettify	true
+137 compact	"c;\\"Ycc;"
+137 pretty	"c;\\"Ycc;"
+137 stringify	true
+137 compactFlag	false
+137 snbt	'c;"Ycc;'
+137 prettify	true
+138 compact	{Lore:230L,t.u41j:0.0F}
+138 pretty	{\n  Lore: 230L,\n  t.u41j: 0.0F\n}
+138 stringify	true
+138 compactFlag	false
+138 snbt	{\n\tLore: 230L,\n\tt.u41j: 0.0f\n}
+138 prettify	true
+139 compact	1.5F
+139 pretty	1.5F
+139 stringify	true
+139 compactFlag	false
+139 snbt	1.5f
+139 prettify	true
+140 compact	1.0E20D
+140 pretty	1.0E20D
+140 stringify	true
+140 compactFlag	false
+140 snbt	1.0E20d
+140 prettify	true
+141 compact	{13:8802159845490564411L}
+141 pretty	{\n  13: 8802159845490564411L\n}
+141 stringify	true
+141 compactFlag	false
+141 snbt	{\n\t13: 8802159845490564411L\n}
+141 prettify	true
+142 compact	{"":1103018624,hdl:3822178971560605818L,pn78:-14929S}
+142 pretty	{\n  "": 1103018624,\n  hdl: 3822178971560605818L,\n  pn78: -14929S\n}
+142 stringify	true
+142 compactFlag	false
+142 snbt	{\n\t"": 1103018624,\n\thdl: 3822178971560605818L,\n\tpn78: -14929s\n}
+142 prettify	true
+143 compact	[0:91B,1:-4B,2:113B]
+143 pretty	[\n  0: 91B,\n  1: -4B,\n  2: 113B\n]
+143 stringify	true
+143 compactFlag	false
+143 snbt	[B;\n\t91b,\n\t-4b,\n\t113b\n]
+143 prettify	true
+144 compact	{tag:[],xZ__:-2.25D}
+144 pretty	{\n  tag: [\n    ],\n  xZ__: -2.25D\n}
+144 stringify	true
+144 compactFlag	false
+144 snbt	{\n\ttag: [\n\t],\n\txZ__: -2.25d\n}
+144 prettify	true
+145 compact	{"":401856.62313894334D,"\\"}\\"\\\\":[]}
+145 pretty	{\n  "": 401856.62313894334D,\n  "\\"}\\"\\\\": [\n    ]\n}
+145 stringify	true
+145 compactFlag	false
+145 snbt	{\n\t"": 401856.62313894334d,\n\t'"}"\\\\': [B;\n\t]\n}
+145 prettify	true
+146 compact	[0:-23881S,1:[0:{tag:[0:122B,1:-126B,2:20B],"{":-2147S},1:[0:{Xxyy:-84B,display:-424S}],2:[0:-85B,1:-96B,2:-17B],3:-2.25D],2:-2.25D,3:[]]
+146 pretty	[\n  0: -23881S,\n  1: [\n    0: {\n      tag: [\n        0: 122B,\n        1: -126B,\n        2: 20B\n      ],\n      "{": -2147S\n    },\n    1: [\n      0: {\n        Xxyy: -84B,\n        display: -424S\n      }\n    ],\n    2: [\n      0: -85B,\n      1: -96B,\n      2: -17B\n    ],\n    3: -2.25D\n  ],\n  2: -2.25D,\n  3: [\n    ]\n]
+146 stringify	true
+146 compactFlag	false
+146 snbt	[\n\t-23881s,\n\t[\n\t\t{\n\t\t\ttag: [B;\n\t\t\t\t122b,\n\t\t\t\t-126b,\n\t\t\t\t20b\n\t\t\t],\n\t\t\t"{": -2147s\n\t\t},\n\t\t[\n\t\t\t{\n\t\t\t\tXxyy: -84b,\n\t\t\t\tdisplay: -424s\n\t\t\t}\n\t\t],\n\t\t[B;\n\t\t\t-85b,\n\t\t\t-96b,\n\t\t\t-17b\n\t\t],\n\t\t-2.25d\n\t],\n\t-2.25d,\n\t[B;\n\t]\n]
+146 prettify	true
+147 compact	{.v3.rqu:-1511845735,_y_:-317,"c:cd":"2{§]é[,\\\\",u.mqkw:739L}
+147 pretty	{\n  .v3.rqu: -1511845735,\n  _y_: -317,\n  "c:cd": "2{§]é[,\\\\",\n  u.mqkw: 739L\n}
+147 stringify	true
+147 compactFlag	false
+147 snbt	{\n\t.v3.rqu: -1511845735,\n\t_y_: -317,\n\t"c:cd": "2{§]é[,\\\\",\n\tu.mqkw: 739L\n}
+147 prettify	true
+148 compact	[0:-1121768978,1:-606600304,2:-1532346699]
+148 pretty	[\n  0: -1121768978,\n  1: -606600304,\n  2: -1532346699\n]
+148 stringify	true
+148 compactFlag	false
+148 snbt	[I;\n\t-1121768978,\n\t-606600304,\n\t-1532346699\n]
+148 prettify	true
+149 compact	[0:-5624613359099516996L,1:5180138016504111425L]
+149 pretty	[\n  0: -5624613359099516996L,\n  1: 5180138016504111425L\n]
+149 stringify	true
+149 compactFlag	false
+149 snbt	[L;\n\t-5624613359099516996L,\n\t5180138016504111425L\n]
+149 prettify	true
+150 compact	{-B:[0:1010089841],Yxyx:1.5F,y:[0:65B,1:65B],yZXx:"a3="}
+150 pretty	{\n  -B: [\n    0: 1010089841\n  ],\n  Yxyx: 1.5F,\n  y: [\n    0: 65B,\n    1: 65B\n  ],\n  yZXx: "a3="\n}
+150 stringify	true
+150 compactFlag	false
+150 snbt	{\n\t-B: [I;\n\t\t1010089841\n\t],\n\tYxyx: 1.5f,\n\ty: [B;\n\t\t65b,\n\t\t65b\n\t],\n\tyZXx: "a3="\n}
+150 prettify	true
+151 compact	-309829.4860098605D
+151 pretty	-309829.4860098605D
+151 stringify	true
+151 compactFlag	false
+151 snbt	-309829.4860098605d
+151 prettify	true
+152 compact	[]
+152 pretty	[\n  ]
+152 stringify	true
+152 compactFlag	false
+152 snbt	[B;\n]
+152 prettify	true
+153 compact	{"{:\\\\":[0:435681.5009668856D,1:[],2:{"c\\"":[0:-2097948128],x_zZ:[0:1986226940]},3:[0:-230636665]]}
+153 pretty	{\n  "{:\\\\": [\n    0: 435681.5009668856D,\n    1: [\n      ],\n    2: {\n      "c\\"": [\n        0: -2097948128\n      ],\n      x_zZ: [\n        0: 1986226940\n      ]\n    },\n    3: [\n      0: -230636665\n    ]\n  ]\n}
+153 stringify	true
+153 compactFlag	false
+153 snbt	{\n\t"{:\\\\": [\n\t\t435681.5009668856d,\n\t\t[\n\t\t],\n\t\t{\n\t\t\t'c"': [I;\n\t\t\t\t-2097948128\n\t\t\t],\n\t\t\tx_zZ: [I;\n\t\t\t\t1986226940\n\t\t\t]\n\t\t},\n\t\t[I;\n\t\t\t-230636665\n\t\t]\n\t]\n}
+153 prettify	true
+154 compact	[]
+154 pretty	[\n  ]
+154 stringify	true
+154 compactFlag	false
+154 snbt	[B;\n]
+154 prettify	true
+155 compact	[]
+155 pretty	[\n  ]
+155 stringify	true
+155 compactFlag	false
+155 snbt	[L;\n]
+155 prettify	true
+156 compact	{0:[0:-8335062365914833459L,1:2557620878614439713L,2:-5531489705282664047L],3-5A1xmz:1.0E-9D,"\\\\{:ac":{Count:278L,x:559725395}}
+156 pretty	{\n  0: [\n    0: -8335062365914833459L,\n    1: 2557620878614439713L,\n    2: -5531489705282664047L\n  ],\n  3-5A1xmz: 1.0E-9D,\n  "\\\\{:ac": {\n    Count: 278L,\n    x: 559725395\n  }\n}
+156 stringify	true
+156 compactFlag	false
+156 snbt	{\n\t0: [L;\n\t\t-8335062365914833459L,\n\t\t2557620878614439713L,\n\t\t-5531489705282664047L\n\t],\n\t3-5A1xmz: 1.0E-9d,\n\t"\\\\{:ac": {\n\t\tCount: 278L,\n\t\tx: 559725395\n\t}\n}
+156 prettify	true
+157 compact	[]
+157 pretty	[\n  ]
+157 stringify	true
+157 compactFlag	false
+157 snbt	[B;\n]
+157 prettify	true
+158 compact	20B
+158 pretty	20B
+158 stringify	true
+158 compactFlag	false
+158 snbt	20b
+158 prettify	true
+159 compact	{" :}":1.0E20D,sC0+1:1.0E20D}
+159 pretty	{\n  " :}": 1.0E20D,\n  sC0+1: 1.0E20D\n}
+159 stringify	true
+159 compactFlag	false
+159 snbt	{\n\t" :}": 1.0E20d,\n\tsC0+1: 1.0E20d\n}
+159 prettify	true
+160 compact	17B
+160 pretty	17B
+160 stringify	true
+160 compactFlag	false
+160 snbt	17b
+160 prettify	true
+161 compact	{"   d":1.0E-9D,"\\" \\"a":-287L,"{::":[0:"aa",1:"b",2:"cc"],"}{":{.uxp8:-419842.6964869487D,7jivib:"",bwtn3fBf:-340317.8176289967D}}
+161 pretty	{\n  "   d": 1.0E-9D,\n  "\\" \\"a": -287L,\n  "{::": [\n    0: "aa",\n    1: "b",\n    2: "cc"\n  ],\n  "}{": {\n    .uxp8: -419842.6964869487D,\n    7jivib: "",\n    bwtn3fBf: -340317.8176289967D\n  }\n}
+161 stringify	true
+161 compactFlag	false
+161 snbt	{\n\t"   d": 1.0E-9d,\n\t'" "a': -287L,\n\t"{::": [\n\t\t"aa",\n\t\t"b",\n\t\t"cc"\n\t],\n\t"}{": {\n\t\t.uxp8: -419842.6964869487d,\n\t\t7jivib: "",\n\t\tbwtn3fBf: -340317.8176289967d\n\t}\n}
+161 prettify	true
+162 compact	{"\\":":-90B,YZzx:[],Z_XZ:1.0E-7F,"aabbé":"}}"}
+162 pretty	{\n  "\\":": -90B,\n  YZzx: [\n    ],\n  Z_XZ: 1.0E-7F,\n  "aabbé": "}}"\n}
+162 stringify	true
+162 compactFlag	false
+162 snbt	{\n\t'":': -90b,\n\tYZzx: [\n\t],\n\tZ_XZ: 1.0E-7f,\n\t"aabbé": "}}"\n}
+162 prettify	true
+163 compact	[0:-32B,1:16B,2:-49B]
+163 pretty	[\n  0: -32B,\n  1: 16B,\n  2: -49B\n]
+163 stringify	true
+163 compactFlag	false
+163 snbt	[B;\n\t-32b,\n\t16b,\n\t-49b\n]
+163 prettify	true
+164 compact	-127173.18006660737D
+164 pretty	-127173.18006660737D
+164 stringify	true
+164 compactFlag	false
+164 snbt	-127173.18006660737d
+164 prettify	true
+165 compact	{0:-31910S,v+pfbsB2:[0:4,1:41,2:25,3:3]}
+165 pretty	{\n  0: -31910S,\n  v+pfbsB2: [\n    0: 4,\n    1: 41,\n    2: 25,\n    3: 3\n  ]\n}
+165 stringify	true
+165 compactFlag	false
+165 snbt	{\n\t0: -31910s,\n\tv+pfbsB2: [\n\t\t4,\n\t\t41,\n\t\t25,\n\t\t3\n\t]\n}
+165 prettify	true
+166 compact	-121B
+166 pretty	-121B
+166 stringify	true
+166 compactFlag	false
+166 snbt	-121b
+166 prettify	true
+167 compact	"1\\t"
+167 pretty	"1\\t"
+167 stringify	true
+167 compactFlag	false
+167 snbt	"1\\t"
+167 prettify	true
+168 compact	{"\\\\":[0:-2889672280250906014L,1:-5993860353924011039L,2:-5097743096827138712L],xY:[],"{\\\\":-19378S,"}}b\\"{":{_:19263S,"c\\\\ d":952L}}
+168 pretty	{\n  "\\\\": [\n    0: -2889672280250906014L,\n    1: -5993860353924011039L,\n    2: -5097743096827138712L\n  ],\n  xY: [\n    ],\n  "{\\\\": -19378S,\n  "}}b\\"{": {\n    _: 19263S,\n    "c\\\\ d": 952L\n  }\n}
+168 stringify	true
+168 compactFlag	false
+168 snbt	{\n\t"\\\\": [L;\n\t\t-2889672280250906014L,\n\t\t-5993860353924011039L,\n\t\t-5097743096827138712L\n\t],\n\txY: [I;\n\t],\n\t"{\\\\": -19378s,\n\t'}}b"{': {\n\t\t_: 19263s,\n\t\t"c\\\\ d": 952L\n\t}\n}
+168 prettify	true
+169 compact	-133.85321F
+169 pretty	-133.85321F
+169 stringify	true
+169 compactFlag	false
+169 snbt	-133.85321f
+169 prettify	true
+170 compact	1.0E-7F
+170 pretty	1.0E-7F
+170 stringify	true
+170 compactFlag	false
+170 snbt	1.0E-7f
+170 prettify	true
+171 compact	{Lore:1.0E-9D,b:-6766255046821762008L,id:[0:-64B,1:30B],yZ:[0:"b"]}
+171 pretty	{\n  Lore: 1.0E-9D,\n  b: -6766255046821762008L,\n  id: [\n    0: -64B,\n    1: 30B\n  ],\n  yZ: [\n    0: "b"\n  ]\n}
+171 stringify	true
+171 compactFlag	false
+171 snbt	{\n\tLore: 1.0E-9d,\n\tb: -6766255046821762008L,\n\tid: [B;\n\t\t-64b,\n\t\t30b\n\t],\n\tyZ: [\n\t\t"b"\n\t]\n}
+171 prettify	true
+172 compact	[0:6412363438339628030L,1:7148631090232988045L,2:6444009898027563733L]
+172 pretty	[\n  0: 6412363438339628030L,\n  1: 7148631090232988045L,\n  2: 6444009898027563733L\n]
+172 stringify	true
+172 compactFlag	false
+172 snbt	[L;\n\t6412363438339628030L,\n\t7148631090232988045L,\n\t6444009898027563733L\n]
+172 prettify	true
+173 compact	-2.25D
+173 pretty	-2.25D
+173 stringify	true
+173 compactFlag	false
+173 snbt	-2.25d
+173 prettify	true
+174 compact	{"d:":1257744280358978053L}
+174 pretty	{\n  "d:": 1257744280358978053L\n}
+174 stringify	true
+174 compactFlag	false
+174 snbt	{\n\t"d:": 1257744280358978053L\n}
+174 prettify	true
+175 compact	[0:-2585639590455100402L,1:-9179291047240526403L,2:-7543546816308827797L]
+175 pretty	[\n  0: -2585639590455100402L,\n  1: -9179291047240526403L,\n  2: -7543546816308827797L\n]
+175 stringify	true
+175 compactFlag	false
+175 snbt	[L;\n\t-2585639590455100402L,\n\t-9179291047240526403L,\n\t-7543546816308827797L\n]
+175 prettify	true
+176 compact	[0:3B,1:-71B]
+176 pretty	[\n  0: 3B,\n  1: -71B\n]
+176 stringify	true
+176 compactFlag	false
+176 snbt	[B;\n\t3b,\n\t-71b\n]
+176 prettify	true
+177 compact	{Count:[0:3096778842887520787L],X:[0:1631435051,1:-2079220375],Z:11783S,display:[]}
+177 pretty	{\n  Count: [\n    0: 3096778842887520787L\n  ],\n  X: [\n    0: 1631435051,\n    1: -2079220375\n  ],\n  Z: 11783S,\n  display: [\n    ]\n}
+177 stringify	true
+177 compactFlag	false
+177 snbt	{\n\tCount: [L;\n\t\t3096778842887520787L\n\t],\n\tX: [I;\n\t\t1631435051,\n\t\t-2079220375\n\t],\n\tZ: 11783s,\n\tdisplay: [I;\n\t]\n}
+177 prettify	true
+178 compact	""
+178 pretty	""
+178 stringify	true
+178 compactFlag	false
+178 snbt	""
+178 prettify	true
+179 compact	[]
+179 pretty	[\n  ]
+179 stringify	true
+179 compactFlag	false
+179 snbt	[B;\n]
+179 prettify	true
+180 compact	{gBb9:{"\\"c:":1.5F,yzzz:1.0E-9D}}
+180 pretty	{\n  gBb9: {\n    "\\"c:": 1.5F,\n    yzzz: 1.0E-9D\n  }\n}
+180 stringify	true
+180 compactFlag	false
+180 snbt	{\n\tgBb9: {\n\t\t'"c:': 1.5f,\n\t\tyzzz: 1.0E-9d\n\t}\n}
+180 prettify	true
+181 compact	10L
+181 pretty	10L
+181 stringify	true
+181 compactFlag	false
+181 snbt	10L
+181 prettify	true
+182 compact	[0:-348741604]
+182 pretty	[\n  0: -348741604\n]
+182 stringify	true
+182 compactFlag	false
+182 snbt	[I;\n\t-348741604\n]
+182 prettify	true
+183 compact	{"{dé\\\\":-954L}
+183 pretty	{\n  "{dé\\\\": -954L\n}
+183 stringify	true
+183 compactFlag	false
+183 snbt	{\n\t"{dé\\\\": -954L\n}
+183 prettify	true
+184 compact	-26839S
+184 pretty	-26839S
+184 stringify	true
+184 compactFlag	false
+184 snbt	-26839s
+184 prettify	true
+185 compact	-814759963
+185 pretty	-814759963
+185 stringify	true
+185 compactFlag	false
+185 snbt	-814759963
+185 prettify	true
+186 compact	{"":108.78345F,dCdgmu.B:-5683097822280107912L,display:1654168357,xyx:"'a"}
+186 pretty	{\n  "": 108.78345F,\n  dCdgmu.B: -5683097822280107912L,\n  display: 1654168357,\n  xyx: "'a"\n}
+186 stringify	true
+186 compactFlag	false
+186 snbt	{\n\t"": 108.78345f,\n\tdCdgmu.B: -5683097822280107912L,\n\tdisplay: 1654168357,\n\txyx: "'a"\n}
+186 prettify	true
+187 compact	3086259938545820764L
+187 pretty	3086259938545820764L
+187 stringify	true
+187 compactFlag	false
+187 snbt	3086259938545820764L
+187 prettify	true
+188 compact	-91B
+188 pretty	-91B
+188 stringify	true
+188 compactFlag	false
+188 snbt	-91b
+188 prettify	true
+189 compact	{"":[0:99B],YX:-381829793,"ad:":17193S,display:[0:-76B,1:8B],kie4ph:-1913929882530561249L}
+189 pretty	{\n  "": [\n    0: 99B\n  ],\n  YX: -381829793,\n  "ad:": 17193S,\n  display: [\n    0: -76B,\n    1: 8B\n  ],\n  kie4ph: -1913929882530561249L\n}
+189 stringify	true
+189 compactFlag	false
+189 snbt	{\n\t"": [B;\n\t\t99b\n\t],\n\tYX: -381829793,\n\t"ad:": 17193s,\n\tdisplay: [B;\n\t\t-76b,\n\t\t8b\n\t],\n\tkie4ph: -1913929882530561249L\n}
+189 prettify	true
+190 compact	-2.25D
+190 pretty	-2.25D
+190 stringify	true
+190 compactFlag	false
+190 snbt	-2.25d
+190 prettify	true
+191 compact	[0:5002672331269418923L]
+191 pretty	[\n  0: 5002672331269418923L\n]
+191 stringify	true
+191 compactFlag	false
+191 snbt	[L;\n\t5002672331269418923L\n]
+191 prettify	true
+192 compact	{"\\" ":"",cbcda:77B,"c}ébé":[0:1611991802,1:1728984865],ejc:{Yx:-2.25D},yZ:305S}
+192 pretty	{\n  "\\" ": "",\n  cbcda: 77B,\n  "c}ébé": [\n    0: 1611991802,\n    1: 1728984865\n  ],\n  ejc: {\n    Yx: -2.25D\n  },\n  yZ: 305S\n}
+192 stringify	true
+192 compactFlag	false
+192 snbt	{\n\t'" ': "",\n\tcbcda: 77b,\n\t"c}ébé": [I;\n\t\t1611991802,\n\t\t1728984865\n\t],\n\tejc: {\n\t\tYx: -2.25d\n\t},\n\tyZ: 305s\n}
+192 prettify	true
+193 compact	-95B
+193 pretty	-95B
+193 stringify	true
+193 compactFlag	false
+193 snbt	-95b
+193 prettify	true
+194 compact	{"\\"d":[0:-678017592,1:-1336323380,2:1101742597],0:[],c02+-65:808L,zxx:1.0E-9D}
+194 pretty	{\n  "\\"d": [\n    0: -678017592,\n    1: -1336323380,\n    2: 1101742597\n  ],\n  0: [\n    ],\n  c02+-65: 808L,\n  zxx: 1.0E-9D\n}
+194 stringify	true
+194 compactFlag	false
+194 snbt	{\n\t'"d': [I;\n\t\t-678017592,\n\t\t-1336323380,\n\t\t1101742597\n\t],\n\t0: [L;\n\t],\n\tc02+-65: 808L,\n\tzxx: 1.0E-9d\n}
+194 prettify	true
+195 compact	{" é":31,dygb:763,id:[0:-1403124766,1:-1593894352],tag:[0:-754915528],"{d":-691L}
+195 pretty	{\n  " é": 31,\n  dygb: 763,\n  id: [\n    0: -1403124766,\n    1: -1593894352\n  ],\n  tag: [\n    0: -754915528\n  ],\n  "{d": -691L\n}
+195 stringify	true
+195 compactFlag	false
+195 snbt	{\n\t" é": 31,\n\tdygb: 763,\n\tid: [I;\n\t\t-1403124766,\n\t\t-1593894352\n\t],\n\ttag: [I;\n\t\t-754915528\n\t],\n\t"{d": -691L\n}
+195 prettify	true
+196 compact	[0:-1035582010]
+196 pretty	[\n  0: -1035582010\n]
+196 stringify	true
+196 compactFlag	false
+196 snbt	[I;\n\t-1035582010\n]
+196 prettify	true
+197 compact	""
+197 pretty	""
+197 stringify	true
+197 compactFlag	false
+197 snbt	""
+197 prettify	true
+198 compact	{X:[0:-4B,1:121B],XY_Y:"3:b,0,",Z:[0:-1866298377,1:[0:[0:-4133093128132041454L,1:2008945806333048404L],1:[0:24B]]],_xyx:[0:0.0D,1:1.0E20D,2:494290958],yz:7.0D}
+198 pretty	{\n  X: [\n    0: -4B,\n    1: 121B\n  ],\n  XY_Y: "3:b,0,",\n  Z: [\n    0: -1866298377,\n    1: [\n      0: [\n        0: -4133093128132041454L,\n        1: 2008945806333048404L\n      ],\n      1: [\n        0: 24B\n      ]\n    ]\n  ],\n  _xyx: [\n    0: 0.0D,\n    1: 1.0E20D,\n    2: 494290958\n  ],\n  yz: 7.0D\n}
+198 stringify	true
+198 compactFlag	false
+198 snbt	{\n\tX: [B;\n\t\t-4b,\n\t\t121b\n\t],\n\tXY_Y: "3:b,0,",\n\tZ: [\n\t\t-1866298377,\n\t\t[\n\t\t\t[L;\n\t\t\t\t-4133093128132041454L,\n\t\t\t\t2008945806333048404L\n\t\t\t],\n\t\t\t[B;\n\t\t\t\t24b\n\t\t\t]\n\t\t]\n\t],\n\t_xyx: [\n\t\t0.0d,\n\t\t1.0E20d,\n\t\t494290958\n\t],\n\tyz: 7.0d\n}
+198 prettify	true
+199 compact	[]
+199 pretty	[\n  ]
+199 stringify	true
+199 compactFlag	false
+199 snbt	[I;\n]
+199 prettify	true
+200 compact	[0:1.0E20D,1:-1952741880]
+200 pretty	[\n  0: 1.0E20D,\n  1: -1952741880\n]
+200 stringify	true
+200 compactFlag	false
+200 snbt	[\n\t1.0E20d,\n\t-1952741880\n]
+200 prettify	true
+201 compact	{-p6k-0y:[],"cd\\"":-58B}
+201 pretty	{\n  -p6k-0y: [\n    ],\n  "cd\\"": -58B\n}
+201 stringify	true
+201 compactFlag	false
+201 snbt	{\n\t-p6k-0y: [I;\n\t],\n\t'cd"': -58b\n}
+201 prettify	true
+202 compact	9B
+202 pretty	9B
+202 stringify	true
+202 compactFlag	false
+202 snbt	9b
+202 prettify	true
+203 compact	"[X{;"
+203 pretty	"[X{;"
+203 stringify	true
+203 compactFlag	false
+203 snbt	"[X{;"
+203 prettify	true
+204 compact	{+96Ad+uu:-5547240295073817704L,ExtraAttributes:{n:[0:30]}}
+204 pretty	{\n  +96Ad+uu: -5547240295073817704L,\n  ExtraAttributes: {\n    n: [\n      0: 30\n    ]\n  }\n}
+204 stringify	true
+204 compactFlag	false
+204 snbt	{\n\t+96Ad+uu: -5547240295073817704L,\n\tExtraAttributes: {\n\t\tn: [\n\t\t\t30\n\t\t]\n\t}\n}
+204 prettify	true
+205 compact	[]
+205 pretty	[\n  ]
+205 stringify	true
+205 compactFlag	false
+205 snbt	[\n]
+205 prettify	true
+206 compact	16.086548F
+206 pretty	16.086548F
+206 stringify	true
+206 compactFlag	false
+206 snbt	16.086548f
+206 prettify	true
+207 compact	{"":-7918432740984645398L,B-hb22:[]}
+207 pretty	{\n  "": -7918432740984645398L,\n  B-hb22: [\n    ]\n}
+207 stringify	true
+207 compactFlag	false
+207 snbt	{\n\t"": -7918432740984645398L,\n\tB-hb22: [I;\n\t]\n}
+207 prettify	true
+208 compact	[0:-1968816596,1:311848996,2:-1655112613]
+208 pretty	[\n  0: -1968816596,\n  1: 311848996,\n  2: -1655112613\n]
+208 stringify	true
+208 compactFlag	false
+208 snbt	[I;\n\t-1968816596,\n\t311848996,\n\t-1655112613\n]
+208 prettify	true
+209 compact	{Lore:-140,Y:68076.50265806587D,"a{a":-116969240037615943L}
+209 pretty	{\n  Lore: -140,\n  Y: 68076.50265806587D,\n  "a{a": -116969240037615943L\n}
+209 stringify	true
+209 compactFlag	false
+209 snbt	{\n\tLore: -140,\n\tY: 68076.50265806587d,\n\t"a{a": -116969240037615943L\n}
+209 prettify	true
+210 compact	{rAn4BC:[0:-780798616,1:-2063252739]}
+210 pretty	{\n  rAn4BC: [\n    0: -780798616,\n    1: -2063252739\n  ]\n}
+210 stringify	true
+210 compactFlag	false
+210 snbt	{\n\trAn4BC: [I;\n\t\t-780798616,\n\t\t-2063252739\n\t]\n}
+210 prettify	true
+211 compact	-9970S
+211 pretty	-9970S
+211 stringify	true
+211 compactFlag	false
+211 snbt	-9970s
+211 prettify	true
+212 compact	",=3[:"
+212 pretty	",=3[:"
+212 stringify	true
+212 compactFlag	false
+212 snbt	",=3[:"
+212 prettify	true
+213 compact	{":b":",",Yxz:[0:";,1bZ\\\\,\\"'",1:2361S,2:"\\\\Y3"]}
+213 pretty	{\n  ":b": ",",\n  Yxz: [\n    0: ";,1bZ\\\\,\\"'",\n    1: 2361S,\n    2: "\\\\Y3"\n  ]\n}
+213 stringify	true
+213 compactFlag	false
+213 snbt	{\n\t":b": ",",\n\tYxz: [\n\t\t';,1bZ\\\\,"\\'',\n\t\t2361s,\n\t\t"\\\\Y3"\n\t]\n}
+213 prettify	true
+214 compact	{Lore:700,Zx:[],"b :\\\\\\"":[0:-80B,1:10B]}
+214 pretty	{\n  Lore: 700,\n  Zx: [\n    ],\n  "b :\\\\\\"": [\n    0: -80B,\n    1: 10B\n  ]\n}
+214 stringify	true
+214 compactFlag	false
+214 snbt	{\n\tLore: 700,\n\tZx: [I;\n\t],\n\t'b :\\\\"': [B;\n\t\t-80b,\n\t\t10b\n\t]\n}
+214 prettify	true
+215 compact	[0:-2454670241365031439L,1:3714164968446560764L,2:8322988190214123426L]
+215 pretty	[\n  0: -2454670241365031439L,\n  1: 3714164968446560764L,\n  2: 8322988190214123426L\n]
+215 stringify	true
+215 compactFlag	false
+215 snbt	[L;\n\t-2454670241365031439L,\n\t3714164968446560764L,\n\t8322988190214123426L\n]
+215 prettify	true
+216 compact	{"\\"aébb":5711S,X:-866943302,lq.Cilbv:7.0D,z:[]}
+216 pretty	{\n  "\\"aébb": 5711S,\n  X: -866943302,\n  lq.Cilbv: 7.0D,\n  z: [\n    ]\n}
+216 stringify	true
+216 compactFlag	false
+216 snbt	{\n\t'"aébb': 5711s,\n\tX: -866943302,\n\tlq.Cilbv: 7.0d,\n\tz: [L;\n\t]\n}
+216 prettify	true
+217 compact	[0:-2115988758614891531L,1:5888233820263413891L]
+217 pretty	[\n  0: -2115988758614891531L,\n  1: 5888233820263413891L\n]
+217 stringify	true
+217 compactFlag	false
+217 snbt	[L;\n\t-2115988758614891531L,\n\t5888233820263413891L\n]
+217 prettify	true
+218 compact	"{:, '\\\\c§{"
+218 pretty	"{:, '\\\\c§{"
+218 stringify	true
+218 compactFlag	false
+218 snbt	"{:, '\\\\c§{"
+218 prettify	true
+219 compact	{Count:-200L,yX:{":\\\\":-86B,Lore:-160L,"\\\\d  ":0.0F},"}c ":{":":{}}}
+219 pretty	{\n  Count: -200L,\n  yX: {\n    ":\\\\": -86B,\n    Lore: -160L,\n    "\\\\d  ": 0.0F\n  },\n  "}c ": {\n    ":": {\n      }\n  }\n}
+219 stringify	true
+219 compactFlag	false
+219 snbt	{\n\tCount: -200L,\n\tyX: {\n\t\t":\\\\": -86b,\n\t\tLore: -160L,\n\t\t"\\\\d  ": 0.0f\n\t},\n\t"}c ": {\n\t\t":": {\n\t\t}\n\t}\n}
+219 prettify	true
+220 compact	1.0E20D
+220 pretty	1.0E20D
+220 stringify	true
+220 compactFlag	false
+220 snbt	1.0E20d
+220 prettify	true
+221 compact	-714454170
+221 pretty	-714454170
+221 stringify	true
+221 compactFlag	false
+221 snbt	-714454170
+221 prettify	true
+222 compact	{"":{g-.ifb7:-24B,xx_Y:-2.25D}}
+222 pretty	{\n  "": {\n    g-.ifb7: -24B,\n    xx_Y: -2.25D\n  }\n}
+222 stringify	true
+222 compactFlag	false
+222 snbt	{\n\t"": {\n\t\tg-.ifb7: -24b,\n\t\txx_Y: -2.25d\n\t}\n}
+222 prettify	true
+223 compact	[0:-7207776549001094154L]
+223 pretty	[\n  0: -7207776549001094154L\n]
+223 stringify	true
+223 compactFlag	false
+223 snbt	[L;\n\t-7207776549001094154L\n]
+223 prettify	true
+224 compact	119B
+224 pretty	119B
+224 stringify	true
+224 compactFlag	false
+224 snbt	119b
+224 prettify	true
+225 compact	{7u:[],"b é:\\\\":3.4028235E38F,x:-903}
+225 pretty	{\n  7u: [\n    ],\n  "b é:\\\\": 3.4028235E38F,\n  x: -903\n}
+225 stringify	true
+225 compactFlag	false
+225 snbt	{\n\t7u: [B;\n\t],\n\t"b é:\\\\": 3.4028235E38f,\n\tx: -903\n}
+225 prettify	true
+226 compact	-20464S
+226 pretty	-20464S
+226 stringify	true
+226 compactFlag	false
+226 snbt	-20464s
+226 prettify	true
+227 compact	889L
+227 pretty	889L
+227 stringify	true
+227 compactFlag	false
+227 snbt	889L
+227 prettify	true
+228 compact	{m-:[0:"c"],vrvq:89B}
+228 pretty	{\n  m-: [\n    0: "c"\n  ],\n  vrvq: 89B\n}
+228 stringify	true
+228 compactFlag	false
+228 snbt	{\n\tm-: [\n\t\t"c"\n\t],\n\tvrvq: 89b\n}
+228 prettify	true
+229 compact	-355
+229 pretty	-355
+229 stringify	true
+229 compactFlag	false
+229 snbt	-355
+229 prettify	true
+230 compact	[0:4198068869937319715L,1:-7762739793903577757L]
+230 pretty	[\n  0: 4198068869937319715L,\n  1: -7762739793903577757L\n]
+230 stringify	true
+230 compactFlag	false
+230 snbt	[L;\n\t4198068869937319715L,\n\t-7762739793903577757L\n]
+230 prettify	true
+231 compact	{arnC:[0:5216883491383772965L,1:8720888728608788505L],"}é}}":-292600302386063716L}
+231 pretty	{\n  arnC: [\n    0: 5216883491383772965L,\n    1: 8720888728608788505L\n  ],\n  "}é}}": -292600302386063716L\n}
+231 stringify	true
+231 compactFlag	false
+231 snbt	{\n\tarnC: [L;\n\t\t5216883491383772965L,\n\t\t8720888728608788505L\n\t],\n\t"}é}}": -292600302386063716L\n}
+231 prettify	true
+232 compact	0.0F
+232 pretty	0.0F
+232 stringify	true
+232 compactFlag	false
+232 snbt	0.0f
+232 prettify	true
+233 compact	30659S
+233 pretty	30659S
+233 stringify	true
+233 compactFlag	false
+233 snbt	30659s
+233 prettify	true
+234 compact	{Count:[0:-875]}
+234 pretty	{\n  Count: [\n    0: -875\n  ]\n}
+234 stringify	true
+234 compactFlag	false
+234 snbt	{\n\tCount: [\n\t\t-875\n\t]\n}
+234 prettify	true
+235 compact	[0:1316033104,1:-145990390]
+235 pretty	[\n  0: 1316033104,\n  1: -145990390\n]
+235 stringify	true
+235 compactFlag	false
+235 snbt	[I;\n\t1316033104,\n\t-145990390\n]
+235 prettify	true
+236 compact	1.5F
+236 pretty	1.5F
+236 stringify	true
+236 compactFlag	false
+236 snbt	1.5f
+236 prettify	true
+237 compact	{-h:[]}
+237 pretty	{\n  -h: [\n    ]\n}
+237 stringify	true
+237 compactFlag	false
+237 snbt	{\n\t-h: [I;\n\t]\n}
+237 prettify	true
+238 compact	{2ed+q:24007S,YyY:7.0D,bb:240L}
+238 pretty	{\n  2ed+q: 24007S,\n  YyY: 7.0D,\n  bb: 240L\n}
+238 stringify	true
+238 compactFlag	false
+238 snbt	{\n\t2ed+q: 24007s,\n\tYyY: 7.0d,\n\tbb: 240L\n}
+238 prettify	true
+239 compact	1.5F
+239 pretty	1.5F
+239 stringify	true
+239 compactFlag	false
+239 snbt	1.5f
+239 prettify	true
+240 compact	{" d{a:":[0:-7595739785010979473L],"\\"c":{4b58gt:-66B},"\\"d}éd":[]}
+240 pretty	{\n  " d{a:": [\n    0: -7595739785010979473L\n  ],\n  "\\"c": {\n    4b58gt: -66B\n  },\n  "\\"d}éd": [\n    ]\n}
+240 stringify	true
+240 compactFlag	false
+240 snbt	{\n\t" d{a:": [L;\n\t\t-7595739785010979473L\n\t],\n\t'"c': {\n\t\t4b58gt: -66b\n\t},\n\t'"d}éd': [B;\n\t]\n}
+240 prettify	true
+241 compact	{}
+241 pretty	{\n  }
+241 stringify	true
+241 compactFlag	false
+241 snbt	{\n}
+241 prettify	true
+242 compact	{"\\\\":[0:""],cac:30095S,cd:1011612765}
+242 pretty	{\n  "\\\\": [\n    0: ""\n  ],\n  cac: 30095S,\n  cd: 1011612765\n}
+242 stringify	true
+242 compactFlag	false
+242 snbt	{\n\t"\\\\": [\n\t\t""\n\t],\n\tcac: 30095s,\n\tcd: 1011612765\n}
+242 prettify	true
+243 compact	{0:-108B,3:[],Name:{ExtraAttributes:[0:101B,1:-121B,2:-44B]},_A0c+A:[0:{xy:1},1:{tag:1}],display:"0'X"}
+243 pretty	{\n  0: -108B,\n  3: [\n    ],\n  Name: {\n    ExtraAttributes: [\n      0: 101B,\n      1: -121B,\n      2: -44B\n    ]\n  },\n  _A0c+A: [\n    0: {\n      xy: 1\n    },\n    1: {\n      tag: 1\n    }\n  ],\n  display: "0'X"\n}
+243 stringify	true
+243 compactFlag	false
+243 snbt	{\n\t0: -108b,\n\t3: [I;\n\t],\n\tName: {\n\t\tExtraAttributes: [B;\n\t\t\t101b,\n\t\t\t-121b,\n\t\t\t-44b\n\t\t]\n\t},\n\t_A0c+A: [\n\t\t{\n\t\t\txy: 1\n\t\t},\n\t\t{\n\t\t\ttag: 1\n\t\t}\n\t],\n\tdisplay: "0'X"\n}
+243 prettify	true
+244 compact	{+:46B,0:-1868054239,9xC_:-2B,"c}{ ":-72B}
+244 pretty	{\n  +: 46B,\n  0: -1868054239,\n  9xC_: -2B,\n  "c}{ ": -72B\n}
+244 stringify	true
+244 compactFlag	false
+244 snbt	{\n\t+: 46b,\n\t0: -1868054239,\n\t9xC_: -2b,\n\t"c}{ ": -72b\n}
+244 prettify	true
+245 compact	8201271027377430041L
+245 pretty	8201271027377430041L
+245 stringify	true
+245 compactFlag	false
+245 snbt	8201271027377430041L
+245 prettify	true
+246 compact	{1s_:{"\\"{{éé":[0:382883444],ExtraAttributes:-30623S,id:[0:{"{":1},1:{4:1},2:{__xy:1}],tag:1.0E-9D},66uh:";\\"b1=0'",ExtraAttributes:{"\\"}b :":12,0:28148S,5Ad+ug:-521895704},_yz_:{}}
+246 pretty	{\n  1s_: {\n    "\\"{{éé": [\n      0: 382883444\n    ],\n    ExtraAttributes: -30623S,\n    id: [\n      0: {\n        "{": 1\n      },\n      1: {\n        4: 1\n      },\n      2: {\n        __xy: 1\n      }\n    ],\n    tag: 1.0E-9D\n  },\n  66uh: ";\\"b1=0'",\n  ExtraAttributes: {\n    "\\"}b :": 12,\n    0: 28148S,\n    5Ad+ug: -521895704\n  },\n  _yz_: {\n    }\n}
+246 stringify	true
+246 compactFlag	false
+246 snbt	{\n\t1s_: {\n\t\t'"{{éé': [I;\n\t\t\t382883444\n\t\t],\n\t\tExtraAttributes: -30623s,\n\t\tid: [\n\t\t\t{\n\t\t\t\t"{": 1\n\t\t\t},\n\t\t\t{\n\t\t\t\t4: 1\n\t\t\t},\n\t\t\t{\n\t\t\t\t__xy: 1\n\t\t\t}\n\t\t],\n\t\ttag: 1.0E-9d\n\t},\n\t66uh: ';"b1=0\\'',\n\tExtraAttributes: {\n\t\t'"}b :': 12,\n\t\t0: 28148s,\n\t\t5Ad+ug: -521895704\n\t},\n\t_yz_: {\n\t}\n}
+246 prettify	true
+247 compact	[0:108B,1:99B,2:-53B]
+247 pretty	[\n  0: 108B,\n  1: 99B,\n  2: -53B\n]
+247 stringify	true
+247 compactFlag	false
+247 snbt	[B;\n\t108b,\n\t99b,\n\t-53b\n]
+247 prettify	true
+248 compact	[0:-2637638374744749434L,1:7823552715782253858L,2:-8963037274651163615L]
+248 pretty	[\n  0: -2637638374744749434L,\n  1: 7823552715782253858L,\n  2: -8963037274651163615L\n]
+248 stringify	true
+248 compactFlag	false
+248 snbt	[L;\n\t-2637638374744749434L,\n\t7823552715782253858L,\n\t-8963037274651163615L\n]
+248 prettify	true
+249 compact	{_xYy:-18213S}
+249 pretty	{\n  _xYy: -18213S\n}
+249 stringify	true
+249 compactFlag	false
+249 snbt	{\n\t_xYy: -18213s\n}
+249 prettify	true
+250 compact	{Name:[],a:[0:-308246375,1:-140301849],zx:5748860979435963539L}
+250 pretty	{\n  Name: [\n    ],\n  a: [\n    0: -308246375,\n    1: -140301849\n  ],\n  zx: 5748860979435963539L\n}
+250 stringify	true
+250 compactFlag	false
+250 snbt	{\n\tName: [\n\t],\n\ta: [I;\n\t\t-308246375,\n\t\t-140301849\n\t],\n\tzx: 5748860979435963539L\n}
+250 prettify	true
+251 compact	[]
+251 pretty	[\n  ]
+251 stringify	true
+251 compactFlag	false
+251 snbt	[I;\n]
+251 prettify	true
+252 compact	{"\\"é}":[0:-97B,1:20B,2:72B],YX:3.0F}
+252 pretty	{\n  "\\"é}": [\n    0: -97B,\n    1: 20B,\n    2: 72B\n  ],\n  YX: 3.0F\n}
+252 stringify	true
+252 compactFlag	false
+252 snbt	{\n\t'"é}': [B;\n\t\t-97b,\n\t\t20b,\n\t\t72b\n\t],\n\tYX: 3.0f\n}
+252 prettify	true
+253 compact	[]
+253 pretty	[\n  ]
+253 stringify	true
+253 compactFlag	false
+253 snbt	[B;\n]
+253 prettify	true
+254 compact	1.0E20D
+254 pretty	1.0E20D
+254 stringify	true
+254 compactFlag	false
+254 snbt	1.0E20d
+254 prettify	true
+255 compact	{"":7959S,4px6wiA:{"bb}":"b\\"c0"},display:[]}
+255 pretty	{\n  "": 7959S,\n  4px6wiA: {\n    "bb}": "b\\"c0"\n  },\n  display: [\n    ]\n}
+255 stringify	true
+255 compactFlag	false
+255 snbt	{\n\t"": 7959s,\n\t4px6wiA: {\n\t\t"bb}": 'b"c0'\n\t},\n\tdisplay: [I;\n\t]\n}
+255 prettify	true
+256 compact	121B
+256 pretty	121B
+256 stringify	true
+256 compactFlag	false
+256 snbt	121b
+256 prettify	true
+257 compact	1.5F
+257 pretty	1.5F
+257 stringify	true
+257 compactFlag	false
+257 snbt	1.5f
+257 prettify	true
+258 compact	{Count:[0:1106359365058755882L,1:9194358713658487748L],"\\\\":0.0D,ba:[0:328490890329459248L],yZ:[0:6240436779066163627L],yyzy:[0:-15B,1:94B,2:58B]}
+258 pretty	{\n  Count: [\n    0: 1106359365058755882L,\n    1: 9194358713658487748L\n  ],\n  "\\\\": 0.0D,\n  ba: [\n    0: 328490890329459248L\n  ],\n  yZ: [\n    0: 6240436779066163627L\n  ],\n  yyzy: [\n    0: -15B,\n    1: 94B,\n    2: 58B\n  ]\n}
+258 stringify	true
+258 compactFlag	false
+258 snbt	{\n\tCount: [L;\n\t\t1106359365058755882L,\n\t\t9194358713658487748L\n\t],\n\t"\\\\": 0.0d,\n\tba: [L;\n\t\t328490890329459248L\n\t],\n\tyZ: [L;\n\t\t6240436779066163627L\n\t],\n\tyyzy: [B;\n\t\t-15b,\n\t\t94b,\n\t\t58b\n\t]\n}
+258 prettify	true
+259 compact	0.0F
+259 pretty	0.0F
+259 stringify	true
+259 compactFlag	false
+259 snbt	0.0f
+259 prettify	true
+260 compact	571L
+260 pretty	571L
+260 stringify	true
+260 compactFlag	false
+260 snbt	571L
+260 prettify	true
+261 compact	{kdm:{YxXy:"\\t{;'",display:{"\\"b":"1X0é{:Y\\n","\\"}\\"":[0:-501283935,1:-1145034101],Name:-64B,gB3lqCAy:[0:8152591872476054071L,1:2229012636617018305L,2:2709154330029500777L]}},vfnpz9:{}}
+261 pretty	{\n  kdm: {\n    YxXy: "\\t{;'",\n    display: {\n      "\\"b": "1X0é{:Y\\n",\n      "\\"}\\"": [\n        0: -501283935,\n        1: -1145034101\n      ],\n      Name: -64B,\n      gB3lqCAy: [\n        0: 8152591872476054071L,\n        1: 2229012636617018305L,\n        2: 2709154330029500777L\n      ]\n    }\n  },\n  vfnpz9: {\n    }\n}
+261 stringify	true
+261 compactFlag	false
+261 snbt	{\n\tkdm: {\n\t\tYxXy: "\\t{;'",\n\t\tdisplay: {\n\t\t\t'"b': "1X0é{:Y\\n",\n\t\t\t'"}"': [I;\n\t\t\t\t-501283935,\n\t\t\t\t-1145034101\n\t\t\t],\n\t\t\tName: -64b,\n\t\t\tgB3lqCAy: [L;\n\t\t\t\t8152591872476054071L,\n\t\t\t\t2229012636617018305L,\n\t\t\t\t2709154330029500777L\n\t\t\t]\n\t\t}\n\t},\n\tvfnpz9: {\n\t}\n}
+261 prettify	true
+262 compact	"éZ§02c=:{"
+262 pretty	"éZ§02c=:{"
+262 stringify	true
+262 compactFlag	false
+262 snbt	"éZ§02c=:{"
+262 prettify	true
+263 compact	[0:8,1:80]
+263 pretty	[\n  0: 8,\n  1: 80\n]
+263 stringify	true
+263 compactFlag	false
+263 snbt	[\n\t8,\n\t80\n]
+263 prettify	true
+264 compact	{"":-966,display:[],tag:[0:3631100948509714938L],"{}":[0:6281492624873706130L]}
+264 pretty	{\n  "": -966,\n  display: [\n    ],\n  tag: [\n    0: 3631100948509714938L\n  ],\n  "{}": [\n    0: 6281492624873706130L\n  ]\n}
+264 stringify	true
+264 compactFlag	false
+264 snbt	{\n\t"": -966,\n\tdisplay: [B;\n\t],\n\ttag: [L;\n\t\t3631100948509714938L\n\t],\n\t"{}": [\n\t\t6281492624873706130L\n\t]\n}
+264 prettify	true
+265 compact	7.0D
+265 pretty	7.0D
+265 stringify	true
+265 compactFlag	false
+265 snbt	7.0d
+265 prettify	true
+266 compact	[0:35,1:64,2:97,3:48]
+266 pretty	[\n  0: 35,\n  1: 64,\n  2: 97,\n  3: 48\n]
+266 stringify	true
+266 compactFlag	false
+266 snbt	[\n\t35,\n\t64,\n\t97,\n\t48\n]
+266 prettify	true
+267 compact	{YX:-250}
+267 pretty	{\n  YX: -250\n}
+267 stringify	true
+267 compactFlag	false
+267 snbt	{\n\tYX: -250\n}
+267 prettify	true
+268 compact	0.0D
+268 pretty	0.0D
+268 stringify	true
+268 compactFlag	false
+268 snbt	0.0d
+268 prettify	true
+269 compact	-124B
+269 pretty	-124B
+269 stringify	true
+269 compactFlag	false
+269 snbt	-124b
+269 prettify	true
+270 compact	{"\\"d}":"Yé"}
+270 pretty	{\n  "\\"d}": "Yé"\n}
+270 stringify	true
+270 compactFlag	false
+270 snbt	{\n\t'"d}': "Yé"\n}
+270 prettify	true
+271 compact	[0:3983611819727318593L,1:-55040924132903152L]
+271 pretty	[\n  0: 3983611819727318593L,\n  1: -55040924132903152L\n]
+271 stringify	true
+271 compactFlag	false
+271 snbt	[L;\n\t3983611819727318593L,\n\t-55040924132903152L\n]
+271 prettify	true
+272 compact	-264.01526F
+272 pretty	-264.01526F
+272 stringify	true
+272 compactFlag	false
+272 snbt	-264.01526f
+272 prettify	true
+273 compact	{ExtraAttributes:1.0E20D,Name:"§=::'2",X_YY:" '1,\\\\],",z:[0:0.05153192119160055D,1:0.038826312754624004D]}
+273 pretty	{\n  ExtraAttributes: 1.0E20D,\n  Name: "§=::'2",\n  X_YY: " '1,\\\\],",\n  z: [\n    0: 0.05153192119160055D,\n    1: 0.038826312754624004D\n  ]\n}
+273 stringify	true
+273 compactFlag	false
+273 snbt	{\n\tExtraAttributes: 1.0E20d,\n\tName: "§=::'2",\n\tX_YY: " '1,\\\\],",\n\tz: [\n\t\t0.05153192119160055d,\n\t\t0.038826312754624004d\n\t]\n}
+273 prettify	true
+274 compact	0.0F
+274 pretty	0.0F
+274 stringify	true
+274 compactFlag	false
+274 snbt	0.0f
+274 prettify	true
+275 compact	7.0D
+275 pretty	7.0D
+275 stringify	true
+275 compactFlag	false
+275 snbt	7.0d
+275 prettify	true
+276 compact	{"":7.0D,Yx:24536S,YxXz:[0:-9213395025697662768L,1:-6356808431657719070L,2:1424257904685676360L],Z:-327L}
+276 pretty	{\n  "": 7.0D,\n  Yx: 24536S,\n  YxXz: [\n    0: -9213395025697662768L,\n    1: -6356808431657719070L,\n    2: 1424257904685676360L\n  ],\n  Z: -327L\n}
+276 stringify	true
+276 compactFlag	false
+276 snbt	{\n\t"": 7.0d,\n\tYx: 24536s,\n\tYxXz: [L;\n\t\t-9213395025697662768L,\n\t\t-6356808431657719070L,\n\t\t1424257904685676360L\n\t],\n\tZ: -327L\n}
+276 prettify	true
+277 compact	3.4028235E38F
+277 pretty	3.4028235E38F
+277 stringify	true
+277 compactFlag	false
+277 snbt	3.4028235E38f
+277 prettify	true
+278 compact	-849L
+278 pretty	-849L
+278 stringify	true
+278 compactFlag	false
+278 snbt	-849L
+278 prettify	true
+279 compact	{"a{a:":25389S,"cb a:":{Count:1.0E-7F,Lore:[0:-530925950,1:2105636340,2:-374168507],"d:{":-768}}
+279 pretty	{\n  "a{a:": 25389S,\n  "cb a:": {\n    Count: 1.0E-7F,\n    Lore: [\n      0: -530925950,\n      1: 2105636340,\n      2: -374168507\n    ],\n    "d:{": -768\n  }\n}
+279 stringify	true
+279 compactFlag	false
+279 snbt	{\n\t"a{a:": 25389s,\n\t"cb a:": {\n\t\tCount: 1.0E-7f,\n\t\tLore: [I;\n\t\t\t-530925950,\n\t\t\t2105636340,\n\t\t\t-374168507\n\t\t],\n\t\t"d:{": -768\n\t}\n}
+279 prettify	true
+280 compact	276.31458F
+280 pretty	276.31458F
+280 stringify	true
+280 compactFlag	false
+280 snbt	276.31458f
+280 prettify	true
+281 compact	1.0E-9D
+281 pretty	1.0E-9D
+281 stringify	true
+281 compactFlag	false
+281 snbt	1.0E-9d
+281 prettify	true
+282 compact	{Lore:16440S,zx:"Z]\\\\a'Z0a{2"}
+282 pretty	{\n  Lore: 16440S,\n  zx: "Z]\\\\a'Z0a{2"\n}
+282 stringify	true
+282 compactFlag	false
+282 snbt	{\n\tLore: 16440s,\n\tzx: "Z]\\\\a'Z0a{2"\n}
+282 prettify	true
+283 compact	[0:{yZxZ:1},1:{"\\"\\\\é":1}]
+283 pretty	[\n  0: {\n    yZxZ: 1\n  },\n  1: {\n    "\\"\\\\é": 1\n  }\n]
+283 stringify	true
+283 compactFlag	false
+283 snbt	[\n\t{\n\t\tyZxZ: 1\n\t},\n\t{\n\t\t'"\\\\é': 1\n\t}\n]
+283 prettify	true
+284 compact	730L
+284 pretty	730L
+284 stringify	true
+284 compactFlag	false
+284 snbt	730L
+284 prettify	true
+285 compact	{X:[]}
+285 pretty	{\n  X: [\n    ]\n}
+285 stringify	true
+285 compactFlag	false
+285 snbt	{\n\tX: [\n\t]\n}
+285 prettify	true
+286 compact	-49B
+286 pretty	-49B
+286 stringify	true
+286 compactFlag	false
+286 snbt	-49b
+286 prettify	true
+287 compact	[0:[],1:"32;:1{§X",2:[0:8459886605309208769L,1:1098877728682563180L]]
+287 pretty	[\n  0: [\n    ],\n  1: "32;:1{§X",\n  2: [\n    0: 8459886605309208769L,\n    1: 1098877728682563180L\n  ]\n]
+287 stringify	true
+287 compactFlag	false
+287 snbt	[\n\t[B;\n\t],\n\t"32;:1{§X",\n\t[L;\n\t\t8459886605309208769L,\n\t\t1098877728682563180L\n\t]\n]
+287 prettify	true
+288 compact	{Count:[0:63B],Lore:{ExtraAttributes:-15983S,display:{Count:28821S,Name:[0:-1364882882,1:-2061050178],_ZXZ:{0:-858,8urv8z:-7733.221836348064D,a:-717L},"a \\\\\\"":""},zX:46B,"é{a d":{}},tag:{Count:[0:[0:8531126043938078350L],1:[0:1527829549,1:-801351980],2:[0:-96B,1:100B]]},yY:[0:1177391575,1:588192960,2:1268674781]}
+288 pretty	{\n  Count: [\n    0: 63B\n  ],\n  Lore: {\n    ExtraAttributes: -15983S,\n    display: {\n      Count: 28821S,\n      Name: [\n        0: -1364882882,\n        1: -2061050178\n      ],\n      _ZXZ: {\n        0: -858,\n        8urv8z: -7733.221836348064D,\n        a: -717L\n      },\n      "a \\\\\\"": ""\n    },\n    zX: 46B,\n    "é{a d": {\n      }\n  },\n  tag: {\n    Count: [\n      0: [\n        0: 8531126043938078350L\n      ],\n      1: [\n        0: 1527829549,\n        1: -801351980\n      ],\n      2: [\n        0: -96B,\n        1: 100B\n      ]\n    ]\n  },\n  yY: [\n    0: 1177391575,\n    1: 588192960,\n    2: 1268674781\n  ]\n}
+288 stringify	true
+288 compactFlag	false
+288 snbt	{\n\tCount: [B;\n\t\t63b\n\t],\n\tLore: {\n\t\tExtraAttributes: -15983s,\n\t\tdisplay: {\n\t\t\tCount: 28821s,\n\t\t\tName: [I;\n\t\t\t\t-1364882882,\n\t\t\t\t-2061050178\n\t\t\t],\n\t\t\t_ZXZ: {\n\t\t\t\t0: -858,\n\t\t\t\t8urv8z: -7733.221836348064d,\n\t\t\t\ta: -717L\n\t\t\t},\n\t\t\t'a \\\\"': ""\n\t\t},\n\t\tzX: 46b,\n\t\t"é{a d": {\n\t\t}\n\t},\n\ttag: {\n\t\tCount: [\n\t\t\t[L;\n\t\t\t\t8531126043938078350L\n\t\t\t],\n\t\t\t[I;\n\t\t\t\t1527829549,\n\t\t\t\t-801351980\n\t\t\t],\n\t\t\t[B;\n\t\t\t\t-96b,\n\t\t\t\t100b\n\t\t\t]\n\t\t]\n\t},\n\tyY: [I;\n\t\t1177391575,\n\t\t588192960,\n\t\t1268674781\n\t]\n}
+288 prettify	true
+289 compact	"b"
+289 pretty	"b"
+289 stringify	true
+289 compactFlag	false
+289 snbt	"b"
+289 prettify	true
+290 compact	[0:-7410304750549376960L]
+290 pretty	[\n  0: -7410304750549376960L\n]
+290 stringify	true
+290 compactFlag	false
+290 snbt	[L;\n\t-7410304750549376960L\n]
+290 prettify	true
+291 compact	{X:[0:-66B,1:-1B],Zx:1620287492002391843L}
+291 pretty	{\n  X: [\n    0: -66B,\n    1: -1B\n  ],\n  Zx: 1620287492002391843L\n}
+291 stringify	true
+291 compactFlag	false
+291 snbt	{\n\tX: [B;\n\t\t-66b,\n\t\t-1b\n\t],\n\tZx: 1620287492002391843L\n}
+291 prettify	true
+292 compact	3447.728032920684D
+292 pretty	3447.728032920684D
+292 stringify	true
+292 compactFlag	false
+292 snbt	3447.728032920684d
+292 prettify	true
+293 compact	1.0E-7F
+293 pretty	1.0E-7F
+293 stringify	true
+293 compactFlag	false
+293 snbt	1.0E-7f
+293 prettify	true
+294 compact	{AA2Au2ig:441,Count:[],YyzZ:-29B,xXxz:[0:-987,1:3.4028235E38F,2:-115B]}
+294 pretty	{\n  AA2Au2ig: 441,\n  Count: [\n    ],\n  YyzZ: -29B,\n  xXxz: [\n    0: -987,\n    1: 3.4028235E38F,\n    2: -115B\n  ]\n}
+294 stringify	true
+294 compactFlag	false
+294 snbt	{\n\tAA2Au2ig: 441,\n\tCount: [B;\n\t],\n\tYyzZ: -29b,\n\txXxz: [\n\t\t-987,\n\t\t3.4028235E38f,\n\t\t-115b\n\t]\n}
+294 prettify	true
+295 compact	1.0E-7F
+295 pretty	1.0E-7F
+295 stringify	true
+295 compactFlag	false
+295 snbt	1.0E-7f
+295 prettify	true
+296 compact	"\\\\\\"c]"
+296 pretty	"\\\\\\"c]"
+296 stringify	true
+296 compactFlag	false
+296 snbt	'\\\\"c]'
+296 prettify	true
+297 compact	{Lore:[],yx:[0:":Yc",1:"\\t0a§}\\na",2:"Xc[\\\\§Zb:Z",3:{0:[0:85],Count:24846S,oaz+Chi:1.5F,z_X_:[0:526816225,1:1791922235,2:1886953941]}]}
+297 pretty	{\n  Lore: [\n    ],\n  yx: [\n    0: ":Yc",\n    1: "\\t0a§}\\na",\n    2: "Xc[\\\\§Zb:Z",\n    3: {\n      0: [\n        0: 85\n      ],\n      Count: 24846S,\n      oaz+Chi: 1.5F,\n      z_X_: [\n        0: 526816225,\n        1: 1791922235,\n        2: 1886953941\n      ]\n    }\n  ]\n}
+297 stringify	true
+297 compactFlag	false
+297 snbt	{\n\tLore: [\n\t],\n\tyx: [\n\t\t":Yc",\n\t\t"\\t0a§}\\na",\n\t\t"Xc[\\\\§Zb:Z",\n\t\t{\n\t\t\t0: [\n\t\t\t\t85\n\t\t\t],\n\t\t\tCount: 24846s,\n\t\t\toaz+Chi: 1.5f,\n\t\t\tz_X_: [I;\n\t\t\t\t526816225,\n\t\t\t\t1791922235,\n\t\t\t\t1886953941\n\t\t\t]\n\t\t}\n\t]\n}
+297 prettify	true
+298 compact	1.0E-9D
+298 pretty	1.0E-9D
+298 stringify	true
+298 compactFlag	false
+298 snbt	1.0E-9d
+298 prettify	true
+299 compact	[]
+299 pretty	[\n  ]
+299 stringify	true
+299 compactFlag	false
+299 snbt	[\n]
+299 prettify	true
+300 compact	{Y__Y:{db:160L,y_:-6389919742444942709L,"éb} ":7.0D},xYx:8458S}
+300 pretty	{\n  Y__Y: {\n    db: 160L,\n    y_: -6389919742444942709L,\n    "éb} ": 7.0D\n  },\n  xYx: 8458S\n}
+300 stringify	true
+300 compactFlag	false
+300 snbt	{\n\tY__Y: {\n\t\tdb: 160L,\n\t\ty_: -6389919742444942709L,\n\t\t"éb} ": 7.0d\n\t},\n\txYx: 8458s\n}
+300 prettify	true
+301 compact	[0:""]
+301 pretty	[\n  0: ""\n]
+301 stringify	true
+301 compactFlag	false
+301 snbt	[\n\t""\n]
+301 prettify	true
+302 compact	3.0F
+302 pretty	3.0F
+302 stringify	true
+302 compactFlag	false
+302 snbt	3.0f
+302 prettify	true
+303 compact	{"":-1134671473240225103L,3u3:[0:-109B,1:37B,2:-96B],otaCbqun:[0:{"\\"\\"b\\"b":1},1:{xyXY:1}]}
+303 pretty	{\n  "": -1134671473240225103L,\n  3u3: [\n    0: -109B,\n    1: 37B,\n    2: -96B\n  ],\n  otaCbqun: [\n    0: {\n      "\\"\\"b\\"b": 1\n    },\n    1: {\n      xyXY: 1\n    }\n  ]\n}
+303 stringify	true
+303 compactFlag	false
+303 snbt	{\n\t"": -1134671473240225103L,\n\t3u3: [B;\n\t\t-109b,\n\t\t37b,\n\t\t-96b\n\t],\n\totaCbqun: [\n\t\t{\n\t\t\t'""b"b': 1\n\t\t},\n\t\t{\n\t\t\txyXY: 1\n\t\t}\n\t]\n}
+303 prettify	true
+304 compact	[]
+304 pretty	[\n  ]
+304 stringify	true
+304 compactFlag	false
+304 snbt	[I;\n]
+304 prettify	true
+305 compact	[0:-1429990033]
+305 pretty	[\n  0: -1429990033\n]
+305 stringify	true
+305 compactFlag	false
+305 snbt	[I;\n\t-1429990033\n]
+305 prettify	true
+306 compact	{t_r7Cn:19890S,x:-835L,yYY_:3.4028235E38F}
+306 pretty	{\n  t_r7Cn: 19890S,\n  x: -835L,\n  yYY_: 3.4028235E38F\n}
+306 stringify	true
+306 compactFlag	false
+306 snbt	{\n\tt_r7Cn: 19890s,\n\tx: -835L,\n\tyYY_: 3.4028235E38f\n}
+306 prettify	true
+307 compact	1.0E-7F
+307 pretty	1.0E-7F
+307 stringify	true
+307 compactFlag	false
+307 snbt	1.0E-7f
+307 prettify	true
+308 compact	[0:100B,1:-109B,2:-17B]
+308 pretty	[\n  0: 100B,\n  1: -109B,\n  2: -17B\n]
+308 stringify	true
+308 compactFlag	false
+308 snbt	[B;\n\t100b,\n\t-109b,\n\t-17b\n]
+308 prettify	true
+309 compact	{Lore:[0:2146408205151988314L,1:4734845164657161519L,2:-7929783560386805032L],Name:[0:-24B,1:-88B,2:-34B],"}":[0:{Z_ZX:1}]}
+309 pretty	{\n  Lore: [\n    0: 2146408205151988314L,\n    1: 4734845164657161519L,\n    2: -7929783560386805032L\n  ],\n  Name: [\n    0: -24B,\n    1: -88B,\n    2: -34B\n  ],\n  "}": [\n    0: {\n      Z_ZX: 1\n    }\n  ]\n}
+309 stringify	true
+309 compactFlag	false
+309 snbt	{\n\tLore: [L;\n\t\t2146408205151988314L,\n\t\t4734845164657161519L,\n\t\t-7929783560386805032L\n\t],\n\tName: [B;\n\t\t-24b,\n\t\t-88b,\n\t\t-34b\n\t],\n\t"}": [\n\t\t{\n\t\t\tZ_ZX: 1\n\t\t}\n\t]\n}
+309 prettify	true
+310 compact	-28459S
+310 pretty	-28459S
+310 stringify	true
+310 compactFlag	false
+310 snbt	-28459s
+310 prettify	true
+311 compact	0.0D
+311 pretty	0.0D
+311 stringify	true
+311 compactFlag	false
+311 snbt	0.0d
+311 prettify	true
+312 compact	{Name:25569S,"a}\\\\a":0.0D,id:"é",tag:27570S,y:[0:18B,1:65B]}
+312 pretty	{\n  Name: 25569S,\n  "a}\\\\a": 0.0D,\n  id: "é",\n  tag: 27570S,\n  y: [\n    0: 18B,\n    1: 65B\n  ]\n}
+312 stringify	true
+312 compactFlag	false
+312 snbt	{\n\tName: 25569s,\n\t"a}\\\\a": 0.0d,\n\tid: "é",\n\ttag: 27570s,\n\ty: [B;\n\t\t18b,\n\t\t65b\n\t]\n}
+312 prettify	true
+313 compact	{ExtraAttributes:[],Y:[0:"ba",1:"bbb"]}
+313 pretty	{\n  ExtraAttributes: [\n    ],\n  Y: [\n    0: "ba",\n    1: "bbb"\n  ]\n}
+313 stringify	true
+313 compactFlag	false
+313 snbt	{\n\tExtraAttributes: [L;\n\t],\n\tY: [\n\t\t"ba",\n\t\t"bbb"\n\t]\n}
+313 prettify	true
+314 compact	-1314175658
+314 pretty	-1314175658
+314 stringify	true
+314 compactFlag	false
+314 snbt	-1314175658
+314 prettify	true
+315 compact	{"":123B,0:[0:-1702533879],Name:{ExtraAttributes:1.5F},xxx:1078457197,xy_y:[0:838655970,1:2056451641,2:9376444]}
+315 pretty	{\n  "": 123B,\n  0: [\n    0: -1702533879\n  ],\n  Name: {\n    ExtraAttributes: 1.5F\n  },\n  xxx: 1078457197,\n  xy_y: [\n    0: 838655970,\n    1: 2056451641,\n    2: 9376444\n  ]\n}
+315 stringify	true
+315 compactFlag	false
+315 snbt	{\n\t"": 123b,\n\t0: [I;\n\t\t-1702533879\n\t],\n\tName: {\n\t\tExtraAttributes: 1.5f\n\t},\n\txxx: 1078457197,\n\txy_y: [I;\n\t\t838655970,\n\t\t2056451641,\n\t\t9376444\n\t]\n}
+315 prettify	true
+316 compact	1.0E20D
+316 pretty	1.0E20D
+316 stringify	true
+316 compactFlag	false
+316 snbt	1.0E20d
+316 prettify	true
+317 compact	[0:-5462394999567527859L,1:7157224616435446998L,2:5273465301553741975L]
+317 pretty	[\n  0: -5462394999567527859L,\n  1: 7157224616435446998L,\n  2: 5273465301553741975L\n]
+317 stringify	true
+317 compactFlag	false
+317 snbt	[L;\n\t-5462394999567527859L,\n\t7157224616435446998L,\n\t5273465301553741975L\n]
+317 prettify	true
+318 compact	{Y:-2.25D}
+318 pretty	{\n  Y: -2.25D\n}
+318 stringify	true
+318 compactFlag	false
+318 snbt	{\n\tY: -2.25d\n}
+318 prettify	true
+319 compact	"Y\\"}\\n};'c"
+319 pretty	"Y\\"}\\n};'c"
+319 stringify	true
+319 compactFlag	false
+319 snbt	'Y"}\\n};\\'c'
+319 prettify	true
+320 compact	-1663741575624018912L
+320 pretty	-1663741575624018912L
+320 stringify	true
+320 compactFlag	false
+320 snbt	-1663741575624018912L
+320 prettify	true
+321 compact	{" éd ":{-qCc4-:[0:-9217558,1:-968240926],":":-16749S,tag:-690703518},Count:[0:-5952479457976521115L,1:7607671713777085691L],Z:"[a=3'{{c0",Zy:278L}
+321 pretty	{\n  " éd ": {\n    -qCc4-: [\n      0: -9217558,\n      1: -968240926\n    ],\n    ":": -16749S,\n    tag: -690703518\n  },\n  Count: [\n    0: -5952479457976521115L,\n    1: 7607671713777085691L\n  ],\n  Z: "[a=3'{{c0",\n  Zy: 278L\n}
+321 stringify	true
+321 compactFlag	false
+321 snbt	{\n\t" éd ": {\n\t\t-qCc4-: [I;\n\t\t\t-9217558,\n\t\t\t-968240926\n\t\t],\n\t\t":": -16749s,\n\t\ttag: -690703518\n\t},\n\tCount: [L;\n\t\t-5952479457976521115L,\n\t\t7607671713777085691L\n\t],\n\tZ: "[a=3'{{c0",\n\tZy: 278L\n}
+321 prettify	true
+322 compact	[0:-67B,1:-97B]
+322 pretty	[\n  0: -67B,\n  1: -97B\n]
+322 stringify	true
+322 compactFlag	false
+322 snbt	[B;\n\t-67b,\n\t-97b\n]
+322 prettify	true
+323 compact	[0:-4395889735342041469L,1:-1969932894920782757L]
+323 pretty	[\n  0: -4395889735342041469L,\n  1: -1969932894920782757L\n]
+323 stringify	true
+323 compactFlag	false
+323 snbt	[L;\n\t-4395889735342041469L,\n\t-1969932894920782757L\n]
+323 prettify	true
+324 compact	{"\\"a{\\"":1.5F,x:" {:Z,"}
+324 pretty	{\n  "\\"a{\\"": 1.5F,\n  x: " {:Z,"\n}
+324 stringify	true
+324 compactFlag	false
+324 snbt	{\n\t'"a{"': 1.5f,\n\tx: " {:Z,"\n}
+324 prettify	true
+325 compact	[0:835]
+325 pretty	[\n  0: 835\n]
+325 stringify	true
+325 compactFlag	false
+325 snbt	[\n\t835\n]
+325 prettify	true
+326 compact	5169578368599085784L
+326 pretty	5169578368599085784L
+326 stringify	true
+326 compactFlag	false
+326 snbt	5169578368599085784L
+326 prettify	true
+327 compact	{ExtraAttributes:109056.25234882976D,d:[0:8293230837518513064L,1:4461326728307681408L,2:7747711564777545046L]}
+327 pretty	{\n  ExtraAttributes: 109056.25234882976D,\n  d: [\n    0: 8293230837518513064L,\n    1: 4461326728307681408L,\n    2: 7747711564777545046L\n  ]\n}
+327 stringify	true
+327 compactFlag	false
+327 snbt	{\n\tExtraAttributes: 109056.25234882976d,\n\td: [L;\n\t\t8293230837518513064L,\n\t\t4461326728307681408L,\n\t\t7747711564777545046L\n\t]\n}
+327 prettify	true
+328 compact	{}
+328 pretty	{\n  }
+328 stringify	true
+328 compactFlag	false
+328 snbt	{\n}
+328 prettify	true
+329 compact	-3B
+329 pretty	-3B
+329 stringify	true
+329 compactFlag	false
+329 snbt	-3b
+329 prettify	true
+330 compact	{43:[0:-31B,1:-117B],":a}":[],C3:-121B,xy_Y:[],yXY:676657982}
+330 pretty	{\n  43: [\n    0: -31B,\n    1: -117B\n  ],\n  ":a}": [\n    ],\n  C3: -121B,\n  xy_Y: [\n    ],\n  yXY: 676657982\n}
+330 stringify	true
+330 compactFlag	false
+330 snbt	{\n\t43: [B;\n\t\t-31b,\n\t\t-117b\n\t],\n\t":a}": [\n\t],\n\tC3: -121b,\n\txy_Y: [I;\n\t],\n\tyXY: 676657982\n}
+330 prettify	true
+331 compact	1.0E20D
+331 pretty	1.0E20D
+331 stringify	true
+331 compactFlag	false
+331 snbt	1.0E20d
+331 prettify	true
+332 compact	[0:91,1:68,2:3]
+332 pretty	[\n  0: 91,\n  1: 68,\n  2: 3\n]
+332 stringify	true
+332 compactFlag	false
+332 snbt	[\n\t91,\n\t68,\n\t3\n]
+332 prettify	true
+333 compact	{yy:-647,"éb":0.0F}
+333 pretty	{\n  yy: -647,\n  "éb": 0.0F\n}
+333 stringify	true
+333 compactFlag	false
+333 snbt	{\n\tyy: -647,\n\t"éb": 0.0f\n}
+333 prettify	true
+334 compact	67B
+334 pretty	67B
+334 stringify	true
+334 compactFlag	false
+334 snbt	67b
+334 prettify	true
+335 compact	1740405101
+335 pretty	1740405101
+335 stringify	true
+335 compactFlag	false
+335 snbt	1740405101
+335 prettify	true
+336 compact	{Count:1.0E-7F,Name:0.0D}
+336 pretty	{\n  Count: 1.0E-7F,\n  Name: 0.0D\n}
+336 stringify	true
+336 compactFlag	false
+336 snbt	{\n\tCount: 1.0E-7f,\n\tName: 0.0d\n}
+336 prettify	true
+337 compact	[0:"ccc",1:"aba",2:"aa"]
+337 pretty	[\n  0: "ccc",\n  1: "aba",\n  2: "aa"\n]
+337 stringify	true
+337 compactFlag	false
+337 snbt	[\n\t"ccc",\n\t"aba",\n\t"aa"\n]
+337 prettify	true
+338 compact	[0:{dr150:1},1:{Name:1},2:{y:1}]
+338 pretty	[\n  0: {\n    dr150: 1\n  },\n  1: {\n    Name: 1\n  },\n  2: {\n    y: 1\n  }\n]
+338 stringify	true
+338 compactFlag	false
+338 snbt	[\n\t{\n\t\tdr150: 1\n\t},\n\t{\n\t\tName: 1\n\t},\n\t{\n\t\ty: 1\n\t}\n]
+338 prettify	true
+339 compact	{Count:[0:8577521176203287475L],Zy:[],"\\\\ {":[0:"\\t0[\\t1\\\\'",1:[0:2863491353403644603L]],_yzX:1.5F}
+339 pretty	{\n  Count: [\n    0: 8577521176203287475L\n  ],\n  Zy: [\n    ],\n  "\\\\ {": [\n    0: "\\t0[\\t1\\\\'",\n    1: [\n      0: 2863491353403644603L\n    ]\n  ],\n  _yzX: 1.5F\n}
+339 stringify	true
+339 compactFlag	false
+339 snbt	{\n\tCount: [L;\n\t\t8577521176203287475L\n\t],\n\tZy: [L;\n\t],\n\t"\\\\ {": [\n\t\t"\\t0[\\t1\\\\'",\n\t\t[L;\n\t\t\t2863491353403644603L\n\t\t]\n\t],\n\t_yzX: 1.5f\n}
+339 prettify	true
+340 compact	[0:1544278643]
+340 pretty	[\n  0: 1544278643\n]
+340 stringify	true
+340 compactFlag	false
+340 snbt	[I;\n\t1544278643\n]
+340 prettify	true
+341 compact	"YX§}}\\t}\\tab"
+341 pretty	"YX§}}\\t}\\tab"
+341 stringify	true
+341 compactFlag	false
+341 snbt	"YX§}}\\t}\\tab"
+341 prettify	true
+342 compact	{Lore:7.0D,"\\\\:d}":{},_:-108B,"d{d {":[0:1989156284492706819L,1:3815713361087409211L,2:8131811093430167976L],id:-1470231216}
+342 pretty	{\n  Lore: 7.0D,\n  "\\\\:d}": {\n    },\n  _: -108B,\n  "d{d {": [\n    0: 1989156284492706819L,\n    1: 3815713361087409211L,\n    2: 8131811093430167976L\n  ],\n  id: -1470231216\n}
+342 stringify	true
+342 compactFlag	false
+342 snbt	{\n\tLore: 7.0d,\n\t"\\\\:d}": {\n\t},\n\t_: -108b,\n\t"d{d {": [L;\n\t\t1989156284492706819L,\n\t\t3815713361087409211L,\n\t\t8131811093430167976L\n\t],\n\tid: -1470231216\n}
+342 prettify	true
+343 compact	[0:8359984867622064673L]
+343 pretty	[\n  0: 8359984867622064673L\n]
+343 stringify	true
+343 compactFlag	false
+343 snbt	[L;\n\t8359984867622064673L\n]
+343 prettify	true
+344 compact	-245
+344 pretty	-245
+344 stringify	true
+344 compactFlag	false
+344 snbt	-245
+344 prettify	true
+345 compact	{"":-18306S,":é":{}}
+345 pretty	{\n  "": -18306S,\n  ":é": {\n    }\n}
+345 stringify	true
+345 compactFlag	false
+345 snbt	{\n\t"": -18306s,\n\t":é": {\n\t}\n}
+345 prettify	true
+346 compact	"]cY 3a}0]2"
+346 pretty	"]cY 3a}0]2"
+346 stringify	true
+346 compactFlag	false
+346 snbt	"]cY 3a}0]2"
+346 prettify	true
+347 compact	[]
+347 pretty	[\n  ]
+347 stringify	true
+347 compactFlag	false
+347 snbt	[I;\n]
+347 prettify	true
+348 compact	{8-1j7up1:59B,Lore:[0:52B,1:-9B],bd.zrj1:{"\\"aac":[0:45,1:33,2:31]},"{\\\\b":[0:"c"]}
+348 pretty	{\n  8-1j7up1: 59B,\n  Lore: [\n    0: 52B,\n    1: -9B\n  ],\n  bd.zrj1: {\n    "\\"aac": [\n      0: 45,\n      1: 33,\n      2: 31\n    ]\n  },\n  "{\\\\b": [\n    0: "c"\n  ]\n}
+348 stringify	true
+348 compactFlag	false
+348 snbt	{\n\t8-1j7up1: 59b,\n\tLore: [B;\n\t\t52b,\n\t\t-9b\n\t],\n\tbd.zrj1: {\n\t\t'"aac': [\n\t\t\t45,\n\t\t\t33,\n\t\t\t31\n\t\t]\n\t},\n\t"{\\\\b": [\n\t\t"c"\n\t]\n}
+348 prettify	true
+349 compact	[0:211142438989284837L]
+349 pretty	[\n  0: 211142438989284837L\n]
+349 stringify	true
+349 compactFlag	false
+349 snbt	[L;\n\t211142438989284837L\n]
+349 prettify	true
+350 compact	[0:-92B,1:65B]
+350 pretty	[\n  0: -92B,\n  1: 65B\n]
+350 stringify	true
+350 compactFlag	false
+350 snbt	[B;\n\t-92b,\n\t65b\n]
+350 prettify	true
+351 compact	{id:[0:-3043747373737314155L,1:-150280880651415230L]}
+351 pretty	{\n  id: [\n    0: -3043747373737314155L,\n    1: -150280880651415230L\n  ]\n}
+351 stringify	true
+351 compactFlag	false
+351 snbt	{\n\tid: [L;\n\t\t-3043747373737314155L,\n\t\t-150280880651415230L\n\t]\n}
+351 prettify	true
+352 compact	[0:-57B,1:95B,2:29B]
+352 pretty	[\n  0: -57B,\n  1: 95B,\n  2: 29B\n]
+352 stringify	true
+352 compactFlag	false
+352 snbt	[B;\n\t-57b,\n\t95b,\n\t29b\n]
+352 prettify	true
+353 compact	3.0F
+353 pretty	3.0F
+353 stringify	true
+353 compactFlag	false
+353 snbt	3.0f
+353 prettify	true
+354 compact	{ExtraAttributes:"2\\"\\t=c","d é":7983804784223807939L,mf5fpr:{"b{d":688,tag:[0:7038521481676362592L,1:1630318104153560086L]},r:{}}
+354 pretty	{\n  ExtraAttributes: "2\\"\\t=c",\n  "d é": 7983804784223807939L,\n  mf5fpr: {\n    "b{d": 688,\n    tag: [\n      0: 7038521481676362592L,\n      1: 1630318104153560086L\n    ]\n  },\n  r: {\n    }\n}
+354 stringify	true
+354 compactFlag	false
+354 snbt	{\n\tExtraAttributes: '2"\\t=c',\n\t"d é": 7983804784223807939L,\n\tmf5fpr: {\n\t\t"b{d": 688,\n\t\ttag: [L;\n\t\t\t7038521481676362592L,\n\t\t\t1630318104153560086L\n\t\t]\n\t},\n\tr: {\n\t}\n}
+354 prettify	true
+355 compact	{x:[]}
+355 pretty	{\n  x: [\n    ]\n}
+355 stringify	true
+355 compactFlag	false
+355 snbt	{\n\tx: [\n\t]\n}
+355 prettify	true
+356 compact	0.0F
+356 pretty	0.0F
+356 stringify	true
+356 compactFlag	false
+356 snbt	0.0f
+356 prettify	true
+357 compact	{":aéd":4866707101319999221L,Count:1.0E20D,X_Y:520L,YY_:{ZZ:17116S,k-:-19265S},id:[0:72,1:10]}
+357 pretty	{\n  ":aéd": 4866707101319999221L,\n  Count: 1.0E20D,\n  X_Y: 520L,\n  YY_: {\n    ZZ: 17116S,\n    k-: -19265S\n  },\n  id: [\n    0: 72,\n    1: 10\n  ]\n}
+357 stringify	true
+357 compactFlag	false
+357 snbt	{\n\t":aéd": 4866707101319999221L,\n\tCount: 1.0E20d,\n\tX_Y: 520L,\n\tYY_: {\n\t\tZZ: 17116s,\n\t\tk-: -19265s\n\t},\n\tid: [\n\t\t72,\n\t\t10\n\t]\n}
+357 prettify	true
+358 compact	-71B
+358 pretty	-71B
+358 stringify	true
+358 compactFlag	false
+358 snbt	-71b
+358 prettify	true
+359 compact	[]
+359 pretty	[\n  ]
+359 stringify	true
+359 compactFlag	false
+359 snbt	[\n]
+359 prettify	true
+360 compact	{id:[0:[0:8422723504839310992L],1:"=\\":c",2:"[=bb\\t\\nbab\\t"],tag:-450259.1920387744D,tm:8B}
+360 pretty	{\n  id: [\n    0: [\n      0: 8422723504839310992L\n    ],\n    1: "=\\":c",\n    2: "[=bb\\t\\nbab\\t"\n  ],\n  tag: -450259.1920387744D,\n  tm: 8B\n}
+360 stringify	true
+360 compactFlag	false
+360 snbt	{\n\tid: [\n\t\t[L;\n\t\t\t8422723504839310992L\n\t\t],\n\t\t'=":c',\n\t\t"[=bb\\t\\nbab\\t"\n\t],\n\ttag: -450259.1920387744d,\n\ttm: 8b\n}
+360 prettify	true
+361 compact	{}
+361 pretty	{\n  }
+361 stringify	true
+361 compactFlag	false
+361 snbt	{\n}
+361 prettify	true
+362 compact	3.4028235E38F
+362 pretty	3.4028235E38F
+362 stringify	true
+362 compactFlag	false
+362 snbt	3.4028235E38f
+362 prettify	true
+363 compact	{ExtraAttributes:484.96375F,Lore:{},"a\\"c}\\"":[]}
+363 pretty	{\n  ExtraAttributes: 484.96375F,\n  Lore: {\n    },\n  "a\\"c}\\"": [\n    ]\n}
+363 stringify	true
+363 compactFlag	false
+363 snbt	{\n\tExtraAttributes: 484.96375f,\n\tLore: {\n\t},\n\t'a"c}"': [L;\n\t]\n}
+363 prettify	true
+364 compact	372L
+364 pretty	372L
+364 stringify	true
+364 compactFlag	false
+364 snbt	372L
+364 prettify	true
+365 compact	-620L
+365 pretty	-620L
+365 stringify	true
+365 compactFlag	false
+365 snbt	-620L
+365 prettify	true
+366 compact	{"":[0:-51B,1:-14B],a:[0:112B],"d:\\"":0.0D,z1-yn:3157830442015979698L,"é\\"a ":[]}
+366 pretty	{\n  "": [\n    0: -51B,\n    1: -14B\n  ],\n  a: [\n    0: 112B\n  ],\n  "d:\\"": 0.0D,\n  z1-yn: 3157830442015979698L,\n  "é\\"a ": [\n    ]\n}
+366 stringify	true
+366 compactFlag	false
+366 snbt	{\n\t"": [B;\n\t\t-51b,\n\t\t-14b\n\t],\n\ta: [B;\n\t\t112b\n\t],\n\t'd:"': 0.0d,\n\tz1-yn: 3157830442015979698L,\n\t'é"a ': [L;\n\t]\n}
+366 prettify	true
+367 compact	[]
+367 pretty	[\n  ]
+367 stringify	true
+367 compactFlag	false
+367 snbt	[B;\n]
+367 prettify	true
+368 compact	"[X"
+368 pretty	"[X"
+368 stringify	true
+368 compactFlag	false
+368 snbt	"[X"
+368 prettify	true
+369 compact	{y:4882S}
+369 pretty	{\n  y: 4882S\n}
+369 stringify	true
+369 compactFlag	false
+369 snbt	{\n\ty: 4882s\n}
+369 prettify	true
+370 compact	3.0F
+370 pretty	3.0F
+370 stringify	true
+370 compactFlag	false
+370 snbt	3.0f
+370 prettify	true
+371 compact	{jp9rb:[]}
+371 pretty	{\n  jp9rb: [\n    ]\n}
+371 stringify	true
+371 compactFlag	false
+371 snbt	{\n\tjp9rb: [B;\n\t]\n}
+371 prettify	true
+372 compact	{"\\\\é":[0:-100B,1:{_Xz:-2.25D,_YZ:-686,v:[0:971653504,1:-1921585047]},2:{Lore:-5588895694558565751L,Name:[0:1156987696],Z:{ExtraAttributes:1.0E20D},display:"='{'2a"}],tag:-303,yXZY:293.04095F,yx__:0.0D}
+372 pretty	{\n  "\\\\é": [\n    0: -100B,\n    1: {\n      _Xz: -2.25D,\n      _YZ: -686,\n      v: [\n        0: 971653504,\n        1: -1921585047\n      ]\n    },\n    2: {\n      Lore: -5588895694558565751L,\n      Name: [\n        0: 1156987696\n      ],\n      Z: {\n        ExtraAttributes: 1.0E20D\n      },\n      display: "='{'2a"\n    }\n  ],\n  tag: -303,\n  yXZY: 293.04095F,\n  yx__: 0.0D\n}
+372 stringify	true
+372 compactFlag	false
+372 snbt	{\n\t"\\\\é": [\n\t\t-100b,\n\t\t{\n\t\t\t_Xz: -2.25d,\n\t\t\t_YZ: -686,\n\t\t\tv: [I;\n\t\t\t\t971653504,\n\t\t\t\t-1921585047\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\tLore: -5588895694558565751L,\n\t\t\tName: [I;\n\t\t\t\t1156987696\n\t\t\t],\n\t\t\tZ: {\n\t\t\t\tExtraAttributes: 1.0E20d\n\t\t\t},\n\t\t\tdisplay: "='{'2a"\n\t\t}\n\t],\n\ttag: -303,\n\tyXZY: 293.04095f,\n\tyx__: 0.0d\n}
+372 prettify	true
+373 compact	"' cab\\\\é:\\\\"
+373 pretty	"' cab\\\\é:\\\\"
+373 stringify	true
+373 compactFlag	false
+373 snbt	"' cab\\\\é:\\\\"
+373 prettify	true
+374 compact	""
+374 pretty	""
+374 stringify	true
+374 compactFlag	false
+374 snbt	""
+374 prettify	true
+375 compact	{"":2455S,yyzx:436,"é\\"bd":[0:1563647721,1:224827974,2:600955355],"édaa\\\\":-1466594767731815830L}
+375 pretty	{\n  "": 2455S,\n  yyzx: 436,\n  "é\\"bd": [\n    0: 1563647721,\n    1: 224827974,\n    2: 600955355\n  ],\n  "édaa\\\\": -1466594767731815830L\n}
+375 stringify	true
+375 compactFlag	false
+375 snbt	{\n\t"": 2455s,\n\tyyzx: 436,\n\t'é"bd': [I;\n\t\t1563647721,\n\t\t224827974,\n\t\t600955355\n\t],\n\t"édaa\\\\": -1466594767731815830L\n}
+375 prettify	true
+376 compact	[0:0]
+376 pretty	[\n  0: 0\n]
+376 stringify	true
+376 compactFlag	false
+376 snbt	[\n\t0\n]
+376 prettify	true
+377 compact	1786228089
+377 pretty	1786228089
+377 stringify	true
+377 compactFlag	false
+377 snbt	1786228089
+377 prettify	true
+378 compact	{+0:[],XzyZ:[]}
+378 pretty	{\n  +0: [\n    ],\n  XzyZ: [\n    ]\n}
+378 stringify	true
+378 compactFlag	false
+378 snbt	{\n\t+0: [B;\n\t],\n\tXzyZ: [I;\n\t]\n}
+378 prettify	true
+379 compact	-1195584890
+379 pretty	-1195584890
+379 stringify	true
+379 compactFlag	false
+379 snbt	-1195584890
+379 prettify	true
+380 compact	[]
+380 pretty	[\n  ]
+380 stringify	true
+380 compactFlag	false
+380 snbt	[L;\n]
+380 prettify	true
+381 compact	{7fkxBdy.:937925331,_XZx:100B,rh+a+iBc:-180L,z95-rq:[]}
+381 pretty	{\n  7fkxBdy.: 937925331,\n  _XZx: 100B,\n  rh+a+iBc: -180L,\n  z95-rq: [\n    ]\n}
+381 stringify	true
+381 compactFlag	false
+381 snbt	{\n\t7fkxBdy.: 937925331,\n\t_XZx: 100b,\n\trh+a+iBc: -180L,\n\tz95-rq: [L;\n\t]\n}
+381 prettify	true
+382 compact	[0:[0:91B],1:11305S,2:{7p7:{jAd9v:[0:0.41528364892911307D,1:0.5256643528049776D,2:0.18462959335265594D]},_u:"",id:17691S},3:[0:-320344746,1:-519030955]]
+382 pretty	[\n  0: [\n    0: 91B\n  ],\n  1: 11305S,\n  2: {\n    7p7: {\n      jAd9v: [\n        0: 0.41528364892911307D,\n        1: 0.5256643528049776D,\n        2: 0.18462959335265594D\n      ]\n    },\n    _u: "",\n    id: 17691S\n  },\n  3: [\n    0: -320344746,\n    1: -519030955\n  ]\n]
+382 stringify	true
+382 compactFlag	false
+382 snbt	[\n\t[B;\n\t\t91b\n\t],\n\t11305s,\n\t{\n\t\t7p7: {\n\t\t\tjAd9v: [\n\t\t\t\t0.41528364892911307d,\n\t\t\t\t0.5256643528049776d,\n\t\t\t\t0.18462959335265594d\n\t\t\t]\n\t\t},\n\t\t_u: "",\n\t\tid: 17691s\n\t},\n\t[I;\n\t\t-320344746,\n\t\t-519030955\n\t]\n]
+382 prettify	true
+383 compact	{Lore:24333S,YZyz:120B,"\\\\:}":784486000,q1B60i:[0:-6778588378451183774L]}
+383 pretty	{\n  Lore: 24333S,\n  YZyz: 120B,\n  "\\\\:}": 784486000,\n  q1B60i: [\n    0: -6778588378451183774L\n  ]\n}
+383 stringify	true
+383 compactFlag	false
+383 snbt	{\n\tLore: 24333s,\n\tYZyz: 120b,\n\t"\\\\:}": 784486000,\n\tq1B60i: [L;\n\t\t-6778588378451183774L\n\t]\n}
+383 prettify	true
+384 compact	{a:-8484896913219318289L}
+384 pretty	{\n  a: -8484896913219318289L\n}
+384 stringify	true
+384 compactFlag	false
+384 snbt	{\n\ta: -8484896913219318289L\n}
+384 prettify	true
+385 compact	-124B
+385 pretty	-124B
+385 stringify	true
+385 compactFlag	false
+385 snbt	-124b
+385 prettify	true
+386 compact	-2.25D
+386 pretty	-2.25D
+386 stringify	true
+386 compactFlag	false
+386 snbt	-2.25d
+386 prettify	true
+387 compact	{0k:{sef:[0:[0:-20B,1:46B],1:[0:-79B,1:41B,2:45B],2:[0:1423014194074873547L,1:-8703545733937315172L]]},id:[0:19B],xZY:[0:713542760,1:546895030,2:921443265],"} ":-23559S,"é}c ":3.0F}
+387 pretty	{\n  0k: {\n    sef: [\n      0: [\n        0: -20B,\n        1: 46B\n      ],\n      1: [\n        0: -79B,\n        1: 41B,\n        2: 45B\n      ],\n      2: [\n        0: 1423014194074873547L,\n        1: -8703545733937315172L\n      ]\n    ]\n  },\n  id: [\n    0: 19B\n  ],\n  xZY: [\n    0: 713542760,\n    1: 546895030,\n    2: 921443265\n  ],\n  "} ": -23559S,\n  "é}c ": 3.0F\n}
+387 stringify	true
+387 compactFlag	false
+387 snbt	{\n\t0k: {\n\t\tsef: [\n\t\t\t[B;\n\t\t\t\t-20b,\n\t\t\t\t46b\n\t\t\t],\n\t\t\t[B;\n\t\t\t\t-79b,\n\t\t\t\t41b,\n\t\t\t\t45b\n\t\t\t],\n\t\t\t[L;\n\t\t\t\t1423014194074873547L,\n\t\t\t\t-8703545733937315172L\n\t\t\t]\n\t\t]\n\t},\n\tid: [B;\n\t\t19b\n\t],\n\txZY: [I;\n\t\t713542760,\n\t\t546895030,\n\t\t921443265\n\t],\n\t"} ": -23559s,\n\t"é}c ": 3.0f\n}
+387 prettify	true
+388 compact	204.18414F
+388 pretty	204.18414F
+388 stringify	true
+388 compactFlag	false
+388 snbt	204.18414f
+388 prettify	true
+389 compact	"b:=33'\\tY"
+389 pretty	"b:=33'\\tY"
+389 stringify	true
+389 compactFlag	false
+389 snbt	"b:=33'\\tY"
+389 prettify	true
+390 compact	{"cd:c ":"XZZ}=2;"}
+390 pretty	{\n  "cd:c ": "XZZ}=2;"\n}
+390 stringify	true
+390 compactFlag	false
+390 snbt	{\n\t"cd:c ": "XZZ}=2;"\n}
+390 prettify	true
+391 compact	[0:[0:881769,1:-8825220]]
+391 pretty	[\n  0: [\n    0: 881769,\n    1: -8825220\n  ]\n]
+391 stringify	true
+391 compactFlag	false
+391 snbt	[\n\t[I;\n\t\t881769,\n\t\t-8825220\n\t]\n]
+391 prettify	true
+392 compact	[0:38,1:86]
+392 pretty	[\n  0: 38,\n  1: 86\n]
+392 stringify	true
+392 compactFlag	false
+392 snbt	[\n\t38,\n\t86\n]
+392 prettify	true
+393 compact	{"  bb":0.0F,Count:243L,Zy:[0:-2121645722],"c ":-24322.12249171175D}
+393 pretty	{\n  "  bb": 0.0F,\n  Count: 243L,\n  Zy: [\n    0: -2121645722\n  ],\n  "c ": -24322.12249171175D\n}
+393 stringify	true
+393 compactFlag	false
+393 snbt	{\n\t"  bb": 0.0f,\n\tCount: 243L,\n\tZy: [I;\n\t\t-2121645722\n\t],\n\t"c ": -24322.12249171175d\n}
+393 prettify	true
+394 compact	[0:{"}":1},1:{"}a":1},2:{Lore:1}]
+394 pretty	[\n  0: {\n    "}": 1\n  },\n  1: {\n    "}a": 1\n  },\n  2: {\n    Lore: 1\n  }\n]
+394 stringify	true
+394 compactFlag	false
+394 snbt	[\n\t{\n\t\t"}": 1\n\t},\n\t{\n\t\t"}a": 1\n\t},\n\t{\n\t\tLore: 1\n\t}\n]
+394 prettify	true
+395 compact	"Z';[ '\\\\"
+395 pretty	"Z';[ '\\\\"
+395 stringify	true
+395 compactFlag	false
+395 snbt	"Z';[ '\\\\"
+395 prettify	true
+396 compact	{0:-1389770931,Y:[0:-96457295],x:-201L}
+396 pretty	{\n  0: -1389770931,\n  Y: [\n    0: -96457295\n  ],\n  x: -201L\n}
+396 stringify	true
+396 compactFlag	false
+396 snbt	{\n\t0: -1389770931,\n\tY: [I;\n\t\t-96457295\n\t],\n\tx: -201L\n}
+396 prettify	true
+397 compact	1315240149
+397 pretty	1315240149
+397 stringify	true
+397 compactFlag	false
+397 snbt	1315240149
+397 prettify	true
+398 compact	3252685766026180846L
+398 pretty	3252685766026180846L
+398 stringify	true
+398 compactFlag	false
+398 snbt	3252685766026180846L
+398 prettify	true
+399 compact	{Y:[0:-83B,1:-38B,2:123B],Z:-3885S,display:3.0F,id:1.0E-7F,x_:0.0D}
+399 pretty	{\n  Y: [\n    0: -83B,\n    1: -38B,\n    2: 123B\n  ],\n  Z: -3885S,\n  display: 3.0F,\n  id: 1.0E-7F,\n  x_: 0.0D\n}
+399 stringify	true
+399 compactFlag	false
+399 snbt	{\n\tY: [B;\n\t\t-83b,\n\t\t-38b,\n\t\t123b\n\t],\n\tZ: -3885s,\n\tdisplay: 3.0f,\n\tid: 1.0E-7f,\n\tx_: 0.0d\n}
+399 prettify	true
+400 compact	[0:-1394751491,1:-20061277]
+400 pretty	[\n  0: -1394751491,\n  1: -20061277\n]
+400 stringify	true
+400 compactFlag	false
+400 snbt	[I;\n\t-1394751491,\n\t-20061277\n]
+400 prettify	true
+401 compact	-2.25D
+401 pretty	-2.25D
+401 stringify	true
+401 compactFlag	false
+401 snbt	-2.25d
+401 prettify	true
+402 compact	{"bd :{":{bgku.:[]},f:" \\né",z.pm13:{ExtraAttributes:[0:0.4872055485523563D,1:0.7028733434691082D,2:0.9251535949422282D]}}
+402 pretty	{\n  "bd :{": {\n    bgku.: [\n      ]\n  },\n  f: " \\né",\n  z.pm13: {\n    ExtraAttributes: [\n      0: 0.4872055485523563D,\n      1: 0.7028733434691082D,\n      2: 0.9251535949422282D\n    ]\n  }\n}
+402 stringify	true
+402 compactFlag	false
+402 snbt	{\n\t"bd :{": {\n\t\tbgku.: [\n\t\t]\n\t},\n\tf: " \\né",\n\tz.pm13: {\n\t\tExtraAttributes: [\n\t\t\t0.4872055485523563d,\n\t\t\t0.7028733434691082d,\n\t\t\t0.9251535949422282d\n\t\t]\n\t}\n}
+402 prettify	true
+403 compact	2250561098046652964L
+403 pretty	2250561098046652964L
+403 stringify	true
+403 compactFlag	false
+403 snbt	2250561098046652964L
+403 prettify	true
+404 compact	[0:-998712585312501908L,1:-6949302027243749306L]
+404 pretty	[\n  0: -998712585312501908L,\n  1: -6949302027243749306L\n]
+404 stringify	true
+404 compactFlag	false
+404 snbt	[L;\n\t-998712585312501908L,\n\t-6949302027243749306L\n]
+404 prettify	true
+405 compact	{"{{b\\\\":[0:3208730468955096259L]}
+405 pretty	{\n  "{{b\\\\": [\n    0: 3208730468955096259L\n  ]\n}
+405 stringify	true
+405 compactFlag	false
+405 snbt	{\n\t"{{b\\\\": [L;\n\t\t3208730468955096259L\n\t]\n}
+405 prettify	true
+406 compact	[0:9179335000597238065L,1:-1203180731170730304L,2:4139071409106490166L]
+406 pretty	[\n  0: 9179335000597238065L,\n  1: -1203180731170730304L,\n  2: 4139071409106490166L\n]
+406 stringify	true
+406 compactFlag	false
+406 snbt	[L;\n\t9179335000597238065L,\n\t-1203180731170730304L,\n\t4139071409106490166L\n]
+406 prettify	true
+407 compact	"X11}"
+407 pretty	"X11}"
+407 stringify	true
+407 compactFlag	false
+407 snbt	"X11}"
+407 prettify	true
+408 compact	{"":";c\\"}\\n1],X",0:-20148S,":\\\\\\\\":[0:-5889769854440585589L,1:-4736740269873986354L,2:7367200356242760528L],x:1757678365}
+408 pretty	{\n  "": ";c\\"}\\n1],X",\n  0: -20148S,\n  ":\\\\\\\\": [\n    0: -5889769854440585589L,\n    1: -4736740269873986354L,\n    2: 7367200356242760528L\n  ],\n  x: 1757678365\n}
+408 stringify	true
+408 compactFlag	false
+408 snbt	{\n\t"": ';c"}\\n1],X',\n\t0: -20148s,\n\t":\\\\\\\\": [L;\n\t\t-5889769854440585589L,\n\t\t-4736740269873986354L,\n\t\t7367200356242760528L\n\t],\n\tx: 1757678365\n}
+408 prettify	true
+escapeName 	""
+simple 	false
+escapeName a	a
+simple a	true
+escapeName A.b+c-d_9	A.b+c-d_9
+simple A.b+c-d_9	true
+escapeName has space	"has space"
+simple has space	false
+escapeName quo"te	'quo"te'
+simple quo"te	false
+escapeName é	"é"
+simple é	false
+escapeName x:y	"x:y"
+simple x:y	false
+escapeName back\\slash	"back\\\\slash"
+simple back\\slash	false
+escapeName tab\t	"tab\\t"
+simple tab\t	false
+escapeName 0	0
+simple 0	true
+simplePattern	[A-Za-z0-9._+-]+

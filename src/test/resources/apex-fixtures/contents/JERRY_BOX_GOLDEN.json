@@ -1,0 +1,8 @@
+{"box": "JERRY_BOX_GOLDEN", "source": "Golden Jerry Box (fixture, format test only)", "total_weight": 124,
+ "drops": [
+  {"type": "coins", "min": 100000, "max": 500000, "chance": null, "weight": 60},
+  {"type": "item", "id": "JERRY_TALISMAN_GOLDEN", "min": 1, "max": 1, "chance": null, "weight": 2},
+  {"type": "item", "id": "ENCHANTED_GOLD", "min": 8, "max": 32, "chance": 0.25, "weight": null, "note": "stack size varies"},
+  {"type": "skill_xp", "skill": "COMBAT", "min": 2000, "max": 2000, "chance": null},
+  {"type": "item", "id": "PET_ITEM_TOY_JERRY", "min": 1, "max": 1, "chance": null, "weight": null}
+ ]}

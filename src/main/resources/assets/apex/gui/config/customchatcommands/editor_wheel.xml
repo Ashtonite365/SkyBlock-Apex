@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns="http://notenoughupdates.org/moulconfig" xmlns:apex="http://apex.ashtonite365.dev/moulconfig">
+	<Center>
+		<Panel background="VANILLA" insets="10">
+			<Column>
+				<Row>
+					<apex:Button onClick="@back">
+						<Text text="←"/>
+					</apex:Button>
+					<Text text="Editing radial menu (one chat command per slice)"/>
+				</Row>
+				<Row>
+					<Text text="Menu key (hold to open):"/>
+					<Align horizontal="RIGHT">
+						<apex:Fixed width="160">
+							<Indirect value="@button"/>
+						</apex:Fixed>
+					</Align>
+				</Row>
+				<Row>
+					<Text text="Menu Options:"/>
+					<Align horizontal="RIGHT">
+						<apex:Button onClick="@addOption">
+							<Text text="+"/>
+						</apex:Button>
+					</Align>
+				</Row>
+				<Array data="@editableCommands">
+					<Row>
+						<Text text="/"/>
+						<TextField value="@text" width="160"/>
+						<Align horizontal="RIGHT">
+							<apex:Button onClick="@delete">
+								<Text text="Delete"/>
+							</apex:Button>
+						</Align>
+					</Row>
+				</Array>
+			</Column>
+		</Panel>
+	</Center>
+</Root>

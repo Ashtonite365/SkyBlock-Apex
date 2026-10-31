@@ -1,0 +1,345 @@
+{
+  "cases": 85,
+  "data": [
+    {
+      "in": "TOP_LEFT->TOP_LEFT",
+      "out": "BOTTOM_RIGHT,0.0,0.0,Point[x=10.0, y=20.0]"
+    },
+    {
+      "in": "TOP_LEFT->TOP_CENTER",
+      "out": "BOTTOM_RIGHT,0.0,0.0,Point[x=25.5, y=20.0]"
+    },
+    {
+      "in": "TOP_LEFT->TOP_RIGHT",
+      "out": "BOTTOM_RIGHT,0.0,0.0,Point[x=41.0, y=20.0]"
+    },
+    {
+      "in": "TOP_LEFT->CENTER_LEFT",
+      "out": "BOTTOM_RIGHT,0.0,0.0,Point[x=10.0, y=28.5]"
+    },
+    {
+      "in": "TOP_LEFT->CENTER_CENTER",
+      "out": "BOTTOM_RIGHT,0.0,0.0,Point[x=25.5, y=28.5]"
+    },
+    {
+      "in": "TOP_LEFT->CENTER_RIGHT",
+      "out": "BOTTOM_RIGHT,0.0,0.0,Point[x=41.0, y=28.5]"
+    },
+    {
+      "in": "TOP_LEFT->BOTTOM_LEFT",
+      "out": "BOTTOM_RIGHT,0.0,0.0,Point[x=10.0, y=37.0]"
+    },
+    {
+      "in": "TOP_LEFT->BOTTOM_CENTER",
+      "out": "BOTTOM_RIGHT,0.0,0.0,Point[x=25.5, y=37.0]"
+    },
+    {
+      "in": "TOP_LEFT->BOTTOM_RIGHT",
+      "out": "BOTTOM_RIGHT,0.0,0.0,Point[x=41.0, y=37.0]"
+    },
+    {
+      "in": "TOP_CENTER->TOP_LEFT",
+      "out": "BOTTOM_CENTER,0.5,0.0,Point[x=-5.5, y=20.0]"
+    },
+    {
+      "in": "TOP_CENTER->TOP_CENTER",
+      "out": "BOTTOM_CENTER,0.5,0.0,Point[x=10.0, y=20.0]"
+    },
+    {
+      "in": "TOP_CENTER->TOP_RIGHT",
+      "out": "BOTTOM_CENTER,0.5,0.0,Point[x=25.5, y=20.0]"
+    },
+    {
+      "in": "TOP_CENTER->CENTER_LEFT",
+      "out": "BOTTOM_CENTER,0.5,0.0,Point[x=-5.5, y=28.5]"
+    },
+    {
+      "in": "TOP_CENTER->CENTER_CENTER",
+      "out": "BOTTOM_CENTER,0.5,0.0,Point[x=10.0, y=28.5]"
+    },
+    {
+      "in": "TOP_CENTER->CENTER_RIGHT",
+      "out": "BOTTOM_CENTER,0.5,0.0,Point[x=25.5, y=28.5]"
+    },
+    {
+      "in": "TOP_CENTER->BOTTOM_LEFT",
+      "out": "BOTTOM_CENTER,0.5,0.0,Point[x=-5.5, y=37.0]"
+    },
+    {
+      "in": "TOP_CENTER->BOTTOM_CENTER",
+      "out": "BOTTOM_CENTER,0.5,0.0,Point[x=10.0, y=37.0]"
+    },
+    {
+      "in": "TOP_CENTER->BOTTOM_RIGHT",
+      "out": "BOTTOM_CENTER,0.5,0.0,Point[x=25.5, y=37.0]"
+    },
+    {
+      "in": "TOP_RIGHT->TOP_LEFT",
+      "out": "BOTTOM_LEFT,1.0,0.0,Point[x=-21.0, y=20.0]"
+    },
+    {
+      "in": "TOP_RIGHT->TOP_CENTER",
+      "out": "BOTTOM_LEFT,1.0,0.0,Point[x=-5.5, y=20.0]"
+    },
+    {
+      "in": "TOP_RIGHT->TOP_RIGHT",
+      "out": "BOTTOM_LEFT,1.0,0.0,Point[x=10.0, y=20.0]"
+    },
+    {
+      "in": "TOP_RIGHT->CENTER_LEFT",
+      "out": "BOTTOM_LEFT,1.0,0.0,Point[x=-21.0, y=28.5]"
+    },
+    {
+      "in": "TOP_RIGHT->CENTER_CENTER",
+      "out": "BOTTOM_LEFT,1.0,0.0,Point[x=-5.5, y=28.5]"
+    },
+    {
+      "in": "TOP_RIGHT->CENTER_RIGHT",
+      "out": "BOTTOM_LEFT,1.0,0.0,Point[x=10.0, y=28.5]"
+    },
+    {
+      "in": "TOP_RIGHT->BOTTOM_LEFT",
+      "out": "BOTTOM_LEFT,1.0,0.0,Point[x=-21.0, y=37.0]"
+    },
+    {
+      "in": "TOP_RIGHT->BOTTOM_CENTER",
+      "out": "BOTTOM_LEFT,1.0,0.0,Point[x=-5.5, y=37.0]"
+    },
+    {
+      "in": "TOP_RIGHT->BOTTOM_RIGHT",
+      "out": "BOTTOM_LEFT,1.0,0.0,Point[x=10.0, y=37.0]"
+    },
+    {
+      "in": "CENTER_LEFT->TOP_LEFT",
+      "out": "CENTER_RIGHT,0.0,0.5,Point[x=10.0, y=11.5]"
+    },
+    {
+      "in": "CENTER_LEFT->TOP_CENTER",
+      "out": "CENTER_RIGHT,0.0,0.5,Point[x=25.5, y=11.5]"
+    },
+    {
+      "in": "CENTER_LEFT->TOP_RIGHT",
+      "out": "CENTER_RIGHT,0.0,0.5,Point[x=41.0, y=11.5]"
+    },
+    {
+      "in": "CENTER_LEFT->CENTER_LEFT",
+      "out": "CENTER_RIGHT,0.0,0.5,Point[x=10.0, y=20.0]"
+    },
+    {
+      "in": "CENTER_LEFT->CENTER_CENTER",
+      "out": "CENTER_RIGHT,0.0,0.5,Point[x=25.5, y=20.0]"
+    },
+    {
+      "in": "CENTER_LEFT->CENTER_RIGHT",
+      "out": "CENTER_RIGHT,0.0,0.5,Point[x=41.0, y=20.0]"
+    },
+    {
+      "in": "CENTER_LEFT->BOTTOM_LEFT",
+      "out": "CENTER_RIGHT,0.0,0.5,Point[x=10.0, y=28.5]"
+    },
+    {
+      "in": "CENTER_LEFT->BOTTOM_CENTER",
+      "out": "CENTER_RIGHT,0.0,0.5,Point[x=25.5, y=28.5]"
+    },
+    {
+      "in": "CENTER_LEFT->BOTTOM_RIGHT",
+      "out": "CENTER_RIGHT,0.0,0.5,Point[x=41.0, y=28.5]"
+    },
+    {
+      "in": "CENTER_CENTER->TOP_LEFT",
+      "out": "CENTER_CENTER,0.5,0.5,Point[x=-5.5, y=11.5]"
+    },
+    {
+      "in": "CENTER_CENTER->TOP_CENTER",
+      "out": "CENTER_CENTER,0.5,0.5,Point[x=10.0, y=11.5]"
+    },
+    {
+      "in": "CENTER_CENTER->TOP_RIGHT",
+      "out": "CENTER_CENTER,0.5,0.5,Point[x=25.5, y=11.5]"
+    },
+    {
+      "in": "CENTER_CENTER->CENTER_LEFT",
+      "out": "CENTER_CENTER,0.5,0.5,Point[x=-5.5, y=20.0]"
+    },
+    {
+      "in": "CENTER_CENTER->CENTER_CENTER",
+      "out": "CENTER_CENTER,0.5,0.5,Point[x=10.0, y=20.0]"
+    },
+    {
+      "in": "CENTER_CENTER->CENTER_RIGHT",
+      "out": "CENTER_CENTER,0.5,0.5,Point[x=25.5, y=20.0]"
+    },
+    {
+      "in": "CENTER_CENTER->BOTTOM_LEFT",
+      "out": "CENTER_CENTER,0.5,0.5,Point[x=-5.5, y=28.5]"
+    },
+    {
+      "in": "CENTER_CENTER->BOTTOM_CENTER",
+      "out": "CENTER_CENTER,0.5,0.5,Point[x=10.0, y=28.5]"
+    },
+    {
+      "in": "CENTER_CENTER->BOTTOM_RIGHT",
+      "out": "CENTER_CENTER,0.5,0.5,Point[x=25.5, y=28.5]"
+    },
+    {
+      "in": "CENTER_RIGHT->TOP_LEFT",
+      "out": "CENTER_LEFT,1.0,0.5,Point[x=-21.0, y=11.5]"
+    },
+    {
+      "in": "CENTER_RIGHT->TOP_CENTER",
+      "out": "CENTER_LEFT,1.0,0.5,Point[x=-5.5, y=11.5]"
+    },
+    {
+      "in": "CENTER_RIGHT->TOP_RIGHT",
+      "out": "CENTER_LEFT,1.0,0.5,Point[x=10.0, y=11.5]"
+    },
+    {
+      "in": "CENTER_RIGHT->CENTER_LEFT",
+      "out": "CENTER_LEFT,1.0,0.5,Point[x=-21.0, y=20.0]"
+    },
+    {
+      "in": "CENTER_RIGHT->CENTER_CENTER",
+      "out": "CENTER_LEFT,1.0,0.5,Point[x=-5.5, y=20.0]"
+    },
+    {
+      "in": "CENTER_RIGHT->CENTER_RIGHT",
+      "out": "CENTER_LEFT,1.0,0.5,Point[x=10.0, y=20.0]"
+    },
+    {
+      "in": "CENTER_RIGHT->BOTTOM_LEFT",
+      "out": "CENTER_LEFT,1.0,0.5,Point[x=-21.0, y=28.5]"
+    },
+    {
+      "in": "CENTER_RIGHT->BOTTOM_CENTER",
+      "out": "CENTER_LEFT,1.0,0.5,Point[x=-5.5, y=28.5]"
+    },
+    {
+      "in": "CENTER_RIGHT->BOTTOM_RIGHT",
+      "out": "CENTER_LEFT,1.0,0.5,Point[x=10.0, y=28.5]"
+    },
+    {
+      "in": "BOTTOM_LEFT->TOP_LEFT",
+      "out": "TOP_RIGHT,0.0,1.0,Point[x=10.0, y=3.0]"
+    },
+    {
+      "in": "BOTTOM_LEFT->TOP_CENTER",
+      "out": "TOP_RIGHT,0.0,1.0,Point[x=25.5, y=3.0]"
+    },
+    {
+      "in": "BOTTOM_LEFT->TOP_RIGHT",
+      "out": "TOP_RIGHT,0.0,1.0,Point[x=41.0, y=3.0]"
+    },
+    {
+      "in": "BOTTOM_LEFT->CENTER_LEFT",
+      "out": "TOP_RIGHT,0.0,1.0,Point[x=10.0, y=11.5]"
+    },
+    {
+      "in": "BOTTOM_LEFT->CENTER_CENTER",
+      "out": "TOP_RIGHT,0.0,1.0,Point[x=25.5, y=11.5]"
+    },
+    {
+      "in": "BOTTOM_LEFT->CENTER_RIGHT",
+      "out": "TOP_RIGHT,0.0,1.0,Point[x=41.0, y=11.5]"
+    },
+    {
+      "in": "BOTTOM_LEFT->BOTTOM_LEFT",
+      "out": "TOP_RIGHT,0.0,1.0,Point[x=10.0, y=20.0]"
+    },
+    {
+      "in": "BOTTOM_LEFT->BOTTOM_CENTER",
+      "out": "TOP_RIGHT,0.0,1.0,Point[x=25.5, y=20.0]"
+    },
+    {
+      "in": "BOTTOM_LEFT->BOTTOM_RIGHT",
+      "out": "TOP_RIGHT,0.0,1.0,Point[x=41.0, y=20.0]"
+    },
+    {
+      "in": "BOTTOM_CENTER->TOP_LEFT",
+      "out": "TOP_CENTER,0.5,1.0,Point[x=-5.5, y=3.0]"
+    },
+    {
+      "in": "BOTTOM_CENTER->TOP_CENTER",
+      "out": "TOP_CENTER,0.5,1.0,Point[x=10.0, y=3.0]"
+    },
+    {
+      "in": "BOTTOM_CENTER->TOP_RIGHT",
+      "out": "TOP_CENTER,0.5,1.0,Point[x=25.5, y=3.0]"
+    },
+    {
+      "in": "BOTTOM_CENTER->CENTER_LEFT",
+      "out": "TOP_CENTER,0.5,1.0,Point[x=-5.5, y=11.5]"
+    },
+    {
+      "in": "BOTTOM_CENTER->CENTER_CENTER",
+      "out": "TOP_CENTER,0.5,1.0,Point[x=10.0, y=11.5]"
+    },
+    {
+      "in": "BOTTOM_CENTER->CENTER_RIGHT",
+      "out": "TOP_CENTER,0.5,1.0,Point[x=25.5, y=11.5]"
+    },
+    {
+      "in": "BOTTOM_CENTER->BOTTOM_LEFT",
+      "out": "TOP_CENTER,0.5,1.0,Point[x=-5.5, y=20.0]"
+    },
+    {
+      "in": "BOTTOM_CENTER->BOTTOM_CENTER",
+      "out": "TOP_CENTER,0.5,1.0,Point[x=10.0, y=20.0]"
+    },
+    {
+      "in": "BOTTOM_CENTER->BOTTOM_RIGHT",
+      "out": "TOP_CENTER,0.5,1.0,Point[x=25.5, y=20.0]"
+    },
+    {
+      "in": "BOTTOM_RIGHT->TOP_LEFT",
+      "out": "TOP_LEFT,1.0,1.0,Point[x=-21.0, y=3.0]"
+    },
+    {
+      "in": "BOTTOM_RIGHT->TOP_CENTER",
+      "out": "TOP_LEFT,1.0,1.0,Point[x=-5.5, y=3.0]"
+    },
+    {
+      "in": "BOTTOM_RIGHT->TOP_RIGHT",
+      "out": "TOP_LEFT,1.0,1.0,Point[x=10.0, y=3.0]"
+    },
+    {
+      "in": "BOTTOM_RIGHT->CENTER_LEFT",
+      "out": "TOP_LEFT,1.0,1.0,Point[x=-21.0, y=11.5]"
+    },
+    {
+      "in": "BOTTOM_RIGHT->CENTER_CENTER",
+      "out": "TOP_LEFT,1.0,1.0,Point[x=-5.5, y=11.5]"
+    },
+    {
+      "in": "BOTTOM_RIGHT->CENTER_RIGHT",
+      "out": "TOP_LEFT,1.0,1.0,Point[x=10.0, y=11.5]"
+    },
+    {
+      "in": "BOTTOM_RIGHT->BOTTOM_LEFT",
+      "out": "TOP_LEFT,1.0,1.0,Point[x=-21.0, y=20.0]"
+    },
+    {
+      "in": "BOTTOM_RIGHT->BOTTOM_CENTER",
+      "out": "TOP_LEFT,1.0,1.0,Point[x=-5.5, y=20.0]"
+    },
+    {
+      "in": "BOTTOM_RIGHT->BOTTOM_RIGHT",
+      "out": "TOP_LEFT,1.0,1.0,Point[x=10.0, y=20.0]"
+    },
+    {
+      "in": "qtruetrue",
+      "out": "TOP_LEFT"
+    },
+    {
+      "in": "qtruefalse",
+      "out": "BOTTOM_LEFT"
+    },
+    {
+      "in": "qfalsetrue",
+      "out": "TOP_RIGHT"
+    },
+    {
+      "in": "qfalsefalse",
+      "out": "BOTTOM_RIGHT"
+    }
+  ]
+}

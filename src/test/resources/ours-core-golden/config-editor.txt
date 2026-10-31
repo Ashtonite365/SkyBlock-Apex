@@ -1,0 +1,11 @@
+move {"a":{"c":2},"x":{"y":{"z":1}}}
+moveSame {"a":1}
+moveMissing {"a":1}
+moveClash ERR:IllegalStateException
+moveRoot {"k":1}
+moveFromRoot {"z":{"a":1}}
+star {"p":{"u1":{"new":1},"u2":{"new":2}}}
+arr {"l":[{"v":9},{"v":9}]}
+idx {"l":[{"v":1},{"w":2}]}
+prim ERR:IllegalStateException
+transform {"a":{"swapped":{"b":[1,2]}}}

@@ -1,0 +1,143 @@
+{
+	"box": "SEAL_TREAT_BAG",
+	"source": "https://hypixelskyblock.minecraft.wiki/w/Seal's_Treat_Bag",
+	"total_weight": 18,
+	"drops": [
+		{
+			"type": "item",
+			"id": "MINNOW_BAIT",
+			"min": 128,
+			"max": 128,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "FISH_BAIT",
+			"min": 128,
+			"max": 128,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "SPIKED_BAIT",
+			"min": 128,
+			"max": 128,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "BLESSED_BAIT",
+			"min": 128,
+			"max": 128,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "HOT_BAIT",
+			"min": 128,
+			"max": 128,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "WORM_BAIT",
+			"min": 128,
+			"max": 128,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "WHALE_BAIT",
+			"min": 128,
+			"max": 128,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "SHARK_BAIT",
+			"min": 128,
+			"max": 128,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "ICE_BAIT",
+			"min": 128,
+			"max": 128,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "SPOOKY_BAIT",
+			"min": 128,
+			"max": 128,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "GOLDEN_BAIT",
+			"min": 128,
+			"max": 128,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "ENCHANTED_CLOWNFISH",
+			"min": 16,
+			"max": 16,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "MAGMA_FISH_SILVER",
+			"min": 4,
+			"max": 4,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "ENCHANTED_PUFFERFISH",
+			"min": 16,
+			"max": 16,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "ENCHANTED_RAW_FISH",
+			"min": 32,
+			"max": 32,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "ENCHANTED_RAW_SALMON",
+			"min": 16,
+			"max": 16,
+			"weight": 1,
+			"chance": null
+		},
+		{
+			"type": "item",
+			"id": "LOUDMOUTH_BASS",
+			"min": 1,
+			"max": 1,
+			"weight": 2,
+			"chance": null
+		}
+	]
+}

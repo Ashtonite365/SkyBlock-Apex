@@ -1,0 +1,185 @@
+0|Day 3 of Spring|RFC|UTC	{}"Ends in: 1d 2h" / {gray}"Ends at: " [{aqua}"Sun, 8 Mar 2026 23:15:30 GMT"] / {}"Event lasts for 3h" / {gray}"Ends at: " [{aqua}"Mon, 9 Mar 2026 02:15:30 GMT"] / {}"Other"
+0|Day 3 of Spring|LOCAL|UTC	{}"Ends in: 1d 2h" / {gray}"Ends at: " [{aqua}"Mar 8, 2026, 11:15:30 PM"] / {}"Event lasts for 3h" / {gray}"Ends at: " [{aqua}"Mar 9, 2026, 2:15:30 AM"] / {}"Other"
+0|Day 3 of Spring|SOCIALIST|UTC	{}"Ends in: 1d 2h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 23:15:30"] / {}"Event lasts for 3h" / {gray}"Ends at: " [{aqua}"Mon 09.03.2026 02:15:30"] / {}"Other"
+0|Day 3 of Spring|SOCIALIST|Australia/Sydney	{}"Ends in: 1d 2h" / {gray}"Ends at: " [{aqua}"Mon 09.03.2026 10:15:30"] / {}"Event lasts for 3h" / {gray}"Ends at: " [{aqua}"Mon 09.03.2026 13:15:30"] / {}"Other"
+0|Day 3 of Spring|SOCIALIST|America/Los_Angeles	{}"Ends in: 1d 2h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 16:15:30"] / {}"Event lasts for 3h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 19:15:30"] / {}"Other"
+0|Day 3 of Spring|AMERICAN|UTC	{}"Ends in: 1d 2h" / {gray}"Ends at: " [{aqua}"Sunday, Mar 8 11:15 PM 2026"] / {}"Event lasts for 3h" / {gray}"Ends at: " [{aqua}"Monday, Mar 9 2:15 AM 2026"] / {}"Other"
+0|Day 3 of Spring|RFCPrecise|UTC	{}"Ends in: 1d 2h" / {gray}"Ends at: " [{aqua}"Sun, 08 Mar 2026 23:15:30.000 +0000"] / {}"Event lasts for 3h" / {gray}"Ends at: " [{aqua}"Mon, 09 Mar 2026 02:15:30.000 +0000"] / {}"Other"
+0|Calendar|RFC|UTC	{}"Ends in: 1d 2h" / {gray}"Ends at: " [{aqua}"Sun, 8 Mar 2026 23:15:30 GMT"] / {}"Event lasts for 3h" / {gray}"Ends at: " [{aqua}"Mon, 9 Mar 2026 02:15:30 GMT"] / {}"Other"
+0|Calendar|LOCAL|UTC	{}"Ends in: 1d 2h" / {gray}"Ends at: " [{aqua}"Mar 8, 2026, 11:15:30 PM"] / {}"Event lasts for 3h" / {gray}"Ends at: " [{aqua}"Mar 9, 2026, 2:15:30 AM"] / {}"Other"
+0|Calendar|SOCIALIST|UTC	{}"Ends in: 1d 2h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 23:15:30"] / {}"Event lasts for 3h" / {gray}"Ends at: " [{aqua}"Mon 09.03.2026 02:15:30"] / {}"Other"
+0|Calendar|SOCIALIST|Australia/Sydney	{}"Ends in: 1d 2h" / {gray}"Ends at: " [{aqua}"Mon 09.03.2026 10:15:30"] / {}"Event lasts for 3h" / {gray}"Ends at: " [{aqua}"Mon 09.03.2026 13:15:30"] / {}"Other"
+0|Calendar|SOCIALIST|America/Los_Angeles	{}"Ends in: 1d 2h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 16:15:30"] / {}"Event lasts for 3h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 19:15:30"] / {}"Other"
+0|Calendar|AMERICAN|UTC	{}"Ends in: 1d 2h" / {gray}"Ends at: " [{aqua}"Sunday, Mar 8 11:15 PM 2026"] / {}"Event lasts for 3h" / {gray}"Ends at: " [{aqua}"Monday, Mar 9 2:15 AM 2026"] / {}"Other"
+0|Calendar|RFCPrecise|UTC	{}"Ends in: 1d 2h" / {gray}"Ends at: " [{aqua}"Sun, 08 Mar 2026 23:15:30.000 +0000"] / {}"Event lasts for 3h" / {gray}"Ends at: " [{aqua}"Mon, 09 Mar 2026 02:15:30.000 +0000"] / {}"Other"
+1|Day 3 of Spring|RFC|UTC	{}"Event lasts for 3h" / {gray}tr(apex.loretimer.missingrelative) / {}"Starts in: 5m"
+1|Day 3 of Spring|LOCAL|UTC	{}"Event lasts for 3h" / {gray}tr(apex.loretimer.missingrelative) / {}"Starts in: 5m"
+1|Day 3 of Spring|SOCIALIST|UTC	{}"Event lasts for 3h" / {gray}tr(apex.loretimer.missingrelative) / {}"Starts in: 5m"
+1|Day 3 of Spring|SOCIALIST|Australia/Sydney	{}"Event lasts for 3h" / {gray}tr(apex.loretimer.missingrelative) / {}"Starts in: 5m"
+1|Day 3 of Spring|SOCIALIST|America/Los_Angeles	{}"Event lasts for 3h" / {gray}tr(apex.loretimer.missingrelative) / {}"Starts in: 5m"
+1|Day 3 of Spring|AMERICAN|UTC	{}"Event lasts for 3h" / {gray}tr(apex.loretimer.missingrelative) / {}"Starts in: 5m"
+1|Day 3 of Spring|RFCPrecise|UTC	{}"Event lasts for 3h" / {gray}tr(apex.loretimer.missingrelative) / {}"Starts in: 5m"
+1|Calendar|RFC|UTC	{}"Event lasts for 3h" / {gray}tr(apex.loretimer.missingrelative) / {}"Starts in: 5m"
+1|Calendar|LOCAL|UTC	{}"Event lasts for 3h" / {gray}tr(apex.loretimer.missingrelative) / {}"Starts in: 5m"
+1|Calendar|SOCIALIST|UTC	{}"Event lasts for 3h" / {gray}tr(apex.loretimer.missingrelative) / {}"Starts in: 5m"
+1|Calendar|SOCIALIST|Australia/Sydney	{}"Event lasts for 3h" / {gray}tr(apex.loretimer.missingrelative) / {}"Starts in: 5m"
+1|Calendar|SOCIALIST|America/Los_Angeles	{}"Event lasts for 3h" / {gray}tr(apex.loretimer.missingrelative) / {}"Starts in: 5m"
+1|Calendar|AMERICAN|UTC	{}"Event lasts for 3h" / {gray}tr(apex.loretimer.missingrelative) / {}"Starts in: 5m"
+1|Calendar|RFCPrecise|UTC	{}"Event lasts for 3h" / {gray}tr(apex.loretimer.missingrelative) / {}"Starts in: 5m"
+2|Day 3 of Spring|RFC|UTC	{}"Starting in: 1 year 2 days 3 hours 4 minutes 5 seconds" / {gray}"Starts at: " [{aqua}"Wed, 10 Mar 2027 01:19:35 GMT"]
+2|Day 3 of Spring|LOCAL|UTC	{}"Starting in: 1 year 2 days 3 hours 4 minutes 5 seconds" / {gray}"Starts at: " [{aqua}"Mar 10, 2027, 1:19:35 AM"]
+2|Day 3 of Spring|SOCIALIST|UTC	{}"Starting in: 1 year 2 days 3 hours 4 minutes 5 seconds" / {gray}"Starts at: " [{aqua}"Wed 10.03.2027 01:19:35"]
+2|Day 3 of Spring|SOCIALIST|Australia/Sydney	{}"Starting in: 1 year 2 days 3 hours 4 minutes 5 seconds" / {gray}"Starts at: " [{aqua}"Wed 10.03.2027 12:19:35"]
+2|Day 3 of Spring|SOCIALIST|America/Los_Angeles	{}"Starting in: 1 year 2 days 3 hours 4 minutes 5 seconds" / {gray}"Starts at: " [{aqua}"Tue 09.03.2027 17:19:35"]
+2|Day 3 of Spring|AMERICAN|UTC	{}"Starting in: 1 year 2 days 3 hours 4 minutes 5 seconds" / {gray}"Starts at: " [{aqua}"Wednesday, Mar 10 1:19 AM 2027"]
+2|Day 3 of Spring|RFCPrecise|UTC	{}"Starting in: 1 year 2 days 3 hours 4 minutes 5 seconds" / {gray}"Starts at: " [{aqua}"Wed, 10 Mar 2027 01:19:35.000 +0000"]
+2|Calendar|RFC|UTC	{}"Starting in: 1 year 2 days 3 hours 4 minutes 5 seconds" / {gray}"Starts at: " [{aqua}"Wed, 10 Mar 2027 01:19:35 GMT"]
+2|Calendar|LOCAL|UTC	{}"Starting in: 1 year 2 days 3 hours 4 minutes 5 seconds" / {gray}"Starts at: " [{aqua}"Mar 10, 2027, 1:19:35 AM"]
+2|Calendar|SOCIALIST|UTC	{}"Starting in: 1 year 2 days 3 hours 4 minutes 5 seconds" / {gray}"Starts at: " [{aqua}"Wed 10.03.2027 01:19:35"]
+2|Calendar|SOCIALIST|Australia/Sydney	{}"Starting in: 1 year 2 days 3 hours 4 minutes 5 seconds" / {gray}"Starts at: " [{aqua}"Wed 10.03.2027 12:19:35"]
+2|Calendar|SOCIALIST|America/Los_Angeles	{}"Starting in: 1 year 2 days 3 hours 4 minutes 5 seconds" / {gray}"Starts at: " [{aqua}"Tue 09.03.2027 17:19:35"]
+2|Calendar|AMERICAN|UTC	{}"Starting in: 1 year 2 days 3 hours 4 minutes 5 seconds" / {gray}"Starts at: " [{aqua}"Wednesday, Mar 10 1:19 AM 2027"]
+2|Calendar|RFCPrecise|UTC	{}"Starting in: 1 year 2 days 3 hours 4 minutes 5 seconds" / {gray}"Starts at: " [{aqua}"Wed, 10 Mar 2027 01:19:35.000 +0000"]
+3|Day 3 of Spring|RFC|UTC	{}"Time left: 0s" / {}"Cooldown: 10s" / {gray}"Come back at: " [{aqua}"Sat, 7 Mar 2026 22:15:40 GMT"] / {}"On cooldown: 45m 3s"
+3|Day 3 of Spring|LOCAL|UTC	{}"Time left: 0s" / {}"Cooldown: 10s" / {gray}"Come back at: " [{aqua}"Mar 7, 2026, 10:15:40 PM"] / {}"On cooldown: 45m 3s"
+3|Day 3 of Spring|SOCIALIST|UTC	{}"Time left: 0s" / {}"Cooldown: 10s" / {gray}"Come back at: " [{aqua}"Sat 07.03.2026 22:15:40"] / {}"On cooldown: 45m 3s"
+3|Day 3 of Spring|SOCIALIST|Australia/Sydney	{}"Time left: 0s" / {}"Cooldown: 10s" / {gray}"Come back at: " [{aqua}"Sun 08.03.2026 09:15:40"] / {}"On cooldown: 45m 3s"
+3|Day 3 of Spring|SOCIALIST|America/Los_Angeles	{}"Time left: 0s" / {}"Cooldown: 10s" / {gray}"Come back at: " [{aqua}"Sat 07.03.2026 14:15:40"] / {}"On cooldown: 45m 3s"
+3|Day 3 of Spring|AMERICAN|UTC	{}"Time left: 0s" / {}"Cooldown: 10s" / {gray}"Come back at: " [{aqua}"Saturday, Mar 7 10:15 PM 2026"] / {}"On cooldown: 45m 3s"
+3|Day 3 of Spring|RFCPrecise|UTC	{}"Time left: 0s" / {}"Cooldown: 10s" / {gray}"Come back at: " [{aqua}"Sat, 07 Mar 2026 22:15:40.000 +0000"] / {}"On cooldown: 45m 3s"
+3|Calendar|RFC|UTC	{}"Time left: 0s" / {}"Cooldown: 10s" / {gray}"Come back at: " [{aqua}"Sat, 7 Mar 2026 22:15:40 GMT"] / {}"On cooldown: 45m 3s"
+3|Calendar|LOCAL|UTC	{}"Time left: 0s" / {}"Cooldown: 10s" / {gray}"Come back at: " [{aqua}"Mar 7, 2026, 10:15:40 PM"] / {}"On cooldown: 45m 3s"
+3|Calendar|SOCIALIST|UTC	{}"Time left: 0s" / {}"Cooldown: 10s" / {gray}"Come back at: " [{aqua}"Sat 07.03.2026 22:15:40"] / {}"On cooldown: 45m 3s"
+3|Calendar|SOCIALIST|Australia/Sydney	{}"Time left: 0s" / {}"Cooldown: 10s" / {gray}"Come back at: " [{aqua}"Sun 08.03.2026 09:15:40"] / {}"On cooldown: 45m 3s"
+3|Calendar|SOCIALIST|America/Los_Angeles	{}"Time left: 0s" / {}"Cooldown: 10s" / {gray}"Come back at: " [{aqua}"Sat 07.03.2026 14:15:40"] / {}"On cooldown: 45m 3s"
+3|Calendar|AMERICAN|UTC	{}"Time left: 0s" / {}"Cooldown: 10s" / {gray}"Come back at: " [{aqua}"Saturday, Mar 7 10:15 PM 2026"] / {}"On cooldown: 45m 3s"
+3|Calendar|RFCPrecise|UTC	{}"Time left: 0s" / {}"Cooldown: 10s" / {gray}"Come back at: " [{aqua}"Sat, 07 Mar 2026 22:15:40.000 +0000"] / {}"On cooldown: 45m 3s"
+4|Day 3 of Spring|RFC|UTC	{}"Auction ends in: 2h 3m" / {gray}"Auction ends at: " [{aqua}"Sun, 8 Mar 2026 00:18:30 GMT"] / {}"Auction ends in 4h" / {gray}"Ends at: " [{aqua}"Sun, 8 Mar 2026 02:15:30 GMT"] / {}"Ends: 3d"
+4|Day 3 of Spring|LOCAL|UTC	{}"Auction ends in: 2h 3m" / {gray}"Auction ends at: " [{aqua}"Mar 8, 2026, 12:18:30 AM"] / {}"Auction ends in 4h" / {gray}"Ends at: " [{aqua}"Mar 8, 2026, 2:15:30 AM"] / {}"Ends: 3d"
+4|Day 3 of Spring|SOCIALIST|UTC	{}"Auction ends in: 2h 3m" / {gray}"Auction ends at: " [{aqua}"Sun 08.03.2026 00:18:30"] / {}"Auction ends in 4h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 02:15:30"] / {}"Ends: 3d"
+4|Day 3 of Spring|SOCIALIST|Australia/Sydney	{}"Auction ends in: 2h 3m" / {gray}"Auction ends at: " [{aqua}"Sun 08.03.2026 11:18:30"] / {}"Auction ends in 4h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 13:15:30"] / {}"Ends: 3d"
+4|Day 3 of Spring|SOCIALIST|America/Los_Angeles	{}"Auction ends in: 2h 3m" / {gray}"Auction ends at: " [{aqua}"Sat 07.03.2026 16:18:30"] / {}"Auction ends in 4h" / {gray}"Ends at: " [{aqua}"Sat 07.03.2026 18:15:30"] / {}"Ends: 3d"
+4|Day 3 of Spring|AMERICAN|UTC	{}"Auction ends in: 2h 3m" / {gray}"Auction ends at: " [{aqua}"Sunday, Mar 8 12:18 AM 2026"] / {}"Auction ends in 4h" / {gray}"Ends at: " [{aqua}"Sunday, Mar 8 2:15 AM 2026"] / {}"Ends: 3d"
+4|Day 3 of Spring|RFCPrecise|UTC	{}"Auction ends in: 2h 3m" / {gray}"Auction ends at: " [{aqua}"Sun, 08 Mar 2026 00:18:30.000 +0000"] / {}"Auction ends in 4h" / {gray}"Ends at: " [{aqua}"Sun, 08 Mar 2026 02:15:30.000 +0000"] / {}"Ends: 3d"
+4|Calendar|RFC|UTC	{}"Auction ends in: 2h 3m" / {gray}"Auction ends at: " [{aqua}"Sun, 8 Mar 2026 00:18:30 GMT"] / {}"Auction ends in 4h" / {gray}"Ends at: " [{aqua}"Sun, 8 Mar 2026 02:15:30 GMT"] / {}"Ends: 3d"
+4|Calendar|LOCAL|UTC	{}"Auction ends in: 2h 3m" / {gray}"Auction ends at: " [{aqua}"Mar 8, 2026, 12:18:30 AM"] / {}"Auction ends in 4h" / {gray}"Ends at: " [{aqua}"Mar 8, 2026, 2:15:30 AM"] / {}"Ends: 3d"
+4|Calendar|SOCIALIST|UTC	{}"Auction ends in: 2h 3m" / {gray}"Auction ends at: " [{aqua}"Sun 08.03.2026 00:18:30"] / {}"Auction ends in 4h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 02:15:30"] / {}"Ends: 3d"
+4|Calendar|SOCIALIST|Australia/Sydney	{}"Auction ends in: 2h 3m" / {gray}"Auction ends at: " [{aqua}"Sun 08.03.2026 11:18:30"] / {}"Auction ends in 4h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 13:15:30"] / {}"Ends: 3d"
+4|Calendar|SOCIALIST|America/Los_Angeles	{}"Auction ends in: 2h 3m" / {gray}"Auction ends at: " [{aqua}"Sat 07.03.2026 16:18:30"] / {}"Auction ends in 4h" / {gray}"Ends at: " [{aqua}"Sat 07.03.2026 18:15:30"] / {}"Ends: 3d"
+4|Calendar|AMERICAN|UTC	{}"Auction ends in: 2h 3m" / {gray}"Auction ends at: " [{aqua}"Sunday, Mar 8 12:18 AM 2026"] / {}"Auction ends in 4h" / {gray}"Ends at: " [{aqua}"Sunday, Mar 8 2:15 AM 2026"] / {}"Ends: 3d"
+4|Calendar|RFCPrecise|UTC	{}"Auction ends in: 2h 3m" / {gray}"Auction ends at: " [{aqua}"Sun, 08 Mar 2026 00:18:30.000 +0000"] / {}"Auction ends in 4h" / {gray}"Ends at: " [{aqua}"Sun, 08 Mar 2026 02:15:30.000 +0000"] / {}"Ends: 3d"
+5|Day 3 of Spring|RFC|UTC	{}"(§e5d 3h)" / {}" (§e5d 3h)" / {}"Duration: 7 days" / {gray}"Finishes at: " [{aqua}"Sat, 14 Mar 2026 21:15:30 GMT"]
+5|Day 3 of Spring|LOCAL|UTC	{}"(§e5d 3h)" / {}" (§e5d 3h)" / {}"Duration: 7 days" / {gray}"Finishes at: " [{aqua}"Mar 14, 2026, 9:15:30 PM"]
+5|Day 3 of Spring|SOCIALIST|UTC	{}"(§e5d 3h)" / {}" (§e5d 3h)" / {}"Duration: 7 days" / {gray}"Finishes at: " [{aqua}"Sat 14.03.2026 21:15:30"]
+5|Day 3 of Spring|SOCIALIST|Australia/Sydney	{}"(§e5d 3h)" / {}" (§e5d 3h)" / {}"Duration: 7 days" / {gray}"Finishes at: " [{aqua}"Sun 15.03.2026 08:15:30"]
+5|Day 3 of Spring|SOCIALIST|America/Los_Angeles	{}"(§e5d 3h)" / {}" (§e5d 3h)" / {}"Duration: 7 days" / {gray}"Finishes at: " [{aqua}"Sat 14.03.2026 14:15:30"]
+5|Day 3 of Spring|AMERICAN|UTC	{}"(§e5d 3h)" / {}" (§e5d 3h)" / {}"Duration: 7 days" / {gray}"Finishes at: " [{aqua}"Saturday, Mar 14 9:15 PM 2026"]
+5|Day 3 of Spring|RFCPrecise|UTC	{}"(§e5d 3h)" / {}" (§e5d 3h)" / {}"Duration: 7 days" / {gray}"Finishes at: " [{aqua}"Sat, 14 Mar 2026 21:15:30.000 +0000"]
+5|Calendar|RFC|UTC	{}"(§e5d 3h)" / {}" (§e5d 3h)" / {}"Duration: 7 days" / {gray}"Finishes at: " [{aqua}"Sat, 14 Mar 2026 21:15:30 GMT"]
+5|Calendar|LOCAL|UTC	{}"(§e5d 3h)" / {}" (§e5d 3h)" / {}"Duration: 7 days" / {gray}"Finishes at: " [{aqua}"Mar 14, 2026, 9:15:30 PM"]
+5|Calendar|SOCIALIST|UTC	{}"(§e5d 3h)" / {}" (§e5d 3h)" / {}"Duration: 7 days" / {gray}"Finishes at: " [{aqua}"Sat 14.03.2026 21:15:30"]
+5|Calendar|SOCIALIST|Australia/Sydney	{}"(§e5d 3h)" / {}" (§e5d 3h)" / {}"Duration: 7 days" / {gray}"Finishes at: " [{aqua}"Sun 15.03.2026 08:15:30"]
+5|Calendar|SOCIALIST|America/Los_Angeles	{}"(§e5d 3h)" / {}" (§e5d 3h)" / {}"Duration: 7 days" / {gray}"Finishes at: " [{aqua}"Sat 14.03.2026 14:15:30"]
+5|Calendar|AMERICAN|UTC	{}"(§e5d 3h)" / {}" (§e5d 3h)" / {}"Duration: 7 days" / {gray}"Finishes at: " [{aqua}"Saturday, Mar 14 9:15 PM 2026"]
+5|Calendar|RFCPrecise|UTC	{}"(§e5d 3h)" / {}" (§e5d 3h)" / {}"Duration: 7 days" / {gray}"Finishes at: " [{aqua}"Sat, 14 Mar 2026 21:15:30.000 +0000"]
+6|Day 3 of Spring|RFC|UTC	{}"Contribute again in 2h" / {gray}"Come back at: " [{aqua}"Sun, 8 Mar 2026 00:15:30 GMT"] / {}"Next Charge 30s" / {gray}"Available at: " [{aqua}"Sat, 7 Mar 2026 22:16:00 GMT"] / {}"Resets in: 1d" / {gray}"Resets at: " [{aqua}"Sun, 8 Mar 2026 21:15:30 GMT"] / {}"Time Remaining: 12h" / {}"Event ends in: 1h 1m 1s"
+6|Day 3 of Spring|LOCAL|UTC	{}"Contribute again in 2h" / {gray}"Come back at: " [{aqua}"Mar 8, 2026, 12:15:30 AM"] / {}"Next Charge 30s" / {gray}"Available at: " [{aqua}"Mar 7, 2026, 10:16:00 PM"] / {}"Resets in: 1d" / {gray}"Resets at: " [{aqua}"Mar 8, 2026, 9:15:30 PM"] / {}"Time Remaining: 12h" / {}"Event ends in: 1h 1m 1s"
+6|Day 3 of Spring|SOCIALIST|UTC	{}"Contribute again in 2h" / {gray}"Come back at: " [{aqua}"Sun 08.03.2026 00:15:30"] / {}"Next Charge 30s" / {gray}"Available at: " [{aqua}"Sat 07.03.2026 22:16:00"] / {}"Resets in: 1d" / {gray}"Resets at: " [{aqua}"Sun 08.03.2026 21:15:30"] / {}"Time Remaining: 12h" / {}"Event ends in: 1h 1m 1s"
+6|Day 3 of Spring|SOCIALIST|Australia/Sydney	{}"Contribute again in 2h" / {gray}"Come back at: " [{aqua}"Sun 08.03.2026 11:15:30"] / {}"Next Charge 30s" / {gray}"Available at: " [{aqua}"Sun 08.03.2026 09:16:00"] / {}"Resets in: 1d" / {gray}"Resets at: " [{aqua}"Mon 09.03.2026 08:15:30"] / {}"Time Remaining: 12h" / {}"Event ends in: 1h 1m 1s"
+6|Day 3 of Spring|SOCIALIST|America/Los_Angeles	{}"Contribute again in 2h" / {gray}"Come back at: " [{aqua}"Sat 07.03.2026 16:15:30"] / {}"Next Charge 30s" / {gray}"Available at: " [{aqua}"Sat 07.03.2026 14:16:00"] / {}"Resets in: 1d" / {gray}"Resets at: " [{aqua}"Sun 08.03.2026 14:15:30"] / {}"Time Remaining: 12h" / {}"Event ends in: 1h 1m 1s"
+6|Day 3 of Spring|AMERICAN|UTC	{}"Contribute again in 2h" / {gray}"Come back at: " [{aqua}"Sunday, Mar 8 12:15 AM 2026"] / {}"Next Charge 30s" / {gray}"Available at: " [{aqua}"Saturday, Mar 7 10:16 PM 2026"] / {}"Resets in: 1d" / {gray}"Resets at: " [{aqua}"Sunday, Mar 8 9:15 PM 2026"] / {}"Time Remaining: 12h" / {}"Event ends in: 1h 1m 1s"
+6|Day 3 of Spring|RFCPrecise|UTC	{}"Contribute again in 2h" / {gray}"Come back at: " [{aqua}"Sun, 08 Mar 2026 00:15:30.000 +0000"] / {}"Next Charge 30s" / {gray}"Available at: " [{aqua}"Sat, 07 Mar 2026 22:16:00.000 +0000"] / {}"Resets in: 1d" / {gray}"Resets at: " [{aqua}"Sun, 08 Mar 2026 21:15:30.000 +0000"] / {}"Time Remaining: 12h" / {}"Event ends in: 1h 1m 1s"
+6|Calendar|RFC|UTC	{}"Contribute again in 2h" / {gray}"Come back at: " [{aqua}"Sun, 8 Mar 2026 00:15:30 GMT"] / {}"Next Charge 30s" / {gray}"Available at: " [{aqua}"Sat, 7 Mar 2026 22:16:00 GMT"] / {}"Resets in: 1d" / {gray}"Resets at: " [{aqua}"Sun, 8 Mar 2026 21:15:30 GMT"] / {}"Time Remaining: 12h" / {}"Event ends in: 1h 1m 1s"
+6|Calendar|LOCAL|UTC	{}"Contribute again in 2h" / {gray}"Come back at: " [{aqua}"Mar 8, 2026, 12:15:30 AM"] / {}"Next Charge 30s" / {gray}"Available at: " [{aqua}"Mar 7, 2026, 10:16:00 PM"] / {}"Resets in: 1d" / {gray}"Resets at: " [{aqua}"Mar 8, 2026, 9:15:30 PM"] / {}"Time Remaining: 12h" / {}"Event ends in: 1h 1m 1s"
+6|Calendar|SOCIALIST|UTC	{}"Contribute again in 2h" / {gray}"Come back at: " [{aqua}"Sun 08.03.2026 00:15:30"] / {}"Next Charge 30s" / {gray}"Available at: " [{aqua}"Sat 07.03.2026 22:16:00"] / {}"Resets in: 1d" / {gray}"Resets at: " [{aqua}"Sun 08.03.2026 21:15:30"] / {}"Time Remaining: 12h" / {}"Event ends in: 1h 1m 1s"
+6|Calendar|SOCIALIST|Australia/Sydney	{}"Contribute again in 2h" / {gray}"Come back at: " [{aqua}"Sun 08.03.2026 11:15:30"] / {}"Next Charge 30s" / {gray}"Available at: " [{aqua}"Sun 08.03.2026 09:16:00"] / {}"Resets in: 1d" / {gray}"Resets at: " [{aqua}"Mon 09.03.2026 08:15:30"] / {}"Time Remaining: 12h" / {}"Event ends in: 1h 1m 1s"
+6|Calendar|SOCIALIST|America/Los_Angeles	{}"Contribute again in 2h" / {gray}"Come back at: " [{aqua}"Sat 07.03.2026 16:15:30"] / {}"Next Charge 30s" / {gray}"Available at: " [{aqua}"Sat 07.03.2026 14:16:00"] / {}"Resets in: 1d" / {gray}"Resets at: " [{aqua}"Sun 08.03.2026 14:15:30"] / {}"Time Remaining: 12h" / {}"Event ends in: 1h 1m 1s"
+6|Calendar|AMERICAN|UTC	{}"Contribute again in 2h" / {gray}"Come back at: " [{aqua}"Sunday, Mar 8 12:15 AM 2026"] / {}"Next Charge 30s" / {gray}"Available at: " [{aqua}"Saturday, Mar 7 10:16 PM 2026"] / {}"Resets in: 1d" / {gray}"Resets at: " [{aqua}"Sunday, Mar 8 9:15 PM 2026"] / {}"Time Remaining: 12h" / {}"Event ends in: 1h 1m 1s"
+6|Calendar|RFCPrecise|UTC	{}"Contribute again in 2h" / {gray}"Come back at: " [{aqua}"Sun, 08 Mar 2026 00:15:30.000 +0000"] / {}"Next Charge 30s" / {gray}"Available at: " [{aqua}"Sat, 07 Mar 2026 22:16:00.000 +0000"] / {}"Resets in: 1d" / {gray}"Resets at: " [{aqua}"Sun, 08 Mar 2026 21:15:30.000 +0000"] / {}"Time Remaining: 12h" / {}"Event ends in: 1h 1m 1s"
+7|Day 3 of Spring|RFC|UTC	{}"Next Stage: 5m" / {gray}"Come back at: " [{aqua}"Sat, 7 Mar 2026 22:20:30 GMT"] / {}"Decay in 2h" / {gray}"Decays at: " [{aqua}"Sun, 8 Mar 2026 00:15:30 GMT"] / {}"Lasts for: 20m" / {gray}"Water until: " [{aqua}"Sat, 7 Mar 2026 22:35:30 GMT"] / {}"Until ready: 3h" / {gray}"Ready at: " [{aqua}"Sun, 8 Mar 2026 01:15:30 GMT"] / {}"Time until: 2d" / {gray}"Occurs at: " [{aqua}"Mon, 9 Mar 2026 21:15:30 GMT"] / {}"Interest in: 31h" / {}"Until interest: 3h 3m" / {}"Remaining: 4d" / {}"Starts in: 2D 3H"
+7|Day 3 of Spring|LOCAL|UTC	{}"Next Stage: 5m" / {gray}"Come back at: " [{aqua}"Mar 7, 2026, 10:20:30 PM"] / {}"Decay in 2h" / {gray}"Decays at: " [{aqua}"Mar 8, 2026, 12:15:30 AM"] / {}"Lasts for: 20m" / {gray}"Water until: " [{aqua}"Mar 7, 2026, 10:35:30 PM"] / {}"Until ready: 3h" / {gray}"Ready at: " [{aqua}"Mar 8, 2026, 1:15:30 AM"] / {}"Time until: 2d" / {gray}"Occurs at: " [{aqua}"Mar 9, 2026, 9:15:30 PM"] / {}"Interest in: 31h" / {}"Until interest: 3h 3m" / {}"Remaining: 4d" / {}"Starts in: 2D 3H"
+7|Day 3 of Spring|SOCIALIST|UTC	{}"Next Stage: 5m" / {gray}"Come back at: " [{aqua}"Sat 07.03.2026 22:20:30"] / {}"Decay in 2h" / {gray}"Decays at: " [{aqua}"Sun 08.03.2026 00:15:30"] / {}"Lasts for: 20m" / {gray}"Water until: " [{aqua}"Sat 07.03.2026 22:35:30"] / {}"Until ready: 3h" / {gray}"Ready at: " [{aqua}"Sun 08.03.2026 01:15:30"] / {}"Time until: 2d" / {gray}"Occurs at: " [{aqua}"Mon 09.03.2026 21:15:30"] / {}"Interest in: 31h" / {}"Until interest: 3h 3m" / {}"Remaining: 4d" / {}"Starts in: 2D 3H"
+7|Day 3 of Spring|SOCIALIST|Australia/Sydney	{}"Next Stage: 5m" / {gray}"Come back at: " [{aqua}"Sun 08.03.2026 09:20:30"] / {}"Decay in 2h" / {gray}"Decays at: " [{aqua}"Sun 08.03.2026 11:15:30"] / {}"Lasts for: 20m" / {gray}"Water until: " [{aqua}"Sun 08.03.2026 09:35:30"] / {}"Until ready: 3h" / {gray}"Ready at: " [{aqua}"Sun 08.03.2026 12:15:30"] / {}"Time until: 2d" / {gray}"Occurs at: " [{aqua}"Tue 10.03.2026 08:15:30"] / {}"Interest in: 31h" / {}"Until interest: 3h 3m" / {}"Remaining: 4d" / {}"Starts in: 2D 3H"
+7|Day 3 of Spring|SOCIALIST|America/Los_Angeles	{}"Next Stage: 5m" / {gray}"Come back at: " [{aqua}"Sat 07.03.2026 14:20:30"] / {}"Decay in 2h" / {gray}"Decays at: " [{aqua}"Sat 07.03.2026 16:15:30"] / {}"Lasts for: 20m" / {gray}"Water until: " [{aqua}"Sat 07.03.2026 14:35:30"] / {}"Until ready: 3h" / {gray}"Ready at: " [{aqua}"Sat 07.03.2026 17:15:30"] / {}"Time until: 2d" / {gray}"Occurs at: " [{aqua}"Mon 09.03.2026 14:15:30"] / {}"Interest in: 31h" / {}"Until interest: 3h 3m" / {}"Remaining: 4d" / {}"Starts in: 2D 3H"
+7|Day 3 of Spring|AMERICAN|UTC	{}"Next Stage: 5m" / {gray}"Come back at: " [{aqua}"Saturday, Mar 7 10:20 PM 2026"] / {}"Decay in 2h" / {gray}"Decays at: " [{aqua}"Sunday, Mar 8 12:15 AM 2026"] / {}"Lasts for: 20m" / {gray}"Water until: " [{aqua}"Saturday, Mar 7 10:35 PM 2026"] / {}"Until ready: 3h" / {gray}"Ready at: " [{aqua}"Sunday, Mar 8 1:15 AM 2026"] / {}"Time until: 2d" / {gray}"Occurs at: " [{aqua}"Monday, Mar 9 9:15 PM 2026"] / {}"Interest in: 31h" / {}"Until interest: 3h 3m" / {}"Remaining: 4d" / {}"Starts in: 2D 3H"
+7|Day 3 of Spring|RFCPrecise|UTC	{}"Next Stage: 5m" / {gray}"Come back at: " [{aqua}"Sat, 07 Mar 2026 22:20:30.000 +0000"] / {}"Decay in 2h" / {gray}"Decays at: " [{aqua}"Sun, 08 Mar 2026 00:15:30.000 +0000"] / {}"Lasts for: 20m" / {gray}"Water until: " [{aqua}"Sat, 07 Mar 2026 22:35:30.000 +0000"] / {}"Until ready: 3h" / {gray}"Ready at: " [{aqua}"Sun, 08 Mar 2026 01:15:30.000 +0000"] / {}"Time until: 2d" / {gray}"Occurs at: " [{aqua}"Mon, 09 Mar 2026 21:15:30.000 +0000"] / {}"Interest in: 31h" / {}"Until interest: 3h 3m" / {}"Remaining: 4d" / {}"Starts in: 2D 3H"
+7|Calendar|RFC|UTC	{}"Next Stage: 5m" / {gray}"Come back at: " [{aqua}"Sat, 7 Mar 2026 22:20:30 GMT"] / {}"Decay in 2h" / {gray}"Decays at: " [{aqua}"Sun, 8 Mar 2026 00:15:30 GMT"] / {}"Lasts for: 20m" / {gray}"Water until: " [{aqua}"Sat, 7 Mar 2026 22:35:30 GMT"] / {}"Until ready: 3h" / {gray}"Ready at: " [{aqua}"Sun, 8 Mar 2026 01:15:30 GMT"] / {}"Time until: 2d" / {gray}"Occurs at: " [{aqua}"Mon, 9 Mar 2026 21:15:30 GMT"] / {}"Interest in: 31h" / {}"Until interest: 3h 3m" / {}"Remaining: 4d" / {}"Starts in: 2D 3H"
+7|Calendar|LOCAL|UTC	{}"Next Stage: 5m" / {gray}"Come back at: " [{aqua}"Mar 7, 2026, 10:20:30 PM"] / {}"Decay in 2h" / {gray}"Decays at: " [{aqua}"Mar 8, 2026, 12:15:30 AM"] / {}"Lasts for: 20m" / {gray}"Water until: " [{aqua}"Mar 7, 2026, 10:35:30 PM"] / {}"Until ready: 3h" / {gray}"Ready at: " [{aqua}"Mar 8, 2026, 1:15:30 AM"] / {}"Time until: 2d" / {gray}"Occurs at: " [{aqua}"Mar 9, 2026, 9:15:30 PM"] / {}"Interest in: 31h" / {}"Until interest: 3h 3m" / {}"Remaining: 4d" / {}"Starts in: 2D 3H"
+7|Calendar|SOCIALIST|UTC	{}"Next Stage: 5m" / {gray}"Come back at: " [{aqua}"Sat 07.03.2026 22:20:30"] / {}"Decay in 2h" / {gray}"Decays at: " [{aqua}"Sun 08.03.2026 00:15:30"] / {}"Lasts for: 20m" / {gray}"Water until: " [{aqua}"Sat 07.03.2026 22:35:30"] / {}"Until ready: 3h" / {gray}"Ready at: " [{aqua}"Sun 08.03.2026 01:15:30"] / {}"Time until: 2d" / {gray}"Occurs at: " [{aqua}"Mon 09.03.2026 21:15:30"] / {}"Interest in: 31h" / {}"Until interest: 3h 3m" / {}"Remaining: 4d" / {}"Starts in: 2D 3H"
+7|Calendar|SOCIALIST|Australia/Sydney	{}"Next Stage: 5m" / {gray}"Come back at: " [{aqua}"Sun 08.03.2026 09:20:30"] / {}"Decay in 2h" / {gray}"Decays at: " [{aqua}"Sun 08.03.2026 11:15:30"] / {}"Lasts for: 20m" / {gray}"Water until: " [{aqua}"Sun 08.03.2026 09:35:30"] / {}"Until ready: 3h" / {gray}"Ready at: " [{aqua}"Sun 08.03.2026 12:15:30"] / {}"Time until: 2d" / {gray}"Occurs at: " [{aqua}"Tue 10.03.2026 08:15:30"] / {}"Interest in: 31h" / {}"Until interest: 3h 3m" / {}"Remaining: 4d" / {}"Starts in: 2D 3H"
+7|Calendar|SOCIALIST|America/Los_Angeles	{}"Next Stage: 5m" / {gray}"Come back at: " [{aqua}"Sat 07.03.2026 14:20:30"] / {}"Decay in 2h" / {gray}"Decays at: " [{aqua}"Sat 07.03.2026 16:15:30"] / {}"Lasts for: 20m" / {gray}"Water until: " [{aqua}"Sat 07.03.2026 14:35:30"] / {}"Until ready: 3h" / {gray}"Ready at: " [{aqua}"Sat 07.03.2026 17:15:30"] / {}"Time until: 2d" / {gray}"Occurs at: " [{aqua}"Mon 09.03.2026 14:15:30"] / {}"Interest in: 31h" / {}"Until interest: 3h 3m" / {}"Remaining: 4d" / {}"Starts in: 2D 3H"
+7|Calendar|AMERICAN|UTC	{}"Next Stage: 5m" / {gray}"Come back at: " [{aqua}"Saturday, Mar 7 10:20 PM 2026"] / {}"Decay in 2h" / {gray}"Decays at: " [{aqua}"Sunday, Mar 8 12:15 AM 2026"] / {}"Lasts for: 20m" / {gray}"Water until: " [{aqua}"Saturday, Mar 7 10:35 PM 2026"] / {}"Until ready: 3h" / {gray}"Ready at: " [{aqua}"Sunday, Mar 8 1:15 AM 2026"] / {}"Time until: 2d" / {gray}"Occurs at: " [{aqua}"Monday, Mar 9 9:15 PM 2026"] / {}"Interest in: 31h" / {}"Until interest: 3h 3m" / {}"Remaining: 4d" / {}"Starts in: 2D 3H"
+7|Calendar|RFCPrecise|UTC	{}"Next Stage: 5m" / {gray}"Come back at: " [{aqua}"Sat, 07 Mar 2026 22:20:30.000 +0000"] / {}"Decay in 2h" / {gray}"Decays at: " [{aqua}"Sun, 08 Mar 2026 00:15:30.000 +0000"] / {}"Lasts for: 20m" / {gray}"Water until: " [{aqua}"Sat, 07 Mar 2026 22:35:30.000 +0000"] / {}"Until ready: 3h" / {gray}"Ready at: " [{aqua}"Sun, 08 Mar 2026 01:15:30.000 +0000"] / {}"Time until: 2d" / {gray}"Occurs at: " [{aqua}"Mon, 09 Mar 2026 21:15:30.000 +0000"] / {}"Interest in: 31h" / {}"Until interest: 3h 3m" / {}"Remaining: 4d" / {}"Starts in: 2D 3H"
+8|Day 3 of Spring|RFC|UTC	{}"Ends in: soon" / {}"Ends in: 5 apples 3h" / {gray}"Ends at: " [{aqua}"Sun, 8 Mar 2026 01:15:30 GMT"] / {}"Ends in: 3h and 2d" / {gray}"Ends at: " [{aqua}"Mon, 9 Mar 2026 21:15:30 GMT"] / {}"Remaining: 1d2h3m4s"
+8|Day 3 of Spring|LOCAL|UTC	{}"Ends in: soon" / {}"Ends in: 5 apples 3h" / {gray}"Ends at: " [{aqua}"Mar 8, 2026, 1:15:30 AM"] / {}"Ends in: 3h and 2d" / {gray}"Ends at: " [{aqua}"Mar 9, 2026, 9:15:30 PM"] / {}"Remaining: 1d2h3m4s"
+8|Day 3 of Spring|SOCIALIST|UTC	{}"Ends in: soon" / {}"Ends in: 5 apples 3h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 01:15:30"] / {}"Ends in: 3h and 2d" / {gray}"Ends at: " [{aqua}"Mon 09.03.2026 21:15:30"] / {}"Remaining: 1d2h3m4s"
+8|Day 3 of Spring|SOCIALIST|Australia/Sydney	{}"Ends in: soon" / {}"Ends in: 5 apples 3h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 12:15:30"] / {}"Ends in: 3h and 2d" / {gray}"Ends at: " [{aqua}"Tue 10.03.2026 08:15:30"] / {}"Remaining: 1d2h3m4s"
+8|Day 3 of Spring|SOCIALIST|America/Los_Angeles	{}"Ends in: soon" / {}"Ends in: 5 apples 3h" / {gray}"Ends at: " [{aqua}"Sat 07.03.2026 17:15:30"] / {}"Ends in: 3h and 2d" / {gray}"Ends at: " [{aqua}"Mon 09.03.2026 14:15:30"] / {}"Remaining: 1d2h3m4s"
+8|Day 3 of Spring|AMERICAN|UTC	{}"Ends in: soon" / {}"Ends in: 5 apples 3h" / {gray}"Ends at: " [{aqua}"Sunday, Mar 8 1:15 AM 2026"] / {}"Ends in: 3h and 2d" / {gray}"Ends at: " [{aqua}"Monday, Mar 9 9:15 PM 2026"] / {}"Remaining: 1d2h3m4s"
+8|Day 3 of Spring|RFCPrecise|UTC	{}"Ends in: soon" / {}"Ends in: 5 apples 3h" / {gray}"Ends at: " [{aqua}"Sun, 08 Mar 2026 01:15:30.000 +0000"] / {}"Ends in: 3h and 2d" / {gray}"Ends at: " [{aqua}"Mon, 09 Mar 2026 21:15:30.000 +0000"] / {}"Remaining: 1d2h3m4s"
+8|Calendar|RFC|UTC	{}"Ends in: soon" / {}"Ends in: 5 apples 3h" / {gray}"Ends at: " [{aqua}"Sun, 8 Mar 2026 01:15:30 GMT"] / {}"Ends in: 3h and 2d" / {gray}"Ends at: " [{aqua}"Mon, 9 Mar 2026 21:15:30 GMT"] / {}"Remaining: 1d2h3m4s"
+8|Calendar|LOCAL|UTC	{}"Ends in: soon" / {}"Ends in: 5 apples 3h" / {gray}"Ends at: " [{aqua}"Mar 8, 2026, 1:15:30 AM"] / {}"Ends in: 3h and 2d" / {gray}"Ends at: " [{aqua}"Mar 9, 2026, 9:15:30 PM"] / {}"Remaining: 1d2h3m4s"
+8|Calendar|SOCIALIST|UTC	{}"Ends in: soon" / {}"Ends in: 5 apples 3h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 01:15:30"] / {}"Ends in: 3h and 2d" / {gray}"Ends at: " [{aqua}"Mon 09.03.2026 21:15:30"] / {}"Remaining: 1d2h3m4s"
+8|Calendar|SOCIALIST|Australia/Sydney	{}"Ends in: soon" / {}"Ends in: 5 apples 3h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 12:15:30"] / {}"Ends in: 3h and 2d" / {gray}"Ends at: " [{aqua}"Tue 10.03.2026 08:15:30"] / {}"Remaining: 1d2h3m4s"
+8|Calendar|SOCIALIST|America/Los_Angeles	{}"Ends in: soon" / {}"Ends in: 5 apples 3h" / {gray}"Ends at: " [{aqua}"Sat 07.03.2026 17:15:30"] / {}"Ends in: 3h and 2d" / {gray}"Ends at: " [{aqua}"Mon 09.03.2026 14:15:30"] / {}"Remaining: 1d2h3m4s"
+8|Calendar|AMERICAN|UTC	{}"Ends in: soon" / {}"Ends in: 5 apples 3h" / {gray}"Ends at: " [{aqua}"Sunday, Mar 8 1:15 AM 2026"] / {}"Ends in: 3h and 2d" / {gray}"Ends at: " [{aqua}"Monday, Mar 9 9:15 PM 2026"] / {}"Remaining: 1d2h3m4s"
+8|Calendar|RFCPrecise|UTC	{}"Ends in: soon" / {}"Ends in: 5 apples 3h" / {gray}"Ends at: " [{aqua}"Sun, 08 Mar 2026 01:15:30.000 +0000"] / {}"Ends in: 3h and 2d" / {gray}"Ends at: " [{aqua}"Mon, 09 Mar 2026 21:15:30.000 +0000"] / {}"Remaining: 1d2h3m4s"
+9|Day 3 of Spring|RFC|UTC	{}"Ends in: 1h" / {gray}"Ends at: " [{aqua}"Sat, 7 Mar 2026 23:15:30 GMT"] / {}"Ends in: 2h" / {gray}"Ends at: " [{aqua}"Sun, 8 Mar 2026 00:15:30 GMT"] / {}"Ends in: 3h" / {}"Ends in: 4h"
+9|Day 3 of Spring|LOCAL|UTC	{}"Ends in: 1h" / {gray}"Ends at: " [{aqua}"Mar 7, 2026, 11:15:30 PM"] / {}"Ends in: 2h" / {gray}"Ends at: " [{aqua}"Mar 8, 2026, 12:15:30 AM"] / {}"Ends in: 3h" / {}"Ends in: 4h"
+9|Day 3 of Spring|SOCIALIST|UTC	{}"Ends in: 1h" / {gray}"Ends at: " [{aqua}"Sat 07.03.2026 23:15:30"] / {}"Ends in: 2h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 00:15:30"] / {}"Ends in: 3h" / {}"Ends in: 4h"
+9|Day 3 of Spring|SOCIALIST|Australia/Sydney	{}"Ends in: 1h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 10:15:30"] / {}"Ends in: 2h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 11:15:30"] / {}"Ends in: 3h" / {}"Ends in: 4h"
+9|Day 3 of Spring|SOCIALIST|America/Los_Angeles	{}"Ends in: 1h" / {gray}"Ends at: " [{aqua}"Sat 07.03.2026 15:15:30"] / {}"Ends in: 2h" / {gray}"Ends at: " [{aqua}"Sat 07.03.2026 16:15:30"] / {}"Ends in: 3h" / {}"Ends in: 4h"
+9|Day 3 of Spring|AMERICAN|UTC	{}"Ends in: 1h" / {gray}"Ends at: " [{aqua}"Saturday, Mar 7 11:15 PM 2026"] / {}"Ends in: 2h" / {gray}"Ends at: " [{aqua}"Sunday, Mar 8 12:15 AM 2026"] / {}"Ends in: 3h" / {}"Ends in: 4h"
+9|Day 3 of Spring|RFCPrecise|UTC	{}"Ends in: 1h" / {gray}"Ends at: " [{aqua}"Sat, 07 Mar 2026 23:15:30.000 +0000"] / {}"Ends in: 2h" / {gray}"Ends at: " [{aqua}"Sun, 08 Mar 2026 00:15:30.000 +0000"] / {}"Ends in: 3h" / {}"Ends in: 4h"
+9|Calendar|RFC|UTC	{}"Ends in: 1h" / {gray}"Ends at: " [{aqua}"Sat, 7 Mar 2026 23:15:30 GMT"] / {}"Ends in: 2h" / {gray}"Ends at: " [{aqua}"Sun, 8 Mar 2026 00:15:30 GMT"] / {}"Ends in: 3h" / {}"Ends in: 4h"
+9|Calendar|LOCAL|UTC	{}"Ends in: 1h" / {gray}"Ends at: " [{aqua}"Mar 7, 2026, 11:15:30 PM"] / {}"Ends in: 2h" / {gray}"Ends at: " [{aqua}"Mar 8, 2026, 12:15:30 AM"] / {}"Ends in: 3h" / {}"Ends in: 4h"
+9|Calendar|SOCIALIST|UTC	{}"Ends in: 1h" / {gray}"Ends at: " [{aqua}"Sat 07.03.2026 23:15:30"] / {}"Ends in: 2h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 00:15:30"] / {}"Ends in: 3h" / {}"Ends in: 4h"
+9|Calendar|SOCIALIST|Australia/Sydney	{}"Ends in: 1h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 10:15:30"] / {}"Ends in: 2h" / {gray}"Ends at: " [{aqua}"Sun 08.03.2026 11:15:30"] / {}"Ends in: 3h" / {}"Ends in: 4h"
+9|Calendar|SOCIALIST|America/Los_Angeles	{}"Ends in: 1h" / {gray}"Ends at: " [{aqua}"Sat 07.03.2026 15:15:30"] / {}"Ends in: 2h" / {gray}"Ends at: " [{aqua}"Sat 07.03.2026 16:15:30"] / {}"Ends in: 3h" / {}"Ends in: 4h"
+9|Calendar|AMERICAN|UTC	{}"Ends in: 1h" / {gray}"Ends at: " [{aqua}"Saturday, Mar 7 11:15 PM 2026"] / {}"Ends in: 2h" / {gray}"Ends at: " [{aqua}"Sunday, Mar 8 12:15 AM 2026"] / {}"Ends in: 3h" / {}"Ends in: 4h"
+9|Calendar|RFCPrecise|UTC	{}"Ends in: 1h" / {gray}"Ends at: " [{aqua}"Sat, 07 Mar 2026 23:15:30.000 +0000"] / {}"Ends in: 2h" / {gray}"Ends at: " [{aqua}"Sun, 08 Mar 2026 00:15:30.000 +0000"] / {}"Ends in: 3h" / {}"Ends in: 4h"
+10|Day 3 of Spring|RFC|UTC	
+10|Day 3 of Spring|LOCAL|UTC	
+10|Day 3 of Spring|SOCIALIST|UTC	
+10|Day 3 of Spring|SOCIALIST|Australia/Sydney	
+10|Day 3 of Spring|SOCIALIST|America/Los_Angeles	
+10|Day 3 of Spring|AMERICAN|UTC	
+10|Day 3 of Spring|RFCPrecise|UTC	
+10|Calendar|RFC|UTC	
+10|Calendar|LOCAL|UTC	
+10|Calendar|SOCIALIST|UTC	
+10|Calendar|SOCIALIST|Australia/Sydney	
+10|Calendar|SOCIALIST|America/Los_Angeles	
+10|Calendar|AMERICAN|UTC	
+10|Calendar|RFCPrecise|UTC	
+created RFC|UTC|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Sat, 7 Mar 2026 22:15:30 GMT)
+created RFC|UTC|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Fri, 31 Dec 1999 23:59:59 GMT)
+created RFC|Australia/Sydney|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Sun, 8 Mar 2026 09:15:30 +1100)
+created RFC|Australia/Sydney|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Sat, 1 Jan 2000 10:59:59 +1100)
+created RFC|America/Los_Angeles|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Sat, 7 Mar 2026 14:15:30 -0800)
+created RFC|America/Los_Angeles|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Fri, 31 Dec 1999 15:59:59 -0800)
+created LOCAL|UTC|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Mar 7, 2026, 10:15:30 PM)
+created LOCAL|UTC|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Dec 31, 1999, 11:59:59 PM)
+created LOCAL|Australia/Sydney|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Mar 8, 2026, 9:15:30 AM)
+created LOCAL|Australia/Sydney|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Jan 1, 2000, 10:59:59 AM)
+created LOCAL|America/Los_Angeles|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Mar 7, 2026, 2:15:30 PM)
+created LOCAL|America/Los_Angeles|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Dec 31, 1999, 3:59:59 PM)
+created SOCIALIST|UTC|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Sat 07.03.2026 22:15:30)
+created SOCIALIST|UTC|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Fri 31.12.1999 23:59:59)
+created SOCIALIST|Australia/Sydney|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Sun 08.03.2026 09:15:30)
+created SOCIALIST|Australia/Sydney|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Sat 01.01.2000 10:59:59)
+created SOCIALIST|America/Los_Angeles|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Sat 07.03.2026 14:15:30)
+created SOCIALIST|America/Los_Angeles|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Fri 31.12.1999 15:59:59)
+created AMERICAN|UTC|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Saturday, Mar 7 10:15 PM 2026)
+created AMERICAN|UTC|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Friday, Dec 31 11:59 PM 1999)
+created AMERICAN|Australia/Sydney|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Sunday, Mar 8 9:15 AM 2026)
+created AMERICAN|Australia/Sydney|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Saturday, Jan 1 10:59 AM 2000)
+created AMERICAN|America/Los_Angeles|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Saturday, Mar 7 2:15 PM 2026)
+created AMERICAN|America/Los_Angeles|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Friday, Dec 31 3:59 PM 1999)
+created RFCPrecise|UTC|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Sat, 07 Mar 2026 22:15:30.123 +0000)
+created RFCPrecise|UTC|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Fri, 31 Dec 1999 23:59:59.000 +0000)
+created RFCPrecise|Australia/Sydney|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Sun, 08 Mar 2026 09:15:30.123 +1100)
+created RFCPrecise|Australia/Sydney|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Sat, 01 Jan 2000 10:59:59.000 +1100)
+created RFCPrecise|America/Los_Angeles|2026-03-07T22:15:30.123Z	{gray}tr(apex.lore.creationtimestamp,Sat, 07 Mar 2026 14:15:30.123 -0800)
+created RFCPrecise|America/Los_Angeles|1999-12-31T23:59:59Z	{gray}tr(apex.lore.creationtimestamp,Fri, 31 Dec 1999 15:59:59.000 -0800)
+formats	RFC,LOCAL,SOCIALIST,AMERICAN,RFCPrecise

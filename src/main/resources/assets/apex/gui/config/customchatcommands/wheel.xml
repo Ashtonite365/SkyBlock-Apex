@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns="http://notenoughupdates.org/moulconfig" xmlns:apex="http://apex.ashtonite365.dev/moulconfig">
+	<Panel background="TRANSPARENT" insets="10">
+		<Column>
+			<ScrollPanel width="380" height="300">
+				<Align horizontal="CENTER">
+					<Array data="@wheels">
+						<Panel background="TRANSPARENT" insets="3">
+							<Panel background="VANILLA" insets="6">
+								<Column>
+									<Row>
+										<Text text="@keyCombo" width="250"/>
+										<Align horizontal="RIGHT">
+											<Row>
+												<apex:Button onClick="@edit">
+													<Text text="Edit"/>
+												</apex:Button>
+												<Spacer width="12"/>
+												<apex:Button onClick="@delete">
+													<Text text="Delete"/>
+												</apex:Button>
+											</Row>
+										</Align>
+									</Row>
+									<Array data="@commands">
+										<Text text="@textR" width="280"/>
+									</Array>
+								</Column>
+							</Panel>
+						</Panel>
+					</Array>
+				</Align>
+			</ScrollPanel>
+			<Align horizontal="RIGHT">
+				<Row>
+					<apex:Button onClick="@discard">
+						<Text text="Discard Changes"/>
+					</apex:Button>
+					<apex:Button onClick="@saveAndClose">
+						<Text text="Save &amp; Close"/>
+					</apex:Button>
+					<apex:Button onClick="@save">
+						<Text text="Save"/>
+					</apex:Button>
+					<apex:Button onClick="@addWheel">
+						<Text text="Add Radial Menu"/>
+					</apex:Button>
+				</Row>
+			</Align>
+		</Column>
+	</Panel>
+</Root>

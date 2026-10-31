@@ -1,0 +1,8 @@
+prefix FIRMHOTM/ inv=Heart of the Mountain tier=Tier (?<tier>[0-9]+)
+encode RklSTUhPVE0veyJwZXJrcyI6W3sicGVya05hbWUiOiJNaW5pbmcgU3BlZWQifSx7InBlcmtOYW1lIjoiUGlja29idWx1cyJ9XX0=
+decode HotmPreset(perks=[PerkPreset(perkName=Mining Speed), PerkPreset(perkName=Pickobulus)])
+decodeBad null
+tier 'Tier 1' 1
+tier 'Tier 10' 10
+tier 'Tier X' -
+tier '§aTier 3' -

@@ -1,0 +1,203 @@
+key -10 Unbound bound=false mod=false c=false a=false s=false w=false key=key.keyboard.unknown fmt=Unbound hash=-286889527
+scan -10 Unbound bound=false mod=false c=false a=false s=false w=false key=key.keyboard.unknown fmt=Unbound hash=-286889527 viaKey=Unbound
+mouse -10 Unbound bound=false mod=false c=false a=false s=false w=false key=key.keyboard.unknown fmt=Unbound hash=-286889527
+keyscan -10 ScanCodeButton(scanCode=77) Unbound Unbound
+event -10 Unbound Unbound
+key -1 Unbound bound=false mod=false c=false a=false s=false w=false key=key.keyboard.unknown fmt=Unbound hash=-286889527
+scan -1 Unbound bound=false mod=false c=false a=false s=false w=false key=key.keyboard.unknown fmt=Unbound hash=-286889527 viaKey=Unbound
+mouse -1 Unbound bound=false mod=false c=false a=false s=false w=false key=key.keyboard.unknown fmt=Unbound hash=-286889527
+keyscan -1 ScanCodeButton(scanCode=77) Unbound Unbound
+event -1 Unbound Unbound
+key 0 Unbound bound=false mod=false c=false a=false s=false w=false key=key.keyboard.unknown fmt=Unbound hash=-286889527
+scan 0 Unbound bound=false mod=false c=false a=false s=false w=false key=key.keyboard.unknown fmt=Unbound hash=-286889527 viaKey=Unbound
+mouse 0 Unbound bound=false mod=false c=false a=false s=false w=false key=key.keyboard.unknown fmt=Unbound hash=-286889527
+keyscan 0 ScanCodeButton(scanCode=77) Unbound Unbound
+event 0 Unbound Unbound
+key 1 KeyCodeButton(keyCode=1) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.1 fmt=KeyCodeButton(keyCode=1) hash=1
+scan 1 ScanCodeButton(scanCode=1) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.1 fmt=ScanCodeButton(scanCode=1) hash=1 viaKey=ScanCodeButton(scanCode=1)
+mouse 1 MouseButton(mouseButton=1) bound=true mod=false c=false a=false s=false w=false key=key.mouse.left fmt=MouseButton(mouseButton=1) hash=1
+keyscan 1 KeyCodeButton(keyCode=1) ScanCodeButton(scanCode=1) KeyCodeButton(keyCode=1)
+event 1 KeyCodeButton(keyCode=1) Unbound
+key 2 KeyCodeButton(keyCode=2) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.2 fmt=KeyCodeButton(keyCode=2) hash=2
+scan 2 ScanCodeButton(scanCode=2) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.2 fmt=ScanCodeButton(scanCode=2) hash=2 viaKey=ScanCodeButton(scanCode=2)
+mouse 2 MouseButton(mouseButton=2) bound=true mod=false c=false a=false s=false w=false key=key.mouse.middle fmt=MouseButton(mouseButton=2) hash=2
+keyscan 2 KeyCodeButton(keyCode=2) ScanCodeButton(scanCode=2) KeyCodeButton(keyCode=2)
+event 2 KeyCodeButton(keyCode=2) Unbound
+key 3 KeyCodeButton(keyCode=3) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.3 fmt=KeyCodeButton(keyCode=3) hash=3
+scan 3 ScanCodeButton(scanCode=3) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.3 fmt=ScanCodeButton(scanCode=3) hash=3 viaKey=ScanCodeButton(scanCode=3)
+mouse 3 MouseButton(mouseButton=3) bound=true mod=false c=false a=false s=false w=false key=key.mouse.right fmt=MouseButton(mouseButton=3) hash=3
+keyscan 3 KeyCodeButton(keyCode=3) ScanCodeButton(scanCode=3) KeyCodeButton(keyCode=3)
+event 3 KeyCodeButton(keyCode=3) Unbound
+key 4 KeyCodeButton(keyCode=4) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.a fmt=KeyCodeButton(keyCode=4) hash=4
+scan 4 ScanCodeButton(scanCode=4) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.a fmt=ScanCodeButton(scanCode=4) hash=4 viaKey=ScanCodeButton(scanCode=4)
+mouse 4 MouseButton(mouseButton=4) bound=true mod=false c=false a=false s=false w=false key=key.mouse.4 fmt=MouseButton(mouseButton=4) hash=4
+keyscan 4 KeyCodeButton(keyCode=4) ScanCodeButton(scanCode=4) KeyCodeButton(keyCode=4)
+event 4 KeyCodeButton(keyCode=4) Unbound
+key 5 KeyCodeButton(keyCode=5) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.b fmt=KeyCodeButton(keyCode=5) hash=5
+scan 5 ScanCodeButton(scanCode=5) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.b fmt=ScanCodeButton(scanCode=5) hash=5 viaKey=ScanCodeButton(scanCode=5)
+mouse 5 MouseButton(mouseButton=5) bound=true mod=false c=false a=false s=false w=false key=key.mouse.5 fmt=MouseButton(mouseButton=5) hash=5
+keyscan 5 KeyCodeButton(keyCode=5) ScanCodeButton(scanCode=5) KeyCodeButton(keyCode=5)
+event 5 KeyCodeButton(keyCode=5) Unbound
+key 7 KeyCodeButton(keyCode=7) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.d fmt=KeyCodeButton(keyCode=7) hash=7
+scan 7 ScanCodeButton(scanCode=7) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.d fmt=ScanCodeButton(scanCode=7) hash=7 viaKey=ScanCodeButton(scanCode=7)
+mouse 7 MouseButton(mouseButton=7) bound=true mod=false c=false a=false s=false w=false key=key.mouse.7 fmt=MouseButton(mouseButton=7) hash=7
+keyscan 7 KeyCodeButton(keyCode=7) ScanCodeButton(scanCode=7) KeyCodeButton(keyCode=7)
+event 7 KeyCodeButton(keyCode=7) Unbound
+key 8 KeyCodeButton(keyCode=8) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.e fmt=KeyCodeButton(keyCode=8) hash=8
+scan 8 ScanCodeButton(scanCode=8) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.e fmt=ScanCodeButton(scanCode=8) hash=8 viaKey=ScanCodeButton(scanCode=8)
+mouse 8 MouseButton(mouseButton=8) bound=true mod=false c=false a=false s=false w=false key=key.mouse.8 fmt=MouseButton(mouseButton=8) hash=8
+keyscan 8 KeyCodeButton(keyCode=8) ScanCodeButton(scanCode=8) KeyCodeButton(keyCode=8)
+event 8 KeyCodeButton(keyCode=8) Unbound
+key 31 KeyCodeButton(keyCode=31) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.2 fmt=KeyCodeButton(keyCode=31) hash=31
+scan 31 ScanCodeButton(scanCode=31) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.2 fmt=ScanCodeButton(scanCode=31) hash=31 viaKey=ScanCodeButton(scanCode=31)
+mouse 31 MouseButton(mouseButton=31) bound=true mod=false c=false a=false s=false w=false key=key.mouse.31 fmt=MouseButton(mouseButton=31) hash=31
+keyscan 31 KeyCodeButton(keyCode=31) ScanCodeButton(scanCode=31) KeyCodeButton(keyCode=31)
+event 31 KeyCodeButton(keyCode=31) Unbound
+key 32 KeyCodeButton(keyCode=32) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.3 fmt=KeyCodeButton(keyCode=32) hash=32
+scan 32 ScanCodeButton(scanCode=32) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.3 fmt=ScanCodeButton(scanCode=32) hash=32 viaKey=ScanCodeButton(scanCode=32)
+mouse 32 MouseButton(mouseButton=32) bound=true mod=false c=false a=false s=false w=false key=key.mouse.32 fmt=MouseButton(mouseButton=32) hash=32
+keyscan 32 KeyCodeButton(keyCode=32) ScanCodeButton(scanCode=32) KeyCodeButton(keyCode=32)
+event 32 KeyCodeButton(keyCode=32) Unbound
+key 39 KeyCodeButton(keyCode=39) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.0 fmt=KeyCodeButton(keyCode=39) hash=39
+scan 39 ScanCodeButton(scanCode=39) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.0 fmt=ScanCodeButton(scanCode=39) hash=39 viaKey=ScanCodeButton(scanCode=39)
+mouse 39 MouseButton(mouseButton=39) bound=true mod=false c=false a=false s=false w=false key=key.mouse.39 fmt=MouseButton(mouseButton=39) hash=39
+keyscan 39 KeyCodeButton(keyCode=39) ScanCodeButton(scanCode=39) KeyCodeButton(keyCode=39)
+event 39 KeyCodeButton(keyCode=39) Unbound
+key 44 KeyCodeButton(keyCode=44) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.space fmt=KeyCodeButton(keyCode=44) hash=44
+scan 44 ScanCodeButton(scanCode=44) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.space fmt=ScanCodeButton(scanCode=44) hash=44 viaKey=ScanCodeButton(scanCode=44)
+mouse 44 MouseButton(mouseButton=44) bound=true mod=false c=false a=false s=false w=false key=key.mouse.44 fmt=MouseButton(mouseButton=44) hash=44
+keyscan 44 KeyCodeButton(keyCode=44) ScanCodeButton(scanCode=44) KeyCodeButton(keyCode=44)
+event 44 KeyCodeButton(keyCode=44) Unbound
+key 48 KeyCodeButton(keyCode=48) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.right.bracket fmt=KeyCodeButton(keyCode=48) hash=48
+scan 48 ScanCodeButton(scanCode=48) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.right.bracket fmt=ScanCodeButton(scanCode=48) hash=48 viaKey=ScanCodeButton(scanCode=48)
+mouse 48 MouseButton(mouseButton=48) bound=true mod=false c=false a=false s=false w=false key=key.mouse.48 fmt=MouseButton(mouseButton=48) hash=48
+keyscan 48 KeyCodeButton(keyCode=48) ScanCodeButton(scanCode=48) KeyCodeButton(keyCode=48)
+event 48 KeyCodeButton(keyCode=48) Unbound
+key 57 KeyCodeButton(keyCode=57) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.caps.lock fmt=KeyCodeButton(keyCode=57) hash=57
+scan 57 ScanCodeButton(scanCode=57) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.caps.lock fmt=ScanCodeButton(scanCode=57) hash=57 viaKey=ScanCodeButton(scanCode=57)
+mouse 57 MouseButton(mouseButton=57) bound=true mod=false c=false a=false s=false w=false key=key.mouse.57 fmt=MouseButton(mouseButton=57) hash=57
+keyscan 57 KeyCodeButton(keyCode=57) ScanCodeButton(scanCode=57) KeyCodeButton(keyCode=57)
+event 57 KeyCodeButton(keyCode=57) Unbound
+key 65 KeyCodeButton(keyCode=65) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.f8 fmt=KeyCodeButton(keyCode=65) hash=65
+scan 65 ScanCodeButton(scanCode=65) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.f8 fmt=ScanCodeButton(scanCode=65) hash=65 viaKey=ScanCodeButton(scanCode=65)
+mouse 65 MouseButton(mouseButton=65) bound=true mod=false c=false a=false s=false w=false key=key.mouse.65 fmt=MouseButton(mouseButton=65) hash=65
+keyscan 65 KeyCodeButton(keyCode=65) ScanCodeButton(scanCode=65) KeyCodeButton(keyCode=65)
+event 65 KeyCodeButton(keyCode=65) Unbound
+key 90 KeyCodeButton(keyCode=90) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.keypad.2 fmt=KeyCodeButton(keyCode=90) hash=90
+scan 90 ScanCodeButton(scanCode=90) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.keypad.2 fmt=ScanCodeButton(scanCode=90) hash=90 viaKey=ScanCodeButton(scanCode=90)
+mouse 90 MouseButton(mouseButton=90) bound=true mod=false c=false a=false s=false w=false key=key.mouse.90 fmt=MouseButton(mouseButton=90) hash=90
+keyscan 90 KeyCodeButton(keyCode=90) ScanCodeButton(scanCode=90) KeyCodeButton(keyCode=90)
+event 90 KeyCodeButton(keyCode=90) Unbound
+key 96 KeyCodeButton(keyCode=96) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.keypad.8 fmt=KeyCodeButton(keyCode=96) hash=96
+scan 96 ScanCodeButton(scanCode=96) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.keypad.8 fmt=ScanCodeButton(scanCode=96) hash=96 viaKey=ScanCodeButton(scanCode=96)
+mouse 96 MouseButton(mouseButton=96) bound=true mod=false c=false a=false s=false w=false key=key.mouse.96 fmt=MouseButton(mouseButton=96) hash=96
+keyscan 96 KeyCodeButton(keyCode=96) ScanCodeButton(scanCode=96) KeyCodeButton(keyCode=96)
+event 96 KeyCodeButton(keyCode=96) Unbound
+key 161 KeyCodeButton(keyCode=161) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.oper fmt=KeyCodeButton(keyCode=161) hash=161
+scan 161 ScanCodeButton(scanCode=161) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.oper fmt=ScanCodeButton(scanCode=161) hash=161 viaKey=ScanCodeButton(scanCode=161)
+mouse 161 MouseButton(mouseButton=161) bound=true mod=false c=false a=false s=false w=false key=key.mouse.161 fmt=MouseButton(mouseButton=161) hash=161
+keyscan 161 KeyCodeButton(keyCode=161) ScanCodeButton(scanCode=161) KeyCodeButton(keyCode=161)
+event 161 KeyCodeButton(keyCode=161) Unbound
+key 162 KeyCodeButton(keyCode=162) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.clear.again fmt=KeyCodeButton(keyCode=162) hash=162
+scan 162 ScanCodeButton(scanCode=162) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.clear.again fmt=ScanCodeButton(scanCode=162) hash=162 viaKey=ScanCodeButton(scanCode=162)
+mouse 162 MouseButton(mouseButton=162) bound=true mod=false c=false a=false s=false w=false key=key.mouse.162 fmt=MouseButton(mouseButton=162) hash=162
+keyscan 162 KeyCodeButton(keyCode=162) ScanCodeButton(scanCode=162) KeyCodeButton(keyCode=162)
+event 162 KeyCodeButton(keyCode=162) Unbound
+key 255 KeyCodeButton(keyCode=255) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.255 fmt=KeyCodeButton(keyCode=255) hash=255
+scan 255 ScanCodeButton(scanCode=255) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.255 fmt=ScanCodeButton(scanCode=255) hash=255 viaKey=ScanCodeButton(scanCode=255)
+mouse 255 MouseButton(mouseButton=255) bound=true mod=false c=false a=false s=false w=false key=key.mouse.255 fmt=MouseButton(mouseButton=255) hash=255
+keyscan 255 KeyCodeButton(keyCode=255) ScanCodeButton(scanCode=255) KeyCodeButton(keyCode=255)
+event 255 KeyCodeButton(keyCode=255) Unbound
+key 256 KeyCodeButton(keyCode=256) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.256 fmt=KeyCodeButton(keyCode=256) hash=256
+scan 256 ScanCodeButton(scanCode=256) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.256 fmt=ScanCodeButton(scanCode=256) hash=256 viaKey=ScanCodeButton(scanCode=256)
+mouse 256 MouseButton(mouseButton=256) bound=true mod=false c=false a=false s=false w=false key=key.mouse.256 fmt=MouseButton(mouseButton=256) hash=256
+keyscan 256 KeyCodeButton(keyCode=256) ScanCodeButton(scanCode=256) KeyCodeButton(keyCode=256)
+event 256 KeyCodeButton(keyCode=256) Unbound
+key 257 KeyCodeButton(keyCode=257) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.mode fmt=KeyCodeButton(keyCode=257) hash=257
+scan 257 ScanCodeButton(scanCode=257) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.mode fmt=ScanCodeButton(scanCode=257) hash=257 viaKey=ScanCodeButton(scanCode=257)
+mouse 257 MouseButton(mouseButton=257) bound=true mod=false c=false a=false s=false w=false key=key.mouse.257 fmt=MouseButton(mouseButton=257) hash=257
+keyscan 257 KeyCodeButton(keyCode=257) ScanCodeButton(scanCode=257) KeyCodeButton(keyCode=257)
+event 257 KeyCodeButton(keyCode=257) Unbound
+key 290 KeyCodeButton(keyCode=290) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.end.call fmt=KeyCodeButton(keyCode=290) hash=290
+scan 290 ScanCodeButton(scanCode=290) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.end.call fmt=ScanCodeButton(scanCode=290) hash=290 viaKey=ScanCodeButton(scanCode=290)
+mouse 290 MouseButton(mouseButton=290) bound=true mod=false c=false a=false s=false w=false key=key.mouse.290 fmt=MouseButton(mouseButton=290) hash=290
+keyscan 290 KeyCodeButton(keyCode=290) ScanCodeButton(scanCode=290) KeyCodeButton(keyCode=290)
+event 290 KeyCodeButton(keyCode=290) Unbound
+key 301 KeyCodeButton(keyCode=301) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.301 fmt=KeyCodeButton(keyCode=301) hash=301
+scan 301 ScanCodeButton(scanCode=301) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.301 fmt=ScanCodeButton(scanCode=301) hash=301 viaKey=ScanCodeButton(scanCode=301)
+mouse 301 MouseButton(mouseButton=301) bound=true mod=false c=false a=false s=false w=false key=key.mouse.301 fmt=MouseButton(mouseButton=301) hash=301
+keyscan 301 KeyCodeButton(keyCode=301) ScanCodeButton(scanCode=301) KeyCodeButton(keyCode=301)
+event 301 KeyCodeButton(keyCode=301) Unbound
+key 320 KeyCodeButton(keyCode=320) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.320 fmt=KeyCodeButton(keyCode=320) hash=320
+scan 320 ScanCodeButton(scanCode=320) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.320 fmt=ScanCodeButton(scanCode=320) hash=320 viaKey=ScanCodeButton(scanCode=320)
+mouse 320 MouseButton(mouseButton=320) bound=true mod=false c=false a=false s=false w=false key=key.mouse.320 fmt=MouseButton(mouseButton=320) hash=320
+keyscan 320 KeyCodeButton(keyCode=320) ScanCodeButton(scanCode=320) KeyCodeButton(keyCode=320)
+event 320 KeyCodeButton(keyCode=320) Unbound
+key 340 KeyCodeButton(keyCode=340) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.340 fmt=KeyCodeButton(keyCode=340) hash=340
+scan 340 ScanCodeButton(scanCode=340) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.340 fmt=ScanCodeButton(scanCode=340) hash=340 viaKey=ScanCodeButton(scanCode=340)
+mouse 340 MouseButton(mouseButton=340) bound=true mod=false c=false a=false s=false w=false key=key.mouse.340 fmt=MouseButton(mouseButton=340) hash=340
+keyscan 340 KeyCodeButton(keyCode=340) ScanCodeButton(scanCode=340) KeyCodeButton(keyCode=340)
+event 340 KeyCodeButton(keyCode=340) Unbound
+key 341 KeyCodeButton(keyCode=341) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.341 fmt=KeyCodeButton(keyCode=341) hash=341
+scan 341 ScanCodeButton(scanCode=341) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.341 fmt=ScanCodeButton(scanCode=341) hash=341 viaKey=ScanCodeButton(scanCode=341)
+mouse 341 MouseButton(mouseButton=341) bound=true mod=false c=false a=false s=false w=false key=key.mouse.341 fmt=MouseButton(mouseButton=341) hash=341
+keyscan 341 KeyCodeButton(keyCode=341) ScanCodeButton(scanCode=341) KeyCodeButton(keyCode=341)
+event 341 KeyCodeButton(keyCode=341) Unbound
+key 342 KeyCodeButton(keyCode=342) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.342 fmt=KeyCodeButton(keyCode=342) hash=342
+scan 342 ScanCodeButton(scanCode=342) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.342 fmt=ScanCodeButton(scanCode=342) hash=342 viaKey=ScanCodeButton(scanCode=342)
+mouse 342 MouseButton(mouseButton=342) bound=true mod=false c=false a=false s=false w=false key=key.mouse.342 fmt=MouseButton(mouseButton=342) hash=342
+keyscan 342 KeyCodeButton(keyCode=342) ScanCodeButton(scanCode=342) KeyCodeButton(keyCode=342)
+event 342 KeyCodeButton(keyCode=342) Unbound
+key 343 KeyCodeButton(keyCode=343) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.343 fmt=KeyCodeButton(keyCode=343) hash=343
+scan 343 ScanCodeButton(scanCode=343) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.343 fmt=ScanCodeButton(scanCode=343) hash=343 viaKey=ScanCodeButton(scanCode=343)
+mouse 343 MouseButton(mouseButton=343) bound=true mod=false c=false a=false s=false w=false key=key.mouse.343 fmt=MouseButton(mouseButton=343) hash=343
+keyscan 343 KeyCodeButton(keyCode=343) ScanCodeButton(scanCode=343) KeyCodeButton(keyCode=343)
+event 343 KeyCodeButton(keyCode=343) Unbound
+key 344 KeyCodeButton(keyCode=344) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.344 fmt=KeyCodeButton(keyCode=344) hash=344
+scan 344 ScanCodeButton(scanCode=344) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.344 fmt=ScanCodeButton(scanCode=344) hash=344 viaKey=ScanCodeButton(scanCode=344)
+mouse 344 MouseButton(mouseButton=344) bound=true mod=false c=false a=false s=false w=false key=key.mouse.344 fmt=MouseButton(mouseButton=344) hash=344
+keyscan 344 KeyCodeButton(keyCode=344) ScanCodeButton(scanCode=344) KeyCodeButton(keyCode=344)
+event 344 KeyCodeButton(keyCode=344) Unbound
+key 345 KeyCodeButton(keyCode=345) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.345 fmt=KeyCodeButton(keyCode=345) hash=345
+scan 345 ScanCodeButton(scanCode=345) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.345 fmt=ScanCodeButton(scanCode=345) hash=345 viaKey=ScanCodeButton(scanCode=345)
+mouse 345 MouseButton(mouseButton=345) bound=true mod=false c=false a=false s=false w=false key=key.mouse.345 fmt=MouseButton(mouseButton=345) hash=345
+keyscan 345 KeyCodeButton(keyCode=345) ScanCodeButton(scanCode=345) KeyCodeButton(keyCode=345)
+event 345 KeyCodeButton(keyCode=345) Unbound
+key 346 KeyCodeButton(keyCode=346) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.346 fmt=KeyCodeButton(keyCode=346) hash=346
+scan 346 ScanCodeButton(scanCode=346) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.346 fmt=ScanCodeButton(scanCode=346) hash=346 viaKey=ScanCodeButton(scanCode=346)
+mouse 346 MouseButton(mouseButton=346) bound=true mod=false c=false a=false s=false w=false key=key.mouse.346 fmt=MouseButton(mouseButton=346) hash=346
+keyscan 346 KeyCodeButton(keyCode=346) ScanCodeButton(scanCode=346) KeyCodeButton(keyCode=346)
+event 346 KeyCodeButton(keyCode=346) Unbound
+key 347 KeyCodeButton(keyCode=347) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.347 fmt=KeyCodeButton(keyCode=347) hash=347
+scan 347 ScanCodeButton(scanCode=347) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.347 fmt=ScanCodeButton(scanCode=347) hash=347 viaKey=ScanCodeButton(scanCode=347)
+mouse 347 MouseButton(mouseButton=347) bound=true mod=false c=false a=false s=false w=false key=key.mouse.347 fmt=MouseButton(mouseButton=347) hash=347
+keyscan 347 KeyCodeButton(keyCode=347) ScanCodeButton(scanCode=347) KeyCodeButton(keyCode=347)
+event 347 KeyCodeButton(keyCode=347) Unbound
+key 348 KeyCodeButton(keyCode=348) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.348 fmt=KeyCodeButton(keyCode=348) hash=348
+scan 348 ScanCodeButton(scanCode=348) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.348 fmt=ScanCodeButton(scanCode=348) hash=348 viaKey=ScanCodeButton(scanCode=348)
+mouse 348 MouseButton(mouseButton=348) bound=true mod=false c=false a=false s=false w=false key=key.mouse.348 fmt=MouseButton(mouseButton=348) hash=348
+keyscan 348 KeyCodeButton(keyCode=348) ScanCodeButton(scanCode=348) KeyCodeButton(keyCode=348)
+event 348 KeyCodeButton(keyCode=348) Unbound
+key 349 KeyCodeButton(keyCode=349) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.349 fmt=KeyCodeButton(keyCode=349) hash=349
+scan 349 ScanCodeButton(scanCode=349) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.349 fmt=ScanCodeButton(scanCode=349) hash=349 viaKey=ScanCodeButton(scanCode=349)
+mouse 349 MouseButton(mouseButton=349) bound=true mod=false c=false a=false s=false w=false key=key.mouse.349 fmt=MouseButton(mouseButton=349) hash=349
+keyscan 349 KeyCodeButton(keyCode=349) ScanCodeButton(scanCode=349) KeyCodeButton(keyCode=349)
+event 349 KeyCodeButton(keyCode=349) Unbound
+key 400 KeyCodeButton(keyCode=400) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.400 fmt=KeyCodeButton(keyCode=400) hash=400
+scan 400 ScanCodeButton(scanCode=400) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.400 fmt=ScanCodeButton(scanCode=400) hash=400 viaKey=ScanCodeButton(scanCode=400)
+mouse 400 MouseButton(mouseButton=400) bound=true mod=false c=false a=false s=false w=false key=key.mouse.400 fmt=MouseButton(mouseButton=400) hash=400
+keyscan 400 KeyCodeButton(keyCode=400) ScanCodeButton(scanCode=400) KeyCodeButton(keyCode=400)
+event 400 KeyCodeButton(keyCode=400) Unbound
+key 512 Unbound bound=false mod=false c=false a=false s=false w=false key=key.keyboard.unknown fmt=Unbound hash=-286889527
+scan 512 Unbound bound=false mod=false c=false a=false s=false w=false key=key.keyboard.unknown fmt=Unbound hash=-286889527 viaKey=Unbound
+mouse 512 MouseButton(mouseButton=512) bound=true mod=false c=false a=false s=false w=false key=key.mouse.512 fmt=MouseButton(mouseButton=512) hash=512
+keyscan 512 ScanCodeButton(scanCode=77) Unbound Unbound
+event 512 Unbound Unbound
+key 1000 Unbound bound=false mod=false c=false a=false s=false w=false key=key.keyboard.unknown fmt=Unbound hash=-286889527
+scan 1000 Unbound bound=false mod=false c=false a=false s=false w=false key=key.keyboard.unknown fmt=Unbound hash=-286889527 viaKey=Unbound
+mouse 1000 MouseButton(mouseButton=1000) bound=true mod=false c=false a=false s=false w=false key=key.mouse.1000 fmt=MouseButton(mouseButton=1000) hash=1000
+keyscan 1000 ScanCodeButton(scanCode=77) Unbound Unbound
+event 1000 Unbound Unbound
+fixed KeyCodeButton(keyCode=41) bound=true mod=false c=false a=false s=false w=false key=key.keyboard.escape fmt=KeyCodeButton(keyCode=41) hash=41 | Unbound bound=false mod=false c=false a=false s=false w=false key=key.keyboard.unknown fmt=Unbound hash=-286889527
+eq true false true
+copy KeyCodeButton(keyCode=9) 2 3

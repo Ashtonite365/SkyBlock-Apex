@@ -1,0 +1,33 @@
+regex (?<count>[0-9]+)(?<what>[msh]) suffixes={m=MINUTES, s=SECONDS, h=HOURS} examples=[3m, 20s, 1h45m]
+parse [3m] ok 3m cursor=2
+parse [20s] ok 20s cursor=3
+parse [1h45m] ok 1h 45m cursor=5
+parse [1h45m30s] ok 1h 45m 30s cursor=8
+parse [0s] ok 0s cursor=2
+parse [10] syntax apex.command-argument.duration.error cursor=0 input=10
+parse [m] syntax apex.command-argument.duration.error cursor=0 input=m
+parse [5x] syntax apex.command-argument.duration.error cursor=0 input=5x
+parse [5m3] syntax apex.command-argument.duration.error cursor=2 input=5m3
+parse [3m 2s] ok 3m cursor=2
+parse [1h1h] ok 2h cursor=4
+parse [45s2m] ok 2m 45s cursor=5
+parse [] ok 0s cursor=0
+parse [007s] ok 7s cursor=4
+parse [99999999999s] ok 1157407d 9h 46m 39s cursor=12
+parse [2d] syntax apex.command-argument.duration.error cursor=0 input=2d
+parse [3M] syntax apex.command-argument.duration.error cursor=0 input=3M
+parse [1.5h] syntax apex.command-argument.duration.error cursor=0 input=1.5h
+parse ["3m"] ok 0s cursor=0
+parse [5mfoo] syntax apex.command-argument.duration.error cursor=2 input=5mfoo
+suggest [] []
+suggest [1] [1h, 1m, 1s]
+suggest [12] [12h, 12m, 12s]
+suggest [1m] []
+suggest [1m2] [1m2h, 1m2m, 1m2s]
+suggest [1M 3] []
+suggest [x] []
+suggest [3 4] [3h, 3m, 3s]
+rest [] ok  cursor=0 canRead=false
+rest [abc] ok bc cursor=3 canRead=false
+rest [a b c] ok  b c cursor=5 canRead=false
+rest [  lead] ok  lead cursor=6 canRead=false

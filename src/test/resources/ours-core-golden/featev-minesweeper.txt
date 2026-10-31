@@ -1,0 +1,48 @@
+box BlockPos{x=-112, y=72, z=-11} BlockPos{x=-106, y=72, z=-5} size=(6, 6)
+msgs [NPC] Carnival Pirateman: Good luck, matey!|Fruit Digging|[NPC] Carnival Pirateman: Would ye like to do some Fruit Digging?|MINES! There (are|is) (?<bombCount>[0-8]) bombs? hidden nearby\.
+bomb MINES! There are 3 bombs hidden nearby. -> bombCount=3
+bomb MINES! There is 1 bomb hidden nearby. -> bombCount=1
+bomb MINES! There are 9 bombs hidden nearby. -> nomatch
+bomb MINES! There is 0 bombs hidden nearby. -> bombCount=0
+mode MINES minecraft:iron_shovel Bomb detection Tells you how many bombs are near the block
+mode ANCHOR minecraft:diamond_shovel Lowest fruit Shows you which block nearby contains the lowest scoring fruit
+mode TREASURE minecraft:golden_shovel Highest fruit Tells you which kind of fruit is the highest scoring nearby
+shovel CARNIVAL_SHOVEL
+pos BlockPos{x=-112, y=72, z=-11} -> BoardPosition(x=0, y=0) back=BlockPos{x=-112, y=72, z=-11}
+pos BlockPos{x=-112, y=72, z=-10} -> BoardPosition(x=0, y=1) back=BlockPos{x=-112, y=72, z=-10}
+pos BlockPos{x=-112, y=72, z=-9} -> BoardPosition(x=0, y=2) back=BlockPos{x=-112, y=72, z=-9}
+pos BlockPos{x=-112, y=72, z=-8} -> BoardPosition(x=0, y=3) back=BlockPos{x=-112, y=72, z=-8}
+pos BlockPos{x=-112, y=72, z=-7} -> BoardPosition(x=0, y=4) back=BlockPos{x=-112, y=72, z=-7}
+pos BlockPos{x=-112, y=72, z=-6} -> BoardPosition(x=0, y=5) back=BlockPos{x=-112, y=72, z=-6}
+pos BlockPos{x=-111, y=72, z=-11} -> BoardPosition(x=1, y=0) back=BlockPos{x=-111, y=72, z=-11}
+pos BlockPos{x=-111, y=72, z=-10} -> BoardPosition(x=1, y=1) back=BlockPos{x=-111, y=72, z=-10}
+pos BlockPos{x=-111, y=72, z=-9} -> BoardPosition(x=1, y=2) back=BlockPos{x=-111, y=72, z=-9}
+pos BlockPos{x=-111, y=72, z=-8} -> BoardPosition(x=1, y=3) back=BlockPos{x=-111, y=72, z=-8}
+pos BlockPos{x=-111, y=72, z=-7} -> BoardPosition(x=1, y=4) back=BlockPos{x=-111, y=72, z=-7}
+pos BlockPos{x=-111, y=72, z=-6} -> BoardPosition(x=1, y=5) back=BlockPos{x=-111, y=72, z=-6}
+pos BlockPos{x=-110, y=72, z=-11} -> BoardPosition(x=2, y=0) back=BlockPos{x=-110, y=72, z=-11}
+pos BlockPos{x=-110, y=72, z=-10} -> BoardPosition(x=2, y=1) back=BlockPos{x=-110, y=72, z=-10}
+pos BlockPos{x=-110, y=72, z=-9} -> BoardPosition(x=2, y=2) back=BlockPos{x=-110, y=72, z=-9}
+pos BlockPos{x=-110, y=72, z=-8} -> BoardPosition(x=2, y=3) back=BlockPos{x=-110, y=72, z=-8}
+pos BlockPos{x=-110, y=72, z=-7} -> BoardPosition(x=2, y=4) back=BlockPos{x=-110, y=72, z=-7}
+pos BlockPos{x=-110, y=72, z=-6} -> BoardPosition(x=2, y=5) back=BlockPos{x=-110, y=72, z=-6}
+pos BlockPos{x=-109, y=72, z=-11} -> BoardPosition(x=3, y=0) back=BlockPos{x=-109, y=72, z=-11}
+pos BlockPos{x=-109, y=72, z=-10} -> BoardPosition(x=3, y=1) back=BlockPos{x=-109, y=72, z=-10}
+pos BlockPos{x=-109, y=72, z=-9} -> BoardPosition(x=3, y=2) back=BlockPos{x=-109, y=72, z=-9}
+pos BlockPos{x=-109, y=72, z=-8} -> BoardPosition(x=3, y=3) back=BlockPos{x=-109, y=72, z=-8}
+pos BlockPos{x=-109, y=72, z=-7} -> BoardPosition(x=3, y=4) back=BlockPos{x=-109, y=72, z=-7}
+pos BlockPos{x=-109, y=72, z=-6} -> BoardPosition(x=3, y=5) back=BlockPos{x=-109, y=72, z=-6}
+pos BlockPos{x=-108, y=72, z=-11} -> BoardPosition(x=4, y=0) back=BlockPos{x=-108, y=72, z=-11}
+pos BlockPos{x=-108, y=72, z=-10} -> BoardPosition(x=4, y=1) back=BlockPos{x=-108, y=72, z=-10}
+pos BlockPos{x=-108, y=72, z=-9} -> BoardPosition(x=4, y=2) back=BlockPos{x=-108, y=72, z=-9}
+pos BlockPos{x=-108, y=72, z=-8} -> BoardPosition(x=4, y=3) back=BlockPos{x=-108, y=72, z=-8}
+pos BlockPos{x=-108, y=72, z=-7} -> BoardPosition(x=4, y=4) back=BlockPos{x=-108, y=72, z=-7}
+pos BlockPos{x=-108, y=72, z=-6} -> BoardPosition(x=4, y=5) back=BlockPos{x=-108, y=72, z=-6}
+pos BlockPos{x=-107, y=72, z=-11} -> BoardPosition(x=5, y=0) back=BlockPos{x=-107, y=72, z=-11}
+pos BlockPos{x=-107, y=72, z=-10} -> BoardPosition(x=5, y=1) back=BlockPos{x=-107, y=72, z=-10}
+pos BlockPos{x=-107, y=72, z=-9} -> BoardPosition(x=5, y=2) back=BlockPos{x=-107, y=72, z=-9}
+pos BlockPos{x=-107, y=72, z=-8} -> BoardPosition(x=5, y=3) back=BlockPos{x=-107, y=72, z=-8}
+pos BlockPos{x=-107, y=72, z=-7} -> BoardPosition(x=5, y=4) back=BlockPos{x=-107, y=72, z=-7}
+pos BlockPos{x=-107, y=72, z=-6} -> BoardPosition(x=5, y=5) back=BlockPos{x=-107, y=72, z=-6}
+outside null null
+state GameState(bombCounts={}, knownBombs=[], lastDug=null, lastShovelMode=null) current=null

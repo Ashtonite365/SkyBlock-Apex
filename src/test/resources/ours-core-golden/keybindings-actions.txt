@@ -1,0 +1,9 @@
+action KeyboardInput(keyCode=65, scanCode=30) hash=2045 11 11 00 00 00 00
+action KeyboardInput(keyCode=30, scanCode=65) hash=995 00 00 00 00 00 11
+action KeyboardInput(keyCode=-1, scanCode=30) hash=-1 00 11 00 00 00 00
+action MouseInput(mouseButton=1) hash=1 00 00 11 00 00 00
+action MouseInput(mouseButton=3) hash=3 00 00 00 11 00 00
+action MouseInput(mouseButton=0) hash=0 00 00 00 00 00 00
+action KeyboardInput(keyCode=65, scanCode=65) hash=2080 11 00 00 00 00 00
+action KeyboardInput(keyCode=65, scanCode=0) hash=2015 11 00 00 00 00 00
+action MouseInput(mouseButton=3) hash=3 00 00 00 11 00 00

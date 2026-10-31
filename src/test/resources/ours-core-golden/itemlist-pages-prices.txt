@@ -1,0 +1,105 @@
+lines ENCHANTED_DIAMOND ["§lCrafting / recipes", "§b> Crafting (1)"*, "§lMob drops", "§7Not dropped by any known mob", "§lBazaar / AH", "§b> Bazaar buy: 1,300.3 coins"*]
+== apex:how_to_get ItemPageRef(itemId=ENCHANTED_DIAMOND)
+item 4,4 DISPLAY ENCHANTED_DIAMONDx1*0rnullpnull[]
+scroll 4,24,162x134 6
+  line 0 "§lCrafting / recipes" -
+  line 1 "§b> Crafting (1)" act
+  line 2 "§lMob drops" -
+  line 3 "§7Not dropped by any known mob" -
+  line 4 "§lBazaar / AH" -
+  line 5 "§b> Bazaar buy: 1,300.3 coins" act
+inputs []
+outputs []
+craft null
+run line 1 -> [nav.recipes ENCHANTED_DIAMOND]
+run line 5 -> [tab.prices ENCHANTED_DIAMOND]
+== apex:live_price ItemPageRef(itemId=ENCHANTED_DIAMOND)
+item 4,4 DISPLAY ENCHANTED_DIAMONDx1*0rnullpnull[]
+text 4,24 w162 ["Bazaar buy: 1,300.3 coins"]
+text 4,34 w162 ["Bazaar sell: 1,234.5 coins"]
+text 4,44 w162 ["§b> How to get this item"]
+click 4,44,162x10
+inputs []
+outputs []
+craft null
+run click 4,44,162x10 -> [tab.howto ENCHANTED_DIAMOND]
+lines FEATHER ["§lCrafting / recipes", "§7No recipe produces this item", "§lMob drops", "§b> Chicken §7(100%)"*, "§b> Kada Knight §7(40%)"*, "§lBazaar / AH", "§b> Bazaar buy: 12,345,678.9 coins"*]
+== apex:how_to_get ItemPageRef(itemId=FEATHER)
+item 4,4 DISPLAY FEATHERx1*0rnullpnull[]
+scroll 4,24,162x134 7
+  line 0 "§lCrafting / recipes" -
+  line 1 "§7No recipe produces this item" -
+  line 2 "§lMob drops" -
+  line 3 "§b> Chicken §7(100%)" act
+  line 4 "§b> Kada Knight §7(40%)" act
+  line 5 "§lBazaar / AH" -
+  line 6 "§b> Bazaar buy: 12,345,678.9 coins" act
+inputs []
+outputs []
+craft null
+run line 3 -> [tab.mobs chicken_animal]
+run line 4 -> [tab.mobs kada_knight]
+run line 6 -> [tab.prices FEATHER]
+== apex:live_price ItemPageRef(itemId=FEATHER)
+item 4,4 DISPLAY FEATHERx1*0rnullpnull[]
+text 4,24 w162 ["Bazaar buy: 12,345,678.9 coins"]
+text 4,34 w162 ["Bazaar sell: 0.4 coins"]
+text 4,44 w162 ["AH lowest BIN: 3.0 coins"]
+text 4,54 w162 ["§b> How to get this item"]
+click 4,54,162x10
+inputs []
+outputs []
+craft null
+run click 4,54,162x10 -> [tab.howto FEATHER]
+lines IRON_BOOTS ["§lCrafting / recipes", "§b> Crafting (1)"*, "§b> NPC Shop (1)"*, "§lMob drops", "§7Not dropped by any known mob", "§lBazaar / AH", "§b> AH lowest BIN: 750,000,000.0 coins"*]
+== apex:how_to_get ItemPageRef(itemId=IRON_BOOTS)
+item 4,4 DISPLAY IRON_BOOTSx1*0rnullpnull[]
+scroll 4,24,162x134 7
+  line 0 "§lCrafting / recipes" -
+  line 1 "§b> Crafting (1)" act
+  line 2 "§b> NPC Shop (1)" act
+  line 3 "§lMob drops" -
+  line 4 "§7Not dropped by any known mob" -
+  line 5 "§lBazaar / AH" -
+  line 6 "§b> AH lowest BIN: 750,000,000.0 coins" act
+inputs []
+outputs []
+craft null
+run line 1 -> [nav.recipes IRON_BOOTS]
+run line 2 -> [nav.recipes IRON_BOOTS]
+run line 6 -> [tab.prices IRON_BOOTS]
+== apex:live_price ItemPageRef(itemId=IRON_BOOTS)
+item 4,4 DISPLAY IRON_BOOTSx1*0rnullpnull[]
+text 4,24 w162 ["AH lowest BIN: 750,000,000.0 coins"]
+text 4,34 w162 ["AH 1-day avg BIN: 1,500.0 coins"]
+text 4,44 w162 ["§b> How to get this item"]
+click 4,44,162x10
+inputs []
+outputs []
+craft null
+run click 4,44,162x10 -> [tab.howto IRON_BOOTS]
+lines GOLD_NUGGET ["§lCrafting / recipes", "§b> Crafting (1)"*, "§lMob drops", "§b> Redstone Pigman §7(50%)"*, "§lBazaar / AH", "§b> No live price"*]
+== apex:how_to_get ItemPageRef(itemId=GOLD_NUGGET)
+item 4,4 DISPLAY GOLD_NUGGETx1*0rnullpnull[]
+scroll 4,24,162x134 6
+  line 0 "§lCrafting / recipes" -
+  line 1 "§b> Crafting (1)" act
+  line 2 "§lMob drops" -
+  line 3 "§b> Redstone Pigman §7(50%)" act
+  line 4 "§lBazaar / AH" -
+  line 5 "§b> No live price" act
+inputs []
+outputs []
+craft null
+run line 1 -> [nav.recipes GOLD_NUGGET]
+run line 3 -> [tab.mobs redstone_pigman]
+run line 5 -> [tab.prices GOLD_NUGGET]
+== apex:live_price ItemPageRef(itemId=GOLD_NUGGET)
+item 4,4 DISPLAY GOLD_NUGGETx1*0rnullpnull[]
+text 4,24 w162 ["No live price"]
+text 4,34 w162 ["§b> How to get this item"]
+click 4,34,162x10
+inputs []
+outputs []
+craft null
+run click 4,34,162x10 -> [tab.howto GOLD_NUGGET]

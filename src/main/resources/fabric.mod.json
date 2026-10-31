@@ -1,0 +1,71 @@
+{
+    "schemaVersion": 1,
+    "id": "apex",
+    "version": "${version}",
+    "name": "SkyBlock Apex",
+    "description": "SkyBlock Apex: Hypixel SkyBlock features. Apex Far Terrain (on by default) draws what you have already seen beyond your render distance; recommended render distance: 12 chunks. Credits and licences of the projects it builds on: /apex credits and LICENSES/ (GPL-3.0-or-later).",
+    "authors": [
+        "Ashtonite365"
+    ],
+    "contributors": [
+        "Linnea Gräf (Firmament, the mod SkyBlock Apex is based on)"
+    ],
+    "contact": {
+        "sources": "https://github.com/Ashtonite365/SkyBlock-Apex"
+    },
+    "license": "GPL 3.0 or Later",
+    "accessWidener": "apex.accesswidener",
+    "icon": "assets/apex/textures/gui/apex_logo.png",
+    "environment": "client",
+    "entrypoints": {
+        "preLaunch": [
+            "dev.ashtonite365.apex.init.MixinAuditPreLaunch"
+        ],
+        "main": [
+            "dev.ashtonite365.apex.Apex::onInitialize"
+        ],
+        "mm_shedaniel:early_risers": [
+            "dev.ashtonite365.apex.init.EarlyRiser"
+        ],
+        "client": [
+            "dev.ashtonite365.apex.Apex::onClientInitialize"
+        ],
+        "jei_mod_plugin": [
+            "dev.ashtonite365.apex.compat.jei.ApexJeiPlugin"
+        ],
+        "rei_common": [
+            "dev.ashtonite365.apex.compat.rei.ApexReiCommonPlugin"
+        ],
+        "rei_client": [
+            "dev.ashtonite365.apex.compat.rei.ApexReiPlugin"
+        ],
+        "emi": [
+            "dev.ashtonite365.apex.compat.emi.ApexEmiPlugin"
+        ],
+        "modmenu": [
+            "dev.ashtonite365.apex.compat.modmenu.ApexModMenuPlugin"
+        ],
+		"jade": [
+			"dev.ashtonite365.apex.compat.jade.ApexJadePlugin"
+		]
+    },
+    "mixins": [
+        "apex.mixins.json"
+    ],
+    "depends": {
+        "fabric-api": ">=${fabric_api_version}",
+        "fabric-language-kotlin": ">=${fabric_kotlin_version}",
+        "minecraft": ">=${minecraft_version}"
+    },
+    "custom": {
+        "modmenu": {
+            "links": {
+            }
+        },
+        "mc-publish": {
+            "dependencies": [
+                "jei(recommended){modrinth:jei}"
+            ]
+        }
+    }
+}

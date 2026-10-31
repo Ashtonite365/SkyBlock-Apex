@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"plugin": "dev.ashtonite365.apex.init.MixinPlugin",
+	"package": "dev.ashtonite365.apex.mixins",
+	"compatibilityLevel": "JAVA_21",
+	"mixinextras": {
+		"minVersion": "0.5.0"
+	},
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

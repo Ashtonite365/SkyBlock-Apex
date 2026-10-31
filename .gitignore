@@ -1,0 +1,37 @@
+# SPDX-FileCopyrightText: 2023 Linnea Gräf <nea@nea.moe>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+.env
+.properties
+/.gradle
+/build/
+/build-logic/.gradle
+/build-logic/build/
+/*/build
+.kotlin
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+# IDEA
+/.idea/
+
+# loom runClient
+/run/
+/logs/
+*.xsd
+*.png~
+*.kra
+.direnv
+result
+*.DS_Store

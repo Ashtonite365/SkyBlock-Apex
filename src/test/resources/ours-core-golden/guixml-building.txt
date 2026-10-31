@@ -1,0 +1,16 @@
+<apex:Bar progress="@progress" total="@total" fillColor="#FF8000" emptyColor="#80112233"/> -> Bar p=3.0 t=8.0 fill=-32768 empty=-2146360781 w=80 h=8
+<apex:Bar progress="@progress" total="@total" fillColor="-16711936" emptyColor="#000000"/> -> Bar p=3.0 t=8.0 fill=-16711936 empty=-16777216 w=80 h=8
+<apex:Bar progress="@progress" total="@total" fillColor="#12345" emptyColor="#000000"/> -> ERR:IllegalStateException:Hexcolor #12345 needs to be exactly 6 or 8 hex digits long
+<apex:Hover lines="a;b;c"><apex:Tick tick="@tick"/></apex:Hover> -> Hover lines=[a, b, c] delay=600ms child=Tick log=[tick]
+<apex:Hover lines="@hoverText"><apex:Tick tick="@tick"/></apex:Hover> -> Hover lines=[one, two] delay=600ms child=Tick log=[tick]
+<apex:Hover lines="single" delay="2"><apex:Tick tick="@tick"/></apex:Hover> -> ERR:RuntimeException:Could not find a morphism from class java.lang.String to class kotlin.time.Duration.
+<apex:Button onClick="@click"><apex:Tick tick="@tick"/></apex:Button> -> Button skinless=false enabled=true log=[click, click]
+<apex:Button onClick="@click" noBackground="true"><apex:Tick tick="@tick"/></apex:Button> -> Button skinless=true enabled=true log=[click, click]
+<apex:Button onClick="@click" noBackground="false" enabled="@on"><apex:Tick tick="@tick"/></apex:Button> -> Button skinless=false enabled=false log=[click, click]
+<apex:Image resource="apex:textures/gui/x.png" width="16" height="12"/> -> Image apex:textures/gui/x.png 16x12 u=0.0..1.0 v=0.0..1.0
+<apex:Image resource="apex:textures/gui/x.png" width="16" height="12" u1="0.25" u2="0.5" v1="0.125" v2="0.75"/> -> Image apex:textures/gui/x.png 16x12 u=0.25..0.5 v=0.125..0.75
+<apex:Tick tick="@tick"/> -> Tick log=[tick]
+<apex:Fixed width="300"><apex:Tick tick="@tick"/></apex:Fixed> -> Fixed w=300 h=null size=300x0 child=Tick log=[tick]
+<apex:Fixed width="380" height="30"><apex:Tick tick="@tick"/></apex:Fixed> -> Fixed w=380 h=30 size=380x30 child=Tick log=[tick]
+<apex:Fixed height="@w"><apex:Tick tick="@tick"/></apex:Fixed> -> Fixed w=null h=33 size=0x33 child=Tick log=[tick]
+<apex:Fixed><apex:Tick tick="@tick"/></apex:Fixed> -> Fixed w=null h=null size=0x0 child=Tick log=[tick]

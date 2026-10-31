@@ -1,0 +1,272 @@
+{
+ "box": "ARCHFIEND_DICE",
+ "source": "Archfiend Dice (fixture)",
+ "groups": [
+  {
+   "name": "Roll 1",
+   "chance": 0.16666666666666666
+  },
+  {
+   "name": "Roll 2",
+   "chance": 0.16666666666666666
+  },
+  {
+   "name": "Roll 3",
+   "chance": 0.16666666666666666
+  },
+  {
+   "name": "Roll 4",
+   "chance": 0.16666666666666666
+  },
+  {
+   "name": "Roll 5",
+   "chance": 0.16666666666666666
+  },
+  {
+   "name": "Roll 6",
+   "chance": 0.16666666666666666
+  }
+ ],
+ "drops": [
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_1_0",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 1"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_1_1",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 1"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_1_2",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 1"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_1_3",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 1"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_1_4",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 1"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_2_0",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 2"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_2_1",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 2"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_2_2",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 2"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_2_3",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 2"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_2_4",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 2"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_3_0",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 3"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_3_1",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 3"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_3_2",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 3"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_3_3",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 3"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_3_4",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 3"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_4_0",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 4"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_4_1",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 4"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_4_2",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 4"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_4_3",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 4"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_4_4",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 4"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_5_0",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 5"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_5_1",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 5"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_5_2",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 5"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_5_3",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 5"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_5_4",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 5"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_6_0",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 6"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_6_1",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 6"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_6_2",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 6"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_6_3",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 6"
+  },
+  {
+   "type": "item",
+   "id": "DICE_PRIZE_6_4",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2,
+   "group": "Roll 6"
+  }
+ ]
+}

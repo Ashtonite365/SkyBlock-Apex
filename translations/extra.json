@@ -1,0 +1,11 @@
+{
+	// These are require by jade, but i don't think they are actually rendered in game.
+	// Jade throws exceptions if they are not present however.
+	"config.jade.plugin_apex.toolprovider": "SkyBlock Apex Tool Provider",
+	"config.jade.plugin_apex.custom_mining_hardness": "SkyBlock Apex Mining Hardness",
+	// HUD editor (a binding saved under the pre-rename key name is moved over by LegacyDataMigration)
+	"key.apex.open-gui-editor": "Open HUD Editor",
+	"apex.hud-editor.title": "HUD Editor",
+	"apex.option-search.title": "Config Options",
+	"apex.option-search.hint": "Search..."
+}

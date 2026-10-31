@@ -1,0 +1,3 @@
+id=3 title=Bank
+# NOT a slot dump: reconstructed only from 2026-10-17-3.log 15:47:46-48 ([ApexPkt] IN open 3 Bank, 72 slots; click slot 11 carried=Co-op Bank Account; IN open 4 Co-op Bank Account). Lore and other slots were not logged.
+slot=11 name=Co-op Bank Account lore=[]

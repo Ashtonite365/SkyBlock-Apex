@@ -1,0 +1,30 @@
+fromStack	(minecraft:diamond_sword,minecraft:diamond_sword,3,literal{n},<null>,1,<null>,<null>,false,true,false,3,literal{n},())
+accessor	(minecraft:diamond_sword,minecraft:diamond_sword,3,literal{n},<null>,1,<null>,<null>,false,true,false,3,literal{n},())
+empty	(minecraft:air,minecraft:air,0,<null>,<null>,<null>,<null>,<null>,true,false,true,<null>,empty,())
+emptyStack	(minecraft:air,minecraft:air,0,<null>,<null>,64,<null>,attr,true,false,true,0,empty,())
+fromTemplateNull	(minecraft:air,minecraft:air,0,<null>,<null>,<null>,<null>,<null>,true,false,true,<null>,empty,())
+build	(minecraft:apple,minecraft:apple,1,literal{a},<null>,64,<null>,attr,false,false,false,<null>,literal{a},())
+buildAir	(minecraft:air,minecraft:air,0,<null>,<null>,<null>,<null>,<null>,true,false,true,<null>,empty,())
+buildHolder	(minecraft:stick,minecraft:stick,1,<null>,<null>,64,<null>,attr,false,false,false,<null>,empty,())
+withCount	!java.lang.IllegalStateException: Item must be non-empty
+template	(3,<null>,<null>)
+intoMutable	((minecraft:diamond_sword,minecraft:diamond_sword,3,literal{n},<null>,1,<null>,<null>,false,true,false,<null>,literal{n},()),(minecraft:apple,minecraft:apple,1,<null>,<null>,64,<null>,attr,false,false,false,<null>,empty,()),(minecraft:air,minecraft:air,1,<null>,<null>,64,<null>,attr,true,false,true,<null>,empty,()))
+withMutations	([minecraft:air, minecraft:air, 0, null, null, null, null, null, true, false, true, null, empty, []], [minecraft:diamond_sword, minecraft:diamond_sword, 2, literal{m}, null, 1, null, null, false, true, false, null, literal{m}, []])
+recreate	(<null>,0,0,true,true)
+upgradeEmpty	true
+typeHolder	minecraft:apple
+codec	({"id":"minecraft:apple","count":4,"components":{"minecraft:custom_name":"c"}},{},(minecraft:apple,minecraft:apple,4,literal{c},<null>,64,<null>,attr,false,false,false,<null>,literal{c},()),(minecraft:air,minecraft:air,0,<null>,<null>,<null>,<null>,<null>,true,false,true,<null>,empty,()))
+mutable	({minecraft:max_stack_size=>64, minecraft:custom_name=>literal{x}, !minecraft:food},{!minecraft:food, minecraft:custom_name=>literal{x}},(minecraft:apple,minecraft:apple,2,literal{x},<null>,64,<null>,attr,false,false,false,<null>,literal{x},()),2,(minecraft:apple,minecraft:apple,2,literal{x},<null>,64,<null>,attr,false,false,false,<null>,literal{x},()))
+mutableEmpty	(minecraft:air,minecraft:air,0,<null>,<null>,<null>,<null>,<null>,true,false,true,<null>,empty,())
+toBuilder	{!minecraft:food, minecraft:max_stack_size=>3} true
+patchAccessor	(minecraft:bread,minecraft:bread,1,<null>,2,2,<null>,attr,false,false,false,<null>,empty,())
+nullData	<null>
+defaultStack	minecraft:apple 1
+mutator	(5,<null>,(minecraft:stone,minecraft:stone,1,<null>,5,5,<null>,attr,false,false,false,1,empty,()))
+lore	(<null>,(literal{2},literal{1},literal{3}),empty)
+displayName	(empty,literal{item},literal{custom})
+loadNbt	((minecraft:apple,minecraft:apple,3,<null>,<null>,64,<null>,attr,false,false,false,<null>,empty,()),<null>,<null>)
+nbtList	[1,"a"] []
+unsafeNbt	({a:1},true)
+mutationCheck	(false,true,true)
+mutationCheckLog	ok

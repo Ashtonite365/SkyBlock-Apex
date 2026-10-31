@@ -1,0 +1,12 @@
+BazaarResponse(success=true, products={BazaarProduct(stockKey=ENCHANTED_DIAMOND)=BazaarData(productId=BazaarProduct(stockKey=ENCHANTED_DIAMOND), quickStatus=BazaarStatus(sellPrice=1.5, sellVolume=10, sellMovingWeek=20, sellOrders=3, buyPrice=2.5, buyVolume=11, buyMovingWeek=21, buyOrders=4), sellSummary=[BazaarOrderLevel(amount=5, pricePerUnit=1.5, orders=2)], buySummary=[])})\n{"success":true,"products":{"ENCHANTED_DIAMOND":{"product_id":"ENCHANTED_DIAMOND","quick_status":{"sellPrice":1.5,"sellVolume":10,"sellMovingWeek":20,"sellOrders":3,"buyPrice":2.5,"buyVolume":11,"buyMovingWeek":21,"buyOrders":4},"sell_summary":[{"amount":5,"pricePerUnit":1.5,"orders":2}],"buy_summary":[]}}}
+price	null
+ns	[neurepo]	[]
+res	[a, null, null]	true
+root	p	null
+list	neurepo	textures	[neurepo:textures, neurepo:textures/item, neurepo:textures/item/a.png, neurepo:textures/item/b.json]
+list	neurepo	missing	[]
+list	minecraft	textures	[]
+list	minecraft	missing	[]
+meta	PackMetadataSection[description=literal{item repo Resources}, supportedFormats=[12.0, 12.0]]
+loc	neurepo	Item repo	net.minecraft.server.packs.repository.PackSource$1@#
+overlay	sub

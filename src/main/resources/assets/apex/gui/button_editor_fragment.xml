@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns="http://notenoughupdates.org/moulconfig">
+	<Panel background="VANILLA" insets="10">
+		<Column>
+			<Row>
+				<Hover lines="Click to pick an icon from every item">
+					<Button onClick="@pickIcon">
+						<ItemStack value="@getItemIcon"/>
+					</Button>
+				</Hover>
+				<Text text="Icon"/>
+				<Button onClick="@pickIcon">
+					<Text text="Pick icon…"/>
+				</Button>
+			</Row>
+			<Hover lines="Put your display item in here.;Can be any SkyBlock item id.;;Alternatively you can paste in a /give command">
+				<TextField value="@icon" width="180"/>
+			</Hover>
+			<Row>
+				<Switch value="@isGigantic"/>
+				<Text text="Big Button"/>
+			</Row>
+			<Text text="Command"/>
+			<Hover lines="Put the command in here.;The text box should not start with a /">
+				<Row>
+					<Text text="/"/>
+					<TextField value="@command" width="180"/>
+				</Row>
+			</Hover>
+			<Button onClick="@delete">
+				<Text text="Delete"/>
+			</Button>
+		</Column>
+	</Panel>
+</Root>

@@ -1,0 +1,4 @@
+read 25.0
+after set 50.0 backing=20 read=50.0
+backing 3 read=7.5
+class MappedProperty

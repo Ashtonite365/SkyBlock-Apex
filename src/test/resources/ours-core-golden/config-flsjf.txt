@@ -1,0 +1,7 @@
+missing {}
+files [one.json={"k":"v"}, three.json=3, two.json=[1]]
+load {"three":3,"one":{"k":"v"},"two":[1]}
+bad {"three":3,"one":{"k":"v"},"two":[1]} backup=true
+after [one.json, other.txt]
+loglevels [INFO]|[INFO]|[DEBUG]|[INFO]|[DEBUG]|[DEBUG]|[DEBUG]|[INFO]|[INFO]|[DEBUG]|[DEBUG]|[DEBUG]|[INFO]|[INFO]|[DEBUG]|[DEBUG]|[ERROR]|[DEBUG]|[DEBUG]|[INFO]|[INFO]|[DEBUG]|[DEBUG]|[INFO]|[INFO]|[INFO]|[INFO]|[INFO]
+ctx golden true config-golden config-golden.log

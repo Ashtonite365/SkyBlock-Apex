@@ -1,0 +1,13 @@
+exec [root] ok 1 seen=[root]
+exec [ROOT word abc] ok 1 seen=[w=abc]
+exec [root Word abc the rest  here] ok 1 seen=[w=abc rest=the rest  here]
+exec [root 3m] ok 1 seen=[d=3m]
+exec [root 1h2m] ok 1 seen=[d=1h 2m]
+exec [root word] syntax Unknown or incomplete command. See below for error cursor=9 input=root word seen=[]
+exec [root 3q] syntax apex.command-argument.duration.error cursor=5 input=root 3q seen=[]
+suggest [root word ] [alpha, ALPHABET, Beta, gamma]
+suggest [root word a] [alpha, ALPHABET]
+suggest [root word AL] [alpha, ALPHABET]
+suggest [root word g] [gamma]
+argClass kotlin.time.Duration java.lang.String java.lang.String java.lang.Integer
+eq true ArgRef(label=x, type=dev.ashtonite365.apex.commands.RestArgumentType@#)

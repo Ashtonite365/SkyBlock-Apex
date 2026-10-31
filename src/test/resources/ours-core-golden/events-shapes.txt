@@ -1,0 +1,144 @@
+event ActionBarEvent data=false abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.ActionBarEvent
+  ctor [text:net.minecraft.network.chat.Component, source:kotlin.String=]
+  props [bareText:kotlin.String, original:net.minecraft.network.chat.Component, source:kotlin.String, text:net.minecraft.network.chat.Component var]
+event AllowChatEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.AllowChatEvent
+  ctor [text:net.minecraft.network.chat.Component]
+  props [bareText:kotlin.String, text:net.minecraft.network.chat.Component]
+event ApexEvent data=false abstract=true cancellable=false bus=null
+  ctor []
+  props []
+event AttackBlockEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.AttackBlockEvent
+  ctor [player:net.minecraft.world.entity.player.Player, world:net.minecraft.world.level.Level, hand:net.minecraft.world.InteractionHand, blockPos:net.minecraft.core.BlockPos, direction:net.minecraft.core.Direction]
+  props [blockPos:net.minecraft.core.BlockPos, direction:net.minecraft.core.Direction, hand:net.minecraft.world.InteractionHand, player:net.minecraft.world.entity.player.Player, world:net.minecraft.world.level.Level]
+event ChestInventoryUpdateEvent data=false abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.ChestInventoryUpdateEvent
+  ctor []
+  props [inventory:net.minecraft.client.gui.screens.Screen?]
+event ClientInitEvent data=false abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.ClientInitEvent
+  ctor []
+  props []
+event ClientStartedEvent data=false abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.ClientStartedEvent
+  ctor []
+  props []
+event CommandEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.CommandEvent
+  ctor [dispatcher:com.mojang.brigadier.CommandDispatcher<dev.ashtonite365.apex.commands.DefaultSource /* = net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource */>, ctx:net.minecraft.commands.CommandBuildContext, serverCommands:com.mojang.brigadier.CommandDispatcher<*>?]
+  props [ctx:net.minecraft.commands.CommandBuildContext, dispatcher:com.mojang.brigadier.CommandDispatcher<dev.ashtonite365.apex.commands.DefaultSource /* = net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource */>, serverCommands:com.mojang.brigadier.CommandDispatcher<*>?]
+event ComponentsLoadedEvent data=false abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.ComponentsLoadedEvent
+  ctor []
+  props []
+event EntityDespawnEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.EntityDespawnEvent
+  ctor [entity:net.minecraft.world.entity.Entity?, entityId:kotlin.Int, reason:net.minecraft.world.entity.Entity.RemovalReason]
+  props [entity:net.minecraft.world.entity.Entity?, entityId:kotlin.Int, reason:net.minecraft.world.entity.Entity.RemovalReason]
+event EntityInteractionEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.EntityInteractionEvent
+  ctor [kind:dev.ashtonite365.apex.events.EntityInteractionEvent.InteractionKind, entity:net.minecraft.world.entity.Entity, hand:net.minecraft.world.InteractionHand]
+  props [entity:net.minecraft.world.entity.Entity, hand:net.minecraft.world.InteractionHand, kind:dev.ashtonite365.apex.events.EntityInteractionEvent.InteractionKind]
+event EntityRenderTintEvent data=false abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.EntityRenderTintEvent
+  ctor [entity:net.minecraft.world.entity.Entity, renderState:dev.ashtonite365.apex.events.EntityRenderTintEvent.HasTintRenderState]
+  props [entity:net.minecraft.world.entity.Entity, renderState:dev.ashtonite365.apex.events.EntityRenderTintEvent.HasTintRenderState]
+event EntityUpdateEvent data=false abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.EntityUpdateEvent
+  ctor []
+  props [entity:net.minecraft.world.entity.Entity]
+event FinalizeResourceManagerEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.FinalizeResourceManagerEvent
+  ctor [resourceManager:net.minecraft.server.packs.resources.ReloadableResourceManager]
+  props [resourceManager:net.minecraft.server.packs.resources.ReloadableResourceManager]
+event HandledScreenClickEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.HandledScreenClickEvent
+  ctor [screen:net.minecraft.client.gui.screens.inventory.AbstractContainerScreen<*>, mouseX:kotlin.Double, mouseY:kotlin.Double, button:kotlin.Int]
+  props [button:kotlin.Int, mouseX:kotlin.Double, mouseY:kotlin.Double, screen:net.minecraft.client.gui.screens.inventory.AbstractContainerScreen<*>]
+event HandledScreenForegroundEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.HandledScreenForegroundEvent
+  ctor [screen:net.minecraft.client.gui.screens.inventory.AbstractContainerScreen<*>, context:net.minecraft.client.gui.GuiGraphicsExtractor, mouseX:kotlin.Int, mouseY:kotlin.Int, delta:kotlin.Float]
+  props [context:net.minecraft.client.gui.GuiGraphicsExtractor, delta:kotlin.Float, mouseX:kotlin.Int, mouseY:kotlin.Int, screen:net.minecraft.client.gui.screens.inventory.AbstractContainerScreen<*>]
+event HandledScreenKeyPressedEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.HandledScreenKeyPressedEvent
+  ctor [screen:net.minecraft.client.gui.screens.Screen, input:dev.ashtonite365.apex.keybindings.GenericInputAction, modifiers:dev.ashtonite365.apex.keybindings.InputModifiers]
+  props [input:dev.ashtonite365.apex.keybindings.GenericInputAction, isRepeat:kotlin.Boolean, modifiers:dev.ashtonite365.apex.keybindings.InputModifiers, screen:net.minecraft.client.gui.screens.Screen]
+event HandledScreenKeyReleasedEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.HandledScreenKeyReleasedEvent
+  ctor [screen:net.minecraft.client.gui.screens.Screen, input:dev.ashtonite365.apex.keybindings.GenericInputAction, modifiers:dev.ashtonite365.apex.keybindings.InputModifiers]
+  props [input:dev.ashtonite365.apex.keybindings.GenericInputAction, modifiers:dev.ashtonite365.apex.keybindings.InputModifiers, screen:net.minecraft.client.gui.screens.Screen]
+event HandledScreenPushREIEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.HandledScreenPushREIEvent
+  ctor [screen:net.minecraft.client.gui.screens.inventory.AbstractContainerScreen<*>, rectangles:kotlin.collections.MutableList<me.shedaniel.math.Rectangle>=]
+  props [rectangles:kotlin.collections.MutableList<me.shedaniel.math.Rectangle>, screen:net.minecraft.client.gui.screens.inventory.AbstractContainerScreen<*>]
+event HotbarItemRenderEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.HotbarItemRenderEvent
+  ctor [item:net.minecraft.world.item.ItemStack, context:net.minecraft.client.gui.GuiGraphicsExtractor, x:kotlin.Int, y:kotlin.Int, tickDelta:net.minecraft.client.DeltaTracker]
+  props [context:net.minecraft.client.gui.GuiGraphicsExtractor, item:net.minecraft.world.item.ItemStack, tickDelta:net.minecraft.client.DeltaTracker, x:kotlin.Int, y:kotlin.Int]
+event HudRenderEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.HudRenderEvent
+  ctor [context:net.minecraft.client.gui.GuiGraphicsExtractor, tickDelta:net.minecraft.client.DeltaTracker]
+  props [context:net.minecraft.client.gui.GuiGraphicsExtractor, isRenderingCursor:kotlin.Boolean, isRenderingHud:kotlin.Boolean, tickDelta:net.minecraft.client.DeltaTracker]
+event IsSlotProtectedEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.IsSlotProtectedEvent
+  ctor [slot:net.minecraft.world.inventory.Slot?, actionType:net.minecraft.world.inventory.ContainerInput, isProtected:kotlin.Boolean, itemStackOverride:net.minecraft.world.item.ItemStack?, origin:dev.ashtonite365.apex.events.IsSlotProtectedEvent.MoveOrigin, silent:kotlin.Boolean=]
+  props [actionType:net.minecraft.world.inventory.ContainerInput, isProtected:kotlin.Boolean var, itemStack:net.minecraft.world.item.ItemStack, itemStackOverride:net.minecraft.world.item.ItemStack?, origin:dev.ashtonite365.apex.events.IsSlotProtectedEvent.MoveOrigin, silent:kotlin.Boolean var, slot:net.minecraft.world.inventory.Slot?]
+event ItemTooltipEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.ItemTooltipEvent
+  ctor [stack:net.minecraft.world.item.ItemStack, context:net.minecraft.world.item.Item.TooltipContext, type:net.minecraft.world.item.TooltipFlag, lines:kotlin.collections.MutableList<net.minecraft.network.chat.Component>]
+  props [context:net.minecraft.world.item.Item.TooltipContext, lines:kotlin.collections.MutableList<net.minecraft.network.chat.Component>, stack:net.minecraft.world.item.ItemStack, type:net.minecraft.world.item.TooltipFlag]
+event JoinServerEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.JoinServerEvent
+  ctor [networkHandler:net.minecraft.client.multiplayer.ClientPacketListener, packetSender:net.fabricmc.fabric.api.networking.v1.PacketSender]
+  props [networkHandler:net.minecraft.client.multiplayer.ClientPacketListener, packetSender:net.fabricmc.fabric.api.networking.v1.PacketSender]
+event MaskCommands data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.MaskCommands
+  ctor [dispatcher:com.mojang.brigadier.CommandDispatcher<*>]
+  props [dispatcher:com.mojang.brigadier.CommandDispatcher<*>]
+event ModifyChatEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.ModifyChatEvent
+  ctor [originalText:net.minecraft.network.chat.Component]
+  props [bareText:kotlin.String var, originalText:net.minecraft.network.chat.Component, replaceWith:net.minecraft.network.chat.Component var]
+event OutgoingPacketEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.OutgoingPacketEvent
+  ctor [packet:net.minecraft.network.protocol.Packet<*>]
+  props [packet:net.minecraft.network.protocol.Packet<*>]
+event ParticleSpawnEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.ParticleSpawnEvent
+  ctor [particleEffect:net.minecraft.core.particles.ParticleOptions, position:net.minecraft.world.phys.Vec3, offset:org.joml.Vector3f, longDistance:kotlin.Boolean, count:kotlin.Int, speed:kotlin.Float]
+  props [count:kotlin.Int, longDistance:kotlin.Boolean, offset:org.joml.Vector3f, particleEffect:net.minecraft.core.particles.ParticleOptions, position:net.minecraft.world.phys.Vec3, speed:kotlin.Float]
+event PartyMessageReceivedEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.PartyMessageReceivedEvent
+  ctor [from:dev.ashtonite365.apex.events.ProcessChatEvent, message:kotlin.String, name:kotlin.String]
+  props [from:dev.ashtonite365.apex.events.ProcessChatEvent, message:kotlin.String, name:kotlin.String]
+event PlayerInventoryUpdate data=false abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.PlayerInventoryUpdate
+  ctor []
+  props []
+event ProcessChatEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.ProcessChatEvent
+  ctor [text:net.minecraft.network.chat.Component, wasExternallyCancelled:kotlin.Boolean]
+  props [bareText:kotlin.String, nameHeuristic:kotlin.String?, text:net.minecraft.network.chat.Component, wasExternallyCancelled:kotlin.Boolean]
+event ProfileSwitchEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.ProfileSwitchEvent
+  ctor [oldProfile:java.util.UUID?, newProfile:java.util.UUID?]
+  props [newProfile:java.util.UUID?, oldProfile:java.util.UUID?]
+event ReloadRegistrationEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.ReloadRegistrationEvent
+  ctor [repo:io.github.moulberry.repo.NEURepository]
+  props [repo:io.github.moulberry.repo.NEURepository]
+event ScreenChangeEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.ScreenChangeEvent
+  ctor [old:net.minecraft.client.gui.screens.Screen?, new:net.minecraft.client.gui.screens.Screen?]
+  props [new:net.minecraft.client.gui.screens.Screen?, old:net.minecraft.client.gui.screens.Screen?, overrideScreen:net.minecraft.client.gui.screens.Screen? var]
+event ScreenRenderPostEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.ScreenRenderPostEvent
+  ctor [screen:net.minecraft.client.gui.screens.Screen, mouseX:kotlin.Int, mouseY:kotlin.Int, tickDelta:kotlin.Float, drawContext:net.minecraft.client.gui.GuiGraphicsExtractor]
+  props [drawContext:net.minecraft.client.gui.GuiGraphicsExtractor, mouseX:kotlin.Int, mouseY:kotlin.Int, screen:net.minecraft.client.gui.screens.Screen, tickDelta:kotlin.Float]
+event ServerConnectedEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.ServerConnectedEvent
+  ctor [connection:net.minecraft.network.Connection]
+  props [connection:net.minecraft.network.Connection]
+event SkyblockServerUpdateEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.SkyblockServerUpdateEvent
+  ctor [previousLocation:dev.ashtonite365.apex.util.ServerLocation?, currentLocation:dev.ashtonite365.apex.util.ServerLocation?]
+  props [currentLocation:dev.ashtonite365.apex.util.ServerLocation?, previousLocation:dev.ashtonite365.apex.util.ServerLocation?]
+event SlotClickEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.SlotClickEvent
+  ctor [slot:net.minecraft.world.inventory.Slot, stack:net.minecraft.world.item.ItemStack, button:kotlin.Int, actionType:net.minecraft.world.inventory.ContainerInput]
+  props [actionType:net.minecraft.world.inventory.ContainerInput, button:kotlin.Int, slot:net.minecraft.world.inventory.Slot, stack:net.minecraft.world.item.ItemStack]
+event SoundReceiveEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.SoundReceiveEvent
+  ctor [sound:net.minecraft.core.Holder<net.minecraft.sounds.SoundEvent>, category:net.minecraft.sounds.SoundSource, position:net.minecraft.world.phys.Vec3, pitch:kotlin.Float, volume:kotlin.Float, seed:kotlin.Long]
+  props [category:net.minecraft.sounds.SoundSource, pitch:kotlin.Float, position:net.minecraft.world.phys.Vec3, seed:kotlin.Long, sound:net.minecraft.core.Holder<net.minecraft.sounds.SoundEvent>, volume:kotlin.Float]
+event SuperpairsCardFlipEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.SuperpairsCardFlipEvent
+  ctor [slot:kotlin.Int, stack:net.minecraft.world.item.ItemStack]
+  props [slot:kotlin.Int, stack:net.minecraft.world.item.ItemStack]
+event TickEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.TickEvent
+  ctor [tickCount:kotlin.Int]
+  props [tickCount:kotlin.Int]
+event UseBlockEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.UseBlockEvent
+  ctor [player:net.minecraft.world.entity.player.Player, world:net.minecraft.world.level.Level, hand:net.minecraft.world.InteractionHand, hitResult:net.minecraft.world.phys.BlockHitResult]
+  props [hand:net.minecraft.world.InteractionHand, hitResult:net.minecraft.world.phys.BlockHitResult, player:net.minecraft.world.entity.player.Player, world:net.minecraft.world.level.Level]
+event UseItemEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.UseItemEvent
+  ctor [playerEntity:net.minecraft.world.entity.player.Player, world:net.minecraft.world.level.Level, hand:net.minecraft.world.InteractionHand]
+  props [hand:net.minecraft.world.InteractionHand, item:net.minecraft.world.item.ItemStack, playerEntity:net.minecraft.world.entity.player.Player, world:net.minecraft.world.level.Level]
+event WorldActionPacketEvent data=false abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.WorldActionPacketEvent
+  ctor []
+  props []
+event WorldKeyboardEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.WorldKeyboardEvent
+  ctor [action:dev.ashtonite365.apex.keybindings.GenericInputAction, modifiers:dev.ashtonite365.apex.keybindings.InputModifiers]
+  props [action:dev.ashtonite365.apex.keybindings.GenericInputAction, modifiers:dev.ashtonite365.apex.keybindings.InputModifiers]
+event WorldMouseMoveEvent data=true abstract=false cancellable=true bus=class dev.ashtonite365.apex.events.WorldMouseMoveEvent
+  ctor [deltaX:kotlin.Double, deltaY:kotlin.Double]
+  props [deltaX:kotlin.Double, deltaY:kotlin.Double]
+event WorldReadyEvent data=false abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.WorldReadyEvent
+  ctor []
+  props []
+event WorldRenderLastEvent data=true abstract=false cancellable=false bus=class dev.ashtonite365.apex.events.WorldRenderLastEvent
+  ctor [matrices:com.mojang.blaze3d.vertex.PoseStack, camera:net.minecraft.client.renderer.state.level.CameraRenderState]
+  props [camera:net.minecraft.client.renderer.state.level.CameraRenderState, matrices:com.mojang.blaze3d.vertex.PoseStack]

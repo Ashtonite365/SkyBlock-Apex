@@ -1,0 +1,1305 @@
+{
+  "cases": 325,
+  "data": [
+    {
+      "in": "sell|0|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|1|[Sell Price: 7 Motes, NPC Sell Price: 5 Motes, Sell Price: 99 motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|2|[§7Sell Price: §d50 Motes, Sell Price: 99 motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|3|[, Sell Price: , Motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|4|[Sell Price: 7 Motes, Sell Price: 1,234 Motes, Motes Sell Price: 12.5 Motes (each), Rarity]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|5|[§7Sell Price: §d50 Motes,   Sell Price: 1.2.3 Motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|6|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|7|[Motes Sell Price: 12.5 Motes (each), Rarity]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|8|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|9|[Sell Price: 7 Motes, Sell Price: 99 motes, Sell Price: , Motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|10|[NPC Sell Price: 5 Motes, , Rarity, Sell Price: , Motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|11|[  Sell Price: 1.2.3 Motes, Rarity, Sell Price: 7 Motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|12|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|13|[Sell Price: , Motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|14|[Sell Price: , Motes, Sell Price: 99 motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|15|[§7Sell Price: §d50 Motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|16|[Sell Price: 7 Motes,   Sell Price: 1.2.3 Motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|17|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|18|[Sell Price: 99 motes, Sell Price: 1,234 Motes]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|19|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|20|[Motes Sell Price: 12.5 Motes (each), NPC Sell Price: 5 Motes]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|21|[Sell Price: 99 motes, §7Sell Price: §d50 Motes, Rarity]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|22|[, Motes Sell Price: 12.5 Motes (each), Sell Price: 7 Motes, Sell Price: 7 Motes]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|23|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|24|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|25|[Sell Price: 1,234 Motes, Sell Price: , Motes, Sell Price: 1,234 Motes]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|26|[, , Sell Price: 7 Motes, Sell Price: 1,234 Motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|27|[§7Sell Price: §d50 Motes,   Sell Price: 1.2.3 Motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|28|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|29|[Sell Price: , Motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|30|[Motes Sell Price: 12.5 Motes (each), NPC Sell Price: 5 Motes]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|31|[NPC Sell Price: 5 Motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|32|[Sell Price: 1,234 Motes, Sell Price: 99 motes]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|33|[Sell Price: 1,234 Motes, Rarity, NPC Sell Price: 5 Motes, §7Sell Price: §d50 Motes]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|34|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|35|[Sell Price: 99 motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|36|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|37|[§7Sell Price: §d50 Motes, Sell Price: 1,234 Motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|38|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|39|[Rarity,   Sell Price: 1.2.3 Motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|40|[  Sell Price: 1.2.3 Motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|41|[Sell Price: 7 Motes, §7Sell Price: §d50 Motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|42|[§7Sell Price: §d50 Motes, ,   Sell Price: 1.2.3 Motes, ]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|43|[Sell Price: 7 Motes, §7Sell Price: §d50 Motes, Sell Price: 7 Motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|44|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|45|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|46|[Motes Sell Price: 12.5 Motes (each), Motes Sell Price: 12.5 Motes (each)]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|47|[Sell Price: 1,234 Motes, Sell Price: 1,234 Motes, Sell Price: , Motes, Sell Price: 1,234 Motes]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|48|[Sell Price: , Motes, NPC Sell Price: 5 Motes, Rarity, Rarity]",
+      "out": "null"
+    },
+    {
+      "in": "sell|49|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|50|[Sell Price: , Motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|51|[§7Sell Price: §d50 Motes, Rarity, Sell Price: 99 motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|52|[Sell Price: 99 motes, Sell Price: , Motes, ]",
+      "out": "null"
+    },
+    {
+      "in": "sell|53|[§7Sell Price: §d50 Motes, Motes Sell Price: 12.5 Motes (each), , Sell Price: 1,234 Motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|54|[Sell Price: 99 motes, Sell Price: 7 Motes, Sell Price: 99 motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|55|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|56|[Sell Price: 1,234 Motes, ]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|57|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|58|[Motes Sell Price: 12.5 Motes (each)]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|59|[Sell Price: , Motes, Motes Sell Price: 12.5 Motes (each)]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|60|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|61|[  Sell Price: 1.2.3 Motes, Sell Price: 7 Motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|62|[, Motes Sell Price: 12.5 Motes (each)]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|63|[, Sell Price: 7 Motes, Motes Sell Price: 12.5 Motes (each), Sell Price: , Motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|64|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|65|[Motes Sell Price: 12.5 Motes (each)]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|66|[  Sell Price: 1.2.3 Motes, , Sell Price: 1,234 Motes]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|67|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|68|[§7Sell Price: §d50 Motes, Rarity, ]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|69|[§7Sell Price: §d50 Motes, Sell Price: 99 motes, §7Sell Price: §d50 Motes, Rarity]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|70|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|71|[Motes Sell Price: 12.5 Motes (each),   Sell Price: 1.2.3 Motes, Sell Price: , Motes]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|72|[Sell Price: 1,234 Motes, §7Sell Price: §d50 Motes, NPC Sell Price: 5 Motes]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|73|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|74|[Sell Price: 7 Motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|75|[NPC Sell Price: 5 Motes, §7Sell Price: §d50 Motes, ]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|76|[Sell Price: 99 motes, , NPC Sell Price: 5 Motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|77|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|78|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|79|[Sell Price: 7 Motes, Sell Price: 99 motes, ]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|80|[§7Sell Price: §d50 Motes, Motes Sell Price: 12.5 Motes (each)]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|81|[Motes Sell Price: 12.5 Motes (each), §7Sell Price: §d50 Motes]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|82|[Motes Sell Price: 12.5 Motes (each)]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|83|[Sell Price: 1,234 Motes, Rarity]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|84|[Sell Price: 1,234 Motes, Motes Sell Price: 12.5 Motes (each)]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|85|[  Sell Price: 1.2.3 Motes, Motes Sell Price: 12.5 Motes (each), Rarity]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|86|[  Sell Price: 1.2.3 Motes, Rarity]",
+      "out": "null"
+    },
+    {
+      "in": "sell|87|[Sell Price: 7 Motes, Sell Price: 7 Motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|88|[, Sell Price: 1,234 Motes, NPC Sell Price: 5 Motes, Rarity]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|89|[§7Sell Price: §d50 Motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|90|[§7Sell Price: §d50 Motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|91|[Motes Sell Price: 12.5 Motes (each), Sell Price: 1,234 Motes, Sell Price: 1,234 Motes, Sell Price: 7 Motes]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|92|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|93|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|94|[Sell Price: 1,234 Motes, Sell Price: 99 motes]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|95|[Sell Price: 7 Motes, , Sell Price: 99 motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|96|[, Motes Sell Price: 12.5 Motes (each)]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|97|[Sell Price: 7 Motes, Rarity, ]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|98|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|99|[§7Sell Price: §d50 Motes,   Sell Price: 1.2.3 Motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|100|[Sell Price: , Motes,   Sell Price: 1.2.3 Motes, Motes Sell Price: 12.5 Motes (each)]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|101|[, Rarity, §7Sell Price: §d50 Motes,   Sell Price: 1.2.3 Motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|102|[Sell Price: 1,234 Motes]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|103|[Motes Sell Price: 12.5 Motes (each), , Motes Sell Price: 12.5 Motes (each), Sell Price: , Motes]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|104|[  Sell Price: 1.2.3 Motes, Motes Sell Price: 12.5 Motes (each), Rarity, Sell Price: , Motes]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|105|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|106|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|107|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|108|[Sell Price: 99 motes, Sell Price: 99 motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|109|[Sell Price: 99 motes, Motes Sell Price: 12.5 Motes (each)]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|110|[Sell Price: 7 Motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|111|[Rarity]",
+      "out": "null"
+    },
+    {
+      "in": "sell|112|[Motes Sell Price: 12.5 Motes (each), Sell Price: 99 motes]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|113|[Sell Price: , Motes, Sell Price: 7 Motes, Motes Sell Price: 12.5 Motes (each)]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|114|[Motes Sell Price: 12.5 Motes (each), , ]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|115|[Rarity, Rarity]",
+      "out": "null"
+    },
+    {
+      "in": "sell|116|[NPC Sell Price: 5 Motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|117|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|118|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|119|[NPC Sell Price: 5 Motes, Sell Price: 99 motes, Sell Price: 99 motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|120|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|121|[Sell Price: 1,234 Motes]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|122|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|123|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|124|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|125|[NPC Sell Price: 5 Motes, Sell Price: 99 motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|126|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|127|[§7Sell Price: §d50 Motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|128|[Rarity, Sell Price: 99 motes, Sell Price: 1,234 Motes]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|129|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|130|[Motes Sell Price: 12.5 Motes (each),   Sell Price: 1.2.3 Motes, NPC Sell Price: 5 Motes, NPC Sell Price: 5 Motes]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|131|[§7Sell Price: §d50 Motes, , §7Sell Price: §d50 Motes, Rarity]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|132|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|133|[, Sell Price: , Motes, Sell Price: , Motes, Sell Price: 7 Motes]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|134|[NPC Sell Price: 5 Motes, Sell Price: 99 motes, Sell Price: 1,234 Motes]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|135|[, §7Sell Price: §d50 Motes, Sell Price: , Motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|136|[  Sell Price: 1.2.3 Motes,   Sell Price: 1.2.3 Motes,   Sell Price: 1.2.3 Motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|137|[§7Sell Price: §d50 Motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|138|[NPC Sell Price: 5 Motes]",
+      "out": "null"
+    },
+    {
+      "in": "sell|139|[§7Sell Price: §d50 Motes, Motes Sell Price: 12.5 Motes (each), Rarity]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|140|[Sell Price: , Motes, §7Sell Price: §d50 Motes, Sell Price: 7 Motes, Sell Price: 7 Motes]",
+      "out": "50.0"
+    },
+    {
+      "in": "sell|141|[Sell Price: 99 motes, Motes Sell Price: 12.5 Motes (each), Motes Sell Price: 12.5 Motes (each)]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|142|[Sell Price: 99 motes, , Motes Sell Price: 12.5 Motes (each)]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|143|[Sell Price: 99 motes, Sell Price: 7 Motes, §7Sell Price: §d50 Motes, Rarity]",
+      "out": "7.0"
+    },
+    {
+      "in": "sell|144|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|145|[Motes Sell Price: 12.5 Motes (each), Rarity, Motes Sell Price: 12.5 Motes (each)]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|146|[Sell Price: 1,234 Motes, §7Sell Price: §d50 Motes, Sell Price: , Motes, §7Sell Price: §d50 Motes]",
+      "out": "1234.0"
+    },
+    {
+      "in": "sell|147|[Rarity, Motes Sell Price: 12.5 Motes (each)]",
+      "out": "12.5"
+    },
+    {
+      "in": "sell|148|[]",
+      "out": "null"
+    },
+    {
+      "in": "sell|149|[Sell Price: 1,234 Motes, , Sell Price: 7 Motes]",
+      "out": "1234.0"
+    },
+    {
+      "in": "motes|0|[Motes: ,, Purse: 5, Motes: 12 (+3), Time left: 12m 3s]",
+      "out": "12"
+    },
+    {
+      "in": "motes|1|[Motes: ,]",
+      "out": "null"
+    },
+    {
+      "in": "motes|2|[motes: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|3|[Motes: 5, Motes: 5, ]",
+      "out": "5"
+    },
+    {
+      "in": "motes|4|[ Motes: 99999999999999999999, ф Left: 45s, , Purse: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|5|[ф Left: 45s, ф Left: 45s, Purse: 5, Motes: ,]",
+      "out": "null"
+    },
+    {
+      "in": "motes|6|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|7|[ Motes: 99999999999999999999]",
+      "out": "null"
+    },
+    {
+      "in": "motes|8|[motes: 5, Motes: 12 (+3)]",
+      "out": "12"
+    },
+    {
+      "in": "motes|9|[Motes: 5, Motes: 1,234, ф Left: 45s, ф Left: 45s]",
+      "out": "5"
+    },
+    {
+      "in": "motes|10|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|11|[motes: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|12|[Motes: 5, ,  Motes: 99999999999999999999]",
+      "out": "5"
+    },
+    {
+      "in": "motes|13|[motes: 5, Motes: 5, , motes: 5]",
+      "out": "5"
+    },
+    {
+      "in": "motes|14|[, ф Left: 45s, Time left: 12m 3s, ф Left: 45s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|15|[Motes: 5]",
+      "out": "5"
+    },
+    {
+      "in": "motes|16|[Purse: 5, motes: 5, Motes: 5]",
+      "out": "5"
+    },
+    {
+      "in": "motes|17|[Motes: 1,234, Motes: 5]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|18|[Purse: 5, Motes: 5, Time left: 12m 3s, Motes: 12 (+3)]",
+      "out": "5"
+    },
+    {
+      "in": "motes|19|[ф Left: 45s,  Motes: 99999999999999999999, ф Left: 45s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|20|[Time left: 12m 3s, ]",
+      "out": "null"
+    },
+    {
+      "in": "motes|21|[ Motes: 99999999999999999999, Motes: 12 (+3), Motes: 1,234]",
+      "out": "12"
+    },
+    {
+      "in": "motes|22|[Motes: 12 (+3), Motes: 12 (+3)]",
+      "out": "12"
+    },
+    {
+      "in": "motes|23|[Motes: ,, Motes: 12 (+3), Motes: ,, Motes: 12 (+3)]",
+      "out": "12"
+    },
+    {
+      "in": "motes|24|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|25|[, ]",
+      "out": "null"
+    },
+    {
+      "in": "motes|26|[Purse: 5, Motes: ,,  Motes: 99999999999999999999]",
+      "out": "null"
+    },
+    {
+      "in": "motes|27|[Purse: 5, Time left: 12m 3s,  Motes: 99999999999999999999, ]",
+      "out": "null"
+    },
+    {
+      "in": "motes|28|[ Motes: 99999999999999999999, ф Left: 45s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|29|[Motes: 1,234, Motes: 12 (+3), motes: 5]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|30|[Time left: 12m 3s, ф Left: 45s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|31|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|32|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|33|[Purse: 5, ф Left: 45s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|34|[ф Left: 45s, Time left: 12m 3s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|35|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|36|[, Purse: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|37|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|38|[motes: 5,  Motes: 99999999999999999999, Motes: 5, Time left: 12m 3s]",
+      "out": "5"
+    },
+    {
+      "in": "motes|39|[, Motes: 12 (+3), Motes: 1,234,  Motes: 99999999999999999999]",
+      "out": "12"
+    },
+    {
+      "in": "motes|40|[Motes: 5, motes: 5, ]",
+      "out": "5"
+    },
+    {
+      "in": "motes|41|[, Motes: 1,234]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|42|[Motes: 5, Motes: ,, motes: 5]",
+      "out": "5"
+    },
+    {
+      "in": "motes|43|[Motes: 5, Motes: 5]",
+      "out": "5"
+    },
+    {
+      "in": "motes|44|[ Motes: 99999999999999999999]",
+      "out": "null"
+    },
+    {
+      "in": "motes|45|[Purse: 5, Motes: ,]",
+      "out": "null"
+    },
+    {
+      "in": "motes|46|[Motes: ,,  Motes: 99999999999999999999, , Motes: 1,234]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|47|[Time left: 12m 3s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|48|[Time left: 12m 3s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|49|[Motes: ,,  Motes: 99999999999999999999, Motes: ,, Purse: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|50|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|51|[ Motes: 99999999999999999999]",
+      "out": "null"
+    },
+    {
+      "in": "motes|52|[Motes: 5,  Motes: 99999999999999999999]",
+      "out": "5"
+    },
+    {
+      "in": "motes|53|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|54|[Motes: 12 (+3), ф Left: 45s, ]",
+      "out": "12"
+    },
+    {
+      "in": "motes|55|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|56|[, Motes: ,, Motes: 1,234]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|57|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|58|[motes: 5, Motes: 1,234, Time left: 12m 3s, Motes: 12 (+3)]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|59|[Purse: 5, ]",
+      "out": "null"
+    },
+    {
+      "in": "motes|60|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|61|[ф Left: 45s, , Purse: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|62|[Time left: 12m 3s, Purse: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|63|[Purse: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|64|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|65|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|66|[ Motes: 99999999999999999999,  Motes: 99999999999999999999, Motes: 12 (+3)]",
+      "out": "12"
+    },
+    {
+      "in": "motes|67|[Motes: 1,234]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|68|[Motes: ,, Purse: 5, Time left: 12m 3s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|69|[Purse: 5, Motes: 12 (+3)]",
+      "out": "12"
+    },
+    {
+      "in": "motes|70|[motes: 5, ф Left: 45s, Motes: 5, Motes: ,]",
+      "out": "5"
+    },
+    {
+      "in": "motes|71|[Motes: 1,234]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|72|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|73|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|74|[motes: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|75|[Motes: 1,234, Time left: 12m 3s, Motes: 5, Motes: ,]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|76|[Motes: ,]",
+      "out": "null"
+    },
+    {
+      "in": "motes|77|[Motes: ,, ]",
+      "out": "null"
+    },
+    {
+      "in": "motes|78|[Motes: 12 (+3), Motes: ,, Motes: 1,234]",
+      "out": "12"
+    },
+    {
+      "in": "motes|79|[, Motes: 1,234, Motes: ,, Motes: ,]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|80|[Purse: 5, motes: 5, Purse: 5, Time left: 12m 3s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|81|[Purse: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|82|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|83|[Motes: 12 (+3)]",
+      "out": "12"
+    },
+    {
+      "in": "motes|84|[ Motes: 99999999999999999999, Time left: 12m 3s,  Motes: 99999999999999999999, ф Left: 45s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|85|[Motes: ,,  Motes: 99999999999999999999]",
+      "out": "null"
+    },
+    {
+      "in": "motes|86|[ Motes: 99999999999999999999, Purse: 5, motes: 5, ф Left: 45s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|87|[Motes: ,]",
+      "out": "null"
+    },
+    {
+      "in": "motes|88|[Motes: 12 (+3), Motes: 12 (+3), motes: 5, motes: 5]",
+      "out": "12"
+    },
+    {
+      "in": "motes|89|[Motes: 5, Purse: 5]",
+      "out": "5"
+    },
+    {
+      "in": "motes|90|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|91|[Motes: 1,234, Time left: 12m 3s, motes: 5, Motes: 12 (+3)]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|92|[Motes: 5, Purse: 5, ]",
+      "out": "5"
+    },
+    {
+      "in": "motes|93|[ф Left: 45s, motes: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|94|[Motes: 5, Motes: 5]",
+      "out": "5"
+    },
+    {
+      "in": "motes|95|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|96|[, motes: 5, motes: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|97|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|98|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|99|[ Motes: 99999999999999999999, Motes: 1,234, Motes: 1,234]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|100|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|101|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|102|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|103|[Motes: 12 (+3), Time left: 12m 3s, Purse: 5]",
+      "out": "12"
+    },
+    {
+      "in": "motes|104|[, motes: 5, Motes: 12 (+3), Motes: 12 (+3)]",
+      "out": "12"
+    },
+    {
+      "in": "motes|105|[Motes: 1,234, Purse: 5, Motes: 5]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|106|[Purse: 5,  Motes: 99999999999999999999,  Motes: 99999999999999999999]",
+      "out": "null"
+    },
+    {
+      "in": "motes|107|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|108|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|109|[Time left: 12m 3s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|110|[Motes: ,]",
+      "out": "null"
+    },
+    {
+      "in": "motes|111|[Motes: 1,234, Motes: 5, Motes: 12 (+3), Purse: 5]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|112|[Purse: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|113|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|114|[, Purse: 5, Motes: ,, ]",
+      "out": "null"
+    },
+    {
+      "in": "motes|115|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|116|[Motes: 1,234]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|117|[motes: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|118|[Motes: 12 (+3), , motes: 5]",
+      "out": "12"
+    },
+    {
+      "in": "motes|119|[Motes: 5]",
+      "out": "5"
+    },
+    {
+      "in": "motes|120|[motes: 5,  Motes: 99999999999999999999, Time left: 12m 3s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|121|[, Time left: 12m 3s, Time left: 12m 3s, Motes: 1,234]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|122|[Motes: 1,234]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|123|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|124|[Motes: 1,234, Time left: 12m 3s, Motes: 12 (+3), Motes: 12 (+3)]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|125|[Motes: 5, ]",
+      "out": "5"
+    },
+    {
+      "in": "motes|126|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|127|[ Motes: 99999999999999999999, Purse: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|128|[ф Left: 45s, Motes: 5, Purse: 5, motes: 5]",
+      "out": "5"
+    },
+    {
+      "in": "motes|129|[ Motes: 99999999999999999999, Motes: 1,234, Time left: 12m 3s, Purse: 5]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|130|[Motes: 1,234, Motes: 1,234, Motes: 1,234, Purse: 5]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|131|[Motes: ,]",
+      "out": "null"
+    },
+    {
+      "in": "motes|132|[Motes: 5]",
+      "out": "5"
+    },
+    {
+      "in": "motes|133|[Time left: 12m 3s, Purse: 5,  Motes: 99999999999999999999]",
+      "out": "null"
+    },
+    {
+      "in": "motes|134|[Purse: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|135|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|136|[Motes: 12 (+3)]",
+      "out": "12"
+    },
+    {
+      "in": "motes|137|[Purse: 5, Motes: ,]",
+      "out": "null"
+    },
+    {
+      "in": "motes|138|[, Motes: 5, Motes: ,]",
+      "out": "5"
+    },
+    {
+      "in": "motes|139|[motes: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|140|[Purse: 5, Time left: 12m 3s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|141|[motes: 5, motes: 5,  Motes: 99999999999999999999, ф Left: 45s]",
+      "out": "null"
+    },
+    {
+      "in": "motes|142|[ф Left: 45s, motes: 5, Purse: 5]",
+      "out": "null"
+    },
+    {
+      "in": "motes|143|[Time left: 12m 3s, Motes: 1,234]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|144|[Motes: ,, Motes: 12 (+3), Motes: 12 (+3), Motes: 1,234]",
+      "out": "12"
+    },
+    {
+      "in": "motes|145|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|146|[Time left: 12m 3s,  Motes: 99999999999999999999, Motes: 1,234, Motes: 5]",
+      "out": "1234"
+    },
+    {
+      "in": "motes|147|[]",
+      "out": "null"
+    },
+    {
+      "in": "motes|148|[Motes: 12 (+3),  Motes: 99999999999999999999,  Motes: 99999999999999999999, Motes: 1,234]",
+      "out": "12"
+    },
+    {
+      "in": "motes|149|[motes: 5, Purse: 5, ]",
+      "out": "null"
+    },
+    {
+      "in": "time|",
+      "out": "null"
+    },
+    {
+      "in": "time|12m 3s",
+      "out": "723"
+    },
+    {
+      "in": "time|45s",
+      "out": "45"
+    },
+    {
+      "in": "time|1h",
+      "out": "3600"
+    },
+    {
+      "in": "time|1h2m3s",
+      "out": "3723"
+    },
+    {
+      "in": "time|3x",
+      "out": "null"
+    },
+    {
+      "in": "time|0s",
+      "out": "0"
+    },
+    {
+      "in": "time|99999999999s",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "time|2147483647s 1s",
+      "out": "-2147483648"
+    },
+    {
+      "in": "time|5d 4h",
+      "out": "14400"
+    },
+    {
+      "in": "time|m s h",
+      "out": "null"
+    },
+    {
+      "in": "time|12 m",
+      "out": "null"
+    },
+    {
+      "in": "time|-5s",
+      "out": "5"
+    },
+    {
+      "in": "time|10ms",
+      "out": "600"
+    },
+    {
+      "in": "time|1h 1h",
+      "out": "7200"
+    },
+    {
+      "in": "num|1,234",
+      "out": "1234.0"
+    },
+    {
+      "in": "num|1.5",
+      "out": "1.5"
+    },
+    {
+      "in": "num|",
+      "out": "null"
+    },
+    {
+      "in": "num|,",
+      "out": "null"
+    },
+    {
+      "in": "num|1e5",
+      "out": "100000.0"
+    },
+    {
+      "in": "num|NaN",
+      "out": "NaN"
+    },
+    {
+      "in": "num|Infinity",
+      "out": "Infinity"
+    },
+    {
+      "in": "num|1,2,3.4",
+      "out": "123.4"
+    },
+    {
+      "in": "num|-1",
+      "out": "-1.0"
+    },
+    {
+      "in": "num|0x10",
+      "out": "null"
+    }
+  ]
+}

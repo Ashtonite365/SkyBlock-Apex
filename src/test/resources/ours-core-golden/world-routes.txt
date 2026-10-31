@@ -1,0 +1,493 @@
+teleporters 19
+tp hub->rift BlockPos{x=45, y=152, z=73} hub rift
+tp hub->foraging_1 BlockPos{x=-221, y=75, z=-15} hub foraging_1
+tp foraging_1->hub BlockPos{x=-275, y=84, z=-14} foraging_1 hub
+tp dungeon_hub->hub BlockPos{x=17, y=128, z=0} dungeon_hub hub
+tp hub->dungeon_hub BlockPos{x=-44, y=90, z=11} hub dungeon_hub
+tp mining_1->hub BlockPos{x=-4, y=76, z=-272} mining_1 hub
+tp hub->mining_1 BlockPos{x=-9, y=68, z=-228} hub mining_1
+tp mining_2->mining_1 BlockPos{x=-4, y=159, z=85} mining_2 mining_1
+tp mining_1->mining_2 BlockPos{x=-8, y=70, z=-393} mining_1 mining_2
+tp farming_1->hub BlockPos{x=113, y=73, z=-207} farming_1 hub
+tp hub->farming_1 BlockPos{x=76, y=74, z=-181} hub farming_1
+tp combat_1->hub BlockPos{x=-198, y=85, z=-229} combat_1 hub
+tp hub->combat_1 BlockPos{x=-159, y=75, z=-158} hub combat_1
+tp crimson_isle->combat_1 BlockPos{x=-361, y=82, z=-425} crimson_isle combat_1
+tp combat_1->crimson_isle BlockPos{x=-355, y=89, z=-347} combat_1 crimson_isle
+tp combat_3->combat_1 BlockPos{x=-503, y=103, z=-275} combat_3 combat_1
+tp combat_1->combat_3 BlockPos{x=-378, y=121, z=-261} combat_1 combat_3
+tp mining_3->mining_2 BlockPos{x=-78, y=202, z=-124} mining_3 mining_2
+tp mining_2->mining_3 BlockPos{x=43, y=152, z=15} mining_2 mining_3
+route combat_1->combat_1 null
+route combat_1->combat_3 [combat_1>combat_3]
+route combat_1->crimson_isle [combat_1>crimson_isle]
+route combat_1->dungeon_hub [combat_1>hub, hub>dungeon_hub]
+route combat_1->farming_1 [combat_1>hub, hub>farming_1]
+route combat_1->foraging_1 [combat_1>hub, hub>foraging_1]
+route combat_1->hub [combat_1>hub]
+route combat_1->mining_1 [combat_1>hub, hub>mining_1]
+route combat_1->mining_2 [combat_1>hub, hub>mining_1, mining_1>mining_2]
+route combat_1->mining_3 [combat_1>hub, hub>mining_1, mining_1>mining_2, mining_2>mining_3]
+route combat_1->rift [combat_1>hub, hub>rift]
+route combat_3->combat_1 [combat_3>combat_1]
+route combat_3->combat_3 null
+route combat_3->crimson_isle [combat_3>combat_1, combat_1>crimson_isle]
+route combat_3->dungeon_hub [combat_3>combat_1, combat_1>hub, hub>dungeon_hub]
+route combat_3->farming_1 [combat_3>combat_1, combat_1>hub, hub>farming_1]
+route combat_3->foraging_1 [combat_3>combat_1, combat_1>hub, hub>foraging_1]
+route combat_3->hub [combat_3>combat_1, combat_1>hub]
+route combat_3->mining_1 [combat_3>combat_1, combat_1>hub, hub>mining_1]
+route combat_3->mining_2 [combat_3>combat_1, combat_1>hub, hub>mining_1, mining_1>mining_2]
+route combat_3->mining_3 [combat_3>combat_1, combat_1>hub, hub>mining_1, mining_1>mining_2, mining_2>mining_3]
+route combat_3->rift [combat_3>combat_1, combat_1>hub, hub>rift]
+route crimson_isle->combat_1 [crimson_isle>combat_1]
+route crimson_isle->combat_3 [crimson_isle>combat_1, combat_1>combat_3]
+route crimson_isle->crimson_isle null
+route crimson_isle->dungeon_hub [crimson_isle>combat_1, combat_1>hub, hub>dungeon_hub]
+route crimson_isle->farming_1 [crimson_isle>combat_1, combat_1>hub, hub>farming_1]
+route crimson_isle->foraging_1 [crimson_isle>combat_1, combat_1>hub, hub>foraging_1]
+route crimson_isle->hub [crimson_isle>combat_1, combat_1>hub]
+route crimson_isle->mining_1 [crimson_isle>combat_1, combat_1>hub, hub>mining_1]
+route crimson_isle->mining_2 [crimson_isle>combat_1, combat_1>hub, hub>mining_1, mining_1>mining_2]
+route crimson_isle->mining_3 [crimson_isle>combat_1, combat_1>hub, hub>mining_1, mining_1>mining_2, mining_2>mining_3]
+route crimson_isle->rift [crimson_isle>combat_1, combat_1>hub, hub>rift]
+route dungeon_hub->combat_1 [dungeon_hub>hub, hub>combat_1]
+route dungeon_hub->combat_3 [dungeon_hub>hub, hub>combat_1, combat_1>combat_3]
+route dungeon_hub->crimson_isle [dungeon_hub>hub, hub>combat_1, combat_1>crimson_isle]
+route dungeon_hub->dungeon_hub null
+route dungeon_hub->farming_1 [dungeon_hub>hub, hub>farming_1]
+route dungeon_hub->foraging_1 [dungeon_hub>hub, hub>foraging_1]
+route dungeon_hub->hub [dungeon_hub>hub]
+route dungeon_hub->mining_1 [dungeon_hub>hub, hub>mining_1]
+route dungeon_hub->mining_2 [dungeon_hub>hub, hub>mining_1, mining_1>mining_2]
+route dungeon_hub->mining_3 [dungeon_hub>hub, hub>mining_1, mining_1>mining_2, mining_2>mining_3]
+route dungeon_hub->rift [dungeon_hub>hub, hub>rift]
+route farming_1->combat_1 [farming_1>hub, hub>combat_1]
+route farming_1->combat_3 [farming_1>hub, hub>combat_1, combat_1>combat_3]
+route farming_1->crimson_isle [farming_1>hub, hub>combat_1, combat_1>crimson_isle]
+route farming_1->dungeon_hub [farming_1>hub, hub>dungeon_hub]
+route farming_1->farming_1 null
+route farming_1->foraging_1 [farming_1>hub, hub>foraging_1]
+route farming_1->hub [farming_1>hub]
+route farming_1->mining_1 [farming_1>hub, hub>mining_1]
+route farming_1->mining_2 [farming_1>hub, hub>mining_1, mining_1>mining_2]
+route farming_1->mining_3 [farming_1>hub, hub>mining_1, mining_1>mining_2, mining_2>mining_3]
+route farming_1->rift [farming_1>hub, hub>rift]
+route foraging_1->combat_1 [foraging_1>hub, hub>combat_1]
+route foraging_1->combat_3 [foraging_1>hub, hub>combat_1, combat_1>combat_3]
+route foraging_1->crimson_isle [foraging_1>hub, hub>combat_1, combat_1>crimson_isle]
+route foraging_1->dungeon_hub [foraging_1>hub, hub>dungeon_hub]
+route foraging_1->farming_1 [foraging_1>hub, hub>farming_1]
+route foraging_1->foraging_1 null
+route foraging_1->hub [foraging_1>hub]
+route foraging_1->mining_1 [foraging_1>hub, hub>mining_1]
+route foraging_1->mining_2 [foraging_1>hub, hub>mining_1, mining_1>mining_2]
+route foraging_1->mining_3 [foraging_1>hub, hub>mining_1, mining_1>mining_2, mining_2>mining_3]
+route foraging_1->rift [foraging_1>hub, hub>rift]
+route hub->combat_1 [hub>combat_1]
+route hub->combat_3 [hub>combat_1, combat_1>combat_3]
+route hub->crimson_isle [hub>combat_1, combat_1>crimson_isle]
+route hub->dungeon_hub [hub>dungeon_hub]
+route hub->farming_1 [hub>farming_1]
+route hub->foraging_1 [hub>foraging_1]
+route hub->hub null
+route hub->mining_1 [hub>mining_1]
+route hub->mining_2 [hub>mining_1, mining_1>mining_2]
+route hub->mining_3 [hub>mining_1, mining_1>mining_2, mining_2>mining_3]
+route hub->rift [hub>rift]
+route mining_1->combat_1 [mining_1>hub, hub>combat_1]
+route mining_1->combat_3 [mining_1>hub, hub>combat_1, combat_1>combat_3]
+route mining_1->crimson_isle [mining_1>hub, hub>combat_1, combat_1>crimson_isle]
+route mining_1->dungeon_hub [mining_1>hub, hub>dungeon_hub]
+route mining_1->farming_1 [mining_1>hub, hub>farming_1]
+route mining_1->foraging_1 [mining_1>hub, hub>foraging_1]
+route mining_1->hub [mining_1>hub]
+route mining_1->mining_1 null
+route mining_1->mining_2 [mining_1>mining_2]
+route mining_1->mining_3 [mining_1>mining_2, mining_2>mining_3]
+route mining_1->rift [mining_1>hub, hub>rift]
+route mining_2->combat_1 [mining_2>mining_1, mining_1>hub, hub>combat_1]
+route mining_2->combat_3 [mining_2>mining_1, mining_1>hub, hub>combat_1, combat_1>combat_3]
+route mining_2->crimson_isle [mining_2>mining_1, mining_1>hub, hub>combat_1, combat_1>crimson_isle]
+route mining_2->dungeon_hub [mining_2>mining_1, mining_1>hub, hub>dungeon_hub]
+route mining_2->farming_1 [mining_2>mining_1, mining_1>hub, hub>farming_1]
+route mining_2->foraging_1 [mining_2>mining_1, mining_1>hub, hub>foraging_1]
+route mining_2->hub [mining_2>mining_1, mining_1>hub]
+route mining_2->mining_1 [mining_2>mining_1]
+route mining_2->mining_2 null
+route mining_2->mining_3 [mining_2>mining_3]
+route mining_2->rift [mining_2>mining_1, mining_1>hub, hub>rift]
+route mining_3->combat_1 [mining_3>mining_2, mining_2>mining_1, mining_1>hub, hub>combat_1]
+route mining_3->combat_3 [mining_3>mining_2, mining_2>mining_1, mining_1>hub, hub>combat_1, combat_1>combat_3]
+route mining_3->crimson_isle [mining_3>mining_2, mining_2>mining_1, mining_1>hub, hub>combat_1, combat_1>crimson_isle]
+route mining_3->dungeon_hub [mining_3>mining_2, mining_2>mining_1, mining_1>hub, hub>dungeon_hub]
+route mining_3->farming_1 [mining_3>mining_2, mining_2>mining_1, mining_1>hub, hub>farming_1]
+route mining_3->foraging_1 [mining_3>mining_2, mining_2>mining_1, mining_1>hub, hub>foraging_1]
+route mining_3->hub [mining_3>mining_2, mining_2>mining_1, mining_1>hub]
+route mining_3->mining_1 [mining_3>mining_2, mining_2>mining_1]
+route mining_3->mining_2 [mining_3>mining_2]
+route mining_3->mining_3 null
+route mining_3->rift [mining_3>mining_2, mining_2>mining_1, mining_1>hub, hub>rift]
+route rift->combat_1 null
+route rift->combat_3 null
+route rift->crimson_isle null
+route rift->dungeon_hub null
+route rift->farming_1 null
+route rift->foraging_1 null
+route rift->hub null
+route rift->mining_1 null
+route rift->mining_2 null
+route rift->mining_3 null
+route rift->rift null
+override BlockPos{x=45, y=152, z=73} null
+npc ADVENTURER_NPC §9Adventurer (NPC) BlockPos{x=-42, y=72, z=-65} hub
+npc ADVENTURER_SAUL_NPC §9Adventurer Saul (NPC) BlockPos{x=-52, y=120, z=-9} dungeon_hub
+npc ALABASTER_RIFT_NPC §dAlabaster (Rift NPC) BlockPos{x=-130, y=74, z=167} rift
+npc ALATAR_RIFT_NPC §dAlatar (Rift NPC) BlockPos{x=-47, y=117, z=70} rift
+npc ALCHEMAGE_NPC §9Alchemage (NPC) BlockPos{x=-86, y=119, z=-771} crimson_isle
+npc ALCHEMIST_NPC §9Alchemist (NPC) BlockPos{x=41, y=72, z=-64} hub
+npc ALCHEMIST_RIFT_NPC §dAlchemist (Rift NPC) BlockPos{x=-49, y=70, z=-64} rift
+npc ALWIN_NPC §9Alwin (NPC) BlockPos{x=-82, y=93, z=-734} crimson_isle
+npc AMEILA_NPC §9Amelia (NPC) BlockPos{x=-45, y=87, z=-5} hub
+npc ANDREW_NPC §9Andrew (NPC) BlockPos{x=38, y=69, z=-47} hub
+npc ANITA_NPC §9Anita (NPC) BlockPos{x=22, y=79, z=-70} hub
+npc AN_NPC §9An (NPC) BlockPos{x=-622, y=110, z=-742} crimson_isle
+npc ARANYA_NPC §9Aranya (NPC) BlockPos{x=-323, y=153, z=-1008} crimson_isle
+npc ARBADAK_NPC §9Arbadak (NPC) BlockPos{x=0, y=94, z=-824} crimson_isle
+npc ARBA_NPC §9Arba (NPC) BlockPos{x=-3, y=94, z=-820} crimson_isle
+npc ARCHAEOLOGIST_NPC §9Archaeologist (NPC) BlockPos{x=-360, y=112, z=-290} combat_1
+npc ARCH_NPC §9Arch (NPC) BlockPos{x=-360, y=190, z=-552} crimson_isle
+npc ARGOFAY_BUGHUNTER_RIFT_NPC §dArgofay Bughunter (Rift NPC) BlockPos{x=-85, y=109, z=97} rift
+npc ARGOFAY_BUGSHOPPER_RIFT_NPC §dArgofay Bugshopper (Rift NPC) BlockPos{x=-95, y=111, z=95} rift
+npc ARGOFAY_SERIALBATHER_RIFT_NPC §dArgofay Serialbather (Rift NPC) BlockPos{x=-137, y=120, z=116} rift
+npc ARGOFAY_SONFATHER_RIFT_NPC §dArgofay Sonfather (Rift NPC) BlockPos{x=-96, y=101, z=156} rift
+npc ARGOFAY_TENCOUNTER_RIFT_NPC §dArgofay Tencounter (Rift NPC) BlockPos{x=-93, y=100, z=95} rift
+npc ARGOFAY_THREEBROTHER_1_RIFT_NPC §dArgofay Threebrother 1 (Rift NPC) BlockPos{x=-93, y=77, z=109} rift
+npc ARGOFAY_THREEBROTHER_2_RIFT_NPC §dArgofay Threebrother 2 (Rift NPC) BlockPos{x=-98, y=77, z=154} rift
+npc ARGOFAY_THREEBROTHER_3_RIFT_NPC §dArgofay Threebrother 3 (Rift NPC) BlockPos{x=-136, y=76, z=113} rift
+npc ARGOFAY_TRAFFICKER_1_RIFT_NPC §dArgofay Trafficker 1 (Rift NPC) BlockPos{x=-92, y=90, z=106} rift
+npc ARGOFAY_TRAFFICKER_2_RIFT_NPC §dArgofay Trafficker 2 (Rift NPC) BlockPos{x=-136, y=89, z=114} rift
+npc ARGOFAY_TRAFFICKER_3_RIFT_NPC §dArgofay Trafficker 3 (Rift NPC) BlockPos{x=-138, y=98, z=113} rift
+npc ARGOFAY_TRAFFICKER_4_RIFT_NPC §dArgofay Trafficker 4 (Rift NPC) BlockPos{x=-151, y=113, z=115} rift
+npc ARGOFAY_TRAILBLAZER_RIFT_NPC §dArgofay Trailblazer (Rift NPC) BlockPos{x=-97, y=67, z=148} rift
+npc ARORA_RIFT_NPC §dArora (Rift NPC) BlockPos{x=-129, y=74, z=169} rift
+npc ARTHUR_NPC §9Arthur (NPC) BlockPos{x=52, y=72, z=-136} hub
+npc ASHERA_RIFT_NPC §dAshera (Rift NPC) BlockPos{x=-131, y=74, z=170} rift
+npc AVIAR_NPC §9Aviar (NPC) BlockPos{x=-360, y=118, z=-971} crimson_isle
+npc AVORIUS_NPC §9Avorius (NPC) BlockPos{x=-152, y=129, z=-809} crimson_isle
+npc BAKER_NPC §9Baker (NPC) BlockPos{x=-6, y=71, z=-47} hub
+npc BANKER_BROADJAW_NPC §9Banker Broadjaw (NPC) BlockPos{x=14, y=202, z=-148} mining_3
+npc BARBARIAN_EMISSARY_NPC §9Barbarian Emissary (NPC) BlockPos{x=-581, y=101, z=-711} crimson_isle
+npc BARRY_RIFT_NPC §dBarry (Rift NPC) BlockPos{x=-45, y=55, z=-142} rift
+npc BARTENDER_NPC §9Bartender (NPC) BlockPos{x=-74, y=73, z=-56} hub
+npc BEA_NPC §9Bea (NPC) BlockPos{x=31, y=72, z=-94} hub
+npc BEDNOM_NPC §9Bednom (NPC) BlockPos{x=-30, y=215, z=-89} mining_3
+npc BETH_NPC §9Beth (NPC) BlockPos{x=164, y=78, z=-359} farming_1
+npc BIBLIO_NPC §9Biblio (NPC) BlockPos{x=14, y=73, z=-107} hub
+npc BILLY_JOE_NPC §9Billy Joe (NPC) BlockPos{x=-78, y=71, z=-70} hub
+npc BLACKSMITH_NPC §9Blacksmith (NPC) BlockPos{x=-29, y=70, z=-126} hub
+npc BLACKSMITH_RIFT_NPC §dBlacksmith (Rift NPC) BlockPos{x=-2, y=69, z=-142} rift
+npc BLADESOUL_MINIBOSS §5Bladesoul (Miniboss) BlockPos{x=-296, y=83, z=-517} crimson_isle
+npc BOBBY_JOE_NPC §9Bobby Joe (NPC) BlockPos{x=63, y=72, z=-115} hub
+npc BRAMASS_BEASTSLAYER_NPC §9Bramass Beastslayer (NPC) BlockPos{x=-271, y=114, z=-196} combat_1
+npc BRUUH_NPC §9Bruuh (NPC) BlockPos{x=-635, y=125, z=-688} crimson_isle
+npc BRYNMOR_NPC §9Brynmor (NPC) BlockPos{x=32, y=203, z=-154} mining_3
+npc BUBU_NPC §9Bubu (NPC) BlockPos{x=-10, y=203, z=-103} mining_3
+npc BUILDER_NPC §9Builder (NPC) BlockPos{x=-51, y=72, z=-27} hub
+npc BULVAR_NPC §9Bulvar (NPC) BlockPos{x=-16, y=203, z=-99} mining_3
+npc BYLMA_NPC §9Bylma (NPC) BlockPos{x=-9, y=129, z=59} mining_3
+npc CARNIVAL_COWBOY_NPC §9Carnival Cowboy (NPC) BlockPos{x=-103, y=71, z=9} hub
+npc CARNIVAL_FISHERMAN_NPC §9Carnival Fisherman (NPC) BlockPos{x=-81, y=73, z=0} hub
+npc CARNIVAL_LEADER_NPC §9Carnival Leader (NPC) BlockPos{x=-89, y=72, z=-18} hub
+npc CARNIVAL_PIRATEMAN_NPC §9Carnival Pirateman (NPC) BlockPos{x=-107, y=74, z=-2} hub
+npc CARPENTER_NPC §9Carpenter (NPC) BlockPos{x=16, y=73, z=-21} hub
+npc CARROLYN_NPC §9Carrolyn (NPC) BlockPos{x=1, y=104, z=-803} crimson_isle
+npc CHANTELLE_NPC §9Chantelle (NPC) BlockPos{x=-83, y=72, z=-18} hub
+npc CHARLIE_NPC §9Charlie (NPC) BlockPos{x=-286, y=83, z=-17} foraging_1
+npc CHEF_RIFT_NPC §dChef (Rift NPC) BlockPos{x=-103, y=73, z=-104} rift
+npc CHESTER_RIFT_NPC §dChester (Rift NPC) BlockPos{x=-131, y=74, z=173} rift
+npc CHIEF_SCORN_NPC §9Chief Scorn (NPC) BlockPos{x=-580, y=117, z=-687} crimson_isle
+npc CHIHAI_NPC §9Chihai (NPC) BlockPos{x=-604, y=108, z=-861} crimson_isle
+npc CHRISTOPHER_NPC §9Christopher (NPC) BlockPos{x=-59, y=90, z=-16} hub
+npc CLERK_SERAPHINE_NPC §9Clerk Seraphine (NPC) BlockPos{x=4, y=73, z=-105} hub
+npc COLD_ENJOYER_NPC §9Cold Enjoyer (NPC) BlockPos{x=-15, y=137, z=217} mining_3
+npc COLORE_NPC §9Colore (NPC) BlockPos{x=-131, y=90, z=-711} crimson_isle
+npc CORM_NPC §9Corm (NPC) BlockPos{x=-668, y=127, z=-924} crimson_isle
+npc COSMO_RIFT_NPC §dCosmo (Rift NPC) BlockPos{x=-66, y=71, z=-92} rift
+npc COWBOY_NICK_RIFT_NPC §dCowboy Nick (Rift NPC) BlockPos{x=-13, y=71, z=-7} rift
+npc CROESUS_NPC §9Croesus (NPC) BlockPos{x=-21, y=121, z=-13} dungeon_hub
+npc CRYPTOSIS_RIFT_NPC §dCryptosis (Rift NPC) BlockPos{x=27, y=72, z=-77} rift
+npc CURATOR_NPC §9Curator (NPC) BlockPos{x=-62, y=78, z=85} hub
+npc CYNDARIN_NPC §9Cyndarin (NPC) BlockPos{x=-204, y=113, z=-956} crimson_isle
+npc DACKINORU_RIFT_NPC §dDackinoru (Rift NPC) BlockPos{x=-118, y=74, z=173} rift
+npc DALBREK_NPC §9Dalbrek (NPC) BlockPos{x=191, y=217, z=154} mining_3
+npc DAMIA_NPC §9Damia (NPC) BlockPos{x=-29, y=58, z=-90} hub
+npc DAMIA_RIFT_NPC §dDamia (Rift NPC) BlockPos{x=31, y=73, z=-94} rift
+npc DEAN_NPC §9Dean (NPC) BlockPos{x=-16, y=124, z=-882} crimson_isle
+npc DESPERATE_ENGINEER_NPC §9Desperate Engineer (NPC) BlockPos{x=-290, y=129, z=-982} crimson_isle
+npc DETECTIVE_AMOG_RIFT_NPC §dDetective Amog (Rift NPC) BlockPos{x=-50, y=69, z=-37} rift
+npc DIRT_GUY_NPC §9Dirt Guy (NPC) BlockPos{x=43, y=109, z=175} mining_3
+npc DOUG_NPC §9Doug (NPC) BlockPos{x=-78, y=72, z=-7} hub
+npc DRAKUU_NPC §9Drakuu (NPC) BlockPos{x=-325, y=191, z=-1016} crimson_isle
+npc DR_HIBBLE_RIFT_NPC §dDr. Hibble (Rift NPC) BlockPos{x=-79, y=74, z=10} rift
+npc DR_PHEAR_RIFT_NPC §dDr. Phear (Rift NPC) BlockPos{x=-146, y=37, z=28} rift
+npc DR_STONE_NPC §9Dr. Stone (NPC) BlockPos{x=28, y=121, z=239} mining_3
+npc DUKE_NPC §9Duke (NPC) BlockPos{x=-7, y=71, z=-90} hub
+npc DULIN_NPC §9Dulin (NPC) BlockPos{x=16, y=129, z=207} mining_3
+npc DUSK_NPC §9Dusk (NPC) BlockPos{x=-37, y=69, z=-125} hub
+npc EDELIS_NPC §9Edelis (NPC) BlockPos{x=-61, y=108, z=-812} crimson_isle
+npc EINARY_NPC §9Einary (NPC) BlockPos{x=-16, y=77, z=64} winter
+npc ELECTION_WORKER_CREED_RIFT_NPC §dElection Worker Creed (Rift NPC) BlockPos{x=-52, y=55, z=-138} rift
+npc ELECTION_WORKER_DUST_RIFT_NPC §dElection Worker Dust (Rift NPC) BlockPos{x=-55, y=55, z=-139} rift
+npc ELECTION_WORKER_HARRIETTE_RIFT_NPC §dElection Worker Harriette (Rift NPC) BlockPos{x=-40, y=55, z=-139} rift
+npc ELECTION_WORKER_SOMA_RIFT_NPC §dElection Worker Soma (Rift NPC) BlockPos{x=-52, y=55, z=-141} rift
+npc ELECTION_WORKER_STAIN_RIFT_NPC §dElection Worker Stain (Rift NPC) BlockPos{x=-58, y=55, z=-147} rift
+npc ELECTRION_WORKER_FRANKIE_RIFT_NPC §dElectrion Worker Frankie (Rift NPC) BlockPos{x=-45, y=55, z=-147} rift
+npc ELECTRION_WORKER_VIOLETTA_RIFT_NPC §dElectrion Worker Violetta (Rift NPC) BlockPos{x=-52, y=55, z=-148} rift
+npc ELISE_NPC §9Elise (NPC) BlockPos{x=44, y=83, z=69} hub
+npc ELISE_RIFT_NPC §dElise (Rift NPC) BlockPos{x=-50, y=123, z=69} rift
+npc ELIZABETH_NPC §9Elizabeth (NPC) BlockPos{x=-4, y=73, z=-101} hub
+npc EMISSARY_CARLTON_NPC §9Emissary Carlton (NPC) BlockPos{x=-72, y=154, z=-10} mining_3
+npc EMISSARY_CEANNA_NPC §9Emissary Ceanna (NPC) BlockPos{x=43, y=136, z=23} mining_3
+npc EMISSARY_ELIZA_NPC §9Emissary Eliza (NPC) BlockPos{x=-37, y=201, z=-131} mining_3
+npc EMISSARY_FRAISER_NPC §9Emissary Fraiser (NPC) BlockPos{x=-132, y=175, z=-50} mining_3
+npc EMISSARY_LILITH_NPC §9Emissary Lilith (NPC) BlockPos{x=59, y=199, z=-8} mining_3
+npc EMISSARY_LISSANDRA_NPC §9Emissary Lissandra (NPC) BlockPos{x=3, y=122, z=238} mining_3
+npc EMISSARY_SISKO_NPC §9Emissary Sisko (NPC) BlockPos{x=496, y=107, z=557} crystal_hollows
+npc EMISSARY_WILSON_NPC §9Emissary Wilson (NPC) BlockPos{x=172, y=151, z=32} mining_3
+npc ERIHANN_NPC §9Erihann (NPC) BlockPos{x=40, y=101, z=70} hub
+npc EZEKIEL_NPC §9Ezekiel (NPC) BlockPos{x=-28, y=109, z=-771} crimson_isle
+npc FAFNIR_RIFT_NPC §dFafnir (Rift NPC) BlockPos{x=-128, y=74, z=173} rift
+npc FAIRYLOSOPHER_NPC §dFairylosopher (NPC) BlockPos{x=256, y=131, z=76} rift
+npc FANN_NPC §9Fann (NPC) BlockPos{x=39, y=71, z=-88} hub
+npc FARMER_JON_NPC §9Farmer Jon (NPC) BlockPos{x=168, y=92, z=-598} farming_1
+npc FARMER_NPC §9Farmer (NPC) BlockPos{x=45, y=73, z=-162} hub
+npc FARMHAND_NPC §9Farmhand (NPC) BlockPos{x=144, y=74, z=-241} farming_1
+npc FARM_MERCHANT_NPC §9Farm Merchant (NPC) BlockPos{x=16, y=72, z=-73} hub
+npc FEAR_MONGERER_NPC §9Fear Mongerer (NPC) BlockPos{x=-2, y=72, z=-43} hub
+npc FELIX_NPC §9Felix (NPC) BlockPos{x=-26, y=69, z=-104} hub
+npc FETCHUR_NPC §9Fetchur (NPC) BlockPos{x=84, y=225, z=-118} mining_3
+npc FINPLEX_RIFT_NPC §dFinplex (Rift NPC) BlockPos{x=-57, y=69, z=-82} rift
+npc FISHERMAN_NPC §9Fisherman (NPC) BlockPos{x=156, y=69, z=48} hub
+npc FISH_MERCHANT_NPC §9Fish Merchant (NPC) BlockPos{x=52, y=70, z=-83} hub
+npc FOSSIL_EXCAVATOR_NPC §9Fossil Excavotor (NPC) BlockPos{x=18, y=121, z=227} mining_3
+npc FRAGILIS_NPC §9Fragilis (NPC) BlockPos{x=88, y=200, z=-108} mining_3
+npc FRED_NPC §9Fred (NPC) BlockPos{x=-2, y=150, z=-68} mining_3
+npc FRIENDLY_HIKER_NPC §9Friendly Hiker (NPC) BlockPos{x=182, y=78, z=-381} farming_1
+npc FROSTY_NPC §9Frosty (NPC) BlockPos{x=-1, y=77, z=93} winter
+npc GARLACIUS_RIFT_NPC §dGarlacius (Rift NPC) BlockPos{x=-129, y=80, z=171} rift
+npc GARY_NPC §9Gary (NPC) BlockPos{x=54, y=104, z=57} winter
+npc GEMMA_NPC §9Gemma (NPC) BlockPos{x=476, y=107, z=514} crystal_hollows
+npc GEONATHAN_GREATFORGE_NPC §9Geonathan Greatforge (NPC) BlockPos{x=531, y=107, z=557} crystal_hollows
+npc GEORGE_NPC §9George (NPC) BlockPos{x=40, y=72, z=-100} hub
+npc GEO_NPC §9Geo (NPC) BlockPos{x=88, y=200, z=-115} mining_3
+npc GIMLEY_NPC §9Gimley (NPC) BlockPos{x=29, y=203, z=-149} mining_3
+npc GLACITE_BOWMAN_MONSTER §aGlacite Bowman (Monster) BlockPos{x=0, y=0, z=0} mineshaft
+npc GLACITE_CAVER_MONSTER §aGlacite Caver (Monster) BlockPos{x=0, y=0, z=0} mineshaft
+npc GLACITE_MAGE_MONSTER §aGlacite Mage (Monster) BlockPos{x=0, y=0, z=0} mineshaft
+npc GLACITE_MUTT_MONSTER §aGlacite Mutt (Monster) BlockPos{x=0, y=0, z=0} mineshaft
+npc GLADIATOR_NPC §9Gladiator (NPC) BlockPos{x=124, y=80, z=166} hub
+npc GNYL_NPC §9Gnyl (NPC) BlockPos{x=-376, y=118, z=-971} crimson_isle
+npc GOLD_FORGER_NPC §9Gold Forger (NPC) BlockPos{x=-28, y=76, z=-295} mining_1
+npc GRANDMA_WOLF_NPC §9Grandma Wolf (NPC) BlockPos{x=-281, y=123, z=-190} combat_1
+npc GREGORY_NPC §9Gregory (NPC) BlockPos{x=-608, y=23, z=-285} combat_3
+npc GRELIUS_NPC §9Grelius (NPC) BlockPos{x=-131, y=102, z=-753} crimson_isle
+npc GRIS_NPC §9Gris (NPC) BlockPos{x=-686, y=117, z=-832} crimson_isle
+npc GROG_NPC §9Grog (NPC) BlockPos{x=-664, y=109, z=-737} crimson_isle
+npc GUBER_NPC §9Guber (NPC) BlockPos{x=-494, y=122, z=-241} combat_3
+npc GULLIVER_NPC §9Gulliver (NPC) BlockPos{x=69, y=106, z=34} winter
+npc GUNTHER_RIFT_NPC §dGunther (Rift NPC) BlockPos{x=-69, y=72, z=-61} rift
+npc GUSTAVE_NPC §9Gustave (NPC) BlockPos{x=-385, y=90, z=56} foraging_1
+npc GUY_NPC §9Guy (NPC) BlockPos{x=52, y=80, z=-13} hub
+npc GWENDOLYN_NPC §9Gwendolyn (NPC) BlockPos{x=89, y=199, z=-98} mining_3
+npc HAYMITCH_NPC §9Haymitch (NPC) BlockPos{x=-202, y=84, z=-236} combat_1
+npc HENDRICK_NPC §9Hendrik (NPC) BlockPos{x=17, y=63, z=-30} winter
+npc HILDA_NPC §9Hilda (NPC) BlockPos{x=-47, y=109, z=-780} crimson_isle
+npc HOOTIE_NPC §9Hootie (NPC) BlockPos{x=38, y=71, z=-91} hub
+npc HOPPITY_NPC §9Hoppity (NPC) BlockPos{x=6, y=72, z=8} hub
+npc HORNUM_NPC §9Hornum (NPC) BlockPos{x=35, y=203, z=-146} mining_3
+npc HOUND_RIFT_NPC §dHound (Rift NPC) BlockPos{x=-70, y=67, z=148} rift
+npc HUB_SELECTOR_NPC §9Hub Selector (NPC) BlockPos{x=-10, y=71, z=-67} hub
+npc HUNGRY_HIKER_NPC §9Hungry Hiker (NPC) BlockPos{x=270, y=49, z=-480} farming_1
+npc HUNTER_AVA_NPC §9Hunter Ava (NPC) BlockPos{x=320, y=103, z=-470} farming_1
+npc IGRUPAN_NPC §9Igrupan (NPC) BlockPos{x=-31, y=94, z=-824} crimson_isle
+npc INVERTED_SIRIUS_RIFT_NPC §dInverted Sirius (Rift NPC) BlockPos{x=-96, y=76, z=191} rift
+npc IRON_FORGER_NPC §9Iron Forger (NPC) BlockPos{x=-2, y=77, z=-308} mining_1
+npc JACK_NPC §9Jack (NPC) BlockPos{x=-1, y=71, z=-55} hub
+npc JACOBUS_NPC §9Jacobus (NPC) BlockPos{x=52, y=70, z=-43} hub
+npc JACOB_NPC §9Jacob (NPC) BlockPos{x=23, y=72, z=-69} hub
+npc JACQUELLE_RIFT_NPC §dJacquelle (Rift NPC) BlockPos{x=-122, y=120, z=137} rift
+npc JAKE_NPC §9Jake (NPC) BlockPos{x=261, y=186, z=-566} farming_1
+npc JAMIE_NPC §9Jamie (NPC) BlockPos{x=-36, y=69, z=-39} hub
+npc JAX_NPC §9Jax (NPC) BlockPos{x=5, y=63, z=-134} hub
+npc JERRY_RIFT_NPC §dJerry (Rift NPC) BlockPos{x=-86, y=21, z=4} rift
+npc JIM_BOB_NPC §9Jim Bob (NPC) BlockPos{x=66, y=72, z=-61} hub
+npc JINE_NPC §9Jine (NPC) BlockPos{x=-545, y=120, z=-854} crimson_isle
+npc JOEY_MCPIZZA_RIFT_NPC §dJoey McPizza (Rift NPC) BlockPos{x=-105, y=73, z=-102} rift
+npc JOTRAELINE_GREATFORGE_NPC §9Jotraeline Greatforge (NPC) BlockPos{x=-6, y=146, z=-18} mining_3
+npc JOYFUL_VIKING_NPC §9Joyful Viking (NPC) BlockPos{x=-359, y=93, z=76} foraging_1
+npc KAT_NPC §9Kat (NPC) BlockPos{x=32, y=72, z=-101} hub
+npc KAT_RIFT_NPC §dKat (Rift NPC) BlockPos{x=-34, y=71, z=-90} rift
+npc KAUS_NPC §9Kaus (NPC) BlockPos{x=-596, y=114, z=-640} crimson_isle
+npc KAY_RIFT_NPC §dKay (Rift NPC) BlockPos{x=-191, y=69, z=59} rift
+npc KHEHARAD_NPC §9Kheharad (NPC) BlockPos{x=-111, y=100, z=-827} crimson_isle
+npc KREVIUS_NPC §9Krevius (NPC) BlockPos{x=-131, y=102, z=-755} crimson_isle
+npc KUUDRA_ARCHEOLOGIST_NPC §9Kuudra Archaeologist (NPC) BlockPos{x=-570, y=112, z=-642} crimson_isle
+npc KUUDRA_BELIEVER_NPC §9Kuudra Believer (NPC) BlockPos{x=-390, y=82, z=-701} crimson_isle
+npc KUUDRA_LOREMASTER_NPC §9Kuudra Loremaster (NPC) BlockPos{x=-106, y=127, z=-817} crimson_isle
+npc LAPIS_MINER_NPC §9Lapis Miner (NPC) BlockPos{x=-10, y=121, z=36} mining_2
+npc LASEA_NPC §9Lasea (NPC) BlockPos{x=-566, y=109, z=-657} crimson_isle
+npc LAZARUS_RIFT_NPC §dLazarus (Rift NPC) BlockPos{x=-128, y=80, z=166} rift
+npc LAZY_MINER_NPC §9Lazy Miner (NPC) BlockPos{x=-11, y=79, z=-337} mining_1
+npc LEO_NPC §9Leo (NPC) BlockPos{x=-8, y=71, z=-76} hub
+npc LIAM_NPC §9Liam (NPC) BlockPos{x=10, y=71, z=-42} hub
+npc LIBRARIAN_NPC §9Librarian (NPC) BlockPos{x=-35, y=71, z=-112} hub
+npc LIZ_NPC §9Liz (NPC) BlockPos{x=-55, y=73, z=-56} hub
+npc LONELY_PHILOSOPHER_NPC §9Lonely Philosopher (NPC) BlockPos{x=-251, y=132, z=41} hub
+npc LUCIUS_NPC §9Lucius (NPC) BlockPos{x=125, y=74, z=165} hub
+npc LUMBER_JACK_NPC §9Lumber Jack (NPC) BlockPos{x=-112, y=75, z=-36} hub
+npc LUMBER_MERCHANT_NPC §9Lumber Merchant (NPC) BlockPos{x=-50, y=72, z=-69} hub
+npc LUMINA_NPC §9Lumina (NPC) BlockPos{x=78, y=200, z=-110} mining_3
+npc LYNN_NPC §9Lynn (NPC) BlockPos{x=-22, y=69, z=-125} hub
+npc LYS_NPC §9Lys (NPC) BlockPos{x=-109, y=101, z=-804} crimson_isle
+npc MADAME_ELEANOR_Q_GOLDSWORTH_III_NPC §9Madame Eleanor Q. Goldsworth III (NPC) BlockPos{x=-49, y=78, z=77} hub
+npc MADDOX_THE_SLAYER_NPC §9Maddox the Slayer (NPC) BlockPos{x=-74, y=66, z=-50} hub
+npc MADDOX_THE_SLAYER_RIFT_NPC §dMaddox the Slayer (Rift NPC) BlockPos{x=205, y=78, z=45} rift
+npc MAD_REDSTONE_ENGINEER_NPC §9Mad Redstone Engineer (NPC) BlockPos{x=-51, y=67, z=-28} hub
+npc MAGE_EMISSARY_NPC §9Mage Emissary (NPC) BlockPos{x=-132, y=91, z=-723} crimson_isle
+npc MAGE_OUTLAW_MINIBOSS §5Mage Outlaw (Miniboss) BlockPos{x=-180, y=106, z=-859} crimson_isle
+npc MALIK_NPC §9Malik (NPC) BlockPos{x=-63, y=122, z=6} dungeon_hub
+npc MARCO_NPC §9Marco (NPC) BlockPos{x=-9, y=72, z=-14} hub
+npc MARIGOLD_NPC §9Marigold (NPC) BlockPos{x=182, y=151, z=61} mining_3
+npc MARTHOS_NPC §9Marthos (NPC) BlockPos{x=-645, y=103, z=-826} crimson_isle
+npc MASON_NPC §9Mason (NPC) BlockPos{x=178, y=78, z=-356} farming_1
+npc MASTER_TACTICIAN_FINK_RIFT_NPC §dMaster Tactician Fink (Rift NPC) BlockPos{x=-192, y=73, z=-57} rift
+npc MASTER_TACTICIAN_NPC §9Master Tactician (NPC) BlockPos{x=-463, y=112, z=-16} foraging_1
+npc MASTER_TAO_NPC §9Master Tao (NPC) BlockPos{x=-234, y=109, z=-602} crimson_isle
+npc MATHS_ENJOYER_NPC §9Maths Enjoyer (NPC) BlockPos{x=56, y=70, z=-40} hub
+npc MAXWELL_NPC §9Maxwell (NPC) BlockPos{x=47, y=70, z=-34} hub
+npc MAZAKALA_NPC §9Mazakala (NPC) BlockPos{x=-3, y=94, z=-825} crimson_isle
+npc MELODY_NPC §9Melody (NPC) BlockPos{x=-398, y=111, z=35} foraging_1
+npc MINE_MERCHANT_NPC §9Mine Merchant (NPC) BlockPos{x=-9, y=70, z=-125} hub
+npc MINIKLOON_NPC §9Minikloon (NPC) BlockPos{x=84, y=73, z=-117} hub
+npc MOBY_NPC §9Moby (NPC) BlockPos{x=206, y=44, z=-500} farming_1
+npc MOLE_RIFT_NPC §dMole (Rift NPC) BlockPos{x=-159, y=98, z=-75} rift
+npc MOLLIM_NPC §9Mollim (NPC) BlockPos{x=-132, y=101, z=-789} crimson_isle
+npc MOTES_GRUBBER_RIFT_NPC §dMotes Grubber (Rift NPC) BlockPos{x=-92, y=66, z=157} rift
+npc MUSHROOM_GUY_NPC §9Mushroom Guy (NPC) BlockPos{x=-178, y=76, z=13} rift
+npc NENE_RIFT_NPC §dNene (Rift NPC) BlockPos{x=24, y=90, z=-90} rift
+npc NICOLE_NPC §9Nicole (NPC) BlockPos{x=40, y=91, z=73} hub
+npc ODEXAR_NPC §9Odexar (NPC) BlockPos{x=-112, y=100, z=-844} crimson_isle
+npc ODGER_NPC §9Odger (NPC) BlockPos{x=-373, y=208, z=-810} crimson_isle
+npc OFFEA_NPC §9Offea (NPC) BlockPos{x=-87, y=94, z=-744} crimson_isle
+npc OLD_ELECTION_BOX_RIFT_NPC §dOld Election Box (Rift NPC) BlockPos{x=-68, y=57, z=-150} rift
+npc OLD_MAN_GARRY_NPC §9Old Man Garry (NPC) BlockPos{x=5, y=201, z=-109} mining_3
+npc OLD_SHAMAN_NYKO_NPC §9Old Shaman Nyko (NPC) BlockPos{x=-380, y=62, z=36} foraging_1
+npc OPHELIA_NPC §9Ophelia (NPC) BlockPos{x=-64, y=123, z=-7} dungeon_hub
+npc ORINGO_NPC §9Oringo (NPC) BlockPos{x=-5, y=72, z=-45} hub
+npc OZANNE_NPC §9Ozanne (NPC) BlockPos{x=42, y=71, z=-39} hub
+npc PABLO_NPC §9Pablo (NPC) BlockPos{x=-130, y=129, z=-815} crimson_isle
+npc PAM_NPC §9Pam (NPC) BlockPos{x=-637, y=108, z=-765} crimson_isle
+npc PAT_NPC §9Pat (NPC) BlockPos{x=-135, y=75, z=-98} hub
+npc PEARL_DEALER_NPC §9Pearl Dealer (NPC) BlockPos{x=-505, y=103, z=-285} combat_3
+npc PHASER_RIFT_NPC §dPhaser (Rift NPC) BlockPos{x=60, y=71, z=-88} rift
+npc PLUMBER_JOE_NPC §9Plumber Joe (NPC) BlockPos{x=56, y=72, z=-78} hub
+npc PLUMBER_JOE_RIFT_NPC §dPlumber Joe (Rift NPC) BlockPos{x=-63, y=70, z=-77} rift
+npc POMTAIR_NPC §9Pomtair (NPC) BlockPos{x=-569, y=121, z=-775} crimson_isle
+npc PORC_NPC §9Porc (NPC) BlockPos{x=-577, y=119, z=-857} crimson_isle
+npc PORHTAL_RIFT_NPC §dPorhtal (Rift NPC) BlockPos{x=-157, y=72, z=162} rift
+npc PROTESTER_CREED_RIFT_NPC §dProtester Creed (Rift NPC) BlockPos{x=-16, y=74, z=-112} rift
+npc PROTESTER_DUST_RIFT_NPC §dProtester Dust (Rift NPC) BlockPos{x=-12, y=72, z=-101} rift
+npc PROTESTER_FRANKIE_RIFT_NPC §dProtester Frankie (Rift NPC) BlockPos{x=-5, y=74, z=-112} rift
+npc PROTESTER_HARRIETTE_RIFT_NPC §dProtester Harriette (Rift NPC) BlockPos{x=-2, y=75, z=-109} rift
+npc PROTESTER_SOMA_RIFT_NPC §dProtester Soma (Rift NPC) BlockPos{x=-17, y=75, z=-108} rift
+npc PROTESTER_STAIN_RIFT_NPC §dProtester Stain (Rift NPC) BlockPos{x=-7, y=72, z=-101} rift
+npc PROTESTER_VIOLETTA_RIFT_NPC §dProtester Violetta (Rift NPC) BlockPos{x=-5, y=74, z=-106} rift
+npc PUZZLER_NPC §9Puzzler (NPC) BlockPos{x=182, y=197, z=136} mining_3
+npc QUEEN_MISMYLA_NPC §9Queen Mismyla (NPC) BlockPos{x=127, y=196, z=196} mining_3
+npc QUEEN_NYX_NPC §9Queen Nyx (NPC) BlockPos{x=-117, y=106, z=-754} crimson_isle
+npc REDSTONE_MINER_NPC §9Redstone Miner (NPC) BlockPos{x=25, y=105, z=17} mining_2
+npc REED_RIFT_NPC §dReed (Rift NPC) BlockPos{x=-212, y=73, z=61} rift
+npc RHANORA_NPC §9Rhanora (NPC) BlockPos{x=-143, y=101, z=-828} crimson_isle
+npc RHYS_NPC §9Rhys (NPC) BlockPos{x=-38, y=201, z=-119} mining_3
+npc RICHARD_NPC §9Richard (NPC) BlockPos{x=-51, y=73, z=-60} hub
+npc RICK_NPC §9Rick (NPC) BlockPos{x=-250, y=71, z=-324} combat_1
+npc ROGER_RIFT_NPC §dRoger (Rift NPC) BlockPos{x=-2, y=71, z=-43} rift
+npc ROLLIM_NPC §9Rollim (NPC) BlockPos{x=-147, y=107, z=-854} crimson_isle
+npc RORNORA_NPC §9Rornora (NPC) BlockPos{x=136, y=197, z=167} mining_3
+npc ROSETTA_NPC §9Rosetta (NPC) BlockPos{x=-12, y=70, z=-141} hub
+npc ROYAL_RESIDENT_NEIGHBOR_NPC §9Royal Resident (Neighbor) (NPC) BlockPos{x=165, y=203, z=279} mining_3
+npc ROYAL_RESIDENT_NPC §9Royal Resident (NPC) BlockPos{x=63, y=205, z=200} mining_3
+npc ROYAL_RESIDENT_SNOOTY_NPC §9Royal Resident (Snooty) (NPC) BlockPos{x=92, y=203, z=277} mining_3
+npc ROY_RIFT_NPC §dRoy (Rift NPC) BlockPos{x=-205, y=76, z=49} rift
+npc RULENOR_NPC §9Rulenor (NPC) BlockPos{x=-26, y=123, z=-769} crimson_isle
+npc RUSTY_NPC §9Rusty (NPC) BlockPos{x=-20, y=79, z=-326} mining_1
+npc RYAN_NPC §9Ryan (NPC) BlockPos{x=-333, y=105, z=-108} foraging_1
+npc RYU_NPC §9Ryu (NPC) BlockPos{x=28, y=71, z=-116} hub
+npc SAD_JACQUELLE_RIFT_NPC §dSad Jacquelle (Rift NPC) BlockPos{x=-122, y=120, z=137} rift
+npc SALESMAN_NPC §9Salesman (NPC) BlockPos{x=7, y=71, z=-85} hub
+npc SARGWYN_NPC §9Sargwyn (NPC) BlockPos{x=35, y=203, z=-150} mining_3
+npc SCOOP_NPC §9Scoop (NPC) BlockPos{x=5, y=183, z=25} hub
+npc SCOUT_PLINIUS_NPC §9Scout Plinius (NPC) BlockPos{x=10, y=122, z=245} mining_3
+npc SCOUT_SCARDIUS_NPC §9Scout Scardius (NPC) BlockPos{x=-16, y=122, z=233} mining_3
+npc SEFFEA_NPC §9Seffea (NPC) BlockPos{x=-139, y=100, z=-816} crimson_isle
+npc SERAPHINE_RIFT_NPC §dSeraphine (Rift NPC) BlockPos{x=-16, y=72, z=-101} rift
+npc SEYMOUR_NPC §9Seymour (NPC) BlockPos{x=24, y=67, z=-40} hub
+npc SEYMOUR_RIFT_NPC §dSeymour (Rift NPC) BlockPos{x=-27, y=72, z=-44} rift
+npc SHAGGY_NPC §9Shaggy (NPC) BlockPos{x=-278, y=122, z=-182} combat_1
+npc SHANIA_RIFT_NPC §dShania (Rift NPC) BlockPos{x=-48, y=73, z=-161} rift
+npc SHENS_AGENT_NPC §9Shen's Agent (NPC) BlockPos{x=-6, y=56, z=-95} hub
+npc SHEPHERD_NPC §9Shepherd (NPC) BlockPos{x=389, y=86, z=-372} farming_1
+npc SHERRY_NPC §9Sherry (NPC) BlockPos{x=6, y=77, z=95} winter
+npc SHIFTED_RIFT_NPC §dShifted (Rift NPC) BlockPos{x=-121, y=74, z=174} rift
+npc SHIFTY_NPC §9Shifty (NPC) BlockPos{x=114, y=75, z=174} hub
+npc SILNAR_NPC §9Silnar (NPC) BlockPos{x=53, y=143, z=20} mining_3
+npc SIRIH_NPC §9Sirih (NPC) BlockPos{x=-699, y=132, z=-887} crimson_isle
+npc SIRIUS_NPC §9Sirius (NPC) BlockPos{x=91, y=77, z=176} hub
+npc SKYBLOCK_ANIMATION_NPC §9Skyblock Animation (NPC) BlockPos{x=-5, y=71, z=-91} hub
+npc SKYMART_NPC §9Skymart (NPC) BlockPos{x=-6, y=73, z=-25} garden
+npc SMITHMONGER_NPC §9Smithmonger (NPC) BlockPos{x=-33, y=71, z=-136} hub
+npc SORCERER_OKRON_RIFT_NPC §dSorcerer Okron (Rift NPC) BlockPos{x=-70, y=82, z=-110} rift
+npc SPIDER_TAMER_NPC §9Spider Tamer (NPC) BlockPos{x=-299, y=64, z=-195} combat_1
+npc STELLA_NPC §9Stella (NPC) BlockPos{x=17, y=71, z=-100} hub
+npc ST_JERRY_NPC §9St. Jerry (NPC) BlockPos{x=-22, y=77, z=93} winter
+npc SUUS_NPC §9Suus (NPC) BlockPos{x=-615, y=116, z=-706} crimson_isle
+npc TALBOT_NPC §9Talbot (NPC) BlockPos{x=286, y=105, z=-548} farming_1
+npc TAL_KER_NPC §9Tal Ker (NPC) BlockPos{x=193, y=197, z=205} mining_3
+npc TAMMY_NPC §9Tammy (NPC) BlockPos{x=285, y=105, z=-544} farming_1
+npc TARWEN_NPC §9Tarwen (NPC) BlockPos{x=34, y=203, z=-141} mining_3
+npc TAYLOR_NPC §9Taylor (NPC) BlockPos{x=21, y=73, z=-46} hub
+npc TAYLOR_RIFT_NPC §dTaylor (Rift NPC) BlockPos{x=-32, y=72, z=-38} rift
+npc TEL_KAR_RIFT_NPC §dTel Kar (Rift NPC) BlockPos{x=-113, y=70, z=62} rift
+npc TERRY_NPC §9Terry (NPC) BlockPos{x=-92, y=79, z=26} winter
+npc THE_HANDLER_NPC §9The Handler (NPC) BlockPos{x=-64, y=71, z=-126} hub
+npc TIA_THE_FAIRY_NPC §9Tia the Fairy (NPC) BlockPos{x=130, y=67, z=138} hub
+npc TOM_NPC §9Tom (NPC) BlockPos{x=28, y=70, z=-58} hub
+npc TONY_SHOP_NPC §9Tony's Shop (NPC) BlockPos{x=278, y=106, z=-545} farming_1
+npc TREASURE_HUNTER_NPC §9Treasure Hunter (NPC) BlockPos{x=201, y=93, z=-437} farming_1
+npc TREVOR_NPC §9Trevor (NPC) BlockPos{x=282, y=105, z=-542} farming_1
+npc TRUU_NPC §9Truu (NPC) BlockPos{x=-613, y=123, z=-765} crimson_isle
+npc TTEMME_RD_RIFT_NPC §dttemme .rD (Rift NPC) BlockPos{x=-293, y=56, z=-87} rift
+npc TYBALT_RIFT_NPC §dTybalt (Rift NPC) BlockPos{x=-129, y=80, z=169} rift
+npc TYZZO_NPC §9Tyzzo (NPC) BlockPos{x=-597, y=6, z=-272} combat_3
+npc UDEL_NPC §9Udel (NPC) BlockPos{x=-79, y=109, z=-789} crimson_isle
+npc UDIUM_NPC §9Udium (NPC) BlockPos{x=45, y=105, z=76} hub
+npc ULYN_NPC §9Ulyn (NPC) BlockPos{x=-126, y=101, z=-784} crimson_isle
+npc VANESSA_NPC §9Vanessa (NPC) BlockPos{x=-312, y=84, z=-70} foraging_1
+npc VANGUARD_NPC §9Vanguard (NPC) BlockPos{x=-139, y=5, z=-171} mineshaft
+npc VELYNA_NPC §9Velyna (NPC) BlockPos{x=-86, y=105, z=-820} crimson_isle
+npc VEX_NPC §9Vex (NPC) BlockPos{x=-17, y=71, z=-82} hub
+npc VINCENT_NPC §9Vincent (NPC) BlockPos{x=98, y=73, z=-102} hub
+npc VREIKE_RIFT_NPC §dVreike (Rift NPC) BlockPos{x=-124, y=74, z=173} rift
+npc VULCAN_NPC §9Vulcan (NPC) BlockPos{x=-363, y=115, z=-1028} crimson_isle
+npc WALTER_NPC §9Walter (NPC) BlockPos{x=18, y=158, z=-37} mining_2
+npc WEAPONSMITH_NPC §9Weaponsmith (NPC) BlockPos{x=-11, y=70, z=-131} hub
+npc WEIRD_WIZARD_RIFT_NPC §dWeird Wizard (Rift NPC) BlockPos{x=-47, y=124, z=78} rift
+npc WINDMILL_OPERATOR_NPC §9Windmill Operator (NPC) BlockPos{x=102, y=83, z=-283} farming_1
+npc WIZARD_NPC §9Wizard (NPC) BlockPos{x=47, y=123, z=76} hub
+npc WOOL_WEAVER_NPC §9Wool Weaver (NPC) BlockPos{x=-48, y=76, z=-31} hub
+npc YOINK_NPC §9Yoink (NPC) BlockPos{x=-613, y=124, z=-786} crimson_isle
+npc YOSHUA_RIFT_NPC §dYoshua (Rift NPC) BlockPos{x=-69, y=72, z=-117} rift
+npc ZARINA_NPC §9Zarina (NPC) BlockPos{x=-42, y=73, z=-54} hub
+npc ZIRI_NPC §9Ziri (NPC) BlockPos{x=-81, y=115, z=-792} crimson_isle
+npc ZOG_NPC §9Zog (NPC) BlockPos{x=34, y=73, z=-97} hub

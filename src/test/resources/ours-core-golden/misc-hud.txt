@@ -1,0 +1,1 @@
+id hud GENERAL [day-count, day-count-hud, fps-count, fps-count-hud, ping-count, ping-count-hud, coordinates, coordinates-facing, coordinates-hud, editor-snap, hidden-elements]

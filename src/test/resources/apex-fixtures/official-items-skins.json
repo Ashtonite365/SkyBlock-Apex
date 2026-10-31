@@ -1,0 +1,6 @@
+{"success":true,"lastUpdated":1760000000000,"items":[
+{"material":"SKULL_ITEM","durability":3,"skin":{"value":"ewogICJ0ZXh0dXJlcyIgOiB7ICJTS0lOIiA6IHsgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS93aXRoZXIiIH0gfQp9","signature":"sig"},"name":"Wither Essence","category":"ESSENCE","tier":"SPECIAL","id":"ESSENCE_WITHER"},
+{"material":"SKULL_ITEM","durability":3,"skin":{"value":"ewogICJ0ZXh0dXJlcyIgOiB7ICJTS0lOIiA6IHsgInVybCIgOiAiZ29sZCIgfSB9Cn0="},"name":"Gold Essence","id":"ESSENCE_GOLD","npc_sell_price":3.0},
+{"material":"SKULL_ITEM","skin":{"value":""},"name":"Blank Skin","id":"BLANK_HEAD"},
+{"material":"DIAMOND","name":"Diamond","id":"DIAMOND","npc_sell_price":8.0}
+]}

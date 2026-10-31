@@ -1,0 +1,10 @@
+software developers=[0] hasWebPresence=false licenses=[0] open() projectDescription='<no project description>' projectName='A' webPresence='<no web presence>'
+  encoded {"licenses":[],"webPresence":null,"projectName":"A","projectDescription":null,"developers":[]}
+software developers=[2] hasWebPresence=true licenses=[2] open() projectDescription='bee' projectName='B' webPresence='https://b.example'
+  license hasUrl=false name='MIT' open() url='<no link to license text>'
+  license hasUrl=true name='GPL' open() url='https://gpl.example'
+  developer hasWebPresence=false name='x' open() webPresence='<no web presence>'
+  developer hasWebPresence=true name='y' open() webPresence='https://y.example'
+  encoded {"licenses":[{"licenseName":"MIT","licenseUrl":null},{"licenseName":"GPL","licenseUrl":"https://gpl.example"}],"webPresence":"https://b.example","projectName":"B","projectDescription":"bee","developers":[{"name":"x","webPresence":null},{"name":"y","webPresence":"https://y.example"}]}
+list softwares=[2]
+bundled true

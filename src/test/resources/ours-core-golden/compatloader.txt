@@ -1,0 +1,24 @@
+aggressive=true
+IConfigProvider kClass=dev.ashtonite365.apex.util.data.IConfigProvider all=ERR:moulconfig-platform-unavailable dev.ashtonite365.apex.util.data.IConfigProvider: dev.ashtonite365.apex.annotations.generated.main.ConfigProvider not a subtype single=ERR:moulconfig-platform-unavailable dev.ashtonite365.apex.util.data.IConfigProvider: dev.ashtonite365.apex.annotations.generated.main.ConfigProvider not a subtype
+ApexConfigScreenProvider kClass=dev.ashtonite365.apex.gui.config.ApexConfigScreenProvider all=ERR:moulconfig-platform-unavailable dev.ashtonite365.apex.gui.config.ApexConfigScreenProvider: dev.ashtonite365.apex.gui.config.styled.StyledSettingsProvider not a subtype single=ERR:moulconfig-platform-unavailable dev.ashtonite365.apex.gui.config.ApexConfigScreenProvider: dev.ashtonite365.apex.gui.config.styled.StyledSettingsProvider not a subtype
+HoverStackSource kClass=dev.ashtonite365.apex.util.HoverStackSource all=ERR:moulconfig-platform-unavailable dev.ashtonite365.apex.util.HoverStackSource: dev.ashtonite365.apex.util.ApexStackScreenProvider not a subtype single=ERR:moulconfig-platform-unavailable dev.ashtonite365.apex.util.HoverStackSource: dev.ashtonite365.apex.util.ApexStackScreenProvider not a subtype
+requires NeedsMinecraft true
+requires NeedsTwo false
+requires NeedsMissing false
+requires NeedsNothing true
+rejecting all=ERR:moulconfig-platform-unavailable dev.ashtonite365.apex.util.data.IConfigProvider: dev.ashtonite365.apex.annotations.generated.main.ConfigProvider not a subtype
+nobody all=ERR:moulconfig-platform-unavailable dev.ashtonite365.apex.util.data.IConfigProvider: dev.ashtonite365.apex.annotations.generated.main.ConfigProvider not a subtype single=ERR:moulconfig-platform-unavailable dev.ashtonite365.apex.util.data.IConfigProvider: dev.ashtonite365.apex.annotations.generated.main.ConfigProvider not a subtype
+metas=[dev.ashtonite365.apex.annotations.generated.emi.GeneratedCompatEmi, dev.ashtonite365.apex.annotations.generated.iris.GeneratedCompatIris, dev.ashtonite365.apex.annotations.generated.jade.GeneratedCompatJade, dev.ashtonite365.apex.annotations.generated.jei.GeneratedCompatJei, dev.ashtonite365.apex.annotations.generated.main.GeneratedCompatMain, dev.ashtonite365.apex.annotations.generated.rei.GeneratedCompatRei, dev.ashtonite365.apex.annotations.generated.sodium.GeneratedCompatSodium, dev.ashtonite365.apex.annotations.generated.texturePacks.GeneratedCompatTexturePacks]
+shouldLoad 'dev.ashtonite365.apex.Apex' true owners=1
+shouldLoad 'dev.ashtonite365.apex.compat.jade.Compat' true owners=1
+shouldLoad 'dev.ashtonite365.apex.compat.jei.X' false owners=1
+shouldLoad 'org.example.Unowned' ERR:IllegalArgumentException Orphaned or duplicate owned class org.example.Unowned ([]). Consider adding a @CompatEntry object. owners=0
+shouldLoad 'NoPackage' ERR:IllegalArgumentException Orphaned or duplicate owned class NoPackage ([]). Consider adding a @CompatEntry object. owners=0
+shouldLoad '' ERR:IllegalArgumentException Orphaned or duplicate owned class  ([]). Consider adding a @CompatEntry object. owners=0
+owned 'a.b.C' true none=false
+owned 'a.b.c.D' true none=false
+owned 'a.bc.D' false none=false
+owned 'a.b' false none=false
+owned 'C' false none=false
+owned 'a.b.C$Inner' true none=false
+owned '.x' true none=false

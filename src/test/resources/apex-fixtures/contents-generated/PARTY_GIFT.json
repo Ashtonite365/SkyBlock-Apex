@@ -1,0 +1,120 @@
+{
+	"box": "PARTY_GIFT",
+	"source": "https://hypixelskyblock.minecraft.wiki/w/Party_Gift",
+	"total_weight": 1674,
+	"drops": [
+		{
+			"type": "coins",
+			"min": 25000,
+			"max": 25000,
+			"weight": 460,
+			"chance": 0.2748
+		},
+		{
+			"type": "coins",
+			"min": 75000,
+			"max": 75000,
+			"weight": 75,
+			"chance": 0.0448
+		},
+		{
+			"type": "coins",
+			"min": 150000,
+			"max": 150000,
+			"weight": 75,
+			"chance": 0.0448
+		},
+		{
+			"type": "coins",
+			"min": 1500000,
+			"max": 1500000,
+			"weight": 1,
+			"chance": 0.0006
+		},
+		{
+			"type": "skill_xp",
+			"skill": null,
+			"min": 1000,
+			"max": 1000,
+			"note": "skill not specified on wiki",
+			"weight": 480,
+			"chance": 0.2867
+		},
+		{
+			"type": "skill_xp",
+			"skill": null,
+			"min": 2500,
+			"max": 2500,
+			"note": "skill not specified on wiki",
+			"weight": 80,
+			"chance": 0.0478
+		},
+		{
+			"type": "skill_xp",
+			"skill": null,
+			"min": 5000,
+			"max": 5000,
+			"note": "skill not specified on wiki",
+			"weight": 25,
+			"chance": 0.0149
+		},
+		{
+			"type": "item",
+			"id": null,
+			"min": 1,
+			"max": 1,
+			"note": "one random skill XP Boost potion of this tier (Farming XP Boost II Potion; Mining XP Boost II Potion; Combat XP Boost II Potion; Foraging XP Boost II Potion; Fishing XP Boost II Potion; Alchemy XP Boost II Potion; Enchanting XP Boost II Potion); potion ids are NBT variants, not repo items",
+			"weight": 75,
+			"chance": 0.0448
+		},
+		{
+			"type": "item",
+			"id": null,
+			"min": 1,
+			"max": 1,
+			"note": "one random skill XP Boost potion of this tier (Farming XP Boost III Potion; Mining XP Boost III Potion; Combat XP Boost III Potion; Foraging XP Boost III Potion; Fishing XP Boost III Potion; Alchemy XP Boost III Potion; Enchanting XP Boost III Potion); potion ids are NBT variants, not repo items",
+			"weight": 350,
+			"chance": 0.2091
+		},
+		{
+			"type": "item",
+			"id": "PARTY_THE_FISH",
+			"min": 1,
+			"max": 1,
+			"weight": 3,
+			"chance": 0.0018
+		},
+		{
+			"type": "item",
+			"id": "PARTY_HAT",
+			"min": 1,
+			"max": 1,
+			"weight": 5,
+			"chance": 0.003
+		},
+		{
+			"type": "item",
+			"id": "PARTY_CLOAK",
+			"min": 1,
+			"max": 1,
+			"weight": 15,
+			"chance": 0.009
+		},
+		{
+			"type": "item",
+			"id": "PARTY_GLOVES",
+			"min": 1,
+			"max": 1,
+			"weight": 15,
+			"chance": 0.009
+		},
+		{
+			"type": "item",
+			"id": "SNOWMAN_MASK",
+			"min": 1,
+			"max": 1,
+			"weight": 15,
+			"chance": 0.009
+		}
+	]
+}

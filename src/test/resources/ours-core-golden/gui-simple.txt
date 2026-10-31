@@ -1,0 +1,8 @@
+bar 80x8 res=apex:textures/gui/bar.png render=ERR:ClassCastException
+bar textures Texture(identifier=apex:textures/gui/bar.png, u1=0.0, v1=0.0, u2=0.0625, v2=0.125) Texture(identifier=apex:textures/gui/bar.png, u1=0.0625, v1=0.0, u2=0.125, v2=0.125) Texture(identifier=apex:textures/gui/bar.png, u1=0.125, v1=0.0, u2=0.1875, v2=0.125) Texture(identifier=apex:textures/gui/bar.png, u1=0.1875, v1=0.0, u2=0.234375, v2=0.125)
+bar tex [Texture(identifier=apex:x, u1=1.0, v1=2.0, u2=3.0, v2=4.0), Texture(identifier=apex:x, u1=9.0, v1=2.0, u2=3.0, v2=4.0), true, true]
+moul apex:a/b.png
+empty 0x0 kotlin.Unit
+tick 0x0 ticks=2
+image 12x7 0.1 0.2 0.3 0.4 apex:img.png
+  draw drawComplexTexture(apex:img.png,0.0,0.0,30.0,15.0) uv=[0.1, 0.3, 0.2, 0.4]

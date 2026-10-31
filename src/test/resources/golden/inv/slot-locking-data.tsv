@@ -1,0 +1,31 @@
+bound {}	 => []
+global {}	{\n    "lockedSlots": [],\n    "boundSlots": [],\n    "lockedUUIDs": [],\n    "migratedFromPerIsland": false\n}
+legacy {}	{"lockedUUIDs":[],"rift":{"lockedSlots":[],"boundSlots":[]},"overworld":{"lockedSlots":[],"boundSlots":[]}}
+bound []	 => []
+global []	fail
+legacy []	fail
+bound {"0":27,"8":35}	0-27 8-35 => [{"hotbar":0,"inventory":27},{"hotbar":8,"inventory":35}]
+global {"0":27,"8":35}	{\n    "lockedSlots": [],\n    "boundSlots": [],\n    "lockedUUIDs": [],\n    "migratedFromPerIsland": false\n}
+legacy {"0":27,"8":35}	{"lockedUUIDs":[],"rift":{"lockedSlots":[],"boundSlots":[]},"overworld":{"lockedSlots":[],"boundSlots":[]}}
+bound {"3":12}	3-12 => [{"hotbar":3,"inventory":12}]
+global {"3":12}	{\n    "lockedSlots": [],\n    "boundSlots": [],\n    "lockedUUIDs": [],\n    "migratedFromPerIsland": false\n}
+legacy {"3":12}	{"lockedUUIDs":[],"rift":{"lockedSlots":[],"boundSlots":[]},"overworld":{"lockedSlots":[],"boundSlots":[]}}
+bound [{"hotbar":1,"inventory":20}]	1-20 => [{"hotbar":1,"inventory":20}]
+global [{"hotbar":1,"inventory":20}]	fail
+legacy [{"hotbar":1,"inventory":20}]	fail
+bound [{"hotbar":1,"inventory":20},{"hotbar":2,"inventory":20},{"hotbar":1,"inventory":20}]	1-20 2-20 => [{"hotbar":1,"inventory":20},{"hotbar":2,"inventory":20}]
+global [{"hotbar":1,"inventory":20},{"hotbar":2,"inventory":20},{"hotbar":1,"inventory":20}]	fail
+legacy [{"hotbar":1,"inventory":20},{"hotbar":2,"inventory":20},{"hotbar":1,"inventory":20}]	fail
+bound {"lockedSlots":[1,2],"boundSlots":{"0":9}}	fail
+global {"lockedSlots":[1,2],"boundSlots":{"0":9}}	{\n    "lockedSlots": [\n        1,\n        2\n    ],\n    "boundSlots": [\n        {\n            "hotbar": 0,\n            "inventory": 9\n        }\n    ],\n    "lockedUUIDs": [],\n    "migratedFromPerIsland": false\n}
+legacy {"lockedSlots":[1,2],"boundSlots":{"0":9}}	{"lockedUUIDs":[],"rift":{"lockedSlots":[],"boundSlots":[]},"overworld":{"lockedSlots":[],"boundSlots":[]}}
+bound {"lockedSlots":[],"boundSlots":[{"hotbar":4,"inventory":30}],"lockedUUIDs":["0123456789abcdef0123456789abcdef"],"migratedFromPerIsland":true}	fail
+global {"lockedSlots":[],"boundSlots":[{"hotbar":4,"inventory":30}],"lockedUUIDs":["0123456789abcdef0123456789abcdef"],"migratedFromPerIsland":true}	{\n    "lockedSlots": [],\n    "boundSlots": [\n        {\n            "hotbar": 4,\n            "inventory": 30\n        }\n    ],\n    "lockedUUIDs": [\n        "0123456789abcdef0123456789abcdef"\n    ],\n    "migratedFromPerIsland": true\n}
+legacy {"lockedSlots":[],"boundSlots":[{"hotbar":4,"inventory":30}],"lockedUUIDs":["0123456789abcdef0123456789abcdef"],"migratedFromPerIsland":true}	{"lockedUUIDs":["0123456789abcdef0123456789abcdef"],"rift":{"lockedSlots":[],"boundSlots":[]},"overworld":{"lockedSlots":[],"boundSlots":[]}}
+bound {"lockedUUIDs":["01234567-89ab-cdef-0123-456789abcdef"],"rift":{"lockedSlots":[5]},"overworld":{"boundSlots":{"2":22}}}	fail
+global {"lockedUUIDs":["01234567-89ab-cdef-0123-456789abcdef"],"rift":{"lockedSlots":[5]},"overworld":{"boundSlots":{"2":22}}}	{\n    "lockedSlots": [],\n    "boundSlots": [],\n    "lockedUUIDs": [\n        "0123456789abcdef0123456789abcdef"\n    ],\n    "migratedFromPerIsland": false\n}
+legacy {"lockedUUIDs":["01234567-89ab-cdef-0123-456789abcdef"],"rift":{"lockedSlots":[5]},"overworld":{"boundSlots":{"2":22}}}	{"lockedUUIDs":["0123456789abcdef0123456789abcdef"],"rift":{"lockedSlots":[5],"boundSlots":[]},"overworld":{"lockedSlots":[],"boundSlots":[{"hotbar":2,"inventory":22}]}}
+legacy-encode sample	{"lockedUUIDs":["0123456789abcdef0123456789abcdef"],"rift":{"lockedSlots":[3,1],"boundSlots":[{"hotbar":0,"inventory":9}]},"overworld":{"lockedSlots":[],"boundSlots":[]}}
+ops i0,9 i0,10 i1,9 f9 f0 f5 d9 f0 r0 f10	|0-9 ; |0-9 0-10 ; |0-9 0-10 1-9 ; 0-9+1-9|0-9 0-10 1-9 ; 0-9+0-10|0-9 0-10 1-9 ; |0-9 0-10 1-9 ; |0-10 ; 0-10|0-10 ; true| ; |
+ops i2,20 i2,20 r20 f2 i3,21 d21 f3	|2-20 ; |2-20 ; true| ; | ; |3-21 ; | ; |
+ops r4 f4 d4 i8,35 i8,34 r8 f35	false| ; | ; | ; |8-35 ; |8-35 8-34 ; true| ; |

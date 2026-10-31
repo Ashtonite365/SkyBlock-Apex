@@ -1,0 +1,18 @@
+box 16x16 enabled=false render=ERR:ClassCastException
+down-away -> false state=a clicking=false enabled=false focused=false
+up-away -> false state=a clicking=false enabled=false focused=false
+down -> false state=a clicking=false enabled=false focused=false
+right-up -> false state=a clicking=false enabled=false focused=false
+up-away -> false state=a clicking=false enabled=false focused=false
+down -> false state=a clicking=false enabled=false focused=false
+up -> false state=a clicking=false enabled=false focused=false
+up-again -> false state=a clicking=false enabled=false focused=false
+right-down -> true state=a clicking=true enabled=false focused=true
+move -> false state=a clicking=true enabled=false focused=true
+right-up -> true state=b clicking=false enabled=true focused=false
+reset -> false state=a clicking=false enabled=false focused=false
+right-down-away -> false state=a clicking=false enabled=false focused=false
+right-down -> true state=a clicking=true enabled=false focused=true
+left-up -> false state=a clicking=true enabled=false focused=true
+right-up-away -> true state=a clicking=false enabled=false focused=false
+right-up-again -> false state=a clicking=false enabled=false focused=false

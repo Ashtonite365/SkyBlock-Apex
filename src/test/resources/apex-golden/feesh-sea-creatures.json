@@ -1,0 +1,5573 @@
+{
+  "cases": 1392,
+  "data": [
+    {
+      "in": "msg|The Water Hydra has come to test your strength.",
+      "out": "Water Hydra|§6|true|true|§6Water Hydra"
+    },
+    {
+      "in": "msg|The Water Hydra has come to test your strength. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| The Water Hydra has come to test your strength.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XThe Water Hydra has come to test your strength.",
+      "out": "none"
+    },
+    {
+      "in": "msg|the water hydra has come to test your strength.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Water Hydra has come to test your strength",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Water Hydra has come to test your strengthx",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Water Hydra has come to test your strength.",
+      "out": "Water Hydra|§6|true|true|§6Water Hydra"
+    },
+    {
+      "in": "msg|The Water Hydra has come to test your strength.The Water Hydra has come to test your strength.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Is this even a fish? It's the Carrot King!",
+      "out": "Carrot King|§9|true|true|§9Carrot King"
+    },
+    {
+      "in": "msg|Is this even a fish? It's the Carrot King! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Is this even a fish? It's the Carrot King!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XIs this even a fish? It's the Carrot King!",
+      "out": "none"
+    },
+    {
+      "in": "msg|is this even a fish? it's the carrot king!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Is this even a fish? It's the Carrot King",
+      "out": "none"
+    },
+    {
+      "in": "msg|Is this even a fish? It's the Carrot King!",
+      "out": "Carrot King|§9|true|true|§9Carrot King"
+    },
+    {
+      "in": "msg|Is this even a fish? It's the Carrot King.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Is this even a fish? It's the Carrot King!Is this even a fish? It's the Carrot King!",
+      "out": "none"
+    },
+    {
+      "in": "msg|You stumbled upon a Sea Guardian.",
+      "out": "Sea Guardian|§f|false|true|§fSea Guardian"
+    },
+    {
+      "in": "msg|You stumbled upon a Sea Guardian. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You stumbled upon a Sea Guardian.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou stumbled upon a Sea Guardian.",
+      "out": "none"
+    },
+    {
+      "in": "msg|you stumbled upon a sea guardian.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You stumbled upon a Sea Guardian",
+      "out": "none"
+    },
+    {
+      "in": "msg|You stumbled upon a Sea Guardianx",
+      "out": "none"
+    },
+    {
+      "in": "msg|You stumbled upon a Sea Guardian.",
+      "out": "Sea Guardian|§f|false|true|§fSea Guardian"
+    },
+    {
+      "in": "msg|You stumbled upon a Sea Guardian.You stumbled upon a Sea Guardian.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Squid appeared.",
+      "out": "Squid|§f|false|true|§fSquid"
+    },
+    {
+      "in": "msg|A Squid appeared. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Squid appeared.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Squid appeared.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a squid appeared.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Squid appeared",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Squid appearedx",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Squid appeared.",
+      "out": "Squid|§f|false|true|§fSquid"
+    },
+    {
+      "in": "msg|A Squid appeared.A Squid appeared.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Pitch darkness reveals a Night Squid.",
+      "out": "Night Squid|§f|false|true|§fNight Squid"
+    },
+    {
+      "in": "msg|Pitch darkness reveals a Night Squid. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Pitch darkness reveals a Night Squid.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XPitch darkness reveals a Night Squid.",
+      "out": "none"
+    },
+    {
+      "in": "msg|pitch darkness reveals a night squid.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Pitch darkness reveals a Night Squid",
+      "out": "none"
+    },
+    {
+      "in": "msg|Pitch darkness reveals a Night Squidx",
+      "out": "none"
+    },
+    {
+      "in": "msg|Pitch darkness reveals a Night Squid.",
+      "out": "Night Squid|§f|false|true|§fNight Squid"
+    },
+    {
+      "in": "msg|Pitch darkness reveals a Night Squid.Pitch darkness reveals a Night Squid.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You caught a Sea Walker.",
+      "out": "Sea Walker|§f|false|true|§fSea Walker"
+    },
+    {
+      "in": "msg|You caught a Sea Walker. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You caught a Sea Walker.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou caught a Sea Walker.",
+      "out": "none"
+    },
+    {
+      "in": "msg|you caught a sea walker.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You caught a Sea Walker",
+      "out": "none"
+    },
+    {
+      "in": "msg|You caught a Sea Walkerx",
+      "out": "none"
+    },
+    {
+      "in": "msg|You caught a Sea Walker.",
+      "out": "Sea Walker|§f|false|true|§fSea Walker"
+    },
+    {
+      "in": "msg|You caught a Sea Walker.You caught a Sea Walker.",
+      "out": "none"
+    },
+    {
+      "in": "msg|It looks like you've disrupted the Sea Witch's brewing session. Watch out, she's furious!",
+      "out": "Sea Witch|§a|false|true|§aSea Witch"
+    },
+    {
+      "in": "msg|It looks like you've disrupted the Sea Witch's brewing session. Watch out, she's furious! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| It looks like you've disrupted the Sea Witch's brewing session. Watch out, she's furious!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XIt looks like you've disrupted the Sea Witch's brewing session. Watch out, she's furious!",
+      "out": "none"
+    },
+    {
+      "in": "msg|it looks like you've disrupted the sea witch's brewing session. watch out, she's furious!",
+      "out": "none"
+    },
+    {
+      "in": "msg|It looks like you've disrupted the Sea Witch's brewing session. Watch out, she's furious",
+      "out": "none"
+    },
+    {
+      "in": "msg|It looks like you've disrupted the Sea Witch's brewing sessionx Watch out, she's furious!",
+      "out": "none"
+    },
+    {
+      "in": "msg|It looks like you've disrupted the Sea Witch's brewing session. Watch out, she's furious.",
+      "out": "none"
+    },
+    {
+      "in": "msg|It looks like you've disrupted the Sea Witch's brewing session. Watch out, she's furious!It looks like you've disrupted the Sea Witch's brewing session. Watch out, she's furious!",
+      "out": "none"
+    },
+    {
+      "in": "msg|You reeled in a Sea Archer.",
+      "out": "Sea Archer|§a|false|true|§aSea Archer"
+    },
+    {
+      "in": "msg|You reeled in a Sea Archer. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You reeled in a Sea Archer.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou reeled in a Sea Archer.",
+      "out": "none"
+    },
+    {
+      "in": "msg|you reeled in a sea archer.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You reeled in a Sea Archer",
+      "out": "none"
+    },
+    {
+      "in": "msg|You reeled in a Sea Archerx",
+      "out": "none"
+    },
+    {
+      "in": "msg|You reeled in a Sea Archer.",
+      "out": "Sea Archer|§a|false|true|§aSea Archer"
+    },
+    {
+      "in": "msg|You reeled in a Sea Archer.You reeled in a Sea Archer.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Rider of the Deep has emerged.",
+      "out": "Rider of the Deep|§a|false|true|§aRider of the Deep"
+    },
+    {
+      "in": "msg|The Rider of the Deep has emerged. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| The Rider of the Deep has emerged.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XThe Rider of the Deep has emerged.",
+      "out": "none"
+    },
+    {
+      "in": "msg|the rider of the deep has emerged.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Rider of the Deep has emerged",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Rider of the Deep has emergedx",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Rider of the Deep has emerged.",
+      "out": "Rider of the Deep|§a|false|true|§aRider of the Deep"
+    },
+    {
+      "in": "msg|The Rider of the Deep has emerged.The Rider of the Deep has emerged.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Huh? A Catfish!",
+      "out": "Catfish|§9|false|true|§9Catfish"
+    },
+    {
+      "in": "msg|Huh? A Catfish! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Huh? A Catfish!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XHuh? A Catfish!",
+      "out": "none"
+    },
+    {
+      "in": "msg|huh? a catfish!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Huh? A Catfish",
+      "out": "none"
+    },
+    {
+      "in": "msg|Huh? A Catfish!",
+      "out": "Catfish|§9|false|true|§9Catfish"
+    },
+    {
+      "in": "msg|Huh? A Catfish.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Huh? A Catfish!Huh? A Catfish!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Gross! A Sea Leech!",
+      "out": "Sea Leech|§9|false|true|§9Sea Leech"
+    },
+    {
+      "in": "msg|Gross! A Sea Leech! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Gross! A Sea Leech!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XGross! A Sea Leech!",
+      "out": "none"
+    },
+    {
+      "in": "msg|gross! a sea leech!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Gross! A Sea Leech",
+      "out": "none"
+    },
+    {
+      "in": "msg|Gross! A Sea Leech!",
+      "out": "Sea Leech|§9|false|true|§9Sea Leech"
+    },
+    {
+      "in": "msg|Gross. A Sea Leech!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Gross! A Sea Leech!Gross! A Sea Leech!",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've discovered a Guardian Defender of the sea.",
+      "out": "Guardian Defender|§5|false|true|§5Guardian Defender"
+    },
+    {
+      "in": "msg|You've discovered a Guardian Defender of the sea. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You've discovered a Guardian Defender of the sea.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou've discovered a Guardian Defender of the sea.",
+      "out": "none"
+    },
+    {
+      "in": "msg|you've discovered a guardian defender of the sea.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've discovered a Guardian Defender of the sea",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've discovered a Guardian Defender of the seax",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've discovered a Guardian Defender of the sea.",
+      "out": "Guardian Defender|§5|false|true|§5Guardian Defender"
+    },
+    {
+      "in": "msg|You've discovered a Guardian Defender of the sea.You've discovered a Guardian Defender of the sea.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You have awoken the Deep Sea Protector, prepare for a battle!",
+      "out": "Deep Sea Protector|§5|false|true|§5Deep Sea Protector"
+    },
+    {
+      "in": "msg|You have awoken the Deep Sea Protector, prepare for a battle! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You have awoken the Deep Sea Protector, prepare for a battle!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou have awoken the Deep Sea Protector, prepare for a battle!",
+      "out": "none"
+    },
+    {
+      "in": "msg|you have awoken the deep sea protector, prepare for a battle!",
+      "out": "none"
+    },
+    {
+      "in": "msg|You have awoken the Deep Sea Protector, prepare for a battle",
+      "out": "none"
+    },
+    {
+      "in": "msg|You have awoken the Deep Sea Protector, prepare for a battle!",
+      "out": "Deep Sea Protector|§5|false|true|§5Deep Sea Protector"
+    },
+    {
+      "in": "msg|You have awoken the Deep Sea Protector, prepare for a battle.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You have awoken the Deep Sea Protector, prepare for a battle!You have awoken the Deep Sea Protector, prepare for a battle!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Your Chumcap Bucket trembles, it's an Agarimoo.",
+      "out": "Agarimoo|§9|false|true|§9Agarimoo"
+    },
+    {
+      "in": "msg|Your Chumcap Bucket trembles, it's an Agarimoo. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Your Chumcap Bucket trembles, it's an Agarimoo.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYour Chumcap Bucket trembles, it's an Agarimoo.",
+      "out": "none"
+    },
+    {
+      "in": "msg|your chumcap bucket trembles, it's an agarimoo.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Your Chumcap Bucket trembles, it's an Agarimoo",
+      "out": "none"
+    },
+    {
+      "in": "msg|Your Chumcap Bucket trembles, it's an Agarimoox",
+      "out": "none"
+    },
+    {
+      "in": "msg|Your Chumcap Bucket trembles, it's an Agarimoo.",
+      "out": "Agarimoo|§9|false|true|§9Agarimoo"
+    },
+    {
+      "in": "msg|Your Chumcap Bucket trembles, it's an Agarimoo.Your Chumcap Bucket trembles, it's an Agarimoo.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You get an inkling that you've caught... an Inkling!",
+      "out": "Inkling|§a|false|true|§aInkling"
+    },
+    {
+      "in": "msg|You get an inkling that you've caught... an Inkling! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You get an inkling that you've caught... an Inkling!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou get an inkling that you've caught... an Inkling!",
+      "out": "none"
+    },
+    {
+      "in": "msg|you get an inkling that you've caught... an inkling!",
+      "out": "none"
+    },
+    {
+      "in": "msg|You get an inkling that you've caught... an Inkling",
+      "out": "none"
+    },
+    {
+      "in": "msg|You get an inkling that you've caughtx.. an Inkling!",
+      "out": "none"
+    },
+    {
+      "in": "msg|You get an inkling that you've caught... an Inkling.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You get an inkling that you've caught... an Inkling!You get an inkling that you've caught... an Inkling!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A majestic creature rises from the water. It's a Manta Ray.",
+      "out": "Manta Ray|§5|false|true|§5Manta Ray"
+    },
+    {
+      "in": "msg|A majestic creature rises from the water. It's a Manta Ray. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A majestic creature rises from the water. It's a Manta Ray.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA majestic creature rises from the water. It's a Manta Ray.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a majestic creature rises from the water. it's a manta ray.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A majestic creature rises from the water. It's a Manta Ray",
+      "out": "none"
+    },
+    {
+      "in": "msg|A majestic creature rises from the waterx It's a Manta Ray.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A majestic creature rises from the water. It's a Manta Ray.",
+      "out": "Manta Ray|§5|false|true|§5Manta Ray"
+    },
+    {
+      "in": "msg|A majestic creature rises from the water. It's a Manta Ray.A majestic creature rises from the water. It's a Manta Ray.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!!",
+      "out": "Frog Man|§f|false|true|§fFrog Man"
+    },
+    {
+      "in": "msg|Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XIs it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!!",
+      "out": "none"
+    },
+    {
+      "in": "msg|is it a frog? is it a man? well, yes, sorta, it's frog man!!!!!!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!!",
+      "out": "Frog Man|§f|false|true|§fFrog Man"
+    },
+    {
+      "in": "msg|Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN.!!!!!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!!Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Snapping Turtle is coming your way, and it's ANGRY!",
+      "out": "Snapping Turtle|§9|false|true|§9Snapping Turtle"
+    },
+    {
+      "in": "msg|A Snapping Turtle is coming your way, and it's ANGRY! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Snapping Turtle is coming your way, and it's ANGRY!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Snapping Turtle is coming your way, and it's ANGRY!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a snapping turtle is coming your way, and it's angry!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Snapping Turtle is coming your way, and it's ANGRY",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Snapping Turtle is coming your way, and it's ANGRY!",
+      "out": "Snapping Turtle|§9|false|true|§9Snapping Turtle"
+    },
+    {
+      "in": "msg|A Snapping Turtle is coming your way, and it's ANGRY.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Snapping Turtle is coming your way, and it's ANGRY!A Snapping Turtle is coming your way, and it's ANGRY!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A garish set of tentacles arise. It's a Blue Ringed Octopus!",
+      "out": "Blue Ringed Octopus|§6|true|true|§6Blue Ringed Octopus"
+    },
+    {
+      "in": "msg|A garish set of tentacles arise. It's a Blue Ringed Octopus! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A garish set of tentacles arise. It's a Blue Ringed Octopus!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA garish set of tentacles arise. It's a Blue Ringed Octopus!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a garish set of tentacles arise. it's a blue ringed octopus!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A garish set of tentacles arise. It's a Blue Ringed Octopus",
+      "out": "none"
+    },
+    {
+      "in": "msg|A garish set of tentacles arisex It's a Blue Ringed Octopus!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A garish set of tentacles arise. It's a Blue Ringed Octopus.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A garish set of tentacles arise. It's a Blue Ringed Octopus!A garish set of tentacles arise. It's a Blue Ringed Octopus!",
+      "out": "none"
+    },
+    {
+      "in": "msg|The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price.",
+      "out": "Wiki Tiki|§d|true|true|§dWiki Tiki"
+    },
+    {
+      "in": "msg|The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XThe water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price.",
+      "out": "none"
+    },
+    {
+      "in": "msg|the water bubbles and froths. a massive form emerges- you have disturbed the wiki tiki! you shall pay the price.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price",
+      "out": "none"
+    },
+    {
+      "in": "msg|The water bubbles and frothsx A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki. You shall pay the price.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price.The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Hide no longer, a Great White Shark has tracked your scent and thirsts for your blood!",
+      "out": "Great White Shark|§6|true|true|§6Great White Shark"
+    },
+    {
+      "in": "msg|Hide no longer, a Great White Shark has tracked your scent and thirsts for your blood! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Hide no longer, a Great White Shark has tracked your scent and thirsts for your blood!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XHide no longer, a Great White Shark has tracked your scent and thirsts for your blood!",
+      "out": "none"
+    },
+    {
+      "in": "msg|hide no longer, a great white shark has tracked your scent and thirsts for your blood!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Hide no longer, a Great White Shark has tracked your scent and thirsts for your blood",
+      "out": "none"
+    },
+    {
+      "in": "msg|Hide no longer, a Great White Shark has tracked your scent and thirsts for your blood!",
+      "out": "Great White Shark|§6|true|true|§6Great White Shark"
+    },
+    {
+      "in": "msg|Hide no longer, a Great White Shark has tracked your scent and thirsts for your blood.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Hide no longer, a Great White Shark has tracked your scent and thirsts for your blood!Hide no longer, a Great White Shark has tracked your scent and thirsts for your blood!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A tiny fin emerges from the water, you've caught a Nurse Shark.",
+      "out": "Nurse Shark|§a|false|true|§aNurse Shark"
+    },
+    {
+      "in": "msg|A tiny fin emerges from the water, you've caught a Nurse Shark. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A tiny fin emerges from the water, you've caught a Nurse Shark.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA tiny fin emerges from the water, you've caught a Nurse Shark.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a tiny fin emerges from the water, you've caught a nurse shark.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A tiny fin emerges from the water, you've caught a Nurse Shark",
+      "out": "none"
+    },
+    {
+      "in": "msg|A tiny fin emerges from the water, you've caught a Nurse Sharkx",
+      "out": "none"
+    },
+    {
+      "in": "msg|A tiny fin emerges from the water, you've caught a Nurse Shark.",
+      "out": "Nurse Shark|§a|false|true|§aNurse Shark"
+    },
+    {
+      "in": "msg|A tiny fin emerges from the water, you've caught a Nurse Shark.A tiny fin emerges from the water, you've caught a Nurse Shark.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You spot a fin as blue as the water it came from, it's a Blue Shark.",
+      "out": "Blue Shark|§9|false|true|§9Blue Shark"
+    },
+    {
+      "in": "msg|You spot a fin as blue as the water it came from, it's a Blue Shark. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You spot a fin as blue as the water it came from, it's a Blue Shark.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou spot a fin as blue as the water it came from, it's a Blue Shark.",
+      "out": "none"
+    },
+    {
+      "in": "msg|you spot a fin as blue as the water it came from, it's a blue shark.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You spot a fin as blue as the water it came from, it's a Blue Shark",
+      "out": "none"
+    },
+    {
+      "in": "msg|You spot a fin as blue as the water it came from, it's a Blue Sharkx",
+      "out": "none"
+    },
+    {
+      "in": "msg|You spot a fin as blue as the water it came from, it's a Blue Shark.",
+      "out": "Blue Shark|§9|false|true|§9Blue Shark"
+    },
+    {
+      "in": "msg|You spot a fin as blue as the water it came from, it's a Blue Shark.You spot a fin as blue as the water it came from, it's a Blue Shark.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A striped beast bounds from the depths, the wild Tiger Shark!",
+      "out": "Tiger Shark|§5|false|true|§5Tiger Shark"
+    },
+    {
+      "in": "msg|A striped beast bounds from the depths, the wild Tiger Shark! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A striped beast bounds from the depths, the wild Tiger Shark!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA striped beast bounds from the depths, the wild Tiger Shark!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a striped beast bounds from the depths, the wild tiger shark!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A striped beast bounds from the depths, the wild Tiger Shark",
+      "out": "none"
+    },
+    {
+      "in": "msg|A striped beast bounds from the depths, the wild Tiger Shark!",
+      "out": "Tiger Shark|§5|false|true|§5Tiger Shark"
+    },
+    {
+      "in": "msg|A striped beast bounds from the depths, the wild Tiger Shark.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A striped beast bounds from the depths, the wild Tiger Shark!A striped beast bounds from the depths, the wild Tiger Shark!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Reindrake forms from the depths.",
+      "out": "Reindrake|§d|true|true|§dReindrake"
+    },
+    {
+      "in": "msg|A Reindrake forms from the depths. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Reindrake forms from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Reindrake forms from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a reindrake forms from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Reindrake forms from the depths",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Reindrake forms from the depthsx",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Reindrake forms from the depths.",
+      "out": "Reindrake|§d|true|true|§dReindrake"
+    },
+    {
+      "in": "msg|A Reindrake forms from the depths.A Reindrake forms from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|What is this creature!?",
+      "out": "Yeti|§6|true|true|§6Yeti"
+    },
+    {
+      "in": "msg|What is this creature!? ",
+      "out": "none"
+    },
+    {
+      "in": "msg| What is this creature!?",
+      "out": "none"
+    },
+    {
+      "in": "msg|XWhat is this creature!?",
+      "out": "none"
+    },
+    {
+      "in": "msg|what is this creature!?",
+      "out": "none"
+    },
+    {
+      "in": "msg|What is this creature!",
+      "out": "none"
+    },
+    {
+      "in": "msg|What is this creature!?",
+      "out": "Yeti|§6|true|true|§6Yeti"
+    },
+    {
+      "in": "msg|What is this creature.?",
+      "out": "none"
+    },
+    {
+      "in": "msg|What is this creature!?What is this creature!?",
+      "out": "none"
+    },
+    {
+      "in": "msg|You found a forgotten Nutcracker laying beneath the ice.",
+      "out": "Nutcracker|§5|true|true|§5Nutcracker"
+    },
+    {
+      "in": "msg|You found a forgotten Nutcracker laying beneath the ice. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You found a forgotten Nutcracker laying beneath the ice.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou found a forgotten Nutcracker laying beneath the ice.",
+      "out": "none"
+    },
+    {
+      "in": "msg|you found a forgotten nutcracker laying beneath the ice.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You found a forgotten Nutcracker laying beneath the ice",
+      "out": "none"
+    },
+    {
+      "in": "msg|You found a forgotten Nutcracker laying beneath the icex",
+      "out": "none"
+    },
+    {
+      "in": "msg|You found a forgotten Nutcracker laying beneath the ice.",
+      "out": "Nutcracker|§5|true|true|§5Nutcracker"
+    },
+    {
+      "in": "msg|You found a forgotten Nutcracker laying beneath the ice.You found a forgotten Nutcracker laying beneath the ice.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Frozen Steve fell into the pond long ago, never to resurface...until now!",
+      "out": "Frozen Steve|§f|false|true|§fFrozen Steve"
+    },
+    {
+      "in": "msg|Frozen Steve fell into the pond long ago, never to resurface...until now! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Frozen Steve fell into the pond long ago, never to resurface...until now!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XFrozen Steve fell into the pond long ago, never to resurface...until now!",
+      "out": "none"
+    },
+    {
+      "in": "msg|frozen steve fell into the pond long ago, never to resurface...until now!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Frozen Steve fell into the pond long ago, never to resurface...until now",
+      "out": "none"
+    },
+    {
+      "in": "msg|Frozen Steve fell into the pond long ago, never to resurfacex..until now!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Frozen Steve fell into the pond long ago, never to resurface...until now.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Frozen Steve fell into the pond long ago, never to resurface...until now!Frozen Steve fell into the pond long ago, never to resurface...until now!",
+      "out": "none"
+    },
+    {
+      "in": "msg|It's a snowman! He looks harmless.",
+      "out": "Frosty|§a|false|true|§aFrosty"
+    },
+    {
+      "in": "msg|It's a snowman! He looks harmless. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| It's a snowman! He looks harmless.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XIt's a snowman! He looks harmless.",
+      "out": "none"
+    },
+    {
+      "in": "msg|it's a snowman! he looks harmless.",
+      "out": "none"
+    },
+    {
+      "in": "msg|It's a snowman! He looks harmless",
+      "out": "none"
+    },
+    {
+      "in": "msg|It's a snowman! He looks harmlessx",
+      "out": "none"
+    },
+    {
+      "in": "msg|It's a snowman. He looks harmless.",
+      "out": "none"
+    },
+    {
+      "in": "msg|It's a snowman! He looks harmless.It's a snowman! He looks harmless.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Grinch stole Jerry's Gifts...get them back!",
+      "out": "Grinch|§9|false|true|§9Grinch"
+    },
+    {
+      "in": "msg|The Grinch stole Jerry's Gifts...get them back! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| The Grinch stole Jerry's Gifts...get them back!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XThe Grinch stole Jerry's Gifts...get them back!",
+      "out": "none"
+    },
+    {
+      "in": "msg|the grinch stole jerry's gifts...get them back!",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Grinch stole Jerry's Gifts...get them back",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Grinch stole Jerry's Giftsx..get them back!",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Grinch stole Jerry's Gifts...get them back.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Grinch stole Jerry's Gifts...get them back!The Grinch stole Jerry's Gifts...get them back!",
+      "out": "none"
+    },
+    {
+      "in": "msg|The spirit of a long lost Phantom Fisher has come to haunt you.",
+      "out": "Phantom Fisher|§6|true|true|§6Phantom Fisher"
+    },
+    {
+      "in": "msg|The spirit of a long lost Phantom Fisher has come to haunt you. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| The spirit of a long lost Phantom Fisher has come to haunt you.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XThe spirit of a long lost Phantom Fisher has come to haunt you.",
+      "out": "none"
+    },
+    {
+      "in": "msg|the spirit of a long lost phantom fisher has come to haunt you.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The spirit of a long lost Phantom Fisher has come to haunt you",
+      "out": "none"
+    },
+    {
+      "in": "msg|The spirit of a long lost Phantom Fisher has come to haunt youx",
+      "out": "none"
+    },
+    {
+      "in": "msg|The spirit of a long lost Phantom Fisher has come to haunt you.",
+      "out": "Phantom Fisher|§6|true|true|§6Phantom Fisher"
+    },
+    {
+      "in": "msg|The spirit of a long lost Phantom Fisher has come to haunt you.The spirit of a long lost Phantom Fisher has come to haunt you.",
+      "out": "none"
+    },
+    {
+      "in": "msg|This can't be! The manifestation of death himself!",
+      "out": "Grim Reaper|§d|true|true|§dGrim Reaper"
+    },
+    {
+      "in": "msg|This can't be! The manifestation of death himself! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| This can't be! The manifestation of death himself!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XThis can't be! The manifestation of death himself!",
+      "out": "none"
+    },
+    {
+      "in": "msg|this can't be! the manifestation of death himself!",
+      "out": "none"
+    },
+    {
+      "in": "msg|This can't be! The manifestation of death himself",
+      "out": "none"
+    },
+    {
+      "in": "msg|This can't be! The manifestation of death himself!",
+      "out": "Grim Reaper|§d|true|true|§dGrim Reaper"
+    },
+    {
+      "in": "msg|This can't be. The manifestation of death himself!",
+      "out": "none"
+    },
+    {
+      "in": "msg|This can't be! The manifestation of death himself!This can't be! The manifestation of death himself!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Phew! It's only a Scarecrow.",
+      "out": "Scarecrow|§a|false|true|§aScarecrow"
+    },
+    {
+      "in": "msg|Phew! It's only a Scarecrow. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Phew! It's only a Scarecrow.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XPhew! It's only a Scarecrow.",
+      "out": "none"
+    },
+    {
+      "in": "msg|phew! it's only a scarecrow.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Phew! It's only a Scarecrow",
+      "out": "none"
+    },
+    {
+      "in": "msg|Phew! It's only a Scarecrowx",
+      "out": "none"
+    },
+    {
+      "in": "msg|Phew. It's only a Scarecrow.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Phew! It's only a Scarecrow.Phew! It's only a Scarecrow.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You hear trotting from beneath the waves, you caught a Nightmare.",
+      "out": "Nightmare|§9|false|true|§9Nightmare"
+    },
+    {
+      "in": "msg|You hear trotting from beneath the waves, you caught a Nightmare. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You hear trotting from beneath the waves, you caught a Nightmare.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou hear trotting from beneath the waves, you caught a Nightmare.",
+      "out": "none"
+    },
+    {
+      "in": "msg|you hear trotting from beneath the waves, you caught a nightmare.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You hear trotting from beneath the waves, you caught a Nightmare",
+      "out": "none"
+    },
+    {
+      "in": "msg|You hear trotting from beneath the waves, you caught a Nightmarex",
+      "out": "none"
+    },
+    {
+      "in": "msg|You hear trotting from beneath the waves, you caught a Nightmare.",
+      "out": "Nightmare|§9|false|true|§9Nightmare"
+    },
+    {
+      "in": "msg|You hear trotting from beneath the waves, you caught a Nightmare.You hear trotting from beneath the waves, you caught a Nightmare.",
+      "out": "none"
+    },
+    {
+      "in": "msg|It must be a full moon, a Werewolf appears.",
+      "out": "Werewolf|§5|false|true|§5Werewolf"
+    },
+    {
+      "in": "msg|It must be a full moon, a Werewolf appears. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| It must be a full moon, a Werewolf appears.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XIt must be a full moon, a Werewolf appears.",
+      "out": "none"
+    },
+    {
+      "in": "msg|it must be a full moon, a werewolf appears.",
+      "out": "none"
+    },
+    {
+      "in": "msg|It must be a full moon, a Werewolf appears",
+      "out": "none"
+    },
+    {
+      "in": "msg|It must be a full moon, a Werewolf appearsx",
+      "out": "none"
+    },
+    {
+      "in": "msg|It must be a full moon, a Werewolf appears.",
+      "out": "Werewolf|§5|false|true|§5Werewolf"
+    },
+    {
+      "in": "msg|It must be a full moon, a Werewolf appears.It must be a full moon, a Werewolf appears.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Watch out! It's Jumpin' Jack.",
+      "out": "Jumpin' Jack|§f|false|true|§fJumpin' Jack"
+    },
+    {
+      "in": "msg|Watch out! It's Jumpin' Jack. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Watch out! It's Jumpin' Jack.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XWatch out! It's Jumpin' Jack.",
+      "out": "none"
+    },
+    {
+      "in": "msg|watch out! it's jumpin' jack.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Watch out! It's Jumpin' Jack",
+      "out": "none"
+    },
+    {
+      "in": "msg|Watch out! It's Jumpin' Jackx",
+      "out": "none"
+    },
+    {
+      "in": "msg|Watch out. It's Jumpin' Jack.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Watch out! It's Jumpin' Jack.Watch out! It's Jumpin' Jack.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Smells of burning. Must be a Fried Chicken.",
+      "out": "Fried Chicken|§f|false|true|§fFried Chicken"
+    },
+    {
+      "in": "msg|Smells of burning. Must be a Fried Chicken. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Smells of burning. Must be a Fried Chicken.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XSmells of burning. Must be a Fried Chicken.",
+      "out": "none"
+    },
+    {
+      "in": "msg|smells of burning. must be a fried chicken.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Smells of burning. Must be a Fried Chicken",
+      "out": "none"
+    },
+    {
+      "in": "msg|Smells of burningx Must be a Fried Chicken.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Smells of burning. Must be a Fried Chicken.",
+      "out": "Fried Chicken|§f|false|true|§fFried Chicken"
+    },
+    {
+      "in": "msg|Smells of burning. Must be a Fried Chicken.Smells of burning. Must be a Fried Chicken.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Trouble's brewing, it's a Fireproof Witch!",
+      "out": "Fireproof Witch|§9|false|true|§9Fireproof Witch"
+    },
+    {
+      "in": "msg|Trouble's brewing, it's a Fireproof Witch! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Trouble's brewing, it's a Fireproof Witch!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XTrouble's brewing, it's a Fireproof Witch!",
+      "out": "none"
+    },
+    {
+      "in": "msg|trouble's brewing, it's a fireproof witch!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Trouble's brewing, it's a Fireproof Witch",
+      "out": "none"
+    },
+    {
+      "in": "msg|Trouble's brewing, it's a Fireproof Witch!",
+      "out": "Fireproof Witch|§9|false|true|§9Fireproof Witch"
+    },
+    {
+      "in": "msg|Trouble's brewing, it's a Fireproof Witch.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Trouble's brewing, it's a Fireproof Witch!Trouble's brewing, it's a Fireproof Witch!",
+      "out": "none"
+    },
+    {
+      "in": "msg|From beneath the lava appears a Magma Slug.",
+      "out": "Magma Slug|§a|false|true|§aMagma Slug"
+    },
+    {
+      "in": "msg|From beneath the lava appears a Magma Slug. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| From beneath the lava appears a Magma Slug.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XFrom beneath the lava appears a Magma Slug.",
+      "out": "none"
+    },
+    {
+      "in": "msg|from beneath the lava appears a magma slug.",
+      "out": "none"
+    },
+    {
+      "in": "msg|From beneath the lava appears a Magma Slug",
+      "out": "none"
+    },
+    {
+      "in": "msg|From beneath the lava appears a Magma Slugx",
+      "out": "none"
+    },
+    {
+      "in": "msg|From beneath the lava appears a Magma Slug.",
+      "out": "Magma Slug|§a|false|true|§aMagma Slug"
+    },
+    {
+      "in": "msg|From beneath the lava appears a Magma Slug.From beneath the lava appears a Magma Slug.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You hear a faint Moo from the lava... A Moogma appears.",
+      "out": "Moogma|§a|false|true|§aMoogma"
+    },
+    {
+      "in": "msg|You hear a faint Moo from the lava... A Moogma appears. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You hear a faint Moo from the lava... A Moogma appears.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou hear a faint Moo from the lava... A Moogma appears.",
+      "out": "none"
+    },
+    {
+      "in": "msg|you hear a faint moo from the lava... a moogma appears.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You hear a faint Moo from the lava... A Moogma appears",
+      "out": "none"
+    },
+    {
+      "in": "msg|You hear a faint Moo from the lavax.. A Moogma appears.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You hear a faint Moo from the lava... A Moogma appears.",
+      "out": "Moogma|§a|false|true|§aMoogma"
+    },
+    {
+      "in": "msg|You hear a faint Moo from the lava... A Moogma appears.You hear a faint Moo from the lava... A Moogma appears.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A small but fearsome Lava Leech emerges.",
+      "out": "Lava Leech|§9|false|true|§9Lava Leech"
+    },
+    {
+      "in": "msg|A small but fearsome Lava Leech emerges. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A small but fearsome Lava Leech emerges.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA small but fearsome Lava Leech emerges.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a small but fearsome lava leech emerges.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A small but fearsome Lava Leech emerges",
+      "out": "none"
+    },
+    {
+      "in": "msg|A small but fearsome Lava Leech emergesx",
+      "out": "none"
+    },
+    {
+      "in": "msg|A small but fearsome Lava Leech emerges.",
+      "out": "Lava Leech|§9|false|true|§9Lava Leech"
+    },
+    {
+      "in": "msg|A small but fearsome Lava Leech emerges.A small but fearsome Lava Leech emerges.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You feel the heat radiating as a Pyroclastic Worm surfaces.",
+      "out": "Pyroclastic Worm|§9|false|true|§9Pyroclastic Worm"
+    },
+    {
+      "in": "msg|You feel the heat radiating as a Pyroclastic Worm surfaces. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You feel the heat radiating as a Pyroclastic Worm surfaces.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou feel the heat radiating as a Pyroclastic Worm surfaces.",
+      "out": "none"
+    },
+    {
+      "in": "msg|you feel the heat radiating as a pyroclastic worm surfaces.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You feel the heat radiating as a Pyroclastic Worm surfaces",
+      "out": "none"
+    },
+    {
+      "in": "msg|You feel the heat radiating as a Pyroclastic Worm surfacesx",
+      "out": "none"
+    },
+    {
+      "in": "msg|You feel the heat radiating as a Pyroclastic Worm surfaces.",
+      "out": "Pyroclastic Worm|§9|false|true|§9Pyroclastic Worm"
+    },
+    {
+      "in": "msg|You feel the heat radiating as a Pyroclastic Worm surfaces.You feel the heat radiating as a Pyroclastic Worm surfaces.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lava Flame flies out from beneath the lava.",
+      "out": "Lava Flame|§9|false|true|§9Lava Flame"
+    },
+    {
+      "in": "msg|A Lava Flame flies out from beneath the lava. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Lava Flame flies out from beneath the lava.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Lava Flame flies out from beneath the lava.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a lava flame flies out from beneath the lava.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lava Flame flies out from beneath the lava",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lava Flame flies out from beneath the lavax",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lava Flame flies out from beneath the lava.",
+      "out": "Lava Flame|§9|false|true|§9Lava Flame"
+    },
+    {
+      "in": "msg|A Lava Flame flies out from beneath the lava.A Lava Flame flies out from beneath the lava.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Fire Eel slithers out from the depths.",
+      "out": "Fire Eel|§9|false|true|§9Fire Eel"
+    },
+    {
+      "in": "msg|A Fire Eel slithers out from the depths. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Fire Eel slithers out from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Fire Eel slithers out from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a fire eel slithers out from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Fire Eel slithers out from the depths",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Fire Eel slithers out from the depthsx",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Fire Eel slithers out from the depths.",
+      "out": "Fire Eel|§9|false|true|§9Fire Eel"
+    },
+    {
+      "in": "msg|A Fire Eel slithers out from the depths.A Fire Eel slithers out from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Taurus and his steed emerge.",
+      "out": "Taurus|§5|false|true|§5Taurus"
+    },
+    {
+      "in": "msg|Taurus and his steed emerge. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Taurus and his steed emerge.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XTaurus and his steed emerge.",
+      "out": "none"
+    },
+    {
+      "in": "msg|taurus and his steed emerge.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Taurus and his steed emerge",
+      "out": "none"
+    },
+    {
+      "in": "msg|Taurus and his steed emergex",
+      "out": "none"
+    },
+    {
+      "in": "msg|Taurus and his steed emerge.",
+      "out": "Taurus|§5|false|true|§5Taurus"
+    },
+    {
+      "in": "msg|Taurus and his steed emerge.Taurus and his steed emerge.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You feel a burning sensation as you reel in a Volcanic Snail!",
+      "out": "Volcanic Snail|§a|false|true|§aVolcanic Snail"
+    },
+    {
+      "in": "msg|You feel a burning sensation as you reel in a Volcanic Snail! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You feel a burning sensation as you reel in a Volcanic Snail!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou feel a burning sensation as you reel in a Volcanic Snail!",
+      "out": "none"
+    },
+    {
+      "in": "msg|you feel a burning sensation as you reel in a volcanic snail!",
+      "out": "none"
+    },
+    {
+      "in": "msg|You feel a burning sensation as you reel in a Volcanic Snail",
+      "out": "none"
+    },
+    {
+      "in": "msg|You feel a burning sensation as you reel in a Volcanic Snail!",
+      "out": "Volcanic Snail|§a|false|true|§aVolcanic Snail"
+    },
+    {
+      "in": "msg|You feel a burning sensation as you reel in a Volcanic Snail.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You feel a burning sensation as you reel in a Volcanic Snail!You feel a burning sensation as you reel in a Volcanic Snail!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Magma Pillar rises from the lava.",
+      "out": "Magma Pillar|§5|true|true|§5Magma Pillar"
+    },
+    {
+      "in": "msg|A Magma Pillar rises from the lava. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Magma Pillar rises from the lava.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Magma Pillar rises from the lava.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a magma pillar rises from the lava.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Magma Pillar rises from the lava",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Magma Pillar rises from the lavax",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Magma Pillar rises from the lava.",
+      "out": "Magma Pillar|§5|true|true|§5Magma Pillar"
+    },
+    {
+      "in": "msg|A Magma Pillar rises from the lava.A Magma Pillar rises from the lava.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Fiery Scuttler inconspicuously waddles up to you, friends in tow.",
+      "out": "Fiery Scuttler|§6|true|true|§6Fiery Scuttler"
+    },
+    {
+      "in": "msg|A Fiery Scuttler inconspicuously waddles up to you, friends in tow. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Fiery Scuttler inconspicuously waddles up to you, friends in tow.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Fiery Scuttler inconspicuously waddles up to you, friends in tow.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a fiery scuttler inconspicuously waddles up to you, friends in tow.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Fiery Scuttler inconspicuously waddles up to you, friends in tow",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Fiery Scuttler inconspicuously waddles up to you, friends in towx",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Fiery Scuttler inconspicuously waddles up to you, friends in tow.",
+      "out": "Fiery Scuttler|§6|true|true|§6Fiery Scuttler"
+    },
+    {
+      "in": "msg|A Fiery Scuttler inconspicuously waddles up to you, friends in tow.A Fiery Scuttler inconspicuously waddles up to you, friends in tow.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You hear a massive rumble as Thunder emerges.",
+      "out": "Thunder|§6|true|true|§6Thunder"
+    },
+    {
+      "in": "msg|You hear a massive rumble as Thunder emerges. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You hear a massive rumble as Thunder emerges.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou hear a massive rumble as Thunder emerges.",
+      "out": "none"
+    },
+    {
+      "in": "msg|you hear a massive rumble as thunder emerges.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You hear a massive rumble as Thunder emerges",
+      "out": "none"
+    },
+    {
+      "in": "msg|You hear a massive rumble as Thunder emergesx",
+      "out": "none"
+    },
+    {
+      "in": "msg|You hear a massive rumble as Thunder emerges.",
+      "out": "Thunder|§6|true|true|§6Thunder"
+    },
+    {
+      "in": "msg|You hear a massive rumble as Thunder emerges.You hear a massive rumble as Thunder emerges.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You have angered a legendary creature... Lord Jawbus has arrived.",
+      "out": "Lord Jawbus|§d|true|true|§dLord Jawbus"
+    },
+    {
+      "in": "msg|You have angered a legendary creature... Lord Jawbus has arrived. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You have angered a legendary creature... Lord Jawbus has arrived.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou have angered a legendary creature... Lord Jawbus has arrived.",
+      "out": "none"
+    },
+    {
+      "in": "msg|you have angered a legendary creature... lord jawbus has arrived.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You have angered a legendary creature... Lord Jawbus has arrived",
+      "out": "none"
+    },
+    {
+      "in": "msg|You have angered a legendary creaturex.. Lord Jawbus has arrived.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You have angered a legendary creature... Lord Jawbus has arrived.",
+      "out": "Lord Jawbus|§d|true|true|§dLord Jawbus"
+    },
+    {
+      "in": "msg|You have angered a legendary creature... Lord Jawbus has arrived.You have angered a legendary creature... Lord Jawbus has arrived.",
+      "out": "none"
+    },
+    {
+      "in": "msg|WOAH! A Plhlegblast appeared.",
+      "out": "Plhlegblast|§d|true|true|§dPlhlegblast"
+    },
+    {
+      "in": "msg|WOAH! A Plhlegblast appeared. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| WOAH! A Plhlegblast appeared.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XWOAH! A Plhlegblast appeared.",
+      "out": "none"
+    },
+    {
+      "in": "msg|woah! a plhlegblast appeared.",
+      "out": "none"
+    },
+    {
+      "in": "msg|WOAH! A Plhlegblast appeared",
+      "out": "none"
+    },
+    {
+      "in": "msg|WOAH! A Plhlegblast appearedx",
+      "out": "none"
+    },
+    {
+      "in": "msg|WOAH. A Plhlegblast appeared.",
+      "out": "none"
+    },
+    {
+      "in": "msg|WOAH! A Plhlegblast appeared.WOAH! A Plhlegblast appeared.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The sky darkens and the air thickens. The end times are upon us: Ragnarok is here.",
+      "out": "Ragnarok|§d|true|true|§dRagnarok"
+    },
+    {
+      "in": "msg|The sky darkens and the air thickens. The end times are upon us: Ragnarok is here. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| The sky darkens and the air thickens. The end times are upon us: Ragnarok is here.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XThe sky darkens and the air thickens. The end times are upon us: Ragnarok is here.",
+      "out": "none"
+    },
+    {
+      "in": "msg|the sky darkens and the air thickens. the end times are upon us: ragnarok is here.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The sky darkens and the air thickens. The end times are upon us: Ragnarok is here",
+      "out": "none"
+    },
+    {
+      "in": "msg|The sky darkens and the air thickensx The end times are upon us: Ragnarok is here.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The sky darkens and the air thickens. The end times are upon us: Ragnarok is here.",
+      "out": "Ragnarok|§d|true|true|§dRagnarok"
+    },
+    {
+      "in": "msg|The sky darkens and the air thickens. The end times are upon us: Ragnarok is here.The sky darkens and the air thickens. The end times are upon us: Ragnarok is here.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Vanquisher is spawning nearby!",
+      "out": "Vanquisher|§5|true|false|§5Vanquisher"
+    },
+    {
+      "in": "msg|A Vanquisher is spawning nearby! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Vanquisher is spawning nearby!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Vanquisher is spawning nearby!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a vanquisher is spawning nearby!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Vanquisher is spawning nearby",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Vanquisher is spawning nearby!",
+      "out": "Vanquisher|§5|true|false|§5Vanquisher"
+    },
+    {
+      "in": "msg|A Vanquisher is spawning nearby.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Vanquisher is spawning nearby!A Vanquisher is spawning nearby!",
+      "out": "none"
+    },
+    {
+      "in": "msg|An Oasis Rabbit appears from the water.",
+      "out": "Oasis Rabbit|§a|false|true|§aOasis Rabbit"
+    },
+    {
+      "in": "msg|An Oasis Rabbit appears from the water. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| An Oasis Rabbit appears from the water.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XAn Oasis Rabbit appears from the water.",
+      "out": "none"
+    },
+    {
+      "in": "msg|an oasis rabbit appears from the water.",
+      "out": "none"
+    },
+    {
+      "in": "msg|An Oasis Rabbit appears from the water",
+      "out": "none"
+    },
+    {
+      "in": "msg|An Oasis Rabbit appears from the waterx",
+      "out": "none"
+    },
+    {
+      "in": "msg|An Oasis Rabbit appears from the water.",
+      "out": "Oasis Rabbit|§a|false|true|§aOasis Rabbit"
+    },
+    {
+      "in": "msg|An Oasis Rabbit appears from the water.An Oasis Rabbit appears from the water.",
+      "out": "none"
+    },
+    {
+      "in": "msg|An Oasis Sheep appears from the water.",
+      "out": "Oasis Sheep|§a|false|true|§aOasis Sheep"
+    },
+    {
+      "in": "msg|An Oasis Sheep appears from the water. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| An Oasis Sheep appears from the water.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XAn Oasis Sheep appears from the water.",
+      "out": "none"
+    },
+    {
+      "in": "msg|an oasis sheep appears from the water.",
+      "out": "none"
+    },
+    {
+      "in": "msg|An Oasis Sheep appears from the water",
+      "out": "none"
+    },
+    {
+      "in": "msg|An Oasis Sheep appears from the waterx",
+      "out": "none"
+    },
+    {
+      "in": "msg|An Oasis Sheep appears from the water.",
+      "out": "Oasis Sheep|§a|false|true|§aOasis Sheep"
+    },
+    {
+      "in": "msg|An Oasis Sheep appears from the water.An Oasis Sheep appears from the water.",
+      "out": "none"
+    },
+    {
+      "in": "msg|An Abyssal Miner breaks out of the water!",
+      "out": "Abyssal Miner|§6|true|true|§6Abyssal Miner"
+    },
+    {
+      "in": "msg|An Abyssal Miner breaks out of the water! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| An Abyssal Miner breaks out of the water!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XAn Abyssal Miner breaks out of the water!",
+      "out": "none"
+    },
+    {
+      "in": "msg|an abyssal miner breaks out of the water!",
+      "out": "none"
+    },
+    {
+      "in": "msg|An Abyssal Miner breaks out of the water",
+      "out": "none"
+    },
+    {
+      "in": "msg|An Abyssal Miner breaks out of the water!",
+      "out": "Abyssal Miner|§6|true|true|§6Abyssal Miner"
+    },
+    {
+      "in": "msg|An Abyssal Miner breaks out of the water.",
+      "out": "none"
+    },
+    {
+      "in": "msg|An Abyssal Miner breaks out of the water!An Abyssal Miner breaks out of the water!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Water Worm surfaces!",
+      "out": "Water Worm|§9|false|true|§9Water Worm"
+    },
+    {
+      "in": "msg|A Water Worm surfaces! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Water Worm surfaces!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Water Worm surfaces!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a water worm surfaces!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Water Worm surfaces",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Water Worm surfaces!",
+      "out": "Water Worm|§9|false|true|§9Water Worm"
+    },
+    {
+      "in": "msg|A Water Worm surfaces.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Water Worm surfaces!A Water Worm surfaces!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Poisoned Water Worm surfaces!",
+      "out": "Poisoned Water Worm|§9|false|true|§9Poisoned Water Worm"
+    },
+    {
+      "in": "msg|A Poisoned Water Worm surfaces! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Poisoned Water Worm surfaces!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Poisoned Water Worm surfaces!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a poisoned water worm surfaces!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Poisoned Water Worm surfaces",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Poisoned Water Worm surfaces!",
+      "out": "Poisoned Water Worm|§9|false|true|§9Poisoned Water Worm"
+    },
+    {
+      "in": "msg|A Poisoned Water Worm surfaces.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Poisoned Water Worm surfaces!A Poisoned Water Worm surfaces!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Flaming Worm surfaces from the depths!",
+      "out": "Flaming Worm|§9|false|true|§9Flaming Worm"
+    },
+    {
+      "in": "msg|A Flaming Worm surfaces from the depths! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Flaming Worm surfaces from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Flaming Worm surfaces from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a flaming worm surfaces from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Flaming Worm surfaces from the depths",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Flaming Worm surfaces from the depths!",
+      "out": "Flaming Worm|§9|false|true|§9Flaming Worm"
+    },
+    {
+      "in": "msg|A Flaming Worm surfaces from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Flaming Worm surfaces from the depths!A Flaming Worm surfaces from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lava Blaze has surfaced from the depths!",
+      "out": "Lava Blaze|§5|false|true|§5Lava Blaze"
+    },
+    {
+      "in": "msg|A Lava Blaze has surfaced from the depths! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Lava Blaze has surfaced from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Lava Blaze has surfaced from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a lava blaze has surfaced from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lava Blaze has surfaced from the depths",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lava Blaze has surfaced from the depths!",
+      "out": "Lava Blaze|§5|false|true|§5Lava Blaze"
+    },
+    {
+      "in": "msg|A Lava Blaze has surfaced from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lava Blaze has surfaced from the depths!A Lava Blaze has surfaced from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lava Pigman arose from the depths!",
+      "out": "Lava Pigman|§5|false|true|§5Lava Pigman"
+    },
+    {
+      "in": "msg|A Lava Pigman arose from the depths! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Lava Pigman arose from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Lava Pigman arose from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a lava pigman arose from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lava Pigman arose from the depths",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lava Pigman arose from the depths!",
+      "out": "Lava Pigman|§5|false|true|§5Lava Pigman"
+    },
+    {
+      "in": "msg|A Lava Pigman arose from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lava Pigman arose from the depths!A Lava Pigman arose from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Mithril Grubber.",
+      "out": "Small Mithril Grubber|§a|false|true|§aSmall Mithril Grubber"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Mithril Grubber. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A leech of the mines surfaces... you've caught a Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA leech of the mines surfaces... you've caught a Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a leech of the mines surfaces... you've caught a mithril grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Mithril Grubber",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfacesx.. you've caught a Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Mithril Grubber.",
+      "out": "Small Mithril Grubber|§a|false|true|§aSmall Mithril Grubber"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Mithril Grubber.A leech of the mines surfaces... you've caught a Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Medium Mithril Grubber.",
+      "out": "Medium Mithril Grubber|§a|false|true|§aMedium Mithril Grubber"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Medium Mithril Grubber. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A leech of the mines surfaces... you've caught a Medium Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA leech of the mines surfaces... you've caught a Medium Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a leech of the mines surfaces... you've caught a medium mithril grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Medium Mithril Grubber",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfacesx.. you've caught a Medium Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Medium Mithril Grubber.",
+      "out": "Medium Mithril Grubber|§a|false|true|§aMedium Mithril Grubber"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Medium Mithril Grubber.A leech of the mines surfaces... you've caught a Medium Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Large Mithril Grubber.",
+      "out": "Large Mithril Grubber|§a|false|true|§aLarge Mithril Grubber"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Large Mithril Grubber. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A leech of the mines surfaces... you've caught a Large Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA leech of the mines surfaces... you've caught a Large Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a leech of the mines surfaces... you've caught a large mithril grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Large Mithril Grubber",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfacesx.. you've caught a Large Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Large Mithril Grubber.",
+      "out": "Large Mithril Grubber|§a|false|true|§aLarge Mithril Grubber"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Large Mithril Grubber.A leech of the mines surfaces... you've caught a Large Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Bloated Mithril Grubber.",
+      "out": "Bloated Mithril Grubber|§a|false|true|§aBloated Mithril Grubber"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Bloated Mithril Grubber. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A leech of the mines surfaces... you've caught a Bloated Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA leech of the mines surfaces... you've caught a Bloated Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a leech of the mines surfaces... you've caught a bloated mithril grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Bloated Mithril Grubber",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfacesx.. you've caught a Bloated Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Bloated Mithril Grubber.",
+      "out": "Bloated Mithril Grubber|§a|false|true|§aBloated Mithril Grubber"
+    },
+    {
+      "in": "msg|A leech of the mines surfaces... you've caught a Bloated Mithril Grubber.A leech of the mines surfaces... you've caught a Bloated Mithril Grubber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Trash Gobbler is hungry for you!",
+      "out": "Trash Gobbler|§f|false|true|§fTrash Gobbler"
+    },
+    {
+      "in": "msg|The Trash Gobbler is hungry for you! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| The Trash Gobbler is hungry for you!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XThe Trash Gobbler is hungry for you!",
+      "out": "none"
+    },
+    {
+      "in": "msg|the trash gobbler is hungry for you!",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Trash Gobbler is hungry for you",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Trash Gobbler is hungry for you!",
+      "out": "Trash Gobbler|§f|false|true|§fTrash Gobbler"
+    },
+    {
+      "in": "msg|The Trash Gobbler is hungry for you.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Trash Gobbler is hungry for you!The Trash Gobbler is hungry for you!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Dumpster Diver has emerged from the swamp!",
+      "out": "Dumpster Diver|§a|false|true|§aDumpster Diver"
+    },
+    {
+      "in": "msg|A Dumpster Diver has emerged from the swamp! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Dumpster Diver has emerged from the swamp!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Dumpster Diver has emerged from the swamp!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a dumpster diver has emerged from the swamp!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Dumpster Diver has emerged from the swamp",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Dumpster Diver has emerged from the swamp!",
+      "out": "Dumpster Diver|§a|false|true|§aDumpster Diver"
+    },
+    {
+      "in": "msg|A Dumpster Diver has emerged from the swamp.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Dumpster Diver has emerged from the swamp!A Dumpster Diver has emerged from the swamp!",
+      "out": "none"
+    },
+    {
+      "in": "msg|The desolate wail of a Banshee breaks the silence.",
+      "out": "Banshee|§9|false|true|§9Banshee"
+    },
+    {
+      "in": "msg|The desolate wail of a Banshee breaks the silence. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| The desolate wail of a Banshee breaks the silence.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XThe desolate wail of a Banshee breaks the silence.",
+      "out": "none"
+    },
+    {
+      "in": "msg|the desolate wail of a banshee breaks the silence.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The desolate wail of a Banshee breaks the silence",
+      "out": "none"
+    },
+    {
+      "in": "msg|The desolate wail of a Banshee breaks the silencex",
+      "out": "none"
+    },
+    {
+      "in": "msg|The desolate wail of a Banshee breaks the silence.",
+      "out": "Banshee|§9|false|true|§9Banshee"
+    },
+    {
+      "in": "msg|The desolate wail of a Banshee breaks the silence.The desolate wail of a Banshee breaks the silence.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A swampy mass of slime emerges, the Bayou Sludge!",
+      "out": "Bayou Sludge|§5|false|true|§5Bayou Sludge"
+    },
+    {
+      "in": "msg|A swampy mass of slime emerges, the Bayou Sludge! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A swampy mass of slime emerges, the Bayou Sludge!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA swampy mass of slime emerges, the Bayou Sludge!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a swampy mass of slime emerges, the bayou sludge!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A swampy mass of slime emerges, the Bayou Sludge",
+      "out": "none"
+    },
+    {
+      "in": "msg|A swampy mass of slime emerges, the Bayou Sludge!",
+      "out": "Bayou Sludge|§5|false|true|§5Bayou Sludge"
+    },
+    {
+      "in": "msg|A swampy mass of slime emerges, the Bayou Sludge.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A swampy mass of slime emerges, the Bayou Sludge!A swampy mass of slime emerges, the Bayou Sludge!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A long snout breaks the surface of the water. It's an Alligator!",
+      "out": "Alligator|§6|true|true|§6Alligator"
+    },
+    {
+      "in": "msg|A long snout breaks the surface of the water. It's an Alligator! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A long snout breaks the surface of the water. It's an Alligator!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA long snout breaks the surface of the water. It's an Alligator!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a long snout breaks the surface of the water. it's an alligator!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A long snout breaks the surface of the water. It's an Alligator",
+      "out": "none"
+    },
+    {
+      "in": "msg|A long snout breaks the surface of the waterx It's an Alligator!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A long snout breaks the surface of the water. It's an Alligator.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A long snout breaks the surface of the water. It's an Alligator!A long snout breaks the surface of the water. It's an Alligator!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A massive Titanoboa surfaces. Its body stretches as far as the eye can see.",
+      "out": "Titanoboa|§d|true|true|§dTitanoboa"
+    },
+    {
+      "in": "msg|A massive Titanoboa surfaces. Its body stretches as far as the eye can see. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A massive Titanoboa surfaces. Its body stretches as far as the eye can see.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA massive Titanoboa surfaces. Its body stretches as far as the eye can see.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a massive titanoboa surfaces. its body stretches as far as the eye can see.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A massive Titanoboa surfaces. Its body stretches as far as the eye can see",
+      "out": "none"
+    },
+    {
+      "in": "msg|A massive Titanoboa surfacesx Its body stretches as far as the eye can see.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A massive Titanoboa surfaces. Its body stretches as far as the eye can see.",
+      "out": "Titanoboa|§d|true|true|§dTitanoboa"
+    },
+    {
+      "in": "msg|A massive Titanoboa surfaces. Its body stretches as far as the eye can see.A massive Titanoboa surfaces. Its body stretches as far as the eye can see.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've caused a disturbance in the loch. Could it be... Nessie?",
+      "out": "Nessie|§d|true|true|§dNessie"
+    },
+    {
+      "in": "msg|You've caused a disturbance in the loch. Could it be... Nessie? ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You've caused a disturbance in the loch. Could it be... Nessie?",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou've caused a disturbance in the loch. Could it be... Nessie?",
+      "out": "none"
+    },
+    {
+      "in": "msg|you've caused a disturbance in the loch. could it be... nessie?",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've caused a disturbance in the loch. Could it be... Nessie",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've caused a disturbance in the lochx Could it be... Nessie?",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've caused a disturbance in the loch. Could it be... Nessie?",
+      "out": "Nessie|§d|true|true|§dNessie"
+    },
+    {
+      "in": "msg|You've caused a disturbance in the loch. Could it be... Nessie?You've caused a disturbance in the loch. Could it be... Nessie?",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Loch Emperor arises from the depths.",
+      "out": "The Loch Emperor|§6|true|true|§6The Loch Emperor"
+    },
+    {
+      "in": "msg|The Loch Emperor arises from the depths. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| The Loch Emperor arises from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XThe Loch Emperor arises from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|the loch emperor arises from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Loch Emperor arises from the depths",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Loch Emperor arises from the depthsx",
+      "out": "none"
+    },
+    {
+      "in": "msg|The Loch Emperor arises from the depths.",
+      "out": "The Loch Emperor|§6|true|true|§6The Loch Emperor"
+    },
+    {
+      "in": "msg|The Loch Emperor arises from the depths.The Loch Emperor arises from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've hooked a Bogged!",
+      "out": "Bogged|§f|false|true|§fBogged"
+    },
+    {
+      "in": "msg|You've hooked a Bogged! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You've hooked a Bogged!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou've hooked a Bogged!",
+      "out": "none"
+    },
+    {
+      "in": "msg|you've hooked a bogged!",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've hooked a Bogged",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've hooked a Bogged!",
+      "out": "Bogged|§f|false|true|§fBogged"
+    },
+    {
+      "in": "msg|You've hooked a Bogged.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've hooked a Bogged!You've hooked a Bogged!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A gang of Liltads!",
+      "out": "Tadgang|§a|false|true|§aTadgang"
+    },
+    {
+      "in": "msg|A gang of Liltads! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A gang of Liltads!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA gang of Liltads!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a gang of liltads!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A gang of Liltads",
+      "out": "none"
+    },
+    {
+      "in": "msg|A gang of Liltads!",
+      "out": "Tadgang|§a|false|true|§aTadgang"
+    },
+    {
+      "in": "msg|A gang of Liltads.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A gang of Liltads!A gang of Liltads!",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've hooked an Ent, as ancient as the forest itself.",
+      "out": "Ent|§a|false|true|§aEnt"
+    },
+    {
+      "in": "msg|You've hooked an Ent, as ancient as the forest itself. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You've hooked an Ent, as ancient as the forest itself.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou've hooked an Ent, as ancient as the forest itself.",
+      "out": "none"
+    },
+    {
+      "in": "msg|you've hooked an ent, as ancient as the forest itself.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've hooked an Ent, as ancient as the forest itself",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've hooked an Ent, as ancient as the forest itselfx",
+      "out": "none"
+    },
+    {
+      "in": "msg|You've hooked an Ent, as ancient as the forest itself.",
+      "out": "Ent|§a|false|true|§aEnt"
+    },
+    {
+      "in": "msg|You've hooked an Ent, as ancient as the forest itself.You've hooked an Ent, as ancient as the forest itself.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Look! A Wetwing emerges!",
+      "out": "Wetwing|§9|false|true|§9Wetwing"
+    },
+    {
+      "in": "msg|Look! A Wetwing emerges! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Look! A Wetwing emerges!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XLook! A Wetwing emerges!",
+      "out": "none"
+    },
+    {
+      "in": "msg|look! a wetwing emerges!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Look! A Wetwing emerges",
+      "out": "none"
+    },
+    {
+      "in": "msg|Look! A Wetwing emerges!",
+      "out": "Wetwing|§9|false|true|§9Wetwing"
+    },
+    {
+      "in": "msg|Look. A Wetwing emerges!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Look! A Wetwing emerges!Look! A Wetwing emerges!",
+      "out": "none"
+    },
+    {
+      "in": "msg|You caught a Stridersurfer.",
+      "out": "Stridersurfer|§9|false|true|§9Stridersurfer"
+    },
+    {
+      "in": "msg|You caught a Stridersurfer. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| You caught a Stridersurfer.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XYou caught a Stridersurfer.",
+      "out": "none"
+    },
+    {
+      "in": "msg|you caught a stridersurfer.",
+      "out": "none"
+    },
+    {
+      "in": "msg|You caught a Stridersurfer",
+      "out": "none"
+    },
+    {
+      "in": "msg|You caught a Stridersurferx",
+      "out": "none"
+    },
+    {
+      "in": "msg|You caught a Stridersurfer.",
+      "out": "Stridersurfer|§9|false|true|§9Stridersurfer"
+    },
+    {
+      "in": "msg|You caught a Stridersurfer.You caught a Stridersurfer.",
+      "out": "none"
+    },
+    {
+      "in": "msg|An inquisitive Atoll Croaker takes the bait!",
+      "out": "Atoll Croaker|§f|false|true|§fAtoll Croaker"
+    },
+    {
+      "in": "msg|An inquisitive Atoll Croaker takes the bait! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| An inquisitive Atoll Croaker takes the bait!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XAn inquisitive Atoll Croaker takes the bait!",
+      "out": "none"
+    },
+    {
+      "in": "msg|an inquisitive atoll croaker takes the bait!",
+      "out": "none"
+    },
+    {
+      "in": "msg|An inquisitive Atoll Croaker takes the bait",
+      "out": "none"
+    },
+    {
+      "in": "msg|An inquisitive Atoll Croaker takes the bait!",
+      "out": "Atoll Croaker|§f|false|true|§fAtoll Croaker"
+    },
+    {
+      "in": "msg|An inquisitive Atoll Croaker takes the bait.",
+      "out": "none"
+    },
+    {
+      "in": "msg|An inquisitive Atoll Croaker takes the bait!An inquisitive Atoll Croaker takes the bait!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lotus Guardian emerges, ready to protect the Atoll.",
+      "out": "Lotus Guardian|§a|false|true|§aLotus Guardian"
+    },
+    {
+      "in": "msg|A Lotus Guardian emerges, ready to protect the Atoll. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Lotus Guardian emerges, ready to protect the Atoll.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Lotus Guardian emerges, ready to protect the Atoll.",
+      "out": "none"
+    },
+    {
+      "in": "msg|a lotus guardian emerges, ready to protect the atoll.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lotus Guardian emerges, ready to protect the Atoll",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Lotus Guardian emerges, ready to protect the Atollx",
+      "out": "Lotus Guardian|§a|false|true|§aLotus Guardian"
+    },
+    {
+      "in": "msg|A Lotus Guardian emerges, ready to protect the Atoll.",
+      "out": "Lotus Guardian|§a|false|true|§aLotus Guardian"
+    },
+    {
+      "in": "msg|A Lotus Guardian emerges, ready to protect the Atoll.A Lotus Guardian emerges, ready to protect the Atoll.",
+      "out": "none"
+    },
+    {
+      "in": "msg|What even is that?! A... gorF?",
+      "out": "gorF|§9|false|true|§9gorF"
+    },
+    {
+      "in": "msg|What even is that?! A... gorF? ",
+      "out": "none"
+    },
+    {
+      "in": "msg| What even is that?! A... gorF?",
+      "out": "none"
+    },
+    {
+      "in": "msg|XWhat even is that?! A... gorF?",
+      "out": "none"
+    },
+    {
+      "in": "msg|what even is that?! a... gorf?",
+      "out": "none"
+    },
+    {
+      "in": "msg|What even is that?! A... gorF",
+      "out": "none"
+    },
+    {
+      "in": "msg|What even is that?! Ax.. gorF?",
+      "out": "none"
+    },
+    {
+      "in": "msg|What even is that?. A... gorF?",
+      "out": "none"
+    },
+    {
+      "in": "msg|What even is that?! A... gorF?What even is that?! A... gorF?",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Drowned Captain takes hold of your bobber!",
+      "out": "Drowned Captain|§5|false|true|§5Drowned Captain"
+    },
+    {
+      "in": "msg|A Drowned Captain takes hold of your bobber! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Drowned Captain takes hold of your bobber!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Drowned Captain takes hold of your bobber!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a drowned captain takes hold of your bobber!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Drowned Captain takes hold of your bobber",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Drowned Captain takes hold of your bobber!",
+      "out": "Drowned Captain|§5|false|true|§5Drowned Captain"
+    },
+    {
+      "in": "msg|A Drowned Captain takes hold of your bobber.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Drowned Captain takes hold of your bobber!A Drowned Captain takes hold of your bobber!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Puddle Jumper is preparing for liftoff—cast your rod into it and hold on tight!",
+      "out": "Puddle Jumper|§6|true|false|§6Puddle Jumper"
+    },
+    {
+      "in": "msg|A Puddle Jumper is preparing for liftoff—cast your rod into it and hold on tight! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Puddle Jumper is preparing for liftoff—cast your rod into it and hold on tight!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Puddle Jumper is preparing for liftoff—cast your rod into it and hold on tight!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a puddle jumper is preparing for liftoff—cast your rod into it and hold on tight!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Puddle Jumper is preparing for liftoff—cast your rod into it and hold on tight",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Puddle Jumper is preparing for liftoff—cast your rod into it and hold on tight!",
+      "out": "Puddle Jumper|§6|true|false|§6Puddle Jumper"
+    },
+    {
+      "in": "msg|A Puddle Jumper is preparing for liftoff—cast your rod into it and hold on tight.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Puddle Jumper is preparing for liftoff—cast your rod into it and hold on tight!A Puddle Jumper is preparing for liftoff—cast your rod into it and hold on tight!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Bow down before the Frog Prince... or pay the hefty price!",
+      "out": "Frog Prince|§d|true|true|§dFrog Prince"
+    },
+    {
+      "in": "msg|Bow down before the Frog Prince... or pay the hefty price! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Bow down before the Frog Prince... or pay the hefty price!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XBow down before the Frog Prince... or pay the hefty price!",
+      "out": "none"
+    },
+    {
+      "in": "msg|bow down before the frog prince... or pay the hefty price!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Bow down before the Frog Prince... or pay the hefty price",
+      "out": "none"
+    },
+    {
+      "in": "msg|Bow down before the Frog Princex.. or pay the hefty price!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Bow down before the Frog Prince... or pay the hefty price.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Bow down before the Frog Prince... or pay the hefty price!Bow down before the Frog Prince... or pay the hefty price!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Haggard stumbles to the shore, ready for a fight!",
+      "out": "Haggard|§f|false|true|§fHaggard"
+    },
+    {
+      "in": "msg|A Haggard stumbles to the shore, ready for a fight! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Haggard stumbles to the shore, ready for a fight!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Haggard stumbles to the shore, ready for a fight!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a haggard stumbles to the shore, ready for a fight!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Haggard stumbles to the shore, ready for a fight",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Haggard stumbles to the shore, ready for a fight!",
+      "out": "Haggard|§f|false|true|§fHaggard"
+    },
+    {
+      "in": "msg|A Haggard stumbles to the shore, ready for a fight.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Haggard stumbles to the shore, ready for a fight!A Haggard stumbles to the shore, ready for a fight!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Brineling interrupts you with a stream of bubbles!",
+      "out": "Brineling|§a|false|true|§aBrineling"
+    },
+    {
+      "in": "msg|A Brineling interrupts you with a stream of bubbles! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Brineling interrupts you with a stream of bubbles!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Brineling interrupts you with a stream of bubbles!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a brineling interrupts you with a stream of bubbles!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Brineling interrupts you with a stream of bubbles",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Brineling interrupts you with a stream of bubbles!",
+      "out": "Brineling|§a|false|true|§aBrineling"
+    },
+    {
+      "in": "msg|A Brineling interrupts you with a stream of bubbles.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Brineling interrupts you with a stream of bubbles!A Brineling interrupts you with a stream of bubbles!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Sprawl emerges from the blue, and it's looking for you!",
+      "out": "Sprawl|§9|false|true|§9Sprawl"
+    },
+    {
+      "in": "msg|A Sprawl emerges from the blue, and it's looking for you! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Sprawl emerges from the blue, and it's looking for you!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Sprawl emerges from the blue, and it's looking for you!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a sprawl emerges from the blue, and it's looking for you!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Sprawl emerges from the blue, and it's looking for you",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Sprawl emerges from the blue, and it's looking for you!",
+      "out": "Sprawl|§9|false|true|§9Sprawl"
+    },
+    {
+      "in": "msg|A Sprawl emerges from the blue, and it's looking for you.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Sprawl emerges from the blue, and it's looking for you!A Sprawl emerges from the blue, and it's looking for you!",
+      "out": "none"
+    },
+    {
+      "in": "msg|The laughter of a Torrid echoes through the air.",
+      "out": "Torrid|§5|false|true|§5Torrid"
+    },
+    {
+      "in": "msg|The laughter of a Torrid echoes through the air. ",
+      "out": "none"
+    },
+    {
+      "in": "msg| The laughter of a Torrid echoes through the air.",
+      "out": "none"
+    },
+    {
+      "in": "msg|XThe laughter of a Torrid echoes through the air.",
+      "out": "none"
+    },
+    {
+      "in": "msg|the laughter of a torrid echoes through the air.",
+      "out": "none"
+    },
+    {
+      "in": "msg|The laughter of a Torrid echoes through the air",
+      "out": "none"
+    },
+    {
+      "in": "msg|The laughter of a Torrid echoes through the airx",
+      "out": "none"
+    },
+    {
+      "in": "msg|The laughter of a Torrid echoes through the air.",
+      "out": "Torrid|§5|false|true|§5Torrid"
+    },
+    {
+      "in": "msg|The laughter of a Torrid echoes through the air.The laughter of a Torrid echoes through the air.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Something zips through the air - it's a Silkbreeze!",
+      "out": "Silkbreeze|§6|true|true|§6Silkbreeze"
+    },
+    {
+      "in": "msg|Something zips through the air - it's a Silkbreeze! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| Something zips through the air - it's a Silkbreeze!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XSomething zips through the air - it's a Silkbreeze!",
+      "out": "none"
+    },
+    {
+      "in": "msg|something zips through the air - it's a silkbreeze!",
+      "out": "none"
+    },
+    {
+      "in": "msg|Something zips through the air - it's a Silkbreeze",
+      "out": "none"
+    },
+    {
+      "in": "msg|Something zips through the air - it's a Silkbreeze!",
+      "out": "Silkbreeze|§6|true|true|§6Silkbreeze"
+    },
+    {
+      "in": "msg|Something zips through the air - it's a Silkbreeze.",
+      "out": "none"
+    },
+    {
+      "in": "msg|Something zips through the air - it's a Silkbreeze!Something zips through the air - it's a Silkbreeze!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Giant Isopod was dredged up from the depths!",
+      "out": "Giant Isopod|§d|true|true|§dGiant Isopod"
+    },
+    {
+      "in": "msg|A Giant Isopod was dredged up from the depths! ",
+      "out": "none"
+    },
+    {
+      "in": "msg| A Giant Isopod was dredged up from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|XA Giant Isopod was dredged up from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|a giant isopod was dredged up from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Giant Isopod was dredged up from the depths",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Giant Isopod was dredged up from the depths!",
+      "out": "Giant Isopod|§d|true|true|§dGiant Isopod"
+    },
+    {
+      "in": "msg|A Giant Isopod was dredged up from the depths.",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Giant Isopod was dredged up from the depths!A Giant Isopod was dredged up from the depths!",
+      "out": "none"
+    },
+    {
+      "in": "msg|",
+      "out": "none"
+    },
+    {
+      "in": "msg|hello",
+      "out": "none"
+    },
+    {
+      "in": "msg|You caught a Sea Walker",
+      "out": "none"
+    },
+    {
+      "in": "msg|A Squid appeared!",
+      "out": "none"
+    },
+    {
+      "in": "name|Water Hydra",
+      "out": "§6"
+    },
+    {
+      "in": "in|Water Hydra",
+      "out": "Water Hydra"
+    },
+    {
+      "in": "in|[Lv5] Water Hydra 100/100❤",
+      "out": "Water Hydra"
+    },
+    {
+      "in": "in|§cWater Hydra",
+      "out": "Water Hydra"
+    },
+    {
+      "in": "in|Night Water Hydra",
+      "out": "Water Hydra"
+    },
+    {
+      "in": "in|Water Hydra Jr",
+      "out": "Water Hydra"
+    },
+    {
+      "in": "name|Carrot King",
+      "out": "§9"
+    },
+    {
+      "in": "in|Carrot King",
+      "out": "Carrot King"
+    },
+    {
+      "in": "in|[Lv5] Carrot King 100/100❤",
+      "out": "Carrot King"
+    },
+    {
+      "in": "in|§cCarrot King",
+      "out": "Carrot King"
+    },
+    {
+      "in": "in|Night Carrot King",
+      "out": "Carrot King"
+    },
+    {
+      "in": "in|Carrot King Jr",
+      "out": "Carrot King"
+    },
+    {
+      "in": "name|Sea Guardian",
+      "out": "§f"
+    },
+    {
+      "in": "in|Sea Guardian",
+      "out": "Sea Guardian"
+    },
+    {
+      "in": "in|[Lv5] Sea Guardian 100/100❤",
+      "out": "Sea Guardian"
+    },
+    {
+      "in": "in|§cSea Guardian",
+      "out": "Sea Guardian"
+    },
+    {
+      "in": "in|Night Sea Guardian",
+      "out": "Sea Guardian"
+    },
+    {
+      "in": "in|Sea Guardian Jr",
+      "out": "Sea Guardian"
+    },
+    {
+      "in": "name|Squid",
+      "out": "§f"
+    },
+    {
+      "in": "in|Squid",
+      "out": "Squid"
+    },
+    {
+      "in": "in|[Lv5] Squid 100/100❤",
+      "out": "Squid"
+    },
+    {
+      "in": "in|§cSquid",
+      "out": "Squid"
+    },
+    {
+      "in": "in|Night Squid",
+      "out": "Squid"
+    },
+    {
+      "in": "in|Squid Jr",
+      "out": "Squid"
+    },
+    {
+      "in": "name|Night Squid",
+      "out": "§f"
+    },
+    {
+      "in": "in|Night Squid",
+      "out": "Squid"
+    },
+    {
+      "in": "in|[Lv5] Night Squid 100/100❤",
+      "out": "Squid"
+    },
+    {
+      "in": "in|§cNight Squid",
+      "out": "Squid"
+    },
+    {
+      "in": "in|Night Night Squid",
+      "out": "Squid"
+    },
+    {
+      "in": "in|Night Squid Jr",
+      "out": "Squid"
+    },
+    {
+      "in": "name|Sea Walker",
+      "out": "§f"
+    },
+    {
+      "in": "in|Sea Walker",
+      "out": "Sea Walker"
+    },
+    {
+      "in": "in|[Lv5] Sea Walker 100/100❤",
+      "out": "Sea Walker"
+    },
+    {
+      "in": "in|§cSea Walker",
+      "out": "Sea Walker"
+    },
+    {
+      "in": "in|Night Sea Walker",
+      "out": "Sea Walker"
+    },
+    {
+      "in": "in|Sea Walker Jr",
+      "out": "Sea Walker"
+    },
+    {
+      "in": "name|Sea Witch",
+      "out": "§a"
+    },
+    {
+      "in": "in|Sea Witch",
+      "out": "Sea Witch"
+    },
+    {
+      "in": "in|[Lv5] Sea Witch 100/100❤",
+      "out": "Sea Witch"
+    },
+    {
+      "in": "in|§cSea Witch",
+      "out": "Sea Witch"
+    },
+    {
+      "in": "in|Night Sea Witch",
+      "out": "Sea Witch"
+    },
+    {
+      "in": "in|Sea Witch Jr",
+      "out": "Sea Witch"
+    },
+    {
+      "in": "name|Sea Archer",
+      "out": "§a"
+    },
+    {
+      "in": "in|Sea Archer",
+      "out": "Sea Archer"
+    },
+    {
+      "in": "in|[Lv5] Sea Archer 100/100❤",
+      "out": "Sea Archer"
+    },
+    {
+      "in": "in|§cSea Archer",
+      "out": "Sea Archer"
+    },
+    {
+      "in": "in|Night Sea Archer",
+      "out": "Sea Archer"
+    },
+    {
+      "in": "in|Sea Archer Jr",
+      "out": "Sea Archer"
+    },
+    {
+      "in": "name|Rider of the Deep",
+      "out": "§a"
+    },
+    {
+      "in": "in|Rider of the Deep",
+      "out": "Rider of the Deep"
+    },
+    {
+      "in": "in|[Lv5] Rider of the Deep 100/100❤",
+      "out": "Rider of the Deep"
+    },
+    {
+      "in": "in|§cRider of the Deep",
+      "out": "Rider of the Deep"
+    },
+    {
+      "in": "in|Night Rider of the Deep",
+      "out": "Rider of the Deep"
+    },
+    {
+      "in": "in|Rider of the Deep Jr",
+      "out": "Rider of the Deep"
+    },
+    {
+      "in": "name|Catfish",
+      "out": "§9"
+    },
+    {
+      "in": "in|Catfish",
+      "out": "Catfish"
+    },
+    {
+      "in": "in|[Lv5] Catfish 100/100❤",
+      "out": "Catfish"
+    },
+    {
+      "in": "in|§cCatfish",
+      "out": "Catfish"
+    },
+    {
+      "in": "in|Night Catfish",
+      "out": "Catfish"
+    },
+    {
+      "in": "in|Catfish Jr",
+      "out": "Catfish"
+    },
+    {
+      "in": "name|Sea Leech",
+      "out": "§9"
+    },
+    {
+      "in": "in|Sea Leech",
+      "out": "Sea Leech"
+    },
+    {
+      "in": "in|[Lv5] Sea Leech 100/100❤",
+      "out": "Sea Leech"
+    },
+    {
+      "in": "in|§cSea Leech",
+      "out": "Sea Leech"
+    },
+    {
+      "in": "in|Night Sea Leech",
+      "out": "Sea Leech"
+    },
+    {
+      "in": "in|Sea Leech Jr",
+      "out": "Sea Leech"
+    },
+    {
+      "in": "name|Guardian Defender",
+      "out": "§5"
+    },
+    {
+      "in": "in|Guardian Defender",
+      "out": "Guardian Defender"
+    },
+    {
+      "in": "in|[Lv5] Guardian Defender 100/100❤",
+      "out": "Guardian Defender"
+    },
+    {
+      "in": "in|§cGuardian Defender",
+      "out": "Guardian Defender"
+    },
+    {
+      "in": "in|Night Guardian Defender",
+      "out": "Guardian Defender"
+    },
+    {
+      "in": "in|Guardian Defender Jr",
+      "out": "Guardian Defender"
+    },
+    {
+      "in": "name|Deep Sea Protector",
+      "out": "§5"
+    },
+    {
+      "in": "in|Deep Sea Protector",
+      "out": "Deep Sea Protector"
+    },
+    {
+      "in": "in|[Lv5] Deep Sea Protector 100/100❤",
+      "out": "Deep Sea Protector"
+    },
+    {
+      "in": "in|§cDeep Sea Protector",
+      "out": "Deep Sea Protector"
+    },
+    {
+      "in": "in|Night Deep Sea Protector",
+      "out": "Deep Sea Protector"
+    },
+    {
+      "in": "in|Deep Sea Protector Jr",
+      "out": "Deep Sea Protector"
+    },
+    {
+      "in": "name|Agarimoo",
+      "out": "§9"
+    },
+    {
+      "in": "in|Agarimoo",
+      "out": "Agarimoo"
+    },
+    {
+      "in": "in|[Lv5] Agarimoo 100/100❤",
+      "out": "Agarimoo"
+    },
+    {
+      "in": "in|§cAgarimoo",
+      "out": "Agarimoo"
+    },
+    {
+      "in": "in|Night Agarimoo",
+      "out": "Agarimoo"
+    },
+    {
+      "in": "in|Agarimoo Jr",
+      "out": "Agarimoo"
+    },
+    {
+      "in": "name|Inkling",
+      "out": "§a"
+    },
+    {
+      "in": "in|Inkling",
+      "out": "Inkling"
+    },
+    {
+      "in": "in|[Lv5] Inkling 100/100❤",
+      "out": "Inkling"
+    },
+    {
+      "in": "in|§cInkling",
+      "out": "Inkling"
+    },
+    {
+      "in": "in|Night Inkling",
+      "out": "Inkling"
+    },
+    {
+      "in": "in|Inkling Jr",
+      "out": "Inkling"
+    },
+    {
+      "in": "name|Manta Ray",
+      "out": "§5"
+    },
+    {
+      "in": "in|Manta Ray",
+      "out": "Manta Ray"
+    },
+    {
+      "in": "in|[Lv5] Manta Ray 100/100❤",
+      "out": "Manta Ray"
+    },
+    {
+      "in": "in|§cManta Ray",
+      "out": "Manta Ray"
+    },
+    {
+      "in": "in|Night Manta Ray",
+      "out": "Manta Ray"
+    },
+    {
+      "in": "in|Manta Ray Jr",
+      "out": "Manta Ray"
+    },
+    {
+      "in": "name|Frog Man",
+      "out": "§f"
+    },
+    {
+      "in": "in|Frog Man",
+      "out": "Frog Man"
+    },
+    {
+      "in": "in|[Lv5] Frog Man 100/100❤",
+      "out": "Frog Man"
+    },
+    {
+      "in": "in|§cFrog Man",
+      "out": "Frog Man"
+    },
+    {
+      "in": "in|Night Frog Man",
+      "out": "Frog Man"
+    },
+    {
+      "in": "in|Frog Man Jr",
+      "out": "Frog Man"
+    },
+    {
+      "in": "name|Snapping Turtle",
+      "out": "§9"
+    },
+    {
+      "in": "in|Snapping Turtle",
+      "out": "Snapping Turtle"
+    },
+    {
+      "in": "in|[Lv5] Snapping Turtle 100/100❤",
+      "out": "Snapping Turtle"
+    },
+    {
+      "in": "in|§cSnapping Turtle",
+      "out": "Snapping Turtle"
+    },
+    {
+      "in": "in|Night Snapping Turtle",
+      "out": "Snapping Turtle"
+    },
+    {
+      "in": "in|Snapping Turtle Jr",
+      "out": "Snapping Turtle"
+    },
+    {
+      "in": "name|Blue Ringed Octopus",
+      "out": "§6"
+    },
+    {
+      "in": "in|Blue Ringed Octopus",
+      "out": "Blue Ringed Octopus"
+    },
+    {
+      "in": "in|[Lv5] Blue Ringed Octopus 100/100❤",
+      "out": "Blue Ringed Octopus"
+    },
+    {
+      "in": "in|§cBlue Ringed Octopus",
+      "out": "Blue Ringed Octopus"
+    },
+    {
+      "in": "in|Night Blue Ringed Octopus",
+      "out": "Blue Ringed Octopus"
+    },
+    {
+      "in": "in|Blue Ringed Octopus Jr",
+      "out": "Blue Ringed Octopus"
+    },
+    {
+      "in": "name|Wiki Tiki",
+      "out": "§d"
+    },
+    {
+      "in": "in|Wiki Tiki",
+      "out": "Wiki Tiki"
+    },
+    {
+      "in": "in|[Lv5] Wiki Tiki 100/100❤",
+      "out": "Wiki Tiki"
+    },
+    {
+      "in": "in|§cWiki Tiki",
+      "out": "Wiki Tiki"
+    },
+    {
+      "in": "in|Night Wiki Tiki",
+      "out": "Wiki Tiki"
+    },
+    {
+      "in": "in|Wiki Tiki Jr",
+      "out": "Wiki Tiki"
+    },
+    {
+      "in": "name|Great White Shark",
+      "out": "§6"
+    },
+    {
+      "in": "in|Great White Shark",
+      "out": "Great White Shark"
+    },
+    {
+      "in": "in|[Lv5] Great White Shark 100/100❤",
+      "out": "Great White Shark"
+    },
+    {
+      "in": "in|§cGreat White Shark",
+      "out": "Great White Shark"
+    },
+    {
+      "in": "in|Night Great White Shark",
+      "out": "Great White Shark"
+    },
+    {
+      "in": "in|Great White Shark Jr",
+      "out": "Great White Shark"
+    },
+    {
+      "in": "name|Nurse Shark",
+      "out": "§a"
+    },
+    {
+      "in": "in|Nurse Shark",
+      "out": "Nurse Shark"
+    },
+    {
+      "in": "in|[Lv5] Nurse Shark 100/100❤",
+      "out": "Nurse Shark"
+    },
+    {
+      "in": "in|§cNurse Shark",
+      "out": "Nurse Shark"
+    },
+    {
+      "in": "in|Night Nurse Shark",
+      "out": "Nurse Shark"
+    },
+    {
+      "in": "in|Nurse Shark Jr",
+      "out": "Nurse Shark"
+    },
+    {
+      "in": "name|Blue Shark",
+      "out": "§9"
+    },
+    {
+      "in": "in|Blue Shark",
+      "out": "Blue Shark"
+    },
+    {
+      "in": "in|[Lv5] Blue Shark 100/100❤",
+      "out": "Blue Shark"
+    },
+    {
+      "in": "in|§cBlue Shark",
+      "out": "Blue Shark"
+    },
+    {
+      "in": "in|Night Blue Shark",
+      "out": "Blue Shark"
+    },
+    {
+      "in": "in|Blue Shark Jr",
+      "out": "Blue Shark"
+    },
+    {
+      "in": "name|Tiger Shark",
+      "out": "§5"
+    },
+    {
+      "in": "in|Tiger Shark",
+      "out": "Tiger Shark"
+    },
+    {
+      "in": "in|[Lv5] Tiger Shark 100/100❤",
+      "out": "Tiger Shark"
+    },
+    {
+      "in": "in|§cTiger Shark",
+      "out": "Tiger Shark"
+    },
+    {
+      "in": "in|Night Tiger Shark",
+      "out": "Tiger Shark"
+    },
+    {
+      "in": "in|Tiger Shark Jr",
+      "out": "Tiger Shark"
+    },
+    {
+      "in": "name|Reindrake",
+      "out": "§d"
+    },
+    {
+      "in": "in|Reindrake",
+      "out": "Reindrake"
+    },
+    {
+      "in": "in|[Lv5] Reindrake 100/100❤",
+      "out": "Reindrake"
+    },
+    {
+      "in": "in|§cReindrake",
+      "out": "Reindrake"
+    },
+    {
+      "in": "in|Night Reindrake",
+      "out": "Reindrake"
+    },
+    {
+      "in": "in|Reindrake Jr",
+      "out": "Reindrake"
+    },
+    {
+      "in": "name|Yeti",
+      "out": "§6"
+    },
+    {
+      "in": "in|Yeti",
+      "out": "Yeti"
+    },
+    {
+      "in": "in|[Lv5] Yeti 100/100❤",
+      "out": "Yeti"
+    },
+    {
+      "in": "in|§cYeti",
+      "out": "Yeti"
+    },
+    {
+      "in": "in|Night Yeti",
+      "out": "Yeti"
+    },
+    {
+      "in": "in|Yeti Jr",
+      "out": "Yeti"
+    },
+    {
+      "in": "name|Nutcracker",
+      "out": "§5"
+    },
+    {
+      "in": "in|Nutcracker",
+      "out": "Nutcracker"
+    },
+    {
+      "in": "in|[Lv5] Nutcracker 100/100❤",
+      "out": "Nutcracker"
+    },
+    {
+      "in": "in|§cNutcracker",
+      "out": "Nutcracker"
+    },
+    {
+      "in": "in|Night Nutcracker",
+      "out": "Nutcracker"
+    },
+    {
+      "in": "in|Nutcracker Jr",
+      "out": "Nutcracker"
+    },
+    {
+      "in": "name|Frozen Steve",
+      "out": "§f"
+    },
+    {
+      "in": "in|Frozen Steve",
+      "out": "Frozen Steve"
+    },
+    {
+      "in": "in|[Lv5] Frozen Steve 100/100❤",
+      "out": "Frozen Steve"
+    },
+    {
+      "in": "in|§cFrozen Steve",
+      "out": "Frozen Steve"
+    },
+    {
+      "in": "in|Night Frozen Steve",
+      "out": "Frozen Steve"
+    },
+    {
+      "in": "in|Frozen Steve Jr",
+      "out": "Frozen Steve"
+    },
+    {
+      "in": "name|Frosty",
+      "out": "§a"
+    },
+    {
+      "in": "in|Frosty",
+      "out": "Frosty"
+    },
+    {
+      "in": "in|[Lv5] Frosty 100/100❤",
+      "out": "Frosty"
+    },
+    {
+      "in": "in|§cFrosty",
+      "out": "Frosty"
+    },
+    {
+      "in": "in|Night Frosty",
+      "out": "Frosty"
+    },
+    {
+      "in": "in|Frosty Jr",
+      "out": "Frosty"
+    },
+    {
+      "in": "name|Grinch",
+      "out": "§9"
+    },
+    {
+      "in": "in|Grinch",
+      "out": "Grinch"
+    },
+    {
+      "in": "in|[Lv5] Grinch 100/100❤",
+      "out": "Grinch"
+    },
+    {
+      "in": "in|§cGrinch",
+      "out": "Grinch"
+    },
+    {
+      "in": "in|Night Grinch",
+      "out": "Grinch"
+    },
+    {
+      "in": "in|Grinch Jr",
+      "out": "Grinch"
+    },
+    {
+      "in": "name|Phantom Fisher",
+      "out": "§6"
+    },
+    {
+      "in": "in|Phantom Fisher",
+      "out": "Phantom Fisher"
+    },
+    {
+      "in": "in|[Lv5] Phantom Fisher 100/100❤",
+      "out": "Phantom Fisher"
+    },
+    {
+      "in": "in|§cPhantom Fisher",
+      "out": "Phantom Fisher"
+    },
+    {
+      "in": "in|Night Phantom Fisher",
+      "out": "Phantom Fisher"
+    },
+    {
+      "in": "in|Phantom Fisher Jr",
+      "out": "Phantom Fisher"
+    },
+    {
+      "in": "name|Grim Reaper",
+      "out": "§d"
+    },
+    {
+      "in": "in|Grim Reaper",
+      "out": "Grim Reaper"
+    },
+    {
+      "in": "in|[Lv5] Grim Reaper 100/100❤",
+      "out": "Grim Reaper"
+    },
+    {
+      "in": "in|§cGrim Reaper",
+      "out": "Grim Reaper"
+    },
+    {
+      "in": "in|Night Grim Reaper",
+      "out": "Grim Reaper"
+    },
+    {
+      "in": "in|Grim Reaper Jr",
+      "out": "Grim Reaper"
+    },
+    {
+      "in": "name|Scarecrow",
+      "out": "§a"
+    },
+    {
+      "in": "in|Scarecrow",
+      "out": "Scarecrow"
+    },
+    {
+      "in": "in|[Lv5] Scarecrow 100/100❤",
+      "out": "Scarecrow"
+    },
+    {
+      "in": "in|§cScarecrow",
+      "out": "Scarecrow"
+    },
+    {
+      "in": "in|Night Scarecrow",
+      "out": "Scarecrow"
+    },
+    {
+      "in": "in|Scarecrow Jr",
+      "out": "Scarecrow"
+    },
+    {
+      "in": "name|Nightmare",
+      "out": "§9"
+    },
+    {
+      "in": "in|Nightmare",
+      "out": "Nightmare"
+    },
+    {
+      "in": "in|[Lv5] Nightmare 100/100❤",
+      "out": "Nightmare"
+    },
+    {
+      "in": "in|§cNightmare",
+      "out": "Nightmare"
+    },
+    {
+      "in": "in|Night Nightmare",
+      "out": "Nightmare"
+    },
+    {
+      "in": "in|Nightmare Jr",
+      "out": "Nightmare"
+    },
+    {
+      "in": "name|Werewolf",
+      "out": "§5"
+    },
+    {
+      "in": "in|Werewolf",
+      "out": "Werewolf"
+    },
+    {
+      "in": "in|[Lv5] Werewolf 100/100❤",
+      "out": "Werewolf"
+    },
+    {
+      "in": "in|§cWerewolf",
+      "out": "Werewolf"
+    },
+    {
+      "in": "in|Night Werewolf",
+      "out": "Werewolf"
+    },
+    {
+      "in": "in|Werewolf Jr",
+      "out": "Werewolf"
+    },
+    {
+      "in": "name|Jumpin' Jack",
+      "out": "§f"
+    },
+    {
+      "in": "in|Jumpin' Jack",
+      "out": "Jumpin' Jack"
+    },
+    {
+      "in": "in|[Lv5] Jumpin' Jack 100/100❤",
+      "out": "Jumpin' Jack"
+    },
+    {
+      "in": "in|§cJumpin' Jack",
+      "out": "Jumpin' Jack"
+    },
+    {
+      "in": "in|Night Jumpin' Jack",
+      "out": "Jumpin' Jack"
+    },
+    {
+      "in": "in|Jumpin' Jack Jr",
+      "out": "Jumpin' Jack"
+    },
+    {
+      "in": "name|Fried Chicken",
+      "out": "§f"
+    },
+    {
+      "in": "in|Fried Chicken",
+      "out": "Fried Chicken"
+    },
+    {
+      "in": "in|[Lv5] Fried Chicken 100/100❤",
+      "out": "Fried Chicken"
+    },
+    {
+      "in": "in|§cFried Chicken",
+      "out": "Fried Chicken"
+    },
+    {
+      "in": "in|Night Fried Chicken",
+      "out": "Fried Chicken"
+    },
+    {
+      "in": "in|Fried Chicken Jr",
+      "out": "Fried Chicken"
+    },
+    {
+      "in": "name|Fireproof Witch",
+      "out": "§9"
+    },
+    {
+      "in": "in|Fireproof Witch",
+      "out": "Fireproof Witch"
+    },
+    {
+      "in": "in|[Lv5] Fireproof Witch 100/100❤",
+      "out": "Fireproof Witch"
+    },
+    {
+      "in": "in|§cFireproof Witch",
+      "out": "Fireproof Witch"
+    },
+    {
+      "in": "in|Night Fireproof Witch",
+      "out": "Fireproof Witch"
+    },
+    {
+      "in": "in|Fireproof Witch Jr",
+      "out": "Fireproof Witch"
+    },
+    {
+      "in": "name|Magma Slug",
+      "out": "§a"
+    },
+    {
+      "in": "in|Magma Slug",
+      "out": "Magma Slug"
+    },
+    {
+      "in": "in|[Lv5] Magma Slug 100/100❤",
+      "out": "Magma Slug"
+    },
+    {
+      "in": "in|§cMagma Slug",
+      "out": "Magma Slug"
+    },
+    {
+      "in": "in|Night Magma Slug",
+      "out": "Magma Slug"
+    },
+    {
+      "in": "in|Magma Slug Jr",
+      "out": "Magma Slug"
+    },
+    {
+      "in": "name|Moogma",
+      "out": "§a"
+    },
+    {
+      "in": "in|Moogma",
+      "out": "Moogma"
+    },
+    {
+      "in": "in|[Lv5] Moogma 100/100❤",
+      "out": "Moogma"
+    },
+    {
+      "in": "in|§cMoogma",
+      "out": "Moogma"
+    },
+    {
+      "in": "in|Night Moogma",
+      "out": "Moogma"
+    },
+    {
+      "in": "in|Moogma Jr",
+      "out": "Moogma"
+    },
+    {
+      "in": "name|Lava Leech",
+      "out": "§9"
+    },
+    {
+      "in": "in|Lava Leech",
+      "out": "Lava Leech"
+    },
+    {
+      "in": "in|[Lv5] Lava Leech 100/100❤",
+      "out": "Lava Leech"
+    },
+    {
+      "in": "in|§cLava Leech",
+      "out": "Lava Leech"
+    },
+    {
+      "in": "in|Night Lava Leech",
+      "out": "Lava Leech"
+    },
+    {
+      "in": "in|Lava Leech Jr",
+      "out": "Lava Leech"
+    },
+    {
+      "in": "name|Pyroclastic Worm",
+      "out": "§9"
+    },
+    {
+      "in": "in|Pyroclastic Worm",
+      "out": "Pyroclastic Worm"
+    },
+    {
+      "in": "in|[Lv5] Pyroclastic Worm 100/100❤",
+      "out": "Pyroclastic Worm"
+    },
+    {
+      "in": "in|§cPyroclastic Worm",
+      "out": "Pyroclastic Worm"
+    },
+    {
+      "in": "in|Night Pyroclastic Worm",
+      "out": "Pyroclastic Worm"
+    },
+    {
+      "in": "in|Pyroclastic Worm Jr",
+      "out": "Pyroclastic Worm"
+    },
+    {
+      "in": "name|Lava Flame",
+      "out": "§9"
+    },
+    {
+      "in": "in|Lava Flame",
+      "out": "Lava Flame"
+    },
+    {
+      "in": "in|[Lv5] Lava Flame 100/100❤",
+      "out": "Lava Flame"
+    },
+    {
+      "in": "in|§cLava Flame",
+      "out": "Lava Flame"
+    },
+    {
+      "in": "in|Night Lava Flame",
+      "out": "Lava Flame"
+    },
+    {
+      "in": "in|Lava Flame Jr",
+      "out": "Lava Flame"
+    },
+    {
+      "in": "name|Fire Eel",
+      "out": "§9"
+    },
+    {
+      "in": "in|Fire Eel",
+      "out": "Fire Eel"
+    },
+    {
+      "in": "in|[Lv5] Fire Eel 100/100❤",
+      "out": "Fire Eel"
+    },
+    {
+      "in": "in|§cFire Eel",
+      "out": "Fire Eel"
+    },
+    {
+      "in": "in|Night Fire Eel",
+      "out": "Fire Eel"
+    },
+    {
+      "in": "in|Fire Eel Jr",
+      "out": "Fire Eel"
+    },
+    {
+      "in": "name|Taurus",
+      "out": "§5"
+    },
+    {
+      "in": "in|Taurus",
+      "out": "Taurus"
+    },
+    {
+      "in": "in|[Lv5] Taurus 100/100❤",
+      "out": "Taurus"
+    },
+    {
+      "in": "in|§cTaurus",
+      "out": "Taurus"
+    },
+    {
+      "in": "in|Night Taurus",
+      "out": "Taurus"
+    },
+    {
+      "in": "in|Taurus Jr",
+      "out": "Taurus"
+    },
+    {
+      "in": "name|Volcanic Snail",
+      "out": "§a"
+    },
+    {
+      "in": "in|Volcanic Snail",
+      "out": "Volcanic Snail"
+    },
+    {
+      "in": "in|[Lv5] Volcanic Snail 100/100❤",
+      "out": "Volcanic Snail"
+    },
+    {
+      "in": "in|§cVolcanic Snail",
+      "out": "Volcanic Snail"
+    },
+    {
+      "in": "in|Night Volcanic Snail",
+      "out": "Volcanic Snail"
+    },
+    {
+      "in": "in|Volcanic Snail Jr",
+      "out": "Volcanic Snail"
+    },
+    {
+      "in": "name|Magma Pillar",
+      "out": "§5"
+    },
+    {
+      "in": "in|Magma Pillar",
+      "out": "Magma Pillar"
+    },
+    {
+      "in": "in|[Lv5] Magma Pillar 100/100❤",
+      "out": "Magma Pillar"
+    },
+    {
+      "in": "in|§cMagma Pillar",
+      "out": "Magma Pillar"
+    },
+    {
+      "in": "in|Night Magma Pillar",
+      "out": "Magma Pillar"
+    },
+    {
+      "in": "in|Magma Pillar Jr",
+      "out": "Magma Pillar"
+    },
+    {
+      "in": "name|Fiery Scuttler",
+      "out": "§6"
+    },
+    {
+      "in": "in|Fiery Scuttler",
+      "out": "Fiery Scuttler"
+    },
+    {
+      "in": "in|[Lv5] Fiery Scuttler 100/100❤",
+      "out": "Fiery Scuttler"
+    },
+    {
+      "in": "in|§cFiery Scuttler",
+      "out": "Fiery Scuttler"
+    },
+    {
+      "in": "in|Night Fiery Scuttler",
+      "out": "Fiery Scuttler"
+    },
+    {
+      "in": "in|Fiery Scuttler Jr",
+      "out": "Fiery Scuttler"
+    },
+    {
+      "in": "name|Thunder",
+      "out": "§6"
+    },
+    {
+      "in": "in|Thunder",
+      "out": "Thunder"
+    },
+    {
+      "in": "in|[Lv5] Thunder 100/100❤",
+      "out": "Thunder"
+    },
+    {
+      "in": "in|§cThunder",
+      "out": "Thunder"
+    },
+    {
+      "in": "in|Night Thunder",
+      "out": "Thunder"
+    },
+    {
+      "in": "in|Thunder Jr",
+      "out": "Thunder"
+    },
+    {
+      "in": "name|Lord Jawbus",
+      "out": "§d"
+    },
+    {
+      "in": "in|Lord Jawbus",
+      "out": "Lord Jawbus"
+    },
+    {
+      "in": "in|[Lv5] Lord Jawbus 100/100❤",
+      "out": "Lord Jawbus"
+    },
+    {
+      "in": "in|§cLord Jawbus",
+      "out": "Lord Jawbus"
+    },
+    {
+      "in": "in|Night Lord Jawbus",
+      "out": "Lord Jawbus"
+    },
+    {
+      "in": "in|Lord Jawbus Jr",
+      "out": "Lord Jawbus"
+    },
+    {
+      "in": "name|Plhlegblast",
+      "out": "§d"
+    },
+    {
+      "in": "in|Plhlegblast",
+      "out": "Plhlegblast"
+    },
+    {
+      "in": "in|[Lv5] Plhlegblast 100/100❤",
+      "out": "Plhlegblast"
+    },
+    {
+      "in": "in|§cPlhlegblast",
+      "out": "Plhlegblast"
+    },
+    {
+      "in": "in|Night Plhlegblast",
+      "out": "Plhlegblast"
+    },
+    {
+      "in": "in|Plhlegblast Jr",
+      "out": "Plhlegblast"
+    },
+    {
+      "in": "name|Ragnarok",
+      "out": "§d"
+    },
+    {
+      "in": "in|Ragnarok",
+      "out": "Ragnarok"
+    },
+    {
+      "in": "in|[Lv5] Ragnarok 100/100❤",
+      "out": "Ragnarok"
+    },
+    {
+      "in": "in|§cRagnarok",
+      "out": "Ragnarok"
+    },
+    {
+      "in": "in|Night Ragnarok",
+      "out": "Ragnarok"
+    },
+    {
+      "in": "in|Ragnarok Jr",
+      "out": "Ragnarok"
+    },
+    {
+      "in": "name|Vanquisher",
+      "out": "§5"
+    },
+    {
+      "in": "in|Vanquisher",
+      "out": "Vanquisher"
+    },
+    {
+      "in": "in|[Lv5] Vanquisher 100/100❤",
+      "out": "Vanquisher"
+    },
+    {
+      "in": "in|§cVanquisher",
+      "out": "Vanquisher"
+    },
+    {
+      "in": "in|Night Vanquisher",
+      "out": "Vanquisher"
+    },
+    {
+      "in": "in|Vanquisher Jr",
+      "out": "Vanquisher"
+    },
+    {
+      "in": "name|Oasis Rabbit",
+      "out": "§a"
+    },
+    {
+      "in": "in|Oasis Rabbit",
+      "out": "Oasis Rabbit"
+    },
+    {
+      "in": "in|[Lv5] Oasis Rabbit 100/100❤",
+      "out": "Oasis Rabbit"
+    },
+    {
+      "in": "in|§cOasis Rabbit",
+      "out": "Oasis Rabbit"
+    },
+    {
+      "in": "in|Night Oasis Rabbit",
+      "out": "Oasis Rabbit"
+    },
+    {
+      "in": "in|Oasis Rabbit Jr",
+      "out": "Oasis Rabbit"
+    },
+    {
+      "in": "name|Oasis Sheep",
+      "out": "§a"
+    },
+    {
+      "in": "in|Oasis Sheep",
+      "out": "Oasis Sheep"
+    },
+    {
+      "in": "in|[Lv5] Oasis Sheep 100/100❤",
+      "out": "Oasis Sheep"
+    },
+    {
+      "in": "in|§cOasis Sheep",
+      "out": "Oasis Sheep"
+    },
+    {
+      "in": "in|Night Oasis Sheep",
+      "out": "Oasis Sheep"
+    },
+    {
+      "in": "in|Oasis Sheep Jr",
+      "out": "Oasis Sheep"
+    },
+    {
+      "in": "name|Abyssal Miner",
+      "out": "§6"
+    },
+    {
+      "in": "in|Abyssal Miner",
+      "out": "Abyssal Miner"
+    },
+    {
+      "in": "in|[Lv5] Abyssal Miner 100/100❤",
+      "out": "Abyssal Miner"
+    },
+    {
+      "in": "in|§cAbyssal Miner",
+      "out": "Abyssal Miner"
+    },
+    {
+      "in": "in|Night Abyssal Miner",
+      "out": "Abyssal Miner"
+    },
+    {
+      "in": "in|Abyssal Miner Jr",
+      "out": "Abyssal Miner"
+    },
+    {
+      "in": "name|Water Worm",
+      "out": "§9"
+    },
+    {
+      "in": "in|Water Worm",
+      "out": "Water Worm"
+    },
+    {
+      "in": "in|[Lv5] Water Worm 100/100❤",
+      "out": "Water Worm"
+    },
+    {
+      "in": "in|§cWater Worm",
+      "out": "Water Worm"
+    },
+    {
+      "in": "in|Night Water Worm",
+      "out": "Water Worm"
+    },
+    {
+      "in": "in|Water Worm Jr",
+      "out": "Water Worm"
+    },
+    {
+      "in": "name|Poisoned Water Worm",
+      "out": "§9"
+    },
+    {
+      "in": "in|Poisoned Water Worm",
+      "out": "Water Worm"
+    },
+    {
+      "in": "in|[Lv5] Poisoned Water Worm 100/100❤",
+      "out": "Water Worm"
+    },
+    {
+      "in": "in|§cPoisoned Water Worm",
+      "out": "Water Worm"
+    },
+    {
+      "in": "in|Night Poisoned Water Worm",
+      "out": "Water Worm"
+    },
+    {
+      "in": "in|Poisoned Water Worm Jr",
+      "out": "Water Worm"
+    },
+    {
+      "in": "name|Flaming Worm",
+      "out": "§9"
+    },
+    {
+      "in": "in|Flaming Worm",
+      "out": "Flaming Worm"
+    },
+    {
+      "in": "in|[Lv5] Flaming Worm 100/100❤",
+      "out": "Flaming Worm"
+    },
+    {
+      "in": "in|§cFlaming Worm",
+      "out": "Flaming Worm"
+    },
+    {
+      "in": "in|Night Flaming Worm",
+      "out": "Flaming Worm"
+    },
+    {
+      "in": "in|Flaming Worm Jr",
+      "out": "Flaming Worm"
+    },
+    {
+      "in": "name|Lava Blaze",
+      "out": "§5"
+    },
+    {
+      "in": "in|Lava Blaze",
+      "out": "Lava Blaze"
+    },
+    {
+      "in": "in|[Lv5] Lava Blaze 100/100❤",
+      "out": "Lava Blaze"
+    },
+    {
+      "in": "in|§cLava Blaze",
+      "out": "Lava Blaze"
+    },
+    {
+      "in": "in|Night Lava Blaze",
+      "out": "Lava Blaze"
+    },
+    {
+      "in": "in|Lava Blaze Jr",
+      "out": "Lava Blaze"
+    },
+    {
+      "in": "name|Lava Pigman",
+      "out": "§5"
+    },
+    {
+      "in": "in|Lava Pigman",
+      "out": "Lava Pigman"
+    },
+    {
+      "in": "in|[Lv5] Lava Pigman 100/100❤",
+      "out": "Lava Pigman"
+    },
+    {
+      "in": "in|§cLava Pigman",
+      "out": "Lava Pigman"
+    },
+    {
+      "in": "in|Night Lava Pigman",
+      "out": "Lava Pigman"
+    },
+    {
+      "in": "in|Lava Pigman Jr",
+      "out": "Lava Pigman"
+    },
+    {
+      "in": "name|Small Mithril Grubber",
+      "out": "§a"
+    },
+    {
+      "in": "in|Small Mithril Grubber",
+      "out": "Small Mithril Grubber"
+    },
+    {
+      "in": "in|[Lv5] Small Mithril Grubber 100/100❤",
+      "out": "Small Mithril Grubber"
+    },
+    {
+      "in": "in|§cSmall Mithril Grubber",
+      "out": "Small Mithril Grubber"
+    },
+    {
+      "in": "in|Night Small Mithril Grubber",
+      "out": "Small Mithril Grubber"
+    },
+    {
+      "in": "in|Small Mithril Grubber Jr",
+      "out": "Small Mithril Grubber"
+    },
+    {
+      "in": "name|Medium Mithril Grubber",
+      "out": "§a"
+    },
+    {
+      "in": "in|Medium Mithril Grubber",
+      "out": "Medium Mithril Grubber"
+    },
+    {
+      "in": "in|[Lv5] Medium Mithril Grubber 100/100❤",
+      "out": "Medium Mithril Grubber"
+    },
+    {
+      "in": "in|§cMedium Mithril Grubber",
+      "out": "Medium Mithril Grubber"
+    },
+    {
+      "in": "in|Night Medium Mithril Grubber",
+      "out": "Medium Mithril Grubber"
+    },
+    {
+      "in": "in|Medium Mithril Grubber Jr",
+      "out": "Medium Mithril Grubber"
+    },
+    {
+      "in": "name|Large Mithril Grubber",
+      "out": "§a"
+    },
+    {
+      "in": "in|Large Mithril Grubber",
+      "out": "Large Mithril Grubber"
+    },
+    {
+      "in": "in|[Lv5] Large Mithril Grubber 100/100❤",
+      "out": "Large Mithril Grubber"
+    },
+    {
+      "in": "in|§cLarge Mithril Grubber",
+      "out": "Large Mithril Grubber"
+    },
+    {
+      "in": "in|Night Large Mithril Grubber",
+      "out": "Large Mithril Grubber"
+    },
+    {
+      "in": "in|Large Mithril Grubber Jr",
+      "out": "Large Mithril Grubber"
+    },
+    {
+      "in": "name|Bloated Mithril Grubber",
+      "out": "§a"
+    },
+    {
+      "in": "in|Bloated Mithril Grubber",
+      "out": "Bloated Mithril Grubber"
+    },
+    {
+      "in": "in|[Lv5] Bloated Mithril Grubber 100/100❤",
+      "out": "Bloated Mithril Grubber"
+    },
+    {
+      "in": "in|§cBloated Mithril Grubber",
+      "out": "Bloated Mithril Grubber"
+    },
+    {
+      "in": "in|Night Bloated Mithril Grubber",
+      "out": "Bloated Mithril Grubber"
+    },
+    {
+      "in": "in|Bloated Mithril Grubber Jr",
+      "out": "Bloated Mithril Grubber"
+    },
+    {
+      "in": "name|Trash Gobbler",
+      "out": "§f"
+    },
+    {
+      "in": "in|Trash Gobbler",
+      "out": "Trash Gobbler"
+    },
+    {
+      "in": "in|[Lv5] Trash Gobbler 100/100❤",
+      "out": "Trash Gobbler"
+    },
+    {
+      "in": "in|§cTrash Gobbler",
+      "out": "Trash Gobbler"
+    },
+    {
+      "in": "in|Night Trash Gobbler",
+      "out": "Trash Gobbler"
+    },
+    {
+      "in": "in|Trash Gobbler Jr",
+      "out": "Trash Gobbler"
+    },
+    {
+      "in": "name|Dumpster Diver",
+      "out": "§a"
+    },
+    {
+      "in": "in|Dumpster Diver",
+      "out": "Dumpster Diver"
+    },
+    {
+      "in": "in|[Lv5] Dumpster Diver 100/100❤",
+      "out": "Dumpster Diver"
+    },
+    {
+      "in": "in|§cDumpster Diver",
+      "out": "Dumpster Diver"
+    },
+    {
+      "in": "in|Night Dumpster Diver",
+      "out": "Dumpster Diver"
+    },
+    {
+      "in": "in|Dumpster Diver Jr",
+      "out": "Dumpster Diver"
+    },
+    {
+      "in": "name|Banshee",
+      "out": "§9"
+    },
+    {
+      "in": "in|Banshee",
+      "out": "Banshee"
+    },
+    {
+      "in": "in|[Lv5] Banshee 100/100❤",
+      "out": "Banshee"
+    },
+    {
+      "in": "in|§cBanshee",
+      "out": "Banshee"
+    },
+    {
+      "in": "in|Night Banshee",
+      "out": "Banshee"
+    },
+    {
+      "in": "in|Banshee Jr",
+      "out": "Banshee"
+    },
+    {
+      "in": "name|Bayou Sludge",
+      "out": "§5"
+    },
+    {
+      "in": "in|Bayou Sludge",
+      "out": "Bayou Sludge"
+    },
+    {
+      "in": "in|[Lv5] Bayou Sludge 100/100❤",
+      "out": "Bayou Sludge"
+    },
+    {
+      "in": "in|§cBayou Sludge",
+      "out": "Bayou Sludge"
+    },
+    {
+      "in": "in|Night Bayou Sludge",
+      "out": "Bayou Sludge"
+    },
+    {
+      "in": "in|Bayou Sludge Jr",
+      "out": "Bayou Sludge"
+    },
+    {
+      "in": "name|Alligator",
+      "out": "§6"
+    },
+    {
+      "in": "in|Alligator",
+      "out": "Alligator"
+    },
+    {
+      "in": "in|[Lv5] Alligator 100/100❤",
+      "out": "Alligator"
+    },
+    {
+      "in": "in|§cAlligator",
+      "out": "Alligator"
+    },
+    {
+      "in": "in|Night Alligator",
+      "out": "Alligator"
+    },
+    {
+      "in": "in|Alligator Jr",
+      "out": "Alligator"
+    },
+    {
+      "in": "name|Titanoboa",
+      "out": "§d"
+    },
+    {
+      "in": "in|Titanoboa",
+      "out": "Titanoboa"
+    },
+    {
+      "in": "in|[Lv5] Titanoboa 100/100❤",
+      "out": "Titanoboa"
+    },
+    {
+      "in": "in|§cTitanoboa",
+      "out": "Titanoboa"
+    },
+    {
+      "in": "in|Night Titanoboa",
+      "out": "Titanoboa"
+    },
+    {
+      "in": "in|Titanoboa Jr",
+      "out": "Titanoboa"
+    },
+    {
+      "in": "name|Nessie",
+      "out": "§d"
+    },
+    {
+      "in": "in|Nessie",
+      "out": "Nessie"
+    },
+    {
+      "in": "in|[Lv5] Nessie 100/100❤",
+      "out": "Nessie"
+    },
+    {
+      "in": "in|§cNessie",
+      "out": "Nessie"
+    },
+    {
+      "in": "in|Night Nessie",
+      "out": "Nessie"
+    },
+    {
+      "in": "in|Nessie Jr",
+      "out": "Nessie"
+    },
+    {
+      "in": "name|The Loch Emperor",
+      "out": "§6"
+    },
+    {
+      "in": "in|The Loch Emperor",
+      "out": "The Loch Emperor"
+    },
+    {
+      "in": "in|[Lv5] The Loch Emperor 100/100❤",
+      "out": "The Loch Emperor"
+    },
+    {
+      "in": "in|§cThe Loch Emperor",
+      "out": "The Loch Emperor"
+    },
+    {
+      "in": "in|Night The Loch Emperor",
+      "out": "The Loch Emperor"
+    },
+    {
+      "in": "in|The Loch Emperor Jr",
+      "out": "The Loch Emperor"
+    },
+    {
+      "in": "name|Bogged",
+      "out": "§f"
+    },
+    {
+      "in": "in|Bogged",
+      "out": "Bogged"
+    },
+    {
+      "in": "in|[Lv5] Bogged 100/100❤",
+      "out": "Bogged"
+    },
+    {
+      "in": "in|§cBogged",
+      "out": "Bogged"
+    },
+    {
+      "in": "in|Night Bogged",
+      "out": "Bogged"
+    },
+    {
+      "in": "in|Bogged Jr",
+      "out": "Bogged"
+    },
+    {
+      "in": "name|Tadgang",
+      "out": "§a"
+    },
+    {
+      "in": "in|Tadgang",
+      "out": "Tadgang"
+    },
+    {
+      "in": "in|[Lv5] Tadgang 100/100❤",
+      "out": "Tadgang"
+    },
+    {
+      "in": "in|§cTadgang",
+      "out": "Tadgang"
+    },
+    {
+      "in": "in|Night Tadgang",
+      "out": "Tadgang"
+    },
+    {
+      "in": "in|Tadgang Jr",
+      "out": "Tadgang"
+    },
+    {
+      "in": "name|Ent",
+      "out": "§a"
+    },
+    {
+      "in": "in|Ent",
+      "out": "Ent"
+    },
+    {
+      "in": "in|[Lv5] Ent 100/100❤",
+      "out": "Ent"
+    },
+    {
+      "in": "in|§cEnt",
+      "out": "Ent"
+    },
+    {
+      "in": "in|Night Ent",
+      "out": "Ent"
+    },
+    {
+      "in": "in|Ent Jr",
+      "out": "Ent"
+    },
+    {
+      "in": "name|Wetwing",
+      "out": "§9"
+    },
+    {
+      "in": "in|Wetwing",
+      "out": "Wetwing"
+    },
+    {
+      "in": "in|[Lv5] Wetwing 100/100❤",
+      "out": "Wetwing"
+    },
+    {
+      "in": "in|§cWetwing",
+      "out": "Wetwing"
+    },
+    {
+      "in": "in|Night Wetwing",
+      "out": "Wetwing"
+    },
+    {
+      "in": "in|Wetwing Jr",
+      "out": "Wetwing"
+    },
+    {
+      "in": "name|Stridersurfer",
+      "out": "§9"
+    },
+    {
+      "in": "in|Stridersurfer",
+      "out": "Stridersurfer"
+    },
+    {
+      "in": "in|[Lv5] Stridersurfer 100/100❤",
+      "out": "Stridersurfer"
+    },
+    {
+      "in": "in|§cStridersurfer",
+      "out": "Stridersurfer"
+    },
+    {
+      "in": "in|Night Stridersurfer",
+      "out": "Stridersurfer"
+    },
+    {
+      "in": "in|Stridersurfer Jr",
+      "out": "Stridersurfer"
+    },
+    {
+      "in": "name|Atoll Croaker",
+      "out": "§f"
+    },
+    {
+      "in": "in|Atoll Croaker",
+      "out": "Atoll Croaker"
+    },
+    {
+      "in": "in|[Lv5] Atoll Croaker 100/100❤",
+      "out": "Atoll Croaker"
+    },
+    {
+      "in": "in|§cAtoll Croaker",
+      "out": "Atoll Croaker"
+    },
+    {
+      "in": "in|Night Atoll Croaker",
+      "out": "Atoll Croaker"
+    },
+    {
+      "in": "in|Atoll Croaker Jr",
+      "out": "Atoll Croaker"
+    },
+    {
+      "in": "name|Lotus Guardian",
+      "out": "§a"
+    },
+    {
+      "in": "in|Lotus Guardian",
+      "out": "Lotus Guardian"
+    },
+    {
+      "in": "in|[Lv5] Lotus Guardian 100/100❤",
+      "out": "Lotus Guardian"
+    },
+    {
+      "in": "in|§cLotus Guardian",
+      "out": "Lotus Guardian"
+    },
+    {
+      "in": "in|Night Lotus Guardian",
+      "out": "Lotus Guardian"
+    },
+    {
+      "in": "in|Lotus Guardian Jr",
+      "out": "Lotus Guardian"
+    },
+    {
+      "in": "name|gorF",
+      "out": "§9"
+    },
+    {
+      "in": "in|gorF",
+      "out": "gorF"
+    },
+    {
+      "in": "in|[Lv5] gorF 100/100❤",
+      "out": "gorF"
+    },
+    {
+      "in": "in|§cgorF",
+      "out": "gorF"
+    },
+    {
+      "in": "in|Night gorF",
+      "out": "gorF"
+    },
+    {
+      "in": "in|gorF Jr",
+      "out": "gorF"
+    },
+    {
+      "in": "name|Drowned Captain",
+      "out": "§5"
+    },
+    {
+      "in": "in|Drowned Captain",
+      "out": "Drowned Captain"
+    },
+    {
+      "in": "in|[Lv5] Drowned Captain 100/100❤",
+      "out": "Drowned Captain"
+    },
+    {
+      "in": "in|§cDrowned Captain",
+      "out": "Drowned Captain"
+    },
+    {
+      "in": "in|Night Drowned Captain",
+      "out": "Drowned Captain"
+    },
+    {
+      "in": "in|Drowned Captain Jr",
+      "out": "Drowned Captain"
+    },
+    {
+      "in": "name|Puddle Jumper",
+      "out": "§6"
+    },
+    {
+      "in": "in|Puddle Jumper",
+      "out": "Puddle Jumper"
+    },
+    {
+      "in": "in|[Lv5] Puddle Jumper 100/100❤",
+      "out": "Puddle Jumper"
+    },
+    {
+      "in": "in|§cPuddle Jumper",
+      "out": "Puddle Jumper"
+    },
+    {
+      "in": "in|Night Puddle Jumper",
+      "out": "Puddle Jumper"
+    },
+    {
+      "in": "in|Puddle Jumper Jr",
+      "out": "Puddle Jumper"
+    },
+    {
+      "in": "name|Frog Prince",
+      "out": "§d"
+    },
+    {
+      "in": "in|Frog Prince",
+      "out": "Frog Prince"
+    },
+    {
+      "in": "in|[Lv5] Frog Prince 100/100❤",
+      "out": "Frog Prince"
+    },
+    {
+      "in": "in|§cFrog Prince",
+      "out": "Frog Prince"
+    },
+    {
+      "in": "in|Night Frog Prince",
+      "out": "Frog Prince"
+    },
+    {
+      "in": "in|Frog Prince Jr",
+      "out": "Frog Prince"
+    },
+    {
+      "in": "name|Haggard",
+      "out": "§f"
+    },
+    {
+      "in": "in|Haggard",
+      "out": "Haggard"
+    },
+    {
+      "in": "in|[Lv5] Haggard 100/100❤",
+      "out": "Haggard"
+    },
+    {
+      "in": "in|§cHaggard",
+      "out": "Haggard"
+    },
+    {
+      "in": "in|Night Haggard",
+      "out": "Haggard"
+    },
+    {
+      "in": "in|Haggard Jr",
+      "out": "Haggard"
+    },
+    {
+      "in": "name|Brineling",
+      "out": "§a"
+    },
+    {
+      "in": "in|Brineling",
+      "out": "Brineling"
+    },
+    {
+      "in": "in|[Lv5] Brineling 100/100❤",
+      "out": "Brineling"
+    },
+    {
+      "in": "in|§cBrineling",
+      "out": "Brineling"
+    },
+    {
+      "in": "in|Night Brineling",
+      "out": "Brineling"
+    },
+    {
+      "in": "in|Brineling Jr",
+      "out": "Brineling"
+    },
+    {
+      "in": "name|Sprawl",
+      "out": "§9"
+    },
+    {
+      "in": "in|Sprawl",
+      "out": "Sprawl"
+    },
+    {
+      "in": "in|[Lv5] Sprawl 100/100❤",
+      "out": "Sprawl"
+    },
+    {
+      "in": "in|§cSprawl",
+      "out": "Sprawl"
+    },
+    {
+      "in": "in|Night Sprawl",
+      "out": "Sprawl"
+    },
+    {
+      "in": "in|Sprawl Jr",
+      "out": "Sprawl"
+    },
+    {
+      "in": "name|Torrid",
+      "out": "§5"
+    },
+    {
+      "in": "in|Torrid",
+      "out": "Torrid"
+    },
+    {
+      "in": "in|[Lv5] Torrid 100/100❤",
+      "out": "Torrid"
+    },
+    {
+      "in": "in|§cTorrid",
+      "out": "Torrid"
+    },
+    {
+      "in": "in|Night Torrid",
+      "out": "Torrid"
+    },
+    {
+      "in": "in|Torrid Jr",
+      "out": "Torrid"
+    },
+    {
+      "in": "name|Silkbreeze",
+      "out": "§6"
+    },
+    {
+      "in": "in|Silkbreeze",
+      "out": "Silkbreeze"
+    },
+    {
+      "in": "in|[Lv5] Silkbreeze 100/100❤",
+      "out": "Silkbreeze"
+    },
+    {
+      "in": "in|§cSilkbreeze",
+      "out": "Silkbreeze"
+    },
+    {
+      "in": "in|Night Silkbreeze",
+      "out": "Silkbreeze"
+    },
+    {
+      "in": "in|Silkbreeze Jr",
+      "out": "Silkbreeze"
+    },
+    {
+      "in": "name|Giant Isopod",
+      "out": "§d"
+    },
+    {
+      "in": "in|Giant Isopod",
+      "out": "Giant Isopod"
+    },
+    {
+      "in": "in|[Lv5] Giant Isopod 100/100❤",
+      "out": "Giant Isopod"
+    },
+    {
+      "in": "in|§cGiant Isopod",
+      "out": "Giant Isopod"
+    },
+    {
+      "in": "in|Night Giant Isopod",
+      "out": "Giant Isopod"
+    },
+    {
+      "in": "in|Giant Isopod Jr",
+      "out": "Giant Isopod"
+    },
+    {
+      "in": "name|Nope",
+      "out": "-"
+    },
+    {
+      "in": "in|Nope",
+      "out": "-"
+    },
+    {
+      "in": "in|[Lv5] Nope 100/100❤",
+      "out": "-"
+    },
+    {
+      "in": "in|§cNope",
+      "out": "-"
+    },
+    {
+      "in": "in|Night Nope",
+      "out": "-"
+    },
+    {
+      "in": "in|Nope Jr",
+      "out": "-"
+    },
+    {
+      "in": "name|squid",
+      "out": "-"
+    },
+    {
+      "in": "in|squid",
+      "out": "-"
+    },
+    {
+      "in": "in|[Lv5] squid 100/100❤",
+      "out": "-"
+    },
+    {
+      "in": "in|§csquid",
+      "out": "-"
+    },
+    {
+      "in": "in|Night squid",
+      "out": "-"
+    },
+    {
+      "in": "in|squid Jr",
+      "out": "-"
+    },
+    {
+      "in": "name|Grubber",
+      "out": "-"
+    },
+    {
+      "in": "in|Grubber",
+      "out": "-"
+    },
+    {
+      "in": "in|[Lv5] Grubber 100/100❤",
+      "out": "-"
+    },
+    {
+      "in": "in|§cGrubber",
+      "out": "-"
+    },
+    {
+      "in": "in|Night Grubber",
+      "out": "-"
+    },
+    {
+      "in": "in|Grubber Jr",
+      "out": "-"
+    },
+    {
+      "in": "name|Mithril Grubber",
+      "out": "-"
+    },
+    {
+      "in": "in|Mithril Grubber",
+      "out": "-"
+    },
+    {
+      "in": "in|[Lv5] Mithril Grubber 100/100❤",
+      "out": "-"
+    },
+    {
+      "in": "in|§cMithril Grubber",
+      "out": "-"
+    },
+    {
+      "in": "in|Night Mithril Grubber",
+      "out": "-"
+    },
+    {
+      "in": "in|Mithril Grubber Jr",
+      "out": "-"
+    },
+    {
+      "in": "name|Worm",
+      "out": "-"
+    },
+    {
+      "in": "in|Worm",
+      "out": "-"
+    },
+    {
+      "in": "in|[Lv5] Worm 100/100❤",
+      "out": "-"
+    },
+    {
+      "in": "in|§cWorm",
+      "out": "-"
+    },
+    {
+      "in": "in|Night Worm",
+      "out": "-"
+    },
+    {
+      "in": "in|Worm Jr",
+      "out": "-"
+    },
+    {
+      "in": "name|Shark",
+      "out": "-"
+    },
+    {
+      "in": "in|Shark",
+      "out": "-"
+    },
+    {
+      "in": "in|[Lv5] Shark 100/100❤",
+      "out": "-"
+    },
+    {
+      "in": "in|§cShark",
+      "out": "-"
+    },
+    {
+      "in": "in|Night Shark",
+      "out": "-"
+    },
+    {
+      "in": "in|Shark Jr",
+      "out": "-"
+    },
+    {
+      "in": "order",
+      "out": "Water Hydra;Carrot King;Sea Guardian;Squid;Night Squid;Sea Walker;Sea Witch;Sea Archer;Rider of the Deep;Catfish;Sea Leech;Guardian Defender;Deep Sea Protector;Agarimoo;Inkling;Manta Ray;Frog Man;Snapping Turtle;Blue Ringed Octopus;Wiki Tiki;Great White Shark;Nurse Shark;Blue Shark;Tiger Shark;Reindrake;Yeti;Nutcracker;Frozen Steve;Frosty;Grinch;Phantom Fisher;Grim Reaper;Scarecrow;Nightmare;Werewolf;Jumpin' Jack;Fried Chicken;Fireproof Witch;Magma Slug;Moogma;Lava Leech;Pyroclastic Worm;Lava Flame;Fire Eel;Taurus;Volcanic Snail;Magma Pillar;Fiery Scuttler;Thunder;Lord Jawbus;Plhlegblast;Ragnarok;Vanquisher;Oasis Rabbit;Oasis Sheep;Abyssal Miner;Water Worm;Poisoned Water Worm;Flaming Worm;Lava Blaze;Lava Pigman;Small Mithril Grubber;Medium Mithril Grubber;Large Mithril Grubber;Bloated Mithril Grubber;Trash Gobbler;Dumpster Diver;Banshee;Bayou Sludge;Alligator;Titanoboa;Nessie;The Loch Emperor;Bogged;Tadgang;Ent;Wetwing;Stridersurfer;Atoll Croaker;Lotus Guardian;gorF;Drowned Captain;Puddle Jumper;Frog Prince;Haggard;Brineling;Sprawl;Torrid;Silkbreeze;Giant Isopod"
+    },
+    {
+      "in": "rare-order",
+      "out": "Water Hydra;Carrot King;Blue Ringed Octopus;Wiki Tiki;Great White Shark;Reindrake;Yeti;Nutcracker;Phantom Fisher;Grim Reaper;Magma Pillar;Fiery Scuttler;Thunder;Lord Jawbus;Plhlegblast;Ragnarok;Vanquisher;Abyssal Miner;Alligator;Titanoboa;Nessie;The Loch Emperor;Puddle Jumper;Frog Prince;Silkbreeze;Giant Isopod"
+    }
+  ]
+}

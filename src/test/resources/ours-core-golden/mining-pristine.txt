@@ -1,0 +1,20 @@
+id pristine-profit pattern=PRISTINE! You found . Flawed (?<kind>Sapphire|Ruby|Amethyst|Amber|Topaz|Jade|Jasper|Opal|Peridot|Onyx|Aquamarine|Citrine) Gemstone x(?<count>[0-9,]+)!
+consts 3600 80 80 6400 SELL_ORDER
+kind SAPPHIRE Sapphire FLAWED_SAPPHIRE_GEM FINE_SAPPHIRE_GEM
+kind RUBY Ruby FLAWED_RUBY_GEM FINE_RUBY_GEM
+kind AMETHYST Amethyst FLAWED_AMETHYST_GEM FINE_AMETHYST_GEM
+kind AMBER Amber FLAWED_AMBER_GEM FINE_AMBER_GEM
+kind TOPAZ Topaz FLAWED_TOPAZ_GEM FINE_TOPAZ_GEM
+kind JADE Jade FLAWED_JADE_GEM FINE_JADE_GEM
+kind JASPER Jasper FLAWED_JASPER_GEM FINE_JASPER_GEM
+kind OPAL Opal FLAWED_OPAL_GEM FINE_OPAL_GEM
+kind PERIDOT Peridot FLAWED_PERIDOT_GEM FINE_PERIDOT_GEM
+kind ONYX Onyx FLAWED_ONYX_GEM FINE_ONYX_GEM
+kind AQUAMARINE Aquamarine FLAWED_AQUAMARINE_GEM FINE_AQUAMARINE_GEM
+kind CITRINE Citrine FLAWED_CITRINE_GEM FINE_CITRINE_GEM
+line 'PRISTINE! You found ❈ Flawed Ruby Gemstone x2!' -> Ruby/2
+line 'PRISTINE! You found ❈ Flawed Onyx Gemstone x1,234!' -> Onyx/1,234
+line 'PRISTINE! You found  Flawed Ruby Gemstone x2!' -> -
+line 'PRISTINE! You found ❈ Fine Ruby Gemstone x2!' -> -
+line 'PRISTINE! You found ❈ Flawed Jasper Gemstone x10!' -> Jasper/10
+data BestRates(coinsPerSecond=1.0, roughPerSecond=1.0)

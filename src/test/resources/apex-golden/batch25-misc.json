@@ -1,0 +1,1837 @@
+{
+  "cases": 458,
+  "data": [
+    {
+      "in": "table",
+      "out": "8 010000010111101001010011100000101110000111=[Step(render=BlockPos{x=22, y=65, z=15}, click=BlockPos{x=23, y=65, z=15}), Step(render=BlockPos{x=19, y=65, z=21}, click=BlockPos{x=20, y=65, z=21})];100000111101111011101110001110111010000000=[Step(render=BlockPos{x=21, y=65, z=14}, click=BlockPos{x=21, y=65, z=13}), Step(render=BlockPos{x=15, y=65, z=17}, click=BlockPos{x=15, y=65, z=16}), Step(render=BlockPos{x=15, y=65, z=20}, click=BlockPos{x=15, y=65, z=19}), Step(render=BlockPos{x=13, y=65, z=21}, click=BlockPos{x=14, y=65, z=21})];110001110111011010001100111111100011000001=[Step(render=BlockPos{x=15, y=65, z=14}, click=BlockPos{x=15, y=65, z=13}), Step(render=BlockPos{x=19, y=65, z=21}, click=BlockPos{x=20, y=65, z=21})];100100101000100010100010101000101000100010=[Step(render=BlockPos{x=22, y=65, z=21}, click=BlockPos{x=23, y=65, z=21})];000000011111101001010011100000101110000110=[Step(render=BlockPos{x=13, y=65, z=12}, click=BlockPos{x=14, y=65, z=12})];000000001111100100010010001011111110000000=[Step(render=BlockPos{x=24, y=65, z=11}, click=BlockPos{x=24, y=65, z=10}), Step(render=BlockPos{x=24, y=65, z=14}, click=BlockPos{x=24, y=65, z=13}), Step(render=BlockPos{x=24, y=65, z=17}, click=BlockPos{x=24, y=65, z=16}), Step(render=BlockPos{x=24, y=65, z=21}, click=BlockPos{x=24, y=65, z=19}), Step(render=BlockPos{x=22, y=65, z=21}, click=BlockPos{x=23, y=65, z=21})];000000010101110101010011010000010100000000=[Step(render=BlockPos{x=22, y=65, z=18}, click=BlockPos{x=23, y=65, z=18})];100101001000000010101001111101010101010101=[Step(render=BlockPos{x=21, y=65, z=11}, click=BlockPos{x=21, y=65, z=10}), Step(render=BlockPos{x=22, y=65, z=21}, click=BlockPos{x=23, y=65, z=21})]"
+    },
+    {
+      "in": "minBoulders",
+      "out": "8"
+    },
+    {
+      "in": "key0",
+      "out": "010101010101010101010101010101010101010101"
+    },
+    {
+      "in": "keyOrder",
+      "out": "111111111111111111111111111111111111111111 [24,66,24, 21,66,24, 18,66,24, 15,66,24, 12,66,24, 9,66,24, 6,66,24, 24,66,21, 21,66,21, 18,66,21, 15,66,21, 12,66,21, 9,66,21, 6,66,21, 24,66,18, 21,66,18, 18,66,18, 15,66,18, 12,66,18, 9,66,18, 6,66,18, 24,66,15, 21,66,15, 18,66,15, 15,66,15, 12,66,15, 9,66,15, 6,66,15, 24,66,12, 21,66,12, 18,66,12, 15,66,12, 12,66,12, 9,66,12, 6,66,12, 24,66,9, 21,66,9, 18,66,9, 15,66,9, 12,66,9, 9,66,9, 6,66,9]"
+    },
+    {
+      "in": "solve|0",
+      "out": "[Step(render=BlockPos{x=138, y=65, z=-212}, click=BlockPos{x=138, y=65, z=-211}), Step(render=BlockPos{x=144, y=65, z=-215}, click=BlockPos{x=144, y=65, z=-214}), Step(render=BlockPos{x=144, y=65, z=-218}, click=BlockPos{x=144, y=65, z=-217}), Step(render=BlockPos{x=146, y=65, z=-219}, click=BlockPos{x=145, y=65, z=-219})] 126 371291104"
+    },
+    {
+      "in": "scan|0",
+      "out": "NotBoulder 316 -1763253666"
+    },
+    {
+      "in": "solve|1",
+      "out": "[Step(render=BlockPos{x=78, y=65, z=-9}, click=BlockPos{x=79, y=65, z=-9})] 42 1412525728"
+    },
+    {
+      "in": "scan|1",
+      "out": "NotBoulder 308 -1496095744"
+    },
+    {
+      "in": "solve|2",
+      "out": "[Step(render=BlockPos{x=-65, y=65, z=148}, click=BlockPos{x=-65, y=65, z=147}), Step(render=BlockPos{x=-71, y=65, z=151}, click=BlockPos{x=-71, y=65, z=150}), Step(render=BlockPos{x=-71, y=65, z=154}, click=BlockPos{x=-71, y=65, z=153}), Step(render=BlockPos{x=-73, y=65, z=155}, click=BlockPos{x=-72, y=65, z=155})] 42 1412525728"
+    },
+    {
+      "in": "scan|2",
+      "out": "Solved(key=100000111101111011101110001110111010000000, steps=[Step(render=BlockPos{x=-65, y=65, z=148}, click=BlockPos{x=-65, y=65, z=147}), Step(render=BlockPos{x=-71, y=65, z=151}, click=BlockPos{x=-71, y=65, z=150}), Step(render=BlockPos{x=-71, y=65, z=154}, click=BlockPos{x=-71, y=65, z=153}), Step(render=BlockPos{x=-73, y=65, z=155}, click=BlockPos{x=-72, y=65, z=155})]) 106 -2006839936"
+    },
+    {
+      "in": "solve|3",
+      "out": "[Step(render=BlockPos{x=64, y=65, z=136}, click=BlockPos{x=64, y=65, z=135})] 168 789842560"
+    },
+    {
+      "in": "scan|3",
+      "out": "Solved(key=000000010101110101010011010000010100000000, steps=[Step(render=BlockPos{x=64, y=65, z=136}, click=BlockPos{x=64, y=65, z=135})]) 349 1074294308"
+    },
+    {
+      "in": "solve|4",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|4",
+      "out": "NotBoulder 301 -512770594"
+    },
+    {
+      "in": "solve|5",
+      "out": "[Step(render=BlockPos{x=-170, y=65, z=77}, click=BlockPos{x=-170, y=65, z=78})] 84 1100911936"
+    },
+    {
+      "in": "scan|5",
+      "out": "NotBoulder 312 599548306"
+    },
+    {
+      "in": "solve|6",
+      "out": "[Step(render=BlockPos{x=-26, y=65, z=71}, click=BlockPos{x=-26, y=65, z=70}), Step(render=BlockPos{x=-26, y=65, z=74}, click=BlockPos{x=-26, y=65, z=73}), Step(render=BlockPos{x=-26, y=65, z=77}, click=BlockPos{x=-26, y=65, z=76}), Step(render=BlockPos{x=-26, y=65, z=81}, click=BlockPos{x=-26, y=65, z=79}), Step(render=BlockPos{x=-28, y=65, z=81}, click=BlockPos{x=-27, y=65, z=81})] 42 1412525728"
+    },
+    {
+      "in": "scan|6",
+      "out": "NotBoulder 310 -671658500"
+    },
+    {
+      "in": "solve|7",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|7",
+      "out": "NotBoulder 343 -2033271068"
+    },
+    {
+      "in": "solve|8",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|8",
+      "out": "Blocked(key=011111110100000011101011010111100111101111) 363 -1557413418"
+    },
+    {
+      "in": "solve|9",
+      "out": "[Step(render=BlockPos{x=125, y=65, z=-148}, click=BlockPos{x=126, y=65, z=-148}), Step(render=BlockPos{x=115, y=65, z=-147}, click=BlockPos{x=115, y=65, z=-146})] 84 1100911936"
+    },
+    {
+      "in": "scan|9",
+      "out": "NotBoulder 313 1718357190"
+    },
+    {
+      "in": "solve|10",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|10",
+      "out": "NotBoulder 302 -1258580318"
+    },
+    {
+      "in": "solve|11",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|11",
+      "out": "NotBoulder 337 678226272"
+    },
+    {
+      "in": "solve|12",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|12",
+      "out": "NotBoulder 341 -2032948792"
+    },
+    {
+      "in": "solve|13",
+      "out": "[Step(render=BlockPos{x=66, y=65, z=-155}, click=BlockPos{x=66, y=65, z=-154}), Step(render=BlockPos{x=62, y=65, z=-162}, click=BlockPos{x=61, y=65, z=-162})] 126 371291104"
+    },
+    {
+      "in": "scan|13",
+      "out": "NotBoulder 317 184415166"
+    },
+    {
+      "in": "solve|14",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|14",
+      "out": "NotBoulder 340 -190609798"
+    },
+    {
+      "in": "solve|15",
+      "out": "[Step(render=BlockPos{x=100, y=65, z=-55}, click=BlockPos{x=100, y=65, z=-54}), Step(render=BlockPos{x=100, y=65, z=-58}, click=BlockPos{x=100, y=65, z=-57}), Step(render=BlockPos{x=100, y=65, z=-61}, click=BlockPos{x=100, y=65, z=-60}), Step(render=BlockPos{x=100, y=65, z=-65}, click=BlockPos{x=100, y=65, z=-63}), Step(render=BlockPos{x=102, y=65, z=-65}, click=BlockPos{x=101, y=65, z=-65})] 126 371291104"
+    },
+    {
+      "in": "scan|15",
+      "out": "NotBoulder 310 1666839292"
+    },
+    {
+      "in": "solve|16",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|16",
+      "out": "NotBoulder 341 1283919760"
+    },
+    {
+      "in": "solve|17",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|17",
+      "out": "NotBoulder 326 1149253704"
+    },
+    {
+      "in": "solve|18",
+      "out": "[Step(render=BlockPos{x=-162, y=65, z=-180}, click=BlockPos{x=-162, y=65, z=-181})] 168 789842560"
+    },
+    {
+      "in": "scan|18",
+      "out": "Solved(key=000000010101110101010011010000010100000000, steps=[Step(render=BlockPos{x=-162, y=65, z=-180}, click=BlockPos{x=-162, y=65, z=-181})]) 349 1074294308"
+    },
+    {
+      "in": "solve|19",
+      "out": "[Step(render=BlockPos{x=102, y=65, z=-168}, click=BlockPos{x=102, y=65, z=-167}), Step(render=BlockPos{x=98, y=65, z=-175}, click=BlockPos{x=97, y=65, z=-175})] 126 371291104"
+    },
+    {
+      "in": "scan|19",
+      "out": "NotBoulder 317 184415166"
+    },
+    {
+      "in": "solve|20",
+      "out": "[Step(render=BlockPos{x=-2, y=65, z=-47}, click=BlockPos{x=-2, y=65, z=-46}), Step(render=BlockPos{x=-8, y=65, z=-50}, click=BlockPos{x=-8, y=65, z=-49})] 84 1100911936"
+    },
+    {
+      "in": "scan|20",
+      "out": "NotBoulder 313 1962439958"
+    },
+    {
+      "in": "solve|21",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|21",
+      "out": "Blocked(key=110111011010111010101001111101110101110110) 364 1580066302"
+    },
+    {
+      "in": "solve|22",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|22",
+      "out": "NotBoulder 338 822210016"
+    },
+    {
+      "in": "solve|23",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|23",
+      "out": "NotBoulder 325 1133957094"
+    },
+    {
+      "in": "solve|24",
+      "out": "[Step(render=BlockPos{x=171, y=65, z=-90}, click=BlockPos{x=171, y=65, z=-89}), Step(render=BlockPos{x=177, y=65, z=-93}, click=BlockPos{x=177, y=65, z=-92}), Step(render=BlockPos{x=177, y=65, z=-96}, click=BlockPos{x=177, y=65, z=-95}), Step(render=BlockPos{x=179, y=65, z=-97}, click=BlockPos{x=178, y=65, z=-97})] 126 371291104"
+    },
+    {
+      "in": "scan|24",
+      "out": "NotBoulder 316 -1763253666"
+    },
+    {
+      "in": "solve|25",
+      "out": "[Step(render=BlockPos{x=-194, y=65, z=-103}, click=BlockPos{x=-194, y=65, z=-102})] 84 1100911936"
+    },
+    {
+      "in": "scan|25",
+      "out": "Solved(key=000000011111101001010011100000101110000110, steps=[Step(render=BlockPos{x=-194, y=65, z=-103}, click=BlockPos{x=-194, y=65, z=-102})]) 186 -1056916130"
+    },
+    {
+      "in": "solve|26",
+      "out": "[Step(render=BlockPos{x=-218, y=65, z=65}, click=BlockPos{x=-218, y=65, z=66}), Step(render=BlockPos{x=-219, y=65, z=55}, click=BlockPos{x=-220, y=65, z=55})] 126 371291104"
+    },
+    {
+      "in": "scan|26",
+      "out": "NotBoulder 313 -1233530702"
+    },
+    {
+      "in": "solve|27",
+      "out": "[Step(render=BlockPos{x=-153, y=65, z=-77}, click=BlockPos{x=-154, y=65, z=-77}), Step(render=BlockPos{x=-143, y=65, z=-78}, click=BlockPos{x=-143, y=65, z=-79})] 168 789842560"
+    },
+    {
+      "in": "scan|27",
+      "out": "NotBoulder 313 -1184030050"
+    },
+    {
+      "in": "solve|28",
+      "out": "[Step(render=BlockPos{x=23, y=65, z=-200}, click=BlockPos{x=22, y=65, z=-200})] 126 371291104"
+    },
+    {
+      "in": "scan|28",
+      "out": "NotBoulder 308 -565861888"
+    },
+    {
+      "in": "solve|29",
+      "out": "[Step(render=BlockPos{x=117, y=65, z=-19}, click=BlockPos{x=116, y=65, z=-19})] 126 371291104"
+    },
+    {
+      "in": "scan|29",
+      "out": "NotBoulder 308 -565861888"
+    },
+    {
+      "in": "solve|30",
+      "out": "[Step(render=BlockPos{x=-22, y=65, z=46}, click=BlockPos{x=-23, y=65, z=46})] 126 371291104"
+    },
+    {
+      "in": "scan|30",
+      "out": "Solved(key=100100101000100010100010101000101000100010, steps=[Step(render=BlockPos{x=-22, y=65, z=46}, click=BlockPos{x=-23, y=65, z=46})]) 266 455404022"
+    },
+    {
+      "in": "solve|31",
+      "out": "[Step(render=BlockPos{x=-154, y=65, z=-46}, click=BlockPos{x=-153, y=65, z=-46})] 42 1412525728"
+    },
+    {
+      "in": "scan|31",
+      "out": "Solved(key=000000010101110101010011010000010100000000, steps=[Step(render=BlockPos{x=-154, y=65, z=-46}, click=BlockPos{x=-153, y=65, z=-46})]) 97 -497217054"
+    },
+    {
+      "in": "solve|32",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|32",
+      "out": "NotBoulder 311 -406141640"
+    },
+    {
+      "in": "solve|33",
+      "out": "[Step(render=BlockPos{x=-159, y=65, z=119}, click=BlockPos{x=-160, y=65, z=119})] 126 371291104"
+    },
+    {
+      "in": "scan|33",
+      "out": "Solved(key=100100101000100010100010101000101000100010, steps=[Step(render=BlockPos{x=-159, y=65, z=119}, click=BlockPos{x=-160, y=65, z=119})]) 266 455404022"
+    },
+    {
+      "in": "solve|34",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|34",
+      "out": "NotBoulder 328 -2064924028"
+    },
+    {
+      "in": "solve|35",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|35",
+      "out": "NotBoulder 341 -1426440538"
+    },
+    {
+      "in": "solve|36",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|36",
+      "out": "NotBoulder 331 663900428"
+    },
+    {
+      "in": "solve|37",
+      "out": "[Step(render=BlockPos{x=31, y=65, z=111}, click=BlockPos{x=31, y=65, z=112}), Step(render=BlockPos{x=31, y=65, z=108}, click=BlockPos{x=31, y=65, z=109}), Step(render=BlockPos{x=31, y=65, z=105}, click=BlockPos{x=31, y=65, z=106}), Step(render=BlockPos{x=31, y=65, z=101}, click=BlockPos{x=31, y=65, z=103}), Step(render=BlockPos{x=33, y=65, z=101}, click=BlockPos{x=32, y=65, z=101})] 126 371291104"
+    },
+    {
+      "in": "scan|37",
+      "out": "NotBoulder 310 1666839292"
+    },
+    {
+      "in": "solve|38",
+      "out": "[Step(render=BlockPos{x=18, y=65, z=-158}, click=BlockPos{x=17, y=65, z=-158}), Step(render=BlockPos{x=21, y=65, z=-152}, click=BlockPos{x=20, y=65, z=-152}), Step(render=BlockPos{x=24, y=65, z=-152}, click=BlockPos{x=23, y=65, z=-152}), Step(render=BlockPos{x=25, y=65, z=-150}, click=BlockPos{x=25, y=65, z=-151})] 168 789842560"
+    },
+    {
+      "in": "scan|38",
+      "out": "Solved(key=100000111101111011101110001110111010000000, steps=[Step(render=BlockPos{x=18, y=65, z=-158}, click=BlockPos{x=17, y=65, z=-158}), Step(render=BlockPos{x=21, y=65, z=-152}, click=BlockPos{x=20, y=65, z=-152}), Step(render=BlockPos{x=24, y=65, z=-152}, click=BlockPos{x=23, y=65, z=-152}), Step(render=BlockPos{x=25, y=65, z=-150}, click=BlockPos{x=25, y=65, z=-151})]) 358 -1163043970"
+    },
+    {
+      "in": "solve|39",
+      "out": "[Step(render=BlockPos{x=61, y=65, z=162}, click=BlockPos{x=61, y=65, z=163})] 84 1100911936"
+    },
+    {
+      "in": "scan|39",
+      "out": "Solved(key=100100101000100010100010101000101000100010, steps=[Step(render=BlockPos{x=61, y=65, z=162}, click=BlockPos{x=61, y=65, z=163})]) 182 -650355892"
+    },
+    {
+      "in": "solve|40",
+      "out": "[Step(render=BlockPos{x=-71, y=65, z=-93}, click=BlockPos{x=-71, y=65, z=-94}), Step(render=BlockPos{x=-67, y=65, z=-86}, click=BlockPos{x=-66, y=65, z=-86})] 42 1412525728"
+    },
+    {
+      "in": "scan|40",
+      "out": "Solved(key=110001110111011010001100111111100011000001, steps=[Step(render=BlockPos{x=-71, y=65, z=-93}, click=BlockPos{x=-71, y=65, z=-94}), Step(render=BlockPos{x=-67, y=65, z=-86}, click=BlockPos{x=-66, y=65, z=-86})]) 107 -813616888"
+    },
+    {
+      "in": "solve|41",
+      "out": "[Step(render=BlockPos{x=90, y=65, z=176}, click=BlockPos{x=89, y=65, z=176}), Step(render=BlockPos{x=93, y=65, z=170}, click=BlockPos{x=92, y=65, z=170})] 126 371291104"
+    },
+    {
+      "in": "scan|41",
+      "out": "Solved(key=010000010111101001010011100000101110000111, steps=[Step(render=BlockPos{x=90, y=65, z=176}, click=BlockPos{x=89, y=65, z=176}), Step(render=BlockPos{x=93, y=65, z=170}, click=BlockPos{x=92, y=65, z=170})]) 271 -2138420360"
+    },
+    {
+      "in": "solve|42",
+      "out": "[Step(render=BlockPos{x=70, y=65, z=32}, click=BlockPos{x=69, y=65, z=32}), Step(render=BlockPos{x=73, y=65, z=38}, click=BlockPos{x=72, y=65, z=38}), Step(render=BlockPos{x=76, y=65, z=38}, click=BlockPos{x=75, y=65, z=38}), Step(render=BlockPos{x=77, y=65, z=40}, click=BlockPos{x=77, y=65, z=39})] 168 789842560"
+    },
+    {
+      "in": "scan|42",
+      "out": "Solved(key=100000111101111011101110001110111010000000, steps=[Step(render=BlockPos{x=70, y=65, z=32}, click=BlockPos{x=69, y=65, z=32}), Step(render=BlockPos{x=73, y=65, z=38}, click=BlockPos{x=72, y=65, z=38}), Step(render=BlockPos{x=76, y=65, z=38}, click=BlockPos{x=75, y=65, z=38}), Step(render=BlockPos{x=77, y=65, z=40}, click=BlockPos{x=77, y=65, z=39})]) 358 -1163043970"
+    },
+    {
+      "in": "solve|43",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|43",
+      "out": "Blocked(key=100111110011011111100010100111000001001111) 360 -549727998"
+    },
+    {
+      "in": "solve|44",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|44",
+      "out": "Blocked(key=010000000111101001010011100000101110000111) 354 -1474770328"
+    },
+    {
+      "in": "solve|45",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|45",
+      "out": "Blocked(key=000000010101110101010001010000010100000000) 348 1660728924"
+    },
+    {
+      "in": "solve|46",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|46",
+      "out": "Blocked(key=111110011101111111001111100111110101011011) 367 -1193791104"
+    },
+    {
+      "in": "solve|47",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|47",
+      "out": "NotBoulder 321 1040909468"
+    },
+    {
+      "in": "solve|48",
+      "out": "[Step(render=BlockPos{x=182, y=65, z=-187}, click=BlockPos{x=182, y=65, z=-188})] 168 789842560"
+    },
+    {
+      "in": "scan|48",
+      "out": "Solved(key=100100101000100010100010101000101000100010, steps=[Step(render=BlockPos{x=182, y=65, z=-187}, click=BlockPos{x=182, y=65, z=-188})]) 350 1623928736"
+    },
+    {
+      "in": "solve|49",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|49",
+      "out": "NotBoulder 338 1863602750"
+    },
+    {
+      "in": "solve|50",
+      "out": "[Step(render=BlockPos{x=217, y=65, z=61}, click=BlockPos{x=217, y=65, z=60}), Step(render=BlockPos{x=218, y=65, z=71}, click=BlockPos{x=219, y=65, z=71})] 42 1412525728"
+    },
+    {
+      "in": "scan|50",
+      "out": "NotBoulder 313 -511650086"
+    },
+    {
+      "in": "solve|51",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|51",
+      "out": "Blocked(key=101011111111100001010011011110100100101110) 361 932408404"
+    },
+    {
+      "in": "solve|52",
+      "out": "[Step(render=BlockPos{x=-4, y=65, z=-184}, click=BlockPos{x=-5, y=65, z=-184}), Step(render=BlockPos{x=-1, y=65, z=-178}, click=BlockPos{x=-2, y=65, z=-178}), Step(render=BlockPos{x=2, y=65, z=-178}, click=BlockPos{x=1, y=65, z=-178}), Step(render=BlockPos{x=3, y=65, z=-176}, click=BlockPos{x=3, y=65, z=-177})] 168 789842560"
+    },
+    {
+      "in": "scan|52",
+      "out": "Solved(key=100000111101111011101110001110111010000000, steps=[Step(render=BlockPos{x=-4, y=65, z=-184}, click=BlockPos{x=-5, y=65, z=-184}), Step(render=BlockPos{x=-1, y=65, z=-178}, click=BlockPos{x=-2, y=65, z=-178}), Step(render=BlockPos{x=2, y=65, z=-178}, click=BlockPos{x=1, y=65, z=-178}), Step(render=BlockPos{x=3, y=65, z=-176}, click=BlockPos{x=3, y=65, z=-177})]) 358 -1163043970"
+    },
+    {
+      "in": "solve|53",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|53",
+      "out": "NotBoulder 302 132008226"
+    },
+    {
+      "in": "solve|54",
+      "out": "[Step(render=BlockPos{x=26, y=65, z=90}, click=BlockPos{x=26, y=65, z=89})] 168 789842560"
+    },
+    {
+      "in": "scan|54",
+      "out": "Solved(key=100100101000100010100010101000101000100010, steps=[Step(render=BlockPos{x=26, y=65, z=90}, click=BlockPos{x=26, y=65, z=89})]) 350 1623928736"
+    },
+    {
+      "in": "solve|55",
+      "out": "[Step(render=BlockPos{x=1, y=65, z=-178}, click=BlockPos{x=1, y=65, z=-179}), Step(render=BlockPos{x=5, y=65, z=-171}, click=BlockPos{x=6, y=65, z=-171})] 42 1412525728"
+    },
+    {
+      "in": "scan|55",
+      "out": "NotBoulder 317 -1610304538"
+    },
+    {
+      "in": "solve|56",
+      "out": "[Step(render=BlockPos{x=41, y=65, z=-121}, click=BlockPos{x=41, y=65, z=-122}), Step(render=BlockPos{x=41, y=65, z=-118}, click=BlockPos{x=41, y=65, z=-119}), Step(render=BlockPos{x=41, y=65, z=-115}, click=BlockPos{x=41, y=65, z=-116}), Step(render=BlockPos{x=41, y=65, z=-111}, click=BlockPos{x=41, y=65, z=-113}), Step(render=BlockPos{x=39, y=65, z=-111}, click=BlockPos{x=40, y=65, z=-111})] 42 1412525728"
+    },
+    {
+      "in": "scan|56",
+      "out": "Solved(key=000000001111100100010010001011111110000000, steps=[Step(render=BlockPos{x=41, y=65, z=-121}, click=BlockPos{x=41, y=65, z=-122}), Step(render=BlockPos{x=41, y=65, z=-118}, click=BlockPos{x=41, y=65, z=-119}), Step(render=BlockPos{x=41, y=65, z=-115}, click=BlockPos{x=41, y=65, z=-116}), Step(render=BlockPos{x=41, y=65, z=-111}, click=BlockPos{x=41, y=65, z=-113}), Step(render=BlockPos{x=39, y=65, z=-111}, click=BlockPos{x=40, y=65, z=-111})]) 100 1947489438"
+    },
+    {
+      "in": "solve|57",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|57",
+      "out": "Blocked(key=011111010100111010110111101010010110111101) 363 376516422"
+    },
+    {
+      "in": "solve|58",
+      "out": "[Step(render=BlockPos{x=-206, y=65, z=-66}, click=BlockPos{x=-206, y=65, z=-65})] 84 1100911936"
+    },
+    {
+      "in": "scan|58",
+      "out": "Solved(key=000000011111101001010011100000101110000110, steps=[Step(render=BlockPos{x=-206, y=65, z=-66}, click=BlockPos{x=-206, y=65, z=-65})]) 186 -1056916130"
+    },
+    {
+      "in": "solve|59",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|59",
+      "out": "Blocked(key=000000010101110101110011010000010100000000) 350 -2067452200"
+    },
+    {
+      "in": "solve|60",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|60",
+      "out": "NotBoulder 340 -1029647490"
+    },
+    {
+      "in": "solve|61",
+      "out": "[Step(render=BlockPos{x=-177, y=65, z=181}, click=BlockPos{x=-178, y=65, z=181}), Step(render=BlockPos{x=-174, y=65, z=175}, click=BlockPos{x=-175, y=65, z=175})] 126 371291104"
+    },
+    {
+      "in": "scan|61",
+      "out": "Solved(key=010000010111101001010011100000101110000111, steps=[Step(render=BlockPos{x=-177, y=65, z=181}, click=BlockPos{x=-178, y=65, z=181}), Step(render=BlockPos{x=-174, y=65, z=175}, click=BlockPos{x=-175, y=65, z=175})]) 271 -2138420360"
+    },
+    {
+      "in": "solve|62",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|62",
+      "out": "Blocked(key=010000010111101001010111100000101110000111) 356 -1894603164"
+    },
+    {
+      "in": "solve|63",
+      "out": "[Step(render=BlockPos{x=-98, y=65, z=-179}, click=BlockPos{x=-98, y=65, z=-178})] 84 1100911936"
+    },
+    {
+      "in": "scan|63",
+      "out": "Solved(key=000000011111101001010011100000101110000110, steps=[Step(render=BlockPos{x=-98, y=65, z=-179}, click=BlockPos{x=-98, y=65, z=-178})]) 186 -1056916130"
+    },
+    {
+      "in": "solve|64",
+      "out": "[Step(render=BlockPos{x=41, y=65, z=-68}, click=BlockPos{x=41, y=65, z=-69})] 168 789842560"
+    },
+    {
+      "in": "scan|64",
+      "out": "Solved(key=000000010101110101010011010000010100000000, steps=[Step(render=BlockPos{x=41, y=65, z=-68}, click=BlockPos{x=41, y=65, z=-69})]) 349 1074294308"
+    },
+    {
+      "in": "solve|65",
+      "out": "[Step(render=BlockPos{x=86, y=65, z=178}, click=BlockPos{x=86, y=65, z=177}), Step(render=BlockPos{x=87, y=65, z=188}, click=BlockPos{x=88, y=65, z=188})] 42 1412525728"
+    },
+    {
+      "in": "scan|65",
+      "out": "NotBoulder 313 -511650086"
+    },
+    {
+      "in": "solve|66",
+      "out": "[Step(render=BlockPos{x=-148, y=65, z=-212}, click=BlockPos{x=-149, y=65, z=-212}), Step(render=BlockPos{x=-141, y=65, z=-216}, click=BlockPos{x=-141, y=65, z=-217})] 168 789842560"
+    },
+    {
+      "in": "scan|66",
+      "out": "Solved(key=110001110111011010001100111111100011000001, steps=[Step(render=BlockPos{x=-148, y=65, z=-212}, click=BlockPos{x=-149, y=65, z=-212}), Step(render=BlockPos{x=-141, y=65, z=-216}, click=BlockPos{x=-141, y=65, z=-217})]) 359 -425745718"
+    },
+    {
+      "in": "solve|67",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|67",
+      "out": "NotBoulder 342 441339232"
+    },
+    {
+      "in": "solve|68",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|68",
+      "out": "NotBoulder 323 -179885918"
+    },
+    {
+      "in": "solve|69",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|69",
+      "out": "NotBoulder 308 281798558"
+    },
+    {
+      "in": "solve|70",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|70",
+      "out": "NotBoulder 340 -232602046"
+    },
+    {
+      "in": "solve|71",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|71",
+      "out": "NotBoulder 327 -1070102"
+    },
+    {
+      "in": "solve|72",
+      "out": "[Step(render=BlockPos{x=167, y=65, z=-63}, click=BlockPos{x=168, y=65, z=-63})] 42 1412525728"
+    },
+    {
+      "in": "scan|72",
+      "out": "Solved(key=100100101000100010100010101000101000100010, steps=[Step(render=BlockPos{x=167, y=65, z=-63}, click=BlockPos{x=168, y=65, z=-63})]) 98 151716770"
+    },
+    {
+      "in": "solve|73",
+      "out": "[Step(render=BlockPos{x=-172, y=65, z=75}, click=BlockPos{x=-172, y=65, z=74})] 168 789842560"
+    },
+    {
+      "in": "scan|73",
+      "out": "Solved(key=000000011111101001010011100000101110000110, steps=[Step(render=BlockPos{x=-172, y=65, z=75}, click=BlockPos{x=-172, y=65, z=74})]) 354 -2119874638"
+    },
+    {
+      "in": "solve|74",
+      "out": "[Step(render=BlockPos{x=-42, y=65, z=114}, click=BlockPos{x=-41, y=65, z=114}), Step(render=BlockPos{x=-52, y=65, z=115}, click=BlockPos{x=-52, y=65, z=116})] 84 1100911936"
+    },
+    {
+      "in": "scan|74",
+      "out": "NotBoulder 313 1718357190"
+    },
+    {
+      "in": "solve|75",
+      "out": "[Step(render=BlockPos{x=-93, y=65, z=167}, click=BlockPos{x=-93, y=65, z=166}), Step(render=BlockPos{x=-99, y=65, z=170}, click=BlockPos{x=-99, y=65, z=169}), Step(render=BlockPos{x=-99, y=65, z=173}, click=BlockPos{x=-99, y=65, z=172}), Step(render=BlockPos{x=-101, y=65, z=174}, click=BlockPos{x=-100, y=65, z=174})] 42 1412525728"
+    },
+    {
+      "in": "scan|75",
+      "out": "Solved(key=100000111101111011101110001110111010000000, steps=[Step(render=BlockPos{x=-93, y=65, z=167}, click=BlockPos{x=-93, y=65, z=166}), Step(render=BlockPos{x=-99, y=65, z=170}, click=BlockPos{x=-99, y=65, z=169}), Step(render=BlockPos{x=-99, y=65, z=173}, click=BlockPos{x=-99, y=65, z=172}), Step(render=BlockPos{x=-101, y=65, z=174}, click=BlockPos{x=-100, y=65, z=174})]) 106 -2006839936"
+    },
+    {
+      "in": "solve|76",
+      "out": "[Step(render=BlockPos{x=46, y=65, z=-188}, click=BlockPos{x=46, y=65, z=-187}), Step(render=BlockPos{x=45, y=65, z=-198}, click=BlockPos{x=44, y=65, z=-198})] 126 371291104"
+    },
+    {
+      "in": "scan|76",
+      "out": "Solved(key=100101001000000010101001111101010101010101, steps=[Step(render=BlockPos{x=46, y=65, z=-188}, click=BlockPos{x=46, y=65, z=-187}), Step(render=BlockPos{x=45, y=65, z=-198}, click=BlockPos{x=44, y=65, z=-198})]) 271 -236865752"
+    },
+    {
+      "in": "solve|77",
+      "out": "[Step(render=BlockPos{x=74, y=65, z=161}, click=BlockPos{x=73, y=65, z=161})] 126 371291104"
+    },
+    {
+      "in": "scan|77",
+      "out": "Solved(key=100100101000100010100010101000101000100010, steps=[Step(render=BlockPos{x=74, y=65, z=161}, click=BlockPos{x=73, y=65, z=161})]) 266 455404022"
+    },
+    {
+      "in": "solve|78",
+      "out": "[Step(render=BlockPos{x=178, y=65, z=-118}, click=BlockPos{x=177, y=65, z=-118}), Step(render=BlockPos{x=185, y=65, z=-122}, click=BlockPos{x=185, y=65, z=-123})] 168 789842560"
+    },
+    {
+      "in": "scan|78",
+      "out": "Solved(key=110001110111011010001100111111100011000001, steps=[Step(render=BlockPos{x=178, y=65, z=-118}, click=BlockPos{x=177, y=65, z=-118}), Step(render=BlockPos{x=185, y=65, z=-122}, click=BlockPos{x=185, y=65, z=-123})]) 359 -425745718"
+    },
+    {
+      "in": "solve|79",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|79",
+      "out": "NotBoulder 298 -1049269282"
+    },
+    {
+      "in": "solve|80",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|80",
+      "out": "Blocked(key=101010111110111101111010111100111101011110) 366 -1803781488"
+    },
+    {
+      "in": "solve|81",
+      "out": "[Step(render=BlockPos{x=-176, y=65, z=158}, click=BlockPos{x=-176, y=65, z=159}), Step(render=BlockPos{x=-176, y=65, z=155}, click=BlockPos{x=-176, y=65, z=156}), Step(render=BlockPos{x=-176, y=65, z=152}, click=BlockPos{x=-176, y=65, z=153}), Step(render=BlockPos{x=-176, y=65, z=148}, click=BlockPos{x=-176, y=65, z=150}), Step(render=BlockPos{x=-174, y=65, z=148}, click=BlockPos{x=-175, y=65, z=148})] 126 371291104"
+    },
+    {
+      "in": "scan|81",
+      "out": "Solved(key=000000001111100100010010001011111110000000, steps=[Step(render=BlockPos{x=-176, y=65, z=158}, click=BlockPos{x=-176, y=65, z=159}), Step(render=BlockPos{x=-176, y=65, z=155}, click=BlockPos{x=-176, y=65, z=156}), Step(render=BlockPos{x=-176, y=65, z=152}, click=BlockPos{x=-176, y=65, z=153}), Step(render=BlockPos{x=-176, y=65, z=148}, click=BlockPos{x=-176, y=65, z=150}), Step(render=BlockPos{x=-174, y=65, z=148}, click=BlockPos{x=-175, y=65, z=148})]) 268 1733162482"
+    },
+    {
+      "in": "solve|82",
+      "out": "[Step(render=BlockPos{x=1, y=65, z=-213}, click=BlockPos{x=1, y=65, z=-214})] 168 789842560"
+    },
+    {
+      "in": "scan|82",
+      "out": "Solved(key=100100101000100010100010101000101000100010, steps=[Step(render=BlockPos{x=1, y=65, z=-213}, click=BlockPos{x=1, y=65, z=-214})]) 350 1623928736"
+    },
+    {
+      "in": "solve|83",
+      "out": "[Step(render=BlockPos{x=21, y=65, z=18}, click=BlockPos{x=22, y=65, z=18}), Step(render=BlockPos{x=11, y=65, z=19}, click=BlockPos{x=11, y=65, z=20})] 84 1100911936"
+    },
+    {
+      "in": "scan|83",
+      "out": "Solved(key=100101001000000010101001111101010101010101, steps=[Step(render=BlockPos{x=21, y=65, z=18}, click=BlockPos{x=22, y=65, z=18}), Step(render=BlockPos{x=11, y=65, z=19}, click=BlockPos{x=11, y=65, z=20})]) 187 -796284014"
+    },
+    {
+      "in": "solve|84",
+      "out": "[Step(render=BlockPos{x=163, y=65, z=17}, click=BlockPos{x=162, y=65, z=17})] 126 371291104"
+    },
+    {
+      "in": "scan|84",
+      "out": "NotBoulder 312 58468498"
+    },
+    {
+      "in": "solve|85",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|85",
+      "out": "NotBoulder 342 -1133443360"
+    },
+    {
+      "in": "solve|86",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|86",
+      "out": "NotBoulder 343 -559013946"
+    },
+    {
+      "in": "solve|87",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|87",
+      "out": "Blocked(key=000000010111110101010011010000010100000000) 350 1562882784"
+    },
+    {
+      "in": "solve|88",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|88",
+      "out": "NotBoulder 321 634531760"
+    },
+    {
+      "in": "solve|89",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|89",
+      "out": "NotBoulder 316 -417038968"
+    },
+    {
+      "in": "solve|90",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|90",
+      "out": "NotBoulder 341 190570690"
+    },
+    {
+      "in": "solve|91",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|91",
+      "out": "NotBoulder 316 -2010009988"
+    },
+    {
+      "in": "solve|92",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|92",
+      "out": "Blocked(key=011111101111011100101000101111001111111101) 365 -871353346"
+    },
+    {
+      "in": "solve|93",
+      "out": "[Step(render=BlockPos{x=75, y=65, z=147}, click=BlockPos{x=76, y=65, z=147})] 42 1412525728"
+    },
+    {
+      "in": "scan|93",
+      "out": "Solved(key=000000010101110101010011010000010100000000, steps=[Step(render=BlockPos{x=75, y=65, z=147}, click=BlockPos{x=76, y=65, z=147})]) 97 -497217054"
+    },
+    {
+      "in": "solve|94",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|94",
+      "out": "NotBoulder 304 -1736214946"
+    },
+    {
+      "in": "solve|95",
+      "out": "[Step(render=BlockPos{x=-157, y=65, z=74}, click=BlockPos{x=-157, y=65, z=75})] 84 1100911936"
+    },
+    {
+      "in": "scan|95",
+      "out": "Solved(key=000000011111101001010011100000101110000110, steps=[Step(render=BlockPos{x=-157, y=65, z=74}, click=BlockPos{x=-157, y=65, z=75})]) 186 -1056916130"
+    },
+    {
+      "in": "solve|96",
+      "out": "[Step(render=BlockPos{x=10, y=65, z=-108}, click=BlockPos{x=11, y=65, z=-108}), Step(render=BlockPos{x=3, y=65, z=-104}, click=BlockPos{x=3, y=65, z=-103})] 84 1100911936"
+    },
+    {
+      "in": "scan|96",
+      "out": "NotBoulder 317 -1430500142"
+    },
+    {
+      "in": "solve|97",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|97",
+      "out": "Blocked(key=010110000100111111111011101010111001111101) 363 -1231714476"
+    },
+    {
+      "in": "solve|98",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|98",
+      "out": "NotBoulder 323 -1506321394"
+    },
+    {
+      "in": "solve|99",
+      "out": "[Step(render=BlockPos{x=-187, y=65, z=169}, click=BlockPos{x=-187, y=65, z=170}), Step(render=BlockPos{x=-193, y=65, z=166}, click=BlockPos{x=-193, y=65, z=167})] 84 1100911936"
+    },
+    {
+      "in": "scan|99",
+      "out": "Solved(key=010000010111101001010011100000101110000111, steps=[Step(render=BlockPos{x=-187, y=65, z=169}, click=BlockPos{x=-187, y=65, z=170}), Step(render=BlockPos{x=-193, y=65, z=166}, click=BlockPos{x=-193, y=65, z=167})]) 187 1597128674"
+    },
+    {
+      "in": "solve|100",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|100",
+      "out": "NotBoulder 321 -452180046"
+    },
+    {
+      "in": "solve|101",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|101",
+      "out": "NotBoulder 311 387244804"
+    },
+    {
+      "in": "solve|102",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|102",
+      "out": "Blocked(key=000000001111100100010010011011111110000000) 353 -173974662"
+    },
+    {
+      "in": "solve|103",
+      "out": "[Step(render=BlockPos{x=12, y=65, z=-17}, click=BlockPos{x=12, y=65, z=-16}), Step(render=BlockPos{x=11, y=65, z=-27}, click=BlockPos{x=10, y=65, z=-27})] 126 371291104"
+    },
+    {
+      "in": "scan|103",
+      "out": "Solved(key=100101001000000010101001111101010101010101, steps=[Step(render=BlockPos{x=12, y=65, z=-17}, click=BlockPos{x=12, y=65, z=-16}), Step(render=BlockPos{x=11, y=65, z=-27}, click=BlockPos{x=10, y=65, z=-27})]) 271 -236865752"
+    },
+    {
+      "in": "solve|104",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|104",
+      "out": "NotBoulder 321 -1199772510"
+    },
+    {
+      "in": "solve|105",
+      "out": "[Step(render=BlockPos{x=57, y=65, z=66}, click=BlockPos{x=58, y=65, z=66})] 42 1412525728"
+    },
+    {
+      "in": "scan|105",
+      "out": "Solved(key=000000010101110101010011010000010100000000, steps=[Step(render=BlockPos{x=57, y=65, z=66}, click=BlockPos{x=58, y=65, z=66})]) 97 -497217054"
+    },
+    {
+      "in": "solve|106",
+      "out": "[Step(render=BlockPos{x=-48, y=65, z=-210}, click=BlockPos{x=-49, y=65, z=-210}), Step(render=BlockPos{x=-45, y=65, z=-216}, click=BlockPos{x=-46, y=65, z=-216})] 126 371291104"
+    },
+    {
+      "in": "scan|106",
+      "out": "Solved(key=010000010111101001010011100000101110000111, steps=[Step(render=BlockPos{x=-48, y=65, z=-210}, click=BlockPos{x=-49, y=65, z=-210}), Step(render=BlockPos{x=-45, y=65, z=-216}, click=BlockPos{x=-46, y=65, z=-216})]) 271 -2138420360"
+    },
+    {
+      "in": "solve|107",
+      "out": "[Step(render=BlockPos{x=91, y=65, z=-125}, click=BlockPos{x=90, y=65, z=-125}), Step(render=BlockPos{x=94, y=65, z=-125}, click=BlockPos{x=93, y=65, z=-125}), Step(render=BlockPos{x=97, y=65, z=-125}, click=BlockPos{x=96, y=65, z=-125}), Step(render=BlockPos{x=101, y=65, z=-125}, click=BlockPos{x=99, y=65, z=-125}), Step(render=BlockPos{x=101, y=65, z=-123}, click=BlockPos{x=101, y=65, z=-124})] 168 789842560"
+    },
+    {
+      "in": "scan|107",
+      "out": "Solved(key=000000001111100100010010001011111110000000, steps=[Step(render=BlockPos{x=91, y=65, z=-125}, click=BlockPos{x=90, y=65, z=-125}), Step(render=BlockPos{x=94, y=65, z=-125}, click=BlockPos{x=93, y=65, z=-125}), Step(render=BlockPos{x=97, y=65, z=-125}, click=BlockPos{x=96, y=65, z=-125}), Step(render=BlockPos{x=101, y=65, z=-125}, click=BlockPos{x=99, y=65, z=-125}), Step(render=BlockPos{x=101, y=65, z=-123}, click=BlockPos{x=101, y=65, z=-124})]) 352 -596018916"
+    },
+    {
+      "in": "solve|108",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|108",
+      "out": "NotBoulder 342 890289662"
+    },
+    {
+      "in": "solve|109",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|109",
+      "out": "NotBoulder 339 410595674"
+    },
+    {
+      "in": "solve|110",
+      "out": "[Step(render=BlockPos{x=-178, y=65, z=-156}, click=BlockPos{x=-179, y=65, z=-156})] 126 371291104"
+    },
+    {
+      "in": "scan|110",
+      "out": "Solved(key=000000010101110101010011010000010100000000, steps=[Step(render=BlockPos{x=-178, y=65, z=-156}, click=BlockPos{x=-179, y=65, z=-156})]) 265 620957966"
+    },
+    {
+      "in": "solve|111",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|111",
+      "out": "NotBoulder 302 727008132"
+    },
+    {
+      "in": "solve|112",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|112",
+      "out": "NotBoulder 321 1817741308"
+    },
+    {
+      "in": "solve|113",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|113",
+      "out": "NotBoulder 340 492904864"
+    },
+    {
+      "in": "solve|114",
+      "out": "[Step(render=BlockPos{x=-32, y=65, z=-167}, click=BlockPos{x=-31, y=65, z=-167}), Step(render=BlockPos{x=-42, y=65, z=-166}, click=BlockPos{x=-42, y=65, z=-165})] 84 1100911936"
+    },
+    {
+      "in": "scan|114",
+      "out": "Solved(key=100101001000000010101001111101010101010101, steps=[Step(render=BlockPos{x=-32, y=65, z=-167}, click=BlockPos{x=-31, y=65, z=-167}), Step(render=BlockPos{x=-42, y=65, z=-166}, click=BlockPos{x=-42, y=65, z=-165})]) 187 -796284014"
+    },
+    {
+      "in": "solve|115",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|115",
+      "out": "Blocked(key=000000010101110101010011010000010100010000) 350 -1677767554"
+    },
+    {
+      "in": "solve|116",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|116",
+      "out": "Blocked(key=100100101000100010100010101000101000110010) 351 -1730540526"
+    },
+    {
+      "in": "solve|117",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|117",
+      "out": "NotBoulder 320 933011004"
+    },
+    {
+      "in": "solve|118",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|118",
+      "out": "NotBoulder 342 968735008"
+    },
+    {
+      "in": "solve|119",
+      "out": "[Step(render=BlockPos{x=72, y=65, z=13}, click=BlockPos{x=72, y=65, z=14}), Step(render=BlockPos{x=68, y=65, z=6}, click=BlockPos{x=67, y=65, z=6})] 126 371291104"
+    },
+    {
+      "in": "scan|119",
+      "out": "NotBoulder 317 184415166"
+    },
+    {
+      "in": "solve|120",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|120",
+      "out": "Blocked(key=111101111110110001111111110011110100110101) 366 468559380"
+    },
+    {
+      "in": "solve|121",
+      "out": "[Step(render=BlockPos{x=1, y=65, z=8}, click=BlockPos{x=1, y=65, z=9}), Step(render=BlockPos{x=1, y=65, z=5}, click=BlockPos{x=1, y=65, z=6}), Step(render=BlockPos{x=1, y=65, z=2}, click=BlockPos{x=1, y=65, z=3}), Step(render=BlockPos{x=1, y=65, z=-2}, click=BlockPos{x=1, y=65, z=0}), Step(render=BlockPos{x=3, y=65, z=-2}, click=BlockPos{x=2, y=65, z=-2})] 126 371291104"
+    },
+    {
+      "in": "scan|121",
+      "out": "Solved(key=000000001111100100010010001011111110000000, steps=[Step(render=BlockPos{x=1, y=65, z=8}, click=BlockPos{x=1, y=65, z=9}), Step(render=BlockPos{x=1, y=65, z=5}, click=BlockPos{x=1, y=65, z=6}), Step(render=BlockPos{x=1, y=65, z=2}, click=BlockPos{x=1, y=65, z=3}), Step(render=BlockPos{x=1, y=65, z=-2}, click=BlockPos{x=1, y=65, z=0}), Step(render=BlockPos{x=3, y=65, z=-2}, click=BlockPos{x=2, y=65, z=-2})]) 268 1733162482"
+    },
+    {
+      "in": "solve|122",
+      "out": "[Step(render=BlockPos{x=-71, y=65, z=-203}, click=BlockPos{x=-71, y=65, z=-202}), Step(render=BlockPos{x=-75, y=65, z=-210}, click=BlockPos{x=-76, y=65, z=-210})] 126 371291104"
+    },
+    {
+      "in": "scan|122",
+      "out": "Solved(key=110001110111011010001100111111100011000001, steps=[Step(render=BlockPos{x=-71, y=65, z=-203}, click=BlockPos{x=-71, y=65, z=-202}), Step(render=BlockPos{x=-75, y=65, z=-210}, click=BlockPos{x=-76, y=65, z=-210})]) 275 759376180"
+    },
+    {
+      "in": "solve|123",
+      "out": "[Step(render=BlockPos{x=-122, y=65, z=30}, click=BlockPos{x=-122, y=65, z=29}), Step(render=BlockPos{x=-118, y=65, z=37}, click=BlockPos{x=-117, y=65, z=37})] 42 1412525728"
+    },
+    {
+      "in": "scan|123",
+      "out": "NotBoulder 317 -1610304538"
+    },
+    {
+      "in": "solve|124",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|124",
+      "out": "NotBoulder 343 1111807372"
+    },
+    {
+      "in": "solve|125",
+      "out": "[Step(render=BlockPos{x=55, y=65, z=144}, click=BlockPos{x=55, y=65, z=145}), Step(render=BlockPos{x=51, y=65, z=137}, click=BlockPos{x=50, y=65, z=137})] 126 371291104"
+    },
+    {
+      "in": "scan|125",
+      "out": "NotBoulder 317 184415166"
+    },
+    {
+      "in": "solve|126",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|126",
+      "out": "NotBoulder 324 -1534613394"
+    },
+    {
+      "in": "solve|127",
+      "out": "[Step(render=BlockPos{x=167, y=65, z=-89}, click=BlockPos{x=168, y=65, z=-89})] 42 1412525728"
+    },
+    {
+      "in": "scan|127",
+      "out": "NotBoulder 312 1214126738"
+    },
+    {
+      "in": "solve|128",
+      "out": "[Step(render=BlockPos{x=101, y=65, z=-99}, click=BlockPos{x=101, y=65, z=-100}), Step(render=BlockPos{x=101, y=65, z=-96}, click=BlockPos{x=101, y=65, z=-97}), Step(render=BlockPos{x=101, y=65, z=-93}, click=BlockPos{x=101, y=65, z=-94}), Step(render=BlockPos{x=101, y=65, z=-89}, click=BlockPos{x=101, y=65, z=-91}), Step(render=BlockPos{x=99, y=65, z=-89}, click=BlockPos{x=100, y=65, z=-89})] 42 1412525728"
+    },
+    {
+      "in": "scan|128",
+      "out": "NotBoulder 310 -671658500"
+    },
+    {
+      "in": "solve|129",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|129",
+      "out": "NotBoulder 340 -1994835300"
+    },
+    {
+      "in": "solve|130",
+      "out": "[Step(render=BlockPos{x=60, y=65, z=-97}, click=BlockPos{x=59, y=65, z=-97})] 126 371291104"
+    },
+    {
+      "in": "scan|130",
+      "out": "Solved(key=000000011111101001010011100000101110000110, steps=[Step(render=BlockPos{x=60, y=65, z=-97}, click=BlockPos{x=59, y=65, z=-97})]) 270 -1454512376"
+    },
+    {
+      "in": "solve|131",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|131",
+      "out": "NotBoulder 320 924500484"
+    },
+    {
+      "in": "solve|132",
+      "out": "[Step(render=BlockPos{x=142, y=65, z=-4}, click=BlockPos{x=142, y=65, z=-5}), Step(render=BlockPos{x=136, y=65, z=-1}, click=BlockPos{x=136, y=65, z=-2}), Step(render=BlockPos{x=136, y=65, z=2}, click=BlockPos{x=136, y=65, z=1}), Step(render=BlockPos{x=134, y=65, z=3}, click=BlockPos{x=135, y=65, z=3})] 42 1412525728"
+    },
+    {
+      "in": "scan|132",
+      "out": "NotBoulder 316 649405022"
+    },
+    {
+      "in": "solve|133",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|133",
+      "out": "NotBoulder 322 -1946681314"
+    },
+    {
+      "in": "solve|134",
+      "out": "[Step(render=BlockPos{x=172, y=65, z=80}, click=BlockPos{x=171, y=65, z=80})] 126 371291104"
+    },
+    {
+      "in": "scan|134",
+      "out": "Solved(key=100100101000100010100010101000101000100010, steps=[Step(render=BlockPos{x=172, y=65, z=80}, click=BlockPos{x=171, y=65, z=80})]) 266 455404022"
+    },
+    {
+      "in": "solve|135",
+      "out": "[Step(render=BlockPos{x=-157, y=65, z=-34}, click=BlockPos{x=-157, y=65, z=-33})] 84 1100911936"
+    },
+    {
+      "in": "scan|135",
+      "out": "Solved(key=000000010101110101010011010000010100000000, steps=[Step(render=BlockPos{x=-157, y=65, z=-34}, click=BlockPos{x=-157, y=65, z=-33})]) 181 1278024952"
+    },
+    {
+      "in": "solve|136",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|136",
+      "out": "Blocked(key=000000001111100100010010000011111110000000) 351 -299183596"
+    },
+    {
+      "in": "solve|137",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|137",
+      "out": "NotBoulder 323 -55369822"
+    },
+    {
+      "in": "solve|138",
+      "out": "[Step(render=BlockPos{x=-80, y=65, z=-173}, click=BlockPos{x=-80, y=65, z=-172})] 84 1100911936"
+    },
+    {
+      "in": "scan|138",
+      "out": "Solved(key=100100101000100010100010101000101000100010, steps=[Step(render=BlockPos{x=-80, y=65, z=-173}, click=BlockPos{x=-80, y=65, z=-172})]) 182 -650355892"
+    },
+    {
+      "in": "solve|139",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|139",
+      "out": "Blocked(key=111111010110001110010100111100011111001110) 362 -1105339650"
+    },
+    {
+      "in": "solve|140",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|140",
+      "out": "NotBoulder 325 -517455094"
+    },
+    {
+      "in": "solve|141",
+      "out": "[Step(render=BlockPos{x=163, y=65, z=33}, click=BlockPos{x=163, y=65, z=32}), Step(render=BlockPos{x=169, y=65, z=36}, click=BlockPos{x=169, y=65, z=35})] 168 789842560"
+    },
+    {
+      "in": "scan|141",
+      "out": "Solved(key=010000010111101001010011100000101110000111, steps=[Step(render=BlockPos{x=163, y=65, z=33}, click=BlockPos{x=163, y=65, z=32}), Step(render=BlockPos{x=169, y=65, z=36}, click=BlockPos{x=169, y=65, z=35})]) 355 -1289814002"
+    },
+    {
+      "in": "solve|142",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|142",
+      "out": "NotBoulder 342 1377673504"
+    },
+    {
+      "in": "solve|143",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|143",
+      "out": "NotBoulder 342 1220015934"
+    },
+    {
+      "in": "solve|144",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|144",
+      "out": "NotBoulder 342 1787695550"
+    },
+    {
+      "in": "solve|145",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|145",
+      "out": "NotBoulder 339 -550957768"
+    },
+    {
+      "in": "solve|146",
+      "out": "[Step(render=BlockPos{x=23, y=65, z=138}, click=BlockPos{x=22, y=65, z=138}), Step(render=BlockPos{x=33, y=65, z=137}, click=BlockPos{x=33, y=65, z=136})] 168 789842560"
+    },
+    {
+      "in": "scan|146",
+      "out": "Solved(key=100101001000000010101001111101010101010101, steps=[Step(render=BlockPos{x=23, y=65, z=138}, click=BlockPos{x=22, y=65, z=138}), Step(render=BlockPos{x=33, y=65, z=137}, click=BlockPos{x=33, y=65, z=136})]) 355 611740606"
+    },
+    {
+      "in": "solve|147",
+      "out": "[Step(render=BlockPos{x=-56, y=65, z=59}, click=BlockPos{x=-56, y=65, z=60}), Step(render=BlockPos{x=-60, y=65, z=52}, click=BlockPos{x=-61, y=65, z=52})] 126 371291104"
+    },
+    {
+      "in": "scan|147",
+      "out": "NotBoulder 317 184415166"
+    },
+    {
+      "in": "solve|148",
+      "out": "[Step(render=BlockPos{x=-101, y=65, z=16}, click=BlockPos{x=-101, y=65, z=17}), Step(render=BlockPos{x=-101, y=65, z=13}, click=BlockPos{x=-101, y=65, z=14}), Step(render=BlockPos{x=-101, y=65, z=10}, click=BlockPos{x=-101, y=65, z=11}), Step(render=BlockPos{x=-101, y=65, z=6}, click=BlockPos{x=-101, y=65, z=8}), Step(render=BlockPos{x=-99, y=65, z=6}, click=BlockPos{x=-100, y=65, z=6})] 126 371291104"
+    },
+    {
+      "in": "scan|148",
+      "out": "Solved(key=000000001111100100010010001011111110000000, steps=[Step(render=BlockPos{x=-101, y=65, z=16}, click=BlockPos{x=-101, y=65, z=17}), Step(render=BlockPos{x=-101, y=65, z=13}, click=BlockPos{x=-101, y=65, z=14}), Step(render=BlockPos{x=-101, y=65, z=10}, click=BlockPos{x=-101, y=65, z=11}), Step(render=BlockPos{x=-101, y=65, z=6}, click=BlockPos{x=-101, y=65, z=8}), Step(render=BlockPos{x=-99, y=65, z=6}, click=BlockPos{x=-100, y=65, z=6})]) 268 1733162482"
+    },
+    {
+      "in": "solve|149",
+      "out": "[Step(render=BlockPos{x=24, y=65, z=-91}, click=BlockPos{x=23, y=65, z=-91})] 126 371291104"
+    },
+    {
+      "in": "scan|149",
+      "out": "NotBoulder 307 681929496"
+    },
+    {
+      "in": "solve|150",
+      "out": "[Step(render=BlockPos{x=-67, y=65, z=-42}, click=BlockPos{x=-66, y=65, z=-42}), Step(render=BlockPos{x=-70, y=65, z=-42}, click=BlockPos{x=-69, y=65, z=-42}), Step(render=BlockPos{x=-73, y=65, z=-42}, click=BlockPos{x=-72, y=65, z=-42}), Step(render=BlockPos{x=-77, y=65, z=-42}, click=BlockPos{x=-75, y=65, z=-42}), Step(render=BlockPos{x=-77, y=65, z=-44}, click=BlockPos{x=-77, y=65, z=-43})] 84 1100911936"
+    },
+    {
+      "in": "scan|150",
+      "out": "Solved(key=000000001111100100010010001011111110000000, steps=[Step(render=BlockPos{x=-67, y=65, z=-42}, click=BlockPos{x=-66, y=65, z=-42}), Step(render=BlockPos{x=-70, y=65, z=-42}, click=BlockPos{x=-69, y=65, z=-42}), Step(render=BlockPos{x=-73, y=65, z=-42}, click=BlockPos{x=-72, y=65, z=-42}), Step(render=BlockPos{x=-77, y=65, z=-42}, click=BlockPos{x=-75, y=65, z=-42}), Step(render=BlockPos{x=-77, y=65, z=-44}, click=BlockPos{x=-77, y=65, z=-43})]) 184 -45192760"
+    },
+    {
+      "in": "solve|151",
+      "out": "[Step(render=BlockPos{x=109, y=65, z=-155}, click=BlockPos{x=109, y=65, z=-156}), Step(render=BlockPos{x=113, y=65, z=-148}, click=BlockPos{x=114, y=65, z=-148})] 42 1412525728"
+    },
+    {
+      "in": "scan|151",
+      "out": "NotBoulder 317 -1610304538"
+    },
+    {
+      "in": "solve|152",
+      "out": "[Step(render=BlockPos{x=33, y=65, z=-87}, click=BlockPos{x=33, y=65, z=-86}), Step(render=BlockPos{x=39, y=65, z=-90}, click=BlockPos{x=39, y=65, z=-89}), Step(render=BlockPos{x=39, y=65, z=-93}, click=BlockPos{x=39, y=65, z=-92}), Step(render=BlockPos{x=41, y=65, z=-94}, click=BlockPos{x=40, y=65, z=-94})] 126 371291104"
+    },
+    {
+      "in": "scan|152",
+      "out": "Solved(key=100000111101111011101110001110111010000000, steps=[Step(render=BlockPos{x=33, y=65, z=-87}, click=BlockPos{x=33, y=65, z=-86}), Step(render=BlockPos{x=39, y=65, z=-90}, click=BlockPos{x=39, y=65, z=-89}), Step(render=BlockPos{x=39, y=65, z=-93}, click=BlockPos{x=39, y=65, z=-92}), Step(render=BlockPos{x=41, y=65, z=-94}, click=BlockPos{x=40, y=65, z=-94})]) 274 -1817550892"
+    },
+    {
+      "in": "solve|153",
+      "out": "[Step(render=BlockPos{x=-19, y=65, z=-126}, click=BlockPos{x=-20, y=65, z=-126})] 126 371291104"
+    },
+    {
+      "in": "scan|153",
+      "out": "NotBoulder 308 -565861888"
+    },
+    {
+      "in": "solve|154",
+      "out": "[Step(render=BlockPos{x=158, y=65, z=24}, click=BlockPos{x=159, y=65, z=24}), Step(render=BlockPos{x=151, y=65, z=28}, click=BlockPos{x=151, y=65, z=29})] 84 1100911936"
+    },
+    {
+      "in": "scan|154",
+      "out": "Solved(key=110001110111011010001100111111100011000001, steps=[Step(render=BlockPos{x=158, y=65, z=24}, click=BlockPos{x=159, y=65, z=24}), Step(render=BlockPos{x=151, y=65, z=28}, click=BlockPos{x=151, y=65, z=29})]) 191 -727263074"
+    },
+    {
+      "in": "solve|155",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|155",
+      "out": "NotBoulder 339 1069552834"
+    },
+    {
+      "in": "solve|156",
+      "out": "[Step(render=BlockPos{x=113, y=65, z=164}, click=BlockPos{x=112, y=65, z=164})] 126 371291104"
+    },
+    {
+      "in": "scan|156",
+      "out": "NotBoulder 312 58468498"
+    },
+    {
+      "in": "solve|157",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|157",
+      "out": "NotBoulder 327 -1173540634"
+    },
+    {
+      "in": "solve|158",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|158",
+      "out": "NotBoulder 320 -1700512832"
+    },
+    {
+      "in": "solve|159",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|159",
+      "out": "NotBoulder 321 1829030232"
+    },
+    {
+      "in": "solve|160",
+      "out": "[Step(render=BlockPos{x=-187, y=65, z=-158}, click=BlockPos{x=-188, y=65, z=-158})] 126 371291104"
+    },
+    {
+      "in": "scan|160",
+      "out": "Solved(key=100100101000100010100010101000101000100010, steps=[Step(render=BlockPos{x=-187, y=65, z=-158}, click=BlockPos{x=-188, y=65, z=-158})]) 266 455404022"
+    },
+    {
+      "in": "solve|161",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|161",
+      "out": "Blocked(key=000100001111100100010010001011111110000000) 353 -1294409730"
+    },
+    {
+      "in": "solve|162",
+      "out": "[Step(render=BlockPos{x=158, y=65, z=29}, click=BlockPos{x=158, y=65, z=30})] 84 1100911936"
+    },
+    {
+      "in": "scan|162",
+      "out": "NotBoulder 307 -783007828"
+    },
+    {
+      "in": "solve|163",
+      "out": "[Step(render=BlockPos{x=-52, y=65, z=210}, click=BlockPos{x=-52, y=65, z=211})] 84 1100911936"
+    },
+    {
+      "in": "scan|163",
+      "out": "NotBoulder 307 -783007828"
+    },
+    {
+      "in": "solve|164",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|164",
+      "out": "Blocked(key=010000010111101001010011100000101110010111) 356 173385688"
+    },
+    {
+      "in": "solve|165",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|165",
+      "out": "NotBoulder 340 83686880"
+    },
+    {
+      "in": "solve|166",
+      "out": "[Step(render=BlockPos{x=103, y=65, z=171}, click=BlockPos{x=102, y=65, z=171}), Step(render=BlockPos{x=106, y=65, z=171}, click=BlockPos{x=105, y=65, z=171}), Step(render=BlockPos{x=109, y=65, z=171}, click=BlockPos{x=108, y=65, z=171}), Step(render=BlockPos{x=113, y=65, z=171}, click=BlockPos{x=111, y=65, z=171}), Step(render=BlockPos{x=113, y=65, z=173}, click=BlockPos{x=113, y=65, z=172})] 168 789842560"
+    },
+    {
+      "in": "scan|166",
+      "out": "NotBoulder 310 288662908"
+    },
+    {
+      "in": "solve|167",
+      "out": "[Step(render=BlockPos{x=-154, y=65, z=54}, click=BlockPos{x=-155, y=65, z=54}), Step(render=BlockPos{x=-144, y=65, z=53}, click=BlockPos{x=-144, y=65, z=52})] 168 789842560"
+    },
+    {
+      "in": "scan|167",
+      "out": "Solved(key=100101001000000010101001111101010101010101, steps=[Step(render=BlockPos{x=-154, y=65, z=54}, click=BlockPos{x=-155, y=65, z=54}), Step(render=BlockPos{x=-144, y=65, z=53}, click=BlockPos{x=-144, y=65, z=52})]) 355 611740606"
+    },
+    {
+      "in": "solve|168",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|168",
+      "out": "NotBoulder 341 1188959490"
+    },
+    {
+      "in": "solve|169",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|169",
+      "out": "NotBoulder 343 71775378"
+    },
+    {
+      "in": "solve|170",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|170",
+      "out": "Blocked(key=011011111100110011111000011011111010110111) 364 289294632"
+    },
+    {
+      "in": "solve|171",
+      "out": "[Step(render=BlockPos{x=-97, y=65, z=125}, click=BlockPos{x=-97, y=65, z=124}), Step(render=BlockPos{x=-97, y=65, z=128}, click=BlockPos{x=-97, y=65, z=127}), Step(render=BlockPos{x=-97, y=65, z=131}, click=BlockPos{x=-97, y=65, z=130}), Step(render=BlockPos{x=-97, y=65, z=135}, click=BlockPos{x=-97, y=65, z=133}), Step(render=BlockPos{x=-99, y=65, z=135}, click=BlockPos{x=-98, y=65, z=135})] 42 1412525728"
+    },
+    {
+      "in": "scan|171",
+      "out": "NotBoulder 310 -671658500"
+    },
+    {
+      "in": "solve|172",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|172",
+      "out": "NotBoulder 323 -282552804"
+    },
+    {
+      "in": "solve|173",
+      "out": "[Step(render=BlockPos{x=-113, y=65, z=-154}, click=BlockPos{x=-114, y=65, z=-154}), Step(render=BlockPos{x=-103, y=65, z=-155}, click=BlockPos{x=-103, y=65, z=-156})] 168 789842560"
+    },
+    {
+      "in": "scan|173",
+      "out": "NotBoulder 313 -1184030050"
+    },
+    {
+      "in": "solve|174",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|174",
+      "out": "NotBoulder 340 -399855170"
+    },
+    {
+      "in": "solve|175",
+      "out": "[Step(render=BlockPos{x=10, y=65, z=40}, click=BlockPos{x=11, y=65, z=40})] 42 1412525728"
+    },
+    {
+      "in": "scan|175",
+      "out": "Solved(key=000000011111101001010011100000101110000110, steps=[Step(render=BlockPos{x=10, y=65, z=40}, click=BlockPos{x=11, y=65, z=40})]) 102 -1644737868"
+    },
+    {
+      "in": "solve|176",
+      "out": "[Step(render=BlockPos{x=-172, y=65, z=207}, click=BlockPos{x=-171, y=65, z=207})] 42 1412525728"
+    },
+    {
+      "in": "scan|176",
+      "out": "NotBoulder 308 -1496095744"
+    },
+    {
+      "in": "solve|177",
+      "out": "[Step(render=BlockPos{x=-10, y=65, z=131}, click=BlockPos{x=-10, y=65, z=130}), Step(render=BlockPos{x=-9, y=65, z=141}, click=BlockPos{x=-8, y=65, z=141})] 42 1412525728"
+    },
+    {
+      "in": "scan|177",
+      "out": "NotBoulder 313 -511650086"
+    },
+    {
+      "in": "solve|178",
+      "out": "[Step(render=BlockPos{x=114, y=65, z=53}, click=BlockPos{x=114, y=65, z=52})] 168 789842560"
+    },
+    {
+      "in": "scan|178",
+      "out": "Solved(key=100100101000100010100010101000101000100010, steps=[Step(render=BlockPos{x=114, y=65, z=53}, click=BlockPos{x=114, y=65, z=52})]) 350 1623928736"
+    },
+    {
+      "in": "solve|179",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|179",
+      "out": "NotBoulder 340 459646206"
+    },
+    {
+      "in": "solve|180",
+      "out": "[Step(render=BlockPos{x=47, y=65, z=115}, click=BlockPos{x=46, y=65, z=115}), Step(render=BlockPos{x=54, y=65, z=111}, click=BlockPos{x=54, y=65, z=110})] 168 789842560"
+    },
+    {
+      "in": "scan|180",
+      "out": "Solved(key=110001110111011010001100111111100011000001, steps=[Step(render=BlockPos{x=47, y=65, z=115}, click=BlockPos{x=46, y=65, z=115}), Step(render=BlockPos{x=54, y=65, z=111}, click=BlockPos{x=54, y=65, z=110})]) 359 -425745718"
+    },
+    {
+      "in": "solve|181",
+      "out": "[Step(render=BlockPos{x=151, y=65, z=127}, click=BlockPos{x=150, y=65, z=127}), Step(render=BlockPos{x=154, y=65, z=133}, click=BlockPos{x=153, y=65, z=133}), Step(render=BlockPos{x=157, y=65, z=133}, click=BlockPos{x=156, y=65, z=133}), Step(render=BlockPos{x=158, y=65, z=135}, click=BlockPos{x=158, y=65, z=134})] 168 789842560"
+    },
+    {
+      "in": "scan|181",
+      "out": "NotBoulder 316 -1421360546"
+    },
+    {
+      "in": "solve|182",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|182",
+      "out": "NotBoulder 322 -689502912"
+    },
+    {
+      "in": "solve|183",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|183",
+      "out": "Blocked(key=110001111111011010001100111111100011000001) 360 1585124930"
+    },
+    {
+      "in": "solve|184",
+      "out": "[Step(render=BlockPos{x=109, y=65, z=-67}, click=BlockPos{x=110, y=65, z=-67})] 42 1412525728"
+    },
+    {
+      "in": "scan|184",
+      "out": "Solved(key=000000010101110101010011010000010100000000, steps=[Step(render=BlockPos{x=109, y=65, z=-67}, click=BlockPos{x=110, y=65, z=-67})]) 97 -497217054"
+    },
+    {
+      "in": "solve|185",
+      "out": "[Step(render=BlockPos{x=-161, y=65, z=83}, click=BlockPos{x=-161, y=65, z=84}), Step(render=BlockPos{x=-162, y=65, z=73}, click=BlockPos{x=-163, y=65, z=73})] 126 371291104"
+    },
+    {
+      "in": "scan|185",
+      "out": "NotBoulder 313 -1233530702"
+    },
+    {
+      "in": "solve|186",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|186",
+      "out": "NotBoulder 320 950875132"
+    },
+    {
+      "in": "solve|187",
+      "out": "[Step(render=BlockPos{x=-68, y=65, z=1}, click=BlockPos{x=-69, y=65, z=1}), Step(render=BlockPos{x=-65, y=65, z=-5}, click=BlockPos{x=-66, y=65, z=-5})] 126 371291104"
+    },
+    {
+      "in": "scan|187",
+      "out": "Solved(key=010000010111101001010011100000101110000111, steps=[Step(render=BlockPos{x=-68, y=65, z=1}, click=BlockPos{x=-69, y=65, z=1}), Step(render=BlockPos{x=-65, y=65, z=-5}, click=BlockPos{x=-66, y=65, z=-5})]) 271 -2138420360"
+    },
+    {
+      "in": "solve|188",
+      "out": "[Step(render=BlockPos{x=-127, y=65, z=-7}, click=BlockPos{x=-126, y=65, z=-7}), Step(render=BlockPos{x=-134, y=65, z=-3}, click=BlockPos{x=-134, y=65, z=-2})] 84 1100911936"
+    },
+    {
+      "in": "scan|188",
+      "out": "NotBoulder 317 -1430500142"
+    },
+    {
+      "in": "solve|189",
+      "out": "[Step(render=BlockPos{x=56, y=65, z=-107}, click=BlockPos{x=56, y=65, z=-108}), Step(render=BlockPos{x=57, y=65, z=-97}, click=BlockPos{x=58, y=65, z=-97})] 42 1412525728"
+    },
+    {
+      "in": "scan|189",
+      "out": "NotBoulder 313 -511650086"
+    },
+    {
+      "in": "solve|190",
+      "out": "[Step(render=BlockPos{x=63, y=65, z=-72}, click=BlockPos{x=63, y=65, z=-71})] 84 1100911936"
+    },
+    {
+      "in": "scan|190",
+      "out": "NotBoulder 312 599548306"
+    },
+    {
+      "in": "solve|191",
+      "out": "[Step(render=BlockPos{x=-75, y=65, z=119}, click=BlockPos{x=-75, y=65, z=118}), Step(render=BlockPos{x=-69, y=65, z=122}, click=BlockPos{x=-69, y=65, z=121})] 168 789842560"
+    },
+    {
+      "in": "scan|191",
+      "out": "Solved(key=010000010111101001010011100000101110000111, steps=[Step(render=BlockPos{x=-75, y=65, z=119}, click=BlockPos{x=-75, y=65, z=118}), Step(render=BlockPos{x=-69, y=65, z=122}, click=BlockPos{x=-69, y=65, z=121})]) 355 -1289814002"
+    },
+    {
+      "in": "solve|192",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|192",
+      "out": "NotBoulder 340 -653535234"
+    },
+    {
+      "in": "solve|193",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|193",
+      "out": "NotBoulder 321 -493160970"
+    },
+    {
+      "in": "solve|194",
+      "out": "[Step(render=BlockPos{x=191, y=65, z=-157}, click=BlockPos{x=191, y=65, z=-158}), Step(render=BlockPos{x=195, y=65, z=-150}, click=BlockPos{x=196, y=65, z=-150})] 42 1412525728"
+    },
+    {
+      "in": "scan|194",
+      "out": "NotBoulder 317 -1610304538"
+    },
+    {
+      "in": "solve|195",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|195",
+      "out": "NotBoulder 316 -859671352"
+    },
+    {
+      "in": "solve|196",
+      "out": "[Step(render=BlockPos{x=94, y=65, z=-90}, click=BlockPos{x=94, y=65, z=-89})] 84 1100911936"
+    },
+    {
+      "in": "scan|196",
+      "out": "Solved(key=000000011111101001010011100000101110000110, steps=[Step(render=BlockPos{x=94, y=65, z=-90}, click=BlockPos{x=94, y=65, z=-89})]) 186 -1056916130"
+    },
+    {
+      "in": "solve|197",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|197",
+      "out": "NotBoulder 317 928828810"
+    },
+    {
+      "in": "solve|198",
+      "out": "[] 168 789842560"
+    },
+    {
+      "in": "scan|198",
+      "out": "Blocked(key=111111110111110111011100111111011111011101) 370 -1754783746"
+    },
+    {
+      "in": "solve|199",
+      "out": "[Step(render=BlockPos{x=-179, y=65, z=-21}, click=BlockPos{x=-178, y=65, z=-21}), Step(render=BlockPos{x=-182, y=65, z=-27}, click=BlockPos{x=-181, y=65, z=-27}), Step(render=BlockPos{x=-185, y=65, z=-27}, click=BlockPos{x=-184, y=65, z=-27}), Step(render=BlockPos{x=-186, y=65, z=-29}, click=BlockPos{x=-186, y=65, z=-28})] 84 1100911936"
+    },
+    {
+      "in": "scan|199",
+      "out": "NotBoulder 316 -1833565602"
+    },
+    {
+      "in": "solveEmpty",
+      "out": "[] Blocked(key=111111111111111111111111111111111111111111) NotBoulder"
+    },
+    {
+      "in": "partyKeys",
+      "out": "[chat-emotes] [PARTY, GUILD, PRIVATE, COOP]"
+    },
+    {
+      "in": "parse|Party > [MVP+] Ashton: hello",
+      "out": "Incoming(channel=PARTY, name=Ashton, message=hello)"
+    },
+    {
+      "in": "parse|P > Ashton: hi",
+      "out": "Incoming(channel=PARTY, name=Ashton, message=hi)"
+    },
+    {
+      "in": "parse|Guild > [VIP] Bob [Officer]: yo",
+      "out": "Incoming(channel=GUILD, name=Bob, message=yo)"
+    },
+    {
+      "in": "parse|From [MVP++] Alice: dm",
+      "out": "Incoming(channel=PRIVATE, name=Alice, message=dm)"
+    },
+    {
+      "in": "parse|To [MVP++] Alice: dm",
+      "out": "null"
+    },
+    {
+      "in": "parse|Co-op > Carl: coop msg",
+      "out": "Incoming(channel=COOP, name=Carl, message=coop msg)"
+    },
+    {
+      "in": "parse|Party > [302] ♲ [MVP+] Ashton ⚒: with emblem",
+      "out": "Incoming(channel=PARTY, name=Ashton, message=with emblem)"
+    },
+    {
+      "in": "parse|Party > Ashton:no space",
+      "out": "Incoming(channel=PARTY, name=Ashton, message=no space)"
+    },
+    {
+      "in": "parse|Party > Ashton: ",
+      "out": "Incoming(channel=PARTY, name=Ashton, message= )"
+    },
+    {
+      "in": "parse|Party > Ashton:",
+      "out": "null"
+    },
+    {
+      "in": "parse|Guild > Bob ⚒ [Member]: x",
+      "out": "Incoming(channel=GUILD, name=Bob, message=x)"
+    },
+    {
+      "in": "parse|Party > [MVP+]Ashton: tight rank",
+      "out": "Incoming(channel=PARTY, name=Ashton, message=tight rank)"
+    },
+    {
+      "in": "parse|Party > ThisNameIsWayTooLongForMC: x",
+      "out": "null"
+    },
+    {
+      "in": "parse|Party > a b: x",
+      "out": "null"
+    },
+    {
+      "in": "parse|Party > [12345] Ashton: lvl5",
+      "out": "Incoming(channel=PARTY, name=Ashton, message=lvl5)"
+    },
+    {
+      "in": "parse|party > Ashton: lower",
+      "out": "null"
+    },
+    {
+      "in": "parse| Party > Ashton: lead space",
+      "out": "null"
+    },
+    {
+      "in": "parse|Party > Ashton: a: b: c",
+      "out": "Incoming(channel=PARTY, name=Ashton, message=a: b: c)"
+    },
+    {
+      "in": "parse|Co-op > [123] Ⓑ Carl: emb",
+      "out": "Incoming(channel=COOP, name=Carl, message=emb)"
+    },
+    {
+      "in": "parse|From Ashton: !warp",
+      "out": "Incoming(channel=PRIVATE, name=Ashton, message=!warp)"
+    },
+    {
+      "in": "parse|Guild > Ashton: :star:",
+      "out": "Incoming(channel=GUILD, name=Ashton, message=:star:)"
+    },
+    {
+      "in": "parse|",
+      "out": "null"
+    },
+    {
+      "in": "parse|Party >",
+      "out": "null"
+    },
+    {
+      "in": "parse|Party > [YOUTUBE] _x_: hi",
+      "out": "Incoming(channel=PARTY, name=_x_, message=hi)"
+    },
+    {
+      "in": "parse|Party > Ash-ton: dash",
+      "out": "null"
+    },
+    {
+      "in": "parse|From [ADMIN] Hypixel: msg\nnext",
+      "out": "null"
+    },
+    {
+      "in": "emote|<3",
+      "out": "❤"
+    },
+    {
+      "in": "emote|hello <3 there",
+      "out": "hello ❤ there"
+    },
+    {
+      "in": "emote|ez",
+      "out": "ｅｚ"
+    },
+    {
+      "in": "emote|EZ",
+      "out": "null"
+    },
+    {
+      "in": "emote|ez ez",
+      "out": "ｅｚ ｅｚ"
+    },
+    {
+      "in": "emote|:star::star:",
+      "out": "null"
+    },
+    {
+      "in": "emote|/pc :star:",
+      "out": "/pc ✮"
+    },
+    {
+      "in": "emote|/pc",
+      "out": "null"
+    },
+    {
+      "in": "emote|/w Bob o/",
+      "out": "/w Bob ( ﾟ◡ﾟ)/"
+    },
+    {
+      "in": "emote|/warp ez",
+      "out": "null"
+    },
+    {
+      "in": "emote|/msg Bob :shrug:",
+      "out": "/msg Bob ¯\\_(ツ)_/¯"
+    },
+    {
+      "in": "emote|/r h/",
+      "out": "/r ヽ(^◇^*)/"
+    },
+    {
+      "in": "emote|/gc ez gg",
+      "out": "/gc ｅｚ gg"
+    },
+    {
+      "in": "emote|/cc :dab:",
+      "out": "/cc <o/"
+    },
+    {
+      "in": "emote|/ac  :yes:",
+      "out": "/ac  ✔"
+    },
+    {
+      "in": "emote| :yes:",
+      "out": " ✔"
+    },
+    {
+      "in": "emote|:yes: ",
+      "out": "✔ "
+    },
+    {
+      "in": "emote|",
+      "out": "null"
+    },
+    {
+      "in": "emote|/",
+      "out": "null"
+    },
+    {
+      "in": "emote|/p ez",
+      "out": "null"
+    },
+    {
+      "in": "emote|no emotes here",
+      "out": "null"
+    },
+    {
+      "in": "emote|:tableflip: :tableflip:",
+      "out": "(╯°□°）╯︵ ┻━┻ (╯°□°）╯︵ ┻━┻"
+    },
+    {
+      "in": "emote|/pc\tez",
+      "out": "null"
+    },
+    {
+      "in": "emote|o/ o/",
+      "out": "( ﾟ◡ﾟ)/ ( ﾟ◡ﾟ)/"
+    },
+    {
+      "in": "emote|/PC ez",
+      "out": "null"
+    },
+    {
+      "in": "emote|ez\nez",
+      "out": "null"
+    }
+  ]
+}

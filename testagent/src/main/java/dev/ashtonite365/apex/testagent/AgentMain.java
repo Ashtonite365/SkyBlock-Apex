@@ -1,0 +1,21 @@
+package dev.ashtonite365.apex.testagent;
+
+import java.lang.instrument.Instrumentation;
+
+public class AgentMain {
+
+	public static void premain(
+		String agentArgs, Instrumentation inst) {
+		System.out.println("Pre-Main Test Agent");
+		AgentMain.inject(inst);
+	}
+
+	public static void agentmain(
+		String agentArgs, Instrumentation inst) {
+		System.out.println("Injected Test Agent");
+		AgentMain.inject(inst);
+	}
+
+	private static void inject(Instrumentation inst) {
+		inst.addTransformer(new ProtectedToPublicClassTransformer(inst));	}
+}

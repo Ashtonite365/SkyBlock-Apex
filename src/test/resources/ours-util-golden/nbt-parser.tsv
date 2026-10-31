@@ -1,0 +1,1000 @@
+fixed {}	OK {}
+fixed  { } 	OK {}
+fixed {a:1}	OK {a:1}
+fixed {a:1,}	OK {a:1}
+fixed {a:1 b:2}	OK {a:1,b:2}
+fixed {"q k":"v"}	OK {"q k":"v"}
+fixed {a:"x\\"y\\\\z"}	OK {a:'x"y\\\\z'}
+fixed {a:"bad\\n"}	TPE 8 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 8 in `{a:"bad\\n"}`. | true
+fixed {a:"unterminated}	TPE 17 Unfinished string | Unfinished string at 17 in `{a:"unterminated}`. | true
+fixed {a:[0:1,1:2,]}	OK {a:[1,2]}
+fixed {a:[1,2,3]}	OK {a:[1,2,3]}
+fixed {a:[5:"x","y"]}	OK {a:["x","y"]}
+fixed {a:[]}	OK {a:[]}
+fixed {a:[{b:1b},{c:2s}]}	OK {a:[{b:1b},{c:2s}]}
+fixed {a:1.5f,b:2.5d,c:3L,d:4S,e:5B,f:6,g:7.25}	OK {a:1.5f,b:2.5d,c:3L,d:4s,e:5b,f:6,g:7.25d}
+fixed {a:-1,b:-0.5,c:-.5f}	OK {a:-1,b:-0.5d,c:-0.5f}
+fixed {a:+1}	TPE 3 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 3 in `{a:+1}`. | true
+fixed {a:.5}	TPE 3 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 3 in `{a:.5}`. | true
+fixed {a:1.}	!java.lang.IllegalStateException: Could not properly parse numeric tag '1.', despite passing rough verification. This is a bug in the LegacyTagParser
+fixed {a:-}	!java.lang.IllegalStateException: Could not properly parse numeric tag '-', despite passing rough verification. This is a bug in the LegacyTagParser
+fixed {a:999999999999}	!java.lang.NumberFormatException: For input string: "999999999999"
+fixed {a:300b}	!java.lang.NumberFormatException: Value out of range. Value:"300" Radix:10
+fixed {a:1e5}	!EOF
+fixed {a:01}	OK {a:1}
+fixed {a:1|}	!EOF
+fixed []	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `[]`. | true
+fixed 	!EOF
+fixed x	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `x`. | true
+fixed {a}	!EOF
+fixed {a:}	TPE 3 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 3 in `{a:}`. | true
+fixed {a::1}	TPE 3 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 3 in `{a::1}`. | true
+fixed {:1}	OK {"":1}
+fixed {a:{b:{c:{}}}}	OK {a:{b:{c:{}}}}
+fixed {a:1}trailing	OK {a:1}
+fixed {a:1}}	OK {a:1}
+fixed {a:[1 2]}	OK {a:[1,2]}
+fixed {a:[1,,2]}	TPE 6 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 6 in `{a:[1,,2]}`. | true
+fixed {a:[-:1]}	OK {a:[1]}
+fixed {a:[-1:5]}	OK {a:[5]}
+fixed {a:[12 : 5]}	OK {a:[5]}
+fixed { a : 1 , b : "x" }	TPE 10 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 10 in `{ a : 1 , b : "x" }`. | true
+fixed {\ta:\n1}	OK {a:1}
+fixed {a:true}	TPE 3 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 3 in `{a:true}`. | true
+fixed {a:""}	OK {a:""}
+fixed {"":1}	OK {"":1}
+fixed {a:["x",1,{}]}	OK {a:["x",1,{}]}
+fixed {a:1,a:2}	OK {a:2}
+fixed {a:1F,b:1D,c:1l,d:1s,e:1b}	OK {a:1.0f,b:1.0d,c:1L,d:1s,e:1b}
+fixed {a:0.0001d,b:123456789012345L}	OK {a:1.0E-4d,b:123456789012345L}
+fixed {a:"é§"}	OK {a:"é§"}
+fixed {a:"\\q"}	TPE 5 Invalid backslash escape 'q' | Invalid backslash escape 'q' at 5 in `{a:"\\q"}`. | true
+fixed {a:"\\	TPE 5 Unfinished backslash escape | Unfinished backslash escape at 5 in `{a:"\\`. | true
+fixed {a:1	!EOF
+fixed {a:[1	!EOF
+fixed {a	!EOF
+fixed {	!EOF
+fixed {a:1, 	!EOF
+fixed {a:[1,2	!EOF
+fixed {a:"x"	!EOF
+fixed {ab	!EOF
+fixed {a:[0:	!EOF
+fixed {a:[0	!EOF
+fixed {a:1.5	!EOF
+fixed {a:-	!EOF
+fixed   	!EOF
+rt0 {}	OK {}
+rtp0	OK {}
+mut0.0 s8	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `s8`. | true
+mut0.1 D{}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `D{}`. | true
+mut0.2 +{}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `+{}`. | true
+rt1 {"weird key":"v\\"q",x:[],y:{}}	OK {"weird key":'v"q',x:[],y:{}}
+rtp1	OK {"weird key":'v"q',x:[],y:{}}
+mut1.0 {"weird key":"v9\\"q",x:.[],y:{}}	TPE 23 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 23 in `{"weird key":"v9\\"q",x:.[],y:{}}`. | true
+mut1.1 {"weird {ey":"v\\"q",x:[],y:3}	OK {"weird {ey":'v"q',x:[],y:3}
+mut1.2 2"wei8rd key":"v\\"q",x:[],y:3}}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `2"wei8rd key":"v\\"q",x:[],y:3}}`. | true
+rt2 {"":-937L,Xxz:-28759S}	OK {"":-937L,Xxz:-28759s}
+rtp2	OK {"":-937L,Xxz:-28759s}
+mut2.0 {"":-93-L,Xxz-28759"S}	!EOF
+mut2.1 {9"":-937Ld,Xx,z:-28759S}	OK {'9""':-937L,"d,Xx,z":-28759s}
+mut2.2 {"":-937L,Xx4z:-28759S}	OK {"":-937L,Xx4z:-28759s}
+rt3 {": c :":"}}{;0,",yZZY:"=c{{"}	OK {": c :":"}}{;0,",yZZY:"=c{{"}
+rtp3	OK {": c :":"}}{;0,",yZZY:"=c{{"}
+mut3.0 {":[ c. :":"}}{;0,",yZZY:"=c{L{"}	OK {":[ c. :":"}}{;0,",yZZY:"=c{L{"}
+mut3.1 2{": c :":"}}{9;0,",yZZY:"=c{{"}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `2{": c :":"}}{9;0,",yZZY:"=c{{"}`. | true
+mut3.2 {":: c :":"}}{;0,",yZZY:"=c{{"}	OK {":: c :":"}}{;0,",yZZY:"=c{{"}
+rt4 {"":"\\n Z;0§\\\\\\n\\"{",44k:21181S}	TPE 6 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 6 in `{"":"\\n Z;0§\\\\\\n\\"{",44k:21181S}`. | true
+rtp4	TPE 10 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 10 in `{\n  "": "\\n Z;0§\\\\\\n\\"{",\n  44k: 21181S\n}`. | true
+mut4.0 ]"":"\\n dZ;0§\\\\\\n\\"{",44k:21181S}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `]"":"\\n dZ;0§\\\\\\n\\"{",44k:21181S}`. | true
+mut4.1 {"":"\\n Z;0§\\\\\\"{",44k:2118S}	TPE 6 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 6 in `{"":"\\n Z;0§\\\\\\"{",44k:2118S}`. | true
+mut4.2 "":"\\nZ;0§\\\\\\n\\"{",44k:21181S}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `"":"\\nZ;0§\\\\\\n\\"{",44k:21181S}`. | true
+rt5 {"c:":[0:-88B]}	OK {"c:":[-88b]}
+rtp5	OK {"c:":[-88b]}
+mut5.0 {"c:":[-:688"B]}	TPE 16 Unfinished string | Unfinished string at 16 in `{"c:":[-:688"B]}`. | true
+mut5.1 ]"{c:"z:[0:-88B]}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `]"{c:"z:[0:-88B]}`. | true
+mut5.2 {c:":[0:-88B]}	TPE 14 Unfinished string | Unfinished string at 14 in `{c:":[0:-88B]}`. | true
+rt6 {" \\"} ":-3244S,":\\\\d":[0:1.0E20D,1:{0:[0:"bb",1:"",2:"b"],Name:[0:0.003332901300643898D]},2:0.0D,3:-3835160847338332967L],ExtraAttributes:{XZYx:-16},Yz:{-a0:[]}}	TPE 29 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 29 in `{" \\"} ":-3244S,":\\\\d":[0:1.0E20D,1:{0:[0:"bb",1:"",2:"b"],Name:[0:0.003332901300643898D]},2:0.0D,3:-3835160847338332967L],ExtraAttributes:{XZYx:-16},Yz:{-a0:[]}}`. | true
+rtp6	TPE 43 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 43 in `{\n  " \\"} ": -3244S,\n  ":\\\\d": [\n    0: 1.0E20D,\n    1: {\n      0: [\n        0: "bb",\n        1: "",\n        2: "b"\n      ],\n      Name: [\n        0: 0.003332901300643898D\n      ]\n    },\n    2: 0.0D,\n    3: -3835160847338332967L\n  ],\n  ExtraAttributes: {\n    XZYx: -16\n  },\n  Yz: {\n    -a0: [\n      ]\n  }\n}`. | true
+mut6.0 {" \\"} ":-3244S,":\\\\d":[0:1.0E20D,1:{0:[0:d"bb",1:"",2:"b"],Name:[0:0.003332901300643898D]}2:0.0D,3:-3835160847338332967L],ExtraA2tributes:{XZYx:-16},Yz:{-a0:[]}}	TPE 29 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 29 in `{" \\"} ":-3244S,":\\\\d":[0:1.0E20D,1:{0:[0:d"bb",1:"",2:"b"],Name:[0:0.003332901300643898D]}2:0.0D,3:-3835160847338332967L],ExtraA2tributes:{XZYx:-16},Yz:{-a0:[]}}`. | true
+mut6.1 {" \\"} "-3244S,":\\\\d":[0:1.0E20D,1:{0:[0:"bb",1:"",2:"b"],Name:[0:0.003332901300643898D]},2:0.0D,3:-3835160847338332967L]7,ExtraAttributes:{XZYx:-16},Y:{-a0:[]}}	TPE 8 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 8 in `{" \\"} "-3244S,":\\\\d":[0:1.0E20D,1:{0:[0:"bb",1:"",2:"b"],Name:[0:0.003332901300643898D]},2:0.0D,3:-3835160847338332967L]7,ExtraAttributes:{XZYx:-16},Y:{-a0:[]}}`. | true
+mut6.2 {" \\"} ":-3244S,":\\\\d":[0:1.0E20D,1:{0:[0:"bb",1:"",2:"b"],Name:[0:0.0903332901300643898D]},2:0.0D,3:-383516084733d332967L ],ExtraAttributes:{XZYx:-16},Yz:{-a0:[]}}	TPE 29 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 29 in `{" \\"} ":-3244S,":\\\\d":[0:1.0E20D,1:{0:[0:"bb",1:"",2:"b"],Name:[0:0.0903332901300643898D]},2:0.0D,3:-383516084733d332967L ],ExtraAttributes:{XZYx:-16},Yz:{-a0:[]}}`. | true
+rt7 {"d{ ":[],x:-8193278816640450824L}	OK {"d{ ":[],x:-8193278816640450824L}
+rtp7	OK {"d{ ":[],x:-8193278816640450824L}
+mut7.0 {"d{ ":[],x:-819327881664045082L}	OK {"d{ ":[],x:-819327881664045082L}
+mut7.1 {"d{ ":[]x:-8193278816640450804L}	OK {"d{ ":[],x:-8193278816640450804L}
+mut7.2 {"d{ :[],x:B819327816640450824L}	TPE 32 Unfinished string | Unfinished string at 32 in `{"d{ :[],x:B819327816640450824L}`. | true
+rt8 {":ac":"0},",rkj:[]}	OK {":ac":"0},",rkj:[]}
+rtp8	OK {":ac":"0},",rkj:[]}
+mut8.0 {":c":"0},",rkj:[]}	OK {":c":"0},",rkj:[]}
+mut8.1 {":ac":"0},",rkj:}[]}	TPE 17 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 17 in `{":ac":"0},",rkj:}[]}`. | true
+mut8.2 {":ac":"0},",rDkj:[]}	OK {":ac":"0},",rDkj:[]}
+rt9 {}	OK {}
+rtp9	OK {}
+mut9.0 }	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `}`. | true
+mut9.1 "F1}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `"F1}`. | true
+mut9.2 {:F	TPE 2 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 2 in `{:F`. | true
+rt10 {XXxZ:7.0D,id:[0:98B],tag:[0:-1319635717],ty:0.0F,z:[0:-8539617422666295515L,1:6312880625752663187L]}	OK {XXxZ:7.0d,id:[98b],tag:[-1319635717],ty:0.0f,z:[-8539617422666295515L,6312880625752663187L]}
+rtp10	OK {XXxZ:7.0d,id:[98b],tag:[-1319635717],ty:0.0f,z:[-8539617422666295515L,6312880625752663187L]}
+mut10.0 {XXxZ6:7.0D,id:[0D98B],tag:[0:-119635717],ty:0.0F,z:[0:-8539617422666295515L,1:6312880625752663187L]}	OK {XXxZ6:7.0d,id:[0.0d,98b],tag:[-119635717],ty:0.0f,z:[-8539617422666295515L,6312880625752663187L]}
+mut10.1 {XXxZ:7.0D,id:[0:98B],tag:[0:-1319635717],tB:0.0F,z:[0:-8539617422666295515L,1:6312880625752663187L]	!EOF
+mut10.2 {XXxZ:7.0D,id:[0:98B],tag:[:-1319635717]ty:0.0F,z}[0:-8539617422666295515L,1:6312880625752663187L]}	TPE 27 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 27 in `{XXxZ:7.0D,id:[0:98B],tag:[:-1319635717]ty:0.0F,z}[0:-8539617422666295515L,1:6312880625752663187L]}`. | true
+rt11 {4k:-64B,YXY:{},"\\\\\\\\\\\\\\\\ ":-74B,jbt2t:";''a=§"}	OK {"4k":-64b,YXY:{},"\\\\\\\\\\\\\\\\ ":-74b,jbt2t:";''a=§"}
+rtp11	OK {"4k":-64b,YXY:{},"\\\\\\\\\\\\\\\\ ":-74b,jbt2t:";''a=§"}
+mut11.0 {4k:--64B,YXY:{,"\\\\\\\\\\\\\\\\ ":-74B,Sjbt2t:";''a=§"}	!java.lang.IllegalStateException: Could not properly parse numeric tag '-', despite passing rough verification. This is a bug in the LegacyTagParser
+mut11.1 {4k:-64B,YXY:{,"\\\\\\\\\\\\\\\\ ":-74B,jbt2t:";''a=,}	TPE 25 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 25 in `{4k:-64B,YXY:{,"\\\\\\\\\\\\\\\\ ":-74B,jbt2t:";''a=,}`. | true
+mut11.2 {4k:-664B,YXY:{},"\\\\\\\\\\7\\\\ ":-74B,jbt2t:";''a=§"}	!java.lang.NumberFormatException: Value out of range. Value:"-664" Radix:10
+rt12 {m:[],z:[0:-960321255,1:557178192],zy_:931871896}	OK {m:[],z:[-960321255,557178192],zy_:931871896}
+rtp12	OK {m:[],z:[-960321255,557178192],zy_:931871896}
+mut12.0 {m:[],z:[0:-960321255,1:557178192],zy_:93187\\.1896}	!EOF
+mut12.1 {m:[],z:[0:-F960321255,1:557178192],zy_:9318718z96}	!java.lang.IllegalStateException: Could not properly parse numeric tag '-F', despite passing rough verification. This is a bug in the LegacyTagParser
+mut12.2 {m:[],z:[0:-96032125,1:557178192],zy_:931871896F	!EOF
+rt13 {iq.h7it:3.4028235E38F}	!EOF
+rtp13	TPE 27 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 27 in `{\n  iq.h7it: 3.4028235E38F\n}`. | true
+mut13.0 {iq.h2it:3.4028235E38F}	!EOF
+mut13.1 {iq.7it:3.4028235E38F}	!EOF
+mut13.2 {iq.h7it:3.402825E38F}	!EOF
+rt14 {Name:[0:"",1:"caa",2:"a"],br.7:487L,"{":1.0E-9D}	!EOF
+rtp14	TPE 82 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 82 in `{\n  Name: [\n    0: "",\n    1: "caa",\n    2: "a"\n  ],\n  br.7: 487L,\n  "{": 1.0E-9D\n}`. | true
+mut14.0 {Name:L0:"",1:"caa",2:"a"],br.7:48{L,"{":1.0E-9D}	TPE 6 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 6 in `{Name:L0:"",1:"caa",2:"a"],br.7:48{L,"{":1.0E-9D}`. | true
+mut14.1 {0Name:[0:"",1:"ca a",2:"a"],b{.7:487L,"{":1.0E-9D}	!EOF
+mut14.2 {Name:[9:"",1:"c\\aa",2:"a"],br.7:487L,0{":1.0E-9D}	TPE 17 Invalid backslash escape 'a' | Invalid backslash escape 'a' at 17 in `{Name:[9:"",1:"c\\aa",2:"a"],br.7:487L,0{":1.0E-9D}`. | true
+rt15 {58x3rtt:0.0D,fknB:[0:-1178172256,1:-2017069258,2:1798330773],id:[0:571613119,1:-1159569990]}	OK {"58x3rtt":0.0d,fknB:[-1178172256,-2017069258,1798330773],id:[571613119,-1159569990]}
+rtp15	OK {"58x3rtt":0.0d,fknB:[-1178172256,-2017069258,1798330773],id:[571613119,-1159569990]}
+mut15.0 {58x3rtt:0.0D,fknB:[0:\\1178172256,1:-2017069258,2:1798330773],id:[0:571613119,1:-1159569990]}	TPE 22 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 22 in `{58x3rtt:0.0D,fknB:[0:\\1178172256,1:-2017069258,2:1798330773],id:[0:571613119,1:-1159569990]}`. | true
+mut15.1 {358x3rtt:0.0D,fknB:[0:-1178172256,1:-2017069258,2:1798330773],id:[0:d571613119,1:-1159569990]}	TPE 69 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 69 in `{358x3rtt:0.0D,fknB:[0:-1178172256,1:-2017069258,2:1798330773],id:[0:d571613119,1:-1159569990]}`. | true
+mut15.2 d58x3rtt:0.0D,fknB:[0:-1178172256,1:-2017069258,2:179833 0773],id:[0:571613119,1:-1159569990]}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `d58x3rtt:0.0D,fknB:[0:-1178172256,1:-2017069258,2:179833 0773],id:[0:571613119,1:-1159569990]}`. | true
+rt16 {Ch.d56v:1.0E20D,jhi_ez:-30721S,m-f__m:{"":-231759.58181861456D,"\\\\{":-7394S,qh7_:{7j:7.0D,hlza3:{"":1L,Xz:738676365},sgcp:-250,"{:{b":{":é:a ":222342.23044544389D,tag:-32596S}},z_yy:[0:35]},"}d":[0:"c",1:"b",2:"bcb",3:"ba"]}	OK {Ch.d56v:1.0d,"E20D,jhi_ez":-30721s,m-f__m:{"":-231759.58181861456d,"\\\\{":-7394s,qh7_:{"7j":7.0d,hlza3:{"":1L,Xz:738676365},sgcp:-250,"{:{b":{":é:a ":222342.23044544389d,tag:-32596s}},z_yy:[35]},"}d":["c","b","bcb","ba"]}
+rtp16	TPE 24 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 24 in `{\n  Ch.d56v: 1.0E20D,\n  jhi_ez: -30721S,\n  m-f__m: {\n    "": -231759.58181861456D,\n    "\\\\{": -7394S,\n    qh7_: {\n      7j: 7.0D,\n      hlza3: {\n        "": 1L,\n        Xz: 738676365\n      },\n      sgcp: -250,\n      "{:{b": {\n        ":é:a ": 222342.23044544389D,\n        tag: -32596S\n      }\n    },\n    z_yy: [\n      0: 35\n    ]\n  },\n  "}d": [\n    0: "c",\n    1: "b",\n    2: "bcb",\n    3: "ba"\n  ]\n}`. | true
+mut16.0 {Ch.d6v:1.0E20D,jhi_ez:-30721S,m-f__m:{"":-231\\59.58181861456D,"\\\\{":-7394S,qh7_:{7j:7.0D,hlza3:{"":1L,Xz:73676365},sgcp:-250,"{:{b":{":é:a ":222342.23044544389D,tag:-32596S}},z_yy:[0:35]},"}d":[0:"c",1:"b",2:"bcb",3:"ba"]}	OK {Ch.d6v:1.0d,"E20D,jhi_ez":-30721s,m-f__m:{"":-231,'\\\\59.58181861456D,"\\\\\\\\{"':-7394s,qh7_:{"7j":7.0d,hlza3:{"":1L,Xz:73676365},sgcp:-250,"{:{b":{":é:a ":222342.23044544389d,tag:-32596s}},z_yy:[35]},"}d":["c","b","bcb","ba"]}
+mut16.1 {Ch.d56v:1.0E20D,jhi_ez:-30721S,m-f__m:{"":-231759.58181861456D,"\\\\{":-7394S,qh7_:{7j:7.0D,hlza3:{"":1L,Xz:738676365},sgcp:-250,"{{b":{":é:a ":222342.23044544389D,tag:-32596S}},z_yy:[0:35]},"}d"7:[0:"c",1:"b",2:"bcb",3:"ba"]}	TPE 194 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 194 in `{Ch.d56v:1.0E20D,jhi_ez:-30721S,m-f__m:{"":-231759.58181861456D,"\\\\{":-7394S,qh7_:{7j:7.0D,hlza3:{"":1L,Xz:738676365},sgcp:-250,"{{b":{":é:a ":222342.23044544389D,tag:-32596S}},z_yy:[0:35]},"}d"7:[0:"c",1:"b",2:"bcb",3:"ba"]}`. | true
+mut16.2 {Ch.d56v:1.0E20D,jhi_ez:-30721S,m-f__m:{"":-231759.58181861456D,"\\\\{":-7394S,qh+_:{7j:7.0D,hlza3:{"":1L,Xz:738676365},sgcp:-250,"{:{b":{":é:a ":222342.23044544389D,tag:-32596S}},z_yy:[0:35]},"}d":[0:"c",1:"b",2:"bcb",3:"ba"]}	OK {Ch.d56v:1.0d,"E20D,jhi_ez":-30721s,m-f__m:{"":-231759.58181861456d,"\\\\{":-7394s,qh+_:{"7j":7.0d,hlza3:{"":1L,Xz:738676365},sgcp:-250,"{:{b":{":é:a ":222342.23044544389d,tag:-32596s}},z_yy:[35]},"}d":["c","b","bcb","ba"]}
+rt17 {yzy:[0:0.7221750557373048D,1:0.08773285027699407D]}	OK {yzy:[0.7221750557373048d,0.08773285027699407d]}
+rtp17	OK {yzy:[0.7221750557373048d,0.08773285027699407d]}
+mut17.0 {yzy:[0:f0.7221759055737348D,1:0.08773285027699407D]}	TPE 8 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 8 in `{yzy:[0:f0.7221759055737348D,1:0.08773285027699407D]}`. | true
+mut17.1 {yzy:[0:0.7221F50557373048D,1::.0877328502769407D]}	TPE 30 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 30 in `{yzy:[0:0.7221F50557373048D,1::.0877328502769407D]}`. | true
+mut17.2 {yzy:[0:0.7221750557373048D,1:0.0877285027699407D]}	OK {yzy:[0.7221750557373048d,0.0877285027699407d]}
+rt18 {Lore:[0:-1575670816]}	OK {Lore:[-1575670816]}
+rtp18	OK {Lore:[-1575670816]}
+mut18.0 {Lore:[0:-157567081]}	OK {Lore:[-157567081]}
+mut18.1 {Lor]:[0:-1}75670816]}	TPE 11 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 11 in `{Lor]:[0:-1}75670816]}`. | true
+mut18.2 {Lore:,0:-1-5670816]}	TPE 6 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 6 in `{Lore:,0:-1-5670816]}`. | true
+rt19 {"":[0:1765494122,1:802956407,2:-2035047808],3f:367502796,id:22770S,xZx:1788881612538686909L,"é":0.0F}	OK {"":[1765494122,802956407,-2035047808],"3f":367502796,id:22770s,xZx:1788881612538686909L,"é":0.0f}
+rtp19	OK {"":[1765494122,802956407,-2035047808],"3f":367502796,id:22770s,xZx:1788881612538686909L,"é":0.0f}
+mut19.0 {"":[01765494122,1:802956407,2:-2035047808],3f:36752796,id:22770S,xZx:1788881612538686909L,"é":0.0F}	OK {"":[1765494122,802956407,-2035047808],"3f":36752796,id:22770s,xZx:1788881612538686909L,"é":0.0f}
+mut19.1 {"":[0:1765494122,1:802956407,22-2035047808],3f:367502796,id:22770S,xZx:1788881612538686909L,"é":0.0F}	OK {"":[1765494122,802956407,22,-2035047808],"3f":367502796,id:22770s,xZx:1788881612538686909L,"é":0.0f}
+mut19.2 {"":[0:1765494122,1:802956407,2:-205047808],3f:367502796,id:22770S,xZx:1788881612538686909L,"é":0.0F}	OK {"":[1765494122,802956407,-205047808],"3f":367502796,id:22770s,xZx:1788881612538686909L,"é":0.0f}
+rt20 {" }\\"\\\\":3.4028235E38F,0:[0:-4281684720973513277L,1:3166489040419988108L,2:5657223437934365949L],XyZ:3.4028235E38F}	!EOF
+rtp20	TPE 31 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 31 in `{\n  " }\\"\\\\": 3.4028235E38F,\n  0: [\n    0: -4281684720973513277L,\n    1: 3166489040419988108L,\n    2: 5657223437934365949L\n  ],\n  XyZ: 3.4028235E38F\n}`. | true
+mut20.0 {" }\\"z\\\\":3.4028235E38F,0:[0:-4281684720973513277L,1:3166489040419988108L,2:5657223437934365949L],XyZ:3.4028235E38F}	!EOF
+mut20.1 {" }\\"\\\\":3.4028235E3sF,0:[0:-4281684720973513277L,1:3166489040419988108L,L:5657223437934365949L],XyZ:3.4028235E38F}	TPE 74 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 74 in `{" }\\"\\\\":3.4028235E3sF,0:[0:-4281684720973513277L,1:3166489040419988108L,L:5657223437934365949L],XyZ:3.4028235E38F}`. | true
+mut20.2 {" }\\"\\\\":3.4028235E38F,0:[0:-4281684720973513277L,1:3166489040419988108L,2:565723437934365949L],yZ:3.4028235E38F}	!EOF
+rt21 {Name:371.67993F}	OK {Name:371.67993f}
+rtp21	OK {Name:371.67993f}
+mut21.0 {NamFe371.67993F}	!EOF
+mut21.1 {Name:37.67993F}	OK {Name:37.67993f}
+mut21.2 {4NDame:371.67993F}	OK {"4NDame":371.67993f}
+rt22 {dhia_p.:1.0E-7F,ijfx841i:{YzX:-21051S},o1:-688,z_:1.0E20D}	!EOF
+rtp22	TPE 24 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 24 in `{\n  dhia_p.: 1.0E-7F,\n  ijfx841i: {\n    YzX: -21051S\n  },\n  o1: -688,\n  z_: 1.0E20D\n}`. | true
+mut22.0 {dhia_p.:1.0E-7F,4jfx841i:{YzX:-2151S},o1:-688,z_:1.0E20D}	!EOF
+mut22.1 {dhid_p.:1.0E-7F,ijfx841i:{YzX:-21051S},o1:-688,z_:1.0E20D}	!EOF
+mut22.2 {dhi4a_p.:1.0E-7F,ijfx841i:{YzX:-21051S},o1:-688,z_:1.0E20D}	!EOF
+rt23 {z:[0:1445231232993433882L],zXXy:[0:-89B],"é\\"}":[]}	OK {z:[1445231232993433882L],zXXy:[-89b],'é"}':[]}
+rtp23	OK {z:[1445231232993433882L],zXXy:[-89b],'é"}':[]}
+mut23.0 {z:[0:14452312b32993433882L],zXXy:[0:-89B],"é\\"}":[]}	!java.lang.NumberFormatException: Value out of range. Value:"14452312" Radix:10
+mut23.1 {z:[0:145231232993433882L],zXXy:[0:-89B],"é\\"}"B{[]}	TPE 47 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 47 in `{z:[0:145231232993433882L],zXXy:[0:-89B],"é\\"}"B{[]}`. | true
+mut23.2 {z:[0:1445231232993433882L],zXXy:[0:-89LB],"é\\"}:[]}	TPE 40 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 40 in `{z:[0:1445231232993433882L],zXXy:[0:-89LB],"é\\"}:[]}`. | true
+rt24 {8hAk:[0:"b",1:"acc",2:"c",3:"b"],X_XY:"=3]}§a\\\\[{\\t",_:-95B,id:[0:[0:-81B,1:106B],1:380622732]}	TPE 51 Invalid backslash escape 't' | Invalid backslash escape 't' at 51 in `{8hAk:[0:"b",1:"acc",2:"c",3:"b"],X_XY:"=3]}§a\\\\[{\\t",_:-95B,id:[0:[0:-81B,1:106B],1:380622732]}`. | true
+rtp24	TPE 86 Invalid backslash escape 't' | Invalid backslash escape 't' at 86 in `{\n  8hAk: [\n    0: "b",\n    1: "acc",\n    2: "c",\n    3: "b"\n  ],\n  X_XY: "=3]}§a\\\\[{\\t",\n  _: -95B,\n  id: [\n    0: [\n      0: -81B,\n      1: 106B\n    ],\n    1: 380622732\n  ]\n}`. | true
+mut24.0 {8hAk:[0:"b",1:"acc",2:"c",3:"b"],X_XY:"=3]}§a\\\\[{\\t",_:-95B,id:[0:[0:-81B,1:106B],1:38062s732]}	TPE 51 Invalid backslash escape 't' | Invalid backslash escape 't' at 51 in `{8hAk:[0:"b",1:"acc",2:"c",3:"b"],X_XY:"=3]}§a\\\\[{\\t",_:-95B,id:[0:[0:-81B,1:106B],1:38062s732]}`. | true
+mut24.1 {8hAk:[0:"b",1:"acc",2:"c",3:"b"],X_XY:"=3]}§a\\\\[{\\t",_:-95B,id:[0:[0:-8B,1:106B],1:380622732]}	TPE 51 Invalid backslash escape 't' | Invalid backslash escape 't' at 51 in `{8hAk:[0:"b",1:"acc",2:"c",3:"b"],X_XY:"=3]}§a\\\\[{\\t",_:-95B,id:[0:[0:-8B,1:106B],1:380622732]}`. | true
+mut24.2 {8hAk:[0:"b",1:"acc",2:"c",3:"b"],X_XY:"=3]}§a\\\\[{\\t",_:-95B,id:[0:[0:-81B,1:106B],1:380622a732]}	TPE 51 Invalid backslash escape 't' | Invalid backslash escape 't' at 51 in `{8hAk:[0:"b",1:"acc",2:"c",3:"b"],X_XY:"=3]}§a\\\\[{\\t",_:-95B,id:[0:[0:-81B,1:106B],1:380622a732]}`. | true
+rt25 {Cv:769,tag:3.4028235E38F}	!EOF
+rtp25	TPE 34 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 34 in `{\n  Cv: 769,\n  tag: 3.4028235E38F\n}`. | true
+mut25.0 {Cv:769,,ta:3.4-28235E38F}	!EOF
+mut25.1 {Cv:769},tag 3.4028235E38F}	OK {Cv:769}
+mut25.2 {Cv:769,ta\\:3.402823E38F}	!EOF
+rt26 {ZX_:3.0F,"\\\\} cé":-164363.38987893175D,b:3.4028235E38F,"c\\"é":[0:-1695454265,1:-1227076603,2:2143242370],"{} \\\\\\\\":"Z\\t]0"}	TPE 119 Invalid backslash escape 't' | Invalid backslash escape 't' at 119 in `{ZX_:3.0F,"\\\\} cé":-164363.38987893175D,b:3.4028235E38F,"c\\"é":[0:-1695454265,1:-1227076603,2:2143242370],"{} \\\\\\\\":"Z\\t]0"}`. | true
+rtp26	TPE 71 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 71 in `{\n  ZX_: 3.0F,\n  "\\\\} cé": -164363.38987893175D,\n  b: 3.4028235E38F,\n  "c\\"é": [\n    0: -1695454265,\n    1: -1227076603,\n    2: 2143242370\n  ],\n  "{} \\\\\\\\": "Z\\t]0"\n}`. | true
+mut26.0 {ZX_:3.0F,"\\\\} cé":-164363.38987893175D,l:3.402825E38F,"c\\"é":[0:-1695454265,1:-122706603,2:2143242370],"{} \\\\\\\\":"Z\\t]0"}	TPE 117 Invalid backslash escape 't' | Invalid backslash escape 't' at 117 in `{ZX_:3.0F,"\\\\} cé":-164363.38987893175D,l:3.402825E38F,"c\\"é":[0:-1695454265,1:-122706603,2:2143242370],"{} \\\\\\\\":"Z\\t]0"}`. | true
+mut26.1 {ZX_:3.0F,"\\\\} cé":-164363.389878s93175D,b:3.4028235E38F,"c\\"é":[0:-16954542685,1:-1227076603,2:2143242370],"{} \\\\\\\\":"Z\\t]0"}	!java.lang.IllegalStateException: Could not properly parse numeric tag '-164363.389878s', despite passing rough verification. This is a bug in the LegacyTagParser
+mut26.2 {ZX7:3.0F,"\\\\} cé":-164363.38987893175D,b:3.4028235E38F,"c\\"é":[0:-1695454265,1:-1227076603,2:2143242370],"{} \\\\\\\\"b"Z\\t]0"}	TPE 115 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 115 in `{ZX7:3.0F,"\\\\} cé":-164363.38987893175D,b:3.4028235E38F,"c\\"é":[0:-1695454265,1:-1227076603,2:2143242370],"{} \\\\\\\\"b"Z\\t]0"}`. | true
+rt27 {0:0.0F,18w:[0:1282955810,1:-576892982,2:616280670],Lore:[],XzXY:17538S,display:[0:[0:-205816610,1:-1225693685,2:935933531],1:"1\\t=§\\"\\"X,bY",2:0.0F,3:{}]}	TPE 129 Invalid backslash escape 't' | Invalid backslash escape 't' at 129 in `{0:0.0F,18w:[0:1282955810,1:-576892982,2:616280670],Lore:[],XzXY:17538S,display:[0:[0:-205816610,1:-1225693685,2:935933531],1:"1\\t=§\\"\\"X,bY",2:0.0F,3:{}]}`. | true
+rtp27	TPE 216 Invalid backslash escape 't' | Invalid backslash escape 't' at 216 in `{\n  0: 0.0F,\n  18w: [\n    0: 1282955810,\n    1: -576892982,\n    2: 616280670\n  ],\n  Lore: [\n    ],\n  XzXY: 17538S,\n  display: [\n    0: [\n      0: -205816610,\n      1: -1225693685,\n      2: 935933531\n    ],\n    1: "1\\t=§\\"\\"X,bY",\n    2: 0.0F,\n    3: {\n      }\n  ]\n}`. | true
+mut27.0 {0:0.0F,18w:[0:1282955810,1:-576892982,2:616280670],Lo3e:[],XzXY:17538S,display:[0:[0:-205816610,1:-1225693685,2:935933531],1:"1\\t=§\\"\\"X,bY",2:0.0F,3:{}]}	TPE 129 Invalid backslash escape 't' | Invalid backslash escape 't' at 129 in `{0:0.0F,18w:[0:1282955810,1:-576892982,2:616280670],Lo3e:[],XzXY:17538S,display:[0:[0:-205816610,1:-1225693685,2:935933531],1:"1\\t=§\\"\\"X,bY",2:0.0F,3:{}]}`. | true
+mut27.1 {0:0.0F,8w:[01282955810,1:-576892982,2:616280670],ore:[],XzXY:17538S,display:[0:[0:-205816610,1:-1225693685,2:935933531],1:"1\\t=§\\"\\"X,bY",2:0.0F,3:{}]}	TPE 126 Invalid backslash escape 't' | Invalid backslash escape 't' at 126 in `{0:0.0F,8w:[01282955810,1:-576892982,2:616280670],ore:[],XzXY:17538S,display:[0:[0:-205816610,1:-1225693685,2:935933531],1:"1\\t=§\\"\\"X,bY",2:0.0F,3:{}]}`. | true
+mut27.2 {0:0.0F,18w:[0:1282955810,1:-576892982,2:616280670],Lore:[],XzXY:17538S,display:[0:[0:-2s05816610,1:-1225693685,2:935933531],1:"1\\t=§\\"\\"X,bY",2:0.0F,3:{}]}	TPE 130 Invalid backslash escape 't' | Invalid backslash escape 't' at 130 in `{0:0.0F,18w:[0:1282955810,1:-576892982,2:616280670],Lore:[],XzXY:17538S,display:[0:[0:-2s05816610,1:-1225693685,2:935933531],1:"1\\t=§\\"\\"X,bY",2:0.0F,3:{}]}`. | true
+rt28 {ExtraAttributes:[0:-1772238381,1:1258432712,2:352470653],tag:-469,ysswBCn:" \\t aZ;cc]",yx_:892}	TPE 78 Invalid backslash escape 't' | Invalid backslash escape 't' at 78 in `{ExtraAttributes:[0:-1772238381,1:1258432712,2:352470653],tag:-469,ysswBCn:" \\t aZ;cc]",yx_:892}`. | true
+rtp28	TPE 111 Invalid backslash escape 't' | Invalid backslash escape 't' at 111 in `{\n  ExtraAttributes: [\n    0: -1772238381,\n    1: 1258432712,\n    2: 352470653\n  ],\n  tag: -469,\n  ysswBCn: " \\t aZ;cc]",\n  yx_: 892\n}`. | true
+mut28.0 {ExdraAttributes:[0:-1772238381,1:1258432712,2:352470653],tag:-469,ysswBCn:" \\t aZ;cc]",yx_:892}	TPE 78 Invalid backslash escape 't' | Invalid backslash escape 't' at 78 in `{ExdraAttributes:[0:-1772238381,1:1258432712,2:352470653],tag:-469,ysswBCn:" \\t aZ;cc]",yx_:892}`. | true
+mut28.1 {ExtraAatributes:[0:-1772238381,1:128432712,2:352470653],tag:-469,ysswBCn:" \\t aZ;ccd]",yx_:892}	TPE 77 Invalid backslash escape 't' | Invalid backslash escape 't' at 77 in `{ExtraAatributes:[0:-1772238381,1:128432712,2:352470653],tag:-469,ysswBCn:" \\t aZ;ccd]",yx_:892}`. | true
+mut28.2 {ExtraAttributes:[0:-1772238381,1:1258432712,2:352670653],tag:-469,ysslwBCn:" \\t aZ;cc]",yx_:892}	TPE 79 Invalid backslash escape 't' | Invalid backslash escape 't' at 79 in `{ExtraAttributes:[0:-1772238381,1:1258432712,2:352670653],tag:-469,ysslwBCn:" \\t aZ;cc]",yx_:892}`. | true
+rt29 {_:[0:0.946167891359242D,1:0.5445063986615729D,2:0.48131655713576416D,3:0.40110488692519997D]}	OK {_:[0.946167891359242d,0.5445063986615729d,0.48131655713576416d,0.40110488692519997d]}
+rtp29	OK {_:[0.946167891359242d,0.5445063986615729d,0.48131655713576416d,0.40110488692519997d]}
+mut29.0 {_:[0:0.9461678F1359242D,1:0.5445063996615729D,2:0.48131655713576416D,3:0.401:0488692519997D]}	TPE 77 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 77 in `{_:[0:0.9461678F1359242D,1:0.5445063996615729D,2:0.48131655713576416D,3:0.401:0488692519997D]}`. | true
+mut29.1 {_:[0:0.946167891359242D,1:0.5445063986615729D,2:0.48131655713576416D,3:0.4110488692519997D]}	OK {_:[0.946167891359242d,0.5445063986615729d,0.48131655713576416d,0.4110488692519997d]}
+mut29.2 {_:[0:0.946167891359242D,1:0.54450639D6615729D,2:0.48131655713576416D,3:0.40110488692519997D]}	OK {_:[0.946167891359242d,0.54450639d,6615729.0d,0.48131655713576416d,0.40110488692519997d]}
+rt30 {"":":0\\"3X[Z'b'",Y_zz:425593.67085531494D,cdrqhBp:[0:74903256]}	OK {"":':0"3X[Z\\'b\\'',Y_zz:425593.67085531494d,cdrqhBp:[74903256]}
+rtp30	OK {"":':0"3X[Z\\'b\\'',Y_zz:425593.67085531494d,cdrqhBp:[74903256]}
+mut30.0 {"":":0\\"3X[Z'b'",Y_zz:425593.67085531494D,cdrqzBp:[0:74903256]}	OK {"":':0"3X[Z\\'b\\'',Y_zz:425593.67085531494d,cdrqzBp:[74903256]}
+mut30.1 {"":":0\\"3X[Z'b'",Y_z:425593.67085531494D,cdrqhBp:[0:74903256]}	OK {"":':0"3X[Z\\'b\\'',Y_z:425593.67085531494d,cdrqhBp:[74903256]}
+mut30.2 {"":":0\\"3X[8'b'",Y_zz:425593.67085531494D,cdrqhBp:[0:74903b56]}	!java.lang.NumberFormatException: Value out of range. Value:"74903" Radix:10
+rt31 {Count:2109199505,YX:";;§","éb":[0:-851738614,1:1849987622]}	OK {Count:2109199505,YX:";;§","éb":[-851738614,1849987622]}
+rtp31	OK {Count:2109199505,YX:";;§","éb":[-851738614,1849987622]}
+mut31.0 {Count:210}919905,YX:5";;§","éb":[0:-851738614,1:1849987622]}	OK {Count:210}
+mut31.1 {Count:2109199505,YX:";;§","éb":[0:-851738614,1:1849987632]}	OK {Count:2109199505,YX:";;§","éb":[-851738614,1849987632]}
+mut31.2 {Count:2109199505,YX:";;§","éb"l[0:-851738614,1:18499876"2]}	TPE 31 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 31 in `{Count:2109199505,YX:";;§","éb"l[0:-851738614,1:18499876"2]}`. | true
+rt32 {"\\"":1.0E-7F,Zyz:-28849S}	OK {'"':1.0d,"E-7F,Zyz":-28849s}
+rtp32	TPE 21 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 21 in `{\n  "\\"": 1.0E-7F,\n  Zyz: -28849S\n}`. | true
+mut32.0 {"\\"":1.E-7F,Zyz-2z849S}	!java.lang.IllegalStateException: Could not properly parse numeric tag '1.', despite passing rough verification. This is a bug in the LegacyTagParser
+mut32.1 {"\\2"":1.0E-7F,Zyz:,28849S}	TPE 3 Invalid backslash escape '2' | Invalid backslash escape '2' at 3 in `{"\\2"":1.0E-7F,Zyz:,28849S}`. | true
+mut32.2 {"\\"":1.0E-7F,Zyz:F-288,4S}	TPE 18 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 18 in `{"\\"":1.0E-7F,Zyz:F-288,4S}`. | true
+rt33 {s1:[0:-7082003735288802360L],sfzc.:0.0F,x:"","é bé":123B}	OK {s1:[-7082003735288802360L],sfzc.:0.0f,x:"","é bé":123b}
+rtp33	OK {s1:[-7082003735288802360L],sfzc.:0.0f,x:"","é bé":123b}
+mut33.0 {s1:[0:-7082003735288802360L],sfzc.:00F,x:"","é b0":123B}	OK {s1:[-7082003735288802360L],sfzc.:0.0f,x:"","é b0":123b}
+mut33.1 {s1:[0:L70[200373528.8802360L],sfzc.:0.0F,x:"","é bé":123B}	TPE 7 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 7 in `{s1:[0:L70[200373528.8802360L],sfzc.:0.0F,x:"","é bé":123B}`. | true
+mut33.2 {s1:[0:-7082003735288802360L],sfzc.:0.0F,:"","é bé":423B}	!java.lang.NumberFormatException: Value out of range. Value:"423" Radix:10
+rt34 {"":[0:-77B],"\\"bd:d":[0:0.8286194253976649D,1:0.8993190896977912D,2:0.8147903586014247D],ZyY:{"":3.0F,y_:[0:775399603,1:-644880964,2:[0:5837982651751317187L],3:7.0D]},"é":[]}	OK {"":[-77b],'"bd:d':[0.8286194253976649d,0.8993190896977912d,0.8147903586014247d],ZyY:{"":3.0f,y_:[775399603,-644880964,[5837982651751317187L],7.0d]},"é":[]}
+rtp34	OK {"":[-77b],'"bd:d':[0.8286194253976649d,0.8993190896977912d,0.8147903586014247d],ZyY:{"":3.0f,y_:[775399603,-644880964,[5837982651751317187L],7.0d]},"é":[]}
+mut34.0 {"":[0:-77B],"\\"bd:d":[0:0.8286194253976649D,1:0.8993190896977912D,2:0.81479035860142B47D],ZyY:{"":3.0F,y_:[0:775399603,1:-644880964,2:[0:5837982651751317187L],3:7.0D]},"é":[]}	!java.lang.IllegalStateException: Could not properly parse numeric tag '0.81479035860142B', despite passing rough verification. This is a bug in the LegacyTagParser
+mut34.1 {"":[0:-77B],"\\"bd:d":[0:0.8286194253376649D,1:0.8993190896977912D,2:0.8147903586014247D],ZyY:{"":3.0F,y_:[0:775399603,1:-644880964,2:[0:5837982651751317187L],3:7.0D]},"é":[]}	OK {"":[-77b],'"bd:d':[0.8286194253376649d,0.8993190896977912d,0.8147903586014247d],ZyY:{"":3.0f,y_:[775399603,-644880964,[5837982651751317187L],7.0d]},"é":[]}
+mut34.2 {"":[0:-77B],"\\"bd:d":[0:0.8286194[253976649D,1:0.8993190896977912D,2:0.81478903586014247D],ZyY:{"":3.0F,y_:[0:775399603,1:-644880964,2:[0:5837982651751317187L],3:7.0D]},"é":[]}	TPE 92 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 92 in `{"":[0:-77B],"\\"bd:d":[0:0.8286194[253976649D,1:0.8993190896977912D,2:0.81478903586014247D],ZyY:{"":3.0F,y_:[0:775399603,1:-644880964,2:[0:5837982651751317187L],3:7.0D]},"é":[]}`. | true
+rt35 {Count:[0:23B],YX:629,_xXz:[0:-1171510507567637540L],id:[0:1242502220]}	OK {Count:[23b],YX:629,_xXz:[-1171510507567637540L],id:[1242502220]}
+rtp35	OK {Count:[23b],YX:629,_xXz:[-1171510507567637540L],id:[1242502220]}
+mut35.0 {Co"unt:[0:23B],YX:629,_xXz:[0:-117151050757637,40L],id:[0:1242502220]}	!java.lang.NumberFormatException: For input string: "-117151050757637"
+mut35.1 {Count:[0:23B],YX:629,_xXz:[0:-117510507567637540L],id:[0:1242502220]}	OK {Count:[23b],YX:629,_xXz:[-117510507567637540L],id:[1242502220]}
+mut35.2 {Count:[0:2B],YX:629,_Xz:[0:-1171510507567637540L],id:[0:1242502220]}	OK {Count:[2b],YX:629,_Xz:[-1171510507567637540L],id:[1242502220]}
+rt36 {"":583L,At7:1.5F,Name:{Name:[0:6387487553177215786L,1:8405933672310051658L,2:5158173908435529015L],"\\\\:\\"a":"[a\\\\'",x:{},"{":[0:1975502622,1:1921110390,2:1591445535]},"{\\"}dc":1523657105}	OK {"":583L,At7:1.5f,Name:{Name:[6387487553177215786L,8405933672310051658L,5158173908435529015L],'\\\\:"a':"[a\\\\'",x:{},"{":[1975502622,1921110390,1591445535]},'{"}dc':1523657105}
+rtp36	OK {"":583L,At7:1.5f,Name:{Name:[6387487553177215786L,8405933672310051658L,5158173908435529015L],'\\\\:"a':"[a\\\\'",x:{},"{":[1975502622,1921110390,1591445535]},'{"}dc':1523657105}
+mut36.0 {"":583L,At7:1.5F,Name:{Name:[0:6387487553177215786L,1:3405933672310051658L,2:5158173908435529015L],"\\\\:\\"a":"[a\\\\'",x:{},"{":[0:1975502622,1:1921110390,2:1591445535]},"{\\"+}dc":1523657105}	OK {"":583L,At7:1.5f,Name:{Name:[6387487553177215786L,3405933672310051658L,5158173908435529015L],'\\\\:"a':"[a\\\\'",x:{},"{":[1975502622,1921110390,1591445535]},'{"+}dc':1523657105}
+mut36.1 {"":583L,At7:1.5F,Name:{Namea[0:6387487553177215786L,1:8405933672310051658L,2:5158173908435529015L],"\\\\:\\"a":"[a\\\\'",x:{},"{":[0:1975502622,1:1921110390,2:1591445535]},"{\\"}\\dc":153657105}	TPE 104 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 104 in `{"":583L,At7:1.5F,Name:{Namea[0:6387487553177215786L,1:8405933672310051658L,2:5158173908435529015L],"\\\\:\\"a":"[a\\\\'",x:{},"{":[0:1975502622,1:1921110390,2:1591445535]},"{\\"}\\dc":153657105}`. | true
+mut36.2 {"":583L,At7:1.5F,Name:{Name:[0:6387487553177215786L,1:8405933672310051658L-,2:5158173908435529015L],"\\\\:\\"a":"[a\\\\'",x:{},{":[0:1975502622,1:1921110390,2:1591445535]},"{\\"}dc":1523657105}	!java.lang.IllegalStateException: Could not properly parse numeric tag '-', despite passing rough verification. This is a bug in the LegacyTagParser
+rt37 {":":[0:-65B,1:114B],s97+:[0:-948557766]}	OK {":":[-65b,114b],s97+:[-948557766]}
+rtp37	OK {":":[-65b,114b],s97+:[-948557766]}
+mut37.0 {":":0:-65B,1:114B],s97+:[0:-9B48557766]}	OK {"":-65b,"1":114b,":":0,"],s97+":[-9b,48557766]}
+mut37.1 {":":[0:-65B,1:114B],s9+:[0:-948557766]}	OK {":":[-65b,114b],s9+:[-948557766]}
+mut37.2 {":":[0:-65B,1:f114B],s97+:[0:-948557766]}	TPE 15 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 15 in `{":":[0:-65B,1:f114B],s97+:[0:-948557766]}`. | true
+rt38 {"":-1052889570,tag:"b\\n",z_:{"":[0:-452310172,1:-944092184,2:-1874037115],003:25160S}}	TPE 23 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 23 in `{"":-1052889570,tag:"b\\n",z_:{"":[0:-452310172,1:-944092184,2:-1874037115],003:25160S}}`. | true
+rtp38	TPE 31 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 31 in `{\n  "": -1052889570,\n  tag: "b\\n",\n  z_: {\n    "": [\n      0: -452310172,\n      1: -944092184,\n      2: -1874037115\n    ],\n    003: 25160S\n  }\n}`. | true
+mut38.0 {"":-1052889570,tag:"b\\n",z_:{"":[0:-452310172B1:-944092184,2:-187403}7115],003,:25160S}}	TPE 23 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 23 in `{"":-1052889570,tag:"b\\n",z_:{"":[0:-452310172B1:-944092184,2:-187403}7115],003,:25160S}}`. | true
+mut38.1 {"":-105288570,tag:"b\\n",z_-{"":[0:-45230172,1:-944092184,2:-1874037115],003:25160S}}	TPE 22 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 22 in `{"":-105288570,tag:"b\\n",z_-{"":[0:-45230172,1:-944092184,2:-1874037115],003:25160S}}`. | true
+mut38.2 {"":-1052889570,btag:"b\\n",z_:{":[0:-452310172,1:-944092184,2:-1874037115],003:25160S}2	TPE 24 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 24 in `{"":-1052889570,btag:"b\\n",z_:{":[0:-452310172,1:-944092184,2:-1874037115],003:25160S}2`. | true
+rt39 {Count:1.0E-9D,YZ:1.5F,ib7xwl:-377,x3a7:[],"} \\"":1159383956}	OK {Count:1.0d,"E-9D,YZ":1.5f,ib7xwl:-377,x3a7:[],'} "':1159383956}
+rtp39	TPE 22 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 22 in `{\n  Count: 1.0E-9D,\n  YZ: 1.5F,\n  ib7xwl: -377,\n  x3a7: [\n    ],\n  "} \\"": 1159383956\n}`. | true
+mut39.0 {Count:1.0E-9D,Z:1.5F,ib67xwl:-377,x3a7:[],"} \\"":1159383s56}	!java.lang.NumberFormatException: Value out of range. Value:"1159383" Radix:10
+mut39.1 {Count:1.0E-9,YZ:1.5F,ib7xwl:-377,x3a7:[],"} \\4":1159383956}	TPE 46 Invalid backslash escape '4' | Invalid backslash escape '4' at 46 in `{Count:1.0E-9,YZ:1.5F,ib7xwl:-377,x3a7:[],"} \\4":1159383956}`. | true
+mut39.2 {Count:1.0E-9D,YZ8:1.5F,ib7xwl:-37,x3a7:[],"} \\"":11593839356}	!java.lang.NumberFormatException: For input string: "11593839356"
+rt40 {XY:-118B,XZ:"Y]\\"",y:"cZZ:X3{=\\tb"}	TPE 32 Invalid backslash escape 't' | Invalid backslash escape 't' at 32 in `{XY:-118B,XZ:"Y]\\"",y:"cZZ:X3{=\\tb"}`. | true
+rtp40	TPE 44 Invalid backslash escape 't' | Invalid backslash escape 't' at 44 in `{\n  XY: -118B,\n  XZ: "Y]\\"",\n  y: "cZZ:X3{=\\tb"\n}`. | true
+mut40.0 {XY:5118B,XZ:"Y]\\"L,y:"cZZ:X3{=\\tb"}	!java.lang.NumberFormatException: Value out of range. Value:"5118" Radix:10
+mut40.1 {XY:-118B,XZ:"]\\"",y:"c0Z:X3{=\\tb"}	TPE 31 Invalid backslash escape 't' | Invalid backslash escape 't' at 31 in `{XY:-118B,XZ:"]\\"",y:"c0Z:X3{=\\tb"}`. | true
+mut40.2 {XY:-118B,XZ:"Y]\\"",y:"c,ZZ:X3{=\\tb"}	TPE 33 Invalid backslash escape 't' | Invalid backslash escape 't' at 33 in `{XY:-118B,XZ:"Y]\\"",y:"c,ZZ:X3{=\\tb"}`. | true
+rt41 {-Ae_6k:22816S,Count:271352.544288418D,Name:-705S,xz:[0:-1473905287451764748L,1:-925760357605022473L,2:-3874217924170050884L]}	OK {"-Ae_6k":22816s,Count:271352.544288418d,Name:-705s,xz:[-1473905287451764748L,-925760357605022473L,-3874217924170050884L]}
+rtp41	OK {"-Ae_6k":22816s,Count:271352.544288418d,Name:-705s,xz:[-1473905287451764748L,-925760357605022473L,-3874217924170050884L]}
+mut41.0 {-Ae_6k:22,816S,Count:271352.544288418,Name:-705S,xz:[0:-1473905287451764748L,1:-925760357605022473L,2:-3874217924170050884L]}	OK {"-Ae_6k":22,"816S,Count":271352.544288418d,Name:-705s,xz:[-1473905287451764748L,-925760357605022473L,-3874217924170050884L]}
+mut41.1 {-Ae_6k:2281d6S,Count:271352.544288418D,Name:-705S,xz:[0:-1473905287451764748L,1:-925760357605022473L,2:-384217924170050884L}	TPE 124 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 124 in `{-Ae_6k:2281d6S,Count:271352.544288418D,Name:-705S,xz:[0:-1473905287451764748L,1:-925760357605022473L,2:-384217924170050884L}`. | true
+mut41.2 {-Ae_6k:22286S,Count:271352.544288418D,Name:-705S,xz:[0:-1473905287451764748L,1:-925760357605022473L,2:-3874217924170050884L]}	OK {"-Ae_6k":22286s,Count:271352.544288418d,Name:-705s,xz:[-1473905287451764748L,-925760357605022473L,-3874217924170050884L]}
+rt42 {0:[0:-68B,1:44B,2:-54B],Lore:118L,id:[],x_X_:0.0F}	OK {"0":[-68b,44b,-54b],Lore:118L,id:[],x_X_:0.0f}
+rtp42	OK {"0":[-68b,44b,-54b],Lore:118L,id:[],x_X_:0.0f}
+mut42.0 {0:[0:-68B,1:44B,2:-54B],Lore:118L,i:[],x_X_9:0.0F}	OK {"0":[-68b,44b,-54b],Lore:118L,i:[],x_X_9:0.0f}
+mut42.1 {0:[0:-68B,1:44B,2:-\\54B],Lore:118L,id:[],x_X_:0.0F}	!java.lang.IllegalStateException: Could not properly parse numeric tag '-', despite passing rough verification. This is a bug in the LegacyTagParser
+mut42.2 {0:[0:-6B[,1:44B,2:-54B],Lo3re:118L,id:[],x_X_:0.0F}	TPE 10 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 10 in `{0:[0:-6B[,1:44B,2:-54B],Lo3re:118L,id:[],x_X_:0.0F}`. | true
+rt43 {"":[0:-1771587279,1:1756507477],ExtraAttributes:[0:-53B,1:92B],b:28117S,t15x5j:112L}	OK {"":[-1771587279,1756507477],ExtraAttributes:[-53b,92b],b:28117s,t15x5j:112L}
+rtp43	OK {"":[-1771587279,1756507477],ExtraAttributes:[-53b,92b],b:28117s,t15x5j:112L}
+mut43.0 {"":[0:-17715727B,1:1756507477],ExtraAttributes:[0:-53B,1:92 ],b:28117S,t15x5j:112L}	!java.lang.NumberFormatException: Value out of range. Value:"-17715727" Radix:10
+mut43.1 {"":[0:-1771z87279,1:1756507477],Extralttributes:[0:-53B,1:92B],b:28117S,t1x5j:112L}	TPE 12 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 12 in `{"":[0:-1771z87279,1:1756507477],Extralttributes:[0:-53B,1:92B],b:28117S,t1x5j:112L}`. | true
+mut43.2 {"":[0:-1771587279,1:17565707477],ExtraAttributes]:[0:-53B,1:92B],bs:28117S,t15x5j:112L}	!java.lang.NumberFormatException: For input string: "17565707477"
+rt44 {+gt:-4567758972683730991L,Lore:[],xX:[0:34,1:79,2:38],"}d":314.36646F}	OK {"+gt":-4567758972683730991L,Lore:[],xX:[34,79,38],"}d":314.36646f}
+rtp44	OK {"+gt":-4567758972683730991L,Lore:[],xX:[34,79,38],"}d":314.36646f}
+mut44.0 {+gt:-4567758972683730991L,Lore:[],xX:[0:34,1:79,2:38],"}d":b314.36646F}	TPE 60 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 60 in `{+gt:-4567758972683730991L,Lore:[],xX:[0:34,1:79,2:38],"}d":b314.36646F}`. | true
+mut44.1 {+gt:-4567758972683730991L,Lore:[]sxX:[0:34,1:79,2:38],"}d":314.36646F-	!EOF
+mut44.2 {+g+t:-45672758972683730991L,Lore:[],xX:[0:34,1:79,2:38],"}d":314+.36646F}	!java.lang.NumberFormatException: For input string: "-45672758972683730991"
+rt45 {j:[0:11B],yYzy:[]}	OK {j:[11b],yYzy:[]}
+rtp45	OK {j:[11b],yYzy:[]}
+mut45.0 {j:[0:11B{]yYzy::[]}	TPE 16 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 16 in `{j:[0:11B{]yYzy::[]}`. | true
+mut45.1 {j:L:11B],yYzy:[3]}	TPE 3 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 3 in `{j:L:11B],yYzy:[3]}`. | true
+mut45.2 {j:4011B],yYzy:[]}	!java.lang.NumberFormatException: Value out of range. Value:"4011" Radix:10
+rt46 {Lore:-8536201386133921986L,Z:{"  {c{":[0:46B,1:3B],43d:{.xl-:0.0D,id:1.5F,yY:-283738.61140033626D},ZXZy:-4289243233988393717L},"{b":[0:898600318,1:747289430,2:-2127645091]}	OK {Lore:-8536201386133921986L,Z:{"  {c{":[46b,3b],"43d":{.xl-:0.0d,id:1.5f,yY:-283738.61140033626d},ZXZy:-4289243233988393717L},"{b":[898600318,747289430,-2127645091]}
+rtp46	OK {Lore:-8536201386133921986L,Z:{"  {c{":[46b,3b],"43d":{.xl-:0.0d,id:1.5f,yY:-283738.61140033626d},ZXZy:-4289243233988393717L},"{b":[898600318,747289430,-2127645091]}
+mut46.0 {Lore:-8536201386133921986L,Z:{"  {c{":[0:46B,1:3B],43d:{.xl-:0.0D,id:1.5F,yY:-283738.61140033626D},ZXZy:-42894233988393717L},"b":[0:898600318,1:747289430,2:-2127645091]}	OK {Lore:-8536201386133921986L,Z:{"  {c{":[46b,3b],"43d":{.xl-:0.0d,id:1.5f,yY:-283738.61140033626d},ZXZy:-42894233988393717L},b:[898600318,747289430,-2127645091]}
+mut46.1 {Lore:-8536201386133921986L,Z:{"  {c{":[0:46B,1:3B],43d:{.xl-:0.0D,id:1.5F,yY:-d83738.61140033626D},ZXZy:-4289243233988393717L},"{b":[0:898600318,1:74728430,2:-2127645091]}	!java.lang.IllegalStateException: Could not properly parse numeric tag '-d', despite passing rough verification. This is a bug in the LegacyTagParser
+mut46.2 {Lore:-8536201386133921986L,Z:{"  {c{":[0:46B,1:3B],43d:{.xl-:0.0D,id:1.5F,yY:-283738.61140033626D},ZXZy:-4S289243233988393717L},"{b":[0:898600318,1:747289430,2:-2127645091]}	!EOF
+rt47 {ExtraAttributes:832L,f:[0:1859877230196596966L,1:7205954327774210676L],id:"§[bc\\"'0",y:235}	OK {ExtraAttributes:832L,f:[1859877230196596966L,7205954327774210676L],id:'§[bc"\\'0',y:235}
+rtp47	OK {ExtraAttributes:832L,f:[1859877230196596966L,7205954327774210676L],id:'§[bc"\\'0',y:235}
+mut47.0 {ExtraAttributes:832L,f:[0:1859877230196596966L,1:7205954327774210676L],id:"§[bc\\"'0",y:235}	OK {ExtraAttributes:832L,f:[1859877230196596966L,7205954327774210676L],id:'§[bc"\\'0',y:235}
+mut47.1 {ExtraAttributes:832L,f:[0:185987230196596966L,1:72059543277742106:6L,id:"§[bc\\"'0",y:235}	!java.lang.NumberFormatException: For input string: "72059543277742106"
+mut47.2 {ExtraAttributes:832L,f:[0:1659877230196596966L,1:7205954327774210676L],id:"§[bc\\"'0",y:235}	OK {ExtraAttributes:832L,f:[1659877230196596966L,7205954327774210676L],id:'§[bc"\\'0',y:235}
+rt48 {}	OK {}
+rtp48	OK {}
+mut48.0 3	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `3`. | true
+mut48.1 	!EOF
+mut48.2 {Ls}	!EOF
+rt49 {YzX:[0:-7053769593861758214L,1:3869453719392642074L,2:-5257009678912201158L],Zx:[0:297611593,1:-2059693158],yXz:[0:6938130910474771553L]}	OK {YzX:[-7053769593861758214L,3869453719392642074L,-5257009678912201158L],Zx:[297611593,-2059693158],yXz:[6938130910474771553L]}
+rtp49	OK {YzX:[-7053769593861758214L,3869453719392642074L,-5257009678912201158L],Zx:[297611593,-2059693158],yXz:[6938130910474771553L]}
+mut49.0 {YzX:[0:-7053769593861758214L,1:3869453719392642074L,2:-5257009678912201158L],Zx:[0:297611593,1:-2059693158],Xz:[0:6938130910474771553L]}	OK {Xz:[6938130910474771553L],YzX:[-7053769593861758214L,3869453719392642074L,-5257009678912201158L],Zx:[297611593,-2059693158]}
+mut49.1 {YzX:[0:-7053769593861758214L,1:3869453719392642074L,2:-5257009678912201158L],Zx:[0:297611593,1:-2059693158],yXz:[0:6938130910474771553]}	!java.lang.NumberFormatException: For input string: "6938130910474771553"
+mut49.2 {YzX:[0:-7053769593861758214L,1:3869453719392642074L,2:-5257009678912201158-],Zx:[0:297611593,1:-2059693158],yXz:[0:6938130910474771553L]}	!java.lang.NumberFormatException: For input string: "-5257009678912201158"
+rt50 {"":[0:1B,1:49B],9wm:[0:86],id:1.0E-9D,"}{\\"":{"":[0:{Name:1},1:{Lore:1}],0:[0:957501759,1:1060701582,2:1581127165],Z:44B,tv9A:-227L}}	OK {"":[1b,49b],"9wm":[86],'E-9D,"}{\\\\""':{"":[{Name:1},{Lore:1}],"0":[957501759,1060701582,1581127165],Z:44b,tv9A:-227L},id:1.0d}
+rtp50	TPE 78 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 78 in `{\n  "": [\n    0: 1B,\n    1: 49B\n  ],\n  9wm: [\n    0: 86\n  ],\n  id: 1.0E-9D,\n  "}{\\"": {\n    "": [\n      0: {\n        Name: 1\n      },\n      1: {\n        Lore: 1\n      }\n    ],\n    0: [\n      0: 957501759,\n      1: 1060701582,\n      2: 1581127165\n    ],\n    Z: 44B,\n    tv9A: -227L\n  }\n}`. | true
+mut50.0 {"":[0:1B,1:49B],9wm:[0:86],id:1.0E-9D,"}{\\"":{"":[0:{Name:1}{1:{Lore:1}],0:[0:957501759,1:1060701582,2:1581127165],Z:44B,tv9A:-227L}}	TPE 133 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 133 in `{"":[0:1B,1:49B],9wm:[0:86],id:1.0E-9D,"}{\\"":{"":[0:{Name:1}{1:{Lore:1}],0:[0:957501759,1:1060701582,2:1581127165],Z:44B,tv9A:-227L}}`. | true
+mut50.1 {"":[0:1B,1:49B],9wm:[0:86],id:1.0E-9D,"}{\\"":{"":[0:{Name:1},1:{Lore:1},0:[0:957501759,1:1060701582,2:1581127165],Z:44B,tv9A:-227L}}	TPE 115 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 115 in `{"":[0:1B,1:49B],9wm:[0:86],id:1.0E-9D,"}{\\"":{"":[0:{Name:1},1:{Lore:1},0:[0:957501759,1:1060701582,2:1581127165],Z:44B,tv9A:-227L}}`. | true
+mut50.2 {"":[0:1B,1:49B],9wm:[0:86],id:1.0E-9D,"}{\\"":{"":[0{Name:1},1:{Lore:1}],0:[0:957501759,1:1060701582,2:158112716z],Z:44B,tv9A:-227L}}	TPE 112 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 112 in `{"":[0:1B,1:49B],9wm:[0:86],id:1.0E-9D,"}{\\"":{"":[0{Name:1},1:{Lore:1}],0:[0:957501759,1:1060701582,2:158112716z],Z:44B,tv9A:-227L}}`. | true
+rt51 {":":{n:0.0D},Count:[0:-122B,1:[]],ZZZY:[0:[0:-5160902146551267837L,1:5158244269029032221L],1:3.0F,2:{tag:-1643397105,y:[0:1537804897106146431L,1:-119892387598740480L]},3:13591S],zy:192463889,"é":[]}	OK {":":{n:0.0d},Count:[-122b,[]],ZZZY:[[-5160902146551267837L,5158244269029032221L],3.0f,{tag:-1643397105,y:[1537804897106146431L,-119892387598740480L]},13591s],zy:192463889,"é":[]}
+rtp51	OK {":":{n:0.0d},Count:[-122b,[]],ZZZY:[[-5160902146551267837L,5158244269029032221L],3.0f,{tag:-1643397105,y:[1537804897106146431L,-119892387598740480L]},13591s],zy:192463889,"é":[]}
+mut51.0 {":":{n:0.0D},Count:[0:-122B,1:[]],ZZZY:[0:[0:-516090214655 1267837L,1:5158244269029032221L],1:3.0F,2:{tag:-1643397105,y:[0:1537804897106146431L,1:-119892387598740480L]},3:13591S],zy:192463889,"é":[]}	!java.lang.NumberFormatException: For input string: "-516090214655"
+mut51.1 {":":{n:0.0D},Count:[0:-122B,1:[]],ZZZY:[0:[0:-5160902146551267837L,1:5158244269029032221L],1:3.0F,2:{tag:-1643397105,y:[0:153780489710614643}L,1:-11989238759.874080L]},3:13591S],zy:192463889,"é":[]}	!java.lang.NumberFormatException: For input string: "153780489710614643"
+mut51.2 {":":{n:0.0D},Count:[0:-122B,1:[]],ZZZY:[0:[0:-5160902146551267837L,1:5158244269029032221L],1:3.0F,2:{tag:-164339105,y:[0:1537804897106146431L,1:-119892387598740480L]},3:13591S],zy:19246388,"é":[]}	OK {":":{n:0.0d},Count:[-122b,[]],ZZZY:[[-5160902146551267837L,5158244269029032221L],3.0f,{tag:-164339105,y:[1537804897106146431L,-119892387598740480L]},13591s],zy:19246388,"é":[]}
+rt52 {-7:{"":"é=,=\\"",ExtraAttributes:[0:2544991008206227105L,1:-7340468609424435510L],display:4901S}}	OK {"-7":{"":'é=,="',ExtraAttributes:[2544991008206227105L,-7340468609424435510L],display:4901s}}
+rtp52	OK {"-7":{"":'é=,="',ExtraAttributes:[2544991008206227105L,-7340468609424435510L],display:4901s}}
+mut52.0 {-7:{"":"é=,=2\\"",ExtraAttributes:[0:2544991008206227105L,1:-7300468609424435510L],display:4901S}}	OK {"-7":{"":'é=,=2"',ExtraAttributes:[2544991008206227105L,-7300468609424435510L],display:4901s}}
+mut52.1 {-7:{"":"é=,=\\"",ExtraAttributs:[0:2544991008206227105L,1:-7340468609424435510L],display:4901S}}	OK {"-7":{"":'é=,="',ExtraAttributs:[2544991008206227105L,-7340468609424435510L],display:4901s}}
+mut52.2 {-7:{"":"é=,=\\"",ExtraAttributes:[0:2544991008206227105L,1:-7340468609424435510L],di+2lay:4901S}}	OK {"-7":{"":'é=,="',ExtraAttributes:[2544991008206227105L,-7340468609424435510L],di+2lay:4901s}}
+rt53 {}	OK {}
+rtp53	OK {}
+mut53.0 8}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `8}`. | true
+mut53.1 {l	!EOF
+mut53.2 5}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `5}`. | true
+rt54 {.xbi:-8875302988755115782L,en735d:13B}	OK {.xbi:-8875302988755115782L,en735d:13b}
+rtp54	OK {.xbi:-8875302988755115782L,en735d:13b}
+mut54.0 {.xbz:-887530298875115782L,e735d:13B}	OK {.xbz:-887530298875115782L,e735d:13b}
+mut54.1 {.xbi:-8875302988755115782L,e:n73bd:13B}	TPE 30 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 30 in `{.xbi:-8875302988755115782L,e:n73bd:13B}`. | true
+mut54.2 {.x\\i:-l875302988755115782L,en7}35d:13B}	!java.lang.IllegalStateException: Could not properly parse numeric tag '-l', despite passing rough verification. This is a bug in the LegacyTagParser
+rt55 {YZ:{_:[0:-8836509276229222642L]}}	OK {YZ:{_:[-8836509276229222642L]}}
+rtp55	OK {YZ:{_:[-8836509276229222642L]}}
+mut55.0 {YZ:{_:[0:-883650926229222642L]}4}	!EOF
+mut55.1 YZ:{_:[0:-883650927622922264L]}}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `YZ:{_:[0:-883650927622922264L]}}`. | true
+mut55.2 {YZ:{_:[:-8836509276229252642L]}}	TPE 8 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 8 in `{YZ:{_:[:-8836509276229252642L]}}`. | true
+rt56 {"":3241S,Count:3.4028235E38F,Name:"\\n",YZZy:49B,tag:0.0F}	TPE 37 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 37 in `{"":3241S,Count:3.4028235E38F,Name:"\\n",YZZy:49B,tag:0.0F}`. | true
+rtp56	TPE 41 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 41 in `{\n  "": 3241S,\n  Count: 3.4028235E38F,\n  Name: "\\n",\n  YZZy: 49B,\n  tag: 0.0F\n}`. | true
+mut56.0 {"":3241S,Count:3.4028235E38F,Name:"\\n",YZZy:4 B,tag:0.0F}	TPE 37 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 37 in `{"":3241S,Count:3.4028235E38F,Name:"\\n",YZZy:4 B,tag:0.0F}`. | true
+mut56.1 {"":324S,ount:3.4028235E38F,Name:"\\n",YZZy:49B,tag:0.0F}	TPE 35 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 35 in `{"":324S,ount:3.4028235E38F,Name:"\\n",YZZy:49B,tag:0.0F}`. | true
+mut56.2 {"":3241S,Count:3.4028235E38F,Nama:"\\n",YZZy:49B,tag:0.0F}	TPE 37 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 37 in `{"":3241S,Count:3.4028235E38F,Nama:"\\n",YZZy:49B,tag:0.0F}`. | true
+rt57 {6wqf0:[0:7966056614926357371L],xy:""}	OK {"6wqf0":[7966056614926357371L],xy:""}
+rtp57	OK {"6wqf0":[7966056614926357371L],xy:""}
+mut57.0 {6wqf0:[0:79}66056614926357371L],xy:""}	TPE 12 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 12 in `{6wqf0:[0:79}66056614926357371L],xy:""}`. | true
+mut57.1 {6wqf0:[0:7966056149263.57371L],xy:a"}	!java.lang.IllegalStateException: Could not properly parse numeric tag '7966056149263.57371L', despite passing rough verification. This is a bug in the LegacyTagParser
+mut57.2 {6wqf0:F07966056614926357371L],xy:"}	TPE 7 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 7 in `{6wqf0:F07966056614926357371L],xy:"}`. | true
+rt58 {ExtraAttributes:459.38483F,Name:[0:-3255562433487882048L,1:6782521578452959255L],Y:8088176069019610277L,_Z:5160197949848754569L}	OK {ExtraAttributes:459.38483f,Name:[-3255562433487882048L,6782521578452959255L],Y:8088176069019610277L,_Z:5160197949848754569L}
+rtp58	OK {ExtraAttributes:459.38483f,Name:[-3255562433487882048L,6782521578452959255L],Y:8088176069019610277L,_Z:5160197949848754569L}
+mut58.0 {ExtraAttributes:459.38483F,Name:[0:325562433487882048L,1:6782521578452959255L],Y:8088176069019610277L,_Z:5160197949848754569L}	OK {ExtraAttributes:459.38483f,Name:[325562433487882048L,6782521578452959255L],Y:8088176069019610277L,_Z:5160197949848754569L}
+mut58.1 {ExtrfaAttributes:459.38483F,Name:[0:-3255562433487882048L,1:6782521578452959255L],Y:808817669019610277L,_Z:5160197949848754569L}	OK {ExtrfaAttributes:459.38483f,Name:[-3255562433487882048L,6782521578452959255L],Y:808817669019610277L,_Z:5160197949848754569L}
+mut58.2 {ExtraAttributes:459.38483F,Name:[0:-3255562433487882048L,:6782521578452959255L],Y:808176069019610277L,_Z:5160197949848754569L}	TPE 58 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 58 in `{ExtraAttributes:459.38483F,Name:[0:-3255562433487882048L,:6782521578452959255L],Y:808176069019610277L,_Z:5160197949848754569L}`. | true
+rt59 {"":[],65rng4e:[0:0.0F,1:-1785S,2:812,3:[0:-7B,1:82B]],"b\\"{ac":57.613403F}	OK {"":[],"65rng4e":[0.0f,-1785s,812,[-7b,82b]],'b"{ac':57.613403f}
+rtp59	OK {"":[],"65rng4e":[0.0f,-1785s,812,[-7b,82b]],'b"{ac':57.613403f}
+mut59.0 {"":[],65rng4e:[0:0.0F,1:-1785S,2:8"2,3:[0.:-7B,1:82B]],"b\\"{ac":57.613403F}	TPE 57 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 57 in `{"":[],65rng4e:[0:0.0F,1:-1785S,2:8"2,3:[0.:-7B,1:82B]],"b\\"{ac":57.613403F}`. | true
+mut59.1 {"":[],65rng4e:[0:0.0F,.1:-17-85S,2:812,3:[0:-7B,1:82B]],"b\\"{ac":57.613403F}	TPE 23 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 23 in `{"":[],65rng4e:[0:0.0F,.1:-17-85S,2:812,3:[0:-7B,1:82B]],"b\\"{ac":57.613403F}`. | true
+mut59.2 {"":[],65rng4e:[0:0.0F,1:-1785S,2:8123:[0:-7B,1:82B]],"b\\"{ac4":57.61403F}	TPE 38 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 38 in `{"":[],65rng4e:[0:0.0F,1:-1785S,2:8123:[0:-7B,1:82B]],"b\\"{ac4":57.61403F}`. | true
+rt60 {"\\\\":"a"}	OK {"\\\\":"a"}
+rtp60	OK {"\\\\":"a"}
+mut60.0 {"\\\\a":"a"}	OK {"\\\\a":"a"}
+mut60.1 {"\\\\"8:"a"}	TPE 5 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 5 in `{"\\\\"8:"a"}`. | true
+mut60.2 "\\{\\":"a"}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `"\\{\\":"a"}`. | true
+rt61 {id:0.0D}	OK {id:0.0d}
+rtp61	OK {id:0.0d}
+mut61.0 {8idS0.0D}	!EOF
+mut61.1 {id:.0D}	TPE 4 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 4 in `{id:.0D}`. | true
+mut61.2 {id:0.0}	OK {id:0.0d}
+rt62 {9x5:0.0F}	OK {"9x5":0.0f}
+rtp62	OK {"9x5":0.0f}
+mut62.0 {9x5b].0F}	!EOF
+mut62.1 {9x5: 0.0}	OK {"9x5":0.0d}
+mut62.2 {9x5:70 0F}	!EOF
+rt63 {6sa25:[0:{ci:1},1:{y:1},2:{wA6:1}]}	OK {"6sa25":[{ci:1},{y:1},{wA6:1}]}
+rtp63	OK {"6sa25":[{ci:1},{y:1},{wA6:1}]}
+mut63.0 {6sa25:[0:{ci:1},1:{y:3},2:{wA61}]}	!EOF
+mut63.1 {6saL25:[0:{ci:1},1:{y:1},2+:{wA6:1}]}	TPE 27 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 27 in `{6saL25:[0:{ci:1},1:{y:1},2+:{wA6:1}]}`. | true
+mut63.2 {6sa2:[:{ci:1}1:{y:1},2:{wA6:1}]}	TPE 7 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 7 in `{6sa2:[:{ci:1}1:{y:1},2:{wA6:1}]}`. | true
+rt64 {"":[0:28611S,1:{xX:7.0D},2:[0:-4233293446611755647L,1:-7479585678380705527L]],x_y:18046S}	OK {"":[28611s,{xX:7.0d},[-4233293446611755647L,-7479585678380705527L]],x_y:18046s}
+rtp64	OK {"":[28611s,{xX:7.0d},[-4233293446611755647L,-7479585678380705527L]],x_y:18046s}
+mut64.0 {"":[0:28611S,1:fxX:7.0D},2:[0:-4233293446611755647L,1:-7479585678380705527L]],x_y:18046S}	TPE 16 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 16 in `{"":[0:28611S,1:fxX:7.0D},2:[0:-4233293446611755647L,1:-7479585678380705527L]],x_y:18046S}`. | true
+mut64.1 {"":[0:28611S,1:{x-:7.0D},2:[0:84233293446611755647L,1:-747958567838070557L]],x_y:18046S}	!java.lang.NumberFormatException: For input string: "84233293446611755647"
+mut64.2 {"":[0:28611S,1:{xX:7.0D},2:[0:-423329344661}755647L,1:-7479585678380705527L]],x_y:1806S}	!java.lang.NumberFormatException: For input string: "-423329344661"
+rt65 {"\\"{":1.0E20D,5ogozz:-4349895226129612662L,Y:[0:0.6206797893953041D,1:0.4427209574921789D,2:0.49743295997170434D,3:0.49062316960379015D],Z:26973S,"}b\\"\\\\\\\\":-19155S}	OK {'"{':1.0d,"E20D,5ogozz":-4349895226129612662L,Y:[0.6206797893953041d,0.4427209574921789d,0.49743295997170434d,0.49062316960379015d],Z:26973s,'}b"\\\\\\\\':-19155s}
+rtp65	TPE 22 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 22 in `{\n  "\\"{": 1.0E20D,\n  5ogozz: -4349895226129612662L,\n  Y: [\n    0: 0.6206797893953041D,\n    1: 0.4427209574921789D,\n    2: 0.49743295997170434D,\n    3: 0.49062316960379015D\n  ],\n  Z: 26973S,\n  "}b\\"\\\\\\\\": -19155S\n}`. | true
+mut65.0 {"\\"{":1.0E20D,5ogozz:-4349895226129612662L,Y:[0:0.6206797893953041D,1:0.4427209574921789D,2:0.49743295997170434D,3:0.490623169603}9015D],Z:26973S,"}b\\"\\\\\\\\":-19155S}	TPE 130 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 130 in `{"\\"{":1.0E20D,5ogozz:-4349895226129612662L,Y:[0:0.6206797893953041D,1:0.4427209574921789D,2:0.49743295997170434D,3:0.490623169603}9015D],Z:26973S,"}b\\"\\\\\\\\":-19155S}`. | true
+mut65.1 {]\\"{":1.0E20D,5ogozz:-4349895226129612662L,Y:[0:0.6206797893953041D,1:0.4427209574921789D,2:0.49743295997170434D,3:0.4906236960379015D],Z:2693S,"}b\\"\\\\\\\\":-19155S}	OK {"E20D,5ogozz":-4349895226129612662L,Y:[0.6206797893953041d,0.4427209574921789d,0.49743295997170434d,0.4906236960379015d],Z:2693s,']\\\\"{"':1.0d,'}b"\\\\\\\\':-19155s}
+mut65.2 {"\\"{":1.0E20D,5ogozz:-4349895226129612662L,Y:[0:0.6206797893953041D,1:0.4427209574921789D,2:0.49743295997170434D,3:0.49062316960379015DD],Z:26973S,"}b\\"\\\\\\\\":-19155S}	TPE 136 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 136 in `{"\\"{":1.0E20D,5ogozz:-4349895226129612662L,Y:[0:0.6206797893953041D,1:0.4427209574921789D,2:0.49743295997170434D,3:0.49062316960379015DD],Z:26973S,"}b\\"\\\\\\\\":-19155S}`. | true
+rt66 {.wo6tgf:[0:86,1:72],XX:-652L,o_:[],t5d233cj:1.0E-9D,"}c}":[0:-48B]}	OK {.wo6tgf:[86,72],'E-9D,"}c}"':[-48b],XX:-652L,o_:[],t5d233cj:1.0d}
+rtp66	TPE 92 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 92 in `{\n  .wo6tgf: [\n    0: 86,\n    1: 72\n  ],\n  XX: -652L,\n  o_: [\n    ],\n  t5d233cj: 1.0E-9D,\n  "}c}": [\n    0: -48B\n  ]\n}`. | true
+mut66.0 {.wo6tgf:[0:86,1S:72],XX:-652L,o_\\:[],t5d233cj:1.0E-9D,"}c}":[0:-48B]}	TPE 17 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 17 in `{.wo6tgf:[0:86,1S:72],XX:-652L,o_\\:[],t5d233cj:1.0E-9D,"}c}":[0:-48B]}`. | true
+mut66.1 {.wo6tgf:0:86,1:72],XX:-652L,o_:[],t5d0233cj:1.0E-9D,"}c":[0:-48B]}	OK {"":86,.wo6tgf:0,"1":72,'E-9D,"}c"':[-48b],"],XX":-652L,o_:[],t5d0233cj:1.0d}
+mut66.2 {.wo6tgf:[0:86,1:72],XX:-652L,o_:[],t5d233cj:1.0FE-9D,"}c}":[0:-48B]}	OK {.wo6tgf:[86,72],'E-9D,"}c}"':[-48b],XX:-652L,o_:[],t5d233cj:1.0f}
+rt67 {0:",3§:",ExtraAttributes:[0:15B,1:-113B],"d ":{},"{\\"":700L}	OK {"0":",3§:",ExtraAttributes:[15b,-113b],"d ":{},'{"':700L}
+rtp67	OK {"0":",3§:",ExtraAttributes:[15b,-113b],"d ":{},'{"':700L}
+mut67.0 {0:",3§}:",ExtraAttributes:[0:15B,D:-113B],"d ":{},"{\\"":700L}	TPE 34 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 34 in `{0:",3§}:",ExtraAttributes:[0:15B,D:-113B],"d ":{},"{\\"":700L}`. | true
+mut67.1 {0:",3§:",ExtraAttributes:[0:0B,1:-113B],"d ":},"{\\"":700L}	TPE 46 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 46 in `{0:",3§:",ExtraAttributes:[0:0B,1:-113B],"d ":},"{\\"":700L}`. | true
+mut67.2 {0:",3§:",ExtraAttribu[es:[0:15B,1:-113B],"d ":{},4{\\"":700L}	OK {"0":",3§:",'4{\\\\""':700L,"ExtraAttribu[es":[15b,-113b],"d ":{}}
+rt68 {yY_Y:69}	OK {yY_Y:69}
+rtp68	OK {yY_Y:69}
+mut68.0 {yY_:9}	OK {yY_:9}
+mut68.1 {Y_Y:d69}	TPE 5 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 5 in `{Y_Y:d69}`. | true
+mut68.2 {yY0_Y8:69]	!EOF
+rt69 {"":"1\\"1",Xy:"3\\t\\\\[: ",h:[0:-4B,1:-78B,2:38B],n44:-15549S}	TPE 17 Invalid backslash escape 't' | Invalid backslash escape 't' at 17 in `{"":"1\\"1",Xy:"3\\t\\\\[: ",h:[0:-4B,1:-78B,2:38B],n44:-15549S}`. | true
+rtp69	TPE 25 Invalid backslash escape 't' | Invalid backslash escape 't' at 25 in `{\n  "": "1\\"1",\n  Xy: "3\\t\\\\[: ",\n  h: [\n    0: -4B,\n    1: -78B,\n    2: 38B\n  ],\n  n44: -15549S\n}`. | true
+mut69.0 {"":"1\\"1"B,Xy:"3\\t\\\\[: "z,h:[0:-4B,1:-78B,2:38B],n44:-15549S}	TPE 18 Invalid backslash escape 't' | Invalid backslash escape 't' at 18 in `{"":"1\\"1"B,Xy:"3\\t\\\\[: "z,h:[0:-4B,1:-78B,2:38B],n44:-15549S}`. | true
+mut69.1 "":"1\\"1",Xy:"3\\t\\\\[: ",h:[0:-4zB1:-78B,2:38B],n44:-15549S}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `"":"1\\"1",Xy:"3\\t\\\\[: ",h:[0:-4zB1:-78B,2:38B],n44:-15549S}`. | true
+mut69.2 {"":"1\\"1",Xy:"3\\t\\\\[: "h:[0:-4B,1:-78B,238],n44:-15549S}	TPE 17 Invalid backslash escape 't' | Invalid backslash escape 't' at 17 in `{"":"1\\"1",Xy:"3\\t\\\\[: "h:[0:-4B,1:-78B,238],n44:-15549S}`. | true
+rt70 {}	OK {}
+rtp70	OK {}
+mut70.0 }	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `}`. | true
+mut70.1 8	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `8`. | true
+mut70.2 	!EOF
+rt71 {Yx:"a =\\\\;\\"","c{}":-24428S,xXY:[0:100B,1:126B,2:-98B]}	OK {Yx:'a =\\\\;"',"c{}":-24428s,xXY:[100b,126b,-98b]}
+rtp71	OK {Yx:'a =\\\\;"',"c{}":-24428s,xXY:[100b,126b,-98b]}
+mut71.0 {Yx:"a =\\\\;\\"","c{}":-24428S,xXY:[0":100B,1:126B,2s-98B]}	TPE 57 Unfinished string | Unfinished string at 57 in `{Yx:"a =\\\\;\\"","c{}":-24428S,xXY:[0":100B,1:126B,2s-98B]}`. | true
+mut71.1 {Yx:"a =\\\\;\\"","c{}":-24428S,xXY:[b+:100B,1:126B,2:-98]}	TPE 34 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 34 in `{Yx:"a =\\\\;\\"","c{}":-24428S,xXY:[b+:100B,1:126B,2:-98]}`. | true
+mut71.2 {Yx:"a =\\;"","c{}":-24428S,xXY:[0:100B,1:126B,2:-98B]}	TPE 9 Invalid backslash escape ';' | Invalid backslash escape ';' at 9 in `{Yx:"a =\\;"","c{}":-24428S,xXY:[0:100B,1:126B,2:-98B]}`. | true
+rt72 {ewdnnCyc:"[ZZ",id:[0:-105B,1:-107B,2:-2B],y:-2.25D,yZx:-514,zxXX:{Yzx:"}\\\\",y_zy:[],"{\\"}d":-128B}}	OK {ewdnnCyc:"[ZZ",id:[-105b,-107b,-2b],y:-2.25d,yZx:-514,zxXX:{Yzx:"}\\\\",y_zy:[],'{"}d':-128b}}
+rtp72	OK {ewdnnCyc:"[ZZ",id:[-105b,-107b,-2b],y:-2.25d,yZx:-514,zxXX:{Yzx:"}\\\\",y_zy:[],'{"}d':-128b}}
+mut72.0 {ewdnnCyc:"[ZZ",id:[0:-105B,1:-107B,23-2B],y:-2.25DDyZx:--514,zxXX:{Yzx:"}\\\\",y_zy:[],"{\\"}d":-128B}}	!java.lang.IllegalStateException: Could not properly parse numeric tag '-', despite passing rough verification. This is a bug in the LegacyTagParser
+mut72.1 {ewdnnCyc:"[ZZ",id:[0:-105B,1:-107B,2:-2B],y:-2.25D,yZx:-514,zxXX:{Y1x:"}\\\\",y_zy:[],"{\\"}d":-128B}}	OK {ewdnnCyc:"[ZZ",id:[-105b,-107b,-2b],y:-2.25d,yZx:-514,zxXX:{Y1x:"}\\\\",y_zy:[],'{"}d':-128b}}
+mut72.2 {ewdnnCyc:"[ZZa",id:[0:10B5B,1:-107B,2:-2B],y:-2.25D,yZx:-514,zxXX:{Yzx:"}\\\\",y_zy:[],"{\\"}d":-128B}}	OK {ewdnnCyc:"[ZZa",id:[10b,5b,-107b,-2b],y:-2.25d,yZx:-514,zxXX:{Yzx:"}\\\\",y_zy:[],'{"}d':-128b}}
+rt73 {0:"1\\\\a",Count:[],Yyxz:3.4028235E38F,ke:-2.25D,yZx:1.5F}	OK {"0":"1\\\\a",Count:[],"E38F,ke":-2.25d,Yyxz:3.4028235d,yZx:1.5f}
+rtp73	TPE 58 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 58 in `{\n  0: "1\\\\a",\n  Count: [\n    ],\n  Yyxz: 3.4028235E38F,\n  ke: -2.25D,\n  yZx: 1.5F\n}`. | true
+mut73.0 {0:1\\\\a",ount:[],BYyxz:3.4028235E38F,ke:-2.25D,yZx:1.5F}	OK {"0":1,BYyxz:3.4028235d,"E38F,ke":-2.25d,'\\\\\\\\a",ount':[],yZx:1.5f}
+mut73.1 {0:"+\\\\a",Count:[],Yyxz:3.4028235E38F,ke:-2.25D,yZx:1.5F}	OK {"0":"+\\\\a",Count:[],"E38F,ke":-2.25d,Yyxz:3.4028235d,yZx:1.5f}
+mut73.2 {0:"1\\\\a",Count:[],Yyxz:3.4028235Ed38F,ke:-2.25D,yZx:1.5F}	OK {"0":"1\\\\a",Count:[],"Ed38F,ke":-2.25d,Yyxz:3.4028235d,yZx:1.5f}
+rt74 {428.-v:[]}	OK {"428.-v":[]}
+rtp74	OK {"428.-v":[]}
+mut74.0 {4288-v:+[]}	TPE 8 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 8 in `{4288-v:+[]}`. | true
+mut74.1 {428.-v:[ }	TPE 10 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 10 in `{428.-v:[ }`. | true
+mut74.2 {9428.Dl:[]}	OK {"9428.Dl":[]}
+rt75 {272:{ZZyy:-560,c:-28784S},Count:846,ZXXY:{},id:[0:2649387756984186216L,1:-2717960450224593747L],x:3.0F}	OK {"272":{ZZyy:-560,c:-28784s},Count:846,ZXXY:{},id:[2649387756984186216L,-2717960450224593747L],x:3.0f}
+rtp75	OK {"272":{ZZyy:-560,c:-28784s},Count:846,ZXXY:{},id:[2649387756984186216L,-2717960450224593747L],x:3.0f}
+mut75.0 {272:6ZZyy:-560,c:-28784S},Count:846,ZXXY:{},i:[0:2649387756984186216L,1:-2717960450224593747L],x:3.F}	OK {"272":6,ZZyy:-560,c:-28784s}
+mut75.1 {272:{ZZyy:-560,c:-28784S},Count:846,ZXXY:{},id:[0:249387756984186216L,1:-2717960450224593747L],x:3.0F}	OK {"272":{ZZyy:-560,c:-28784s},Count:846,ZXXY:{},id:[249387756984186216L,-2717960450224593747L],x:3.0f}
+mut75.2 {272:{ZZyy:560,c:-28784S},Count:846,ZXXY:{},id:[0:2649387756984186216L,1:-27177960450224593747L],x:3.0F}	!java.lang.NumberFormatException: For input string: "-27177960450224593747"
+rt76 {0:7.0D,"\\\\é":{ExtraAttributes:1.0E-7F,ZX:16B,ZYx:1.0E-7F},ki4xsu:"Y=\\nb,\\"",kugt_xB:633,pg:[0:-1513804236337649622L]}	TPE 70 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 70 in `{0:7.0D,"\\\\é":{ExtraAttributes:1.0E-7F,ZX:16B,ZYx:1.0E-7F},ki4xsu:"Y=\\nb,\\"",kugt_xB:633,pg:[0:-1513804236337649622L]}`. | true
+rtp76	TPE 58 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 58 in `{\n  0: 7.0D,\n  "\\\\é": {\n    ExtraAttributes: 1.0E-7F,\n    ZX: 16B,\n    ZYx: 1.0E-7F\n  },\n  ki4xsu: "Y=\\nb,\\"",\n  kugt_xB: 633,\n  pg: [\n    0: -1513804236337649622L\n  ]\n}`. | true
+mut76.0 {0:7.0D,"\\\\é":{ExtraAttributes:1.0E-7F,ZX:16B,ZYx:1.0E-7F},ki4xsu:"Y=\\nb,\\"",kgt_xB:633,pg:[0:-1513804236337649622L]}	TPE 70 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 70 in `{0:7.0D,"\\\\é":{ExtraAttributes:1.0E-7F,ZX:16B,ZYx:1.0E-7F},ki4xsu:"Y=\\nb,\\"",kgt_xB:633,pg:[0:-1513804236337649622L]}`. | true
+mut76.1 {0:7.0D,"\\\\é":{ExtraAttributes:1.0E-7F,ZX:16B,ZYx:1.0E-7F},ki4xsu:"Y=\\nb,\\"",kBgt_xB:633,pg:[0:-1513804236337649622L]}	TPE 70 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 70 in `{0:7.0D,"\\\\é":{ExtraAttributes:1.0E-7F,ZX:16B,ZYx:1.0E-7F},ki4xsu:"Y=\\nb,\\"",kBgt_xB:633,pg:[0:-1513804236337649622L]}`. | true
+mut76.2 {0:7.0D,"\\\\é":{ExtraAttributes:1.0E-7F,ZX:16B,ZYx:1.0E-7F},ki4xsu:"Y=\\nb,\\"",kugt_xB:633,pg:[0:-15138042B6337649622L]	TPE 70 Invalid backslash escape 'n' | Invalid backslash escape 'n' at 70 in `{0:7.0D,"\\\\é":{ExtraAttributes:1.0E-7F,ZX:16B,ZYx:1.0E-7F},ki4xsu:"Y=\\nb,\\"",kugt_xB:633,pg:[0:-15138042B6337649622L]`. | true
+rt77 {"\\"a":1534826124}	OK {'"a':1534826124}
+rtp77	OK {'"a':1534826124}
+mut77.0 {"\\"a":15348}2624}	OK {'"a':15348}
+mut77.1 {"\\"a":154826124}	OK {'"a':154826124}
+mut77.2 {"\\"a":1534826+}	!EOF
+rt78 {A:1.0E-9D,XY_:3.4028235E38F,"c\\"":"]33["}	OK {A:1.0d,"E-9D,XY_":3.4028235d,'E38F,"c\\\\""':"]33["}
+rtp78	TPE 18 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 18 in `{\n  A: 1.0E-9D,\n  XY_: 3.4028235E38F,\n  "c\\"": "]33["\n}`. | true
+mut78.0 {A:1.0E-9D,X2_:3.402823a5E38F,"c\\"":"]33["}	OK {A:1.0d,"E-9D,X2_":3.402823d,'a5E38F,"c\\\\""':"]33["}
+mut78.1 {:1.0E-9D,XY_:3.5028235E38F,"c\\"":"]33["}	OK {"":1.0d,"E-9D,XY_":3.5028235d,'E38F,"c\\\\""':"]33["}
+mut78.2 {A:.0E-9D,XY_:3.4028235E38F,"c\\"":"]33["}	TPE 3 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 3 in `{A:.0E-9D,XY_:3.4028235E38F,"c\\"":"]33["}`. | true
+rt79 {3g9qo3:{},XX_:[0:[0:1592455270888337035L,1:4117764994292788937L],1:69],Yy:{"\\"{c\\"}":[0:11B,1:-1B,2:0B],"a\\"}c ":-4180S},hiBkqrn:[0:-106805748],tw9-:[0:96B]}	OK {"3g9qo3":{},XX_:[[1592455270888337035L,4117764994292788937L],69],Yy:{'"{c"}':[11b,-1b,0b],'a"}c ':-4180s},hiBkqrn:[-106805748],tw9-:[96b]}
+rtp79	OK {"3g9qo3":{},XX_:[[1592455270888337035L,4117764994292788937L],69],Yy:{'"{c"}':[11b,-1b,0b],'a"}c ':-4180s},hiBkqrn:[-106805748],tw9-:[96b]}
+mut79.0 {3g9qo3:{},XX_:[0:[0F1592455270888337035L,1:4117764994292788937L],1:69],Yy:{"\\"{c\\"}9":[0:11B,1:-1B,2:0B],"a\\"}b ":-4180S},hiBkqrn:[0:-106805748],tw9-:[0:96B]}	OK {"3g9qo3":{},XX_:[[0.0f,1592455270888337035L,4117764994292788937L],69],Yy:{'"{c"}9':[11b,-1b,0b],'a"}b ':-4180s},hiBkqrn:[-106805748],tw9-:[96b]}
+mut79.1 {3g9qo3:{},XX_:[0:[0:1592455270888337035L,1:4117764994292788937L],1:69],Yy:{"\\"{c\\"}":[0:11B,1:-1B,2:0B],+"a\\"}c ":-4180S},hiBkqrn:[0:-106805748],tw9-:[0:96B]}	TPE 113 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 113 in `{3g9qo3:{},XX_:[0:[0:1592455270888337035L,1:4117764994292788937L],1:69],Yy:{"\\"{c\\"}":[0:11B,1:-1B,2:0B],+"a\\"}c ":-4180S},hiBkqrn:[0:-106805748],tw9-:[0:96B]}`. | true
+mut79.2 {3g9qo3:{},XX_:[0:[0:1592455270888337035L,1:411776499429278937L],1:69],Yy{"\\"{c\\"}":[0:11B,1:-1B,2:0B],"a\\"}c ":-4180S},hiBkqrn:[0:-106805748],tw9-:[0:96B]}	OK {"3g9qo3":{},XX_:[[1592455270888337035L,411776499429278937L],69],'Yy{"\\\\"{c\\\\"}"':[11b,-1b,0b],'a"}c ':-4180s}
+rt80 {"":[0:35B,1:18B,2:33B],0:0.0D,__yX:[0:1789935166,1:-1073045041],jx:{Zy:91B,"aaébé":[0:-55B,1:-31B],z:51B},"é":[0:-159243935,1:-94961473,2:-582389823]}	OK {"":[35b,18b,33b],"0":0.0d,__yX:[1789935166,-1073045041],jx:{Zy:91b,"aaébé":[-55b,-31b],z:51b},"é":[-159243935,-94961473,-582389823]}
+rtp80	OK {"":[35b,18b,33b],"0":0.0d,__yX:[1789935166,-1073045041],jx:{Zy:91b,"aaébé":[-55b,-31b],z:51b},"é":[-159243935,-94961473,-582389823]}
+mut80.0 {"":[0:35B,1:18B,2:33B],0:0.0D,__yX:[0:1789935166,1:-10z73045041],jx:{Zy:91B,"aaébé":[0:-55B,1:-31B],z:51B},"é":[0:-1592}43935,1:-9.4961473,2:-582389823]}	TPE 55 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 55 in `{"":[0:35B,1:18B,2:33B],0:0.0D,__yX:[0:1789935166,1:-10z73045041],jx:{Zy:91B,"aaébé":[0:-55B,1:-31B],z:51B},"é":[0:-1592}43935,1:-9.4961473,2:-582389823]}`. | true
+mut80.1 {"":[0:35B,1:18B,2:33B],0:0.0D,__yX:[0:179935166,1:-1073045041],jx:{Zy:91B,"aaébé":[0:-55B,1:-31B],z:51B},"é":[0:-159243935,1:-94961473,2:-582389823]}	OK {"":[35b,18b,33b],"0":0.0d,__yX:[179935166,-1073045041],jx:{Zy:91b,"aaébé":[-55b,-31b],z:51b},"é":[-159243935,-94961473,-582389823]}
+mut80.2 {"":[0:35B,1:18B,2:33B],0:0.0D,__yX:[0:1789935166,1:-1073045041],jx:{Zy:91B,"aaébé":[0:-55B,1:-31B],z:51B},"é":[0:-1592 43935,1:-94961473,2:-582389823]}	OK {"":[35b,18b,33b],"0":0.0d,__yX:[1789935166,-1073045041],jx:{Zy:91b,"aaébé":[-55b,-31b],z:51b},"é":[-1592,43935,-94961473,-582389823]}
+rt81 {9:0.0F}	OK {"9":0.0f}
+rtp81	OK {"9":0.0f}
+mut81.0 D9]:0.0F	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `D9]:0.0F`. | true
+mut81.1 {9:0.[F}	!java.lang.IllegalStateException: Could not properly parse numeric tag '0.', despite passing rough verification. This is a bug in the LegacyTagParser
+mut81.2 "{90[.0F}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `"{90[.0F}`. | true
+rt82 {YY:{},Zz:[0:{Lore:1}],_xyY:4266289185186950297L,display:3.0F,x_:[0:-7110527796703375167L,1:-6191159717251714293L,2:-1215977232330771466L]}	OK {YY:{},Zz:[{Lore:1}],_xyY:4266289185186950297L,display:3.0f,x_:[-7110527796703375167L,-6191159717251714293L,-1215977232330771466L]}
+rtp82	OK {YY:{},Zz:[{Lore:1}],_xyY:4266289185186950297L,display:3.0f,x_:[-7110527796703375167L,-6191159717251714293L,-1215977232330771466L]}
+mut82.0 {YY:{},z:[0:{Lore:1}],_xyY:4266289185186950297L,display:3.0F,x_:[0:-7110527796703375167L,1:-6191159717251714293L,2:-1215977232330771466L]}	OK {YY:{},_xyY:4266289185186950297L,display:3.0f,x_:[-7110527796703375167L,-6191159717251714293L,-1215977232330771466L],z:[{Lore:1}]}
+mut82.1 {YY:{},Zz:[0:{Lore:1}],_xyY:4266289185186950297L,display:3+0F,x_:[0:-711057796703375167L,1:-6191159717251714293L,2:-1215977232330771466L]}	OK {"+0F,x_":[-711057796703375167L,-6191159717251714293L,-1215977232330771466L],YY:{},Zz:[{Lore:1}],_xyY:4266289185186950297L,display:3}
+mut82.2 {YY:{},Zz:[0:{L6re:1}],_xyY:4266289185146950297L,display:3.0F,x_:[0:-711052779670337516SL,1:-6191159717251714293L,2:-1215977232330771466L]}	!java.lang.NumberFormatException: For input string: "-711052779670337516"
+rt83 {Y_:1.0E20D,"a\\"cé":{" ":""},tag:[0:-5454770855509805363L],x:0.0F,"é":"éXc"}	OK {'E20D,"a\\\\"cé"':{" ":""},Y_:1.0d,tag:[-5454770855509805363L],x:0.0f,"é":"éXc"}
+rtp83	TPE 19 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 19 in `{\n  Y_: 1.0E20D,\n  "a\\"cé": {\n    " ": ""\n  },\n  tag: [\n    0: -5454770855509805363L\n  ],\n  x: 0.0F,\n  "é": "éXc"\n}`. | true
+mut83.0 {Y_:1.0E20D,"a\\"cé":{" ":""},tag:[0:-54547708455509805363L],x:0.0F,"é":"éXc"}	!java.lang.NumberFormatException: For input string: "-54547708455509805363"
+mut83.1 {Y_:1.0E20D,"a\\"cé":{" ":""},tag:[0:-54547708555L9805363L],x:0.0F,"é":"éXc"}	OK {'E20D,"a\\\\"cé"':{" ":""},Y_:1.0d,tag:[-54547708555L,9805363L],x:0.0f,"é":"éXc"}
+mut83.2 {Y_:1.0E20D,"a\\"cé":{" ":""},tag:[0:-545477085550980536+L],x:0.0F,"é":"éXc"}	!java.lang.NumberFormatException: For input string: "-545477085550980536"
+rt84 {0:336L,"\\\\a}":{6c3:18386S},tag:1.0E20D}	!EOF
+rtp84	TPE 61 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 61 in `{\n  0: 336L,\n  "\\\\a}": {\n    6c3: 18386S\n  },\n  tag: 1.0E20D\n}`. | true
+mut84.0 {0:336L,"\\\\a}":a6c3:8396S},tag:1.0E20D}	TPE 15 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 15 in `{0:336L,"\\\\a}":a6c3:8396S},tag:1.0E20D}`. | true
+mut84.1 {0:336L,"\\\\a}":{6c3:18386S},tag{:1.0E20D}	!EOF
+mut84.2 {0:336L,"\\\\a}":{6c3:1.386S},tag:1.0E20D}	!java.lang.IllegalStateException: Could not properly parse numeric tag '1.386S', despite passing rough verification. This is a bug in the LegacyTagParser
+rt85 {A+jxp:-93B,X:-69B,YZ:47.9256F,axk+s42x:1.0E20D}	!EOF
+rtp85	TPE 64 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 64 in `{\n  A+jxp: -93B,\n  X: -69B,\n  YZ: 47.9256F,\n  axk+s42x: 1.0E20D\n}`. | true
+mut85.0 {A+jxp:-93B,X:-69Bb,YZ:47.9256F,axk+s42x:1.0E20D}	!EOF
+mut85.1 {A+jxp:-93B,X:-69B,dZ:47.}256F,4axk+s42x:1.0E20D}	!java.lang.IllegalStateException: Could not properly parse numeric tag '47.', despite passing rough verification. This is a bug in the LegacyTagParser
+mut85.2 {A+xp:F93B,X:-69B,YZ:47.9256F,axk+s42x:1.0E20D}	TPE 6 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 6 in `{A+xp:F93B,X:-69B,YZ:47.9256F,axk+s42x:1.0E20D}`. | true
+rt86 {7vABn:-107B}	OK {"7vABn":-107b}
+rtp86	OK {"7vABn":-107b}
+mut86.0 {7vAB:n:-10\\B1}	TPE 6 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 6 in `{7vAB:n:-10\\B1}`. | true
+mut86.1 {7vAB}:-107B}	OK {"7vAB}":-107b}
+mut86.2 7v}ABn:L107B}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `7v}ABn:L107B}`. | true
+rt87 {XXxy:[],uua8wC:[],"{d \\":":-805L}	OK {XXxy:[],uua8wC:[],'{d ":':-805L}
+rtp87	OK {XXxy:[],uua8wC:[],'{d ":':-805L}
+mut87.0 {XXxy:[],ua8wC:[],"{d \\":":-805L}	OK {XXxy:[],ua8wC:[],'{d ":':-805L}
+mut87.1 {.Xxy:[],uua8wC:[],"{d \\":":-805L}	OK {.Xxy:[],uua8wC:[],'{d ":':-805L}
+mut87.2 {XXxy:[],uua8wC:[],"d \\":":-805L}	OK {XXxy:[],'d ":':-805L,uua8wC:[]}
+rt88 {Y_yX:[0:116B,1:79B,2:44B],_:[0:-907193883],yXXZ:-2.25D,yz:28443S,z_:-450522502}	OK {Y_yX:[116b,79b,44b],_:[-907193883],yXXZ:-2.25d,yz:28443s,z_:-450522502}
+rtp88	OK {Y_yX:[116b,79b,44b],_:[-907193883],yXXZ:-2.25d,yz:28443s,z_:-450522502}
+mut88.0 {Y_yX:[0116B,1:79B,2:44B],_:[0:-907193883],yXXZ:-2.25D,yz:28443S,zs:-40522502}	OK {Y_yX:[116b,79b,44b],_:[-907193883],yXXZ:-2.25d,yz:28443s,zs:-40522502}
+mut88.1 {Y_yX:[0:116B,1:79B,2:44B],_:[0-907193883],yXXZ:-2.25D,yz:2843S,z_4-450522502}	!EOF
+mut88.2 {Y_yX:[0:S116B,1:79B,2:44B],_:[0:-907193883],yXXZ:-2.25D,yz:28443S,z_:-450522502}	TPE 9 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 9 in `{Y_yX:[0:S116B,1:79B,2:44B],_:[0:-907193883],yXXZ:-2.25D,yz:28443S,z_:-450522502}`. | true
+rt89 {6joC7d-A:75B,B6:0.0D,display:1.5F}	OK {"6joC7d-A":75b,B6:0.0d,display:1.5f}
+rtp89	OK {"6joC7d-A":75b,B6:0.0d,display:1.5f}
+mut89.0 {6joC75d-A:75B,B6:0.0D,d-isplay:105F}	OK {"6joC75d-A":75b,B6:0.0d,d-isplay:105.0f}
+mut89.1 {6joC7d-A:75B,B:0.0}D,display:1.5F7	OK {"6joC7d-A":75b,B:0.0d}
+mut89.2 {6joCDd-A:75B,B6:60.0D,display:1.5F}	OK {"6joCDd-A":75b,B6:60.0d,display:1.5f}
+rt90 {"":{},"\\"":{},"\\\\ ":{},xzxy:[0:-121B,1:56B],zYz:-97B}	OK {"":{},'"':{},"\\\\ ":{},xzxy:[-121b,56b],zYz:-97b}
+rtp90	OK {"":{},'"':{},"\\\\ ":{},xzxy:[-121b,56b],zYz:-97b}
+mut90.0 {"":{},"\\"":{},"\\\\ ":{},xzxy:[0:-121B,1:56B],zYz:-967B}	!java.lang.NumberFormatException: Value out of range. Value:"-967" Radix:10
+mut90.1 F{"":{},"\\"":{},"\\\\ ":{},xzxy:[0:-121B,1:56B],zYz:-97B}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `F{"":{},"\\"":{},"\\\\ ":{},xzxy:[0:-121B,1:56B],zYz:-97B}`. | true
+mut90.2 B{"":{},"\\"":{},"\\\\ ":{},xzx:[0:-121B,1:56B],zYz:-97B}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `B{"":{},"\\"":{},"\\\\ ":{},xzx:[0:-121B,1:56B],zYz:-97B}`. | true
+rt91 {"":[0:-445576.9394896759D,1:{}],Name:-87B,"\\\\é ":{ExtraAttributes:-12969S,kf1Bm:"01'"},"c ":-83106781}	OK {"":[-445576.9394896759d,{}],Name:-87b,"\\\\é ":{ExtraAttributes:-12969s,kf1Bm:"01'"},"c ":-83106781}
+rtp91	OK {"":[-445576.9394896759d,{}],Name:-87b,"\\\\é ":{ExtraAttributes:-12969s,kf1Bm:"01'"},"c ":-83106781}
+mut91.0 {"":[0:-445576.9394896759D,1:{}],DName:-87B,"\\\\é ":{ExtraAtributes:-12969S,kf1Bm:"01'"},"c ":-83106781}	OK {"":[-445576.9394896759d,{}],DName:-87b,"\\\\é ":{ExtraAtributes:-12969s,kf1Bm:"01'"},"c ":-83106781}
+mut91.1 {"":[0:-4 5576.9S94896759D,1:{}],Name:-87B,"\\\\é ":{ExtraAttributes:-12969S,kf1Bm:"01'"},"c ":-{3106781}	!java.lang.IllegalStateException: Could not properly parse numeric tag '5576.9S', despite passing rough verification. This is a bug in the LegacyTagParser
+mut91.2 {"":[0:-445576.9394896759D,1:{}],Name:-87B,"\\\\é ":{ExtraAttributes:-12969S,kf1Bm:"01S'"},"ca ":-83106781}	OK {"":[-445576.9394896759d,{}],Name:-87b,"\\\\é ":{ExtraAttributes:-12969s,kf1Bm:"01S'"},"ca ":-83106781}
+rt92 {XZYy:[0:"a",1:"",2:"bab"],id:-49B}	OK {XZYy:["a","","bab"],id:-49b}
+rtp92	OK {XZYy:["a","","bab"],id:-49b}
+mut92.0 {XZY0:[0:"a",1:"",2:"bab"9,id:-4:B}	TPE 27 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 27 in `{XZY0:[0:"a",1:"",2:"bab"9,id:-4:B}`. | true
+mut92.1 {XZ3Yy:[0"a,",1:"",2:"bab"],id:-49B}	OK {XZ3Yy:[0,"a,","","bab"],id:-49b}
+mut92.2 {XZYy:,0:"a",1:"",":"bab"],id:-49B}	TPE 6 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 6 in `{XZYy:,0:"a",1:"",":"bab"],id:-49B}`. | true
+rt93 {c:-94B,tag:[]}	OK {c:-94b,tag:[]}
+rtp93	OK {c:-94b,tag:[]}
+mut93.0 {c-4B,tag:[}	TPE 11 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 11 in `{c-4B,tag:[}`. | true
+mut93.1 {c:-4B{,tag:[]}	OK {c:-4b,"{,tag":[]}
+mut93.2 cd-94B,tag:[]l	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `cd-94B,tag:[]l`. | true
+rt94 {"":-24282S,Name:-3033S,_ZzY:"{","é{c}":-929L}	OK {"":-24282s,Name:-3033s,_ZzY:"{","é{c}":-929L}
+rtp94	OK {"":-24282s,Name:-3033s,_ZzY:"{","é{c}":-929L}
+mut94.0 {""-24282S,Nam{e:-3033S,_ZzY"{","é{c}":-929L}	TPE 3 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 3 in `{""-24282S,Nam{e:-3033S,_ZzY"{","é{c}":-929L}`. | true
+mut94.1 {"":-24282S,ame:-3053S,_ZzY:"{","é{c}":-929L}	OK {"":-24282s,_ZzY:"{",ame:-3053s,"é{c}":-929L}
+mut94.2 {"":-24282S,Name:-3033S,_ZzY:"{","é{c}":-229L}	OK {"":-24282s,Name:-3033s,_ZzY:"{","é{c}":-229L}
+rt95 {C7y_2a2:-18793S,knt.vk:1.0E-9D}	!EOF
+rtp95	TPE 40 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 40 in `{\n  C7y_2a2: -18793S,\n  knt.vk: 1.0E-9D\n}`. | true
+mut95.0 {C7y_2a2:-1s793S,knt.vk:1.0E-9D}	!EOF
+mut95.1 {,7y_2a2:-18793S,knt.vk:1.0E-9D}	!EOF
+mut95.2 {C7y_2a2:-18793S,knt.vk:1.9E-9D}	!EOF
+rt96 {"":1874457206,ExtraAttributes:120.41687F,"b\\"bé":";3]\\\\0Z,é",tcd:[0:-1623443904,1:-1453554102]}	OK {"":1874457206,ExtraAttributes:120.41687f,'b"bé':";3]\\\\0Z,é",tcd:[-1623443904,-1453554102]}
+rtp96	OK {"":1874457206,ExtraAttributes:120.41687f,'b"bé':";3]\\\\0Z,é",tcd:[-1623443904,-1453554102]}
+mut96.0 {"":1874457206,ExtraAttributes:120.41687F,,b\\"bé":";3]\\\\0Z,é",tcd:[0:-1623443904,1:-1453554102]}	OK {"":1874457206,',b\\\\"bé"':";3]\\\\0Z,é",ExtraAttributes:120.41687f,tcd:[-1623443904,-1453554102]}
+mut96.1 {"":18744572D6,ExtraAttributes:120.41687F,"b\\"bé":";3]\\\\0Z,é",tcd:[0:-1623443904,1:-1453554102]}	OK {"":1.8744572E7d,"6,ExtraAttributes":120.41687f,'b"bé':";3]\\\\0Z,é",tcd:[-1623443904,-1453554102]}
+mut96.2 {"":1874457206,ExtraAttributes]:120.41687F,"b\\"bé":";3]\\\\0Z,é",tcd:[0:-1623443904,1:-1453554102]}	OK {"":1874457206,"ExtraAttributes]":120.41687f,'b"bé':";3]\\\\0Z,é",tcd:[-1623443904,-1453554102]}
+rt97 {Lore:802903438,Z:394511.70905677485D,"d bé:":0.0D}	OK {Lore:802903438,Z:394511.70905677485d,"d bé:":0.0d}
+rtp97	OK {Lore:802903438,Z:394511.70905677485d,"d bé:":0.0d}
+mut97.0 {Lore:802s903438,Z:394511.7090567748 5D,"d bé:":0.0D}	TPE 43 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 43 in `{Lore:802s903438,Z:394511.7090567748 5D,"d bé:":0.0D}`. | true
+mut97.1 {Lore:802903438,Z:3D94511.70905677485D,"d bL]:":0.0D}	TPE 42 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 42 in `{Lore:802903438,Z:3D94511.70905677485D,"d bL]:":0.0D}`. | true
+mut97.2 {Lore:802903438,Z:394511.70905677485D,"d bé:":0.0D	!EOF
+rt98 {Z:-30L,gzgvk8b:0.0F}	OK {Z:-30L,gzgvk8b:0.0f}
+rtp98	OK {Z:-30L,gzgvk8b:0.0f}
+mut98.0 {Z:-30L,azgvk8b:0.0LF}	!java.lang.IllegalStateException: Could not properly parse numeric tag '0.0L', despite passing rough verification. This is a bug in the LegacyTagParser
+mut98.1 {Z:-30:Lgzgvk8b:0f.0F}	TPE 7 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 7 in `{Z:-30:Lgzgvk8b:0f.0F}`. | true
+mut98.2 {Z:-30L,gDzgvk8b:0.0F}	OK {Z:-30L,gDzgvk8b:0.0f}
+rt99 {8Be:"",xZ_:56B}	OK {"8Be":"",xZ_:56b}
+rtp99	OK {"8Be":"",xZ_:56b}
+mut99.0 {8Fe:"",xZ_:56B}	OK {"8Fe":"",xZ_:56b}
+mut99.1 {8]Be:"",xZ_:56B}	OK {"8]Be":"",xZ_:56b}
+mut99.2 {:Be:"",xZ_:5B}	TPE 2 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 2 in `{:Be:"",xZ_:5B}`. | true
+rt100 {"":11B,Lore:[0:-599534788,1:1733528613],"a\\"a":[]}	OK {"":11b,Lore:[-599534788,1733528613],'a"a':[]}
+rtp100	OK {"":11b,Lore:[-599534788,1733528613],'a"a':[]}
+mut100.0 {"":11B,Lore4:[0:-5995347[88,1:1733528613],"a\\"a":[]}	TPE 49 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 49 in `{"":11B,Lore4:[0:-5995347[88,1:1733528613],"a\\"a":[]}`. | true
+mut100.1 {"":11B,Lore:[00:-599534788,1:173d3528613],"a\\"a":[]}	OK {"":11b,Lore:[-599534788,173.0d,3528613],'a"a':[]}
+mut100.2 {"":11B,Lore:[0:-599534788,1:1733528613],Sa\\"a":[]}	OK {"":11b,Lore:[-599534788,1733528613],'Sa\\\\"a"':[]}
+rt101 {}	OK {}
+rtp101	OK {}
+mut101.0 {	!EOF
+mut101.1 5."{}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `5."{}`. | true
+mut101.2 [	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `[`. | true
+rt102 {"\\"":4446398599957286042L,Lore:1.5F,id:1.0E20D,tk7:161.75983F}	OK {'"':4446398599957286042L,"E20D,tk7":161.75983f,Lore:1.5f,id:1.0d}
+rtp102	TPE 63 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 63 in `{\n  "\\"": 4446398599957286042L,\n  Lore: 1.5F,\n  id: 1.0E20D,\n  tk7: 161.75983F\n}`. | true
+mut102.0 {"\\"":444639899957286042"L,Lore:1[.5F,id:1.0E20D,tk7:161.75983F}	!java.lang.NumberFormatException: For input string: "444639899957286042"
+mut102.1 {"\\"":4446398599957286042L,Lore:1.5F,id1.0E20D,tk7:161.75983F}	OK {'"':4446398599957286042L,Lore:1.5f,"id1.0E20D,tk7":161.75983f}
+mut102.2 {"\\"":444639859995728604fL,Lore:1.5F,id:.0E20D,tk7:161.7593F}	TPE 40 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 40 in `{"\\"":444639859995728604fL,Lore:1.5F,id:.0E20D,tk7:161.7593F}`. | true
+rt103 {Lore:1.5F}	OK {Lore:1.5f}
+rtp103	OK {Lore:1.5f}
+mut103.0 {forL:1.5F	!EOF
+mut103.1 {LoeS:1.5F}	OK {LoeS:1.5f}
+mut103.2 {Lor:1.5F}	OK {Lor:1.5f}
+rt104 {"":[0:-4815691983649028147L,1:-3201384950537547585L],":{{\\\\":[0:0.7733978239934003D,1:0.6742790338637489D,2:0.07542119790601831D],"b\\\\":[0:-5616046980279096477L,1:-93170334838278353L,2:6600388139605587645L],display:{},id:-73B}	OK {"":[-4815691983649028147L,-3201384950537547585L],":{{\\\\":[0.7733978239934003d,0.6742790338637489d,0.07542119790601831d],"b\\\\":[-5616046980279096477L,-93170334838278353L,6600388139605587645L],display:{},id:-73b}
+rtp104	OK {"":[-4815691983649028147L,-3201384950537547585L],":{{\\\\":[0.7733978239934003d,0.6742790338637489d,0.07542119790601831d],"b\\\\":[-5616046980279096477L,-93170334838278353L,6600388139605587645L],display:{},id:-73b}
+mut104.0 {"":[0:-4815691983649028147L,1:-3201384950537547585L],":{{\\\\":[0:0.7733978239934003D,1:0.6742790338637489D,2:0.07542119790601831D],"b\\\\":[0:-5616046980279096477L,1,:-93170334838278353L,2:66003881396055817645L],display:{},id:-73B}	TPE 164 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 164 in `{"":[0:-4815691983649028147L,1:-3201384950537547585L],":{{\\\\":[0:0.7733978239934003D,1:0.6742790338637489D,2:0.07542119790601831D],"b\\\\":[0:-5616046980279096477L,1,:-93170334838278353L,2:66003881396055817645L],display:{},id:-73B}`. | true
+mut104.1 {"":[0:-4815691983649028147L,1:[-3201384950537547585L],":{{\\F\\":[0:0.7733978239934003D,1:0.6742790338637489D,2:0.07542119790601831D],"b\\\\":[0:-5616046980279096477L,1:-93170334838278353L,2:6600388139605587645L],display:{},id:-73B}	TPE 60 Invalid backslash escape 'F' | Invalid backslash escape 'F' at 60 in `{"":[0:-4815691983649028147L,1:[-3201384950537547585L],":{{\\F\\":[0:0.7733978239934003D,1:0.6742790338637489D,2:0.07542119790601831D],"b\\\\":[0:-5616046980279096477L,1:-93170334838278353L,2:6600388139605587645L],display:{},id:-73B}`. | true
+mut104.2 {"":[0:-4815691983649028147L,1:-3201384950537547585L],":{{\\\\":[0:0.7733978239934003D,1:0.6742790338637489D,2:0.0754211979001831D],"b\\\\":[0:-5616046980279096477L,1:-93170334838278353L,26600388139605587645L],display:{},id:-73B}	!java.lang.NumberFormatException: For input string: "26600388139605587645"
+rt105 {t_jbBn:-423172.79175404133D,zfj8:3101904619003367551L}	OK {t_jbBn:-423172.79175404133d,zfj8:3101904619003367551L}
+rtp105	OK {t_jbBn:-423172.79175404133d,zfj8:3101904619003367551L}
+mut105.0 {t_jbBn:-42317,2.79175404133D,fj8:3101904619003367551L}	OK {"2.79175404133D,fj8":3101904619003367551L,t_jbBn:-42317}
+mut105.1 {t_jbBn:-423172.79173404133D,zfj8:3101904619003367551L}	OK {t_jbBn:-423172.79173404136d,zfj8:3101904619003367551L}
+mut105.2 {t_jbBn:-423172.917544133D,zfj8:310190461900f367551L}	!EOF
+rt106 {_yZ:[0:-55B]}	OK {_yZ:[-55b]}
+rtp106	OK {_yZ:[-55b]}
+mut106.0 {_yZ:[0:-55B-]}	!java.lang.IllegalStateException: Could not properly parse numeric tag '-', despite passing rough verification. This is a bug in the LegacyTagParser
+mut106.1 {_yZ:0:-55fB]}	!EOF
+mut106.2 {_yZ[0:-95-]}	!EOF
+rt107 {xzX:[0:95B,1:-98B,2:-12B]}	OK {xzX:[95b,-98b,-12b]}
+rtp107	OK {xzX:[95b,-98b,-12b]}
+mut107.0 {xzX:[0D:95B,1:-9B,2:-12B}	TPE 8 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 8 in `{xzX:[0D:95B,1:-9B,2:-12B}`. | true
+mut107.1 {xzX:[0:5B,1:-a98B,2:-12B]}	!java.lang.IllegalStateException: Could not properly parse numeric tag '-', despite passing rough verification. This is a bug in the LegacyTagParser
+mut107.2 {xzX:[0:95B,1:-9B,2b:-12B]}	TPE 20 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 20 in `{xzX:[0:95B,1:-9B,2b:-12B]}`. | true
+rt108 {0:-626739660,Y:[],"d\\\\é":1.0E-9D,display:[0:5B],joy6k:[0:13]}	OK {"0":-626739660,"E-9D,display":[5b],Y:[],"d\\\\é":1.0d,joy6k:[13]}
+rtp108	TPE 54 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 54 in `{\n  0: -626739660,\n  Y: [\n    ],\n  "d\\\\é": 1.0E-9D,\n  display: [\n    0: 5B\n  ],\n  joy6k: [\n    0: 13\n  ]\n}`. | true
+mut108.0 {0:-626739660,Y:[],"d\\\\é":1.0E-9D4display:[0:5B],joy6k:[0:13]}	OK {"0":-626739660,E-9D4display:[5b],Y:[],"d\\\\é":1.0d,joy6k:[13]}
+mut108.1 {0:-62673660,Y:[],.d\\\\é":1.0E-9D,disDlay:[0:5B],joy6k:[0:13]}	OK {'.d\\\\\\\\é"':1.0d,"0":-62673660,"E-9D,disDlay":[5b],Y:[],joy6k:[13]}
+mut108.2 {0:-626739660,Y:[],"d\\\\é":1.0E-9D,display:[0:5B],joy6k[0:13]}	!EOF
+rt109 {x:26060S}	OK {x:26060s}
+rtp109	OK {x:26060s}
+mut109.0 a{x:2.060:S}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `a{x:2.060:S}`. | true
+mut109.1 {x-26060S}	!EOF
+mut109.2 {x:26070S}	OK {x:26070s}
+rt110 {"":";,[]0§",0:7.0D,"\\\\":56B}	OK {"":";,[]0§","0":7.0d,"\\\\":56b}
+rtp110	OK {"":";,[]0§","0":7.0d,"\\\\":56b}
+mut110.0 {"":";,[]9§",0:7.0D,"\\\\":56B}	OK {"":";,[]9§","0":7.0d,"\\\\":56b}
+mut110.1 {"":";,[L]0§",0:7.0D,"\\\\":56B}	OK {"":";,[L]0§","0":7.0d,"\\\\":56b}
+mut110.2 {"":";,[]0§",07.0D7\\\\":56B}	OK {"":";,[]0§",'07.0D7\\\\\\\\"':56b}
+rt111 {0:-25676S,": b\\\\c":[0:-50B,1:-77B],"aa\\\\{":[0:1727436380475187902L],xz:24380.716116610332D}	OK {"0":-25676s,": b\\\\c":[-50b,-77b],"aa\\\\{":[1727436380475187902L],xz:24380.716116610332d}
+rtp111	OK {"0":-25676s,": b\\\\c":[-50b,-77b],"aa\\\\{":[1727436380475187902L],xz:24380.716116610332d}
+mut111.0 {0:-25676S,": .b\\\\c":[0:-50B,1:-77B],"aa\\\\{":[0:1727436380475187902L],xz:24380.716116610332D}	OK {"0":-25676s,": .b\\\\c":[-50b,-77b],"aa\\\\{":[1727436380475187902L],xz:24380.716116610332d}
+mut111.1 {0:-25676S,": b\\\\c":[0:-50B,1:-77B],"aa\\{":[0{1727436380475187902L]:,xz:24380.716116610332D}	TPE 40 Invalid backslash escape '{' | Invalid backslash escape '{' at 40 in `{0:-25676S,": b\\\\c":[0:-50B,1:-77B],"aa\\{":[0{1727436380475187902L]:,xz:24380.716116610332D}`. | true
+mut111.2 {0:-25676S": b\\\\c":[0:-50B,1:-77B],"aa\\\\{":[0:1727436380475187902L],xz:24380.716 16610332D}	!EOF
+rt112 {"":[0:-112B,1:110B]," ":7.0D,aexj:-37B,tag:"\\t,"}	TPE 46 Invalid backslash escape 't' | Invalid backslash escape 't' at 46 in `{"":[0:-112B,1:110B]," ":7.0D,aexj:-37B,tag:"\\t,"}`. | true
+rtp112	TPE 77 Invalid backslash escape 't' | Invalid backslash escape 't' at 77 in `{\n  "": [\n    0: -112B,\n    1: 110B\n  ],\n  " ": 7.0D,\n  aexj: -37B,\n  tag: "\\t,"\n}`. | true
+mut112.0 {"":[0:-112B,1:110B]," ":7.0D,aexj:-37B,tagB:"\\t,"}	TPE 47 Invalid backslash escape 't' | Invalid backslash escape 't' at 47 in `{"":[0:-112B,1:110B]," ":7.0D,aexj:-37B,tagB:"\\t,"}`. | true
+mut112.1 {"":[0:-112B,1:110B]," ":7.0D,ae[xj:-37B,tag:"\\t,"}	TPE 47 Invalid backslash escape 't' | Invalid backslash escape 't' at 47 in `{"":[0:-112B,1:110B]," ":7.0D,ae[xj:-37B,tag:"\\t,"}`. | true
+mut112.2 {"":[0:-112B,1:110B]," ":.0D,aexj:-3B,tag:"\\t,"}	TPE 25 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 25 in `{"":[0:-112B,1:110B]," ":.0D,aexj:-3B,tag:"\\t,"}`. | true
+rt113 {Lore:-46B,__Yx:-6518637694496218597L,xY:-27706S,"}c:":[0:-112B]}	OK {Lore:-46b,__Yx:-6518637694496218597L,xY:-27706s,"}c:":[-112b]}
+rtp113	OK {Lore:-46b,__Yx:-6518637694496218597L,xY:-27706s,"}c:":[-112b]}
+mut113.0 {Lore:-46B,__Yx:-651867694496218597\\,xY:-27706S,"}c:":[0:-12B]}	!java.lang.NumberFormatException: For input string: "-651867694496218597"
+mut113.1 {Lore:-46B,__Yx:-651863769449621897L,xY:-27706S,"}c:":[0:-112B]}	OK {Lore:-46b,__Yx:-651863769449621897L,xY:-27706s,"}c:":[-112b]}
+mut113.2 zLore:-46B,__Yx:-6518637694496218597L,xY:-27706S,"}c:":[0:-112B]}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `zLore:-46B,__Yx:-6518637694496218597L,xY:-27706S,"}c:":[0:-112B]}`. | true
+rt114 {}	OK {}
+rtp114	OK {}
+mut114.0  	!EOF
+mut114.1 S[}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `S[}`. | true
+mut114.2 28}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `28}`. | true
+rt115 {"":26B,display:4490S,zX__:[0:65],"{b\\\\}":-865917749}	OK {"":26b,display:4490s,zX__:[65],"{b\\\\}":-865917749}
+rtp115	OK {"":26b,display:4490s,zX__:[65],"{b\\\\}":-865917749}
+mut115.0 {":26B,display:4490,zX__:[0:65],"{b\\\\}":-865917749}	TPE 33 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 33 in `{":26B,display:4490,zX__:[0:65],"{b\\\\}":-865917749}`. | true
+mut115.1 {"":26B,disply:4490S,zX__:[0:65]"{b\\\\}":-8-65917749}	!EOF
+mut115.2 {"":26B,display:490S,zX._:[0:65],"{b\\\\}":-865917749}	OK {"":26b,display:490s,zX._:[65],"{b\\\\}":-865917749}
+rt116 {1dj8:-341.71658F,ZzYY:[0:70,1:1],display:{":d{:":-14B,Count:-3834177663510944223L,Name:"{","{":812730646610658328L}}	OK {"1dj8":-341.71658f,ZzYY:[70,1],display:{":d{:":-14b,Count:-3834177663510944223L,Name:"{","{":812730646610658328L}}
+rtp116	OK {"1dj8":-341.71658f,ZzYY:[70,1],display:{":d{:":-14b,Count:-3834177663510944223L,Name:"{","{":812730646610658328L}}
+mut116.0 {1dj8:-341.71658F,ZzYY:[0:70,11],display:{":d{:":-14B,Count:-383417766351094223L,Name:"{","{":812730646610658328L}}	OK {"1dj8":-341.71658f,ZzYY:[70,11],display:{":d{:":-14b,Count:-383417766351094223L,Name:"{","{":812730646610658328L}}
+mut116.1 {1dj8:-341.71658F,ZzYY:[0:70,1:1],display:{":d{:":-14B,ount:-3834177663510944223L,Name:"{","{":812730646610658328L}}	OK {"1dj8":-341.71658f,ZzYY:[70,1],display:{":d{:":-14b,Name:"{",ount:-3834177663510944223L,"{":812730646610658328L}}
+mut116.2 {1dj8:-341.71658F,ZzYY:[0:70,1:1],display:{":d{:":-14B,Count:-3834177663510944223L,Name:"{","{.:"12730646610658328L}}	TPE 97 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 97 in `{1dj8:-341.71658F,ZzYY:[0:70,1:1],display:{":d{:":-14B,Count:-3834177663510944223L,Name:"{","{.:"12730646610658328L}}`. | true
+rt117 {Z__:-3692S}	OK {Z__:-3692s}
+rtp117	OK {Z__:-3692s}
+mut117.0 {__:-39692S}	!java.lang.NumberFormatException: Value out of range. Value:"-39692" Radix:10
+mut117.1 {Z__5-3,692S}	!EOF
+mut117.2 FZ__:-3692S}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `FZ__:-3692S}`. | true
+rt118 {ExtraAttributes:{"":-113B,xx_:"=cZ'é"},olf:[]}	OK {ExtraAttributes:{"":-113b,xx_:"=cZ'é"},olf:[]}
+rtp118	OK {ExtraAttributes:{"":-113b,xx_:"=cZ'é"},olf:[]}
+mut118.0 {Extr7aAttributes:{"":-113B,xx_:"=cZ'é"},olf:[]}	OK {Extr7aAttributes:{"":-113b,xx_:"=cZ'é"},olf:[]}
+mut118.1 {ExtraAttributes:{"":-113B,xx:=cZ'é"},olf[]}	TPE 30 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 30 in `{ExtraAttributes:{"":-113B,xx:=cZ'é"},olf[]}`. | true
+mut118.2 {SExtraAttributes:{"":-113B,xx_:"=cZ'L"},olf:[]}	OK {SExtraAttributes:{"":-113b,xx_:"=cZ'L"},olf:[]}
+rt119 {":\\"bba":-880688616,":}da":97B,display:""}	OK {':"bba':-880688616,":}da":97b,display:""}
+rtp119	OK {':"bba':-880688616,":}da":97b,display:""}
+mut119.0 {":\\"bba":-880688616,":1da":397B,display:""}	!java.lang.NumberFormatException: Value out of range. Value:"397" Radix:10
+mut119.1 {":\\"bba":-880688616":}da":97B,display:""}	OK {':"bba':-880688616,":}da":97b,display:""}
+mut119.2 {:\\"bbza":880688616,":}da":97B,display:""}	TPE 2 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 2 in `{:\\"bbza":880688616,":}da":97B,display:""}`. | true
+rt120 {"béébé":1.0E-9D,display:[0:75B,1:4B],h:-775L,kfk:906,x:{}}	OK {"E-9D,display":[75b,4b],"béébé":1.0d,h:-775L,kfk:906,x:{}}
+rtp120	TPE 24 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 24 in `{\n  "béébé": 1.0E-9D,\n  display: [\n    0: 75B,\n    1: 4B\n  ],\n  h: -775L,\n  kfk: 906,\n  x: {\n    }\n}`. | true
+mut120.0 {"béébé":1.0E-9D,display:[0:75B,41:4B],h:-778L,kfk:906,x:{}}	OK {"E-9D,display":[75b,4b],"béébé":1.0d,h:-778L,kfk:906,x:{}}
+mut120.1 {"béébé":1.E-9D,display:[0:75B,1:4B],h:-775L,kfk:906,x:{}}	!java.lang.IllegalStateException: Could not properly parse numeric tag '1.', despite passing rough verification. This is a bug in the LegacyTagParser
+mut120.2 {d"béébé"1.0E-9D,display:[0:75B,1:4B],h:-775L,kfk:906,x:{}}	OK {'d"béébé"1.0E-9D,display':[75b,4b],h:-775L,kfk:906,x:{}}
+rt121 {3:1816380370,ca:1.5F,id:[0:"acc",1:""]}	OK {"3":1816380370,ca:1.5f,id:["acc",""]}
+rtp121	OK {"3":1816380370,ca:1.5f,id:["acc",""]}
+mut121.0 {3:1816380370,c:1.5F,id:[0:"a+cc",9:""]}	OK {"3":1816380370,c:1.5f,id:["a+cc",""]}
+mut121.1 {L3:1816380370,ca:1.5F,id:[0:"acc"91:""]}	OK {L3:1816380370,ca:1.5f,id:["acc",""]}
+mut121.2 {3:1816380370,cfa:1.5F,id{:[0:"acc",1:""]}	OK {"3":1816380370,cfa:1.5f,"id{":["acc",""]}
+rt122 {"":[],nil.:0.0F,xyXY:[0:-8190055258338022797L,1:-1069207328146777605L],yYX_:3.0F}	OK {"":[],nil.:0.0f,xyXY:[-8190055258338022797L,-1069207328146777605L],yYX_:3.0f}
+rtp122	OK {"":[],nil.:0.0f,xyXY:[-8190055258338022797L,-1069207328146777605L],yYX_:3.0f}
+mut122.0 {"":[],nil.:0.0F,xyXYB[0:-81900552583380227976L,1:-1069207328146777605L],yYX_:3.0F}	!java.lang.NumberFormatException: For input string: "-81900552583380227976"
+mut122.1 {"":[],nil.:0.0F,xyXY:[0:-81950552583380227[97L,1:-106920732814677760L],yYX_:3.0F}	!java.lang.NumberFormatException: For input string: "-81950552583380227"
+mut122.2 {"":[],nil.:0.0F,xyXY:[0:-819005B5258338022797L,1:-1069207328146777605L],yYX_:3.0F}	!java.lang.NumberFormatException: Value out of range. Value:"-819005" Radix:10
+rt123 {"\\"b":-52911.62597309408D,Count:3397S,X:[0:0.9561848523838378D,1:0.6607343401949836D,2:0.933697675100826D,3:0.059581684416645575D]}	OK {'"b':-52911.62597309408d,Count:3397s,X:[0.9561848523838378d,0.6607343401949836d,0.933697675100826d,0.059581684416645575d]}
+rtp123	OK {'"b':-52911.62597309408d,Count:3397s,X:[0.9561848523838378d,0.6607343401949836d,0.933697675100826d,0.059581684416645575d]}
+mut123.0 {"\\"b":-52911.62597309408D,Count:3397S,X:[0:0.9561848523838378D,1:0.6607343401949836D,2:0.93397675100826D,3:0.0595816844D6645575D]}	OK {'"b':-52911.62597309408d,Count:3397s,X:[0.9561848523838378d,0.6607343401949836d,0.93397675100826d,0.0595816844d,6645575.0d]}
+mut123.1 {}\\"b":-52911.6259f7309408D,Count:3397S,X:[0:0.9561848523838378D,1:0.6607343401949836D,2:0.933697675100826D,3:0.059581684416645575D]}	OK {}
+mut123.2 {"\\"b":-52911.62597309408D,Count:3397S,X:[0:0.9561848523838378D,1:10.6607343401949836D,2:0.933697675100826D,3:0.059581684416645575D]}	OK {'"b':-52911.62597309408d,Count:3397s,X:[0.9561848523838378d,10.660734340194983d,0.933697675100826d,0.059581684416645575d]}
+rt124 {}	OK {}
+rtp124	OK {}
+mut124.0 }	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `}`. | true
+mut124.1 -{}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `-{}`. | true
+mut124.2 	!EOF
+rt125 {id:{}}	OK {id:{}}
+rtp125	OK {id:{}}
+mut125.0 {aid:9}]}	OK {aid:9}
+mut125.1 sd:{}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `sd:{}`. | true
+mut125.2 5:{}}	TPE 0 Expected '{’ at start of tag | Expected '{’ at start of tag at 0 in `5:{}}`. | true
+rt126 {Lore:-21547S,_f:[],display:-2.25D,"é":-2534S}	OK {Lore:-21547s,_f:[],display:-2.25d,"é":-2534s}
+rtp126	OK {Lore:-21547s,_f:[],display:-2.25d,"é":-2534s}
+mut126.0 {Lore:-2154f7S,_f:[],d0splay-:-2.25D,"é":-2534S}	OK {"7S,_f":[],Lore:-2154.0f,d0splay-:-2.25d,"é":-2534s}
+mut126.1 {Lore:-215470,_f:[],display:-2.25D,"é":-2534S}	OK {Lore:-215470,_f:[],display:-2.25d,"é":-2534s}
+mut126.2 {Lore:-21547S_f:[],display:-2.2"D,"é":-253[S}	TPE 35 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 35 in `{Lore:-21547S_f:[],display:-2.2"D,"é":-253[S}`. | true
+rand {aFc\\Fb.}	!EOF
+rand {S}	!EOF
+rand {.s. S[d,\\].a"db}	TPE 5 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 5 in `{.s. S[d,\\].a"db}`. | true
+rand {1 aL}	TPE 3 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 3 in `{1 aL}`. | true
+rand {[.f+LB.bbbF,dcl}	!EOF
+rand {\\}1\\fsfa}	!EOF
+rand {}9L[ }	OK {}
+rand {+}l,Sd[b0bFcbL9+ab}	!EOF
+rand {sL-bD1"bdDa:b1}	TPE 13 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 13 in `{sL-bD1"bdDa:b1}`. | true
+rand {,sl,L.b}	!EOF
+rand {\\ssF,:."[]}	TPE 7 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 7 in `{\\ssF,:."[]}`. | true
+rand {.b}{l-"c}	!EOF
+rand {:s,.]}	TPE 2 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 2 in `{:s,.]}`. | true
+rand {s}FBD:c9+}	TPE 7 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 7 in `{s}FBD:c9+}`. | true
+rand {f9c+1""cB.fF9:}[}	TPE 15 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 15 in `{f9c+1""cB.fF9:}[}`. | true
+rand {9LSs:00D}c0}	OK {"9LSs":0.0d}
+rand {fs}S{}	!EOF
+rand {s.[-:bcb\\b]D\\ 1L}	TPE 6 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 6 in `{s.[-:bcb\\b]D\\ 1L}`. | true
+rand {0abBss,9l\\db1.}	!EOF
+rand {SL1+D}	!EOF
+rand {\\\\{l:0csc9[}	!EOF
+rand { ]}D}	!EOF
+rand {{DlL.s}	!EOF
+rand {b"S1"D:9b]F["D-,DF}	!EOF
+rand {d]lBaLB-0}	!EOF
+rand {bL-F1L,ls}	!EOF
+rand {c}]aB+ll9bL9bd\\bF}	!EOF
+rand {D+d9Lb9DDld] B}	TPE 14 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 14 in `{D+d9Lb9DDld] B}`. | true
+rand {bFsD}	!EOF
+rand {ba]+b}	!EOF
+rand {}	OK {}
+rand {cL }	TPE 4 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 4 in `{cL }`. | true
+rand { s"}	!EOF
+rand {b- 0.]+}	TPE 4 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 4 in `{b- 0.]+}`. | true
+rand {:Sfa-sf.a}L.}	TPE 2 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 2 in `{:Sfa-sf.a}L.}`. | true
+rand {}	OK {}
+rand {.cB s}	TPE 5 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 5 in `{.cB s}`. | true
+rand {0F}	!EOF
+rand {9.:1a.bsf{,L0bD1\\1}	!EOF
+rand {00 a}	TPE 4 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 4 in `{00 a}`. | true
+rand {Db }{[\\ddccbFs:c-}	TPE 4 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 4 in `{Db }{[\\ddccbFs:c-}`. | true
+rand {l \\c 1-f\\+aF.{-\\-9}	TPE 3 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 3 in `{l \\c 1-f\\+aF.{-\\-9}`. | true
+rand {lF}	!EOF
+rand {l1b}l1:}}	TPE 8 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 8 in `{l1b}l1:}}`. | true
+rand {S. ., 9}	TPE 4 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 4 in `{S. ., 9}`. | true
+rand {d..0{"bS{}	!EOF
+rand {Lfs:".\\-0\\s0bf0"}	TPE 8 Invalid backslash escape '-' | Invalid backslash escape '-' at 8 in `{Lfs:".\\-0\\s0bf0"}`. | true
+rand {{Bbs"sBS+}	!EOF
+rand {+F9b9s}	!EOF
+rand {.9,0.0 S{f\\cL}	TPE 8 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 8 in `{.9,0.0 S{f\\cL}`. | true
+rand {b}1l}	!EOF
+rand {FFbD}+}}	!EOF
+rand {SF0L{d}	!EOF
+rand {}"9\\D}	OK {}
+rand {B\\:f}9ac-bBffDF }	TPE 4 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 4 in `{B\\:f}9ac-bBffDF }`. | true
+rand {.}dFSsLBF"l":d}	TPE 14 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 14 in `{.}dFSsLBF"l":d}`. | true
+rand {1Ds"9:\\}	TPE 7 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 7 in `{1Ds"9:\\}`. | true
+rand {-s-"\\09\\}	!EOF
+rand {LaF:fcLF}	TPE 5 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 5 in `{LaF:fcLF}`. | true
+rand {L{FD]bsScS}	!EOF
+rand {\\0Dc9}}	!EOF
+rand {9\\0\\l[,Sl 1}	TPE 11 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 11 in `{9\\0\\l[,Sl 1}`. | true
+rand {BLbcl,\\LB \\}	TPE 11 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 11 in `{BLbcl,\\LB \\}`. | true
+rand {]bbF[9"sLD{:}	TPE 13 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 13 in `{]bbF[9"sLD{:}`. | true
+rand {}Ds{[}	OK {}
+rand {"{,9"Fl]}	TPE 6 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 6 in `{"{,9"Fl]}`. | true
+rand {bD ,[9:}	TPE 4 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 4 in `{bD ,[9:}`. | true
+rand {-}}	!EOF
+rand {a"bDb}	!EOF
+rand {s,SbsS.]::D110sb}	TPE 10 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 10 in `{s,SbsS.]::D110sb}`. | true
+rand {a.}	!EOF
+rand {,Fb}	!EOF
+rand {b "Fc},a}\\aal1}B}	TPE 3 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 3 in `{b "Fc},a}\\aal1}B}`. | true
+rand {bsc{:}F.D0\\SD"}	TPE 6 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 6 in `{bsc{:}F.D0\\SD"}`. | true
+rand {L9dbf}l\\ 0d]bc,}	TPE 10 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 10 in `{L9dbf}l\\ 0d]bc,}`. | true
+rand {b\\"[a.9+lfa-}	!EOF
+rand {1a]:\\B}	TPE 5 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 5 in `{1a]:\\B}`. | true
+rand {9".b}	!EOF
+rand {b: {f"abF"b}	!EOF
+rand {9,Bb0{sB+,cFS}	!EOF
+rand {1SS:9{{.f 9}	TPE 11 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 11 in `{1SS:9{{.f 9}`. | true
+rand {,s0a1:b]b9fL.bD}	TPE 7 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 7 in `{,s0a1:b]b9fL.bD}`. | true
+rand {dDb\\ {b:lFbL\\}	TPE 6 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 6 in `{dDb\\ {b:lFbL\\}`. | true
+rand {D[b9b1Df9\\, L\\.}}	TPE 13 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 13 in `{D[b9b1Df9\\, L\\.}}`. | true
+rand {0[[.,}F{D]d}}	!EOF
+rand {,1a+l,,{F}	!EOF
+rand {l}	!EOF
+rand {1b10fd0fs -Fa.}	TPE 11 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 11 in `{1b10fd0fs -Fa.}`. | true
+rand {,9"FLDb fa\\-LSb{, }	TPE 9 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 9 in `{,9"FLDb fa\\-LSb{, }`. | true
+rand {csl:.cLF B-"BD}1bl}	TPE 5 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 5 in `{csl:.cLF B-"BD}1bl}`. | true
+rand {aSLfD\\dc]Fa{b  +-}	TPE 16 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 16 in `{aSLfD\\dc]Fa{b  +-}`. | true
+rand {}9d}aDd aac:]F.-"}	OK {}
+rand {]0-BS: 1LL-9,F{}	!EOF
+rand {L+9cB"++F\\.}	!EOF
+rand {}-}	OK {}
+rand {"c.[[.LLLL}	TPE 12 Unfinished string | Unfinished string at 12 in `{"c.[[.LLLL}`. | true
+rand {10b+c.+S}	!EOF
+rand {99-}	!EOF
+rand { F}	!EOF
+rand {D +:bl,+],.b\\][0s0}	TPE 3 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 3 in `{D +:bl,+],.b\\][0s0}`. | true
+rand {.}.d,{[lb1}	!EOF
+rand {[b bBfD9b..:-."][}	TPE 4 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 4 in `{[b bBfD9b..:-."][}`. | true
+rand {\\a0F+:a9{[.s}	TPE 7 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 7 in `{\\a0F+:a9{[.s}`. | true
+rand {a,Ff+DFb0\\}	!EOF
+rand {ssf[}	!EOF
+rand {d"f0}	!EOF
+rand {+}	!EOF
+rand {+,b}d\\bF[S}	!EOF
+rand {b1F}	!EOF
+rand {+-d0f{S Lb"\\[}	TPE 9 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 9 in `{+-d0f{S Lb"\\[}`. | true
+rand {l}cF-Fl\\LfB{f[: .}	TPE 17 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 17 in `{l}cF-Fl\\LfB{f[: .}`. | true
+rand {l}	!EOF
+rand {]dsB-]dBl"SSS}	!EOF
+rand {[]0Sf0,Blb9]9-]{}	!EOF
+rand {s}	!EOF
+rand {[]\\-l+}	!EOF
+rand {aD\\ d:}	TPE 5 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 5 in `{aD\\ d:}`. | true
+rand { 0-\\ca[ ]1bfdBFLLf}	TPE 9 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 9 in `{ 0-\\ca[ ]1bfdBFLLf}`. | true
+rand {d:l}	TPE 3 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 3 in `{d:l}`. | true
+rand {:.{bbdL}	TPE 2 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 2 in `{:.{bbdL}`. | true
+rand {s:":S01-D9+.:{d}	TPE 17 Unfinished string | Unfinished string at 17 in `{s:":S01-D9+.:{d}`. | true
+rand { S.} b1bc]S\\}	TPE 6 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 6 in `{ S.} b1bc]S\\}`. | true
+rand {d}	!EOF
+rand {0sSS 0d+lc}	TPE 6 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 6 in `{0sSS 0d+lc}`. | true
+rand {+[c1d}}	!EOF
+rand {-cSb.a+00ab: }	TPE 14 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 14 in `{-cSb.a+00ab: }`. | true
+rand {\\0,d\\:b:}	TPE 7 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 7 in `{\\0,d\\:b:}`. | true
+rand {cF,b:}	TPE 6 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 6 in `{cF,b:}`. | true
+rand {D"S.b D[}	TPE 7 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 7 in `{D"S.b D[}`. | true
+rand {b+19}	!EOF
+rand {lDc }	TPE 5 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 5 in `{lDc }`. | true
+rand {d:+bSS]l-B}	TPE 3 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 3 in `{d:+bSS]l-B}`. | true
+rand {\\l{{sS}	!EOF
+rand {.-B{{a:b}	TPE 8 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 8 in `{.-B{{a:b}`. | true
+rand {9-D""d0daD1]l[aS}	!EOF
+rand {l[:bd9}	TPE 4 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 4 in `{l[:bd9}`. | true
+rand {]-S1FlB]}	!EOF
+rand {0cFF-cf}[bl-D.f}	!EOF
+rand {"[sDdcc{,"Bc.f +}	TPE 11 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 11 in `{"[sDdcc{,"Bc.f +}`. | true
+rand {19+.}	!EOF
+rand {adc.".FBl}	!EOF
+rand { l-f00,S f}	TPE 10 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 10 in `{ l-f00,S f}`. | true
+rand {c9}	!EOF
+rand {DB ,]s.b00][-c D}	TPE 4 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 4 in `{DB ,]s.b00][-c D}`. | true
+rand {D.aS.f}	!EOF
+rand {[ .L0Bs}F}F"a}	TPE 3 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 3 in `{[ .L0Bs}F}F"a}`. | true
+rand {[L:c[l0D] ,FBFb}	TPE 4 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 4 in `{[L:c[l0D] ,FBFb}`. | true
+rand {{fB.S:-}	!java.lang.IllegalStateException: Could not properly parse numeric tag '-', despite passing rough verification. This is a bug in the LegacyTagParser
+rand {bF {c]s::dL}\\"}}}	TPE 4 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 4 in `{bF {c]s::dL}\\"}}}`. | true
+rand {\\sa,:d}	TPE 6 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 6 in `{\\sa,:d}`. | true
+rand {, FS[ 9+[DBlF,1l}	TPE 3 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 3 in `{, FS[ 9+[DBlF,1l}`. | true
+rand {b1]}	!EOF
+rand {}	OK {}
+rand {\\S+af[saaB}	!EOF
+rand {a9}]:L\\.l[}	TPE 6 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 6 in `{a9}]:L\\.l[}`. | true
+rand {"B+ }F-+-[:}	TPE 13 Unfinished string | Unfinished string at 13 in `{"B+ }F-+-[:}`. | true
+rand {l}	!EOF
+rand {l}\\s{:cLS\\]:}	TPE 7 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 7 in `{l}\\s{:cLS\\]:}`. | true
+rand {[}:s sb{,}	TPE 4 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 4 in `{[}:s sb{,}`. | true
+rand { bbB\\Bl}1S}]::s[L]}	TPE 14 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 14 in `{ bbB\\Bl}1S}]::s[L]}`. | true
+rand {]D9LlSD}dS.L[B}	!EOF
+rand { fd+c0l}bd\\b}	!EOF
+rand {99S]S:[0Sd}	TPE 10 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 10 in `{99S]S:[0Sd}`. | true
+rand {-9+}f}	!EOF
+rand {ddab9S{-0:\\}	TPE 11 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 11 in `{ddab9S{-0:\\}`. | true
+rand {9 d}	TPE 3 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 3 in `{9 d}`. | true
+rand {d-b[+Bl}S.lD1}	!EOF
+rand {Bl0"cb9db}	!EOF
+rand {":.\\+b c9BSaF.:,.}	TPE 5 Invalid backslash escape '+' | Invalid backslash escape '+' at 5 in `{":.\\+b c9BSaF.:,.}`. | true
+rand {\\Sb}llD-]}	!EOF
+rand { D{Bb0a-,}\\fbSD-}	!EOF
+rand {F{d ,1{{}	TPE 5 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 5 in `{F{d ,1{{}`. | true
+rand {fF0 \\1\\9SBlcc{}	TPE 5 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 5 in `{fF0 \\1\\9SBlcc{}`. | true
+rand {+b[1f}	!EOF
+rand {D  ,:f{b"}	TPE 4 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 4 in `{D  ,:f{b"}`. | true
+rand {ds}	!EOF
+rand {f1L]B9b]}	!EOF
+rand {a.[: ",]aBFL,L,d}	TPE 18 Unfinished string | Unfinished string at 18 in `{a.[: ",]aBFL,L,d}`. | true
+rand {f}	!EOF
+rand {}.c9Sl.BLl:s}	OK {}
+rand {c",Bl9D}	!EOF
+rand {[Sl9a[}	!EOF
+rand {Bfa}	!EOF
+rand {D]}b,{9bF"llf9F}	!EOF
+rand {1F[-.\\"bbLs\\}	!EOF
+rand {s"SbB [afa0dl}	TPE 7 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 7 in `{s"SbB [afa0dl}`. | true
+rand {+"}	!EOF
+rand {sf+LSb-bB9\\b0}	!EOF
+rand {Sbs}S}	!EOF
+rand {[sad0f]}	!EOF
+rand {[}	!EOF
+rand {191{1S}S1L0{}	!EOF
+rand { D}Fala+,}	!EOF
+rand {s+:f{\\Dcs.l}	TPE 4 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 4 in `{s+:f{\\Dcs.l}`. | true
+rand {+}	!EOF
+rand {1}bLaD1a L}	TPE 10 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 10 in `{1}bLaD1a L}`. | true
+rand {0b."S}	!EOF
+rand {.La9:df+dDB}	TPE 6 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 6 in `{.La9:df+dDB}`. | true
+rand {bb-9c9 [L0]0aB,1}	TPE 8 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 8 in `{bb-9c9 [L0]0aB,1}`. | true
+rand {"}0s1Bbd0.bLs-d9D"}	TPE 19 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 19 in `{"}0s1Bbd0.bLs-d9D"}`. | true
+rand {,}L S1ds{{lbb}	TPE 5 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 5 in `{,}L S1ds{{lbb}`. | true
+rand {sL}	!EOF
+rand {Fb""bl"0}B[\\-B}	!EOF
+rand {dlf9}	!EOF
+rand {]c{F}+9]+}	!EOF
+rand {}	OK {}
+rand {]:S[".S+Df+SfF-,s}	TPE 3 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 3 in `{]:S[".S+Df+SfF-,s}`. | true
+rand {],l1[1b}	!EOF
+rand { ,}	!EOF
+rand {,09sf}Bf-{}	!EOF
+rand {"1"d "[-}}+la+:+}	TPE 4 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 4 in `{"1"d "[-}}+la+:+}`. | true
+rand {}b\\c}}	OK {}
+rand {"}Dc,+b9dlcB.LB}	TPE 17 Unfinished string | Unfinished string at 17 in `{"}Dc,+b9dlcB.LB}`. | true
+rand {dfS9.]}	!EOF
+rand {{-11F-]}	!EOF
+rand {dbl{-0F[{0d[.}	!EOF
+rand {: c}0lcacb{}	TPE 3 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 3 in `{: c}0lcacb{}`. | true
+rand {ad}	!EOF
+rand {D+sL1\\}	!EOF
+rand {B0L\\1{dL:F"}{s+{}	TPE 10 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 10 in `{B0L\\1{dL:F"}{s+{}`. | true
+rand {bf+B1d\\aL\\c0D{}	!EOF
+rand {9f[+{la0,9}	!EOF
+rand {c.+}	!EOF
+rand {s{f]B{0l}	!EOF
+rand {9 {S1[,Fa0Sd+++cl}	TPE 3 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 3 in `{9 {S1[,Fa0Sd+++cl}`. | true
+rand {\\+9: d.db{bs-s}	TPE 6 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 6 in `{\\+9: d.db{bs-s}`. | true
+rand {{F,}	!EOF
+rand {F-+[,S-.0}	!EOF
+rand {bD":sc-}-b+L}	TPE 5 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 5 in `{bD":sc-}-b+L}`. | true
+rand {}	OK {}
+rand {F.cLDbf9d0F":{[B S}	TPE 18 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 18 in `{F.cLDbf9d0F":{[B S}`. | true
+rand {al{"cS}f{S\\0B0}	!EOF
+rand {l-BfD+]}	!EOF
+rand {}cb{Fs0]cfSls.Ll}	OK {}
+rand {0+\\b\\]a"dd{}	!EOF
+rand {DbS9}B]9:}F0}	TPE 10 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 10 in `{DbS9}B]9:}F0}`. | true
+rand {{d0b+,1fsf},:F[\\s]}	TPE 14 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 14 in `{{d0b+,1fsf},:F[\\s]}`. | true
+rand {S.}S[.{b aD}	TPE 10 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 10 in `{S.}S[.{b aD}`. | true
+rand {"FFa{9l\\,0dc+LlcL}	TPE 9 Invalid backslash escape ',' | Invalid backslash escape ',' at 9 in `{"FFa{9l\\,0dc+LlcL}`. | true
+rand {l"}	!EOF
+rand {bfSdD.b[a+1}	!EOF
+rand {Bd:+b,ca}	TPE 4 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 4 in `{Bd:+b,ca}`. | true
+rand {"+c}-BfD{Ffs1\\"]}c}	TPE 20 Unfinished string | Unfinished string at 20 in `{"+c}-BfD{Ffs1\\"]}c}`. | true
+rand {:\\{f9[ds]1L}	TPE 2 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 2 in `{:\\{f9[ds]1L}`. | true
+rand {}DF"}}sb9D\\}Dd{}	OK {}
+rand {{c{\\}	!EOF
+rand {]": :b,B}	TPE 5 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 5 in `{]": :b,B}`. | true
+rand {0L".sSl--0b}	!EOF
+rand {}	OK {}
+rand {BSDF,SFB1ld }	TPE 13 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 13 in `{BSDF,SFB1ld }`. | true
+rand {,9cD[b\\Ff}	!EOF
+rand {"9s{bBS0aLS]\\ }B}	TPE 14 Invalid backslash escape ' ' | Invalid backslash escape ' ' at 14 in `{"9s{bBS0aLS]\\ }B}`. | true
+rand {:l+]{-a+D}	TPE 2 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 2 in `{:l+]{-a+D}`. | true
+rand {[f\\-Db}	!EOF
+rand {"1a.}9[[DD99+LDDc1}	TPE 20 Unfinished string | Unfinished string at 20 in `{"1a.}9[[DD99+LDDc1}`. | true
+rand {bD-b01:--l  -0}	!java.lang.IllegalStateException: Could not properly parse numeric tag '-', despite passing rough verification. This is a bug in the LegacyTagParser
+rand {F+sB9{l19cbF[0}	!EOF
+rand {lb[b11}-,f}	!EOF
+rand {L0f[1]Ba}b}	!EOF
+rand {{}10:DD{Llblf1sL,}	TPE 6 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 6 in `{{}10:DD{Llblf1sL,}`. | true
+rand {0+:--s1+9d1ls}	!java.lang.IllegalStateException: Could not properly parse numeric tag '-', despite passing rough verification. This is a bug in the LegacyTagParser
+rand {.:[d"91[0f}	TPE 4 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 4 in `{.:[d"91[0f}`. | true
+rand {:[LD[[}	TPE 3 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 3 in `{:[LD[[}`. | true
+rand {b:l:0\\}	TPE 3 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 3 in `{b:l:0\\}`. | true
+rand { 0Lcf99-\\L[f1{}	!EOF
+rand {[.++\\"c[9\\S\\}	!EOF
+rand {.-1,BS0{Ba]9}	!EOF
+rand {F{0-[}	!EOF
+rand {:s sf"cc1b,{}	TPE 2 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 2 in `{:s sf"cc1b,{}`. | true
+rand {0}L0},{D]}D9fb1}	!EOF
+rand {Ff}	!EOF
+rand {s+-DSc+b0F[+}s}	!EOF
+rand {f\\}	!EOF
+rand {1 [.Slf- 0}	TPE 3 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 3 in `{1 [.Slf- 0}`. | true
+rand { a1LSd0FBFd}	!EOF
+rand {L[}	!EOF
+rand {bl}	!EOF
+rand {0{0D0}B}	!EOF
+rand {-[}	!EOF
+rand {ssD}	!EOF
+rand {f1,Fb+l{ ",0Bbd}	TPE 10 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 10 in `{f1,Fb+l{ ",0Bbd}`. | true
+rand {S\\{fc1D]S{Lbdb,\\-a}	!EOF
+rand {0a[sFb9l1F1}	!EOF
+rand {blba}	!EOF
+rand {}	OK {}
+rand {\\}L.9b{:s}	TPE 9 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 9 in `{\\}L.9b{:s}`. | true
+rand {0a""1[f1"d\\[cL[:.}	TPE 17 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 17 in `{0a""1[f1"d\\[cL[:.}`. | true
+rand {0}	!EOF
+rand {f.F ,,dB:Sa}	TPE 5 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 5 in `{f.F ,,dB:Sa}`. | true
+rand {s9d}d.00c+ D"}	TPE 12 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 12 in `{s9d}d.00c+ D"}`. | true
+rand {0[]F{D.L"}	!EOF
+rand {a}	!EOF
+rand {l]l}	!EOF
+rand {1+,,BlL.-}	!EOF
+rand {F"Laa:bB,}	TPE 7 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 7 in `{F"Laa:bB,}`. | true
+rand {99S{}F:fb0fbd .9F.}	TPE 8 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 8 in `{99S{}F:fb0fbd .9F.}`. | true
+rand {D:Fd\\}	TPE 3 Unexpected token found. Expected start of new element | Unexpected token found. Expected start of new element at 3 in `{D:Fd\\}`. | true
+rand {9Fd-L1}	!EOF
+rand {dbs1}+.f 9\\"[.dB}	TPE 10 Expected ':' after identifier in tag | Expected ':' after identifier in tag at 10 in `{dbs1}+.f 9\\"[.dB}`. | true
+rand {1+D.-"9b+"]B}	!EOF

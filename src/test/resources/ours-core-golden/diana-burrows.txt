@@ -1,0 +1,29 @@
+crit without enchant []
+after enchant [] enchanted=true
+crit [10, 70, 10=MOB]
+hit [-4, 63, 7=START, 10, 70, 10=MOB]
+lava [-4, 63, 7=START, 0, -1, -1=TREASURE, 10, 70, 10=MOB]
+miss count [-4, 63, 7=START, 0, -1, -1=TREASURE, 10, 70, 10=MOB]
+miss speed [-4, 63, 7=START, 0, -1, -1=TREASURE, 10, 70, 10=MOB]
+miss oy [-4, 63, 7=START, 0, -1, -1=TREASURE, 10, 70, 10=MOB]
+miss spread [-4, 63, 7=START, 0, -1, -1=TREASURE, 10, 70, 10=MOB]
+miss lava spread [-4, 63, 7=START, 0, -1, -1=TREASURE, 10, 70, 10=MOB]
+miss other [-4, 63, 7=START, 0, -1, -1=TREASURE, 10, 70, 10=MOB]
+bad marker [-4, 63, 7=START, 0, -1, -1=TREASURE, 10, 70, 10=MOB]
+reclassified [-4, 63, 7=START, 0, -1, -1=TREASURE, 10, 70, 10=START]
+clicked [-4, 63, 7=START, 0, -1, -1=TREASURE]
+chat 'Something else' [-4, 63, 7=START, 0, -1, -1=TREASURE] dug=false
+chat 'You dug out a Griffin Burrow! (1/4)' [-4, 63, 7=START, 0, -1, -1=TREASURE] dug=true
+chat ' ☠ You were killed by a Minos Hunter' [-4, 63, 7=START, 0, -1, -1=TREASURE] dug=true
+chat 'You finished the Griffin burrow chain! (4/4)' [-4, 63, 7=START, 0, -1, -1=TREASURE] dug=true
+dug block ignored [-4, 63, 7=START, 0, -1, -1=TREASURE]
+click removes [0, -1, -1=TREASURE]
+marks dug=true/false ench=true/false
+swapped [] dug=false ench=false
+chat without click [] dug=false
+toBlockPos (0.0, 0.0, 0.0) -> 0, 0, 0
+toBlockPos (-0.1, 63.99, 7.5) -> -1, 63, 7
+toBlockPos (-1.0, -1.5, 2.999) -> -1, -2, 2
+toBlockPos (1000000.5, -64.0, -1000000.5) -> 1000000, -64, -1000001
+types [START, MOB, TREASURE]
+spade enabled=false particles=[] guess=null ding=true

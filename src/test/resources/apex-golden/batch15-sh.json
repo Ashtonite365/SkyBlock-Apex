@@ -1,0 +1,4597 @@
+{
+  "cases": 1148,
+  "data": [
+    {
+      "in": "pitch|0",
+      "out": "false"
+    },
+    {
+      "in": "pitch|1",
+      "out": "false"
+    },
+    {
+      "in": "pitch|2",
+      "out": "false"
+    },
+    {
+      "in": "pitch|3",
+      "out": "false"
+    },
+    {
+      "in": "pitch|4",
+      "out": "false"
+    },
+    {
+      "in": "pitch|5",
+      "out": "false"
+    },
+    {
+      "in": "pitch|6",
+      "out": "false"
+    },
+    {
+      "in": "pitch|7",
+      "out": "false"
+    },
+    {
+      "in": "pitch|8",
+      "out": "false"
+    },
+    {
+      "in": "pitch|9",
+      "out": "false"
+    },
+    {
+      "in": "pitch|10",
+      "out": "false"
+    },
+    {
+      "in": "pitch|11",
+      "out": "false"
+    },
+    {
+      "in": "pitch|12",
+      "out": "true"
+    },
+    {
+      "in": "pitch|13",
+      "out": "true"
+    },
+    {
+      "in": "pitch|14",
+      "out": "true"
+    },
+    {
+      "in": "pitch|15",
+      "out": "true"
+    },
+    {
+      "in": "pitch|16",
+      "out": "true"
+    },
+    {
+      "in": "pitch|17",
+      "out": "true"
+    },
+    {
+      "in": "pitch|18",
+      "out": "true"
+    },
+    {
+      "in": "pitch|19",
+      "out": "true"
+    },
+    {
+      "in": "pitch|20",
+      "out": "true"
+    },
+    {
+      "in": "pitch|21",
+      "out": "true"
+    },
+    {
+      "in": "pitch|22",
+      "out": "true"
+    },
+    {
+      "in": "pitch|23",
+      "out": "true"
+    },
+    {
+      "in": "pitch|24",
+      "out": "true"
+    },
+    {
+      "in": "pitch|25",
+      "out": "true"
+    },
+    {
+      "in": "pitch|26",
+      "out": "true"
+    },
+    {
+      "in": "pitch|27",
+      "out": "true"
+    },
+    {
+      "in": "pitch|28",
+      "out": "true"
+    },
+    {
+      "in": "pitch|29",
+      "out": "true"
+    },
+    {
+      "in": "pitch|30",
+      "out": "true"
+    },
+    {
+      "in": "pitch|31",
+      "out": "true"
+    },
+    {
+      "in": "pitch|32",
+      "out": "false"
+    },
+    {
+      "in": "pitch|33",
+      "out": "false"
+    },
+    {
+      "in": "pitch|34",
+      "out": "false"
+    },
+    {
+      "in": "pitch|35",
+      "out": "false"
+    },
+    {
+      "in": "pitch|36",
+      "out": "false"
+    },
+    {
+      "in": "pitch|37",
+      "out": "false"
+    },
+    {
+      "in": "pitch|38",
+      "out": "false"
+    },
+    {
+      "in": "pitch|39",
+      "out": "false"
+    },
+    {
+      "in": "pitch|40",
+      "out": "false"
+    },
+    {
+      "in": "pitch|41",
+      "out": "false"
+    },
+    {
+      "in": "pitch|42",
+      "out": "false"
+    },
+    {
+      "in": "pitch|43",
+      "out": "false"
+    },
+    {
+      "in": "pitch|44",
+      "out": "true"
+    },
+    {
+      "in": "pitch|45",
+      "out": "true"
+    },
+    {
+      "in": "pitch|46",
+      "out": "true"
+    },
+    {
+      "in": "pitch|47",
+      "out": "true"
+    },
+    {
+      "in": "pitch|48",
+      "out": "true"
+    },
+    {
+      "in": "pitch|49",
+      "out": "true"
+    },
+    {
+      "in": "pitch|50",
+      "out": "true"
+    },
+    {
+      "in": "pitch|51",
+      "out": "true"
+    },
+    {
+      "in": "pitch|52",
+      "out": "true"
+    },
+    {
+      "in": "pitch|53",
+      "out": "true"
+    },
+    {
+      "in": "pitch|54",
+      "out": "true"
+    },
+    {
+      "in": "pitch|55",
+      "out": "true"
+    },
+    {
+      "in": "pitch|56",
+      "out": "true"
+    },
+    {
+      "in": "pitch|57",
+      "out": "true"
+    },
+    {
+      "in": "pitch|58",
+      "out": "true"
+    },
+    {
+      "in": "pitch|59",
+      "out": "true"
+    },
+    {
+      "in": "pitch|60",
+      "out": "true"
+    },
+    {
+      "in": "pitch|61",
+      "out": "true"
+    },
+    {
+      "in": "pitch|62",
+      "out": "true"
+    },
+    {
+      "in": "pitch|63",
+      "out": "true"
+    },
+    {
+      "in": "pitch|64",
+      "out": "false"
+    },
+    {
+      "in": "pitch|65",
+      "out": "false"
+    },
+    {
+      "in": "pitch|66",
+      "out": "false"
+    },
+    {
+      "in": "pitch|67",
+      "out": "false"
+    },
+    {
+      "in": "pitch|68",
+      "out": "false"
+    },
+    {
+      "in": "pitch|69",
+      "out": "false"
+    },
+    {
+      "in": "pitch|70",
+      "out": "false"
+    },
+    {
+      "in": "pitch|71",
+      "out": "false"
+    },
+    {
+      "in": "pitch|72",
+      "out": "false"
+    },
+    {
+      "in": "pitch|73",
+      "out": "false"
+    },
+    {
+      "in": "pitch|74",
+      "out": "false"
+    },
+    {
+      "in": "pitch|75",
+      "out": "false"
+    },
+    {
+      "in": "pitch|76",
+      "out": "false"
+    },
+    {
+      "in": "pitch|77",
+      "out": "false"
+    },
+    {
+      "in": "pitch|78",
+      "out": "false"
+    },
+    {
+      "in": "pitch|79",
+      "out": "false"
+    },
+    {
+      "in": "pitch|80",
+      "out": "false"
+    },
+    {
+      "in": "pitch|81",
+      "out": "false"
+    },
+    {
+      "in": "pitch|82",
+      "out": "false"
+    },
+    {
+      "in": "pitch|83",
+      "out": "false"
+    },
+    {
+      "in": "pitch|84",
+      "out": "false"
+    },
+    {
+      "in": "pitch|85",
+      "out": "false"
+    },
+    {
+      "in": "pitch|86",
+      "out": "false"
+    },
+    {
+      "in": "pitch|87",
+      "out": "false"
+    },
+    {
+      "in": "pitch|88",
+      "out": "false"
+    },
+    {
+      "in": "pitch|89",
+      "out": "false"
+    },
+    {
+      "in": "pitch|90",
+      "out": "false"
+    },
+    {
+      "in": "pitch|91",
+      "out": "false"
+    },
+    {
+      "in": "pitch|92",
+      "out": "false"
+    },
+    {
+      "in": "pitch|93",
+      "out": "false"
+    },
+    {
+      "in": "pitch|94",
+      "out": "false"
+    },
+    {
+      "in": "pitch|95",
+      "out": "false"
+    },
+    {
+      "in": "pitch|96",
+      "out": "false"
+    },
+    {
+      "in": "pitch|97",
+      "out": "false"
+    },
+    {
+      "in": "pitch|98",
+      "out": "false"
+    },
+    {
+      "in": "pitch|99",
+      "out": "false"
+    },
+    {
+      "in": "pitch|100",
+      "out": "false"
+    },
+    {
+      "in": "pitch|101",
+      "out": "false"
+    },
+    {
+      "in": "pitch|102",
+      "out": "false"
+    },
+    {
+      "in": "pitch|103",
+      "out": "false"
+    },
+    {
+      "in": "pitch|104",
+      "out": "false"
+    },
+    {
+      "in": "pitch|105",
+      "out": "false"
+    },
+    {
+      "in": "pitch|106",
+      "out": "false"
+    },
+    {
+      "in": "pitch|107",
+      "out": "false"
+    },
+    {
+      "in": "pitch|108",
+      "out": "false"
+    },
+    {
+      "in": "pitch|109",
+      "out": "false"
+    },
+    {
+      "in": "pitch|110",
+      "out": "false"
+    },
+    {
+      "in": "pitch|111",
+      "out": "false"
+    },
+    {
+      "in": "pitch|112",
+      "out": "false"
+    },
+    {
+      "in": "pitch|113",
+      "out": "false"
+    },
+    {
+      "in": "pitch|114",
+      "out": "false"
+    },
+    {
+      "in": "pitch|115",
+      "out": "false"
+    },
+    {
+      "in": "pitch|116",
+      "out": "false"
+    },
+    {
+      "in": "pitch|117",
+      "out": "false"
+    },
+    {
+      "in": "pitch|118",
+      "out": "false"
+    },
+    {
+      "in": "pitch|119",
+      "out": "false"
+    },
+    {
+      "in": "pitch|120",
+      "out": "false"
+    },
+    {
+      "in": "pitch|121",
+      "out": "false"
+    },
+    {
+      "in": "pitch|122",
+      "out": "false"
+    },
+    {
+      "in": "pitch|123",
+      "out": "false"
+    },
+    {
+      "in": "pitch|124",
+      "out": "false"
+    },
+    {
+      "in": "pitch|125",
+      "out": "false"
+    },
+    {
+      "in": "pitch|126",
+      "out": "false"
+    },
+    {
+      "in": "pitch|127",
+      "out": "false"
+    },
+    {
+      "in": "pitch|128",
+      "out": "false"
+    },
+    {
+      "in": "pitch|129",
+      "out": "false"
+    },
+    {
+      "in": "pitch|130",
+      "out": "false"
+    },
+    {
+      "in": "pitch|131",
+      "out": "false"
+    },
+    {
+      "in": "pitch|132",
+      "out": "false"
+    },
+    {
+      "in": "pitch|133",
+      "out": "false"
+    },
+    {
+      "in": "pitch|134",
+      "out": "false"
+    },
+    {
+      "in": "pitch|135",
+      "out": "false"
+    },
+    {
+      "in": "pitch|136",
+      "out": "false"
+    },
+    {
+      "in": "pitch|137",
+      "out": "false"
+    },
+    {
+      "in": "pitch|138",
+      "out": "false"
+    },
+    {
+      "in": "pitch|139",
+      "out": "false"
+    },
+    {
+      "in": "pitch|140",
+      "out": "false"
+    },
+    {
+      "in": "pitch|141",
+      "out": "false"
+    },
+    {
+      "in": "pitch|142",
+      "out": "false"
+    },
+    {
+      "in": "pitch|143",
+      "out": "false"
+    },
+    {
+      "in": "pitch|144",
+      "out": "false"
+    },
+    {
+      "in": "pitch|145",
+      "out": "false"
+    },
+    {
+      "in": "pitch|146",
+      "out": "false"
+    },
+    {
+      "in": "pitch|147",
+      "out": "false"
+    },
+    {
+      "in": "pitch|148",
+      "out": "false"
+    },
+    {
+      "in": "pitch|149",
+      "out": "false"
+    },
+    {
+      "in": "pitch|150",
+      "out": "false"
+    },
+    {
+      "in": "pitch|151",
+      "out": "false"
+    },
+    {
+      "in": "pitch|152",
+      "out": "false"
+    },
+    {
+      "in": "pitch|153",
+      "out": "false"
+    },
+    {
+      "in": "pitch|154",
+      "out": "false"
+    },
+    {
+      "in": "pitch|155",
+      "out": "false"
+    },
+    {
+      "in": "pitch|156",
+      "out": "false"
+    },
+    {
+      "in": "pitch|157",
+      "out": "false"
+    },
+    {
+      "in": "pitch|158",
+      "out": "false"
+    },
+    {
+      "in": "pitch|159",
+      "out": "false"
+    },
+    {
+      "in": "pitch|160",
+      "out": "false"
+    },
+    {
+      "in": "pitch|161",
+      "out": "false"
+    },
+    {
+      "in": "pitch|162",
+      "out": "false"
+    },
+    {
+      "in": "pitch|163",
+      "out": "false"
+    },
+    {
+      "in": "pitch|164",
+      "out": "false"
+    },
+    {
+      "in": "pitch|165",
+      "out": "false"
+    },
+    {
+      "in": "pitch|166",
+      "out": "false"
+    },
+    {
+      "in": "pitch|167",
+      "out": "false"
+    },
+    {
+      "in": "pitch|168",
+      "out": "false"
+    },
+    {
+      "in": "pitch|169",
+      "out": "false"
+    },
+    {
+      "in": "pitch|170",
+      "out": "false"
+    },
+    {
+      "in": "pitch|171",
+      "out": "false"
+    },
+    {
+      "in": "pitch|172",
+      "out": "false"
+    },
+    {
+      "in": "pitch|173",
+      "out": "false"
+    },
+    {
+      "in": "pitch|174",
+      "out": "false"
+    },
+    {
+      "in": "pitch|175",
+      "out": "false"
+    },
+    {
+      "in": "pitch|176",
+      "out": "false"
+    },
+    {
+      "in": "pitch|177",
+      "out": "false"
+    },
+    {
+      "in": "pitch|178",
+      "out": "false"
+    },
+    {
+      "in": "pitch|179",
+      "out": "false"
+    },
+    {
+      "in": "pitch|180",
+      "out": "false"
+    },
+    {
+      "in": "pitch|181",
+      "out": "false"
+    },
+    {
+      "in": "pitch|182",
+      "out": "false"
+    },
+    {
+      "in": "pitch|183",
+      "out": "false"
+    },
+    {
+      "in": "pitch|184",
+      "out": "false"
+    },
+    {
+      "in": "pitch|185",
+      "out": "false"
+    },
+    {
+      "in": "pitch|186",
+      "out": "false"
+    },
+    {
+      "in": "pitch|187",
+      "out": "false"
+    },
+    {
+      "in": "pitch|188",
+      "out": "false"
+    },
+    {
+      "in": "pitch|189",
+      "out": "false"
+    },
+    {
+      "in": "pitch|190",
+      "out": "false"
+    },
+    {
+      "in": "pitch|191",
+      "out": "false"
+    },
+    {
+      "in": "pitch|192",
+      "out": "false"
+    },
+    {
+      "in": "pitch|193",
+      "out": "false"
+    },
+    {
+      "in": "pitch|194",
+      "out": "false"
+    },
+    {
+      "in": "pitch|195",
+      "out": "false"
+    },
+    {
+      "in": "pitch|196",
+      "out": "false"
+    },
+    {
+      "in": "pitch|197",
+      "out": "false"
+    },
+    {
+      "in": "pitch|198",
+      "out": "true"
+    },
+    {
+      "in": "pitch|199",
+      "out": "false"
+    },
+    {
+      "in": "chum|Steve's Chum Bucket|null|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|Steve's Chum Bucket|null|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Steve's Chum Bucket|Ashton|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|Steve's Chum Bucket|Ashton|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Steve's Chum Bucket||false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Steve's Chum Bucket||true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Steve's Chum Bucket|Steve|false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Steve's Chum Bucket|Steve|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashton's Chum Bucket|null|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashton's Chum Bucket|null|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashton's Chum Bucket|Ashton|false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Ashton's Chum Bucket|Ashton|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashton's Chum Bucket||false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Ashton's Chum Bucket||true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashton's Chum Bucket|Steve|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashton's Chum Bucket|Steve|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashton's Chumcap Bucket|null|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashton's Chumcap Bucket|null|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashton's Chumcap Bucket|Ashton|false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Ashton's Chumcap Bucket|Ashton|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashton's Chumcap Bucket||false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Ashton's Chumcap Bucket||true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashton's Chumcap Bucket|Steve|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashton's Chumcap Bucket|Steve|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashtonite's Chum Bucket|null|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashtonite's Chum Bucket|null|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashtonite's Chum Bucket|Ashton|false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Ashtonite's Chum Bucket|Ashton|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashtonite's Chum Bucket||false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Ashtonite's Chum Bucket||true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashtonite's Chum Bucket|Steve|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|Ashtonite's Chum Bucket|Steve|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|5/10 Chums|null|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|5/10 Chums|null|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|5/10 Chums|Ashton|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|5/10 Chums|Ashton|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|5/10 Chums||false",
+      "out": "true"
+    },
+    {
+      "in": "chum|5/10 Chums||true",
+      "out": "true"
+    },
+    {
+      "in": "chum|5/10 Chums|Steve|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|5/10 Chums|Steve|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|10/10 Chums |null|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|10/10 Chums |null|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|10/10 Chums |Ashton|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|10/10 Chums |Ashton|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|10/10 Chums ||false",
+      "out": "true"
+    },
+    {
+      "in": "chum|10/10 Chums ||true",
+      "out": "true"
+    },
+    {
+      "in": "chum|10/10 Chums |Steve|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|10/10 Chums |Steve|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|Chum Bucket|null|false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Chum Bucket|null|true",
+      "out": "false"
+    },
+    {
+      "in": "chum|Chum Bucket|Ashton|false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Chum Bucket|Ashton|true",
+      "out": "false"
+    },
+    {
+      "in": "chum|Chum Bucket||false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Chum Bucket||true",
+      "out": "false"
+    },
+    {
+      "in": "chum|Chum Bucket|Steve|false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Chum Bucket|Steve|true",
+      "out": "false"
+    },
+    {
+      "in": "chum|'s Chum Bucket|null|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|'s Chum Bucket|null|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|'s Chum Bucket|Ashton|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|'s Chum Bucket|Ashton|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|'s Chum Bucket||false",
+      "out": "false"
+    },
+    {
+      "in": "chum|'s Chum Bucket||true",
+      "out": "true"
+    },
+    {
+      "in": "chum|'s Chum Bucket|Steve|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|'s Chum Bucket|Steve|true",
+      "out": "true"
+    },
+    {
+      "in": "chum||null|false",
+      "out": "false"
+    },
+    {
+      "in": "chum||null|true",
+      "out": "false"
+    },
+    {
+      "in": "chum||Ashton|false",
+      "out": "false"
+    },
+    {
+      "in": "chum||Ashton|true",
+      "out": "false"
+    },
+    {
+      "in": "chum|||false",
+      "out": "false"
+    },
+    {
+      "in": "chum|||true",
+      "out": "false"
+    },
+    {
+      "in": "chum||Steve|false",
+      "out": "false"
+    },
+    {
+      "in": "chum||Steve|true",
+      "out": "false"
+    },
+    {
+      "in": "chum|Ashton's chum bucket|null|false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Ashton's chum bucket|null|true",
+      "out": "false"
+    },
+    {
+      "in": "chum|Ashton's chum bucket|Ashton|false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Ashton's chum bucket|Ashton|true",
+      "out": "false"
+    },
+    {
+      "in": "chum|Ashton's chum bucket||false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Ashton's chum bucket||true",
+      "out": "false"
+    },
+    {
+      "in": "chum|Ashton's chum bucket|Steve|false",
+      "out": "false"
+    },
+    {
+      "in": "chum|Ashton's chum bucket|Steve|true",
+      "out": "false"
+    },
+    {
+      "in": "chum|x's Chumcap Bucket 5/10 Chums|null|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|x's Chumcap Bucket 5/10 Chums|null|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|x's Chumcap Bucket 5/10 Chums|Ashton|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|x's Chumcap Bucket 5/10 Chums|Ashton|true",
+      "out": "true"
+    },
+    {
+      "in": "chum|x's Chumcap Bucket 5/10 Chums||false",
+      "out": "true"
+    },
+    {
+      "in": "chum|x's Chumcap Bucket 5/10 Chums||true",
+      "out": "true"
+    },
+    {
+      "in": "chum|x's Chumcap Bucket 5/10 Chums|Steve|false",
+      "out": "true"
+    },
+    {
+      "in": "chum|x's Chumcap Bucket 5/10 Chums|Steve|true",
+      "out": "true"
+    },
+    {
+      "in": "area|BlockPos{x=0, y=0, z=0}",
+      "out": "AABB[-4.0, -4.0, -4.0] -> [5.0, 5.0, 5.0]"
+    },
+    {
+      "in": "area|BlockPos{x=-10, y=64, z=300}",
+      "out": "AABB[-14.0, 60.0, 296.0] -> [-5.0, 69.0, 305.0]"
+    },
+    {
+      "in": "area|BlockPos{x=2147483645, y=-64, z=-2147483646}",
+      "out": "AABB[-2.147483646E9, -68.0, -2.147483641E9] -> [2.147483641E9, -59.0, 2.147483646E9]"
+    },
+    {
+      "in": "shard|You caught a Cinderbat Shard!",
+      "out": "(SHARD_CINDERBAT, 1)"
+    },
+    {
+      "in": "shard|You caught an Azure Shard!",
+      "out": "(SHARD_AZURE, 1)"
+    },
+    {
+      "in": "shard|LOOT SHARE You received 3x Lunar Moth Shards!",
+      "out": "(SHARD_LUNAR_MOTH, 3)"
+    },
+    {
+      "in": "shard|You received x2 Bal's Shards!",
+      "out": "(SHARD_BAL_S, 2)"
+    },
+    {
+      "in": "shard|NAGA 5 Tadgang Shards",
+      "out": "(SHARD_TADGANG, 5)"
+    },
+    {
+      "in": "shard|SALT Salt Shard",
+      "out": "(SHARD_SALT, 1)"
+    },
+    {
+      "in": "shard|§aYou caught §9a Hideonleaf Shard§a!",
+      "out": "(SHARD_HIDEONLEAF, 1)"
+    },
+    {
+      "in": "shard|You caught a Shard!",
+      "out": "(SHARD_A, 1)"
+    },
+    {
+      "in": "shard|Random text",
+      "out": "null"
+    },
+    {
+      "in": "shard|You caught 99999999999999999999x Big Shards!",
+      "out": "(SHARD_BIG, 1)"
+    },
+    {
+      "in": "shard|You caught a Sea-Archer Shard!",
+      "out": "(SHARD_SEA_ARCHER, 1)"
+    },
+    {
+      "in": "shard|NAGA x12x Cod Shard!!",
+      "out": "(SHARD_COD, 12)"
+    },
+    {
+      "in": "shard|abc You caught a Kraken Shard! def",
+      "out": "(SHARD_KRAKEN, 1)"
+    },
+    {
+      "in": "shard|You caught a  Shard",
+      "out": "(SHARD_A, 1)"
+    },
+    {
+      "in": "fillet|BLOBFISH_GOLD|0",
+      "out": "null"
+    },
+    {
+      "in": "fillet|BLOBFISH_GOLD|1",
+      "out": "3"
+    },
+    {
+      "in": "fillet|BLOBFISH_GOLD|2",
+      "out": "null"
+    },
+    {
+      "in": "fillet|BLOBFISH_BRONZE|0",
+      "out": "null"
+    },
+    {
+      "in": "fillet|BLOBFISH_BRONZE|1",
+      "out": "1"
+    },
+    {
+      "in": "fillet|BLOBFISH_BRONZE|2",
+      "out": "null"
+    },
+    {
+      "in": "fillet|BLOBFISH_DIAMOND|0",
+      "out": "null"
+    },
+    {
+      "in": "fillet|BLOBFISH_DIAMOND|1",
+      "out": "4"
+    },
+    {
+      "in": "fillet|BLOBFISH_DIAMOND|2",
+      "out": "null"
+    },
+    {
+      "in": "fillet|SULPHUR_SKITTER_SILVER|0",
+      "out": "null"
+    },
+    {
+      "in": "fillet|SULPHUR_SKITTER_SILVER|1",
+      "out": "6"
+    },
+    {
+      "in": "fillet|SULPHUR_SKITTER_SILVER|2",
+      "out": "1"
+    },
+    {
+      "in": "fillet|SULPHUR_SKITTER|0",
+      "out": "null"
+    },
+    {
+      "in": "fillet|SULPHUR_SKITTER|1",
+      "out": "null"
+    },
+    {
+      "in": "fillet|SULPHUR_SKITTER|2",
+      "out": "null"
+    },
+    {
+      "in": "fillet|GOLD|0",
+      "out": "null"
+    },
+    {
+      "in": "fillet|GOLD|1",
+      "out": "null"
+    },
+    {
+      "in": "fillet|GOLD|2",
+      "out": "null"
+    },
+    {
+      "in": "fillet|_GOLD|0",
+      "out": "null"
+    },
+    {
+      "in": "fillet|_GOLD|1",
+      "out": "9"
+    },
+    {
+      "in": "fillet|_GOLD|2",
+      "out": "null"
+    },
+    {
+      "in": "fillet|UNKNOWN_DIAMOND|0",
+      "out": "null"
+    },
+    {
+      "in": "fillet|UNKNOWN_DIAMOND|1",
+      "out": "null"
+    },
+    {
+      "in": "fillet|UNKNOWN_DIAMOND|2",
+      "out": "null"
+    },
+    {
+      "in": "fillet|BLOBFISH_PLATINUM|0",
+      "out": "null"
+    },
+    {
+      "in": "fillet|BLOBFISH_PLATINUM|1",
+      "out": "null"
+    },
+    {
+      "in": "fillet|BLOBFISH_PLATINUM|2",
+      "out": "null"
+    },
+    {
+      "in": "fillet||0",
+      "out": "null"
+    },
+    {
+      "in": "fillet||1",
+      "out": "null"
+    },
+    {
+      "in": "fillet||2",
+      "out": "null"
+    },
+    {
+      "in": "fillet|VOLCANIC_STONEFISH_DIAMOND|0",
+      "out": "null"
+    },
+    {
+      "in": "fillet|VOLCANIC_STONEFISH_DIAMOND|1",
+      "out": "40"
+    },
+    {
+      "in": "fillet|VOLCANIC_STONEFISH_DIAMOND|2",
+      "out": "null"
+    },
+    {
+      "in": "rd|readmissing",
+      "out": "null"
+    },
+    {
+      "in": "rd|selftest",
+      "out": "63"
+    },
+    {
+      "in": "rd|loadJson",
+      "out": "{\"_comment\":\"PlusRepoData self-test fixture\",\"values\":[1,2,3]}"
+    },
+    {
+      "in": "rd|loadJson2",
+      "out": "true"
+    },
+    {
+      "in": "rd|missing",
+      "out": "null"
+    },
+    {
+      "in": "rd|README",
+      "out": "null"
+    },
+    {
+      "in": "rd|parse",
+      "out": "{\"a\":[1,2]}"
+    },
+    {
+      "in": "rd|parsebad",
+      "out": "THROWS JsonDecodingException"
+    },
+    {
+      "in": "rd|anita",
+      "out": "651"
+    },
+    {
+      "in": "rd|repomissing",
+      "out": "null"
+    },
+    {
+      "in": "pat|0|same",
+      "out": "true true"
+    },
+    {
+      "in": "pat|0|true|m",
+      "out": "true"
+    },
+    {
+      "in": "pat|0|true|mm",
+      "out": "Hello World/1"
+    },
+    {
+      "in": "pat|0|true|fm",
+      "out": "Hello World/0/null/null/null"
+    },
+    {
+      "in": "pat|0|true|any",
+      "out": "true"
+    },
+    {
+      "in": "pat|0|false|m",
+      "out": "false"
+    },
+    {
+      "in": "pat|0|false|mm",
+      "out": "null"
+    },
+    {
+      "in": "pat|0|false|fm",
+      "out": "Hello World/2/null/null/null"
+    },
+    {
+      "in": "pat|0|false|any",
+      "out": "true"
+    },
+    {
+      "in": "pat|0|check",
+      "out": "[should match: abc, should match: , should match: §§x, should match: Wo§rrld]"
+    },
+    {
+      "in": "pat|1|same",
+      "out": "true true"
+    },
+    {
+      "in": "pat|1|true|m",
+      "out": "false"
+    },
+    {
+      "in": "pat|1|true|mm",
+      "out": "null"
+    },
+    {
+      "in": "pat|1|true|fm",
+      "out": "World/6/null/null/null"
+    },
+    {
+      "in": "pat|1|true|any",
+      "out": "true"
+    },
+    {
+      "in": "pat|1|false|m",
+      "out": "false"
+    },
+    {
+      "in": "pat|1|false|mm",
+      "out": "null"
+    },
+    {
+      "in": "pat|1|false|fm",
+      "out": "World/6/null/null/null"
+    },
+    {
+      "in": "pat|1|false|any",
+      "out": "false"
+    },
+    {
+      "in": "pat|1|check",
+      "out": "[should match: §aHello World, should match: Hello World, should match: abc, should match: , should match: §§x]"
+    },
+    {
+      "in": "pat|2|same",
+      "out": "true true"
+    },
+    {
+      "in": "pat|2|true|m",
+      "out": "true"
+    },
+    {
+      "in": "pat|2|true|mm",
+      "out": "abc/2"
+    },
+    {
+      "in": "pat|2|true|fm",
+      "out": "abc/0/a/null/null"
+    },
+    {
+      "in": "pat|2|true|any",
+      "out": "true"
+    },
+    {
+      "in": "pat|2|false|m",
+      "out": "true"
+    },
+    {
+      "in": "pat|2|false|mm",
+      "out": "abc/2"
+    },
+    {
+      "in": "pat|2|false|fm",
+      "out": "abc/0/a/null/null"
+    },
+    {
+      "in": "pat|2|false|any",
+      "out": "true"
+    },
+    {
+      "in": "pat|2|check",
+      "out": "[should match: §aHello World, should match: Hello World, should match: , should match: §§x, should match: Wo§rrld]"
+    },
+    {
+      "in": "pat|3|same",
+      "out": "true true"
+    },
+    {
+      "in": "pat|3|true|m",
+      "out": "true"
+    },
+    {
+      "in": "pat|3|true|mm",
+      "out": "/0"
+    },
+    {
+      "in": "pat|3|true|fm",
+      "out": "/0/null/null/null"
+    },
+    {
+      "in": "pat|3|true|any",
+      "out": "true"
+    },
+    {
+      "in": "pat|3|false|m",
+      "out": "true"
+    },
+    {
+      "in": "pat|3|false|mm",
+      "out": "/0"
+    },
+    {
+      "in": "pat|3|false|fm",
+      "out": "/0/null/null/null"
+    },
+    {
+      "in": "pat|3|false|any",
+      "out": "true"
+    },
+    {
+      "in": "pat|3|check",
+      "out": "[should not match: §aHello World!, should not match: Hello World!, should not match: abc!, should not match: !, should not match: §§x!, should not match: Wo§rrld!]"
+    },
+    {
+      "in": "pat|4|same",
+      "out": "true true"
+    },
+    {
+      "in": "pat|4|true|m",
+      "out": "true"
+    },
+    {
+      "in": "pat|4|true|mm",
+      "out": "x/0"
+    },
+    {
+      "in": "pat|4|true|fm",
+      "out": "x/0/null/null/null"
+    },
+    {
+      "in": "pat|4|true|any",
+      "out": "true"
+    },
+    {
+      "in": "pat|4|false|m",
+      "out": "false"
+    },
+    {
+      "in": "pat|4|false|mm",
+      "out": "null"
+    },
+    {
+      "in": "pat|4|false|fm",
+      "out": "x/2/null/null/null"
+    },
+    {
+      "in": "pat|4|false|any",
+      "out": "false"
+    },
+    {
+      "in": "pat|4|check",
+      "out": "[should match: §aHello World, should match: Hello World, should match: abc, should match: , should match: Wo§rrld]"
+    },
+    {
+      "in": "pat|5|same",
+      "out": "true true"
+    },
+    {
+      "in": "pat|5|true|m",
+      "out": "true"
+    },
+    {
+      "in": "pat|5|true|mm",
+      "out": "World/0"
+    },
+    {
+      "in": "pat|5|true|fm",
+      "out": "World/0/null/null/null"
+    },
+    {
+      "in": "pat|5|true|any",
+      "out": "true"
+    },
+    {
+      "in": "pat|5|false|m",
+      "out": "false"
+    },
+    {
+      "in": "pat|5|false|mm",
+      "out": "null"
+    },
+    {
+      "in": "pat|5|false|fm",
+      "out": "null"
+    },
+    {
+      "in": "pat|5|false|any",
+      "out": "false"
+    },
+    {
+      "in": "pat|5|check",
+      "out": "[should match: §aHello World, should match: Hello World, should match: abc, should match: , should match: §§x]"
+    },
+    {
+      "in": "grp",
+      "out": "golden15.grp a+ true"
+    },
+    {
+      "in": "boss|§cUnknown Thing 500k❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cArachne  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Dragon 3M/0❤",
+      "out": "BossTag(name=Dragon, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cDragon 12❤ §e✯",
+      "out": "BossTag(name=Dragon, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Arachne  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cSea Emperor 5b/10B❤",
+      "out": "BossTag(name=Sea Emperor, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Sea Emperor 5b/10B❤ §e✯",
+      "out": "BossTag(name=Sea Emperor, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Revenant Horror 0/0❤",
+      "out": "BossTag(name=Revenant Horror, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c☠ Atoned Horror IV 1.5M/3M❤ §e✯",
+      "out": "BossTag(name=Atoned Horror, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Dragon 1.5M/3M❤",
+      "out": "BossTag(name=Dragon, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Storm 3M/0❤",
+      "out": "BossTag(name=Storm, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c☠ Kuudra 5b/10B❤",
+      "out": "BossTag(name=Kuudra, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Storm 7/❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cPrimal Fear 500k❤ §e✯",
+      "out": "BossTag(name=Primal Fear, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cDragon 500k❤ §e✯",
+      "out": "BossTag(name=Dragon, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cStorm ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Arachne 12❤",
+      "out": "BossTag(name=Arachne, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Dragon 1.5M/3M❤",
+      "out": "BossTag(name=Dragon, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§cUnknown Thing 1,234/2,000❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Atoned Horror IV 3M/0❤ §e✯",
+      "out": "BossTag(name=Atoned Horror, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cDragon  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Dragon 5b/10B❤ §e✯",
+      "out": "BossTag(name=Dragon, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Unknown Thing 7/❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Sea Emperor 1,234/2,000❤",
+      "out": "BossTag(name=Sea Emperor, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c☠ Primal Fear 500k❤",
+      "out": "BossTag(name=Primal Fear, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Revenant Horror 1,234/2,000❤",
+      "out": "BossTag(name=Revenant Horror, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§cRevenant Horror 7/❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV 500k❤",
+      "out": "BossTag(name=Atoned Horror, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Dragon 12❤",
+      "out": "BossTag(name=Dragon, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Dragon 1.2.3/4❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cArachne ❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Revenant Horror ",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cRevenant Horror ",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Kuudra 1.2.3/4❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Unknown Thing 3M/0❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Arachne 0/0❤ §e✯",
+      "out": "BossTag(name=Arachne, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cKuudra  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Primal Fear 7/❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Sea Emperor  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Dragon 1.2.3/4❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Sea Emperor 1,234/2,000❤ §e✯",
+      "out": "BossTag(name=Sea Emperor, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV 5b/10B❤",
+      "out": "BossTag(name=Atoned Horror, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Dragon 12❤ §e✯",
+      "out": "BossTag(name=Dragon, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Storm 12❤ §e✯",
+      "out": "BossTag(name=Storm, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Storm 3M/0❤ §e✯",
+      "out": "BossTag(name=Storm, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c☠ Sea Emperor 1.2.3/4❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Primal Fear 12❤",
+      "out": "BossTag(name=Primal Fear, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Unknown Thing 5b/10B❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Arachne 500k❤ §e✯",
+      "out": "BossTag(name=Arachne, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Sea Emperor 1,234/2,000❤",
+      "out": "BossTag(name=Sea Emperor, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c☠ Dragon 5b/10B❤ §e✯",
+      "out": "BossTag(name=Dragon, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Kuudra 500k❤ §e✯",
+      "out": "BossTag(name=Kuudra, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Kuudra 0/0❤ §e✯",
+      "out": "BossTag(name=Kuudra, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cKuudra ❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Kuudra abc❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Dragon 7/❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cKuudra 1.2.3/4❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Kuudra abc❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV 1.2.3/4❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Dragon 1.5M/3M❤ §e✯",
+      "out": "BossTag(name=Dragon, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§cRevenant Horror ❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Storm 5b/10B❤ §e✯",
+      "out": "BossTag(name=Storm, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Sea Emperor 1.5M/3M❤ §e✯",
+      "out": "BossTag(name=Sea Emperor, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§cArachne 0/0❤ §e✯",
+      "out": "BossTag(name=Arachne, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Unknown Thing 500k❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Primal Fear 500k❤",
+      "out": "BossTag(name=Primal Fear, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Primal Fear  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Primal Fear 0/0❤ §e✯",
+      "out": "BossTag(name=Primal Fear, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Atoned Horror IV 1.5M/3M❤",
+      "out": "BossTag(name=Atoned Horror, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Revenant Horror 5b/10B❤",
+      "out": "BossTag(name=Revenant Horror, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§cDragon ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Dragon ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cPrimal Fear 1.5M/3M❤",
+      "out": "BossTag(name=Primal Fear, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Revenant Horror 1,234/2,000❤ §e✯",
+      "out": "BossTag(name=Revenant Horror, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c[Lv99] Arachne 12❤ §e✯",
+      "out": "BossTag(name=Arachne, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cStorm 1,234/2,000❤",
+      "out": "BossTag(name=Storm, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c☠ Kuudra ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Arachne ❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Primal Fear 500k❤ §e✯",
+      "out": "BossTag(name=Primal Fear, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Revenant Horror 1.5M/3M❤ §e✯",
+      "out": "BossTag(name=Revenant Horror, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Unknown Thing abc❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cArachne 1,234/2,000❤ §e✯",
+      "out": "BossTag(name=Arachne, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§cRevenant Horror 3M/0❤ §e✯",
+      "out": "BossTag(name=Revenant Horror, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Arachne 1.2.3/4❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cUnknown Thing abc❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Dragon 1,234/2,000❤",
+      "out": "BossTag(name=Dragon, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c[Lv99] Dragon 1,234/2,000❤",
+      "out": "BossTag(name=Dragon, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c☠ Revenant Horror 12❤ §e✯",
+      "out": "BossTag(name=Revenant Horror, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Arachne 500k❤",
+      "out": "BossTag(name=Arachne, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Kuudra 5b/10B❤",
+      "out": "BossTag(name=Kuudra, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Sea Emperor 3M/0❤",
+      "out": "BossTag(name=Sea Emperor, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Kuudra 12❤ §e✯",
+      "out": "BossTag(name=Kuudra, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Atoned Horror IV 500k❤",
+      "out": "BossTag(name=Atoned Horror, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cStorm 12❤ §e✯",
+      "out": "BossTag(name=Storm, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Atoned Horror IV 5b/10B❤",
+      "out": "BossTag(name=Atoned Horror, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§cSea Emperor 0/0❤ §e✯",
+      "out": "BossTag(name=Sea Emperor, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c☠ Kuudra 500k❤",
+      "out": "BossTag(name=Kuudra, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Primal Fear 1.5M/3M❤",
+      "out": "BossTag(name=Primal Fear, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§cArachne 0/0❤ §e✯",
+      "out": "BossTag(name=Arachne, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Primal Fear ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Arachne 12❤",
+      "out": "BossTag(name=Arachne, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Atoned Horror IV 5b/10B❤",
+      "out": "BossTag(name=Atoned Horror, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV 12❤",
+      "out": "BossTag(name=Atoned Horror, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Primal Fear 1,234/2,000❤",
+      "out": "BossTag(name=Primal Fear, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§cDragon 7/❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Dragon 1.5M/3M❤",
+      "out": "BossTag(name=Dragon, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Storm 5b/10B❤",
+      "out": "BossTag(name=Storm, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Primal Fear 500k❤",
+      "out": "BossTag(name=Primal Fear, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Storm 500k❤ §e✯",
+      "out": "BossTag(name=Storm, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Dragon 1,234/2,000❤",
+      "out": "BossTag(name=Dragon, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c[Lv99] Sea Emperor 0/0❤",
+      "out": "BossTag(name=Sea Emperor, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cRevenant Horror 0/0❤ §e✯",
+      "out": "BossTag(name=Revenant Horror, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cPrimal Fear 12❤",
+      "out": "BossTag(name=Primal Fear, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cStorm ",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Revenant Horror  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Kuudra 500k❤",
+      "out": "BossTag(name=Kuudra, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cDragon 500k❤",
+      "out": "BossTag(name=Dragon, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Revenant Horror 1,234/2,000❤ §e✯",
+      "out": "BossTag(name=Revenant Horror, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c☠ Unknown Thing 7/❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Dragon ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Primal Fear 500k❤ §e✯",
+      "out": "BossTag(name=Primal Fear, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Sea Emperor 5b/10B❤",
+      "out": "BossTag(name=Sea Emperor, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§cStorm 7/❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV 500k❤",
+      "out": "BossTag(name=Atoned Horror, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Dragon 5b/10B❤ §e✯",
+      "out": "BossTag(name=Dragon, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Primal Fear 1.2.3/4❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Kuudra 0/0❤",
+      "out": "BossTag(name=Kuudra, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Sea Emperor ",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Unknown Thing abc❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Primal Fear abc❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Unknown Thing 1,234/2,000❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Sea Emperor 1.2.3/4❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Arachne 3M/0❤",
+      "out": "BossTag(name=Arachne, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Arachne 0/0❤ §e✯",
+      "out": "BossTag(name=Arachne, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cStorm 0/0❤",
+      "out": "BossTag(name=Storm, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Unknown Thing 1,234/2,000❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Atoned Horror IV 12❤ §e✯",
+      "out": "BossTag(name=Atoned Horror, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Storm ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cDragon 3M/0❤",
+      "out": "BossTag(name=Dragon, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cPrimal Fear 12❤",
+      "out": "BossTag(name=Primal Fear, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Unknown Thing 7/❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Primal Fear 1.5M/3M❤",
+      "out": "BossTag(name=Primal Fear, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Sea Emperor 5b/10B❤ §e✯",
+      "out": "BossTag(name=Sea Emperor, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Atoned Horror IV 3M/0❤",
+      "out": "BossTag(name=Atoned Horror, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c☠ Sea Emperor 5b/10B❤",
+      "out": "BossTag(name=Sea Emperor, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Unknown Thing 0/0❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cRevenant Horror 1.5M/3M❤ §e✯",
+      "out": "BossTag(name=Revenant Horror, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Sea Emperor 1,234/2,000❤",
+      "out": "BossTag(name=Sea Emperor, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c☠ Storm 1.5M/3M❤ §e✯",
+      "out": "BossTag(name=Storm, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§cDragon 500k❤ §e✯",
+      "out": "BossTag(name=Dragon, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cSea Emperor 5b/10B❤",
+      "out": "BossTag(name=Sea Emperor, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Unknown Thing 3M/0❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Atoned Horror IV 1,234/2,000❤",
+      "out": "BossTag(name=Atoned Horror, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c☠ Sea Emperor 5b/10B❤ §e✯",
+      "out": "BossTag(name=Sea Emperor, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Dragon ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cArachne 3M/0❤ §e✯",
+      "out": "BossTag(name=Arachne, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Primal Fear ",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cPrimal Fear 500k❤ §e✯",
+      "out": "BossTag(name=Primal Fear, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cArachne 1.5M/3M❤",
+      "out": "BossTag(name=Arachne, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Atoned Horror IV ❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Revenant Horror abc❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Dragon 1,234/2,000❤ §e✯",
+      "out": "BossTag(name=Dragon, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§cStorm 5b/10B❤ §e✯",
+      "out": "BossTag(name=Storm, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Sea Emperor ❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cDragon ❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Arachne ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cKuudra abc❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Kuudra 12❤ §e✯",
+      "out": "BossTag(name=Kuudra, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Primal Fear 12❤",
+      "out": "BossTag(name=Primal Fear, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Arachne ",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Unknown Thing 3M/0❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Unknown Thing 0/0❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cKuudra 12❤ §e✯",
+      "out": "BossTag(name=Kuudra, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Arachne ",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Unknown Thing 5b/10B❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cRevenant Horror 1.5M/3M❤",
+      "out": "BossTag(name=Revenant Horror, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Kuudra abc❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cPrimal Fear 3M/0❤",
+      "out": "BossTag(name=Primal Fear, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c☠ Primal Fear 12❤",
+      "out": "BossTag(name=Primal Fear, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cArachne ❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cKuudra  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cArachne 1.2.3/4❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Kuudra 500k❤ §e✯",
+      "out": "BossTag(name=Kuudra, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cArachne 500k❤",
+      "out": "BossTag(name=Arachne, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cUnknown Thing  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Kuudra 1.2.3/4❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Kuudra 1,234/2,000❤ §e✯",
+      "out": "BossTag(name=Kuudra, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV 3M/0❤",
+      "out": "BossTag(name=Atoned Horror, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c☠ Revenant Horror abc❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Atoned Horror IV ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Dragon 1,234/2,000❤ §e✯",
+      "out": "BossTag(name=Dragon, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§cPrimal Fear 1.5M/3M❤",
+      "out": "BossTag(name=Primal Fear, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Primal Fear 0/0❤",
+      "out": "BossTag(name=Primal Fear, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cPrimal Fear  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Unknown Thing 1,234/2,000❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Storm 3M/0❤",
+      "out": "BossTag(name=Storm, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV 12❤ §e✯",
+      "out": "BossTag(name=Atoned Horror, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cKuudra 1,234/2,000❤ §e✯",
+      "out": "BossTag(name=Kuudra, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c[Lv99] Sea Emperor 1.2.3/4❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Primal Fear 1,234/2,000❤",
+      "out": "BossTag(name=Primal Fear, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c[Lv99] Kuudra 1.2.3/4❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Primal Fear 3M/0❤",
+      "out": "BossTag(name=Primal Fear, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Primal Fear 0/0❤",
+      "out": "BossTag(name=Primal Fear, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c☠ Primal Fear 7/❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Primal Fear 0/0❤",
+      "out": "BossTag(name=Primal Fear, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Sea Emperor 0/0❤",
+      "out": "BossTag(name=Sea Emperor, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Atoned Horror IV 7/❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cKuudra 1.2.3/4❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cKuudra 7/❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cRevenant Horror 12❤ §e✯",
+      "out": "BossTag(name=Revenant Horror, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cDragon 500k❤",
+      "out": "BossTag(name=Dragon, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cSea Emperor 5b/10B❤",
+      "out": "BossTag(name=Sea Emperor, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Sea Emperor abc❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cSea Emperor 0/0❤",
+      "out": "BossTag(name=Sea Emperor, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cRevenant Horror 1.5M/3M❤ §e✯",
+      "out": "BossTag(name=Revenant Horror, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Atoned Horror IV 1,234/2,000❤ §e✯",
+      "out": "BossTag(name=Atoned Horror, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c☠ Unknown Thing 7/❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Revenant Horror ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cKuudra 5b/10B❤",
+      "out": "BossTag(name=Kuudra, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§cDragon 1,234/2,000❤",
+      "out": "BossTag(name=Dragon, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c☠ Unknown Thing ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cKuudra ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV 3M/0❤",
+      "out": "BossTag(name=Atoned Horror, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Primal Fear 0/0❤ §e✯",
+      "out": "BossTag(name=Primal Fear, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c☠ Atoned Horror IV 1.2.3/4❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Dragon 1,234/2,000❤ §e✯",
+      "out": "BossTag(name=Dragon, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV 7/❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cStorm 1.5M/3M❤",
+      "out": "BossTag(name=Storm, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Arachne 500k❤ §e✯",
+      "out": "BossTag(name=Arachne, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§cKuudra abc❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV 1.2.3/4❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Unknown Thing 500k❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Atoned Horror IV 7/❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Primal Fear ❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Atoned Horror IV 500k❤ §e✯",
+      "out": "BossTag(name=Atoned Horror, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Arachne 7/❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Dragon 1.5M/3M❤",
+      "out": "BossTag(name=Dragon, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Unknown Thing 500k❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Storm 500k❤",
+      "out": "BossTag(name=Storm, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Revenant Horror 5b/10B❤ §e✯",
+      "out": "BossTag(name=Revenant Horror, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Sea Emperor 3M/0❤",
+      "out": "BossTag(name=Sea Emperor, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cKuudra 1.5M/3M❤ §e✯",
+      "out": "BossTag(name=Kuudra, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§cArachne  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cUnknown Thing 7/❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cDragon 3M/0❤ §e✯",
+      "out": "BossTag(name=Dragon, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cDragon 12❤",
+      "out": "BossTag(name=Dragon, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Storm 1,234/2,000❤",
+      "out": "BossTag(name=Storm, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c☠ Revenant Horror ❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Sea Emperor  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Arachne abc❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Storm 7/❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Revenant Horror 1.2.3/4❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cUnknown Thing 12❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cSea Emperor 1,234/2,000❤",
+      "out": "BossTag(name=Sea Emperor, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c[Lv99] Arachne 3M/0❤ §e✯",
+      "out": "BossTag(name=Arachne, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cSea Emperor 5b/10B❤",
+      "out": "BossTag(name=Sea Emperor, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Atoned Horror IV abc❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Dragon 1.5M/3M❤ §e✯",
+      "out": "BossTag(name=Dragon, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§cRevenant Horror  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV 7/❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cSea Emperor 3M/0❤ §e✯",
+      "out": "BossTag(name=Sea Emperor, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cPrimal Fear ❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Revenant Horror 500k❤ §e✯",
+      "out": "BossTag(name=Revenant Horror, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Kuudra 1,234/2,000❤ §e✯",
+      "out": "BossTag(name=Kuudra, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§cPrimal Fear  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Storm 7/❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Revenant Horror 3M/0❤ §e✯",
+      "out": "BossTag(name=Revenant Horror, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§cRevenant Horror 5b/10B❤ §e✯",
+      "out": "BossTag(name=Revenant Horror, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Atoned Horror IV ❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Revenant Horror ❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cArachne 5b/10B❤",
+      "out": "BossTag(name=Arachne, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Sea Emperor 7/❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Primal Fear  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Sea Emperor  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cRevenant Horror 7/❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Atoned Horror IV 1,234/2,000❤",
+      "out": "BossTag(name=Atoned Horror, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c☠ Kuudra 5b/10B❤ §e✯",
+      "out": "BossTag(name=Kuudra, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV 5b/10B❤",
+      "out": "BossTag(name=Atoned Horror, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§cAtoned Horror IV abc❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Storm 3M/0❤ §e✯",
+      "out": "BossTag(name=Storm, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Unknown Thing 500k❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cPrimal Fear  §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Storm 1.2.3/4❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cRevenant Horror 12❤",
+      "out": "BossTag(name=Revenant Horror, health=12.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Kuudra 7/❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Kuudra 0/0❤ §e✯",
+      "out": "BossTag(name=Kuudra, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Atoned Horror IV 500k❤ §e✯",
+      "out": "BossTag(name=Atoned Horror, health=500000.0, maxHealth=null) null"
+    },
+    {
+      "in": "boss|§c☠ Arachne 1.5M/3M❤",
+      "out": "BossTag(name=Arachne, health=1500000.0, maxHealth=3000000.0) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Revenant Horror 3M/0❤ §e✯",
+      "out": "BossTag(name=Revenant Horror, health=3000000.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c[Lv99] Atoned Horror IV 1,234/2,000❤",
+      "out": "BossTag(name=Atoned Horror, health=1234.0, maxHealth=2000.0) 61.7"
+    },
+    {
+      "in": "boss|§c[Lv99] Unknown Thing 3M/0❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§cUnknown Thing ",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c☠ Dragon 5b/10B❤ §e✯",
+      "out": "BossTag(name=Dragon, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c[Lv99] Sea Emperor 0/0❤",
+      "out": "BossTag(name=Sea Emperor, health=0.0, maxHealth=0.0) null"
+    },
+    {
+      "in": "boss|§c☠ Storm 1.2.3/4❤",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Revenant Horror 5b/10B❤",
+      "out": "BossTag(name=Revenant Horror, health=5.0E9, maxHealth=1.0E10) 50.0"
+    },
+    {
+      "in": "boss|§c☠ Kuudra ❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "boss|§c[Lv99] Sea Emperor abc❤ §e✯",
+      "out": "null null"
+    },
+    {
+      "in": "bosses",
+      "out": "Revenant Horror, Atoned Horror, Tarantula Broodfather, Conjoined Brood, Sven Packmaster, Voidgloom Seraph, Inferno Demonlord, Riftstalker Bloodfiend, Arachne, Broodmother, Magma Boss, Bladesoul, Barbarian Duke X, Mage Outlaw, Ashfang, Kuudra, Dragon, Endstone Protector, Headless Horseman, Thunder, Lord Jawbus, Reindrake, Bonzo, Scarf, The Professor, Thorn, Livid, Sadan, Maxor, Storm, Goldor, Necron, Wither King, Leech Supreme, Bacte, Inquisitor, Minos Champion, Minotaur, Gaia Construct, Sea Emperor, Ragnarok, Grim Reaper, Phantom Fisher, Vanquisher, Matriarch, Mutant Tarantula, Primal Fear"
+    },
+    {
+      "in": "node|ENDER NODE! You found Enchanted Obsidian!",
+      "out": "(1, Enchanted Obsidian)"
+    },
+    {
+      "in": "stack|ENDER NODE! You found Enchanted Obsidian!",
+      "out": "null"
+    },
+    {
+      "in": "arachne|ENDER NODE! You found Enchanted Obsidian!",
+      "out": "false"
+    },
+    {
+      "in": "drop|ENDER NODE! You found Enchanted Obsidian!",
+      "out": "null"
+    },
+    {
+      "in": "summon|ENDER NODE! You found Enchanted Obsidian!",
+      "out": "false false"
+    },
+    {
+      "in": "node|ENDER NODE! You found 5x Enchanted Ender Pearl!",
+      "out": "(5, Enchanted Ender Pearl)"
+    },
+    {
+      "in": "stack|ENDER NODE! You found 5x Enchanted Ender Pearl!",
+      "out": "null"
+    },
+    {
+      "in": "arachne|ENDER NODE! You found 5x Enchanted Ender Pearl!",
+      "out": "false"
+    },
+    {
+      "in": "drop|ENDER NODE! You found 5x Enchanted Ender Pearl!",
+      "out": "null"
+    },
+    {
+      "in": "summon|ENDER NODE! You found 5x Enchanted Ender Pearl!",
+      "out": "false false"
+    },
+    {
+      "in": "node|ENDER NODE! You found 0x x!",
+      "out": "(0, x)"
+    },
+    {
+      "in": "stack|ENDER NODE! You found 0x x!",
+      "out": "null"
+    },
+    {
+      "in": "arachne|ENDER NODE! You found 0x x!",
+      "out": "false"
+    },
+    {
+      "in": "drop|ENDER NODE! You found 0x x!",
+      "out": "null"
+    },
+    {
+      "in": "summon|ENDER NODE! You found 0x x!",
+      "out": "false false"
+    },
+    {
+      "in": "node|ENDER NODE! You found 99999999999999999999x x!",
+      "out": "(1, x)"
+    },
+    {
+      "in": "stack|ENDER NODE! You found 99999999999999999999x x!",
+      "out": "null"
+    },
+    {
+      "in": "arachne|ENDER NODE! You found 99999999999999999999x x!",
+      "out": "false"
+    },
+    {
+      "in": "drop|ENDER NODE! You found 99999999999999999999x x!",
+      "out": "null"
+    },
+    {
+      "in": "summon|ENDER NODE! You found 99999999999999999999x x!",
+      "out": "false false"
+    },
+    {
+      "in": "node|ENDER NODE! You found !",
+      "out": "null"
+    },
+    {
+      "in": "stack|ENDER NODE! You found !",
+      "out": "null"
+    },
+    {
+      "in": "arachne|ENDER NODE! You found !",
+      "out": "false"
+    },
+    {
+      "in": "drop|ENDER NODE! You found !",
+      "out": "null"
+    },
+    {
+      "in": "summon|ENDER NODE! You found !",
+      "out": "false false"
+    },
+    {
+      "in": "node|RARE DROP! (2x) Dragon Claw (+150% ✯ Magic Find)",
+      "out": "null"
+    },
+    {
+      "in": "stack|RARE DROP! (2x) Dragon Claw (+150% ✯ Magic Find)",
+      "out": "null"
+    },
+    {
+      "in": "arachne|RARE DROP! (2x) Dragon Claw (+150% ✯ Magic Find)",
+      "out": "false"
+    },
+    {
+      "in": "drop|RARE DROP! (2x) Dragon Claw (+150% ✯ Magic Find)",
+      "out": "Dragon Claw"
+    },
+    {
+      "in": "summon|RARE DROP! (2x) Dragon Claw (+150% ✯ Magic Find)",
+      "out": "false false"
+    },
+    {
+      "in": "node|DROP! Summoning Eye",
+      "out": "null"
+    },
+    {
+      "in": "stack|DROP! Summoning Eye",
+      "out": "null"
+    },
+    {
+      "in": "arachne|DROP! Summoning Eye",
+      "out": "false"
+    },
+    {
+      "in": "drop|DROP! Summoning Eye",
+      "out": "Summoning Eye"
+    },
+    {
+      "in": "summon|DROP! Summoning Eye",
+      "out": "false false"
+    },
+    {
+      "in": "node|PET DROP! Ender Dragon (★)",
+      "out": "null"
+    },
+    {
+      "in": "stack|PET DROP! Ender Dragon (★)",
+      "out": "null"
+    },
+    {
+      "in": "arachne|PET DROP! Ender Dragon (★)",
+      "out": "false"
+    },
+    {
+      "in": "drop|PET DROP! Ender Dragon (★)",
+      "out": "Ender Dragon"
+    },
+    {
+      "in": "summon|PET DROP! Ender Dragon (★)",
+      "out": "false false"
+    },
+    {
+      "in": "node|LEGENDARY DROP! Aspect of the Dragons",
+      "out": "null"
+    },
+    {
+      "in": "stack|LEGENDARY DROP! Aspect of the Dragons",
+      "out": "null"
+    },
+    {
+      "in": "arachne|LEGENDARY DROP! Aspect of the Dragons",
+      "out": "false"
+    },
+    {
+      "in": "drop|LEGENDARY DROP! Aspect of the Dragons",
+      "out": "Aspect of the Dragons"
+    },
+    {
+      "in": "summon|LEGENDARY DROP! Aspect of the Dragons",
+      "out": "false false"
+    },
+    {
+      "in": "node| DROP! x",
+      "out": "null"
+    },
+    {
+      "in": "stack| DROP! x",
+      "out": "null"
+    },
+    {
+      "in": "arachne| DROP! x",
+      "out": "false"
+    },
+    {
+      "in": "drop| DROP! x",
+      "out": "x"
+    },
+    {
+      "in": "summon| DROP! x",
+      "out": "false false"
+    },
+    {
+      "in": "node|EPICDROP! y",
+      "out": "null"
+    },
+    {
+      "in": "stack|EPICDROP! y",
+      "out": "null"
+    },
+    {
+      "in": "arachne|EPICDROP! y",
+      "out": "false"
+    },
+    {
+      "in": "drop|EPICDROP! y",
+      "out": "y"
+    },
+    {
+      "in": "summon|EPICDROP! y",
+      "out": "false false"
+    },
+    {
+      "in": "node|You have spawned your Zealot soul! (500 Mana)",
+      "out": "null"
+    },
+    {
+      "in": "stack|You have spawned your Zealot soul! (500 Mana)",
+      "out": "null"
+    },
+    {
+      "in": "arachne|You have spawned your Zealot soul! (500 Mana)",
+      "out": "false"
+    },
+    {
+      "in": "drop|You have spawned your Zealot soul! (500 Mana)",
+      "out": "null"
+    },
+    {
+      "in": "summon|You have spawned your Zealot soul! (500 Mana)",
+      "out": "true false"
+    },
+    {
+      "in": "node|You have spawned your  soul! (5 Mana)",
+      "out": "null"
+    },
+    {
+      "in": "stack|You have spawned your  soul! (5 Mana)",
+      "out": "null"
+    },
+    {
+      "in": "arachne|You have spawned your  soul! (5 Mana)",
+      "out": "false"
+    },
+    {
+      "in": "drop|You have spawned your  soul! (5 Mana)",
+      "out": "null"
+    },
+    {
+      "in": "summon|You have spawned your  soul! (5 Mana)",
+      "out": "false false"
+    },
+    {
+      "in": "node|You have despawned your monster!",
+      "out": "null"
+    },
+    {
+      "in": "stack|You have despawned your monster!",
+      "out": "null"
+    },
+    {
+      "in": "arachne|You have despawned your monster!",
+      "out": "false"
+    },
+    {
+      "in": "drop|You have despawned your monster!",
+      "out": "null"
+    },
+    {
+      "in": "summon|You have despawned your monster!",
+      "out": "false true"
+    },
+    {
+      "in": "node|You have despawned your monsters!",
+      "out": "null"
+    },
+    {
+      "in": "stack|You have despawned your monsters!",
+      "out": "null"
+    },
+    {
+      "in": "arachne|You have despawned your monsters!",
+      "out": "false"
+    },
+    {
+      "in": "drop|You have despawned your monsters!",
+      "out": "null"
+    },
+    {
+      "in": "summon|You have despawned your monsters!",
+      "out": "false true"
+    },
+    {
+      "in": "node|The Seraph recalled your 3 summoned allies!",
+      "out": "null"
+    },
+    {
+      "in": "stack|The Seraph recalled your 3 summoned allies!",
+      "out": "null"
+    },
+    {
+      "in": "arachne|The Seraph recalled your 3 summoned allies!",
+      "out": "false"
+    },
+    {
+      "in": "drop|The Seraph recalled your 3 summoned allies!",
+      "out": "null"
+    },
+    {
+      "in": "summon|The Seraph recalled your 3 summoned allies!",
+      "out": "false true"
+    },
+    {
+      "in": "node|The Seraph recalled your summoned allies!",
+      "out": "null"
+    },
+    {
+      "in": "stack|The Seraph recalled your summoned allies!",
+      "out": "null"
+    },
+    {
+      "in": "arachne|The Seraph recalled your summoned allies!",
+      "out": "false"
+    },
+    {
+      "in": "drop|The Seraph recalled your summoned allies!",
+      "out": "null"
+    },
+    {
+      "in": "summon|The Seraph recalled your summoned allies!",
+      "out": "false false"
+    },
+    {
+      "in": "node|    ARACHNE DOWN!   ",
+      "out": "null"
+    },
+    {
+      "in": "stack|    ARACHNE DOWN!   ",
+      "out": "null"
+    },
+    {
+      "in": "arachne|    ARACHNE DOWN!   ",
+      "out": "true"
+    },
+    {
+      "in": "drop|    ARACHNE DOWN!   ",
+      "out": "null"
+    },
+    {
+      "in": "summon|    ARACHNE DOWN!   ",
+      "out": "false false"
+    },
+    {
+      "in": "node|ARACHNE DOWN",
+      "out": "null"
+    },
+    {
+      "in": "stack|ARACHNE DOWN",
+      "out": "null"
+    },
+    {
+      "in": "arachne|ARACHNE DOWN",
+      "out": "false"
+    },
+    {
+      "in": "drop|ARACHNE DOWN",
+      "out": "null"
+    },
+    {
+      "in": "summon|ARACHNE DOWN",
+      "out": "false false"
+    },
+    {
+      "in": "node|",
+      "out": "null"
+    },
+    {
+      "in": "stack|",
+      "out": "null"
+    },
+    {
+      "in": "arachne|",
+      "out": "false"
+    },
+    {
+      "in": "drop|",
+      "out": "null"
+    },
+    {
+      "in": "summon|",
+      "out": "false false"
+    },
+    {
+      "in": "node|foo 5ᝐ bar",
+      "out": "null"
+    },
+    {
+      "in": "stack|foo 5ᝐ bar",
+      "out": "5ᝐ"
+    },
+    {
+      "in": "arachne|foo 5ᝐ bar",
+      "out": "false"
+    },
+    {
+      "in": "drop|foo 5ᝐ bar",
+      "out": "null"
+    },
+    {
+      "in": "summon|foo 5ᝐ bar",
+      "out": "false false"
+    },
+    {
+      "in": "node|x 12⁑",
+      "out": "null"
+    },
+    {
+      "in": "stack|x 12⁑",
+      "out": "12⁑"
+    },
+    {
+      "in": "arachne|x 12⁑",
+      "out": "false"
+    },
+    {
+      "in": "drop|x 12⁑",
+      "out": "null"
+    },
+    {
+      "in": "summon|x 12⁑",
+      "out": "false false"
+    },
+    {
+      "in": "node| 3| ",
+      "out": "null"
+    },
+    {
+      "in": "stack| 3| ",
+      "out": "3|"
+    },
+    {
+      "in": "arachne| 3| ",
+      "out": "false"
+    },
+    {
+      "in": "drop| 3| ",
+      "out": "null"
+    },
+    {
+      "in": "summon| 3| ",
+      "out": "false false"
+    },
+    {
+      "in": "node|no stack 5Ѫ",
+      "out": "null"
+    },
+    {
+      "in": "stack|no stack 5Ѫ",
+      "out": "5Ѫ"
+    },
+    {
+      "in": "arachne|no stack 5Ѫ",
+      "out": "false"
+    },
+    {
+      "in": "drop|no stack 5Ѫ",
+      "out": "null"
+    },
+    {
+      "in": "summon|no stack 5Ѫ",
+      "out": "false false"
+    },
+    {
+      "in": "node| 7⚶ 8҉",
+      "out": "null"
+    },
+    {
+      "in": "stack| 7⚶ 8҉",
+      "out": "7⚶"
+    },
+    {
+      "in": "arachne| 7⚶ 8҉",
+      "out": "false"
+    },
+    {
+      "in": "drop| 7⚶ 8҉",
+      "out": "null"
+    },
+    {
+      "in": "summon| 7⚶ 8҉",
+      "out": "false false"
+    },
+    {
+      "in": "arachneconst",
+      "out": "[BOSS] Arachne: A befitting welcome![BOSS] Arachne: With your sacrifice."
+    },
+    {
+      "in": "brood|0",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|0",
+      "out": "null|EXPLOSIVE"
+    },
+    {
+      "in": "brood|1",
+      "out": "null"
+    },
+    {
+      "in": "volcano|1",
+      "out": ""
+    },
+    {
+      "in": "brood|2",
+      "out": "null"
+    },
+    {
+      "in": "volcano|2",
+      "out": ""
+    },
+    {
+      "in": "brood|3",
+      "out": "null"
+    },
+    {
+      "in": "volcano|3",
+      "out": ""
+    },
+    {
+      "in": "brood|4",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|4",
+      "out": "EXPLOSIVE|null|EXPLOSIVE|INACTIVE"
+    },
+    {
+      "in": "brood|5",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|5",
+      "out": "null|null|INACTIVE|null"
+    },
+    {
+      "in": "brood|6",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|6",
+      "out": "null|null|null|null"
+    },
+    {
+      "in": "brood|7",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|7",
+      "out": "null|null|null|INACTIVE"
+    },
+    {
+      "in": "brood|8",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|8",
+      "out": "null|null|EXPLOSIVE|null"
+    },
+    {
+      "in": "brood|9",
+      "out": "null"
+    },
+    {
+      "in": "volcano|9",
+      "out": ""
+    },
+    {
+      "in": "brood|10",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|10",
+      "out": "EXPLOSIVE|null|null|null"
+    },
+    {
+      "in": "brood|11",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|11",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|12",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|12",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|13",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|13",
+      "out": "null|null|null|null"
+    },
+    {
+      "in": "brood|14",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|14",
+      "out": "null"
+    },
+    {
+      "in": "brood|15",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|15",
+      "out": "null|INACTIVE|null"
+    },
+    {
+      "in": "brood|16",
+      "out": "null"
+    },
+    {
+      "in": "volcano|16",
+      "out": "null"
+    },
+    {
+      "in": "brood|17",
+      "out": "null"
+    },
+    {
+      "in": "volcano|17",
+      "out": ""
+    },
+    {
+      "in": "brood|18",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|18",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|19",
+      "out": "null"
+    },
+    {
+      "in": "volcano|19",
+      "out": "EXPLOSIVE|INACTIVE|null"
+    },
+    {
+      "in": "brood|20",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|20",
+      "out": "null"
+    },
+    {
+      "in": "brood|21",
+      "out": "null"
+    },
+    {
+      "in": "volcano|21",
+      "out": "null"
+    },
+    {
+      "in": "brood|22",
+      "out": "null"
+    },
+    {
+      "in": "volcano|22",
+      "out": ""
+    },
+    {
+      "in": "brood|23",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|23",
+      "out": "null|null|null|null"
+    },
+    {
+      "in": "brood|24",
+      "out": "null"
+    },
+    {
+      "in": "volcano|24",
+      "out": "null|INACTIVE"
+    },
+    {
+      "in": "brood|25",
+      "out": "null"
+    },
+    {
+      "in": "volcano|25",
+      "out": ""
+    },
+    {
+      "in": "brood|26",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|26",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|27",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|27",
+      "out": "null|null|null|null"
+    },
+    {
+      "in": "brood|28",
+      "out": "null"
+    },
+    {
+      "in": "volcano|28",
+      "out": "null"
+    },
+    {
+      "in": "brood|29",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|29",
+      "out": "EXPLOSIVE|null"
+    },
+    {
+      "in": "brood|30",
+      "out": "null"
+    },
+    {
+      "in": "volcano|30",
+      "out": ""
+    },
+    {
+      "in": "brood|31",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|31",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|32",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|32",
+      "out": "null"
+    },
+    {
+      "in": "brood|33",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|33",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|34",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|34",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|35",
+      "out": "null"
+    },
+    {
+      "in": "volcano|35",
+      "out": ""
+    },
+    {
+      "in": "brood|36",
+      "out": "null"
+    },
+    {
+      "in": "volcano|36",
+      "out": ""
+    },
+    {
+      "in": "brood|37",
+      "out": "null"
+    },
+    {
+      "in": "volcano|37",
+      "out": "INACTIVE"
+    },
+    {
+      "in": "brood|38",
+      "out": "null"
+    },
+    {
+      "in": "volcano|38",
+      "out": ""
+    },
+    {
+      "in": "brood|39",
+      "out": "null"
+    },
+    {
+      "in": "volcano|39",
+      "out": ""
+    },
+    {
+      "in": "brood|40",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|40",
+      "out": "null"
+    },
+    {
+      "in": "brood|41",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|41",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|42",
+      "out": "null"
+    },
+    {
+      "in": "volcano|42",
+      "out": "null|EXPLOSIVE|EXPLOSIVE"
+    },
+    {
+      "in": "brood|43",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|43",
+      "out": "null|null|EXPLOSIVE|null"
+    },
+    {
+      "in": "brood|44",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|44",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|45",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|45",
+      "out": "EXPLOSIVE|null|null"
+    },
+    {
+      "in": "brood|46",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|46",
+      "out": "EXPLOSIVE|null|null|EXPLOSIVE"
+    },
+    {
+      "in": "brood|47",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|47",
+      "out": "EXPLOSIVE|null|null"
+    },
+    {
+      "in": "brood|48",
+      "out": "null"
+    },
+    {
+      "in": "volcano|48",
+      "out": "INACTIVE|INACTIVE|EXPLOSIVE"
+    },
+    {
+      "in": "brood|49",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|49",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|50",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|50",
+      "out": "INACTIVE|null|EXPLOSIVE|null"
+    },
+    {
+      "in": "brood|51",
+      "out": "null"
+    },
+    {
+      "in": "volcano|51",
+      "out": ""
+    },
+    {
+      "in": "brood|52",
+      "out": "null"
+    },
+    {
+      "in": "volcano|52",
+      "out": "null"
+    },
+    {
+      "in": "brood|53",
+      "out": "null"
+    },
+    {
+      "in": "volcano|53",
+      "out": ""
+    },
+    {
+      "in": "brood|54",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|54",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|55",
+      "out": "null"
+    },
+    {
+      "in": "volcano|55",
+      "out": "null"
+    },
+    {
+      "in": "brood|56",
+      "out": "null"
+    },
+    {
+      "in": "volcano|56",
+      "out": ""
+    },
+    {
+      "in": "brood|57",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|57",
+      "out": "null|INACTIVE|null"
+    },
+    {
+      "in": "brood|58",
+      "out": "null"
+    },
+    {
+      "in": "volcano|58",
+      "out": "INACTIVE"
+    },
+    {
+      "in": "brood|59",
+      "out": "null"
+    },
+    {
+      "in": "volcano|59",
+      "out": ""
+    },
+    {
+      "in": "brood|60",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|60",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|61",
+      "out": "null"
+    },
+    {
+      "in": "volcano|61",
+      "out": "EXPLOSIVE"
+    },
+    {
+      "in": "brood|62",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|62",
+      "out": "null|null|null|null"
+    },
+    {
+      "in": "brood|63",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|63",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|64",
+      "out": "null"
+    },
+    {
+      "in": "volcano|64",
+      "out": "INACTIVE"
+    },
+    {
+      "in": "brood|65",
+      "out": "null"
+    },
+    {
+      "in": "volcano|65",
+      "out": "null"
+    },
+    {
+      "in": "brood|66",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|66",
+      "out": "null|INACTIVE|null|null"
+    },
+    {
+      "in": "brood|67",
+      "out": "null"
+    },
+    {
+      "in": "volcano|67",
+      "out": "null|EXPLOSIVE"
+    },
+    {
+      "in": "brood|68",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|68",
+      "out": "null|null|EXPLOSIVE|null"
+    },
+    {
+      "in": "brood|69",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|69",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|70",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|70",
+      "out": "null|null|null|null"
+    },
+    {
+      "in": "brood|71",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|71",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|72",
+      "out": "null"
+    },
+    {
+      "in": "volcano|72",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|73",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|73",
+      "out": "EXPLOSIVE|null|null|null"
+    },
+    {
+      "in": "brood|74",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|74",
+      "out": "INACTIVE|null|null"
+    },
+    {
+      "in": "brood|75",
+      "out": "null"
+    },
+    {
+      "in": "volcano|75",
+      "out": "null"
+    },
+    {
+      "in": "brood|76",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|76",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|77",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|77",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|78",
+      "out": "null"
+    },
+    {
+      "in": "volcano|78",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|79",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|79",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|80",
+      "out": "null"
+    },
+    {
+      "in": "volcano|80",
+      "out": "null"
+    },
+    {
+      "in": "brood|81",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|81",
+      "out": "EXPLOSIVE|null|null|null"
+    },
+    {
+      "in": "brood|82",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|82",
+      "out": "INACTIVE|null|null|INACTIVE"
+    },
+    {
+      "in": "brood|83",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|83",
+      "out": "null"
+    },
+    {
+      "in": "brood|84",
+      "out": "null"
+    },
+    {
+      "in": "volcano|84",
+      "out": ""
+    },
+    {
+      "in": "brood|85",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|85",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|86",
+      "out": "null"
+    },
+    {
+      "in": "volcano|86",
+      "out": "null"
+    },
+    {
+      "in": "brood|87",
+      "out": "null"
+    },
+    {
+      "in": "volcano|87",
+      "out": "INACTIVE|INACTIVE|null"
+    },
+    {
+      "in": "brood|88",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|88",
+      "out": "null|null|EXPLOSIVE|null"
+    },
+    {
+      "in": "brood|89",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|89",
+      "out": "null|EXPLOSIVE|null"
+    },
+    {
+      "in": "brood|90",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|90",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|91",
+      "out": "null"
+    },
+    {
+      "in": "volcano|91",
+      "out": "EXPLOSIVE|null|INACTIVE|INACTIVE"
+    },
+    {
+      "in": "brood|92",
+      "out": "null"
+    },
+    {
+      "in": "volcano|92",
+      "out": "null|null|null|null"
+    },
+    {
+      "in": "brood|93",
+      "out": "null"
+    },
+    {
+      "in": "volcano|93",
+      "out": "EXPLOSIVE|null"
+    },
+    {
+      "in": "brood|94",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|94",
+      "out": "null|null|EXPLOSIVE|null"
+    },
+    {
+      "in": "brood|95",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|95",
+      "out": "null"
+    },
+    {
+      "in": "brood|96",
+      "out": "null"
+    },
+    {
+      "in": "volcano|96",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|97",
+      "out": "null"
+    },
+    {
+      "in": "volcano|97",
+      "out": ""
+    },
+    {
+      "in": "brood|98",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|98",
+      "out": "EXPLOSIVE|null|null"
+    },
+    {
+      "in": "brood|99",
+      "out": "null"
+    },
+    {
+      "in": "volcano|99",
+      "out": "EXPLOSIVE|null"
+    },
+    {
+      "in": "brood|100",
+      "out": "null"
+    },
+    {
+      "in": "volcano|100",
+      "out": "EXPLOSIVE|INACTIVE"
+    },
+    {
+      "in": "brood|101",
+      "out": "null"
+    },
+    {
+      "in": "volcano|101",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|102",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|102",
+      "out": "EXPLOSIVE|null|null|EXPLOSIVE"
+    },
+    {
+      "in": "brood|103",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|103",
+      "out": "null"
+    },
+    {
+      "in": "brood|104",
+      "out": "null"
+    },
+    {
+      "in": "volcano|104",
+      "out": ""
+    },
+    {
+      "in": "brood|105",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|105",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|106",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|106",
+      "out": "null|null|EXPLOSIVE"
+    },
+    {
+      "in": "brood|107",
+      "out": "null"
+    },
+    {
+      "in": "volcano|107",
+      "out": "INACTIVE|null|null"
+    },
+    {
+      "in": "brood|108",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|108",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|109",
+      "out": "null"
+    },
+    {
+      "in": "volcano|109",
+      "out": ""
+    },
+    {
+      "in": "brood|110",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|110",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|111",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|111",
+      "out": "null"
+    },
+    {
+      "in": "brood|112",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|112",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|113",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|113",
+      "out": "null|INACTIVE|null"
+    },
+    {
+      "in": "brood|114",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|114",
+      "out": "null|null|null|null"
+    },
+    {
+      "in": "brood|115",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|115",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|116",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|116",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|117",
+      "out": "null"
+    },
+    {
+      "in": "volcano|117",
+      "out": "EXPLOSIVE"
+    },
+    {
+      "in": "brood|118",
+      "out": "null"
+    },
+    {
+      "in": "volcano|118",
+      "out": "EXPLOSIVE"
+    },
+    {
+      "in": "brood|119",
+      "out": "null"
+    },
+    {
+      "in": "volcano|119",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|120",
+      "out": "null"
+    },
+    {
+      "in": "volcano|120",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|121",
+      "out": "null"
+    },
+    {
+      "in": "volcano|121",
+      "out": "null|EXPLOSIVE"
+    },
+    {
+      "in": "brood|122",
+      "out": "null"
+    },
+    {
+      "in": "volcano|122",
+      "out": ""
+    },
+    {
+      "in": "brood|123",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|123",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|124",
+      "out": "null"
+    },
+    {
+      "in": "volcano|124",
+      "out": "EXPLOSIVE|null"
+    },
+    {
+      "in": "brood|125",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|125",
+      "out": "EXPLOSIVE|null"
+    },
+    {
+      "in": "brood|126",
+      "out": "null"
+    },
+    {
+      "in": "volcano|126",
+      "out": "null|INACTIVE|null"
+    },
+    {
+      "in": "brood|127",
+      "out": "null"
+    },
+    {
+      "in": "volcano|127",
+      "out": "EXPLOSIVE|null|null|EXPLOSIVE"
+    },
+    {
+      "in": "brood|128",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|128",
+      "out": "null"
+    },
+    {
+      "in": "brood|129",
+      "out": "null"
+    },
+    {
+      "in": "volcano|129",
+      "out": ""
+    },
+    {
+      "in": "brood|130",
+      "out": "null"
+    },
+    {
+      "in": "volcano|130",
+      "out": ""
+    },
+    {
+      "in": "brood|131",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|131",
+      "out": "null"
+    },
+    {
+      "in": "brood|132",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|132",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|133",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|133",
+      "out": "null|null|null"
+    },
+    {
+      "in": "brood|134",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|134",
+      "out": "null|null|null|null"
+    },
+    {
+      "in": "brood|135",
+      "out": "Slain"
+    },
+    {
+      "in": "volcano|135",
+      "out": "null|null|null|null"
+    },
+    {
+      "in": "brood|136",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|136",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|137",
+      "out": "null"
+    },
+    {
+      "in": "volcano|137",
+      "out": ""
+    },
+    {
+      "in": "brood|138",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|138",
+      "out": "null|null|null|null"
+    },
+    {
+      "in": "brood|139",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|139",
+      "out": "null|null|null|null"
+    },
+    {
+      "in": "brood|140",
+      "out": "null"
+    },
+    {
+      "in": "volcano|140",
+      "out": "null"
+    },
+    {
+      "in": "brood|141",
+      "out": "null"
+    },
+    {
+      "in": "volcano|141",
+      "out": "INACTIVE"
+    },
+    {
+      "in": "brood|142",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|142",
+      "out": "INACTIVE|null"
+    },
+    {
+      "in": "brood|143",
+      "out": "null"
+    },
+    {
+      "in": "volcano|143",
+      "out": "null"
+    },
+    {
+      "in": "brood|144",
+      "out": "Imminent"
+    },
+    {
+      "in": "volcano|144",
+      "out": "INACTIVE|null|null"
+    },
+    {
+      "in": "brood|145",
+      "out": "null"
+    },
+    {
+      "in": "volcano|145",
+      "out": ""
+    },
+    {
+      "in": "brood|146",
+      "out": "null"
+    },
+    {
+      "in": "volcano|146",
+      "out": ""
+    },
+    {
+      "in": "brood|147",
+      "out": "null"
+    },
+    {
+      "in": "volcano|147",
+      "out": "null"
+    },
+    {
+      "in": "brood|148",
+      "out": "Alive!"
+    },
+    {
+      "in": "volcano|148",
+      "out": "null|null"
+    },
+    {
+      "in": "brood|149",
+      "out": "null"
+    },
+    {
+      "in": "volcano|149",
+      "out": ""
+    },
+    {
+      "in": "npc|[NPC] Pablo: Are you available? I desperately need a Wilted Berberis today.",
+      "out": "Wilted Berberis false"
+    },
+    {
+      "in": "npc|[NPC] Pablo: ✆ Are you available? I desperately need an Ender Rose today.",
+      "out": "Ender Rose false"
+    },
+    {
+      "in": "npc|[NPC] Pablo: Bring me that Fire Flower as soon as you can!",
+      "out": "Fire Flower false"
+    },
+    {
+      "in": "npc| [NPC] Pablo: Could you bring me a Rose? ",
+      "out": "Rose false"
+    },
+    {
+      "in": "npc|[NPC] Pablo: I really need an Orchid today, do you have one you could spare?",
+      "out": "Orchid false"
+    },
+    {
+      "in": "npc|[NPC] Pablo: Could you bring me a Rose!",
+      "out": "null false"
+    },
+    {
+      "in": "npc|[NPC] Pablo: Bring me that  as soon as you can!",
+      "out": "null false"
+    },
+    {
+      "in": "npc|[NPC] Sirih: Oink.",
+      "out": "null true"
+    },
+    {
+      "in": "npc|[NPC] Sirih: ✆ Oink.",
+      "out": "null true"
+    },
+    {
+      "in": "npc| [NPC] Sirih: Oink. ",
+      "out": "null true"
+    },
+    {
+      "in": "npc|[NPC] Sirih:  Oink.",
+      "out": "null false"
+    },
+    {
+      "in": "npc|",
+      "out": "null false"
+    }
+  ]
+}

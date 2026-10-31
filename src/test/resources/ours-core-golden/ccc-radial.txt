@@ -1,0 +1,90 @@
+max=100.0 inner=16
+no menu: cancelled=false delta=(0.000, 0.000)
+empty menu -> null
+move cancelled=true delta=(30.000, -40.000)
+clamped delta=(99.273, -12.033) len=100.000
+reassigned delta=(0.000, 0.000)
+n=1 move=(0.0,0.0) ok resolved=[] closed=true
+n=1 move=(10.0,10.0) ok resolved=[] closed=true
+n=1 move=(11.4,11.4) ok resolved=[0] closed=true
+n=1 move=(11.5,11.5) ok resolved=[0] closed=true
+n=1 move=(16.0,0.0) ok resolved=[] closed=true
+n=1 move=(17.0,0.0) ok resolved=[0] closed=true
+n=1 move=(0.0,17.0) ok resolved=[0] closed=true
+n=1 move=(-17.0,0.0) ok resolved=[0] closed=true
+n=1 move=(0.0,-17.0) ok resolved=[0] closed=true
+n=1 move=(-17.0,-0.001) ok resolved=[0] closed=true
+n=1 move=(50.0,50.0) ok resolved=[0] closed=true
+n=1 move=(-50.0,50.0) ok resolved=[0] closed=true
+n=1 move=(-50.0,-50.0) ok resolved=[0] closed=true
+n=1 move=(50.0,-50.0) ok resolved=[0] closed=true
+n=1 move=(200.0,1.0) ok resolved=[0] closed=true
+n=1 move=(1.0,-200.0) ok resolved=[0] closed=true
+n=2 move=(0.0,0.0) ok resolved=[] closed=true
+n=2 move=(10.0,10.0) ok resolved=[] closed=true
+n=2 move=(11.4,11.4) ok resolved=[0] closed=true
+n=2 move=(11.5,11.5) ok resolved=[0] closed=true
+n=2 move=(16.0,0.0) ok resolved=[] closed=true
+n=2 move=(17.0,0.0) ok resolved=[0] closed=true
+n=2 move=(0.0,17.0) ok resolved=[0] closed=true
+n=2 move=(-17.0,0.0) ok resolved=[1] closed=true
+n=2 move=(0.0,-17.0) ok resolved=[1] closed=true
+n=2 move=(-17.0,-0.001) ok resolved=[1] closed=true
+n=2 move=(50.0,50.0) ok resolved=[0] closed=true
+n=2 move=(-50.0,50.0) ok resolved=[0] closed=true
+n=2 move=(-50.0,-50.0) ok resolved=[1] closed=true
+n=2 move=(50.0,-50.0) ok resolved=[1] closed=true
+n=2 move=(200.0,1.0) ok resolved=[0] closed=true
+n=2 move=(1.0,-200.0) ok resolved=[1] closed=true
+n=3 move=(0.0,0.0) ok resolved=[] closed=true
+n=3 move=(10.0,10.0) ok resolved=[] closed=true
+n=3 move=(11.4,11.4) ok resolved=[0] closed=true
+n=3 move=(11.5,11.5) ok resolved=[0] closed=true
+n=3 move=(16.0,0.0) ok resolved=[] closed=true
+n=3 move=(17.0,0.0) ok resolved=[0] closed=true
+n=3 move=(0.0,17.0) ok resolved=[0] closed=true
+n=3 move=(-17.0,0.0) ok resolved=[1] closed=true
+n=3 move=(0.0,-17.0) ok resolved=[2] closed=true
+n=3 move=(-17.0,-0.001) ok resolved=[1] closed=true
+n=3 move=(50.0,50.0) ok resolved=[0] closed=true
+n=3 move=(-50.0,50.0) ok resolved=[1] closed=true
+n=3 move=(-50.0,-50.0) ok resolved=[1] closed=true
+n=3 move=(50.0,-50.0) ok resolved=[2] closed=true
+n=3 move=(200.0,1.0) ok resolved=[0] closed=true
+n=3 move=(1.0,-200.0) ok resolved=[2] closed=true
+n=5 move=(0.0,0.0) ok resolved=[] closed=true
+n=5 move=(10.0,10.0) ok resolved=[] closed=true
+n=5 move=(11.4,11.4) ok resolved=[0] closed=true
+n=5 move=(11.5,11.5) ok resolved=[0] closed=true
+n=5 move=(16.0,0.0) ok resolved=[] closed=true
+n=5 move=(17.0,0.0) ok resolved=[0] closed=true
+n=5 move=(0.0,17.0) ok resolved=[1] closed=true
+n=5 move=(-17.0,0.0) ok resolved=[2] closed=true
+n=5 move=(0.0,-17.0) ok resolved=[3] closed=true
+n=5 move=(-17.0,-0.001) ok resolved=[2] closed=true
+n=5 move=(50.0,50.0) ok resolved=[0] closed=true
+n=5 move=(-50.0,50.0) ok resolved=[1] closed=true
+n=5 move=(-50.0,-50.0) ok resolved=[3] closed=true
+n=5 move=(50.0,-50.0) ok resolved=[4] closed=true
+n=5 move=(200.0,1.0) ok resolved=[0] closed=true
+n=5 move=(1.0,-200.0) ok resolved=[3] closed=true
+n=8 move=(0.0,0.0) ok resolved=[] closed=true
+n=8 move=(10.0,10.0) ok resolved=[] closed=true
+n=8 move=(11.4,11.4) ok resolved=[1] closed=true
+n=8 move=(11.5,11.5) ok resolved=[1] closed=true
+n=8 move=(16.0,0.0) ok resolved=[] closed=true
+n=8 move=(17.0,0.0) ok resolved=[0] closed=true
+n=8 move=(0.0,17.0) ok resolved=[2] closed=true
+n=8 move=(-17.0,0.0) ok resolved=[4] closed=true
+n=8 move=(0.0,-17.0) ok resolved=[6] closed=true
+n=8 move=(-17.0,-0.001) ok resolved=[4] closed=true
+n=8 move=(50.0,50.0) ok resolved=[1] closed=true
+n=8 move=(-50.0,50.0) ok resolved=[3] closed=true
+n=8 move=(-50.0,-50.0) ok resolved=[4] closed=true
+n=8 move=(50.0,-50.0) ok resolved=[6] closed=true
+n=8 move=(200.0,1.0) ok resolved=[0] closed=true
+n=8 move=(1.0,-200.0) ok resolved=[6] closed=true
+setWheels closes=true wheels=[ChatCommandWheel(keyBinding=Unbound, commands=[ChatCommand(command=a), ChatCommand(command= )])]
+label [/warp hub, /]
+json {"keyBinding":{"button":null,"modifiers":{"modifiers":0}},"commands":[{"command":"warp hub"},{"command":""}]} default {"keyBinding":{"button":null,"modifiers":{"modifiers":0}},"commands":[]}
+decoded ChatCommandWheel(keyBinding=Unbound, commands=[])

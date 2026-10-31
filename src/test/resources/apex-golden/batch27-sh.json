@@ -1,0 +1,1713 @@
+{
+  "cases": 427,
+  "data": [
+    {
+      "in": "garden|0|RARE! You dropped 99999999999999999999x Wheat!",
+      "out": "false xp=0.0 caps={} fever=false/0 fItems={} rItems={} lvl=null"
+    },
+    {
+      "in": "garden|1|  +1,234.5 Garden Experience",
+      "out": "true xp=1234.5 caps={} fever=false/0 fItems={} rItems={} lvl=null"
+    },
+    {
+      "in": "garden|2|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=1234.5 caps={} fever=false/0 fItems={} rItems={SQUASH=1} lvl=null"
+    },
+    {
+      "in": "garden|3|+12 Garden Experience",
+      "out": "true xp=1246.5 caps={} fever=false/0 fItems={} rItems={SQUASH=1} lvl=null"
+    },
+    {
+      "in": "garden|4|+12 Garden Experience!",
+      "out": "false xp=1246.5 caps={} fever=false/0 fItems={} rItems={SQUASH=1} lvl=null"
+    },
+    {
+      "in": "garden|5|§a+15 Garden Experience",
+      "out": "true xp=1261.5 caps={} fever=false/0 fItems={} rItems={SQUASH=1} lvl=null"
+    },
+    {
+      "in": "garden|6|RARE CROP! Cropie",
+      "out": "true xp=1261.5 caps={} fever=false/0 fItems={} rItems={SQUASH=1, CROPIE=1} lvl=null"
+    },
+    {
+      "in": "garden|7|RARE CROP! Unknown Thing (+1.5) (automatically donated)",
+      "out": "true xp=1261.5 caps={} fever=false/0 fItems={} rItems={SQUASH=1, CROPIE=1} lvl=null"
+    },
+    {
+      "in": "garden|8|RARE CROP! Unknown Thing (+1.5) (automatically donated)",
+      "out": "true xp=1261.5 caps={} fever=false/0 fItems={} rItems={SQUASH=1, CROPIE=1} lvl=null"
+    },
+    {
+      "in": "garden|9|GONE! Your CROP FEVER has been cured!",
+      "out": "true xp=1261.5 caps={} fever=false/0 fItems={} rItems={SQUASH=1, CROPIE=1} lvl=null"
+    },
+    {
+      "in": "garden|10|UNCOMMON! You dropped 12x Wheat!",
+      "out": "false xp=1261.5 caps={} fever=false/0 fItems={} rItems={SQUASH=1, CROPIE=1} lvl=null"
+    },
+    {
+      "in": "garden|11|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "false xp=1261.5 caps={} fever=false/0 fItems={} rItems={SQUASH=1, CROPIE=1} lvl=null"
+    },
+    {
+      "in": "garden|12|GONE! Your CROP FEVER has been cured!",
+      "out": "true xp=1261.5 caps={} fever=false/0 fItems={} rItems={SQUASH=1, CROPIE=1} lvl=null"
+    },
+    {
+      "in": "garden|13|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=1261.5 caps={Fungi Cutter=1} fever=false/0 fItems={} rItems={SQUASH=1, CROPIE=1} lvl=null"
+    },
+    {
+      "in": "garden|14|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=1261.5 caps={Fungi Cutter=1} fever=true/1 fItems={} rItems={SQUASH=1, CROPIE=1} lvl=null"
+    },
+    {
+      "in": "garden|15|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=1261.5 caps={Fungi Cutter=1} fever=true/1 fItems={ENCHANTED_WHEAT=3} rItems={SQUASH=1, CROPIE=1} lvl=null"
+    },
+    {
+      "in": "garden|16|RARE CROP! Cropie",
+      "out": "true xp=1261.5 caps={Fungi Cutter=1} fever=true/1 fItems={ENCHANTED_WHEAT=3} rItems={SQUASH=1, CROPIE=2} lvl=null"
+    },
+    {
+      "in": "garden|17|",
+      "out": "false xp=1261.5 caps={Fungi Cutter=1} fever=true/1 fItems={ENCHANTED_WHEAT=3} rItems={SQUASH=1, CROPIE=2} lvl=null"
+    },
+    {
+      "in": "garden|18|  +1,234.5 Garden Experience",
+      "out": "true xp=2496.0 caps={Fungi Cutter=1} fever=true/1 fItems={ENCHANTED_WHEAT=3} rItems={SQUASH=1, CROPIE=2} lvl=null"
+    },
+    {
+      "in": "garden|19|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=2496.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3} rItems={SQUASH=1, CROPIE=2} lvl=null"
+    },
+    {
+      "in": "garden|20|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=2496.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3} rItems={SQUASH=1, CROPIE=2} lvl=null"
+    },
+    {
+      "in": "garden|21|RARE CROP! Unknown Thing (+1.5) (automatically donated)",
+      "out": "true xp=2496.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3} rItems={SQUASH=1, CROPIE=2} lvl=null"
+    },
+    {
+      "in": "garden|22|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=2496.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=1, CROPIE=2} lvl=null"
+    },
+    {
+      "in": "garden|23|RARE! You dropped 99999999999999999999x Wheat!",
+      "out": "THROWS NumberFormatException xp=2496.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=1, CROPIE=2} lvl=null"
+    },
+    {
+      "in": "garden|24|§a+15 Garden Experience",
+      "out": "true xp=2511.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=1, CROPIE=2} lvl=null"
+    },
+    {
+      "in": "garden|25|§a+15 Garden Experience",
+      "out": "true xp=2526.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=1, CROPIE=2} lvl=null"
+    },
+    {
+      "in": "garden|26|+12 Garden Experience!",
+      "out": "false xp=2526.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=1, CROPIE=2} lvl=null"
+    },
+    {
+      "in": "garden|27|random line",
+      "out": "false xp=2526.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=1, CROPIE=2} lvl=null"
+    },
+    {
+      "in": "garden|28|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=2526.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=2, CROPIE=2} lvl=null"
+    },
+    {
+      "in": "garden|29|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=2526.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=2, CROPIE=2, FERMENTO=1} lvl=null"
+    },
+    {
+      "in": "garden|30|+12 Garden Experience!",
+      "out": "false xp=2526.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=2, CROPIE=2, FERMENTO=1} lvl=null"
+    },
+    {
+      "in": "garden|31|",
+      "out": "false xp=2526.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=2, CROPIE=2, FERMENTO=1} lvl=null"
+    },
+    {
+      "in": "garden|32|",
+      "out": "false xp=2526.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=2, CROPIE=2, FERMENTO=1} lvl=null"
+    },
+    {
+      "in": "garden|33|RARE CROP! Cropie",
+      "out": "true xp=2526.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=1} fever=true/1 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=2, CROPIE=3, FERMENTO=1} lvl=null"
+    },
+    {
+      "in": "garden|34|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=2526.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=2} fever=true/1 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=2, CROPIE=3, FERMENTO=1} lvl=null"
+    },
+    {
+      "in": "garden|35|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=2526.0 caps={Fungi Cutter=1, Euclid's Wheat Hoe=2} fever=true/2 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=2, CROPIE=3, FERMENTO=1} lvl=null"
+    },
+    {
+      "in": "garden|36|  +1,234.5 Garden Experience",
+      "out": "true xp=3760.5 caps={Fungi Cutter=1, Euclid's Wheat Hoe=2} fever=true/2 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=2, CROPIE=3, FERMENTO=1} lvl=null"
+    },
+    {
+      "in": "garden|37|RARE CROP! ",
+      "out": "false xp=3760.5 caps={Fungi Cutter=1, Euclid's Wheat Hoe=2} fever=true/2 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=2, CROPIE=3, FERMENTO=1} lvl=null"
+    },
+    {
+      "in": "garden|38|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=3760.5 caps={Fungi Cutter=1, Euclid's Wheat Hoe=2} fever=true/2 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=2, CROPIE=3, FERMENTO=2} lvl=null"
+    },
+    {
+      "in": "garden|39|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=3760.5 caps={Fungi Cutter=1, Euclid's Wheat Hoe=3} fever=true/2 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1} rItems={SQUASH=2, CROPIE=3, FERMENTO=2} lvl=null"
+    },
+    {
+      "in": "garden|40|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=3760.5 caps={Fungi Cutter=1, Euclid's Wheat Hoe=3} fever=true/2 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1, WHEAT=12} rItems={SQUASH=2, CROPIE=3, FERMENTO=2} lvl=null"
+    },
+    {
+      "in": "garden|41|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=3760.5 caps={Fungi Cutter=1, Euclid's Wheat Hoe=3} fever=true/2 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1, WHEAT=12} rItems={SQUASH=3, CROPIE=3, FERMENTO=2} lvl=null"
+    },
+    {
+      "in": "garden|42|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=3760.5 caps={Fungi Cutter=2, Euclid's Wheat Hoe=3} fever=true/2 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1, WHEAT=12} rItems={SQUASH=3, CROPIE=3, FERMENTO=2} lvl=null"
+    },
+    {
+      "in": "garden|43|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=3760.5 caps={Fungi Cutter=2, Euclid's Wheat Hoe=3} fever=true/2 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1, WHEAT=12} rItems={SQUASH=3, CROPIE=3, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|44|§a+15 Garden Experience",
+      "out": "true xp=3775.5 caps={Fungi Cutter=2, Euclid's Wheat Hoe=3} fever=true/2 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=1, WHEAT=12} rItems={SQUASH=3, CROPIE=3, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|45|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=3775.5 caps={Fungi Cutter=2, Euclid's Wheat Hoe=3} fever=true/2 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=2, WHEAT=12} rItems={SQUASH=3, CROPIE=3, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|46|RARE CROP! Cropie",
+      "out": "true xp=3775.5 caps={Fungi Cutter=2, Euclid's Wheat Hoe=3} fever=true/2 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=2, WHEAT=12} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|47|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=3775.5 caps={Fungi Cutter=2, Euclid's Wheat Hoe=4} fever=true/2 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=2, WHEAT=12} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|48|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=3775.5 caps={Fungi Cutter=2, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=2, WHEAT=12} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|49|random line",
+      "out": "false xp=3775.5 caps={Fungi Cutter=2, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=2, WHEAT=12} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|50|§a+15 Garden Experience",
+      "out": "true xp=3790.5 caps={Fungi Cutter=2, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=2, WHEAT=12} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|51|+12 Garden Experience!",
+      "out": "false xp=3790.5 caps={Fungi Cutter=2, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=2, WHEAT=12} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|52|+, Garden Experience",
+      "out": "THROWS NumberFormatException xp=3790.5 caps={Fungi Cutter=2, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=2, WHEAT=12} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|53|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=3790.5 caps={Fungi Cutter=2, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=3, WHEAT=12} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|54|  +1,234.5 Garden Experience",
+      "out": "true xp=5025.0 caps={Fungi Cutter=2, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=3, WHEAT=12} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|55|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=5025.0 caps={Fungi Cutter=2, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=3, WHEAT=24} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|56|§a+15 Garden Experience",
+      "out": "true xp=5040.0 caps={Fungi Cutter=2, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=3, WHEAT=24} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|57|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=5040.0 caps={Fungi Cutter=3, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=3, WHEAT=24} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|58|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=5040.0 caps={Fungi Cutter=3, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=3, WHEAT=24} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|59|+, Garden Experience",
+      "out": "THROWS NumberFormatException xp=5040.0 caps={Fungi Cutter=3, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=3, WHEAT=24} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|60|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=5040.0 caps={Fungi Cutter=3, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=3, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|61|+, Garden Experience",
+      "out": "THROWS NumberFormatException xp=5040.0 caps={Fungi Cutter=3, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=3, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|62|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=5040.0 caps={Fungi Cutter=4, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=3, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|63|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=3, ENCHANTED_HAY_BALE=3, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|64|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=6, ENCHANTED_HAY_BALE=3, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|65|+12 Garden Experience!",
+      "out": "false xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=6, ENCHANTED_HAY_BALE=3, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|66|",
+      "out": "false xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=6, ENCHANTED_HAY_BALE=3, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|67|RARE CROP! Unknown Thing (+1.5) (automatically donated)",
+      "out": "true xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=4} fever=true/3 fItems={ENCHANTED_WHEAT=6, ENCHANTED_HAY_BALE=3, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|68|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=5} fever=true/3 fItems={ENCHANTED_WHEAT=6, ENCHANTED_HAY_BALE=3, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|69|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=5} fever=true/3 fItems={ENCHANTED_WHEAT=6, ENCHANTED_HAY_BALE=4, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|70|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=5} fever=true/3 fItems={ENCHANTED_WHEAT=9, ENCHANTED_HAY_BALE=4, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|71|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=5} fever=true/3 fItems={ENCHANTED_WHEAT=12, ENCHANTED_HAY_BALE=4, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|72|",
+      "out": "false xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=5} fever=true/3 fItems={ENCHANTED_WHEAT=12, ENCHANTED_HAY_BALE=4, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|73|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=5} fever=true/4 fItems={ENCHANTED_WHEAT=12, ENCHANTED_HAY_BALE=4, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|74|RARE CROP! ",
+      "out": "false xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=5} fever=true/4 fItems={ENCHANTED_WHEAT=12, ENCHANTED_HAY_BALE=4, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|75|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=6} fever=true/4 fItems={ENCHANTED_WHEAT=12, ENCHANTED_HAY_BALE=4, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|76|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=6} fever=true/4 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=4, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|77|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=5040.0 caps={Fungi Cutter=5, Euclid's Wheat Hoe=6} fever=true/5 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=4, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|78|  +1,234.5 Garden Experience",
+      "out": "true xp=6274.5 caps={Fungi Cutter=5, Euclid's Wheat Hoe=6} fever=true/5 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=4, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|79|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=6274.5 caps={Fungi Cutter=5, Euclid's Wheat Hoe=6} fever=true/5 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=5, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|80|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=6274.5 caps={Fungi Cutter=6, Euclid's Wheat Hoe=6} fever=true/5 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=5, WHEAT=36} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|81|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=6274.5 caps={Fungi Cutter=6, Euclid's Wheat Hoe=6} fever=true/5 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=5, WHEAT=48} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|82|+12 Garden Experience",
+      "out": "true xp=6286.5 caps={Fungi Cutter=6, Euclid's Wheat Hoe=6} fever=true/5 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=5, WHEAT=48} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|83|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=6286.5 caps={Fungi Cutter=6, Euclid's Wheat Hoe=6} fever=true/5 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=6, WHEAT=48} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|84|GONE! Your CROP FEVER has been cured!",
+      "out": "true xp=6286.5 caps={Fungi Cutter=6, Euclid's Wheat Hoe=6} fever=false/5 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=6, WHEAT=48} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|85|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "false xp=6286.5 caps={Fungi Cutter=6, Euclid's Wheat Hoe=6} fever=false/5 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=6, WHEAT=48} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|86|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=6286.5 caps={Fungi Cutter=6, Euclid's Wheat Hoe=6} fever=true/6 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=6, WHEAT=48} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|87|+12 Garden Experience",
+      "out": "true xp=6298.5 caps={Fungi Cutter=6, Euclid's Wheat Hoe=6} fever=true/6 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=6, WHEAT=48} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|88|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=6298.5 caps={Fungi Cutter=6, Euclid's Wheat Hoe=7} fever=true/6 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=6, WHEAT=48} rItems={SQUASH=3, CROPIE=4, FERMENTO=3} lvl=null"
+    },
+    {
+      "in": "garden|89|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=6298.5 caps={Fungi Cutter=6, Euclid's Wheat Hoe=7} fever=true/6 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=6, WHEAT=48} rItems={SQUASH=3, CROPIE=4, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|90|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=6298.5 caps={Fungi Cutter=6, Euclid's Wheat Hoe=7} fever=true/6 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=4, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|91|+12 Garden Experience",
+      "out": "true xp=6310.5 caps={Fungi Cutter=6, Euclid's Wheat Hoe=7} fever=true/6 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=4, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|92|",
+      "out": "false xp=6310.5 caps={Fungi Cutter=6, Euclid's Wheat Hoe=7} fever=true/6 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=4, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|93|RARE CROP! Cropie",
+      "out": "true xp=6310.5 caps={Fungi Cutter=6, Euclid's Wheat Hoe=7} fever=true/6 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|94|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=6310.5 caps={Fungi Cutter=7, Euclid's Wheat Hoe=7} fever=true/6 fItems={ENCHANTED_WHEAT=15, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|95|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=6310.5 caps={Fungi Cutter=7, Euclid's Wheat Hoe=7} fever=true/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|96|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=6310.5 caps={Fungi Cutter=8, Euclid's Wheat Hoe=7} fever=true/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|97|random line",
+      "out": "false xp=6310.5 caps={Fungi Cutter=8, Euclid's Wheat Hoe=7} fever=true/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|98|+12 Garden Experience!",
+      "out": "false xp=6310.5 caps={Fungi Cutter=8, Euclid's Wheat Hoe=7} fever=true/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|99|GONE! Your CROP FEVER has been cured!",
+      "out": "true xp=6310.5 caps={Fungi Cutter=8, Euclid's Wheat Hoe=7} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|100|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=6310.5 caps={Fungi Cutter=8, Euclid's Wheat Hoe=7} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|101|+12 Garden Experience",
+      "out": "true xp=6322.5 caps={Fungi Cutter=8, Euclid's Wheat Hoe=7} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|102|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=6322.5 caps={Fungi Cutter=8, Euclid's Wheat Hoe=8} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|103|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=6322.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=8} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|104|",
+      "out": "false xp=6322.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=8} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|105|random line",
+      "out": "false xp=6322.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=8} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|106|+12 Garden Experience!",
+      "out": "false xp=6322.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=8} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|107|+, Garden Experience",
+      "out": "THROWS NumberFormatException xp=6322.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=8} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|108|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "false xp=6322.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=8} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|109|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=6322.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=9} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=5, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|110|RARE CROP! Cropie",
+      "out": "true xp=6322.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=9} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=6, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|111|RARE CROP! ",
+      "out": "false xp=6322.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=9} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=6, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|112|+12 Garden Experience",
+      "out": "true xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=9} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=3, CROPIE=6, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|113|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=9} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=6, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|114|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "false xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=9} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=6, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|115|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=6, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|116|RARE CROP! Unknown Thing (+1.5) (automatically donated)",
+      "out": "true xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=6, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|117|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "false xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=6, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|118|UNCOMMON! You dropped 12x Wheat!",
+      "out": "false xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=6, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|119|",
+      "out": "false xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=6, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|120|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "false xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=6, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|121|RARE CROP! Cropie",
+      "out": "true xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|122|+12 Garden Experience!",
+      "out": "false xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|123|RARE! You dropped 99999999999999999999x Wheat!",
+      "out": "false xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|124|UNCOMMON! You dropped 12x Wheat!",
+      "out": "false xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|125|+, Garden Experience",
+      "out": "THROWS NumberFormatException xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|126|+12 Garden Experience!",
+      "out": "false xp=6334.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|127|§a+15 Garden Experience",
+      "out": "true xp=6349.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|128|+12 Garden Experience",
+      "out": "true xp=6361.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|129|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "false xp=6361.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=4, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|130|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=6361.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|131|+12 Garden Experience!",
+      "out": "false xp=6361.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|132|+12 Garden Experience!",
+      "out": "false xp=6361.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|133|§a+15 Garden Experience",
+      "out": "true xp=6376.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|134|§a+15 Garden Experience",
+      "out": "true xp=6391.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|135|RARE! You dropped 99999999999999999999x Wheat!",
+      "out": "false xp=6391.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|136|UNCOMMON! You dropped 12x Wheat!",
+      "out": "false xp=6391.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|137|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=6391.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=7, FERMENTO=4} lvl=null"
+    },
+    {
+      "in": "garden|138|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=6391.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=7, FERMENTO=5} lvl=null"
+    },
+    {
+      "in": "garden|139|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "false xp=6391.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=10} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=7, FERMENTO=5} lvl=null"
+    },
+    {
+      "in": "garden|140|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=6391.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=7, FERMENTO=5} lvl=null"
+    },
+    {
+      "in": "garden|141|RARE CROP! ",
+      "out": "false xp=6391.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=7, FERMENTO=5} lvl=null"
+    },
+    {
+      "in": "garden|142|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=6391.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=7, FERMENTO=6} lvl=null"
+    },
+    {
+      "in": "garden|143|RARE CROP! Cropie",
+      "out": "true xp=6391.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=8, FERMENTO=6} lvl=null"
+    },
+    {
+      "in": "garden|144|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=6391.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=8, FERMENTO=7} lvl=null"
+    },
+    {
+      "in": "garden|145|+12 Garden Experience!",
+      "out": "false xp=6391.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=8, FERMENTO=7} lvl=null"
+    },
+    {
+      "in": "garden|146|§a+15 Garden Experience",
+      "out": "true xp=6406.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=false/6 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=8, FERMENTO=7} lvl=null"
+    },
+    {
+      "in": "garden|147|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=6406.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=true/7 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=8, FERMENTO=7} lvl=null"
+    },
+    {
+      "in": "garden|148|RARE CROP! Cropie",
+      "out": "true xp=6406.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=true/7 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=9, FERMENTO=7} lvl=null"
+    },
+    {
+      "in": "garden|149|+12 Garden Experience",
+      "out": "true xp=6418.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=true/7 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=9, FERMENTO=7} lvl=null"
+    },
+    {
+      "in": "garden|150|RARE! You dropped 99999999999999999999x Wheat!",
+      "out": "THROWS NumberFormatException xp=6418.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=true/7 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=9, FERMENTO=7} lvl=null"
+    },
+    {
+      "in": "garden|151|RARE CROP! Unknown Thing (+1.5) (automatically donated)",
+      "out": "true xp=6418.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=true/7 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=60} rItems={SQUASH=5, CROPIE=9, FERMENTO=7} lvl=null"
+    },
+    {
+      "in": "garden|152|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=6418.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=true/7 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=9, FERMENTO=7} lvl=null"
+    },
+    {
+      "in": "garden|153|random line",
+      "out": "false xp=6418.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=true/7 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=9, FERMENTO=7} lvl=null"
+    },
+    {
+      "in": "garden|154|GONE! Your CROP FEVER has been cured!",
+      "out": "true xp=6418.5 caps={Fungi Cutter=9, Euclid's Wheat Hoe=11} fever=false/7 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=9, FERMENTO=7} lvl=null"
+    },
+    {
+      "in": "garden|155|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=6418.5 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=false/7 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=9, FERMENTO=7} lvl=null"
+    },
+    {
+      "in": "garden|156|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=6418.5 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=false/7 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=9, FERMENTO=7} lvl=null"
+    },
+    {
+      "in": "garden|157|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=6418.5 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=true/8 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=9, FERMENTO=7} lvl=null"
+    },
+    {
+      "in": "garden|158|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=6418.5 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=true/8 fItems={ENCHANTED_WHEAT=18, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=9, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|159|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=6418.5 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=true/8 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=9, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|160|  +1,234.5 Garden Experience",
+      "out": "true xp=7653.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=true/8 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=9, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|161|RARE CROP! Cropie",
+      "out": "true xp=7653.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=true/8 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|162|GONE! Your CROP FEVER has been cured!",
+      "out": "true xp=7653.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=false/8 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|163|+12 Garden Experience",
+      "out": "true xp=7665.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=false/8 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|164|UNCOMMON! You dropped 12x Wheat!",
+      "out": "false xp=7665.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=false/8 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|165|§a+15 Garden Experience",
+      "out": "true xp=7680.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=false/8 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|166|  +1,234.5 Garden Experience",
+      "out": "true xp=8914.5 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=false/8 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|167|  +1,234.5 Garden Experience",
+      "out": "true xp=10149.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=false/8 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|168|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "false xp=10149.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=false/8 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|169|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=10149.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=true/9 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=6, WHEAT=72} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|170|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=10149.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=true/9 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=7, WHEAT=72} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|171|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=10149.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=true/9 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=7, WHEAT=84} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|172|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=10149.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=true/9 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=8, WHEAT=84} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|173|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=10149.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=true/9 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=9, WHEAT=84} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|174|+12 Garden Experience!",
+      "out": "false xp=10149.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=true/9 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=9, WHEAT=84} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|175|+12 Garden Experience!",
+      "out": "false xp=10149.0 caps={Fungi Cutter=10, Euclid's Wheat Hoe=11} fever=true/9 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=9, WHEAT=84} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|176|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=10149.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=11} fever=true/9 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=9, WHEAT=84} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|177|",
+      "out": "false xp=10149.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=11} fever=true/9 fItems={ENCHANTED_WHEAT=21, ENCHANTED_HAY_BALE=9, WHEAT=84} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|178|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=10149.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=11} fever=true/9 fItems={ENCHANTED_WHEAT=24, ENCHANTED_HAY_BALE=9, WHEAT=84} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|179|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=10149.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=11} fever=true/9 fItems={ENCHANTED_WHEAT=24, ENCHANTED_HAY_BALE=10, WHEAT=84} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|180|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=10149.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=11} fever=true/9 fItems={ENCHANTED_WHEAT=24, ENCHANTED_HAY_BALE=10, WHEAT=84} rItems={SQUASH=5, CROPIE=10, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|181|RARE CROP! Cropie",
+      "out": "true xp=10149.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=11} fever=true/9 fItems={ENCHANTED_WHEAT=24, ENCHANTED_HAY_BALE=10, WHEAT=84} rItems={SQUASH=5, CROPIE=11, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|182|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=10149.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=12} fever=true/9 fItems={ENCHANTED_WHEAT=24, ENCHANTED_HAY_BALE=10, WHEAT=84} rItems={SQUASH=5, CROPIE=11, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|183|RARE! You dropped 99999999999999999999x Wheat!",
+      "out": "THROWS NumberFormatException xp=10149.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=12} fever=true/9 fItems={ENCHANTED_WHEAT=24, ENCHANTED_HAY_BALE=10, WHEAT=84} rItems={SQUASH=5, CROPIE=11, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|184|random line",
+      "out": "false xp=10149.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=12} fever=true/9 fItems={ENCHANTED_WHEAT=24, ENCHANTED_HAY_BALE=10, WHEAT=84} rItems={SQUASH=5, CROPIE=11, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|185|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=10149.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/9 fItems={ENCHANTED_WHEAT=24, ENCHANTED_HAY_BALE=10, WHEAT=84} rItems={SQUASH=5, CROPIE=11, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|186|  +1,234.5 Garden Experience",
+      "out": "true xp=11383.5 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/9 fItems={ENCHANTED_WHEAT=24, ENCHANTED_HAY_BALE=10, WHEAT=84} rItems={SQUASH=5, CROPIE=11, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|187|  +1,234.5 Garden Experience",
+      "out": "true xp=12618.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/9 fItems={ENCHANTED_WHEAT=24, ENCHANTED_HAY_BALE=10, WHEAT=84} rItems={SQUASH=5, CROPIE=11, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|188|§a+15 Garden Experience",
+      "out": "true xp=12633.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/9 fItems={ENCHANTED_WHEAT=24, ENCHANTED_HAY_BALE=10, WHEAT=84} rItems={SQUASH=5, CROPIE=11, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|189|random line",
+      "out": "false xp=12633.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/9 fItems={ENCHANTED_WHEAT=24, ENCHANTED_HAY_BALE=10, WHEAT=84} rItems={SQUASH=5, CROPIE=11, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|190|RARE CROP! ",
+      "out": "false xp=12633.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/9 fItems={ENCHANTED_WHEAT=24, ENCHANTED_HAY_BALE=10, WHEAT=84} rItems={SQUASH=5, CROPIE=11, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|191|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=12633.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/10 fItems={ENCHANTED_WHEAT=24, ENCHANTED_HAY_BALE=10, WHEAT=84} rItems={SQUASH=5, CROPIE=11, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|192|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=12633.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=10, WHEAT=84} rItems={SQUASH=5, CROPIE=11, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|193|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=12633.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=10, WHEAT=96} rItems={SQUASH=5, CROPIE=11, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|194|+12 Garden Experience",
+      "out": "true xp=12645.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=10, WHEAT=96} rItems={SQUASH=5, CROPIE=11, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|195|RARE CROP! Cropie",
+      "out": "true xp=12645.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=10, WHEAT=96} rItems={SQUASH=5, CROPIE=12, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|196|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=12645.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=10, WHEAT=108} rItems={SQUASH=5, CROPIE=12, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|197|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=12645.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=10, WHEAT=108} rItems={SQUASH=5, CROPIE=12, FERMENTO=8} lvl=null"
+    },
+    {
+      "in": "garden|198|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=12645.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=10, WHEAT=108} rItems={SQUASH=5, CROPIE=12, FERMENTO=9} lvl=null"
+    },
+    {
+      "in": "garden|199|+12 Garden Experience",
+      "out": "true xp=12657.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=13} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=10, WHEAT=108} rItems={SQUASH=5, CROPIE=12, FERMENTO=9} lvl=null"
+    },
+    {
+      "in": "garden|200|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=12657.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=14} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=10, WHEAT=108} rItems={SQUASH=5, CROPIE=12, FERMENTO=9} lvl=null"
+    },
+    {
+      "in": "garden|201|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=12657.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=14} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=10, WHEAT=108} rItems={SQUASH=5, CROPIE=12, FERMENTO=9} lvl=null"
+    },
+    {
+      "in": "garden|202|RARE CROP! Cropie",
+      "out": "true xp=12657.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=14} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=10, WHEAT=108} rItems={SQUASH=5, CROPIE=13, FERMENTO=9} lvl=null"
+    },
+    {
+      "in": "garden|203|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=12657.0 caps={Fungi Cutter=11, Euclid's Wheat Hoe=14} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=10, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=9} lvl=null"
+    },
+    {
+      "in": "garden|204|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=12657.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=14} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=10, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=9} lvl=null"
+    },
+    {
+      "in": "garden|205|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=12657.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=14} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=11, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=9} lvl=null"
+    },
+    {
+      "in": "garden|206|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=12657.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=14} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=11, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|207|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=12657.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=14} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|208|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=12657.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=15} fever=true/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|209|GONE! Your CROP FEVER has been cured!",
+      "out": "true xp=12657.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=15} fever=false/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|210|random line",
+      "out": "false xp=12657.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=15} fever=false/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|211|§a+15 Garden Experience",
+      "out": "true xp=12672.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=15} fever=false/10 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|212|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=12672.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=15} fever=true/11 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|213|+12 Garden Experience!",
+      "out": "false xp=12672.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=15} fever=true/11 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|214|",
+      "out": "false xp=12672.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=15} fever=true/11 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|215|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=12672.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=15} fever=true/12 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|216|GONE! Your CROP FEVER has been cured!",
+      "out": "true xp=12672.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=15} fever=false/12 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|217|+12 Garden Experience",
+      "out": "true xp=12684.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=15} fever=false/12 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|218|",
+      "out": "false xp=12684.0 caps={Fungi Cutter=12, Euclid's Wheat Hoe=15} fever=false/12 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|219|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=12684.0 caps={Fungi Cutter=13, Euclid's Wheat Hoe=15} fever=false/12 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|220|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "false xp=12684.0 caps={Fungi Cutter=13, Euclid's Wheat Hoe=15} fever=false/12 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|221|GONE! Your CROP FEVER has been cured!",
+      "out": "true xp=12684.0 caps={Fungi Cutter=13, Euclid's Wheat Hoe=15} fever=false/12 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|222|RARE! You dropped 99999999999999999999x Wheat!",
+      "out": "false xp=12684.0 caps={Fungi Cutter=13, Euclid's Wheat Hoe=15} fever=false/12 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|223|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=12684.0 caps={Fungi Cutter=13, Euclid's Wheat Hoe=15} fever=false/12 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|224|+12 Garden Experience!",
+      "out": "false xp=12684.0 caps={Fungi Cutter=13, Euclid's Wheat Hoe=15} fever=false/12 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|225|random line",
+      "out": "false xp=12684.0 caps={Fungi Cutter=13, Euclid's Wheat Hoe=15} fever=false/12 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|226|  +1,234.5 Garden Experience",
+      "out": "true xp=13918.5 caps={Fungi Cutter=13, Euclid's Wheat Hoe=15} fever=false/12 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|227|  +1,234.5 Garden Experience",
+      "out": "true xp=15153.0 caps={Fungi Cutter=13, Euclid's Wheat Hoe=15} fever=false/12 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|228|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=15153.0 caps={Fungi Cutter=13, Euclid's Wheat Hoe=15} fever=true/13 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|229|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=15153.0 caps={Fungi Cutter=13, Euclid's Wheat Hoe=16} fever=true/13 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|230|random line",
+      "out": "false xp=15153.0 caps={Fungi Cutter=13, Euclid's Wheat Hoe=16} fever=true/13 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|231|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=15153.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=16} fever=true/13 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|232|+, Garden Experience",
+      "out": "THROWS NumberFormatException xp=15153.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=16} fever=true/13 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|233|RARE CROP! Unknown Thing (+1.5) (automatically donated)",
+      "out": "true xp=15153.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=16} fever=true/13 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|234|  +1,234.5 Garden Experience",
+      "out": "true xp=16387.5 caps={Fungi Cutter=14, Euclid's Wheat Hoe=16} fever=true/13 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|235|RARE CROP! Unknown Thing (+1.5) (automatically donated)",
+      "out": "true xp=16387.5 caps={Fungi Cutter=14, Euclid's Wheat Hoe=16} fever=true/13 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=10} lvl=null"
+    },
+    {
+      "in": "garden|236|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=16387.5 caps={Fungi Cutter=14, Euclid's Wheat Hoe=16} fever=true/13 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=108} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|237|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=16387.5 caps={Fungi Cutter=14, Euclid's Wheat Hoe=16} fever=true/13 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=120} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|238|+12 Garden Experience",
+      "out": "true xp=16399.5 caps={Fungi Cutter=14, Euclid's Wheat Hoe=16} fever=true/13 fItems={ENCHANTED_WHEAT=27, ENCHANTED_HAY_BALE=12, WHEAT=120} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|239|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=16399.5 caps={Fungi Cutter=14, Euclid's Wheat Hoe=16} fever=true/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=120} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|240|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=16399.5 caps={Fungi Cutter=14, Euclid's Wheat Hoe=16} fever=true/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|241|",
+      "out": "false xp=16399.5 caps={Fungi Cutter=14, Euclid's Wheat Hoe=16} fever=true/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|242|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=16399.5 caps={Fungi Cutter=14, Euclid's Wheat Hoe=17} fever=true/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|243|GONE! Your CROP FEVER has been cured!",
+      "out": "true xp=16399.5 caps={Fungi Cutter=14, Euclid's Wheat Hoe=17} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|244|RARE! You dropped 99999999999999999999x Wheat!",
+      "out": "false xp=16399.5 caps={Fungi Cutter=14, Euclid's Wheat Hoe=17} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|245|  +1,234.5 Garden Experience",
+      "out": "true xp=17634.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=17} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|246|+12 Garden Experience",
+      "out": "true xp=17646.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=17} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|247|RARE CROP! Unknown Thing (+1.5) (automatically donated)",
+      "out": "true xp=17646.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=17} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|248|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=17646.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=18} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|249|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=17646.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|250|§a+15 Garden Experience",
+      "out": "true xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=6, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|251|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|252|",
+      "out": "false xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|253|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "false xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|254|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "false xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|255|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|256|RARE CROP! ",
+      "out": "false xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|257|random line",
+      "out": "false xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|258|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "false xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=11} lvl=null"
+    },
+    {
+      "in": "garden|259|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/13 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=12} lvl=null"
+    },
+    {
+      "in": "garden|260|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=true/14 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=12, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=12} lvl=null"
+    },
+    {
+      "in": "garden|261|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=true/14 fItems={ENCHANTED_WHEAT=30, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=12} lvl=null"
+    },
+    {
+      "in": "garden|262|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=true/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=12} lvl=null"
+    },
+    {
+      "in": "garden|263|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=true/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=13} lvl=null"
+    },
+    {
+      "in": "garden|264|GONE! Your CROP FEVER has been cured!",
+      "out": "true xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=13} lvl=null"
+    },
+    {
+      "in": "garden|265|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "false xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=13} lvl=null"
+    },
+    {
+      "in": "garden|266|UNCOMMON! You dropped 12x Wheat!",
+      "out": "false xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=13} lvl=null"
+    },
+    {
+      "in": "garden|267|",
+      "out": "false xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=13} lvl=null"
+    },
+    {
+      "in": "garden|268|random line",
+      "out": "false xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=13} lvl=null"
+    },
+    {
+      "in": "garden|269|UNCOMMON! You dropped 12x Wheat!",
+      "out": "false xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=13} lvl=null"
+    },
+    {
+      "in": "garden|270|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=19} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=14} lvl=null"
+    },
+    {
+      "in": "garden|271|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=20} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=14} lvl=null"
+    },
+    {
+      "in": "garden|272|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "false xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=20} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=14} lvl=null"
+    },
+    {
+      "in": "garden|273|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=20} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|274|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "false xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=20} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|275|RARE CROP! ",
+      "out": "false xp=17661.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=20} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|276|§a+15 Garden Experience",
+      "out": "true xp=17676.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=20} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|277|RARE! You dropped 99999999999999999999x Wheat!",
+      "out": "false xp=17676.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=20} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|278|UNCOMMON! You dropped 12x Wheat!",
+      "out": "false xp=17676.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=20} fever=false/14 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|279|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=17676.0 caps={Fungi Cutter=14, Euclid's Wheat Hoe=20} fever=true/15 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|280|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=17676.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/15 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=13, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|281|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=17676.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/15 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|282|",
+      "out": "false xp=17676.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/15 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=7, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|283|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=17676.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/15 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=8, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|284|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=17676.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/16 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=8, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|285|GONE! Your CROP FEVER has been cured!",
+      "out": "true xp=17676.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=false/16 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=8, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|286|RARE CROP! ",
+      "out": "false xp=17676.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=false/16 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=8, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|287|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=17676.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=false/16 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=9, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|288|RARE CROP! ",
+      "out": "false xp=17676.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=false/16 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=9, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|289|random line",
+      "out": "false xp=17676.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=false/16 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=9, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|290|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=17676.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/17 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=9, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|291|RARE CROP! Unknown Thing (+1.5) (automatically donated)",
+      "out": "true xp=17676.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/17 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=9, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|292|random line",
+      "out": "false xp=17676.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/17 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=9, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|293|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=17676.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/17 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=10, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|294|+12 Garden Experience",
+      "out": "true xp=17688.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/17 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=10, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|295|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=17688.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=10, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|296|+, Garden Experience",
+      "out": "THROWS NumberFormatException xp=17688.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=132} rItems={SQUASH=10, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|297|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=17688.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=10, CROPIE=13, FERMENTO=15} lvl=null"
+    },
+    {
+      "in": "garden|298|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=17688.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=10, CROPIE=13, FERMENTO=16} lvl=null"
+    },
+    {
+      "in": "garden|299|RARE CROP! Cropie",
+      "out": "true xp=17688.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=10, CROPIE=14, FERMENTO=16} lvl=null"
+    },
+    {
+      "in": "garden|300|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=17688.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=10, CROPIE=14, FERMENTO=16} lvl=null"
+    },
+    {
+      "in": "garden|301|RARE CROP! Cropie",
+      "out": "true xp=17688.0 caps={Fungi Cutter=15, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=10, CROPIE=15, FERMENTO=16} lvl=null"
+    },
+    {
+      "in": "garden|302|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=17688.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=10, CROPIE=15, FERMENTO=16} lvl=null"
+    },
+    {
+      "in": "garden|303|",
+      "out": "false xp=17688.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=10, CROPIE=15, FERMENTO=16} lvl=null"
+    },
+    {
+      "in": "garden|304|RARE! You dropped 99999999999999999999x Wheat!",
+      "out": "THROWS NumberFormatException xp=17688.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=10, CROPIE=15, FERMENTO=16} lvl=null"
+    },
+    {
+      "in": "garden|305|random line",
+      "out": "false xp=17688.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=10, CROPIE=15, FERMENTO=16} lvl=null"
+    },
+    {
+      "in": "garden|306|RARE CROP! ",
+      "out": "false xp=17688.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=10, CROPIE=15, FERMENTO=16} lvl=null"
+    },
+    {
+      "in": "garden|307|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=17688.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=11, CROPIE=15, FERMENTO=16} lvl=null"
+    },
+    {
+      "in": "garden|308|RARE CROP! ",
+      "out": "false xp=17688.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=11, CROPIE=15, FERMENTO=16} lvl=null"
+    },
+    {
+      "in": "garden|309|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=17688.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=33, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=11, CROPIE=15, FERMENTO=17} lvl=null"
+    },
+    {
+      "in": "garden|310|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=17688.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/18 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=11, CROPIE=15, FERMENTO=17} lvl=null"
+    },
+    {
+      "in": "garden|311|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=17688.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/19 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=144} rItems={SQUASH=11, CROPIE=15, FERMENTO=17} lvl=null"
+    },
+    {
+      "in": "garden|312|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=17688.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/19 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=11, CROPIE=15, FERMENTO=17} lvl=null"
+    },
+    {
+      "in": "garden|313|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=17688.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/20 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=11, CROPIE=15, FERMENTO=17} lvl=null"
+    },
+    {
+      "in": "garden|314|RARE CROP! Cropie",
+      "out": "true xp=17688.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/20 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=11, CROPIE=16, FERMENTO=17} lvl=null"
+    },
+    {
+      "in": "garden|315|+12 Garden Experience",
+      "out": "true xp=17700.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/20 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=11, CROPIE=16, FERMENTO=17} lvl=null"
+    },
+    {
+      "in": "garden|316|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=17700.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/20 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=12, CROPIE=16, FERMENTO=17} lvl=null"
+    },
+    {
+      "in": "garden|317|§a+15 Garden Experience",
+      "out": "true xp=17715.0 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/20 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=12, CROPIE=16, FERMENTO=17} lvl=null"
+    },
+    {
+      "in": "garden|318|  +1,234.5 Garden Experience",
+      "out": "true xp=18949.5 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/20 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=12, CROPIE=16, FERMENTO=17} lvl=null"
+    },
+    {
+      "in": "garden|319|RARE! You dropped 99999999999999999999x Wheat!",
+      "out": "THROWS NumberFormatException xp=18949.5 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/20 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=12, CROPIE=16, FERMENTO=17} lvl=null"
+    },
+    {
+      "in": "garden|320|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=18949.5 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/20 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=12, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|321|random line",
+      "out": "false xp=18949.5 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/20 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=12, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|322|RARE! You dropped 99999999999999999999x Wheat!",
+      "out": "THROWS NumberFormatException xp=18949.5 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/20 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=12, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|323|RARE CROP! ",
+      "out": "false xp=18949.5 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/20 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=12, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|324|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=18949.5 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/21 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=12, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|325|",
+      "out": "false xp=18949.5 caps={Fungi Cutter=16, Euclid's Wheat Hoe=20} fever=true/21 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=12, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|326|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=18949.5 caps={Fungi Cutter=16, Euclid's Wheat Hoe=21} fever=true/21 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=12, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|327|+12 Garden Experience!",
+      "out": "false xp=18949.5 caps={Fungi Cutter=16, Euclid's Wheat Hoe=21} fever=true/21 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=12, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|328|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=18949.5 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/21 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=12, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|329|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=18949.5 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=12, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|330|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=18949.5 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=13, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|331|RARE CROP! ",
+      "out": "false xp=18949.5 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=13, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|332|§a+15 Garden Experience",
+      "out": "true xp=18964.5 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=13, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|333|+12 Garden Experience",
+      "out": "true xp=18976.5 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=156} rItems={SQUASH=13, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|334|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=18976.5 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=168} rItems={SQUASH=13, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|335|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=18976.5 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=168} rItems={SQUASH=14, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|336|RARE CROP! Unknown Thing (+1.5) (automatically donated)",
+      "out": "true xp=18976.5 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=168} rItems={SQUASH=14, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|337|random line",
+      "out": "false xp=18976.5 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=168} rItems={SQUASH=14, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|338|  +1,234.5 Garden Experience",
+      "out": "true xp=20211.0 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=168} rItems={SQUASH=14, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|339|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=20211.0 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=168} rItems={SQUASH=14, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|340|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=20211.0 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|341|  +1,234.5 Garden Experience",
+      "out": "true xp=21445.5 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|342|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=21445.5 caps={Fungi Cutter=17, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|343|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=21445.5 caps={Fungi Cutter=18, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|344|  +1,234.5 Garden Experience",
+      "out": "true xp=22680.0 caps={Fungi Cutter=18, Euclid's Wheat Hoe=21} fever=true/22 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|345|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=22680.0 caps={Fungi Cutter=18, Euclid's Wheat Hoe=21} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|346|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=22680.0 caps={Fungi Cutter=18, Euclid's Wheat Hoe=21} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=18} lvl=null"
+    },
+    {
+      "in": "garden|347|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=22680.0 caps={Fungi Cutter=18, Euclid's Wheat Hoe=21} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|348|RARE CROP! Unknown Thing (+1.5) (automatically donated)",
+      "out": "true xp=22680.0 caps={Fungi Cutter=18, Euclid's Wheat Hoe=21} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|349|RARE CROP! ",
+      "out": "false xp=22680.0 caps={Fungi Cutter=18, Euclid's Wheat Hoe=21} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|350|RARE CROP! Unknown Thing (+1.5) (automatically donated)",
+      "out": "true xp=22680.0 caps={Fungi Cutter=18, Euclid's Wheat Hoe=21} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|351|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=22680.0 caps={Fungi Cutter=19, Euclid's Wheat Hoe=21} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|352|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=22680.0 caps={Fungi Cutter=19, Euclid's Wheat Hoe=22} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|353|+12 Garden Experience!",
+      "out": "false xp=22680.0 caps={Fungi Cutter=19, Euclid's Wheat Hoe=22} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|354|",
+      "out": "false xp=22680.0 caps={Fungi Cutter=19, Euclid's Wheat Hoe=22} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|355|+12 Garden Experience!",
+      "out": "false xp=22680.0 caps={Fungi Cutter=19, Euclid's Wheat Hoe=22} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=14, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|356|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=22680.0 caps={Fungi Cutter=19, Euclid's Wheat Hoe=22} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=15, WHEAT=180} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|357|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=22680.0 caps={Fungi Cutter=19, Euclid's Wheat Hoe=22} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=15, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|358|OVERFLOW! Your Fungi Cutter has just dropped a Tool Exp Capsule!",
+      "out": "true xp=22680.0 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=15, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|359|§a+15 Garden Experience",
+      "out": "true xp=22695.0 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=15, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|360|",
+      "out": "false xp=22695.0 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/23 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=15, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|361|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=22695.0 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/24 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=15, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|362|  +1,234.5 Garden Experience",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/24 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=15, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|363|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/25 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=15, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|364|",
+      "out": "false xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/25 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=15, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|365|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/25 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=16, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|366|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/26 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=16, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|367|random line",
+      "out": "false xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/26 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=16, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|368|random line",
+      "out": "false xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/26 fItems={ENCHANTED_WHEAT=36, ENCHANTED_HAY_BALE=16, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|369|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/26 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=16, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|370|RARE CROP! ",
+      "out": "false xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/26 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=16, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|371|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/26 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|372|GONE! Your CROP FEVER has been cured!",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=false/26 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=14, CROPIE=16, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|373|RARE CROP! Cropie",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=false/26 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=14, CROPIE=17, FERMENTO=19} lvl=null"
+    },
+    {
+      "in": "garden|374|RARE CROP! Fermento (automatically donated)",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=false/26 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=14, CROPIE=17, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|375|UNCOMMON! You dropped 12x Wheat!",
+      "out": "false xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=false/26 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=14, CROPIE=17, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|376|RARE CROP! Cropie",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=false/26 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=14, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|377|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=false/26 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=15, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|378|GONE! Your CROP FEVER has been cured!",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=false/26 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=15, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|379|UNCOMMON! You dropped 12x Wheat!",
+      "out": "false xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=false/26 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=15, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|380|",
+      "out": "false xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=false/26 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=15, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|381|RARE CROP! ",
+      "out": "false xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=false/26 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=15, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|382|RARE CROP! Unknown Thing (+1.5) (automatically donated)",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=false/26 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=15, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|383|WOAH! You caught a case of the CROP FEVER for 60 seconds!",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/27 fItems={ENCHANTED_WHEAT=39, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=15, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|384|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/27 fItems={ENCHANTED_WHEAT=42, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=15, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|385|random line",
+      "out": "false xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=22} fever=true/27 fItems={ENCHANTED_WHEAT=42, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=15, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|386|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=23} fever=true/27 fItems={ENCHANTED_WHEAT=42, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=15, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|387|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=23} fever=true/27 fItems={ENCHANTED_WHEAT=45, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=15, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|388|random line",
+      "out": "false xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=23} fever=true/27 fItems={ENCHANTED_WHEAT=45, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=15, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|389|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=23929.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=23} fever=true/27 fItems={ENCHANTED_WHEAT=45, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=16, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|390|§a+15 Garden Experience",
+      "out": "true xp=23944.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=23} fever=true/27 fItems={ENCHANTED_WHEAT=45, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=16, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|391|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=23944.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=23} fever=true/27 fItems={ENCHANTED_WHEAT=45, ENCHANTED_HAY_BALE=17, WHEAT=192} rItems={SQUASH=16, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|392|JACKPOT! You dropped 1x Enchanted Hay Bale!",
+      "out": "true xp=23944.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=23} fever=true/27 fItems={ENCHANTED_WHEAT=45, ENCHANTED_HAY_BALE=18, WHEAT=192} rItems={SQUASH=16, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|393|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=23944.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=23} fever=true/27 fItems={ENCHANTED_WHEAT=48, ENCHANTED_HAY_BALE=18, WHEAT=192} rItems={SQUASH=16, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|394|+1.2.3 Garden Experience",
+      "out": "THROWS NumberFormatException xp=23944.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=23} fever=true/27 fItems={ENCHANTED_WHEAT=48, ENCHANTED_HAY_BALE=18, WHEAT=192} rItems={SQUASH=16, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|395|+12 Garden Experience!",
+      "out": "false xp=23944.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=23} fever=true/27 fItems={ENCHANTED_WHEAT=48, ENCHANTED_HAY_BALE=18, WHEAT=192} rItems={SQUASH=16, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|396|RARE! You dropped 3x Enchanted Wheat!",
+      "out": "true xp=23944.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=23} fever=true/27 fItems={ENCHANTED_WHEAT=51, ENCHANTED_HAY_BALE=18, WHEAT=192} rItems={SQUASH=16, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|397|VERY RARE CROP! Squash (+50.0)",
+      "out": "true xp=23944.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=23} fever=true/27 fItems={ENCHANTED_WHEAT=51, ENCHANTED_HAY_BALE=18, WHEAT=192} rItems={SQUASH=17, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|398|UNCOMMON! You dropped 12x Wheat!",
+      "out": "true xp=23944.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=23} fever=true/27 fItems={ENCHANTED_WHEAT=51, ENCHANTED_HAY_BALE=18, WHEAT=204} rItems={SQUASH=17, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "garden|399|OVERFLOW! Your Euclid's Wheat Hoe has just dropped a Tool Exp Capsule!",
+      "out": "true xp=23944.5 caps={Fungi Cutter=20, Euclid's Wheat Hoe=24} fever=true/27 fItems={ENCHANTED_WHEAT=51, ENCHANTED_HAY_BALE=18, WHEAT=204} rItems={SQUASH=17, CROPIE=18, FERMENTO=20} lvl=null"
+    },
+    {
+      "in": "invKeys",
+      "out": "[ultimate-star, evolving-time-held, evolving-time-left, museum-highlight, auction-outbid] 1080000"
+    },
+    {
+      "in": "outbid|[Auction] Bob outbid you by 1,000 coins for Hyperion bidding 1B coins!",
+      "out": "true \\[Auction] .* outbid you by .*"
+    },
+    {
+      "in": "outbid|[Auction] outbid you by x",
+      "out": "false \\[Auction] .* outbid you by .*"
+    },
+    {
+      "in": "outbid|[Auction]  outbid you by ",
+      "out": "true \\[Auction] .* outbid you by .*"
+    },
+    {
+      "in": "outbid|Auction] Bob outbid you by 5",
+      "out": "false \\[Auction] .* outbid you by .*"
+    },
+    {
+      "in": "outbid|§6[Auction] §aBob §eoutbid you by §61 coins",
+      "out": "true \\[Auction] .* outbid you by .*"
+    },
+    {
+      "in": "outbid|[Auction] Bob outbid you",
+      "out": "false \\[Auction] .* outbid you by .*"
+    },
+    {
+      "in": "outbid|",
+      "out": "false \\[Auction] .* outbid you by .*"
+    },
+    {
+      "in": "donated|Items Donated: 100%",
+      "out": "true Items Donated: 100%"
+    },
+    {
+      "in": "donated|Items Donated: 99%",
+      "out": "false Items Donated: 100%"
+    },
+    {
+      "in": "donated|§7Items Donated: §a100%",
+      "out": "true Items Donated: 100%"
+    },
+    {
+      "in": "donated| Items Donated: 100%",
+      "out": "false Items Donated: 100%"
+    },
+    {
+      "in": "donated|Items Donated: 100%!",
+      "out": "false Items Donated: 100%"
+    },
+    {
+      "in": "attr|null",
+      "out": "seconds_held"
+    },
+    {
+      "in": "attr|NEW_BOTTLE_OF_JYRRE",
+      "out": "bottle_of_jyrre_seconds"
+    },
+    {
+      "in": "attr|DISCRITE",
+      "out": "rift_discrite_seconds"
+    },
+    {
+      "in": "attr|DARK_CACAO_TRUFFLE",
+      "out": "seconds_held"
+    },
+    {
+      "in": "attr|",
+      "out": "seconds_held"
+    },
+    {
+      "in": "attr|new_bottle_of_jyrre",
+      "out": "seconds_held"
+    },
+    {
+      "in": "left|-2147483648",
+      "out": "0"
+    },
+    {
+      "in": "left|-1",
+      "out": "1080001"
+    },
+    {
+      "in": "left|0",
+      "out": "1080000"
+    },
+    {
+      "in": "left|1",
+      "out": "1079999"
+    },
+    {
+      "in": "left|1079999",
+      "out": "1"
+    },
+    {
+      "in": "left|1080000",
+      "out": "0"
+    },
+    {
+      "in": "left|1080001",
+      "out": "0"
+    },
+    {
+      "in": "left|2147483647",
+      "out": "0"
+    }
+  ]
+}

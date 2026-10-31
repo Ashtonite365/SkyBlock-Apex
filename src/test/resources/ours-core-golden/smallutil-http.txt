@@ -1,0 +1,13 @@
+req https://example.com/a?b=c GET {x-probe=[1]} ua=Apex timeout=Optional.empty expect=false
+req http://localhost:1234/x%20y GET {x-probe=[1]} ua=Apex timeout=Optional.empty expect=false
+uri-overloads https://e.org/p https://e.org/q
+bad threw IllegalArgumentException: Illegal character in path at index 3: not a uri
+client redirect=NORMAL
+equals true
+json1 threw ExecutionException: java.io.IOException: closed requested=true
+json2 OursHttpProbe(name=b, count=1, tags=[]) requested=true
+json3 threw ExecutionException: kotlinx.serialization.MissingFieldException: Field 'name' is required for type with serial name 'dev.ashtonite365.apex.test.ours.smallutil.OursHttpProbe', but it was missing at path: $ requested=true
+json4 threw ExecutionException: java.io.IOException: closed requested=true
+json5 {X=1.5, Y=2.0} requested=true
+json6 OursHttpProbe(name=d, count=1, tags=[]) requested=true
+discard null true threw ExecutionException: java.lang.IllegalStateException: x

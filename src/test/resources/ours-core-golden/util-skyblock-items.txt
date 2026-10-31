@@ -1,0 +1,85 @@
+rarity COMMON names=[COMMON] repo=COMMON text={"color":"white","text":"COMMON"} back=COMMON json="COMMON"
+rarity UNCOMMON names=[UNCOMMON] repo=UNCOMMON text={"color":"green","text":"UNCOMMON"} back=UNCOMMON json="UNCOMMON"
+rarity RARE names=[RARE] repo=RARE text={"color":"blue","text":"RARE"} back=RARE json="RARE"
+rarity EPIC names=[EPIC] repo=EPIC text={"color":"dark_purple","text":"EPIC"} back=EPIC json="EPIC"
+rarity LEGENDARY names=[LEGENDARY, LEGENJERRY] repo=LEGENDARY text={"color":"gold","text":"LEGENDARY"} back=LEGENDARY json="LEGENDARY"
+rarity MYTHIC names=[MYTHIC] repo=MYTHIC text={"color":"light_purple","text":"MYTHIC"} back=MYTHIC json="MYTHIC"
+rarity DIVINE names=[DIVINE] repo=DIVINE text={"color":"aqua","text":"DIVINE"} back=DIVINE json="DIVINE"
+rarity SUPREME names=[SUPREME] repo=SUPREME text={"color":"dark_red","text":"SUPREME"} back=SUPREME json="SUPREME"
+rarity SPECIAL names=[SPECIAL] repo=SPECIAL text={"color":"red","text":"SPECIAL"} back=SPECIAL json="SPECIAL"
+rarity VERY_SPECIAL names=[VERY_SPECIAL] repo=VERY_SPECIAL text={"color":"red","text":"VERY_SPECIAL"} back=VERY_SPECIAL json="VERY_SPECIAL"
+rarity ULTIMATE names=[ULTIMATE] repo=null text={"color":"dark_red","text":"ULTIMATE"} back=null json="ULTIMATE"
+rarity ADMIN names=[ADMIN] repo=null text={"color":"dark_red","text":"ADMIN"} back=null json="ADMIN"
+rarity UNKNOWN names=[UNKNOWN] repo=UNKNOWN text="UNKNOWN" back=UNKNOWN json="UNKNOWN"
+fromString 'COMMON' COMMON json=COMMON
+fromString 'LEGENJERRY' LEGENDARY json=ERR:IllegalArgumentException
+fromString 'VERY_SPECIAL' VERY_SPECIAL json=VERY_SPECIAL
+fromString 'VERY SPECIAL' null json=VERY_SPECIAL
+fromString 'common' null json=ERR:IllegalArgumentException
+fromString '' null json=ERR:IllegalArgumentException
+fromString 'UNKNOWN' UNKNOWN json=UNKNOWN
+fromString 'SHINY' null json=ERR:IllegalArgumentException
+tier -1 null
+tier 0 COMMON
+tier 1 UNCOMMON
+tier 2 RARE
+tier 3 EPIC
+tier 4 LEGENDARY
+tier 5 MYTHIC
+tier 6 DIVINE
+tier 7 SUPREME
+tier 8 SPECIAL
+tier 9 VERY_SPECIAL
+tier 10 ULTIMATE
+tier 11 ADMIN
+tier 12 UNKNOWN
+tier 13 null
+tier 14 null
+byName {ADMIN=ADMIN, COMMON=COMMON, DIVINE=DIVINE, EPIC=EPIC, LEGENDARY=LEGENDARY, LEGENJERRY=LEGENDARY, MYTHIC=MYTHIC, RARE=RARE, SPECIAL=SPECIAL, SUPREME=SUPREME, ULTIMATE=ULTIMATE, UNCOMMON=UNCOMMON, UNKNOWN=UNKNOWN, VERY_SPECIAL=VERY_SPECIAL} fromRepo [COMMON=COMMON, UNCOMMON=UNCOMMON, RARE=RARE, EPIC=EPIC, LEGENDARY=LEGENDARY, MYTHIC=MYTHIC, DIVINE=DIVINE, SUPREME=SUPREME, SPECIAL=SPECIAL, VERY_SPECIAL=VERY_SPECIAL, null=ADMIN, UNKNOWN=UNKNOWN]
+fromLore [a, §6§lLEGENDARY SWORD] LEGENDARY
+fromLore [§d§l§ka§r §d§lMYTHIC DUNGEON HELMET §d§l§ka] MYTHIC
+fromLore [RARE, nothing] RARE
+fromLore [lower case epic] null
+fromLore [x VERY SPECIAL y] SPECIAL
+fromLore [LEGENJERRY BOW, EPIC] EPIC
+fromLore [] null
+escape '§6§lLEGENDARY SWORD' SWORD
+escape '§d§l§kU§r §d§lMYTHIC DUNGEON CHESTPLATE §d§l§kU' §d§lMYTHIC DUNGEON CHESTPLATE §d§l
+escape '§kabc§r COMMON' null
+escape 'SINGLE' null
+escape '' null
+escape '  RARE   LONG SWORD '   LONG SWORD
+escape '§K§6x§a EPIC BOW' EPIC BOW
+type SWORD dung=DUNGEON SWORD is=false non=SWORD eq=true
+type LONG SWORD dung=DUNGEON LONG SWORD is=false non=LONG SWORD eq=true
+type DUNGEON HELMET dung=DUNGEON DUNGEON HELMET is=true non=HELMET eq=true
+type __NIL dung=DUNGEON __NIL is=false non=__NIL eq=true
+type PET dung=DUNGEON PET is=false non=PET eq=true
+item aspect-of-the-void type=SWORD rarity=EPIC pet=null search=Heroic Aspect of the Void
+  abilities [Instant Transmission|true|RIGHT CLICK|23|null|[{"extra":[{"color":"gray","text":"Teleport "},{"color":"green","text":"12 blocks"},{"color":"gray","text":" ahead of you and"}],"italic":false,"text":""}, {"extra":[{"color":"gray","text":"gain "},{"color":"green","text":"+50 "},{"color":"white","text":"✦ Speed"},{"color":"gray","text":" for "},{"color":"green","text":"3 seconds"},{"color":"gray","text":"."}],"italic":false,"text":""}], Ether Transmission|false|SNEAK RIGHT CLICK|90|null|[{"extra":[{"color":"gray","text":"Teleport to your targeted block up"}],"italic":false,"text":""}, {"extra":[{"color":"gray","text":"to "},{"color":"green","text":"61 blocks "},{"color":"gray","text":"away."}],"italic":false,"text":""}, {"extra":[{"color":"gray","text":""},{"color":"dark_gray","text":"Soulflow Cost: "},{"color":"dark_aqua","text":"1"}],"italic":false,"text":""}]]
+item backpack-in-menu type=null rarity=null pet=null search=Backpack Slot 3
+  abilities []
+item diamond-pickaxe type=PICKAXE rarity=UNCOMMON pet=null search=Diamond Pickaxe
+  abilities [Mining Speed Boost|true|RIGHT CLICK|null|2m|[{"extra":[{"color":"gray","text":"Grants "},{"color":"gold","text":"+200% "},{"color":"gold","text":"⸕ Mining Speed "},{"color":"gray","text":"for"}],"italic":false,"text":""}, {"extra":[{"color":"gray","text":""},{"color":"green","text":"10s"},{"color":"gray","text":"."}],"italic":false,"text":""}]]
+item gemstone-gauntlet type=GAUNTLET rarity=LEGENDARY pet=null search=Auspicious Gemstone Gauntlet
+  abilities [Mining Speed Boost|false|RIGHT CLICK|null|2m|[{"extra":[{"color":"gray","text":"Grants "},{"color":"gold","text":"+200% "},{"color":"gold","text":"⸕ Mining Speed "},{"color":"gray","text":"for"}],"italic":false,"text":""}, {"extra":[{"color":"gray","text":""},{"color":"green","text":"10s"},{"color":"gray","text":"."}],"italic":false,"text":""}]]
+item hyperion type=DUNGEON SWORD rarity=MYTHIC pet=null search=Heroic Hyperion ✪✪✪✪✪
+  abilities [Wither Impact|false|RIGHT CLICK|150|null|[{"extra":[{"color":"gray","text":"Teleport "},{"color":"green","text":"10 blocks"},{"color":"gray","text":" ahead of you."}],"italic":false,"text":""}, {"extra":[{"color":"gray","text":"Then implode dealing "},{"color":"red","text":"21,658 "},{"color":"gray","text":"damage"}],"italic":false,"text":""}, {"extra":[{"color":"gray","text":"to nearby enemies. Also applies the"}],"italic":false,"text":""}, {"extra":[{"color":"gray","text":"wither shield scroll ability reducing"}],"italic":false,"text":""}, {"extra":[{"color":"gray","text":"damage taken and granting an"}],"italic":false,"text":""}, {"extra":[{"color":"gray","text":"absorption shield for "},{"color":"yellow","text":"5 "},{"color":"gray","text":"seconds."}],"italic":false,"text":""}]]
+item necron-boots type=DUNGEON BOOTS rarity=MYTHIC pet=null search=Ancient Necron's Boots ✪✪✪✪✪
+  abilities []
+item rune-in-sack unloadable
+item titanium-drill type=DRILL rarity=MYTHIC pet=null search=Auspicious Titanium Drill DR-X655
+  abilities [Pickobulus|false|RIGHT CLICK|null|48s|[{"extra":[{"color":"gray","text":"Throw your pickaxe to create an"}],"italic":false,"text":""}, {"extra":[{"color":"gray","text":"explosion mining all ores in a "},{"color":"green","text":"3 "},{"color":"gray","text":"block"}],"italic":false,"text":""}, {"extra":[{"color":"gray","text":"radius."}],"italic":false,"text":""}]]
+item pets/lion-item type=PET rarity=LEGENDARY pet=LEGENDARY search=] Lion
+  abilities []
+item pets/mithril-golem-not-selected type=PET rarity=LEGENDARY pet=LEGENDARY search=] Mithril Golem
+  abilities []
+item pets/rabbit-selected type=PET rarity=MYTHIC pet=MYTHIC search=] Rabbit
+  abilities []
+activation 'null' ''
+activation '' ''
+activation '  ' ''
+activation ' RIGHT CLICK ' 'RIGHT CLICK'
+activation 'LEFT CLICK' 'LEFT CLICK'
+consts [RIGHT CLICK, SNEAK RIGHT CLICK, SNEAK, ]
+handAbilities ERR:NumberFormatException

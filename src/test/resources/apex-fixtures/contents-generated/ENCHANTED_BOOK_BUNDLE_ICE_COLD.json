@@ -1,0 +1,16 @@
+{
+	"box": "ENCHANTED_BOOK_BUNDLE_ICE_COLD",
+	"source": "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Book_Bundle",
+	"total_weight": null,
+	"drops": [
+		{
+			"type": "item",
+			"id": "ICE_COLD;5",
+			"min": 4,
+			"max": 4,
+			"weight": null,
+			"chance": 1.0
+		}
+	],
+	"note": "fixed contents stated by wiki"
+}

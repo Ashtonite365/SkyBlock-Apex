@@ -1,0 +1,403 @@
+pad 	
+decB 	b[]
+decS 	
+tplDec 	
+tplPrefix 	<null>
+tplSafe 	
+tplInto 	
+pad a	a===
+decB a	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+decS a	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+tplDec a	<null>
+tplPrefix a	<null>
+tplSafe a	
+tplInto a	YQ==
+pad ab	ab==
+decB ab	b[105]
+decS ab	i
+tplDec ab	i
+tplPrefix ab	<null>
+tplSafe ab	
+tplInto ab	YWI=
+pad abc	abc=
+decB abc	b[105,-73]
+decS abc	i�
+tplDec abc	i�
+tplPrefix abc	<null>
+tplSafe abc	YWJj
+tplInto abc	YWJj
+pad abcd	abcd
+decB abcd	b[105,-73,29]
+decS abcd	i�\u001d
+tplDec abcd	i�\u001d
+tplPrefix abcd	<null>
+tplSafe abcd	YWJj
+tplInto abcd	YWJjZA==
+pad YWJj	YWJj
+decB YWJj	b[97,98,99]
+decS YWJj	abc
+tplDec YWJj	abc
+tplPrefix YWJj	<null>
+tplSafe YWJj	WVdK
+tplInto YWJj	WVdKag==
+pad YWJjZA	YWJjZA==
+decB YWJjZA	b[97,98,99,100]
+decS YWJjZA	abcd
+tplDec YWJjZA	abcd
+tplPrefix YWJjZA	<null>
+tplSafe YWJjZA	WVdKalpB
+tplInto YWJjZA	WVdKalpB
+pad YW	YW==
+decB YW	b[97]
+decS YW	a
+tplDec YW	a
+tplPrefix YW	<null>
+tplSafe YW	
+tplInto YW	WVc=
+pad Y	Y===
+decB Y	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+decS Y	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+tplDec Y	<null>
+tplPrefix Y	<null>
+tplSafe Y	
+tplInto Y	WQ==
+pad !!	!!==
+decB !!	!java.lang.IllegalArgumentException: Illegal base64 character 21
+decS !!	!java.lang.IllegalArgumentException: Illegal base64 character 21
+tplDec !!	<null>
+tplPrefix !!	<null>
+tplSafe !!	
+tplInto !!	ISE=
+pad YWJjZA==	YWJjZA==
+decB YWJjZA==	b[97,98,99,100]
+decS YWJjZA==	abcd
+tplDec YWJjZA==	abcd
+tplPrefix YWJjZA==	<null>
+tplSafe YWJjZA==	WVdKalpB
+tplInto YWJjZA==	WVdKalpBPT0=
+pad §	§===
+decB §	!java.lang.IllegalArgumentException: Illegal base64 character -59
+decS §	!java.lang.IllegalArgumentException: Illegal base64 character -59
+tplDec §	<null>
+tplPrefix §	<null>
+tplSafe §	
+tplInto §	wqc=
+pad aGk=\n	aGk=\n===
+decB aGk=\n	!java.lang.IllegalArgumentException: Input byte array has incorrect ending byte at 4
+decS aGk=\n	!java.lang.IllegalArgumentException: Input byte array has incorrect ending byte at 4
+tplDec aGk=\n	hi
+tplPrefix aGk=\n	<null>
+tplSafe aGk=\n	YUdr
+tplInto aGk=\n	YUdrPQo=
+pad C/x	C/x=
+decB C/x	b[11,-4]
+decS C/x	\u000b�
+tplDec C/x	\u000b�
+tplPrefix C/x	<null>
+tplSafe C/x	Qy94
+tplInto C/x	Qy94
+pad zy	zy==
+decB zy	b[-49]
+decS zy	�
+tplDec zy	�
+tplPrefix zy	<null>
+tplSafe zy	
+tplInto zy	enk=
+pad xA/	xA/=
+decB xA/	b[-60,15]
+decS xA/	�\u000f
+tplDec xA/	�\u000f
+tplPrefix xA/	<null>
+tplSafe xA/	eEEv
+tplInto xA/	eEEv
+pad 1+x	1+x=
+decB 1+x	b[-41,-20]
+decS 1+x	��
+tplDec 1+x	��
+tplPrefix 1+x	<null>
+tplSafe 1+x	MSt4
+tplInto 1+x	MSt4
+pad 1zCzz/9	1zCzz/9=
+decB 1zCzz/9	b[-41,48,-77,-49,-1]
+decS 1zCzz/9	�0���
+tplDec 1zCzz/9	�0���
+tplPrefix 1zCzz/9	<null>
+tplSafe 1zCzz/9	MXpDenov
+tplInto 1zCzz/9	MXpDenovOQ==
+pad zx==	zx==
+decB zx==	b[-49]
+decS zx==	�
+tplDec zx==	�
+tplPrefix zx==	<null>
+tplSafe zx==	eng9
+tplInto zx==	eng9PQ==
+pad 	
+decB 	b[]
+decS 	
+tplDec 	
+tplPrefix 	<null>
+tplSafe 	
+tplInto 	
+pad A1xz0=/+	A1xz0=/+
+decB A1xz0=/+	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+decS A1xz0=/+	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+tplDec A1xz0=/+	<null>
+tplPrefix A1xz0=/+	<null>
+tplSafe A1xz0=/+	QTF4ejA9
+tplInto A1xz0=/+	QTF4ejA9Lys=
+pad Bzx9xA	Bzx9xA==
+decB Bzx9xA	b[7,60,125,-60]
+decS Bzx9xA	\u0007<}�
+tplDec Bzx9xA	\u0007<}�
+tplPrefix Bzx9xA	<null>
+tplSafe Bzx9xA	Qnp4OXhB
+tplInto Bzx9xA	Qnp4OXhB
+pad /	/===
+decB /	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+decS /	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+tplDec /	<null>
+tplPrefix /	<null>
+tplSafe /	
+tplInto /	Lw==
+pad A0B90	A0B90===
+decB A0B90	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+decS A0B90	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+tplDec A0B90	<null>
+tplPrefix A0B90	<null>
+tplSafe A0B90	QTBC
+tplInto A0B90	QTBCOTA=
+pad 	
+decB 	b[]
+decS 	
+tplDec 	
+tplPrefix 	<null>
+tplSafe 	
+tplInto 	
+pad ++	++==
+decB ++	b[-5]
+decS ++	�
+tplDec ++	�
+tplPrefix ++	<null>
+tplSafe ++	
+tplInto ++	Kys=
+pad //C	//C=
+decB //C	b[-1,-16]
+decS //C	��
+tplDec //C	��
+tplPrefix //C	<null>
+tplSafe //C	Ly9D
+tplInto //C	Ly9D
+pad yA	yA==
+decB yA	b[-56]
+decS yA	�
+tplDec yA	�
+tplPrefix yA	<null>
+tplSafe yA	
+tplInto yA	eUE=
+pad B	B===
+decB B	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+decS B	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+tplDec B	<null>
+tplPrefix B	<null>
+tplSafe B	
+tplInto B	Qg==
+pad yBy	yBy=
+decB yBy	b[-56,28]
+decS yBy	�\u001c
+tplDec yBy	�\u001c
+tplPrefix yBy	<null>
+tplSafe yBy	eUJ5
+tplInto yBy	eUJ5
+pad By9y01=	By9y01==
+decB By9y01=	b[7,47,114,-45]
+decS By9y01=	\u0007/r�
+tplDec By9y01=	<null>
+tplPrefix By9y01=	<null>
+tplSafe By9y01=	Qnk5eTAx
+tplInto By9y01=	Qnk5eTAxPQ==
+pad z1A90CB	z1A90CB=
+decB z1A90CB	b[-49,80,61,-48,32]
+decS z1A90CB	�P=� 
+tplDec z1A90CB	�P=� 
+tplPrefix z1A90CB	<null>
+tplSafe z1A90CB	ejFBOTBD
+tplInto z1A90CB	ejFBOTBDQg==
+pad z=z0C=BA	z=z0C=BA
+decB z=z0C=BA	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+decS z=z0C=BA	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+tplDec z=z0C=BA	<null>
+tplPrefix z=z0C=BA	<null>
+tplSafe z=z0C=BA	ej16MEM9
+tplInto z=z0C=BA	ej16MEM9QkE=
+pad y	y===
+decB y	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+decS y	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+tplDec y	<null>
+tplPrefix y	<null>
+tplSafe y	
+tplInto y	eQ==
+pad xB	xB==
+decB xB	b[-60]
+decS xB	�
+tplDec xB	�
+tplPrefix xB	<null>
+tplSafe xB	
+tplInto xB	eEI=
+pad y1A	y1A=
+decB y1A	b[-53,80]
+decS y1A	�P
+tplDec y1A	�P
+tplPrefix y1A	<null>
+tplSafe y1A	eTFB
+tplInto y1A	eTFB
+pad zC	zC==
+decB zC	b[-52]
+decS zC	�
+tplDec zC	�
+tplPrefix zC	<null>
+tplSafe zC	
+tplInto zC	ekM=
+pad z0	z0==
+decB z0	b[-49]
+decS z0	�
+tplDec z0	�
+tplPrefix z0	<null>
+tplSafe z0	
+tplInto z0	ejA=
+pad CzCC0	CzCC0===
+decB CzCC0	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+decS CzCC0	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+tplDec CzCC0	<null>
+tplPrefix CzCC0	<null>
+tplSafe CzCC0	Q3pD
+tplInto CzCC0	Q3pDQzA=
+pad +A=A1	+A=A1===
+decB +A=A1	!java.lang.IllegalArgumentException: Input byte array has wrong 4-byte ending unit
+decS +A=A1	!java.lang.IllegalArgumentException: Input byte array has wrong 4-byte ending unit
+tplDec +A=A1	<null>
+tplPrefix +A=A1	<null>
+tplSafe +A=A1	K0E9
+tplInto +A=A1	K0E9QTE=
+pad =AC	=AC=
+decB =AC	!java.lang.IllegalArgumentException: Input byte array has wrong 4-byte ending unit
+decS =AC	!java.lang.IllegalArgumentException: Input byte array has wrong 4-byte ending unit
+tplDec =AC	<null>
+tplPrefix =AC	<null>
+tplSafe =AC	PUFD
+tplInto =AC	PUFD
+pad +	+===
+decB +	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+decS +	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+tplDec +	<null>
+tplPrefix +	<null>
+tplSafe +	
+tplInto +	Kw==
+pad 0Cx1C	0Cx1C===
+decB 0Cx1C	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+decS 0Cx1C	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+tplDec 0Cx1C	<null>
+tplPrefix 0Cx1C	<null>
+tplSafe 0Cx1C	MEN4
+tplInto 0Cx1C	MEN4MUM=
+pad A9=/C	A9=/C===
+decB A9=/C	!java.lang.IllegalArgumentException: Input byte array has wrong 4-byte ending unit
+decS A9=/C	!java.lang.IllegalArgumentException: Input byte array has wrong 4-byte ending unit
+tplDec A9=/C	<null>
+tplPrefix A9=/C	<null>
+tplSafe A9=/C	QTk9
+tplInto A9=/C	QTk9L0M=
+pad y0/++z9	y0/++z9=
+decB y0/++z9	b[-53,79,-2,-5,63]
+decS y0/++z9	�O��?
+tplDec y0/++z9	�O��?
+tplPrefix y0/++z9	<null>
+tplSafe y0/++z9	eTAvKyt6
+tplInto y0/++z9	eTAvKyt6OQ==
+pad 99zAy+	99zAy+==
+decB 99zAy+	b[-9,-36,-64,-53]
+decS 99zAy+	����
+tplDec 99zAy+	����
+tplPrefix 99zAy+	<null>
+tplSafe 99zAy+	OTl6QXkr
+tplInto 99zAy+	OTl6QXkr
+pad xzB	xzB=
+decB xzB	b[-57,48]
+decS xzB	�0
+tplDec xzB	�0
+tplPrefix xzB	<null>
+tplSafe xzB	eHpC
+tplInto xzB	eHpC
+pad B	B===
+decB B	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+decS B	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+tplDec B	<null>
+tplPrefix B	<null>
+tplSafe B	
+tplInto B	Qg==
+pad y/z	y/z=
+decB y/z	b[-53,-4]
+decS y/z	��
+tplDec y/z	��
+tplPrefix y/z	<null>
+tplSafe y/z	eS96
+tplInto y/z	eS96
+pad Ay01x0	Ay01x0==
+decB Ay01x0	b[3,45,53,-57]
+decS Ay01x0	\u0003-5�
+tplDec Ay01x0	\u0003-5�
+tplPrefix Ay01x0	<null>
+tplSafe Ay01x0	QXkwMXgw
+tplInto Ay01x0	QXkwMXgw
+pad 1	1===
+decB 1	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+decS 1	!java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+tplDec 1	<null>
+tplPrefix 1	<null>
+tplSafe 1	
+tplInto 1	MQ==
+pad 919C	919C
+decB 919C	b[-9,95,66]
+decS 919C	�_B
+tplDec 919C	�_B
+tplPrefix 919C	<null>
+tplSafe 919C	OTE5
+tplInto 919C	OTE5Qw==
+pad 	
+decB 	b[]
+decS 	
+tplDec 	
+tplPrefix 	<null>
+tplSafe 	
+tplInto 	
+enc []	
+enc [-1, 0, 1]	/wAB
+enc [0, 1, 2, 3, 4, 5, 6]	AAECAwQFBg==
+tplEnc	YXBleC90ZXN0L3siYSI6MSwiYiI6Mn0=
+tplEncBad	!java.lang.IllegalArgumentException: Failed requirement.
+tplDecode ok	{a=1, b=2}
+tplDecode ws	{a=1, b=2}
+tplDecode other	<null>
+tplDecode garbage	<null>
+tplDecode badjson	<null>
+tplDecode prefixOnly	<null>
+tplDecode lenient	<null>
+tplDecode wrongType	<null>
+tplDecodeBad	!java.lang.IllegalArgumentException: Failed requirement.
+uuid d3cb85e2-3075-48a1-b213-a9bfb62360c1	d3cb85e2-3075-48a1-b213-a9bfb62360c1
+uuidDashless d3cb85e2-3075-48a1-b213-a9bfb62360c1	!java.lang.NumberFormatException: Illegal embedded sign character
+uuid d3cb85e2307548a1b213a9bfb62360c1	d3cb85e2-3075-48a1-b213-a9bfb62360c1
+uuidDashless d3cb85e2307548a1b213a9bfb62360c1	d3cb85e2-3075-48a1-b213-a9bfb62360c1
+uuid ffffffffffffffffffffffffffffffff	ffffffff-ffff-ffff-ffff-ffffffffffff
+uuidDashless ffffffffffffffffffffffffffffffff	ffffffff-ffff-ffff-ffff-ffffffffffff
+uuid 0000000000000000000000000000000000	00000000-0000-0000-0000-000000000000
+uuidDashless 0000000000000000000000000000000000	00000000-0000-0000-0000-000000000000
+uuid 123	!java.lang.StringIndexOutOfBoundsException: Range [0, 16) out of bounds for length 3
+uuidDashless 123	!java.lang.StringIndexOutOfBoundsException: Range [0, 16) out of bounds for length 3
+uuid zz	!java.lang.StringIndexOutOfBoundsException: Range [0, 16) out of bounds for length 2
+uuidDashless zz	!java.lang.StringIndexOutOfBoundsException: Range [0, 16) out of bounds for length 2
+uuid 1-2-3-4-5	00000001-0002-0003-0004-000000000005
+uuidDashless 1-2-3-4-5	!java.lang.StringIndexOutOfBoundsException: Range [0, 16) out of bounds for length 9
+uuid D3CB85E2307548A1B213A9BFB62360C1	d3cb85e2-3075-48a1-b213-a9bfb62360c1
+uuidDashless D3CB85E2307548A1B213A9BFB62360C1	d3cb85e2-3075-48a1-b213-a9bfb62360c1
+uuid -1	!java.lang.IllegalArgumentException: Invalid UUID string: -1
+uuidDashless -1	!java.lang.StringIndexOutOfBoundsException: Range [0, 16) out of bounds for length 2

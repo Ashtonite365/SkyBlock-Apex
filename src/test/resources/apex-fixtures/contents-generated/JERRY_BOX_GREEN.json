@@ -1,0 +1,87 @@
+{
+	"box": "JERRY_BOX_GREEN",
+	"source": "https://hypixelskyblock.minecraft.wiki/w/Jerry_Box",
+	"total_weight": 227,
+	"drops": [
+		{
+			"type": "coins",
+			"min": 20000,
+			"max": 20000,
+			"weight": 100,
+			"chance": 0.4405
+		},
+		{
+			"type": "skill_xp",
+			"skill": "FARMING",
+			"min": 2500,
+			"max": 2500,
+			"weight": 30,
+			"chance": 0.1322
+		},
+		{
+			"type": "skill_xp",
+			"skill": "FORAGING",
+			"min": 2500,
+			"max": 2500,
+			"weight": 30,
+			"chance": 0.1322
+		},
+		{
+			"type": "skill_xp",
+			"skill": "MINING",
+			"min": 2500,
+			"max": 2500,
+			"weight": 30,
+			"chance": 0.1322
+		},
+		{
+			"type": "item",
+			"id": "JERRY_CANDY",
+			"min": 1,
+			"max": 1,
+			"weight": 15,
+			"chance": 0.0661
+		},
+		{
+			"type": "item",
+			"id": "JERRY_TALISMAN_GREEN",
+			"min": 1,
+			"max": 1,
+			"weight": 15,
+			"chance": 0.0661
+		},
+		{
+			"type": "item",
+			"id": "JERRY_STAFF",
+			"min": 1,
+			"max": 1,
+			"weight": 3,
+			"chance": 0.0132
+		},
+		{
+			"type": "item",
+			"id": "JERRY_STONE",
+			"min": 1,
+			"max": 1,
+			"weight": 2,
+			"chance": 0.0088
+		},
+		{
+			"type": "item",
+			"id": null,
+			"min": 1,
+			"max": 1,
+			"note": "Jerry Rune III (no rune item id in Apex repo)",
+			"weight": 1,
+			"chance": 0.0044
+		},
+		{
+			"type": "item",
+			"id": "PET_ITEM_TOY_JERRY",
+			"min": 1,
+			"max": 1,
+			"weight": 1,
+			"chance": 0.0044
+		}
+	]
+}

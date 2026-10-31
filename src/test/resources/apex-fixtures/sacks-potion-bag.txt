@@ -1,0 +1,10 @@
+id=48 title=Potion Bag
+slot=9 name= lore=[]
+slot=10 name= lore=[]
+slot=11 name= lore=[]
+slot=12 name=Go Back lore=[To Your Bags]
+slot=13 name=Close lore=[]
+slot=14 name= lore=[]
+slot=15 name= lore=[]
+slot=16 name= lore=[]
+slot=17 name= lore=[]

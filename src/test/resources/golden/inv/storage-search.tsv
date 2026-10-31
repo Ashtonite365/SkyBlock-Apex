@@ -1,0 +1,133 @@
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|	true
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK| 	true
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|aspect	true
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|ASPECT end	true
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|end aspect	true
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|transmission	true
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|sharp	false
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|sharpness vii	false
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|vii book	false
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|hook style	false
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|spaced name	false
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|hyp	false
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|dirt	false
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|Dirt	false
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|nothing	false
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|of of	true
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|click right	true
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|a  b	true
+diamond_sword~Aspect of the End^Ability: Instant Transmission^RIGHT CLICK|instant hyperion	false
+stone~Hyperion|	true
+stone~Hyperion| 	true
+stone~Hyperion|aspect	false
+stone~Hyperion|ASPECT end	false
+stone~Hyperion|end aspect	false
+stone~Hyperion|transmission	false
+stone~Hyperion|sharp	false
+stone~Hyperion|sharpness vii	false
+stone~Hyperion|vii book	false
+stone~Hyperion|hook style	false
+stone~Hyperion|spaced name	false
+stone~Hyperion|hyp	true
+stone~Hyperion|dirt	false
+stone~Hyperion|Dirt	false
+stone~Hyperion|nothing	false
+stone~Hyperion|of of	false
+stone~Hyperion|click right	false
+stone~Hyperion|a  b	false
+stone~Hyperion|instant hyperion	false
+dirt|	true
+dirt| 	true
+dirt|aspect	false
+dirt|ASPECT end	false
+dirt|end aspect	false
+dirt|transmission	false
+dirt|sharp	false
+dirt|sharpness vii	false
+dirt|vii book	false
+dirt|hook style	false
+dirt|spaced name	false
+dirt|hyp	false
+dirt|dirt	false
+dirt|Dirt	false
+dirt|nothing	false
+dirt|of of	false
+dirt|click right	false
+dirt|a  b	false
+dirt|instant hyperion	false
+paper~Enchanted Book^Sharpness VII^Use this on an item|	true
+paper~Enchanted Book^Sharpness VII^Use this on an item| 	true
+paper~Enchanted Book^Sharpness VII^Use this on an item|aspect	false
+paper~Enchanted Book^Sharpness VII^Use this on an item|ASPECT end	false
+paper~Enchanted Book^Sharpness VII^Use this on an item|end aspect	false
+paper~Enchanted Book^Sharpness VII^Use this on an item|transmission	false
+paper~Enchanted Book^Sharpness VII^Use this on an item|sharp	true
+paper~Enchanted Book^Sharpness VII^Use this on an item|sharpness vii	true
+paper~Enchanted Book^Sharpness VII^Use this on an item|vii book	true
+paper~Enchanted Book^Sharpness VII^Use this on an item|hook style	false
+paper~Enchanted Book^Sharpness VII^Use this on an item|spaced name	false
+paper~Enchanted Book^Sharpness VII^Use this on an item|hyp	false
+paper~Enchanted Book^Sharpness VII^Use this on an item|dirt	false
+paper~Enchanted Book^Sharpness VII^Use this on an item|Dirt	false
+paper~Enchanted Book^Sharpness VII^Use this on an item|nothing	false
+paper~Enchanted Book^Sharpness VII^Use this on an item|of of	false
+paper~Enchanted Book^Sharpness VII^Use this on an item|click right	false
+paper~Enchanted Book^Sharpness VII^Use this on an item|a  b	true
+paper~Enchanted Book^Sharpness VII^Use this on an item|instant hyperion	false
+apple~ Spaced  Name |	true
+apple~ Spaced  Name | 	true
+apple~ Spaced  Name |aspect	false
+apple~ Spaced  Name |ASPECT end	false
+apple~ Spaced  Name |end aspect	false
+apple~ Spaced  Name |transmission	false
+apple~ Spaced  Name |sharp	false
+apple~ Spaced  Name |sharpness vii	false
+apple~ Spaced  Name |vii book	false
+apple~ Spaced  Name |hook style	false
+apple~ Spaced  Name |spaced name	true
+apple~ Spaced  Name |hyp	false
+apple~ Spaced  Name |dirt	false
+apple~ Spaced  Name |Dirt	false
+apple~ Spaced  Name |nothing	false
+apple~ Spaced  Name |of of	false
+apple~ Spaced  Name |click right	false
+apple~ Spaced  Name |a  b	false
+apple~ Spaced  Name |instant hyperion	false
+air|	true
+air| 	true
+air|aspect	false
+air|ASPECT end	false
+air|end aspect	false
+air|transmission	false
+air|sharp	false
+air|sharpness vii	false
+air|vii book	false
+air|hook style	false
+air|spaced name	false
+air|hyp	false
+air|dirt	false
+air|Dirt	false
+air|nothing	false
+air|of of	false
+air|click right	false
+air|a  b	false
+air|instant hyperion	false
+stick~Grappling Hook^Travel around in style!|	true
+stick~Grappling Hook^Travel around in style!| 	true
+stick~Grappling Hook^Travel around in style!|aspect	false
+stick~Grappling Hook^Travel around in style!|ASPECT end	false
+stick~Grappling Hook^Travel around in style!|end aspect	false
+stick~Grappling Hook^Travel around in style!|transmission	false
+stick~Grappling Hook^Travel around in style!|sharp	false
+stick~Grappling Hook^Travel around in style!|sharpness vii	false
+stick~Grappling Hook^Travel around in style!|vii book	false
+stick~Grappling Hook^Travel around in style!|hook style	true
+stick~Grappling Hook^Travel around in style!|spaced name	false
+stick~Grappling Hook^Travel around in style!|hyp	false
+stick~Grappling Hook^Travel around in style!|dirt	false
+stick~Grappling Hook^Travel around in style!|Dirt	false
+stick~Grappling Hook^Travel around in style!|nothing	false
+stick~Grappling Hook^Travel around in style!|of of	false
+stick~Grappling Hook^Travel around in style!|click right	false
+stick~Grappling Hook^Travel around in style!|a  b	false
+stick~Grappling Hook^Travel around in style!|instant hyperion	false

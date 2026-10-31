@@ -1,0 +1,1177 @@
+{
+  "cases": 293,
+  "data": [
+    {
+      "in": "roman|",
+      "out": "0"
+    },
+    {
+      "in": "roman|I",
+      "out": "1"
+    },
+    {
+      "in": "roman|II",
+      "out": "2"
+    },
+    {
+      "in": "roman|III",
+      "out": "3"
+    },
+    {
+      "in": "roman|IV",
+      "out": "4"
+    },
+    {
+      "in": "roman|V",
+      "out": "5"
+    },
+    {
+      "in": "roman|VI",
+      "out": "6"
+    },
+    {
+      "in": "roman|IX",
+      "out": "9"
+    },
+    {
+      "in": "roman|X",
+      "out": "10"
+    },
+    {
+      "in": "roman|XL",
+      "out": "40"
+    },
+    {
+      "in": "roman|XC",
+      "out": "90"
+    },
+    {
+      "in": "roman|C",
+      "out": "100"
+    },
+    {
+      "in": "roman|CD",
+      "out": "0"
+    },
+    {
+      "in": "roman|IIII",
+      "out": "4"
+    },
+    {
+      "in": "roman|IC",
+      "out": "99"
+    },
+    {
+      "in": "roman|VX",
+      "out": "5"
+    },
+    {
+      "in": "roman|LC",
+      "out": "50"
+    },
+    {
+      "in": "roman|MC",
+      "out": "0"
+    },
+    {
+      "in": "roman|i",
+      "out": "0"
+    },
+    {
+      "in": "roman|I I",
+      "out": "0"
+    },
+    {
+      "in": "roman|XIV",
+      "out": "14"
+    },
+    {
+      "in": "roman|XLIX",
+      "out": "49"
+    },
+    {
+      "in": "roman|CCC",
+      "out": "300"
+    },
+    {
+      "in": "roman|VLLC",
+      "out": "95"
+    },
+    {
+      "in": "roman|X",
+      "out": "10"
+    },
+    {
+      "in": "roman|LVXxX",
+      "out": "0"
+    },
+    {
+      "in": "roman|xILCI",
+      "out": "0"
+    },
+    {
+      "in": "roman|IVVLI",
+      "out": "50"
+    },
+    {
+      "in": "roman|V",
+      "out": "5"
+    },
+    {
+      "in": "roman|xVxLL",
+      "out": "0"
+    },
+    {
+      "in": "roman|LLLLV",
+      "out": "205"
+    },
+    {
+      "in": "roman|L",
+      "out": "50"
+    },
+    {
+      "in": "roman|IxxX",
+      "out": "0"
+    },
+    {
+      "in": "roman|X",
+      "out": "10"
+    },
+    {
+      "in": "roman|VXIL",
+      "out": "54"
+    },
+    {
+      "in": "roman|LIXIL",
+      "out": "108"
+    },
+    {
+      "in": "roman|xX",
+      "out": "0"
+    },
+    {
+      "in": "roman|CxV",
+      "out": "0"
+    },
+    {
+      "in": "roman|X",
+      "out": "10"
+    },
+    {
+      "in": "roman|X",
+      "out": "10"
+    },
+    {
+      "in": "roman|CVXV",
+      "out": "110"
+    },
+    {
+      "in": "roman|VxL",
+      "out": "0"
+    },
+    {
+      "in": "roman|XI",
+      "out": "11"
+    },
+    {
+      "in": "roman|XLILI",
+      "out": "90"
+    },
+    {
+      "in": "roman|x",
+      "out": "0"
+    },
+    {
+      "in": "roman|Cxx",
+      "out": "0"
+    },
+    {
+      "in": "roman|CxVCXX",
+      "out": "0"
+    },
+    {
+      "in": "roman|VL",
+      "out": "45"
+    },
+    {
+      "in": "roman|X",
+      "out": "10"
+    },
+    {
+      "in": "roman|LIXI",
+      "out": "60"
+    },
+    {
+      "in": "roman|V",
+      "out": "5"
+    },
+    {
+      "in": "roman|x",
+      "out": "0"
+    },
+    {
+      "in": "roman|CV",
+      "out": "105"
+    },
+    {
+      "in": "roman|VI",
+      "out": "6"
+    },
+    {
+      "in": "roman|CCxIL",
+      "out": "0"
+    },
+    {
+      "in": "roman|CV",
+      "out": "105"
+    },
+    {
+      "in": "roman|LLCVLX",
+      "out": "155"
+    },
+    {
+      "in": "roman|VCII",
+      "out": "97"
+    },
+    {
+      "in": "roman|LL",
+      "out": "100"
+    },
+    {
+      "in": "roman|LCL",
+      "out": "100"
+    },
+    {
+      "in": "roman|I",
+      "out": "1"
+    },
+    {
+      "in": "roman|IIL",
+      "out": "50"
+    },
+    {
+      "in": "roman|L",
+      "out": "50"
+    },
+    {
+      "in": "roman|xXXx",
+      "out": "0"
+    },
+    {
+      "in": "roman|XIXxx",
+      "out": "0"
+    },
+    {
+      "in": "roman|XXIxx",
+      "out": "0"
+    },
+    {
+      "in": "roman|LC",
+      "out": "50"
+    },
+    {
+      "in": "roman|IXVxx",
+      "out": "0"
+    },
+    {
+      "in": "roman|L",
+      "out": "50"
+    },
+    {
+      "in": "roman|VXVXLX",
+      "out": "50"
+    },
+    {
+      "in": "roman|CCLC",
+      "out": "250"
+    },
+    {
+      "in": "roman|IxCX",
+      "out": "0"
+    },
+    {
+      "in": "roman|x",
+      "out": "0"
+    },
+    {
+      "in": "roman|IV",
+      "out": "4"
+    },
+    {
+      "in": "roman|LX",
+      "out": "60"
+    },
+    {
+      "in": "roman|x",
+      "out": "0"
+    },
+    {
+      "in": "roman|xCCxx",
+      "out": "0"
+    },
+    {
+      "in": "roman|x",
+      "out": "0"
+    },
+    {
+      "in": "roman|I",
+      "out": "1"
+    },
+    {
+      "in": "roman|X",
+      "out": "10"
+    },
+    {
+      "in": "roman|VIXILL",
+      "out": "113"
+    },
+    {
+      "in": "roman|IXC",
+      "out": "89"
+    },
+    {
+      "in": "roman|VXCVLI",
+      "out": "131"
+    },
+    {
+      "in": "roman|VV",
+      "out": "10"
+    },
+    {
+      "in": "roman|Ixx",
+      "out": "0"
+    },
+    {
+      "in": "roman|VCVxCX",
+      "out": "0"
+    },
+    {
+      "in": "roman|XCLx",
+      "out": "0"
+    },
+    {
+      "in": "roman|LLCI",
+      "out": "101"
+    },
+    {
+      "in": "roman|x",
+      "out": "0"
+    },
+    {
+      "in": "roman|xxX",
+      "out": "0"
+    },
+    {
+      "in": "roman|LXC",
+      "out": "140"
+    },
+    {
+      "in": "roman|LCV",
+      "out": "55"
+    },
+    {
+      "in": "roman|LIII",
+      "out": "53"
+    },
+    {
+      "in": "roman|CVxVx",
+      "out": "0"
+    },
+    {
+      "in": "roman|L",
+      "out": "50"
+    },
+    {
+      "in": "roman|L",
+      "out": "50"
+    },
+    {
+      "in": "roman|LVXx",
+      "out": "0"
+    },
+    {
+      "in": "roman|VL",
+      "out": "45"
+    },
+    {
+      "in": "roman|LIxIxX",
+      "out": "0"
+    },
+    {
+      "in": "roman|CVxIxC",
+      "out": "0"
+    },
+    {
+      "in": "roman|LIII",
+      "out": "53"
+    },
+    {
+      "in": "roman|CC",
+      "out": "200"
+    },
+    {
+      "in": "roman|x",
+      "out": "0"
+    },
+    {
+      "in": "bless|",
+      "out": "{}"
+    },
+    {
+      "in": "bless|Blessing of Power V",
+      "out": "{POWER=5}"
+    },
+    {
+      "in": "bless|Blessing of Power V Blessing of Time II\nBlessing of Stone IX",
+      "out": "{POWER=5, TIME=2, STONE=9}"
+    },
+    {
+      "in": "bless|Blessing of Power V, Blessing of Power X",
+      "out": "{POWER=10}"
+    },
+    {
+      "in": "bless|Blessing of Life IIII Blessing of Wisdom XL",
+      "out": "{LIFE=4, WISDOM=40}"
+    },
+    {
+      "in": "bless|Blessing of power V",
+      "out": "{}"
+    },
+    {
+      "in": "bless|Blessing of Power",
+      "out": "{}"
+    },
+    {
+      "in": "bless|Blessing of Time M",
+      "out": "{}"
+    },
+    {
+      "in": "bless|xBlessing of Stone IVy",
+      "out": "{STONE=4}"
+    },
+    {
+      "in": "bless|Blessing of Life I Blessing of Power III Blessing of Time II",
+      "out": "{LIFE=1, POWER=3, TIME=2}"
+    },
+    {
+      "in": "bless|Blessing of Power VLLC",
+      "out": "{POWER=95}"
+    },
+    {
+      "in": "bless|Blessing of Stone LIII",
+      "out": "{STONE=53}"
+    },
+    {
+      "in": "bless|Blessing of Luck VxL Blessing of Stone V Blessing of Power x Blessing of Stone x Blessing of Life XL",
+      "out": "{STONE=5, LIFE=40}"
+    },
+    {
+      "in": "bless|",
+      "out": "{}"
+    },
+    {
+      "in": "bless|",
+      "out": "{}"
+    },
+    {
+      "in": "bless|Blessing of Luck LCL Blessing of Life V Blessing of Time I I Blessing of Stone VI Blessing of Luck X",
+      "out": "{LIFE=5, TIME=1, STONE=6}"
+    },
+    {
+      "in": "bless|Blessing of Wisdom LIXIL Blessing of Luck X",
+      "out": "{WISDOM=108}"
+    },
+    {
+      "in": "bless|",
+      "out": "{}"
+    },
+    {
+      "in": "bless|Blessing of Wisdom X Blessing of Life X Blessing of Stone VI Blessing of Stone XL",
+      "out": "{WISDOM=10, LIFE=10, STONE=40}"
+    },
+    {
+      "in": "bless|Blessing of Time VL Blessing of Life IX Blessing of Time LLCVLX",
+      "out": "{TIME=155, LIFE=9}"
+    },
+    {
+      "in": "bless|Blessing of Life IxxX Blessing of Stone CVxVx",
+      "out": "{LIFE=1, STONE=105}"
+    },
+    {
+      "in": "bless|Blessing of Wisdom V Blessing of Life VXIL Blessing of Stone VxL Blessing of Luck xxX",
+      "out": "{WISDOM=5, LIFE=54, STONE=5}"
+    },
+    {
+      "in": "bless|Blessing of Wisdom LCL Blessing of Time CV Blessing of Stone C Blessing of Stone XI",
+      "out": "{WISDOM=100, TIME=105, STONE=11}"
+    },
+    {
+      "in": "bless|Blessing of Wisdom C Blessing of Life IV Blessing of Time XI",
+      "out": "{WISDOM=100, LIFE=4, TIME=11}"
+    },
+    {
+      "in": "bless|Blessing of Wisdom IXVxx",
+      "out": "{WISDOM=14}"
+    },
+    {
+      "in": "bless|Blessing of Wisdom CVXV Blessing of Wisdom LX Blessing of Life C Blessing of Time Cxx Blessing of Power X",
+      "out": "{WISDOM=60, LIFE=100, TIME=100, POWER=10}"
+    },
+    {
+      "in": "bless|Blessing of Wisdom LVXx Blessing of Wisdom LX",
+      "out": "{WISDOM=60}"
+    },
+    {
+      "in": "bless|Blessing of Stone I Blessing of Time XI Blessing of Time IC Blessing of Power L",
+      "out": "{STONE=1, TIME=99, POWER=50}"
+    },
+    {
+      "in": "bless|Blessing of Luck III Blessing of Time LX Blessing of Luck CxVCXX",
+      "out": "{TIME=60}"
+    },
+    {
+      "in": "bless|",
+      "out": "{}"
+    },
+    {
+      "in": "bless|Blessing of Luck IV Blessing of Stone IIL",
+      "out": "{STONE=50}"
+    },
+    {
+      "in": "bless|Blessing of Time IV Blessing of Time I Blessing of Wisdom x Blessing of Luck xCCxx",
+      "out": "{TIME=1}"
+    },
+    {
+      "in": "bless|Blessing of Power VIXILL Blessing of Wisdom LVXx Blessing of Time VCVxCX",
+      "out": "{POWER=113, WISDOM=55, TIME=100}"
+    },
+    {
+      "in": "bless|Blessing of Life VCVxCX",
+      "out": "{LIFE=100}"
+    },
+    {
+      "in": "bless|",
+      "out": "{}"
+    },
+    {
+      "in": "bless|",
+      "out": "{}"
+    },
+    {
+      "in": "bless|Blessing of Wisdom IVVLI Blessing of Wisdom LC Blessing of Time II",
+      "out": "{WISDOM=50, TIME=2}"
+    },
+    {
+      "in": "bless|Blessing of Luck LC Blessing of Power LLCI",
+      "out": "{POWER=101}"
+    },
+    {
+      "in": "bless|Blessing of Power I Blessing of Stone X Blessing of Life VV Blessing of Wisdom CxVCXX Blessing of Wisdom L",
+      "out": "{POWER=1, STONE=10, LIFE=10, WISDOM=50}"
+    },
+    {
+      "in": "bless|Blessing of Power x Blessing of Stone CD Blessing of Time L",
+      "out": "{STONE=100, TIME=50}"
+    },
+    {
+      "in": "bless|Blessing of Luck i Blessing of Power I",
+      "out": "{POWER=1}"
+    },
+    {
+      "in": "bless|Blessing of Time I I Blessing of Life x Blessing of Time xCCxx Blessing of Wisdom I",
+      "out": "{TIME=1, WISDOM=1}"
+    },
+    {
+      "in": "bless|Blessing of Stone xXXx Blessing of Wisdom V Blessing of Luck VL",
+      "out": "{WISDOM=5}"
+    },
+    {
+      "in": "bless|Blessing of Life VCII Blessing of Luck VXVXLX Blessing of Luck XCLx Blessing of Time CV Blessing of Power xxX",
+      "out": "{LIFE=97, TIME=105}"
+    },
+    {
+      "in": "bless|Blessing of Life CV Blessing of Wisdom CVXV Blessing of Luck V",
+      "out": "{LIFE=105, WISDOM=110}"
+    },
+    {
+      "in": "bless|Blessing of Life LLLLV",
+      "out": "{LIFE=205}"
+    },
+    {
+      "in": "bless|",
+      "out": "{}"
+    },
+    {
+      "in": "bless|Blessing of Life x Blessing of Time LCL",
+      "out": "{TIME=100}"
+    },
+    {
+      "in": "bless|Blessing of Wisdom XL Blessing of Power xX",
+      "out": "{WISDOM=40}"
+    },
+    {
+      "in": "bless|",
+      "out": "{}"
+    },
+    {
+      "in": "bless|Blessing of Life CVxIxC Blessing of Luck XLIX Blessing of Luck C",
+      "out": "{LIFE=105}"
+    },
+    {
+      "in": "bless|Blessing of Life x",
+      "out": "{}"
+    },
+    {
+      "in": "bless|Blessing of Wisdom LC Blessing of Stone IxCX Blessing of Time VCVxCX",
+      "out": "{WISDOM=50, STONE=1, TIME=100}"
+    },
+    {
+      "in": "bless|Blessing of Stone x Blessing of Power L Blessing of Time x Blessing of Power XLIX",
+      "out": "{POWER=49}"
+    },
+    {
+      "in": "bless|Blessing of Luck i Blessing of Luck CVxVx",
+      "out": "{}"
+    },
+    {
+      "in": "bless|Blessing of Stone III Blessing of Time Ixx Blessing of Time LCL",
+      "out": "{STONE=3, TIME=100}"
+    },
+    {
+      "in": "bless|",
+      "out": "{}"
+    },
+    {
+      "in": "bless|Blessing of Wisdom CxVCXX Blessing of Luck xVxLL",
+      "out": "{WISDOM=100}"
+    },
+    {
+      "in": "bless|Blessing of Time xCCxx Blessing of Wisdom VXCVLI",
+      "out": "{WISDOM=131}"
+    },
+    {
+      "in": "bless|Blessing of Time CxV Blessing of Stone X Blessing of Life xILCI",
+      "out": "{TIME=100, STONE=10}"
+    },
+    {
+      "in": "bless|",
+      "out": "{}"
+    },
+    {
+      "in": "bless|Blessing of Life X Blessing of Luck Ixx Blessing of Time xXXx",
+      "out": "{LIFE=10}"
+    },
+    {
+      "in": "bless|Blessing of Stone VXIL Blessing of Stone LIII Blessing of Stone x",
+      "out": "{STONE=53}"
+    },
+    {
+      "in": "bless|",
+      "out": "{}"
+    },
+    {
+      "in": "bless|Blessing of Life VXVXLX Blessing of Wisdom IIL",
+      "out": "{LIFE=50, WISDOM=50}"
+    },
+    {
+      "in": "bless|Blessing of Wisdom X Blessing of Power CVXV Blessing of Time xVxLL Blessing of Luck LXC",
+      "out": "{WISDOM=10, POWER=110}"
+    },
+    {
+      "in": "bless|Blessing of Power CCxIL Blessing of Power IC Blessing of Wisdom IIII",
+      "out": "{POWER=99, WISDOM=4}"
+    },
+    {
+      "in": "bless|Blessing of Stone LIxIxX Blessing of Time LCV Blessing of Wisdom VCVxCX",
+      "out": "{STONE=51, TIME=55, WISDOM=100}"
+    },
+    {
+      "in": "bless|Blessing of Luck IIL Blessing of Time i Blessing of Time IxCX Blessing of Time X",
+      "out": "{TIME=10}"
+    },
+    {
+      "in": "bless|Blessing of Life XLIX",
+      "out": "{LIFE=49}"
+    },
+    {
+      "in": "lore|[]",
+      "out": "null|null"
+    },
+    {
+      "in": "lore|[Charges: 5/20⸕]",
+      "out": "(5, 20)|null"
+    },
+    {
+      "in": "lore|[x, Charges: 0/0⸕, Charges: 3/4⸕]",
+      "out": "(0, 0)|null"
+    },
+    {
+      "in": "lore|[Charges: 5/20]",
+      "out": "null|null"
+    },
+    {
+      "in": "lore|[Charges: a/20⸕]",
+      "out": "null|null"
+    },
+    {
+      "in": "lore|[§7Charges: 12/20⸕ extra]",
+      "out": "(12, 20)|null"
+    },
+    {
+      "in": "lore|[Cooldown: 30s]",
+      "out": "null|30"
+    },
+    {
+      "in": "lore|[Cooldown: 30s, Cooldown: 12s]",
+      "out": "null|12"
+    },
+    {
+      "in": "lore|[Cooldown: 30s , Cooldown: 99999999999s]",
+      "out": "null|null"
+    },
+    {
+      "in": "lore|[Cooldown: s]",
+      "out": "null|null"
+    },
+    {
+      "in": "lore|[Cooldown: 7s, x]",
+      "out": "null|7"
+    },
+    {
+      "in": "invmatch|Second Wind Activated! Your Spirit Mask saved your life!",
+      "out": "SPIRIT"
+    },
+    {
+      "in": "invmatch|Your Bonzo's Mask saved your life!",
+      "out": "BONZO"
+    },
+    {
+      "in": "invmatch|Your ⚚ Bonzo's Mask saved your life!",
+      "out": "BONZO"
+    },
+    {
+      "in": "invmatch|Your Phoenix Pet saved you from certain death!",
+      "out": "PHOENIX"
+    },
+    {
+      "in": "invmatch|Your xx Bonzo's Mask saved your life!",
+      "out": "null"
+    },
+    {
+      "in": "invmatch| Your Bonzo's Mask saved your life!",
+      "out": "null"
+    },
+    {
+      "in": "invmatch|nope",
+      "out": "null"
+    },
+    {
+      "in": "invtick|SPIRIT|null",
+      "out": "Spirit Mask,60,30,[59/599, 52/592, 45/585, 38/578, 31/571, 24/564, 17/557, 10/550, 3/543, 0/536]"
+    },
+    {
+      "in": "invtick|SPIRIT|0",
+      "out": "Spirit Mask,60,30,[59/0, 52/0, 45/0, 38/0, 31/0, 24/0, 17/0, 10/0, 3/0, 0/0]"
+    },
+    {
+      "in": "invtick|SPIRIT|5",
+      "out": "Spirit Mask,60,30,[59/99, 52/92, 45/85, 38/78, 31/71, 24/64, 17/57, 10/50, 3/43, 0/36]"
+    },
+    {
+      "in": "invtick|SPIRIT|-1",
+      "out": "Spirit Mask,60,30,[59/-20, 52/-20, 45/-20, 38/-20, 31/-20, 24/-20, 17/-20, 10/-20, 3/-20, 0/-20]"
+    },
+    {
+      "in": "invtick|BONZO|null",
+      "out": "Bonzo's Mask,60,180,[59/3599, 52/3592, 45/3585, 38/3578, 31/3571, 24/3564, 17/3557, 10/3550, 3/3543, 0/3536]"
+    },
+    {
+      "in": "invtick|BONZO|0",
+      "out": "Bonzo's Mask,60,180,[59/0, 52/0, 45/0, 38/0, 31/0, 24/0, 17/0, 10/0, 3/0, 0/0]"
+    },
+    {
+      "in": "invtick|BONZO|5",
+      "out": "Bonzo's Mask,60,180,[59/99, 52/92, 45/85, 38/78, 31/71, 24/64, 17/57, 10/50, 3/43, 0/36]"
+    },
+    {
+      "in": "invtick|BONZO|-1",
+      "out": "Bonzo's Mask,60,180,[59/-20, 52/-20, 45/-20, 38/-20, 31/-20, 24/-20, 17/-20, 10/-20, 3/-20, 0/-20]"
+    },
+    {
+      "in": "invtick|PHOENIX|null",
+      "out": "Phoenix,80,60,[79/1199, 72/1192, 65/1185, 58/1178, 51/1171, 44/1164, 37/1157, 30/1150, 23/1143, 16/1136]"
+    },
+    {
+      "in": "invtick|PHOENIX|0",
+      "out": "Phoenix,80,60,[79/0, 72/0, 65/0, 58/0, 51/0, 44/0, 37/0, 30/0, 23/0, 16/0]"
+    },
+    {
+      "in": "invtick|PHOENIX|5",
+      "out": "Phoenix,80,60,[79/99, 72/92, 65/85, 58/78, 51/71, 44/64, 37/57, 30/50, 23/43, 16/36]"
+    },
+    {
+      "in": "invtick|PHOENIX|-1",
+      "out": "Phoenix,80,60,[79/-20, 72/-20, 65/-20, 58/-20, 51/-20, 44/-20, 37/-20, 30/-20, 23/-20, 16/-20]"
+    },
+    {
+      "in": "shud|null|false|0|Second Wind Activated! Your Spirit Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|false|1|Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|false|2|Your ⚚ Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|false|3|Your Phoenix Pet saved you from certain death!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|false|4|Your xx Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|false|5| Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|false|6|nope",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|false|7|Second Wind Activated! Your Spirit Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|false|8|Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|false|9|Your ⚚ Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|false|10|Your Phoenix Pet saved you from certain death!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|false|11|Your xx Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|false|12| Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|false|13|nope",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shudw|null|false",
+      "out": "0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|true|0|Second Wind Activated! Your Spirit Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|true|1|Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|true|2|Your ⚚ Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|true|3|Your Phoenix Pet saved you from certain death!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|true|4|Your xx Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|true|5| Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|true|6|nope",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|true|7|Second Wind Activated! Your Spirit Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|true|8|Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|true|9|Your ⚚ Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|true|10|Your Phoenix Pet saved you from certain death!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|true|11|Your xx Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|true|12| Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|null|true|13|nope",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shudw|null|true",
+      "out": "0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|false|0|Second Wind Activated! Your Spirit Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|false|1|Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|false|2|Your ⚚ Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|false|3|Your Phoenix Pet saved you from certain death!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|false|4|Your xx Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|false|5| Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|false|6|nope",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|false|7|Second Wind Activated! Your Spirit Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|false|8|Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|false|9|Your ⚚ Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|false|10|Your Phoenix Pet saved you from certain death!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|false|11|Your xx Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|false|12| Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|false|13|nope",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shudw|hub|false",
+      "out": "0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|true|0|Second Wind Activated! Your Spirit Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|true|1|Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|true|2|Your ⚚ Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|true|3|Your Phoenix Pet saved you from certain death!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|true|4|Your xx Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|true|5| Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|true|6|nope",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|true|7|Second Wind Activated! Your Spirit Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|true|8|Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|true|9|Your ⚚ Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|true|10|Your Phoenix Pet saved you from certain death!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|true|11|Your xx Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|true|12| Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|hub|true|13|nope",
+      "out": "ok|ok|0/0,0/0,0/0"
+    },
+    {
+      "in": "shudw|hub|true",
+      "out": "0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|dungeon|false|0|Second Wind Activated! Your Spirit Mask saved your life!",
+      "out": "ok|ok|59/599,0/0,0/0"
+    },
+    {
+      "in": "shud|dungeon|false|1|Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|58/598,59/3599,0/0"
+    },
+    {
+      "in": "shud|dungeon|false|2|Your ⚚ Bonzo's Mask saved your life!",
+      "out": "ok|ok|57/597,59/3599,0/0"
+    },
+    {
+      "in": "shud|dungeon|false|3|Your Phoenix Pet saved you from certain death!",
+      "out": "ok|ok|56/596,58/3598,79/1199"
+    },
+    {
+      "in": "shud|dungeon|false|4|Your xx Bonzo's Mask saved your life!",
+      "out": "ok|ok|55/595,57/3597,78/1198"
+    },
+    {
+      "in": "shud|dungeon|false|5| Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|54/594,59/3599,77/1197"
+    },
+    {
+      "in": "shud|dungeon|false|6|nope",
+      "out": "ok|ok|53/593,58/3598,76/1196"
+    },
+    {
+      "in": "shud|dungeon|false|7|Second Wind Activated! Your Spirit Mask saved your life!",
+      "out": "ok|ok|59/599,57/3597,75/1195"
+    },
+    {
+      "in": "shud|dungeon|false|8|Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|58/598,59/3599,74/1194"
+    },
+    {
+      "in": "shud|dungeon|false|9|Your ⚚ Bonzo's Mask saved your life!",
+      "out": "ok|ok|57/597,59/3599,73/1193"
+    },
+    {
+      "in": "shud|dungeon|false|10|Your Phoenix Pet saved you from certain death!",
+      "out": "ok|ok|56/596,58/3598,79/1199"
+    },
+    {
+      "in": "shud|dungeon|false|11|Your xx Bonzo's Mask saved your life!",
+      "out": "ok|ok|55/595,57/3597,78/1198"
+    },
+    {
+      "in": "shud|dungeon|false|12| Your Bonzo's Mask saved your life!",
+      "out": "ok|ok|54/594,59/3599,77/1197"
+    },
+    {
+      "in": "shud|dungeon|false|13|nope",
+      "out": "ok|ok|53/593,58/3598,76/1196"
+    },
+    {
+      "in": "shudw|dungeon|false",
+      "out": "0/0,0/0,0/0"
+    },
+    {
+      "in": "shud|dungeon|true|0|Second Wind Activated! Your Spirit Mask saved your life!",
+      "out": "THROWS NullPointerException|ok|59/599,0/0,0/0"
+    },
+    {
+      "in": "shud|dungeon|true|1|Your Bonzo's Mask saved your life!",
+      "out": "THROWS NullPointerException|ok|58/598,59/3599,0/0"
+    },
+    {
+      "in": "shud|dungeon|true|2|Your ⚚ Bonzo's Mask saved your life!",
+      "out": "THROWS NullPointerException|ok|57/597,59/3599,0/0"
+    },
+    {
+      "in": "shud|dungeon|true|3|Your Phoenix Pet saved you from certain death!",
+      "out": "THROWS NullPointerException|ok|56/596,58/3598,79/1199"
+    },
+    {
+      "in": "shud|dungeon|true|4|Your xx Bonzo's Mask saved your life!",
+      "out": "ok|ok|55/595,57/3597,78/1198"
+    },
+    {
+      "in": "shud|dungeon|true|5| Your Bonzo's Mask saved your life!",
+      "out": "THROWS NullPointerException|ok|54/594,59/3599,77/1197"
+    },
+    {
+      "in": "shud|dungeon|true|6|nope",
+      "out": "ok|ok|53/593,58/3598,76/1196"
+    },
+    {
+      "in": "shud|dungeon|true|7|Second Wind Activated! Your Spirit Mask saved your life!",
+      "out": "THROWS NullPointerException|ok|59/599,57/3597,75/1195"
+    },
+    {
+      "in": "shud|dungeon|true|8|Your Bonzo's Mask saved your life!",
+      "out": "THROWS NullPointerException|ok|58/598,59/3599,74/1194"
+    },
+    {
+      "in": "shud|dungeon|true|9|Your ⚚ Bonzo's Mask saved your life!",
+      "out": "THROWS NullPointerException|ok|57/597,59/3599,73/1193"
+    },
+    {
+      "in": "shud|dungeon|true|10|Your Phoenix Pet saved you from certain death!",
+      "out": "THROWS NullPointerException|ok|56/596,58/3598,79/1199"
+    },
+    {
+      "in": "shud|dungeon|true|11|Your xx Bonzo's Mask saved your life!",
+      "out": "ok|ok|55/595,57/3597,78/1198"
+    },
+    {
+      "in": "shud|dungeon|true|12| Your Bonzo's Mask saved your life!",
+      "out": "THROWS NullPointerException|ok|54/594,59/3599,77/1197"
+    },
+    {
+      "in": "shud|dungeon|true|13|nope",
+      "out": "ok|ok|53/593,58/3598,76/1196"
+    },
+    {
+      "in": "shudw|dungeon|true",
+      "out": "0/0,0/0,0/0"
+    }
+  ]
+}

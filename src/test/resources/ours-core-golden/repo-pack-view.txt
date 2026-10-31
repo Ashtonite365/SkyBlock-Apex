@@ -1,0 +1,36 @@
+ns	CLIENT_RESOURCES	[neurepo]
+ns	SERVER_DATA	[]
+file	[a.txt]	a.txt
+file	[dir, b.png]	dir/b.png
+file	[dir]	null
+file	[missing]	null
+file	[.., x]	ERR:IllegalArgumentException:Illegal segment .. in path [.., x]
+root	content of a.txt
+res	CLIENT_RESOURCES	neurepo:a.txt	content of a.txt
+res	CLIENT_RESOURCES	neurepo:dir/b.png	content of dir/b.png
+res	CLIENT_RESOURCES	minecraft:a.txt	null
+res	CLIENT_RESOURCES	neurepo:nope	null
+res	SERVER_DATA	neurepo:a.txt	null
+res	SERVER_DATA	neurepo:dir/b.png	null
+res	SERVER_DATA	minecraft:a.txt	null
+res	SERVER_DATA	neurepo:nope	null
+list	CLIENT_RESOURCES	neurepo		[neurepo:, neurepo:a.txt, neurepo:dir, neurepo:dir/b.png, neurepo:dir/b.png.mcmeta, neurepo:dir/sub, neurepo:dir/sub/c.json]
+list	CLIENT_RESOURCES	neurepo	dir	[neurepo:dir, neurepo:dir/b.png, neurepo:dir/b.png.mcmeta, neurepo:dir/sub, neurepo:dir/sub/c.json]
+list	CLIENT_RESOURCES	neurepo	dir/sub	[neurepo:dir/sub, neurepo:dir/sub/c.json]
+list	CLIENT_RESOURCES	neurepo	none	[]
+list	CLIENT_RESOURCES	minecraft		[]
+list	CLIENT_RESOURCES	minecraft	dir	[]
+list	CLIENT_RESOURCES	minecraft	dir/sub	[]
+list	CLIENT_RESOURCES	minecraft	none	[]
+list	SERVER_DATA	neurepo		[]
+list	SERVER_DATA	neurepo	dir	[]
+list	SERVER_DATA	neurepo	dir/sub	[]
+list	SERVER_DATA	neurepo	none	[]
+list	SERVER_DATA	minecraft		[]
+list	SERVER_DATA	minecraft	dir	[]
+list	SERVER_DATA	minecraft	dir/sub	[]
+list	SERVER_DATA	minecraft	none	[]
+loc	neurepo	Item repo	net.minecraft.server.packs.repository.PackSource$1@#
+overlay	dir
+meta	PackMetadataSection[description=literal{item repo Resources}, supportedFormats=[12.0, 12.0]]
+meta	PackMetadataSection[description=literal{item repo Resources}, supportedFormats=[2147483647.0, 2147483647.0]]

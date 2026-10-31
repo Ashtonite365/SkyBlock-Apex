@@ -1,0 +1,9 @@
+{
+  "bundle": "repo.json.zst",
+  "format": "apex-repo-bundle",
+  "format_version": 1,
+  "version": "test-1",
+  "sha256": "78033c7324b671fc2574d2d8f43c9f6596fe8abd5afb59403d9b70199eb5ddda",
+  "file_count": 4,
+  "item_count": 1
+}

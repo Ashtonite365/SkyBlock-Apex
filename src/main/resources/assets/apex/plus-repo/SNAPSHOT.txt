@@ -1,0 +1,22 @@
+SkyHanni-REPO snapshot (MIT, Copyright (c) 2022 hannibal2), https://github.com/hannibal002/SkyHanni-REPO @ 112104ea27de29d06cefb8d56ff6e5fe8371716c, fetched 2026-10-16.
+Only the files listed below are bundled, unmodified. See LICENSE-SkyHanni-REPO.txt.
+constants/CrimsonIsleReputation.json
+constants/DanceRoomInstructions.json
+constants/DeepCavernsParkour.json
+constants/DungeonHubRaces.json
+constants/EnigmaSouls.json
+constants/RiftEffigies.json
+constants/RiftLavaMazeParkour.json
+constants/RiftTubulator.json
+constants/RiftUpsideDownParkour.json
+constants/SeaCreatures.json
+constants/Skulls.json
+constants/TrophyFish.json
+constants/fishing/ExcludedSeaCreatureAreas.json
+constants/foraging/StarlynContestRewards.json
+constants/island_graphs/THE_RIFT.json
+constants/rift/RiftRace.json
+constants/rift/RiftWoodenButtons.json
+constants/rift/WiltedBerberisLocations.json
+constants/Garden.json (from SkyHanni-REPO @ fea17c0b9539b70bdbaab168eb2a1d90a7ccb83e, fetched 2026-10-20)
+constants/AnitaUpgradeCosts.json (from SkyHanni-REPO @ fea17c0b9539b70bdbaab168eb2a1d90a7ccb83e, fetched 2026-10-20)

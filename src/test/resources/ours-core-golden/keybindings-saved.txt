@@ -1,0 +1,55 @@
+binding [Unbound] fmt=Unbound bound=false json={"button":null,"modifiers":{"modifiers":0}} back=true hash=-303640745
+  KeyboardInput(keyCode=65, scanCode=0) 00 00 00 00 00
+  KeyboardInput(keyCode=76, scanCode=0) 00 00 00 00 00
+  KeyboardInput(keyCode=0, scanCode=30) 00 00 00 00 00
+  MouseInput(mouseButton=3) 00 00 00 00 00
+binding [KeyCodeButton(keyCode=65)] fmt=KeyCodeButton(keyCode=65) bound=true json={"button":{"keyCode":65},"modifiers":{"modifiers":0}} back=true hash=2015
+  KeyboardInput(keyCode=65, scanCode=0) 11 01 11 01 11
+  KeyboardInput(keyCode=76, scanCode=0) 00 00 00 00 00
+  KeyboardInput(keyCode=0, scanCode=30) 00 00 00 00 00
+  MouseInput(mouseButton=3) 00 00 00 00 00
+binding [SHIFT + KeyCodeButton(keyCode=76)] fmt=SHIFT + KeyCodeButton(keyCode=76) bound=true json={"button":{"keyCode":76},"modifiers":{"modifiers":3}} back=true hash=2359
+  KeyboardInput(keyCode=65, scanCode=0) 00 00 00 00 00
+  KeyboardInput(keyCode=76, scanCode=0) 00 11 00 11 00
+  KeyboardInput(keyCode=0, scanCode=30) 00 00 00 00 00
+  MouseInput(mouseButton=3) 00 00 00 00 00
+binding [CTRL + ALT + KeyCodeButton(keyCode=76)] fmt=CTRL + ALT + KeyCodeButton(keyCode=76) bound=true json={"button":{"keyCode":76},"modifiers":{"modifiers":960}} back=true hash=3316
+  KeyboardInput(keyCode=65, scanCode=0) 00 00 00 00 00
+  KeyboardInput(keyCode=76, scanCode=0) 00 00 00 00 00
+  KeyboardInput(keyCode=0, scanCode=30) 00 00 00 00 00
+  MouseInput(mouseButton=3) 00 00 00 00 00
+binding [MouseButton(mouseButton=3)] fmt=MouseButton(mouseButton=3) bound=true json={"button":{"mouse":3},"modifiers":{"modifiers":0}} back=true hash=93
+  KeyboardInput(keyCode=65, scanCode=0) 00 00 00 00 00
+  KeyboardInput(keyCode=76, scanCode=0) 00 00 00 00 00
+  KeyboardInput(keyCode=0, scanCode=30) 00 00 00 00 00
+  MouseInput(mouseButton=3) 11 01 11 01 11
+binding [SHIFT + ScanCodeButton(scanCode=30)] fmt=SHIFT + ScanCodeButton(scanCode=30) bound=true json={"button":{"scanCode":30},"modifiers":{"modifiers":1}} back=true hash=931
+  KeyboardInput(keyCode=65, scanCode=0) 00 00 00 00 00
+  KeyboardInput(keyCode=76, scanCode=0) 00 00 00 00 00
+  KeyboardInput(keyCode=0, scanCode=30) 00 11 00 11 00
+  MouseInput(mouseButton=3) 00 00 00 00 00
+binding [Unbound] fmt=Unbound bound=false json={"button":null,"modifiers":{"modifiers":0}} back=true hash=-303640745
+  KeyboardInput(keyCode=65, scanCode=0) 00 00 00 00 00
+  KeyboardInput(keyCode=76, scanCode=0) 00 00 00 00 00
+  KeyboardInput(keyCode=0, scanCode=30) 00 00 00 00 00
+  MouseInput(mouseButton=3) 00 00 00 00 00
+decode null -> Unbound
+decode {"keyCode":65} -> KeyCodeButton(keyCode=65)
+decode {"mouse":2} -> MouseButton(mouseButton=2)
+decode {"scanCode":30} -> ScanCodeButton(scanCode=30)
+decode {"keyCode":-7} -> Unbound
+decode {"mouse":0} -> Unbound
+decode {"other":1} -> threw IllegalStateException
+decode [1] -> threw IllegalArgumentException
+decode {"keyCode":65,"mouse":2} -> KeyCodeButton(keyCode=65)
+decode {"mouse":2,"keyCode":65} -> KeyCodeButton(keyCode=65)
+decode {"scanCode":"40"} -> ScanCodeButton(scanCode=40)
+decode {"keyCode":"x"} -> threw NumberFormatException
+decode {"keyCode":null,"mouse":3} -> threw NumberFormatException
+encode Unbound -> null plain=null
+encode KeyCodeButton(keyCode=65) -> {"keyCode":65} plain={"keyCode":65}
+encode MouseButton(mouseButton=2) -> {"mouse":2} plain={"mouse":2}
+encode ScanCodeButton(scanCode=30) -> {"scanCode":30} plain={"scanCode":30}
+descriptor Apex:GenericInputButton SEALED dev.ashtonite365.apex.keybindings.InputModifiers dev.ashtonite365.apex.keybindings.SavedKeyBinding
+modjson {"modifiers":5} SHIFT
+decode binding SHIFT + KeyCodeButton(keyCode=75)

@@ -1,0 +1,69 @@
+button noBg=false enabled=true 14x12 insets=2 bg=unhoveredBg/hoveredBg
+  down-away -> false clicks=[] clicking=false focused=false bg=unhoveredBg
+  down -> true clicks=[] clicking=true focused=true bg=hoveredBg
+  move -> false clicks=[] clicking=true focused=true bg=hoveredBg
+  up-away -> true clicks=[] clicking=false focused=true bg=unhoveredBg
+  right-down -> true clicks=[] clicking=true focused=true bg=hoveredBg
+  right-up -> true clicks=[1] clicking=false focused=true bg=unhoveredBg
+  up -> false clicks=[1] clicking=false focused=true bg=unhoveredBg
+  draw pushMatrix()
+  draw drawNinePatch(hoveredBg,0.0,0.0,40,20)
+  draw translate(2.0,2.0)
+  child.render 36x14 at 3,3 hovered=true
+  draw popMatrix()
+  draw pushMatrix()
+  draw drawNinePatch(unhoveredBg,0.0,0.0,40,20)
+  draw translate(2.0,2.0)
+  child.render 36x14 at 98,98 hovered=false
+  draw popMatrix()
+button noBg=false enabled=false 14x12 insets=2 bg=disabledBg/disabledBg
+  down-away -> false clicks=[] clicking=false focused=false bg=disabledBg
+  down -> false clicks=[] clicking=false focused=false bg=disabledBg
+  move -> false clicks=[] clicking=false focused=false bg=disabledBg
+  up-away -> false clicks=[] clicking=false focused=false bg=disabledBg
+  right-down -> false clicks=[] clicking=false focused=false bg=disabledBg
+  right-up -> false clicks=[] clicking=false focused=false bg=disabledBg
+  up -> false clicks=[] clicking=false focused=false bg=disabledBg
+  draw pushMatrix()
+  draw drawNinePatch(disabledBg,0.0,0.0,40,20)
+  draw translate(2.0,2.0)
+  child.render 36x14 at 3,3 hovered=true
+  draw popMatrix()
+  draw pushMatrix()
+  draw drawNinePatch(disabledBg,0.0,0.0,40,20)
+  draw translate(2.0,2.0)
+  child.render 36x14 at 98,98 hovered=false
+  draw popMatrix()
+button noBg=true enabled=true 10x8 insets=0 bg=unhoveredBg/hoveredBg
+  down-away -> false clicks=[] clicking=false focused=false bg=unhoveredBg
+  down -> true clicks=[] clicking=true focused=true bg=hoveredBg
+  move -> false clicks=[] clicking=true focused=true bg=hoveredBg
+  up-away -> true clicks=[] clicking=false focused=true bg=unhoveredBg
+  right-down -> true clicks=[] clicking=true focused=true bg=hoveredBg
+  right-up -> true clicks=[1] clicking=false focused=true bg=unhoveredBg
+  up -> false clicks=[1] clicking=false focused=true bg=unhoveredBg
+  draw pushMatrix()
+  draw translate(0.0,0.0)
+  child.render 40x18 at 5,5 hovered=true
+  draw popMatrix()
+  draw pushMatrix()
+  draw translate(0.0,0.0)
+  child.render 40x18 at 100,100 hovered=false
+  draw popMatrix()
+button noBg=true enabled=false 10x8 insets=0 bg=disabledBg/disabledBg
+  down-away -> false clicks=[] clicking=false focused=false bg=disabledBg
+  down -> false clicks=[] clicking=false focused=false bg=disabledBg
+  move -> false clicks=[] clicking=false focused=false bg=disabledBg
+  up-away -> false clicks=[] clicking=false focused=false bg=disabledBg
+  right-down -> false clicks=[] clicking=false focused=false bg=disabledBg
+  right-up -> false clicks=[] clicking=false focused=false bg=disabledBg
+  up -> false clicks=[] clicking=false focused=false bg=disabledBg
+  draw pushMatrix()
+  draw translate(0.0,0.0)
+  child.render 40x18 at 5,5 hovered=true
+  draw popMatrix()
+  draw pushMatrix()
+  draw translate(0.0,0.0)
+  child.render 40x18 at 100,100 hovered=false
+  draw popMatrix()
+runnable ran=1 noBg=false enabled=true

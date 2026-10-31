@@ -1,0 +1,17 @@
+parse [Party > [MVP+] Name: hi] Incoming(channel=PARTY, name=Name, message=hi)
+parse [P > Name: yo] Incoming(channel=PARTY, name=Name, message=yo)
+parse [Guild > Name [Officer]: x] Incoming(channel=GUILD, name=Name, message=x)
+parse [From [VIP] Abc: m] Incoming(channel=PRIVATE, name=Abc, message=m)
+parse [Co-op > Def: n] Incoming(channel=COOP, name=Def, message=n)
+parse [Party > Name:] null
+parse [random] null
+parse [Party > [302] ♲ [MVP++] Name ⚒: !w] Incoming(channel=PARTY, name=Name, message=!w)
+emote [hi <3] hi ❤
+emote [/pc o/ ez] /pc ( ﾟ◡ﾟ)/ ｅｚ
+emote [/warp ez] null
+emote [/w Name :shrug:] /w Name ¯\_(ツ)_/¯
+emote [plain] null
+emote [ez] ｅｚ
+emote [/r] null
+emote [] null
+copy abcd

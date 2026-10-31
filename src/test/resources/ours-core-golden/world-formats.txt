@@ -1,0 +1,12 @@
+json {"label":"Route","id":"route-1","isRelativeTo":null,"waypoints":[{"x":1,"y":2,"z":3},{"x":-10,"y":70,"z":400},{"x":0,"y":0,"z":0}],"isOrdered":true}
+tight {"label":"Route","id":"route-1","waypoints":[{"x":1,"y":2,"z":3},{"x":-10,"y":70,"z":400},{"x":0,"y":0,"z":0}],"isOrdered":true}
+back WaypointRoute(label=Route, id=route-1, isRelativeTo=null, waypoints=[Waypoint(x=1, y=2, z=3), Waypoint(x=-10, y=70, z=400), Waypoint(x=0, y=0, z=0)], isOrdered=true)
+lenient ERR:MissingFieldException
+size 3 BlockPos{x=-10, y=70, z=400} Waypoint(x=4, y=5, z=6)
+deep 3 4
+export-abs WaypointRoute(label=Route, id=route-1, isRelativeTo=null, waypoints=[Waypoint(x=1, y=2, z=3), Waypoint(x=-10, y=70, z=400), Waypoint(x=0, y=0, z=0)], isOrdered=true)
+export-rel WaypointRoute(label=Route, id=route-1, isRelativeTo=by the fountain, waypoints=[Waypoint(x=-99, y=-62, z=23), Waypoint(x=-110, y=6, z=420), Waypoint(x=-100, y=-64, z=20)], isOrdered=true) [Waypoint(x=1, y=2, z=3), Waypoint(x=-10, y=70, z=400), Waypoint(x=0, y=0, z=0)]
+export-rel-noorigin ERR:NotImplementedError
+prefix FIRM_WAYPOINTS/ RklSTV9XQVlQT0lOVFMv
+template RklSTV9XQVlQT0lOVFMveyJsYWJlbCI6IlJvdXRlIiwiaWQiOiJyb3V0ZS0xIiwid2F5cG9pbnRzIjpbeyJ4IjoxLCJ5IjoyLCJ6IjozfSx7IngiOi0xMCwieSI6NzAsInoiOjQwMH0seyJ4IjowLCJ5IjowLCJ6IjowfV0sImlzT3JkZXJlZCI6dHJ1ZX0=
+decode null

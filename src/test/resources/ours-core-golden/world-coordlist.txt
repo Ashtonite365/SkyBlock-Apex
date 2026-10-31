@@ -1,0 +1,14 @@
+from BlockPos{x=0, y=0, z=0} [CoordListEntry(x=1, y=2, z=3, r=0, g=0, b=0), CoordListEntry(x=-10, y=70, z=400, r=0, g=0, b=0), CoordListEntry(x=0, y=0, z=0, r=0, g=0, b=0)]
+enc [{"x":1,"y":2,"z":3,"r":0,"g":0,"b":0},{"x":-10,"y":70,"z":400,"r":0,"g":0,"b":0},{"x":0,"y":0,"z":0,"r":0,"g":0,"b":0}]
+into WaypointRoute(label=Imported Waypoints, id=imported, isRelativeTo=null, waypoints=[Waypoint(x=1, y=2, z=3), Waypoint(x=-10, y=70, z=400), Waypoint(x=0, y=0, z=0)], isOrdered=false)
+from BlockPos{x=10, y=-5, z=3} [CoordListEntry(x=-9, y=7, z=0, r=0, g=0, b=0), CoordListEntry(x=-20, y=75, z=397, r=0, g=0, b=0), CoordListEntry(x=-10, y=5, z=-3, r=0, g=0, b=0)]
+enc [{"x":-9,"y":7,"z":0,"r":0,"g":0,"b":0},{"x":-20,"y":75,"z":397,"r":0,"g":0,"b":0},{"x":-10,"y":5,"z":-3,"r":0,"g":0,"b":0}]
+into WaypointRoute(label=Imported Waypoints, id=imported, isRelativeTo=null, waypoints=[Waypoint(x=1, y=2, z=3), Waypoint(x=-10, y=70, z=400), Waypoint(x=0, y=0, z=0)], isOrdered=false)
+parse [{"x":1,"y":2,"z":3},{"x":4,"y":5,"z":6,"r":1,"g":2,"b":3}] -> [CoordListEntry(x=1, y=2, z=3, r=0, g=0, b=0), CoordListEntry(x=4, y=5, z=6, r=1, g=2, b=3)] null WaypointRoute(label=Imported Waypoints, id=imported, isRelativeTo=null, waypoints=[Waypoint(x=2, y=3, z=4), Waypoint(x=5, y=6, z=7)], isOrdered=false)
+parse [{"x":1,"y":null,"z":3},{"x":7,"y":8,"z":9,"options":{"name":1}}] -> [CoordListEntry(x=1, y=null, z=3, r=0, g=0, b=0), CoordListEntry(x=7, y=8, z=9, r=0, g=0, b=0)] null WaypointRoute(label=Imported Waypoints, id=imported, isRelativeTo=null, waypoints=[Waypoint(x=8, y=9, z=10)], isOrdered=false)
+parse [{"y":2}] -> [CoordListEntry(x=null, y=2, z=null, r=0, g=0, b=0)] null WaypointRoute(label=Imported Waypoints, id=imported, isRelativeTo=null, waypoints=[], isOrdered=false)
+parse [] -> [] null WaypointRoute(label=Imported Waypoints, id=imported, isRelativeTo=null, waypoints=[], isOrdered=false)
+parse {} -> null JsonDecodingException null
+parse not json -> null JsonDecodingException null
+parse  -> null JsonDecodingException null
+parse [{"x":"1","y":2,"z":3}] -> [CoordListEntry(x=1, y=2, z=3, r=0, g=0, b=0)] null WaypointRoute(label=Imported Waypoints, id=imported, isRelativeTo=null, waypoints=[Waypoint(x=2, y=3, z=4)], isOrdered=false)

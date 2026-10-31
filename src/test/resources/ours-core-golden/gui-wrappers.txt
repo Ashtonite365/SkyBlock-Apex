@@ -1,0 +1,41 @@
+fixed both 30x12 fold=[Probe]
+  ctx 30x12 5,5
+  mouse true key false
+  inner.render 30x12 at 5,5 hovered=true
+  inner.mouse Click(mouseButton=0, mouseState=true) 30x12 hovered=false
+  inner.key CharTyped(char=x) 30x12
+fixed none 14x9 fold=[Probe]
+  ctx 14x9 5,5
+  mouse true key false
+  inner.render 14x9 at 5,5 hovered=true
+  inner.mouse Click(mouseButton=0, mouseState=true) 14x9 hovered=false
+  inner.key CharTyped(char=x) 14x9
+hover delay=0s 20x8 fold=1 perma=false
+  after hover render perma=true
+  draw scheduleDrawTooltip(5,5,['one','two'])
+  hovered.render 40x20 at 5,5 hovered=true
+  again perma=true
+  draw scheduleDrawTooltip(5,5,['one','two'])
+  hovered.render 40x20 at 5,5 hovered=true
+  move -> true
+  hovered.mouse Move(dx=1.0, dy=1.0) 40x20 hovered=true
+  after move perma=true
+  draw scheduleDrawTooltip(5,5,['one','two'])
+  hovered.render 40x20 at 5,5 hovered=true
+  away perma=false
+  hovered.render 40x20 at 100,100 hovered=false
+  key -> false
+  hovered.key CharTyped(char=q) 40x20
+hover delay=Infinity 20x8 fold=1 perma=false
+  after hover render perma=false
+  hovered.render 40x20 at 5,5 hovered=true
+  again perma=false
+  hovered.render 40x20 at 5,5 hovered=true
+  move -> true
+  hovered.mouse Move(dx=1.0, dy=1.0) 40x20 hovered=true
+  after move perma=false
+  hovered.render 40x20 at 5,5 hovered=true
+  away perma=false
+  hovered.render 40x20 at 100,100 hovered=false
+  key -> false
+  hovered.key CharTyped(char=q) 40x20

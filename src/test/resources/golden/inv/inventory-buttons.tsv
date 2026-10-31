@@ -1,0 +1,361 @@
+load reset	
+import reset	 msgs=0
+load simple	160,-20,false,false,bone,pets,false | 140,-20,false,false,armor_stand,wardrobe,false | 120,-20,false,false,ender_chest,storage,false | 100,-20,false,false,skull:d7cc6687423d0570d556ac53e0676cb563bbdd9717cd8269bdebed6f6d4e7bf8,warp island,false | 80,-20,false,false,skull:35f4b40cef9e017cd4112d26b62557f8c1d5b189da2e99534222bc8cec7d9196,warp hub,false
+import simple	160,-20,false,false,bone,pets,false | 140,-20,false,false,armor_stand,wardrobe,false | 120,-20,false,false,ender_chest,storage,false | 100,-20,false,false,skull:d7cc6687423d0570d556ac53e0676cb563bbdd9717cd8269bdebed6f6d4e7bf8,warp island,false | 80,-20,false,false,skull:35f4b40cef9e017cd4112d26b62557f8c1d5b189da2e99534222bc8cec7d9196,warp hub,false msgs=0
+load warps	2,-84,true,true,skull:c9c8881e42915a9d29bb61a16fb26d059913204d265df5b439b3d792acd56,warp home,false | 2,-64,true,true,skull:d7cc6687423d0570d556ac53e0676cb563bbdd9717cd8269bdebed6f6d4e7bf8,warp hub,false | 2,-44,true,true,skull:9b56895b9659896ad647f58599238af532d46db9c1b0389b8bbeb70999dab33d,warp dungeon_hub,false | 2,-24,true,true,skull:7840b87d52271d2a755dedc82877e0ed3df67dcc42ea479ec146176b02779a5,warp end,false | 109,-19,false,false,skull:86f06eaa3004aeed09b3d5b45d976de584e691c0e9cade133635de93d23b9edb,hotm,false | 130,-19,false,false,ENDER_CHEST,storage,false | 151,-19,false,false,BONE,pets,false | -19,2,false,false,GOLD_BLOCK,ah,false | -19,22,false,false,GOLD_BARDING,bz,false | -19,-84,false,true,skull:438cf3f8e54afc3b3f91d20a49f324dca1486007fe545399055524c17941f4dc,warp museum,false | -19,-64,false,true,skull:f4880d2c1e7b86e87522e20882656f45bafd42f94932b2c5e0d6ecaa490cb4c,warp garden,false | -19,-44,false,true,skull:4d3a6bd98ac1833c664c4909ff8d2dc62ce887bdcf3cc5b3848651ae5af6b,warp barn,false | -19,-24,false,true,skull:51539dddf9ed255ece6348193cd75012c82c93aec381f05572cecf7379711b3b,warp desert,false | 4,2,false,true,skull:73bc965d579c3c6039f0a17eb7c2e6faf538c7a5de8e60ec7a719360d0a857a9,warp gold,false | 25,2,false,true,skull:569a1f114151b4521373f34bc14c2963a5011cdc25a6554c48c708cd96ebfc,warp deep,false | 46,2,false,true,skull:21dbe30b027acbceb612563bd877cd7ebb719ea6ed1399027dcee58bb9049d4a,warp crystals,false | 67,2,false,true,skull:5cbd9f5ec1ed007259996491e69ff649a3106cf920227b1bb3a71ee7a89863f,warp forge,false | 88,2,false,true,skull:6b20b23c1aa2be0270f016b4c90d6ee6b8330a17cfef87869d6ad60b2ffbf3b5,warp mines,false | 109,2,false,true,skull:a221f813dacee0fef8c59f76894dbb26415478d9ddfc44c2e708a6d3b7549b,warp park,false | 130,2,false,true,skull:9d7e3b19ac4f3dee9c5677c135333b9d35a7f568b63d1ef4ada4b068b5a25,warp spider,false | 151,2,false,true,skull:c3687e25c632bce8aa61e0d64c24e694c3eea629ea944f4cf30dcfb4fbce071,warp nether,false
+import warps	2,-84,true,true,skull:c9c8881e42915a9d29bb61a16fb26d059913204d265df5b439b3d792acd56,warp home,false | 2,-64,true,true,skull:d7cc6687423d0570d556ac53e0676cb563bbdd9717cd8269bdebed6f6d4e7bf8,warp hub,false | 2,-44,true,true,skull:9b56895b9659896ad647f58599238af532d46db9c1b0389b8bbeb70999dab33d,warp dungeon_hub,false | 2,-24,true,true,skull:7840b87d52271d2a755dedc82877e0ed3df67dcc42ea479ec146176b02779a5,warp end,false | 109,-19,false,false,skull:86f06eaa3004aeed09b3d5b45d976de584e691c0e9cade133635de93d23b9edb,hotm,false | 130,-19,false,false,ENDER_CHEST,storage,false | 151,-19,false,false,BONE,pets,false | -19,2,false,false,GOLD_BLOCK,ah,false | -19,22,false,false,GOLD_BARDING,bz,false | -19,-84,false,true,skull:438cf3f8e54afc3b3f91d20a49f324dca1486007fe545399055524c17941f4dc,warp museum,false | -19,-64,false,true,skull:f4880d2c1e7b86e87522e20882656f45bafd42f94932b2c5e0d6ecaa490cb4c,warp garden,false | -19,-44,false,true,skull:4d3a6bd98ac1833c664c4909ff8d2dc62ce887bdcf3cc5b3848651ae5af6b,warp barn,false | -19,-24,false,true,skull:51539dddf9ed255ece6348193cd75012c82c93aec381f05572cecf7379711b3b,warp desert,false | 4,2,false,true,skull:73bc965d579c3c6039f0a17eb7c2e6faf538c7a5de8e60ec7a719360d0a857a9,warp gold,false | 25,2,false,true,skull:569a1f114151b4521373f34bc14c2963a5011cdc25a6554c48c708cd96ebfc,warp deep,false | 46,2,false,true,skull:21dbe30b027acbceb612563bd877cd7ebb719ea6ed1399027dcee58bb9049d4a,warp crystals,false | 67,2,false,true,skull:5cbd9f5ec1ed007259996491e69ff649a3106cf920227b1bb3a71ee7a89863f,warp forge,false | 88,2,false,true,skull:6b20b23c1aa2be0270f016b4c90d6ee6b8330a17cfef87869d6ad60b2ffbf3b5,warp mines,false | 109,2,false,true,skull:a221f813dacee0fef8c59f76894dbb26415478d9ddfc44c2e708a6d3b7549b,warp park,false | 130,2,false,true,skull:9d7e3b19ac4f3dee9c5677c135333b9d35a7f568b63d1ef4ada4b068b5a25,warp spider,false | 151,2,false,true,skull:c3687e25c632bce8aa61e0d64c24e694c3eea629ea944f4cf30dcfb4fbce071,warp nether,false msgs=0
+load garbage	null
+load empty	null
+load wrongprefix	null
+save	TkVVQlVUVE9OUy9bIntcInhcIjowLFwieVwiOi0xOCxcImFuY2hvclJpZ2h0XCI6ZmFsc2UsXCJhbmNob3JCb3R0b21cIjpmYWxzZSxcImljb25cIjpcInN0b25lXCIsXCJjb21tYW5kXCI6XCJ3YXJwIGh1YlwiLFwiaXNHaWdhbnRpY1wiOmZhbHNlfSIsIntcInhcIjo1LFwieVwiOjUsXCJhbmNob3JSaWdodFwiOnRydWUsXCJhbmNob3JCb3R0b21cIjp0cnVlLFwiaWNvblwiOlwic2t1bGw6YWJjXCIsXCJjb21tYW5kXCI6XCIvcGV0c1wiLFwiaXNHaWdhbnRpY1wiOnRydWV9Iiwie1wieFwiOi0yMCxcInlcIjowLFwiYW5jaG9yUmlnaHRcIjpmYWxzZSxcImFuY2hvckJvdHRvbVwiOnRydWUsXCJpY29uXCI6bnVsbCxcImNvbW1hbmRcIjpudWxsLFwiaXNHaWdhbnRpY1wiOmZhbHNlfSJd
+json	{"x":0,"y":-18,"anchorRight":false,"anchorBottom":false,"icon":"stone","command":"warp hub","isGigantic":false} | {"x":5,"y":5,"anchorRight":true,"anchorBottom":true,"icon":"skull:abc","command":"/pets","isGigantic":true} | {"x":-20,"y":0,"anchorRight":false,"anchorBottom":true,"icon":null,"command":null,"isGigantic":false}
+decode-min	1,2,true,false,,,false
+move 0	0,-18,false,false,e,f,false | 18,-18,false,false,g,h,false | 0,0,false,false,a,b,false | 18,0,false,false,c,d,true msgs=2
+move 1	1,1,true,false,a,b,false | 1,1,false,true,a,b,false | 0,1,false,false,a,b,false | 1,0,false,false,a,b,false | 36,0,false,false,a,/b,false | 54,0,false,false,a,b,false msgs=2
+move 2	0,0,false,false,i0,c0,true | 0,-18,false,false,i1,c1,false | 0,-36,false,false,i2,c2,false | 0,0,false,false,i3,c3,false | 0,-18,false,false,i4,c4,true | 0,-36,false,false,i5,c5,false | 0,0,false,false,i6,c6,false | 0,-18,false,false,i7,c7,false | 0,-36,false,false,i8,c8,true | 0,0,false,false,i9,c9,false | 0,-18,false,false,i10,c10,false | 0,-36,false,false,i11,c11,false | 54,0,false,false,x,y,false | 72,0,false,false,x,y,true msgs=2
+bounds 100,50,176,166|0,-18,false,false,a,b,false	100,32,18,18 valid=true
+bounds 100,50,176,166|2,-84,true,true,a,b,false	278,132,18,18 valid=true
+bounds 100,50,176,166|-20,10,false,true,a,b,true	80,226,38,38 valid=true
+bounds 100,50,176,166|4,4,true,false,,b,false	280,54,18,18 valid=false
+bounds 100,50,176,166|4,4,true,false,a, ,false	280,54,18,18 valid=false
+bounds 100,50,176,166|4,4,true,false,null,b,false	280,54,18,18 valid=false
+bounds 0,0,1,1|0,-18,false,false,a,b,false	0,-18,18,18 valid=true
+bounds 0,0,1,1|2,-84,true,true,a,b,false	3,-83,18,18 valid=true
+bounds 0,0,1,1|-20,10,false,true,a,b,true	-20,11,38,38 valid=true
+bounds 0,0,1,1|4,4,true,false,,b,false	5,4,18,18 valid=false
+bounds 0,0,1,1|4,4,true,false,a, ,false	5,4,18,18 valid=false
+bounds 0,0,1,1|4,4,true,false,null,b,false	5,4,18,18 valid=false
+bounds 300,200,176,222|0,-18,false,false,a,b,false	300,182,18,18 valid=true
+bounds 300,200,176,222|2,-84,true,true,a,b,false	478,338,18,18 valid=true
+bounds 300,200,176,222|-20,10,false,true,a,b,true	280,432,38,38 valid=true
+bounds 300,200,176,222|4,4,true,false,,b,false	480,204,18,18 valid=false
+bounds 300,200,176,222|4,4,true,false,a, ,false	480,204,18,18 valid=false
+bounds 300,200,176,222|4,4,true,false,null,b,false	480,204,18,18 valid=false
+mouse 100,50,176,166|false|-50,-30	false,false,-150,-80 -150,-80;-150,-80
+mouse 100,50,176,166|false|-50,30	false,false,-150,-20 -150,-20;-150,-20
+mouse 100,50,176,166|false|-50,49	false,false,-150,-1 -150,-1;-150,-1
+mouse 100,50,176,166|false|-50,50	false,false,-150,0 -150,0;-150,0
+mouse 100,50,176,166|false|-50,120	false,false,-150,70 -150,70;-150,70
+mouse 100,50,176,166|false|-50,216	false,false,-150,166 -150,166;-150,166
+mouse 100,50,176,166|false|-50,217	false,true,-150,1 -150,1;-150,1
+mouse 100,50,176,166|false|-50,230	false,true,-150,14 -150,14;-150,14
+mouse 100,50,176,166|false|0,-30	false,false,-100,-80 -100,-80;-100,-80
+mouse 100,50,176,166|false|0,30	false,false,-100,-20 -100,-20;-100,-20
+mouse 100,50,176,166|false|0,49	false,false,-100,-1 -100,-1;-100,-1
+mouse 100,50,176,166|false|0,50	false,false,-100,0 -100,0;-100,0
+mouse 100,50,176,166|false|0,120	false,false,-100,70 -100,70;-100,70
+mouse 100,50,176,166|false|0,216	false,false,-100,166 -100,166;-100,166
+mouse 100,50,176,166|false|0,217	false,true,-100,1 -100,1;-100,1
+mouse 100,50,176,166|false|0,230	false,true,-100,14 -100,14;-100,14
+mouse 100,50,176,166|false|81,-30	false,false,-19,-80 -19,-80;-19,-80
+mouse 100,50,176,166|false|81,30	false,false,-19,-20 -19,-20;-38,-20
+mouse 100,50,176,166|false|81,49	false,false,-19,-1 -19,-1;-38,-1
+mouse 100,50,176,166|false|81,50	false,false,-19,0 -19,0;-38,0
+mouse 100,50,176,166|false|81,120	false,false,-19,70 -19,70;-38,70
+mouse 100,50,176,166|false|81,216	false,false,-19,166 -19,166;-19,166
+mouse 100,50,176,166|false|81,217	false,true,-19,1 -19,1;-19,1
+mouse 100,50,176,166|false|81,230	false,true,-19,14 -19,14;-19,14
+mouse 100,50,176,166|false|99,-30	false,false,-1,-80 -1,-80;-1,-80
+mouse 100,50,176,166|false|99,30	false,false,-1,-20 -1,-20;-38,-20
+mouse 100,50,176,166|false|99,49	null 
+mouse 100,50,176,166|false|99,50	null 
+mouse 100,50,176,166|false|99,120	null 
+mouse 100,50,176,166|false|99,216	false,false,-1,166 -1,166;-1,166
+mouse 100,50,176,166|false|99,217	false,true,-1,1 -1,1;-1,1
+mouse 100,50,176,166|false|99,230	false,true,-1,14 -1,14;-1,14
+mouse 100,50,176,166|false|100,-30	false,false,0,-80 0,-80;0,-80
+mouse 100,50,176,166|false|100,30	false,false,0,-20 0,-20;-38,-20
+mouse 100,50,176,166|false|100,49	null 
+mouse 100,50,176,166|false|100,50	null 
+mouse 100,50,176,166|false|100,120	null 
+mouse 100,50,176,166|false|100,216	false,false,0,166 0,166;0,166
+mouse 100,50,176,166|false|100,217	false,true,0,1 0,1;0,1
+mouse 100,50,176,166|false|100,230	false,true,0,14 0,14;0,14
+mouse 100,50,176,166|false|150,-30	false,false,50,-80 50,-80;50,-80
+mouse 100,50,176,166|false|150,30	false,false,50,-20 50,-20;-38,-20
+mouse 100,50,176,166|false|150,49	null 
+mouse 100,50,176,166|false|150,50	null 
+mouse 100,50,176,166|false|150,120	null 
+mouse 100,50,176,166|false|150,216	false,false,50,166 50,166;50,166
+mouse 100,50,176,166|false|150,217	false,true,50,1 50,1;50,1
+mouse 100,50,176,166|false|150,230	false,true,50,14 50,14;50,14
+mouse 100,50,176,166|false|276,-30	false,false,176,-80 176,-80;176,-80
+mouse 100,50,176,166|false|276,30	false,false,176,-20 176,-20;176,-20
+mouse 100,50,176,166|false|276,49	false,false,176,-1 176,-1;176,-1
+mouse 100,50,176,166|false|276,50	false,false,176,0 176,0;176,0
+mouse 100,50,176,166|false|276,120	false,false,176,70 176,70;176,70
+mouse 100,50,176,166|false|276,216	false,false,176,166 176,166;176,166
+mouse 100,50,176,166|false|276,217	false,true,176,1 176,1;176,1
+mouse 100,50,176,166|false|276,230	false,true,176,14 176,14;176,14
+mouse 100,50,176,166|false|277,-30	true,false,1,-80 1,-80;1,-80
+mouse 100,50,176,166|false|277,30	true,false,1,-20 1,-20;1,-20
+mouse 100,50,176,166|false|277,49	true,false,1,-1 1,-1;1,-1
+mouse 100,50,176,166|false|277,50	true,false,1,0 1,0;1,0
+mouse 100,50,176,166|false|277,120	true,false,1,70 1,70;1,70
+mouse 100,50,176,166|false|277,216	true,false,1,166 1,166;1,166
+mouse 100,50,176,166|false|277,217	true,true,1,1 1,1;1,1
+mouse 100,50,176,166|false|277,230	true,true,1,14 1,14;1,14
+mouse 100,50,176,166|false|290,-30	true,false,14,-80 14,-80;14,-80
+mouse 100,50,176,166|false|290,30	true,false,14,-20 14,-20;14,-20
+mouse 100,50,176,166|false|290,49	true,false,14,-1 14,-1;14,-1
+mouse 100,50,176,166|false|290,50	true,false,14,0 14,0;14,0
+mouse 100,50,176,166|false|290,120	true,false,14,70 14,70;14,70
+mouse 100,50,176,166|false|290,216	true,false,14,166 14,166;14,166
+mouse 100,50,176,166|false|290,217	true,true,14,1 14,1;14,1
+mouse 100,50,176,166|false|290,230	true,true,14,14 14,14;14,14
+mouse 100,50,176,166|false|330,-30	true,false,54,-80 54,-80;54,-80
+mouse 100,50,176,166|false|330,30	true,false,54,-20 54,-20;54,-20
+mouse 100,50,176,166|false|330,49	true,false,54,-1 54,-1;54,-1
+mouse 100,50,176,166|false|330,50	true,false,54,0 54,0;54,0
+mouse 100,50,176,166|false|330,120	true,false,54,70 54,70;54,70
+mouse 100,50,176,166|false|330,216	true,false,54,166 54,166;54,166
+mouse 100,50,176,166|false|330,217	true,true,54,1 54,1;54,1
+mouse 100,50,176,166|false|330,230	true,true,54,14 54,14;54,14
+mouse 100,50,176,166|true|-50,-30	false,false,-160,-80 -160,-80;-160,-80
+mouse 100,50,176,166|true|-50,30	false,false,-160,-20 -160,-20;-160,-20
+mouse 100,50,176,166|true|-50,49	false,false,-160,-20 -160,-20;-160,-20
+mouse 100,50,176,166|true|-50,50	false,false,-160,0 -160,0;-160,0
+mouse 100,50,176,166|true|-50,120	false,false,-160,60 -160,60;-160,60
+mouse 100,50,176,166|true|-50,216	false,false,-160,160 -160,160;-160,160
+mouse 100,50,176,166|true|-50,217	false,true,-160,0 -160,0;-160,0
+mouse 100,50,176,166|true|-50,230	false,true,-160,0 -160,0;-160,0
+mouse 100,50,176,166|true|0,-30	false,false,-100,-80 -100,-80;-100,-80
+mouse 100,50,176,166|true|0,30	false,false,-100,-20 -100,-20;-100,-20
+mouse 100,50,176,166|true|0,49	false,false,-100,-20 -100,-20;-100,-20
+mouse 100,50,176,166|true|0,50	false,false,-100,0 -100,0;-100,0
+mouse 100,50,176,166|true|0,120	false,false,-100,60 -100,60;-100,60
+mouse 100,50,176,166|true|0,216	false,false,-100,160 -100,160;-100,160
+mouse 100,50,176,166|true|0,217	false,true,-100,0 -100,0;-100,0
+mouse 100,50,176,166|true|0,230	false,true,-100,0 -100,0;-100,0
+mouse 100,50,176,166|true|81,-30	false,false,-20,-80 -20,-80;-20,-80
+mouse 100,50,176,166|true|81,30	false,false,-20,-20 -20,-20;-38,-20
+mouse 100,50,176,166|true|81,49	false,false,-20,-20 -20,-20;-38,-20
+mouse 100,50,176,166|true|81,50	false,false,-20,0 -20,0;-38,0
+mouse 100,50,176,166|true|81,120	false,false,-20,60 -20,60;-38,60
+mouse 100,50,176,166|true|81,216	false,false,-20,160 -20,160;-38,160
+mouse 100,50,176,166|true|81,217	false,true,-20,0 -20,0;-20,0
+mouse 100,50,176,166|true|81,230	false,true,-20,0 -20,0;-20,0
+mouse 100,50,176,166|true|99,-30	false,false,-20,-80 -20,-80;-20,-80
+mouse 100,50,176,166|true|99,30	false,false,-20,-20 -20,-20;-38,-20
+mouse 100,50,176,166|true|99,49	false,false,-20,-20 -20,-20;-38,-20
+mouse 100,50,176,166|true|99,50	false,false,-20,0 -20,0;-38,0
+mouse 100,50,176,166|true|99,120	false,false,-20,60 -20,60;-38,60
+mouse 100,50,176,166|true|99,216	false,false,-20,160 -20,160;-38,160
+mouse 100,50,176,166|true|99,217	false,true,-20,0 -20,0;-20,0
+mouse 100,50,176,166|true|99,230	false,true,-20,0 -20,0;-20,0
+mouse 100,50,176,166|true|100,-30	false,false,0,-80 0,-80;0,-80
+mouse 100,50,176,166|true|100,30	false,false,0,-20 0,-20;-38,-20
+mouse 100,50,176,166|true|100,49	false,false,0,-20 0,-20;-38,-20
+mouse 100,50,176,166|true|100,50	null 
+mouse 100,50,176,166|true|100,120	null 
+mouse 100,50,176,166|true|100,216	null 
+mouse 100,50,176,166|true|100,217	false,true,0,0 0,0;0,0
+mouse 100,50,176,166|true|100,230	false,true,0,0 0,0;0,0
+mouse 100,50,176,166|true|150,-30	false,false,40,-80 40,-80;40,-80
+mouse 100,50,176,166|true|150,30	false,false,40,-20 40,-20;-38,-20
+mouse 100,50,176,166|true|150,49	false,false,40,-20 40,-20;-38,-20
+mouse 100,50,176,166|true|150,50	null 
+mouse 100,50,176,166|true|150,120	null 
+mouse 100,50,176,166|true|150,216	null 
+mouse 100,50,176,166|true|150,217	false,true,40,0 40,0;40,0
+mouse 100,50,176,166|true|150,230	false,true,40,0 40,0;40,0
+mouse 100,50,176,166|true|276,-30	false,false,160,-80 160,-80;160,-80
+mouse 100,50,176,166|true|276,30	false,false,160,-20 160,-20;-38,-20
+mouse 100,50,176,166|true|276,49	false,false,160,-20 160,-20;-38,-20
+mouse 100,50,176,166|true|276,50	null 
+mouse 100,50,176,166|true|276,120	null 
+mouse 100,50,176,166|true|276,216	null 
+mouse 100,50,176,166|true|276,217	false,true,160,0 160,0;160,0
+mouse 100,50,176,166|true|276,230	false,true,160,0 160,0;160,0
+mouse 100,50,176,166|true|277,-30	true,false,0,-80 0,-80;0,-80
+mouse 100,50,176,166|true|277,30	true,false,0,-20 0,-20;0,-20
+mouse 100,50,176,166|true|277,49	true,false,0,-20 0,-20;0,-20
+mouse 100,50,176,166|true|277,50	true,false,0,0 0,0;0,0
+mouse 100,50,176,166|true|277,120	true,false,0,60 0,60;0,60
+mouse 100,50,176,166|true|277,216	true,false,0,160 0,160;0,160
+mouse 100,50,176,166|true|277,217	true,true,0,0 0,0;0,0
+mouse 100,50,176,166|true|277,230	true,true,0,0 0,0;0,0
+mouse 100,50,176,166|true|290,-30	true,false,0,-80 0,-80;0,-80
+mouse 100,50,176,166|true|290,30	true,false,0,-20 0,-20;0,-20
+mouse 100,50,176,166|true|290,49	true,false,0,-20 0,-20;0,-20
+mouse 100,50,176,166|true|290,50	true,false,0,0 0,0;0,0
+mouse 100,50,176,166|true|290,120	true,false,0,60 0,60;0,60
+mouse 100,50,176,166|true|290,216	true,false,0,160 0,160;0,160
+mouse 100,50,176,166|true|290,217	true,true,0,0 0,0;0,0
+mouse 100,50,176,166|true|290,230	true,true,0,0 0,0;0,0
+mouse 100,50,176,166|true|330,-30	true,false,40,-80 40,-80;40,-80
+mouse 100,50,176,166|true|330,30	true,false,40,-20 40,-20;40,-20
+mouse 100,50,176,166|true|330,49	true,false,40,-20 40,-20;40,-20
+mouse 100,50,176,166|true|330,50	true,false,40,0 40,0;40,0
+mouse 100,50,176,166|true|330,120	true,false,40,60 40,60;40,60
+mouse 100,50,176,166|true|330,216	true,false,40,160 40,160;40,160
+mouse 100,50,176,166|true|330,217	true,true,40,0 40,0;40,0
+mouse 100,50,176,166|true|330,230	true,true,40,0 40,0;40,0
+mouse 300,200,176,222|false|-50,-30	false,false,-350,-230 -350,-230;-350,-230
+mouse 300,200,176,222|false|-50,30	false,false,-350,-170 -350,-170;-350,-170
+mouse 300,200,176,222|false|-50,49	false,false,-350,-151 -350,-151;-350,-151
+mouse 300,200,176,222|false|-50,50	false,false,-350,-150 -350,-150;-350,-150
+mouse 300,200,176,222|false|-50,120	false,false,-350,-80 -350,-80;-350,-80
+mouse 300,200,176,222|false|-50,216	false,false,-350,16 -350,16;-350,16
+mouse 300,200,176,222|false|-50,217	false,false,-350,17 -350,17;-350,17
+mouse 300,200,176,222|false|-50,230	false,false,-350,30 -350,30;-350,30
+mouse 300,200,176,222|false|0,-30	false,false,-300,-230 -300,-230;-300,-230
+mouse 300,200,176,222|false|0,30	false,false,-300,-170 -300,-170;-300,-170
+mouse 300,200,176,222|false|0,49	false,false,-300,-151 -300,-151;-300,-151
+mouse 300,200,176,222|false|0,50	false,false,-300,-150 -300,-150;-300,-150
+mouse 300,200,176,222|false|0,120	false,false,-300,-80 -300,-80;-300,-80
+mouse 300,200,176,222|false|0,216	false,false,-300,16 -300,16;-300,16
+mouse 300,200,176,222|false|0,217	false,false,-300,17 -300,17;-300,17
+mouse 300,200,176,222|false|0,230	false,false,-300,30 -300,30;-300,30
+mouse 300,200,176,222|false|81,-30	false,false,-219,-230 -219,-230;-219,-230
+mouse 300,200,176,222|false|81,30	false,false,-219,-170 -219,-170;-219,-170
+mouse 300,200,176,222|false|81,49	false,false,-219,-151 -219,-151;-219,-151
+mouse 300,200,176,222|false|81,50	false,false,-219,-150 -219,-150;-219,-150
+mouse 300,200,176,222|false|81,120	false,false,-219,-80 -219,-80;-219,-80
+mouse 300,200,176,222|false|81,216	false,false,-219,16 -219,16;-219,16
+mouse 300,200,176,222|false|81,217	false,false,-219,17 -219,17;-219,17
+mouse 300,200,176,222|false|81,230	false,false,-219,30 -219,30;-219,30
+mouse 300,200,176,222|false|99,-30	false,false,-201,-230 -201,-230;-201,-230
+mouse 300,200,176,222|false|99,30	false,false,-201,-170 -201,-170;-201,-170
+mouse 300,200,176,222|false|99,49	false,false,-201,-151 -201,-151;-201,-151
+mouse 300,200,176,222|false|99,50	false,false,-201,-150 -201,-150;-201,-150
+mouse 300,200,176,222|false|99,120	false,false,-201,-80 -201,-80;-201,-80
+mouse 300,200,176,222|false|99,216	false,false,-201,16 -201,16;-201,16
+mouse 300,200,176,222|false|99,217	false,false,-201,17 -201,17;-201,17
+mouse 300,200,176,222|false|99,230	false,false,-201,30 -201,30;-201,30
+mouse 300,200,176,222|false|100,-30	false,false,-200,-230 -200,-230;-200,-230
+mouse 300,200,176,222|false|100,30	false,false,-200,-170 -200,-170;-200,-170
+mouse 300,200,176,222|false|100,49	false,false,-200,-151 -200,-151;-200,-151
+mouse 300,200,176,222|false|100,50	false,false,-200,-150 -200,-150;-200,-150
+mouse 300,200,176,222|false|100,120	false,false,-200,-80 -200,-80;-200,-80
+mouse 300,200,176,222|false|100,216	false,false,-200,16 -200,16;-200,16
+mouse 300,200,176,222|false|100,217	false,false,-200,17 -200,17;-200,17
+mouse 300,200,176,222|false|100,230	false,false,-200,30 -200,30;-200,30
+mouse 300,200,176,222|false|150,-30	false,false,-150,-230 -150,-230;-150,-230
+mouse 300,200,176,222|false|150,30	false,false,-150,-170 -150,-170;-150,-170
+mouse 300,200,176,222|false|150,49	false,false,-150,-151 -150,-151;-150,-151
+mouse 300,200,176,222|false|150,50	false,false,-150,-150 -150,-150;-150,-150
+mouse 300,200,176,222|false|150,120	false,false,-150,-80 -150,-80;-150,-80
+mouse 300,200,176,222|false|150,216	false,false,-150,16 -150,16;-150,16
+mouse 300,200,176,222|false|150,217	false,false,-150,17 -150,17;-150,17
+mouse 300,200,176,222|false|150,230	false,false,-150,30 -150,30;-150,30
+mouse 300,200,176,222|false|276,-30	false,false,-24,-230 -24,-230;-24,-230
+mouse 300,200,176,222|false|276,30	false,false,-24,-170 -24,-170;-24,-170
+mouse 300,200,176,222|false|276,49	false,false,-24,-151 -24,-151;-24,-151
+mouse 300,200,176,222|false|276,50	false,false,-24,-150 -24,-150;-24,-150
+mouse 300,200,176,222|false|276,120	false,false,-24,-80 -24,-80;-24,-80
+mouse 300,200,176,222|false|276,216	false,false,-24,16 -24,16;-38,16
+mouse 300,200,176,222|false|276,217	false,false,-24,17 -24,17;-38,17
+mouse 300,200,176,222|false|276,230	false,false,-24,30 -24,30;-38,30
+mouse 300,200,176,222|false|277,-30	false,false,-23,-230 -23,-230;-23,-230
+mouse 300,200,176,222|false|277,30	false,false,-23,-170 -23,-170;-23,-170
+mouse 300,200,176,222|false|277,49	false,false,-23,-151 -23,-151;-23,-151
+mouse 300,200,176,222|false|277,50	false,false,-23,-150 -23,-150;-23,-150
+mouse 300,200,176,222|false|277,120	false,false,-23,-80 -23,-80;-23,-80
+mouse 300,200,176,222|false|277,216	false,false,-23,16 -23,16;-38,16
+mouse 300,200,176,222|false|277,217	false,false,-23,17 -23,17;-38,17
+mouse 300,200,176,222|false|277,230	false,false,-23,30 -23,30;-38,30
+mouse 300,200,176,222|false|290,-30	false,false,-10,-230 -10,-230;-10,-230
+mouse 300,200,176,222|false|290,30	false,false,-10,-170 -10,-170;-10,-170
+mouse 300,200,176,222|false|290,49	false,false,-10,-151 -10,-151;-10,-151
+mouse 300,200,176,222|false|290,50	false,false,-10,-150 -10,-150;-10,-150
+mouse 300,200,176,222|false|290,120	false,false,-10,-80 -10,-80;-10,-80
+mouse 300,200,176,222|false|290,216	null 
+mouse 300,200,176,222|false|290,217	null 
+mouse 300,200,176,222|false|290,230	null 
+mouse 300,200,176,222|false|330,-30	false,false,30,-230 30,-230;30,-230
+mouse 300,200,176,222|false|330,30	false,false,30,-170 30,-170;30,-170
+mouse 300,200,176,222|false|330,49	false,false,30,-151 30,-151;30,-151
+mouse 300,200,176,222|false|330,50	false,false,30,-150 30,-150;30,-150
+mouse 300,200,176,222|false|330,120	false,false,30,-80 30,-80;30,-80
+mouse 300,200,176,222|false|330,216	null 
+mouse 300,200,176,222|false|330,217	null 
+mouse 300,200,176,222|false|330,230	null 
+mouse 300,200,176,222|true|-50,-30	false,false,-360,-240 -360,-240;-360,-240
+mouse 300,200,176,222|true|-50,30	false,false,-360,-180 -360,-180;-360,-180
+mouse 300,200,176,222|true|-50,49	false,false,-360,-160 -360,-160;-360,-160
+mouse 300,200,176,222|true|-50,50	false,false,-360,-160 -360,-160;-360,-160
+mouse 300,200,176,222|true|-50,120	false,false,-360,-80 -360,-80;-360,-80
+mouse 300,200,176,222|true|-50,216	false,false,-360,0 -360,0;-360,0
+mouse 300,200,176,222|true|-50,217	false,false,-360,0 -360,0;-360,0
+mouse 300,200,176,222|true|-50,230	false,false,-360,20 -360,20;-360,20
+mouse 300,200,176,222|true|0,-30	false,false,-300,-240 -300,-240;-300,-240
+mouse 300,200,176,222|true|0,30	false,false,-300,-180 -300,-180;-300,-180
+mouse 300,200,176,222|true|0,49	false,false,-300,-160 -300,-160;-300,-160
+mouse 300,200,176,222|true|0,50	false,false,-300,-160 -300,-160;-300,-160
+mouse 300,200,176,222|true|0,120	false,false,-300,-80 -300,-80;-300,-80
+mouse 300,200,176,222|true|0,216	false,false,-300,0 -300,0;-300,0
+mouse 300,200,176,222|true|0,217	false,false,-300,0 -300,0;-300,0
+mouse 300,200,176,222|true|0,230	false,false,-300,20 -300,20;-300,20
+mouse 300,200,176,222|true|81,-30	false,false,-220,-240 -220,-240;-220,-240
+mouse 300,200,176,222|true|81,30	false,false,-220,-180 -220,-180;-220,-180
+mouse 300,200,176,222|true|81,49	false,false,-220,-160 -220,-160;-220,-160
+mouse 300,200,176,222|true|81,50	false,false,-220,-160 -220,-160;-220,-160
+mouse 300,200,176,222|true|81,120	false,false,-220,-80 -220,-80;-220,-80
+mouse 300,200,176,222|true|81,216	false,false,-220,0 -220,0;-220,0
+mouse 300,200,176,222|true|81,217	false,false,-220,0 -220,0;-220,0
+mouse 300,200,176,222|true|81,230	false,false,-220,20 -220,20;-220,20
+mouse 300,200,176,222|true|99,-30	false,false,-220,-240 -220,-240;-220,-240
+mouse 300,200,176,222|true|99,30	false,false,-220,-180 -220,-180;-220,-180
+mouse 300,200,176,222|true|99,49	false,false,-220,-160 -220,-160;-220,-160
+mouse 300,200,176,222|true|99,50	false,false,-220,-160 -220,-160;-220,-160
+mouse 300,200,176,222|true|99,120	false,false,-220,-80 -220,-80;-220,-80
+mouse 300,200,176,222|true|99,216	false,false,-220,0 -220,0;-220,0
+mouse 300,200,176,222|true|99,217	false,false,-220,0 -220,0;-220,0
+mouse 300,200,176,222|true|99,230	false,false,-220,20 -220,20;-220,20
+mouse 300,200,176,222|true|100,-30	false,false,-200,-240 -200,-240;-200,-240
+mouse 300,200,176,222|true|100,30	false,false,-200,-180 -200,-180;-200,-180
+mouse 300,200,176,222|true|100,49	false,false,-200,-160 -200,-160;-200,-160
+mouse 300,200,176,222|true|100,50	false,false,-200,-160 -200,-160;-200,-160
+mouse 300,200,176,222|true|100,120	false,false,-200,-80 -200,-80;-200,-80
+mouse 300,200,176,222|true|100,216	false,false,-200,0 -200,0;-200,0
+mouse 300,200,176,222|true|100,217	false,false,-200,0 -200,0;-200,0
+mouse 300,200,176,222|true|100,230	false,false,-200,20 -200,20;-200,20
+mouse 300,200,176,222|true|150,-30	false,false,-160,-240 -160,-240;-160,-240
+mouse 300,200,176,222|true|150,30	false,false,-160,-180 -160,-180;-160,-180
+mouse 300,200,176,222|true|150,49	false,false,-160,-160 -160,-160;-160,-160
+mouse 300,200,176,222|true|150,50	false,false,-160,-160 -160,-160;-160,-160
+mouse 300,200,176,222|true|150,120	false,false,-160,-80 -160,-80;-160,-80
+mouse 300,200,176,222|true|150,216	false,false,-160,0 -160,0;-160,0
+mouse 300,200,176,222|true|150,217	false,false,-160,0 -160,0;-160,0
+mouse 300,200,176,222|true|150,230	false,false,-160,20 -160,20;-160,20
+mouse 300,200,176,222|true|276,-30	false,false,-40,-240 -40,-240;-40,-240
+mouse 300,200,176,222|true|276,30	false,false,-40,-180 -40,-180;-40,-180
+mouse 300,200,176,222|true|276,49	false,false,-40,-160 -40,-160;-40,-160
+mouse 300,200,176,222|true|276,50	false,false,-40,-160 -40,-160;-40,-160
+mouse 300,200,176,222|true|276,120	false,false,-40,-80 -40,-80;-40,-80
+mouse 300,200,176,222|true|276,216	false,false,-40,0 -40,0;-40,0
+mouse 300,200,176,222|true|276,217	false,false,-40,0 -40,0;-40,0
+mouse 300,200,176,222|true|276,230	false,false,-40,20 -40,20;-40,20
+mouse 300,200,176,222|true|277,-30	false,false,-40,-240 -40,-240;-40,-240
+mouse 300,200,176,222|true|277,30	false,false,-40,-180 -40,-180;-40,-180
+mouse 300,200,176,222|true|277,49	false,false,-40,-160 -40,-160;-40,-160
+mouse 300,200,176,222|true|277,50	false,false,-40,-160 -40,-160;-40,-160
+mouse 300,200,176,222|true|277,120	false,false,-40,-80 -40,-80;-40,-80
+mouse 300,200,176,222|true|277,216	false,false,-40,0 -40,0;-40,0
+mouse 300,200,176,222|true|277,217	false,false,-40,0 -40,0;-40,0
+mouse 300,200,176,222|true|277,230	false,false,-40,20 -40,20;-40,20
+mouse 300,200,176,222|true|290,-30	false,false,-20,-240 -20,-240;-20,-240
+mouse 300,200,176,222|true|290,30	false,false,-20,-180 -20,-180;-20,-180
+mouse 300,200,176,222|true|290,49	false,false,-20,-160 -20,-160;-20,-160
+mouse 300,200,176,222|true|290,50	false,false,-20,-160 -20,-160;-20,-160
+mouse 300,200,176,222|true|290,120	false,false,-20,-80 -20,-80;-20,-80
+mouse 300,200,176,222|true|290,216	false,false,-20,0 -20,0;-38,0
+mouse 300,200,176,222|true|290,217	false,false,-20,0 -20,0;-38,0
+mouse 300,200,176,222|true|290,230	false,false,-20,20 -20,20;-38,20
+mouse 300,200,176,222|true|330,-30	false,false,20,-240 20,-240;20,-240
+mouse 300,200,176,222|true|330,30	false,false,20,-180 20,-180;20,-180
+mouse 300,200,176,222|true|330,49	false,false,20,-160 20,-160;20,-160
+mouse 300,200,176,222|true|330,50	false,false,20,-160 20,-160;20,-160
+mouse 300,200,176,222|true|330,120	false,false,20,-80 20,-80;20,-80
+mouse 300,200,176,222|true|330,216	null 
+mouse 300,200,176,222|true|330,217	null 
+mouse 300,200,176,222|true|330,230	null 
+give give @p stone	stone
+give /give @p minecraft:diamond_sword[minecraft:damage=5] 1	minecraft:diamond_sword[minecraft:damage=5] 1
+give give	give
+give /give @p	/give @p
+give givestone	givestone
+give stone	stone
+give skull:abc	skull:abc
+give /giv x y	/giv x y

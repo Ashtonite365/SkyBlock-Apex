@@ -1,0 +1,9 @@
+	{"italic":false,"text":""}
+§	{"italic":false,"text":""}
+§z	{"italic":false,"text":""}
+a§	{"extra":["a"],"italic":false,"text":""}
+§l§6x§r§ky	{"extra":[{"color":"gold","text":"x"},{"obfuscated":true,"text":"y"}],"italic":false,"text":""}
+§§a	{"extra":["a"],"italic":false,"text":""}
+plain	{"extra":["plain"],"italic":false,"text":""}
+§aA§bB§lC§oD§nE§mF§kG§rH	{"extra":[{"color":"green","text":"A"},{"color":"aqua","text":"B"},{"bold":true,"color":"aqua","text":"C"},{"bold":true,"color":"aqua","italic":true,"text":"D"},{"bold":true,"color":"aqua","italic":true,"text":"E","underlined":true},{"bold":true,"color":"aqua","italic":true,"strikethrough":true,"text":"F","underlined":true},{"bold":true,"color":"aqua","italic":true,"obfuscated":true,"strikethrough":true,"text":"G","underlined":true},"H"],"italic":false,"text":""}
+§AUPPER§Lbold	{"extra":[{"color":"green","text":"UPPER"},{"bold":true,"color":"green","text":"bold"}],"italic":false,"text":""}

@@ -1,0 +1,16 @@
+{
+	"box": "ENCHANTED_BOOK_BUNDLE_POWER",
+	"source": "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Book_Bundle",
+	"total_weight": null,
+	"drops": [
+		{
+			"type": "item",
+			"id": "POWER;7",
+			"min": 1,
+			"max": 1,
+			"weight": null,
+			"chance": 1.0
+		}
+	],
+	"note": "fixed contents stated by wiki"
+}

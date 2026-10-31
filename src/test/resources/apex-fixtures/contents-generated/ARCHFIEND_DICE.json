@@ -1,0 +1,63 @@
+{
+	"box": "ARCHFIEND_DICE",
+	"source": "https://hypixelskyblock.minecraft.wiki/w/Archfiend_Dice",
+	"total_weight": null,
+	"drops": [
+		{
+			"type": "coins",
+			"group": "Roll 6",
+			"min": 15000000,
+			"max": 15000000,
+			"weight": null,
+			"chance": 1.0
+		},
+		{
+			"type": "item",
+			"group": "Roll 7",
+			"id": null,
+			"min": 1,
+			"max": 1,
+			"weight": null,
+			"chance": 1.0,
+			"note": "Archfiend Dye (ARCHFIEND_DYE not in Apex repo)"
+		}
+	],
+	"groups": [
+		{
+			"name": "Roll 1",
+			"chance": 0.1916,
+			"note": "-120 HP for 24h"
+		},
+		{
+			"name": "Roll 2",
+			"chance": 0.1916,
+			"note": "-80 HP for 24h"
+		},
+		{
+			"name": "Roll 3",
+			"chance": 0.1916,
+			"note": "-40 HP for 24h"
+		},
+		{
+			"name": "Roll 4",
+			"chance": 0.1916,
+			"note": "+40 HP for 24h"
+		},
+		{
+			"name": "Roll 5",
+			"chance": 0.1916,
+			"note": "+80 HP for 24h"
+		},
+		{
+			"name": "Roll 6",
+			"chance": 0.0417,
+			"note": "+120 HP for 24h; dice is consumed"
+		},
+		{
+			"name": "Roll 7",
+			"chance": 0.00015,
+			"note": "dice is consumed"
+		}
+	],
+	"note": "roll costs coins; group chances are the wiki table with 1x Archfiend Dye buff (Vincent 2x/3x tabs not included); rolls 1-5 give only a temporary HP effect"
+}

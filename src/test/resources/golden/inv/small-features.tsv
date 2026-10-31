@@ -1,0 +1,111 @@
+rarity COMMON	-1
+rarity UNCOMMON	-11141291
+rarity RARE	-11184641
+rarity EPIC	-5635926
+rarity LEGENDARY	-22016
+rarity MYTHIC	-43521
+rarity DIVINE	-11141121
+rarity SPECIAL	-43691
+rarity VERY_SPECIAL	-43691
+rarity SUPREME	-5636096
+rarity ULTIMATE	-5636096
+rarity ADMIN	-5636096
+rarity fallback	-16711808
+cursor true|o1,2@0 m5,5@0 l5,5@100	(1.0, 2.0)
+cursor true|o1,2@0 m5,5@0 l5,5@499	(1.0, 2.0)
+cursor true|o1,2@0 m5,5@0 l5,5@500	null
+cursor true|o1,2@0 m5,5@0 l5.9,4.1@10	(1.0, 2.0)
+cursor true|o1,2@0 m5,5@0 l6,5@10	null
+cursor true|m5,5@0 l5,5@1	null
+cursor true|o1,2@0 m5,5@0 l5,5@1 l5,5@2	(1.0, 2.0) null
+cursor true|o1,2@0 o3,4@1 m5,5@2 l5,5@3	(3.0, 4.0)
+cursor true|o1,2@0 m5,5@0 o9,9@1 l5,5@2	(1.0, 2.0)
+cursor true|o1,2@0 m5,5@0 m7,7@1 l5,5@2 	null
+cursor true|l1,1@0	null
+cursor true|o1,2@0 m5,5@0 m5,5@400 l5,5@800	(1.0, 2.0)
+cursor false|o1,2@0 m5,5@0 l5,5@100	null
+cursor false|o1,2@0 m5,5@0 l5,5@499	null
+cursor false|o1,2@0 m5,5@0 l5,5@500	null
+cursor false|o1,2@0 m5,5@0 l5.9,4.1@10	null
+cursor false|o1,2@0 m5,5@0 l6,5@10	null
+cursor false|m5,5@0 l5,5@1	null
+cursor false|o1,2@0 m5,5@0 l5,5@1 l5,5@2	null null
+cursor false|o1,2@0 o3,4@1 m5,5@2 l5,5@3	null
+cursor false|o1,2@0 m5,5@0 o9,9@1 l5,5@2	null
+cursor false|o1,2@0 m5,5@0 m7,7@1 l5,5@2 	null
+cursor false|l1,1@0	null
+cursor false|o1,2@0 m5,5@0 m5,5@400 l5,5@800	null
+junk Dirt|Dirt	true
+junk Dirt|Enchanted Dirt	false
+junk Dirt|Aspect of the Sword	false
+junk Dirt|Bone	false
+junk Dirt|Rotten Flesh	false
+junk dirt|Dirt	false
+junk dirt|Enchanted Dirt	false
+junk dirt|Aspect of the Sword	false
+junk dirt|Bone	false
+junk dirt|Rotten Flesh	false
+junk .*Sword|Dirt	false
+junk .*Sword|Enchanted Dirt	false
+junk .*Sword|Aspect of the Sword	true
+junk .*Sword|Bone	false
+junk .*Sword|Rotten Flesh	false
+junk Sword|Dirt	false
+junk Sword|Enchanted Dirt	false
+junk Sword|Aspect of the Sword	false
+junk Sword|Bone	false
+junk Sword|Rotten Flesh	false
+junk (?i)enchanted.*|Dirt	false
+junk (?i)enchanted.*|Enchanted Dirt	true
+junk (?i)enchanted.*|Aspect of the Sword	false
+junk (?i)enchanted.*|Bone	false
+junk (?i)enchanted.*|Rotten Flesh	false
+junk Rotten Flesh|Bone|Dirt	false
+junk Rotten Flesh|Bone|Enchanted Dirt	false
+junk Rotten Flesh|Bone|Aspect of the Sword	false
+junk Rotten Flesh|Bone|Bone	true
+junk Rotten Flesh|Bone|Rotten Flesh	true
+junk Bone|Dirt	false
+junk Bone|Enchanted Dirt	false
+junk Bone|Aspect of the Sword	false
+junk Bone|Bone	true
+junk Bone|Rotten Flesh	false
+wardrobe title (1/2) Armor Sets	true
+wardrobe title (2/2) Equipment Sets	true
+wardrobe title Wardrobe (1/2)	false
+wardrobe title (1/2) Armor Sets 	false
+wardrobe title (10/12) Armor Sets	true
+wardrobe title () Armor Sets	false
+wardrobe slot 0	36
+wardrobe slot 1	37
+wardrobe slot 2	38
+wardrobe slot 3	39
+wardrobe slot 4	40
+wardrobe slot 5	41
+wardrobe slot 6	42
+wardrobe slot 7	43
+wardrobe slot 8	44
+wardrobe click lime_dye|true	true
+wardrobe click lime_dye|false	false
+wardrobe click gray_dye|true	true
+wardrobe click gray_dye|false	true
+wardrobe click red_dye|true	false
+wardrobe click red_dye|false	false
+wardrobe click air|true	false
+wardrobe click air|false	false
+wardrobe page change|true|true	45
+wardrobe page change|true|false	45
+wardrobe page change|false|true	53
+wardrobe page change|false|false	none
+wardrobe page prev|true|true	45
+wardrobe page prev|true|false	45
+wardrobe page prev|false|true	none
+wardrobe page prev|false|false	none
+wardrobe page next|true|true	53
+wardrobe page next|true|false	none
+wardrobe page next|false|true	53
+wardrobe page next|false|false	none
+hotkey true|true	bz Name
+hotkey true|false	bz Name
+hotkey false|true	ahs Name
+hotkey false|false	none

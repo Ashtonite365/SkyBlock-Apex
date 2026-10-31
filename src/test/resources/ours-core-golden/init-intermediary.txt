@@ -1,0 +1,8 @@
+cls Lnet/minecraft/client/gui/screens/Screen; Lnet/minecraft/client/gui/screens/Screen; 10
+prim D D 8
+arr [I [I 9
+own Ldev/ashtonite365/apex/init/MixinPlugin; Ldev/ashtonite365/apex/init/MixinPlugin; 10
+method mouseScrolled Lnet/minecraft/client/gui/components/events/GuiEventListener; (DDLnet/minecraft/client/gui/screens/Screen;)Z (DDLnet/minecraft/client/gui/screens/Screen;)Z mouseScrolled args=3
+void (Lnet/minecraft/client/gui/screens/Screen;)V internalCheckForMutation
+eq true true
+thrown java.lang.AssertionError: Cannot be called at runtime

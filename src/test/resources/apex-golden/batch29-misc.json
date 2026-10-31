@@ -1,0 +1,1505 @@
+{
+  "cases": 375,
+  "data": [
+    {
+      "in": "brackets|0",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|1",
+      "out": "{DIAMOND=7}"
+    },
+    {
+      "in": "brackets|2",
+      "out": "{DIAMOND=7, GOLD=500}"
+    },
+    {
+      "in": "brackets|3",
+      "out": "{DIAMOND=7, GOLD=500}"
+    },
+    {
+      "in": "brackets|4",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|5",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|6",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|7",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|8",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|9",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|10",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|11",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|12",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|13",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|14",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|15",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|16",
+      "out": "{GOLD=500, DIAMOND=7}"
+    },
+    {
+      "in": "brackets|17",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|18",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|19",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|20",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|21",
+      "out": "{DIAMOND=7}"
+    },
+    {
+      "in": "brackets|22",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|23",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|24",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|25",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|26",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|27",
+      "out": "{DIAMOND=7}"
+    },
+    {
+      "in": "brackets|28",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|29",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|30",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|31",
+      "out": "{DIAMOND=7}"
+    },
+    {
+      "in": "brackets|32",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|33",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|34",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|35",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|36",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|37",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|38",
+      "out": "{DIAMOND=7}"
+    },
+    {
+      "in": "brackets|39",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|40",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|41",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|42",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|43",
+      "out": "{DIAMOND=7, GOLD=500}"
+    },
+    {
+      "in": "brackets|44",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|45",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|46",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|47",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|48",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|49",
+      "out": "{GOLD=500, DIAMOND=1234567}"
+    },
+    {
+      "in": "brackets|50",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|51",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|52",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|53",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|54",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|55",
+      "out": "{DIAMOND=1234567}"
+    },
+    {
+      "in": "brackets|56",
+      "out": "{DIAMOND=7, GOLD=500}"
+    },
+    {
+      "in": "brackets|57",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|58",
+      "out": "{DIAMOND=7}"
+    },
+    {
+      "in": "brackets|59",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|60",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|61",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|62",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|63",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|64",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|65",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|66",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|67",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|68",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|69",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|70",
+      "out": "{DIAMOND=7}"
+    },
+    {
+      "in": "brackets|71",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|72",
+      "out": "{DIAMOND=7}"
+    },
+    {
+      "in": "brackets|73",
+      "out": "{DIAMOND=7}"
+    },
+    {
+      "in": "brackets|74",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|75",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|76",
+      "out": "{DIAMOND=1234567, GOLD=500}"
+    },
+    {
+      "in": "brackets|77",
+      "out": "{GOLD=500, DIAMOND=7}"
+    },
+    {
+      "in": "brackets|78",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|79",
+      "out": "{DIAMOND=7, GOLD=500}"
+    },
+    {
+      "in": "brackets|80",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|81",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|82",
+      "out": "{DIAMOND=7}"
+    },
+    {
+      "in": "brackets|83",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|84",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|85",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|86",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|87",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|88",
+      "out": "{DIAMOND=1234567, GOLD=500}"
+    },
+    {
+      "in": "brackets|89",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|90",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|91",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|92",
+      "out": "{DIAMOND=1234567}"
+    },
+    {
+      "in": "brackets|93",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|94",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|95",
+      "out": "{DIAMOND=7}"
+    },
+    {
+      "in": "brackets|96",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|97",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|98",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|99",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|100",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|101",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|102",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|103",
+      "out": "{GOLD=500, DIAMOND=7}"
+    },
+    {
+      "in": "brackets|104",
+      "out": "{DIAMOND=1234567}"
+    },
+    {
+      "in": "brackets|105",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|106",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|107",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|108",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|109",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|110",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|111",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|112",
+      "out": "{GOLD=500}"
+    },
+    {
+      "in": "brackets|113",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|114",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|115",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|116",
+      "out": "{DIAMOND=1234567}"
+    },
+    {
+      "in": "brackets|117",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "brackets|118",
+      "out": "{}"
+    },
+    {
+      "in": "brackets|119",
+      "out": "{}"
+    },
+    {
+      "in": "active|0",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|1",
+      "out": "null"
+    },
+    {
+      "in": "active|2",
+      "out": "null"
+    },
+    {
+      "in": "active|3",
+      "out": "null"
+    },
+    {
+      "in": "active|4",
+      "out": "null"
+    },
+    {
+      "in": "active|5",
+      "out": "null"
+    },
+    {
+      "in": "active|6",
+      "out": "(12m, [Nether Wart])"
+    },
+    {
+      "in": "active|7",
+      "out": "null"
+    },
+    {
+      "in": "active|8",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|9",
+      "out": "null"
+    },
+    {
+      "in": "active|10",
+      "out": "null"
+    },
+    {
+      "in": "active|11",
+      "out": "null"
+    },
+    {
+      "in": "active|12",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|13",
+      "out": "null"
+    },
+    {
+      "in": "active|14",
+      "out": "null"
+    },
+    {
+      "in": "active|15",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|16",
+      "out": "null"
+    },
+    {
+      "in": "active|17",
+      "out": "null"
+    },
+    {
+      "in": "active|18",
+      "out": "null"
+    },
+    {
+      "in": "active|19",
+      "out": "null"
+    },
+    {
+      "in": "active|20",
+      "out": "null"
+    },
+    {
+      "in": "active|21",
+      "out": "(3s, [Sugar Cane])"
+    },
+    {
+      "in": "active|22",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|23",
+      "out": "(3s, [Cocoa Beans])"
+    },
+    {
+      "in": "active|24",
+      "out": "null"
+    },
+    {
+      "in": "active|25",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|26",
+      "out": "null"
+    },
+    {
+      "in": "active|27",
+      "out": "null"
+    },
+    {
+      "in": "active|28",
+      "out": "null"
+    },
+    {
+      "in": "active|29",
+      "out": "null"
+    },
+    {
+      "in": "active|30",
+      "out": "null"
+    },
+    {
+      "in": "active|31",
+      "out": "null"
+    },
+    {
+      "in": "active|32",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|33",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|34",
+      "out": "null"
+    },
+    {
+      "in": "active|35",
+      "out": "(12m, [Nether Wart])"
+    },
+    {
+      "in": "active|36",
+      "out": "(3s, [Cocoa Beans])"
+    },
+    {
+      "in": "active|37",
+      "out": "null"
+    },
+    {
+      "in": "active|38",
+      "out": "(3s, [Nether Wart])"
+    },
+    {
+      "in": "active|39",
+      "out": "(3s, [Wheat])"
+    },
+    {
+      "in": "active|40",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|41",
+      "out": "null"
+    },
+    {
+      "in": "active|42",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|43",
+      "out": "null"
+    },
+    {
+      "in": "active|44",
+      "out": "null"
+    },
+    {
+      "in": "active|45",
+      "out": "null"
+    },
+    {
+      "in": "active|46",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|47",
+      "out": "(12m, [Cocoa Beans])"
+    },
+    {
+      "in": "active|48",
+      "out": "null"
+    },
+    {
+      "in": "active|49",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|50",
+      "out": "null"
+    },
+    {
+      "in": "active|51",
+      "out": "null"
+    },
+    {
+      "in": "active|52",
+      "out": "null"
+    },
+    {
+      "in": "active|53",
+      "out": "null"
+    },
+    {
+      "in": "active|54",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|55",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|56",
+      "out": "(12m, [Nether Wart])"
+    },
+    {
+      "in": "active|57",
+      "out": "null"
+    },
+    {
+      "in": "active|58",
+      "out": "null"
+    },
+    {
+      "in": "active|59",
+      "out": "null"
+    },
+    {
+      "in": "active|60",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|61",
+      "out": "null"
+    },
+    {
+      "in": "active|62",
+      "out": "(3s, [Sugar Cane, Nether Wart])"
+    },
+    {
+      "in": "active|63",
+      "out": "null"
+    },
+    {
+      "in": "active|64",
+      "out": "null"
+    },
+    {
+      "in": "active|65",
+      "out": "null"
+    },
+    {
+      "in": "active|66",
+      "out": "null"
+    },
+    {
+      "in": "active|67",
+      "out": "(3s, [Wheat])"
+    },
+    {
+      "in": "active|68",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|69",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|70",
+      "out": "null"
+    },
+    {
+      "in": "active|71",
+      "out": "(3s, [Wheat])"
+    },
+    {
+      "in": "active|72",
+      "out": "null"
+    },
+    {
+      "in": "active|73",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|74",
+      "out": "(3s, [Sugar Cane])"
+    },
+    {
+      "in": "active|75",
+      "out": "(3s, [Wheat, Wheat])"
+    },
+    {
+      "in": "active|76",
+      "out": "null"
+    },
+    {
+      "in": "active|77",
+      "out": "(12m, [Cocoa Beans])"
+    },
+    {
+      "in": "active|78",
+      "out": "null"
+    },
+    {
+      "in": "active|79",
+      "out": "null"
+    },
+    {
+      "in": "active|80",
+      "out": "null"
+    },
+    {
+      "in": "active|81",
+      "out": "null"
+    },
+    {
+      "in": "active|82",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|83",
+      "out": "null"
+    },
+    {
+      "in": "active|84",
+      "out": "null"
+    },
+    {
+      "in": "active|85",
+      "out": "null"
+    },
+    {
+      "in": "active|86",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|87",
+      "out": "null"
+    },
+    {
+      "in": "active|88",
+      "out": "(12m, [Nether Wart])"
+    },
+    {
+      "in": "active|89",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|90",
+      "out": "(12m, [Sugar Cane])"
+    },
+    {
+      "in": "active|91",
+      "out": "null"
+    },
+    {
+      "in": "active|92",
+      "out": "(3s, [Cocoa Beans])"
+    },
+    {
+      "in": "active|93",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|94",
+      "out": "null"
+    },
+    {
+      "in": "active|95",
+      "out": "null"
+    },
+    {
+      "in": "active|96",
+      "out": "(3s, [Wheat])"
+    },
+    {
+      "in": "active|97",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|98",
+      "out": "(12m, [Nether Wart])"
+    },
+    {
+      "in": "active|99",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|100",
+      "out": "null"
+    },
+    {
+      "in": "active|101",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|102",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|103",
+      "out": "null"
+    },
+    {
+      "in": "active|104",
+      "out": "null"
+    },
+    {
+      "in": "active|105",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|106",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|107",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|108",
+      "out": "(12m, [Cocoa Beans, Nether Wart, Sugar Cane])"
+    },
+    {
+      "in": "active|109",
+      "out": "null"
+    },
+    {
+      "in": "active|110",
+      "out": "null"
+    },
+    {
+      "in": "active|111",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|112",
+      "out": "(3s, [Nether Wart])"
+    },
+    {
+      "in": "active|113",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|114",
+      "out": "(12m, [Wheat])"
+    },
+    {
+      "in": "active|115",
+      "out": "(12m, [Nether Wart])"
+    },
+    {
+      "in": "active|116",
+      "out": "null"
+    },
+    {
+      "in": "active|117",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|118",
+      "out": "null"
+    },
+    {
+      "in": "active|119",
+      "out": "null"
+    },
+    {
+      "in": "active|120",
+      "out": "null"
+    },
+    {
+      "in": "active|121",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|122",
+      "out": "null"
+    },
+    {
+      "in": "active|123",
+      "out": "null"
+    },
+    {
+      "in": "active|124",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|125",
+      "out": "null"
+    },
+    {
+      "in": "active|126",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|127",
+      "out": "(3s, [Wheat, Cocoa Beans])"
+    },
+    {
+      "in": "active|128",
+      "out": "(3s, [Wheat])"
+    },
+    {
+      "in": "active|129",
+      "out": "null"
+    },
+    {
+      "in": "active|130",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|131",
+      "out": "(3s, [Wheat])"
+    },
+    {
+      "in": "active|132",
+      "out": "null"
+    },
+    {
+      "in": "active|133",
+      "out": "null"
+    },
+    {
+      "in": "active|134",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|135",
+      "out": "(3s, [Nether Wart])"
+    },
+    {
+      "in": "active|136",
+      "out": "(12m, [Cocoa Beans])"
+    },
+    {
+      "in": "active|137",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|138",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|139",
+      "out": "null"
+    },
+    {
+      "in": "active|140",
+      "out": "null"
+    },
+    {
+      "in": "active|141",
+      "out": "(12m, [])"
+    },
+    {
+      "in": "active|142",
+      "out": "null"
+    },
+    {
+      "in": "active|143",
+      "out": "null"
+    },
+    {
+      "in": "active|144",
+      "out": "(12m, [Cocoa Beans])"
+    },
+    {
+      "in": "active|145",
+      "out": "null"
+    },
+    {
+      "in": "active|146",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "active|147",
+      "out": "null"
+    },
+    {
+      "in": "active|148",
+      "out": "null"
+    },
+    {
+      "in": "active|149",
+      "out": "(3s, [])"
+    },
+    {
+      "in": "summary|0|0",
+      "out": "§eContest stats: §f0 §7blocks, §f0.00 §7bps over §b0m 1s"
+    },
+    {
+      "in": "summary|1|999",
+      "out": "§eContest stats: §f1 §7blocks, §f1.00 §7bps over §b0m 1s"
+    },
+    {
+      "in": "summary|1|1000",
+      "out": "§eContest stats: §f1 §7blocks, §f1.00 §7bps over §b0m 1s"
+    },
+    {
+      "in": "summary|1234|61000",
+      "out": "§eContest stats: §f1,234 §7blocks, §f20.23 §7bps over §b1m 1s"
+    },
+    {
+      "in": "summary|-5|5000",
+      "out": "§eContest stats: §f-5 §7blocks, §f-1.00 §7bps over §b0m 5s"
+    },
+    {
+      "in": "summary|2147483647|9223372036854775807",
+      "out": "§eContest stats: §f2,147,483,647 §7blocks, §f0.00 §7bps over §b153722867280912m 55s"
+    },
+    {
+      "in": "summary|7|-10000",
+      "out": "§eContest stats: §f7 §7blocks, §f7.00 §7bps over §b0m 1s"
+    },
+    {
+      "in": "summary|100|3600000",
+      "out": "§eContest stats: §f100 §7blocks, §f0.03 §7bps over §b60m 0s"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found White Gift!",
+      "out": "WHITE_GIFT"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Green Gift!",
+      "out": "GREEN_GIFT"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Red Gift!",
+      "out": "RED_GIFT"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Packed Ice!",
+      "out": "PACKED_ICE"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Enchanted Ice!",
+      "out": "ENCHANTED_ICE"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Enchanted Packed Ice!",
+      "out": "ENCHANTED_PACKED_ICE"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Ice Bait!",
+      "out": "ICE_BAIT"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Glowy Chum Bait!",
+      "out": "GLOWY_CHUM_BAIT"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Glacial Fragment!",
+      "out": "GLACIAL_FRAGMENT"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Glacial Talisman!",
+      "out": "GLACIAL_TALISMAN"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Frozen Bait!",
+      "out": "FROZEN_BAIT"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Einary's Red Hoodie!",
+      "out": "EINARY_RED_HOODIE"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Nothing!",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found !",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found white gift!",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found White Gift",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Green Gift",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Red Gift",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Packed Ice",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Enchanted Ice",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Enchanted Packed Ice",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Ice Bait",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Glowy Chum Bait",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Glacial Fragment",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Glacial Talisman",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Frozen Bait",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Einary's Red Hoodie",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found Nothing",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found ",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found white gift",
+      "out": "null"
+    },
+    {
+      "in": "parse|COMPACT! You found an Enchanted Ice!",
+      "out": "COMPACT_ENCHANTED_ICE"
+    },
+    {
+      "in": "parse|COMPACT! You found an Enchanted Ice",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found ",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found !",
+      "out": "null"
+    },
+    {
+      "in": "parse|FROZEN TREASURE! You found White Gift!!",
+      "out": "null"
+    },
+    {
+      "in": "parse|",
+      "out": "null"
+    },
+    {
+      "in": "ice|0",
+      "out": "9886338"
+    },
+    {
+      "in": "ice|1",
+      "out": "-6148914691229586432"
+    },
+    {
+      "in": "ice|2",
+      "out": "2415245115"
+    },
+    {
+      "in": "ice|3",
+      "out": "9223372036854775802"
+    },
+    {
+      "in": "ice|4",
+      "out": "845248480"
+    },
+    {
+      "in": "ice|5",
+      "out": "592832176"
+    },
+    {
+      "in": "ice|6",
+      "out": "327951"
+    },
+    {
+      "in": "ice|7",
+      "out": "0"
+    },
+    {
+      "in": "ice|8",
+      "out": "839988960"
+    },
+    {
+      "in": "ice|9",
+      "out": "4822877"
+    },
+    {
+      "in": "ice|10",
+      "out": "1737590880"
+    },
+    {
+      "in": "ice|11",
+      "out": "4145600"
+    },
+    {
+      "in": "ice|12",
+      "out": "14405120"
+    },
+    {
+      "in": "ice|13",
+      "out": "1326651864"
+    },
+    {
+      "in": "ice|14",
+      "out": "-6148914688823662912"
+    },
+    {
+      "in": "ice|15",
+      "out": "1392991077"
+    },
+    {
+      "in": "ice|16",
+      "out": "6269120"
+    },
+    {
+      "in": "ice|17",
+      "out": "0"
+    },
+    {
+      "in": "ice|18",
+      "out": "567455520"
+    },
+    {
+      "in": "ice|19",
+      "out": "2753063"
+    },
+    {
+      "in": "ice|20",
+      "out": "-6148914691235357720"
+    },
+    {
+      "in": "ice|21",
+      "out": "1756263603"
+    },
+    {
+      "in": "ice|22",
+      "out": "-9223372035671046374"
+    },
+    {
+      "in": "ice|23",
+      "out": "552959200"
+    },
+    {
+      "in": "ice|24",
+      "out": "-6148914691225230432"
+    },
+    {
+      "in": "ice|25",
+      "out": "11835360"
+    },
+    {
+      "in": "ice|26",
+      "out": "614502400"
+    },
+    {
+      "in": "ice|27",
+      "out": "2073838720"
+    },
+    {
+      "in": "ice|28",
+      "out": "2092508400"
+    },
+    {
+      "in": "ice|29",
+      "out": "-6148914691236137656"
+    },
+    {
+      "in": "ice|30",
+      "out": "10393583"
+    },
+    {
+      "in": "ice|31",
+      "out": "0"
+    },
+    {
+      "in": "ice|32",
+      "out": "91999520"
+    },
+    {
+      "in": "ice|33",
+      "out": "16999520"
+    },
+    {
+      "in": "ice|34",
+      "out": "1778412427"
+    },
+    {
+      "in": "ice|35",
+      "out": "1531568612"
+    },
+    {
+      "in": "ice|36",
+      "out": "1492136640"
+    },
+    {
+      "in": "ice|37",
+      "out": "12920107"
+    },
+    {
+      "in": "ice|38",
+      "out": "2358220000"
+    },
+    {
+      "in": "ice|39",
+      "out": "2088466098"
+    },
+    {
+      "in": "ice|40",
+      "out": "-9223372036837214054"
+    },
+    {
+      "in": "ice|41",
+      "out": "279756800"
+    },
+    {
+      "in": "ice|42",
+      "out": "691200000"
+    },
+    {
+      "in": "ice|43",
+      "out": "511328960"
+    },
+    {
+      "in": "ice|44",
+      "out": "2536689342"
+    },
+    {
+      "in": "ice|45",
+      "out": "5865980"
+    },
+    {
+      "in": "ice|46",
+      "out": "-6148914689608382912"
+    },
+    {
+      "in": "ice|47",
+      "out": "-6148914688942819232"
+    },
+    {
+      "in": "ice|48",
+      "out": "-6148914689863107686"
+    },
+    {
+      "in": "ice|49",
+      "out": "-6148914691236281957"
+    },
+    {
+      "in": "ice|50",
+      "out": "10683680"
+    },
+    {
+      "in": "ice|51",
+      "out": "10863213"
+    },
+    {
+      "in": "ice|52",
+      "out": "0"
+    },
+    {
+      "in": "ice|53",
+      "out": "-6148914691227752352"
+    },
+    {
+      "in": "ice|54",
+      "out": "260480"
+    },
+    {
+      "in": "ice|55",
+      "out": "7542472"
+    },
+    {
+      "in": "ice|56",
+      "out": "-6148914691233472367"
+    },
+    {
+      "in": "ice|57",
+      "out": "-9223372035909222534"
+    },
+    {
+      "in": "ice|58",
+      "out": "1825419473"
+    },
+    {
+      "in": "ice|59",
+      "out": "-6148914691236534272"
+    },
+    {
+      "in": "treasures",
+      "out": "WHITE_GIFT/WHITE_GIFT/White Gift/1/0, GREEN_GIFT/GREEN_GIFT/Green Gift/1/0, RED_GIFT/RED_GIFT/Red Gift/1/0, PACKED_ICE/PACKED_ICE/Packed Ice/32/9, ENCHANTED_ICE/ENCHANTED_ICE/Enchanted Ice/9/160, ENCHANTED_PACKED_ICE/ENCHANTED_PACKED_ICE/Enchanted Packed Ice/1/25600, ICE_BAIT/ICE_BAIT/Ice Bait/16/0, GLOWY_CHUM_BAIT/GLOWY_CHUM_BAIT/Glowy Chum Bait/16/0, GLACIAL_FRAGMENT/GLACIAL_FRAGMENT/Glacial Fragment/1/0, GLACIAL_TALISMAN/GLACIAL_TALISMAN/Glacial Talisman/1/0, FROZEN_BAIT/FROZEN_BAIT/Frozen Bait/1/0, EINARY_RED_HOODIE/EINARY_RED_HOODIE/Einary's Red Hoodie/1/0"
+    }
+  ]
+}

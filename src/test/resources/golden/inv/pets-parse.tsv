@@ -1,0 +1,132 @@
+tab 0	Golden Dragon|LEGENDARY|100|200|2.535323E7|0.0|5.070646E7|2.535323E7|2.1025568E8|1234567.0|§6Dragon Claw|false
+tab 1	Ender Dragon|EPIC|87|100|1200000.0|3400000.0|8151400.0|6951400.0|1.86085E7|0.0|§9Textbook|false
+tab 2	Bee|COMMON|5|100|120.0|400.0|580.0|460.0|5624785.0|0.0|Unknown|false
+tab 3	Rock|UNCOMMON|12|100|1000.0|2500.0|4160.0|3160.0|8644220.0|0.0|§dTier Boost|false
+tab 4	Black Cat|MYTHIC|100|100|2.535323E7|0.0|5.070646E7|2.535323E7|2.535323E7|0.0|Unknown|false
+tab 5	null
+tab 6	null
+tab 7	Griffin|RARE|30|100|0.0|3700.0|38665.0|38665.0|1.2626665E7|0.0|§6Antique Remedies|false
+tab 8	Griffin|EPIC|2|100|0.0|490.0|440.0|440.0|1.86085E7|0.0|Unknown|false
+tab 9	Baby Yeti|EPIC|50|100|5000.0|10000.0|408000.0|403000.0|1.86085E7|0.0|Unknown|false
+tab 10	Bal|LEGENDARY|100|100|0.0|0.0|2.535323E7|2.535323E7|2.535323E7|0.0|Unknown|false
+tab 11	Bal|LEGENDARY|100|100|2.535323E7|0.0|5.070646E7|2.535323E7|2.535323E7|12000.0|Unknown|false
+chat Golden Dragon,f,1	Golden Dragon|COMMON|1|-1|0.0|100.0|0.0|0.0|1.72527152E8|0.0|Unknown|false
+chat Golden Dragon,f,50	Golden Dragon|COMMON|50|-1|0.0|8700.0|89285.0|89285.0|1.72527152E8|0.0|Unknown|false
+chat Golden Dragon,f,100	Golden Dragon|COMMON|100|-1|0.0|411700.0|5624785.0|5624785.0|1.72527152E8|0.0|Unknown|false
+chat Golden Dragon,f,200	Golden Dragon|COMMON|200|-1|0.0|0.0|1.72527152E8|1.72527152E8|1.72527152E8|0.0|Unknown|false
+chat Golden Dragon,a,1	Golden Dragon|UNCOMMON|1|-1|0.0|175.0|0.0|0.0|1.83846624E8|0.0|Unknown|false
+chat Golden Dragon,a,50	Golden Dragon|UNCOMMON|50|-1|0.0|16200.0|157720.0|157720.0|1.83846624E8|0.0|Unknown|false
+chat Golden Dragon,a,100	Golden Dragon|UNCOMMON|100|-1|0.0|666700.0|8644220.0|8644220.0|1.83846624E8|0.0|Unknown|false
+chat Golden Dragon,a,200	Golden Dragon|UNCOMMON|200|-1|0.0|0.0|1.83846624E8|1.83846624E8|1.83846624E8|0.0|Unknown|false
+chat Golden Dragon,9,1	Golden Dragon|RARE|1|-1|0.0|275.0|0.0|0.0|1.93279088E8|0.0|Unknown|false
+chat Golden Dragon,9,50	Golden Dragon|RARE|50|-1|0.0|25200.0|254665.0|254665.0|1.93279088E8|0.0|Unknown|false
+chat Golden Dragon,9,100	Golden Dragon|RARE|100|-1|0.0|1016700.0|1.2626665E7|1.2626665E7|1.93279088E8|0.0|Unknown|false
+chat Golden Dragon,9,200	Golden Dragon|RARE|200|-1|0.0|0.0|1.93279088E8|1.93279088E8|1.93279088E8|0.0|Unknown|false
+chat Golden Dragon,5,1	Golden Dragon|EPIC|1|-1|0.0|440.0|0.0|0.0|2.02710944E8|0.0|Unknown|false
+chat Golden Dragon,5,50	Golden Dragon|EPIC|50|-1|0.0|38200.0|403000.0|403000.0|2.02710944E8|0.0|Unknown|false
+chat Golden Dragon,5,100	Golden Dragon|EPIC|100|-1|0.0|1496700.0|1.86085E7|1.86085E7|2.02710944E8|0.0|Unknown|false
+chat Golden Dragon,5,200	Golden Dragon|EPIC|200|-1|0.0|0.0|2.02710944E8|2.02710944E8|2.02710944E8|0.0|Unknown|false
+chat Golden Dragon,6,1	Golden Dragon|LEGENDARY|1|-1|0.0|660.0|0.0|0.0|2.1025568E8|0.0|Unknown|false
+chat Golden Dragon,6,50	Golden Dragon|LEGENDARY|50|-1|0.0|52200.0|573730.0|573730.0|2.1025568E8|0.0|Unknown|false
+chat Golden Dragon,6,100	Golden Dragon|LEGENDARY|100|-1|0.0|0.0|2.535323E7|2.535323E7|2.1025568E8|0.0|Unknown|false
+chat Golden Dragon,6,200	Golden Dragon|LEGENDARY|200|-1|0.0|0.0|2.1025568E8|2.1025568E8|2.1025568E8|0.0|Unknown|false
+chat Golden Dragon,d,1	Golden Dragon|MYTHIC|1|-1|0.0|660.0|0.0|0.0|2.1025568E8|0.0|Unknown|false
+chat Golden Dragon,d,50	Golden Dragon|MYTHIC|50|-1|0.0|52200.0|573730.0|573730.0|2.1025568E8|0.0|Unknown|false
+chat Golden Dragon,d,100	Golden Dragon|MYTHIC|100|-1|0.0|0.0|2.535323E7|2.535323E7|2.1025568E8|0.0|Unknown|false
+chat Golden Dragon,d,200	Golden Dragon|MYTHIC|200|-1|0.0|0.0|2.1025568E8|2.1025568E8|2.1025568E8|0.0|Unknown|false
+chat Golden Dragon,x,1	Golden Dragon|COMMON|1|-1|0.0|100.0|0.0|0.0|1.72527152E8|0.0|Unknown|false
+chat Golden Dragon,x,50	Golden Dragon|COMMON|50|-1|0.0|8700.0|89285.0|89285.0|1.72527152E8|0.0|Unknown|false
+chat Golden Dragon,x,100	Golden Dragon|COMMON|100|-1|0.0|411700.0|5624785.0|5624785.0|1.72527152E8|0.0|Unknown|false
+chat Golden Dragon,x,200	Golden Dragon|COMMON|200|-1|0.0|0.0|1.72527152E8|1.72527152E8|1.72527152E8|0.0|Unknown|false
+chat Bee,f,1	Bee|COMMON|1|-1|0.0|100.0|0.0|0.0|5624785.0|0.0|Unknown|false
+chat Bee,f,50	Bee|COMMON|50|-1|0.0|8700.0|89285.0|89285.0|5624785.0|0.0|Unknown|false
+chat Bee,f,100	Bee|COMMON|100|-1|0.0|0.0|5624785.0|5624785.0|5624785.0|0.0|Unknown|false
+chat Bee,f,200	Bee|COMMON|200|-1|0.0|0.0|5624785.0|5624785.0|5624785.0|0.0|Unknown|false
+chat Bee,a,1	Bee|UNCOMMON|1|-1|0.0|175.0|0.0|0.0|8644220.0|0.0|Unknown|false
+chat Bee,a,50	Bee|UNCOMMON|50|-1|0.0|16200.0|157720.0|157720.0|8644220.0|0.0|Unknown|false
+chat Bee,a,100	Bee|UNCOMMON|100|-1|0.0|0.0|8644220.0|8644220.0|8644220.0|0.0|Unknown|false
+chat Bee,a,200	Bee|UNCOMMON|200|-1|0.0|0.0|8644220.0|8644220.0|8644220.0|0.0|Unknown|false
+chat Bee,9,1	Bee|RARE|1|-1|0.0|275.0|0.0|0.0|1.2626665E7|0.0|Unknown|false
+chat Bee,9,50	Bee|RARE|50|-1|0.0|25200.0|254665.0|254665.0|1.2626665E7|0.0|Unknown|false
+chat Bee,9,100	Bee|RARE|100|-1|0.0|0.0|1.2626665E7|1.2626665E7|1.2626665E7|0.0|Unknown|false
+chat Bee,9,200	Bee|RARE|200|-1|0.0|0.0|1.2626665E7|1.2626665E7|1.2626665E7|0.0|Unknown|false
+chat Bee,5,1	Bee|EPIC|1|-1|0.0|440.0|0.0|0.0|1.86085E7|0.0|Unknown|false
+chat Bee,5,50	Bee|EPIC|50|-1|0.0|38200.0|403000.0|403000.0|1.86085E7|0.0|Unknown|false
+chat Bee,5,100	Bee|EPIC|100|-1|0.0|0.0|1.86085E7|1.86085E7|1.86085E7|0.0|Unknown|false
+chat Bee,5,200	Bee|EPIC|200|-1|0.0|0.0|1.86085E7|1.86085E7|1.86085E7|0.0|Unknown|false
+chat Bee,6,1	Bee|LEGENDARY|1|-1|0.0|660.0|0.0|0.0|2.535323E7|0.0|Unknown|false
+chat Bee,6,50	Bee|LEGENDARY|50|-1|0.0|52200.0|573730.0|573730.0|2.535323E7|0.0|Unknown|false
+chat Bee,6,100	Bee|LEGENDARY|100|-1|0.0|0.0|2.535323E7|2.535323E7|2.535323E7|0.0|Unknown|false
+chat Bee,6,200	Bee|LEGENDARY|200|-1|0.0|0.0|2.535323E7|2.535323E7|2.535323E7|0.0|Unknown|false
+chat Bee,d,1	Bee|MYTHIC|1|-1|0.0|660.0|0.0|0.0|2.535323E7|0.0|Unknown|false
+chat Bee,d,50	Bee|MYTHIC|50|-1|0.0|52200.0|573730.0|573730.0|2.535323E7|0.0|Unknown|false
+chat Bee,d,100	Bee|MYTHIC|100|-1|0.0|0.0|2.535323E7|2.535323E7|2.535323E7|0.0|Unknown|false
+chat Bee,d,200	Bee|MYTHIC|200|-1|0.0|0.0|2.535323E7|2.535323E7|2.535323E7|0.0|Unknown|false
+chat Bee,x,1	Bee|COMMON|1|-1|0.0|100.0|0.0|0.0|5624785.0|0.0|Unknown|false
+chat Bee,x,50	Bee|COMMON|50|-1|0.0|8700.0|89285.0|89285.0|5624785.0|0.0|Unknown|false
+chat Bee,x,100	Bee|COMMON|100|-1|0.0|0.0|5624785.0|5624785.0|5624785.0|0.0|Unknown|false
+chat Bee,x,200	Bee|COMMON|200|-1|0.0|0.0|5624785.0|5624785.0|5624785.0|0.0|Unknown|false
+chat Ender Dragon,f,1	Ender Dragon|COMMON|1|-1|0.0|100.0|0.0|0.0|5624785.0|0.0|Unknown|false
+chat Ender Dragon,f,50	Ender Dragon|COMMON|50|-1|0.0|8700.0|89285.0|89285.0|5624785.0|0.0|Unknown|false
+chat Ender Dragon,f,100	Ender Dragon|COMMON|100|-1|0.0|0.0|5624785.0|5624785.0|5624785.0|0.0|Unknown|false
+chat Ender Dragon,f,200	Ender Dragon|COMMON|200|-1|0.0|0.0|5624785.0|5624785.0|5624785.0|0.0|Unknown|false
+chat Ender Dragon,a,1	Ender Dragon|UNCOMMON|1|-1|0.0|175.0|0.0|0.0|8644220.0|0.0|Unknown|false
+chat Ender Dragon,a,50	Ender Dragon|UNCOMMON|50|-1|0.0|16200.0|157720.0|157720.0|8644220.0|0.0|Unknown|false
+chat Ender Dragon,a,100	Ender Dragon|UNCOMMON|100|-1|0.0|0.0|8644220.0|8644220.0|8644220.0|0.0|Unknown|false
+chat Ender Dragon,a,200	Ender Dragon|UNCOMMON|200|-1|0.0|0.0|8644220.0|8644220.0|8644220.0|0.0|Unknown|false
+chat Ender Dragon,9,1	Ender Dragon|RARE|1|-1|0.0|275.0|0.0|0.0|1.2626665E7|0.0|Unknown|false
+chat Ender Dragon,9,50	Ender Dragon|RARE|50|-1|0.0|25200.0|254665.0|254665.0|1.2626665E7|0.0|Unknown|false
+chat Ender Dragon,9,100	Ender Dragon|RARE|100|-1|0.0|0.0|1.2626665E7|1.2626665E7|1.2626665E7|0.0|Unknown|false
+chat Ender Dragon,9,200	Ender Dragon|RARE|200|-1|0.0|0.0|1.2626665E7|1.2626665E7|1.2626665E7|0.0|Unknown|false
+chat Ender Dragon,5,1	Ender Dragon|EPIC|1|-1|0.0|440.0|0.0|0.0|1.86085E7|0.0|Unknown|false
+chat Ender Dragon,5,50	Ender Dragon|EPIC|50|-1|0.0|38200.0|403000.0|403000.0|1.86085E7|0.0|Unknown|false
+chat Ender Dragon,5,100	Ender Dragon|EPIC|100|-1|0.0|0.0|1.86085E7|1.86085E7|1.86085E7|0.0|Unknown|false
+chat Ender Dragon,5,200	Ender Dragon|EPIC|200|-1|0.0|0.0|1.86085E7|1.86085E7|1.86085E7|0.0|Unknown|false
+chat Ender Dragon,6,1	Ender Dragon|LEGENDARY|1|-1|0.0|660.0|0.0|0.0|2.535323E7|0.0|Unknown|false
+chat Ender Dragon,6,50	Ender Dragon|LEGENDARY|50|-1|0.0|52200.0|573730.0|573730.0|2.535323E7|0.0|Unknown|false
+chat Ender Dragon,6,100	Ender Dragon|LEGENDARY|100|-1|0.0|0.0|2.535323E7|2.535323E7|2.535323E7|0.0|Unknown|false
+chat Ender Dragon,6,200	Ender Dragon|LEGENDARY|200|-1|0.0|0.0|2.535323E7|2.535323E7|2.535323E7|0.0|Unknown|false
+chat Ender Dragon,d,1	Ender Dragon|MYTHIC|1|-1|0.0|660.0|0.0|0.0|2.535323E7|0.0|Unknown|false
+chat Ender Dragon,d,50	Ender Dragon|MYTHIC|50|-1|0.0|52200.0|573730.0|573730.0|2.535323E7|0.0|Unknown|false
+chat Ender Dragon,d,100	Ender Dragon|MYTHIC|100|-1|0.0|0.0|2.535323E7|2.535323E7|2.535323E7|0.0|Unknown|false
+chat Ender Dragon,d,200	Ender Dragon|MYTHIC|200|-1|0.0|0.0|2.535323E7|2.535323E7|2.535323E7|0.0|Unknown|false
+chat Ender Dragon,x,1	Ender Dragon|COMMON|1|-1|0.0|100.0|0.0|0.0|5624785.0|0.0|Unknown|false
+chat Ender Dragon,x,50	Ender Dragon|COMMON|50|-1|0.0|8700.0|89285.0|89285.0|5624785.0|0.0|Unknown|false
+chat Ender Dragon,x,100	Ender Dragon|COMMON|100|-1|0.0|0.0|5624785.0|5624785.0|5624785.0|0.0|Unknown|false
+chat Ender Dragon,x,200	Ender Dragon|COMMON|200|-1|0.0|0.0|5624785.0|5624785.0|5624785.0|0.0|Unknown|false
+chat Rock,f,1	Rock|COMMON|1|-1|0.0|100.0|0.0|0.0|5624785.0|0.0|Unknown|false
+chat Rock,f,50	Rock|COMMON|50|-1|0.0|8700.0|89285.0|89285.0|5624785.0|0.0|Unknown|false
+chat Rock,f,100	Rock|COMMON|100|-1|0.0|0.0|5624785.0|5624785.0|5624785.0|0.0|Unknown|false
+chat Rock,f,200	Rock|COMMON|200|-1|0.0|0.0|5624785.0|5624785.0|5624785.0|0.0|Unknown|false
+chat Rock,a,1	Rock|UNCOMMON|1|-1|0.0|175.0|0.0|0.0|8644220.0|0.0|Unknown|false
+chat Rock,a,50	Rock|UNCOMMON|50|-1|0.0|16200.0|157720.0|157720.0|8644220.0|0.0|Unknown|false
+chat Rock,a,100	Rock|UNCOMMON|100|-1|0.0|0.0|8644220.0|8644220.0|8644220.0|0.0|Unknown|false
+chat Rock,a,200	Rock|UNCOMMON|200|-1|0.0|0.0|8644220.0|8644220.0|8644220.0|0.0|Unknown|false
+chat Rock,9,1	Rock|RARE|1|-1|0.0|275.0|0.0|0.0|1.2626665E7|0.0|Unknown|false
+chat Rock,9,50	Rock|RARE|50|-1|0.0|25200.0|254665.0|254665.0|1.2626665E7|0.0|Unknown|false
+chat Rock,9,100	Rock|RARE|100|-1|0.0|0.0|1.2626665E7|1.2626665E7|1.2626665E7|0.0|Unknown|false
+chat Rock,9,200	Rock|RARE|200|-1|0.0|0.0|1.2626665E7|1.2626665E7|1.2626665E7|0.0|Unknown|false
+chat Rock,5,1	Rock|EPIC|1|-1|0.0|440.0|0.0|0.0|1.86085E7|0.0|Unknown|false
+chat Rock,5,50	Rock|EPIC|50|-1|0.0|38200.0|403000.0|403000.0|1.86085E7|0.0|Unknown|false
+chat Rock,5,100	Rock|EPIC|100|-1|0.0|0.0|1.86085E7|1.86085E7|1.86085E7|0.0|Unknown|false
+chat Rock,5,200	Rock|EPIC|200|-1|0.0|0.0|1.86085E7|1.86085E7|1.86085E7|0.0|Unknown|false
+chat Rock,6,1	Rock|LEGENDARY|1|-1|0.0|660.0|0.0|0.0|2.535323E7|0.0|Unknown|false
+chat Rock,6,50	Rock|LEGENDARY|50|-1|0.0|52200.0|573730.0|573730.0|2.535323E7|0.0|Unknown|false
+chat Rock,6,100	Rock|LEGENDARY|100|-1|0.0|0.0|2.535323E7|2.535323E7|2.535323E7|0.0|Unknown|false
+chat Rock,6,200	Rock|LEGENDARY|200|-1|0.0|0.0|2.535323E7|2.535323E7|2.535323E7|0.0|Unknown|false
+chat Rock,d,1	Rock|MYTHIC|1|-1|0.0|660.0|0.0|0.0|2.535323E7|0.0|Unknown|false
+chat Rock,d,50	Rock|MYTHIC|50|-1|0.0|52200.0|573730.0|573730.0|2.535323E7|0.0|Unknown|false
+chat Rock,d,100	Rock|MYTHIC|100|-1|0.0|0.0|2.535323E7|2.535323E7|2.535323E7|0.0|Unknown|false
+chat Rock,d,200	Rock|MYTHIC|200|-1|0.0|0.0|2.535323E7|2.535323E7|2.535323E7|0.0|Unknown|false
+chat Rock,x,1	Rock|COMMON|1|-1|0.0|100.0|0.0|0.0|5624785.0|0.0|Unknown|false
+chat Rock,x,50	Rock|COMMON|50|-1|0.0|8700.0|89285.0|89285.0|5624785.0|0.0|Unknown|false
+chat Rock,x,100	Rock|COMMON|100|-1|0.0|0.0|5624785.0|5624785.0|5624785.0|0.0|Unknown|false
+chat Rock,x,200	Rock|COMMON|200|-1|0.0|0.0|5624785.0|5624785.0|5624785.0|0.0|Unknown|false
+update 0,0	Bee|RARE|11|100|5.0|600.0|2600.0|2595.0|1000000.0|0.0|§9Textbook|false
+update 0,1	Bee|RARE|10|100|200.0|500.0|2100.0|1900.0|1000000.0|0.0|§aCrochet|false
+update 0,2	Bee|RARE|10|100|50.0|400.0|2000.0|1900.0|1000000.0|0.0|§aX|false
+update 0,3	Bee|RARE|10|100|100.0|500.0|2000.0|9999.0|1000000.0|5.0|§9Textbook|false
+update 1,0	Bee|RARE|11|100|5.0|600.0|2600.0|2595.0|1000000.0|0.0|Unknown|false
+update 1,1	Bee|RARE|10|100|200.0|500.0|2100.0|1900.0|1000000.0|0.0|§aCrochet|false
+update 1,2	Bee|RARE|10|100|50.0|400.0|2000.0|1900.0|1000000.0|0.0|§aX|false
+update 1,3	Bee|RARE|10|100|100.0|500.0|2000.0|9999.0|1000000.0|5.0|Unknown|false

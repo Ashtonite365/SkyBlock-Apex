@@ -1,0 +1,140 @@
+partial [] [] null
+partial [] [f] null
+partial [] [fl] null
+partial [] [floor] null
+partial [] [floorx] null
+partial [] [kuudratier] null
+partial [] [tier] null
+partial [] [xfloor] null
+partial [f] [] null
+partial [f] [f] 
+partial [f] [fl] 
+partial [f] [floor] 
+partial [f] [floorx] 
+partial [f] [kuudratier] null
+partial [f] [tier] null
+partial [f] [xfloor] null
+partial [f7] [] null
+partial [f7] [f] 7
+partial [f7] [fl] 7
+partial [f7] [floor] 7
+partial [f7] [floorx] 7
+partial [f7] [kuudratier] null
+partial [f7] [tier] null
+partial [f7] [xfloor] null
+partial [floor7] [] null
+partial [floor7] [f] loor7
+partial [floor7] [fl] oor7
+partial [floor7] [floor] 7
+partial [floor7] [floorx] 7
+partial [floor7] [kuudratier] null
+partial [floor7] [tier] null
+partial [floor7] [xfloor] null
+partial [fl3] [] null
+partial [fl3] [f] l3
+partial [fl3] [fl] 3
+partial [fl3] [floor] 3
+partial [fl3] [floorx] 3
+partial [fl3] [kuudratier] null
+partial [fl3] [tier] null
+partial [fl3] [xfloor] null
+partial [t5] [] null
+partial [t5] [f] null
+partial [t5] [fl] null
+partial [t5] [floor] null
+partial [t5] [floorx] null
+partial [t5] [kuudratier] null
+partial [t5] [tier] 5
+partial [t5] [xfloor] null
+partial [tier2] [] null
+partial [tier2] [f] null
+partial [tier2] [fl] null
+partial [tier2] [floor] null
+partial [tier2] [floorx] null
+partial [tier2] [kuudratier] null
+partial [tier2] [tier] 2
+partial [tier2] [xfloor] null
+partial [kuudratier] [] null
+partial [kuudratier] [f] null
+partial [kuudratier] [fl] null
+partial [kuudratier] [floor] null
+partial [kuudratier] [floorx] null
+partial [kuudratier] [kuudratier] 
+partial [kuudratier] [tier] null
+partial [kuudratier] [xfloor] null
+partial [kuudra] [] null
+partial [kuudra] [f] null
+partial [kuudra] [fl] null
+partial [kuudra] [floor] null
+partial [kuudra] [floorx] null
+partial [kuudra] [kuudratier] 
+partial [kuudra] [tier] null
+partial [kuudra] [xfloor] null
+partial [m] [] null
+partial [m] [f] null
+partial [m] [fl] null
+partial [m] [floor] null
+partial [m] [floorx] null
+partial [m] [kuudratier] null
+partial [m] [tier] null
+partial [m] [xfloor] null
+partial [x] [] null
+partial [x] [f] null
+partial [x] [fl] null
+partial [x] [floor] null
+partial [x] [floorx] null
+partial [x] [kuudratier] null
+partial [x] [tier] null
+partial [x] [xfloor] 
+names [NORMAL, HOT, BURNING, FIERY, INFERNAL] [ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN] server=join f7 now tree=null
+floor [f7] -> CATACOMBS_FLOOR_SEVEN []
+floor [f0] -> CATACOMBS_ENTRANCE []
+floor [f8] -> null [fb {"translate":"apex.quick-commands.join.unknown-catacombs","with":["8"]}]
+floor [m3] -> MASTER_CATACOMBS_FLOOR_THREE []
+floor [m7] -> MASTER_CATACOMBS_FLOOR_SEVEN []
+floor [m8] -> null [fb {"translate":"apex.quick-commands.join.unknown-catacombs","with":["8"]}]
+floor [m0] -> null [fb {"translate":"apex.quick-commands.join.unknown-catacombs","with":["0"]}]
+floor [e] -> null []
+floor [entrance] -> null []
+floor [f] -> CATACOMBS_FLOOR_ONE []
+floor [floor] -> CATACOMBS_FLOOR_ONE []
+floor [floorseven] -> CATACOMBS_FLOOR_SEVEN []
+floor [fs] -> CATACOMBS_FLOOR_SIX []
+floor [floorfive] -> CATACOMBS_FLOOR_FIVE []
+floor [fi] -> CATACOMBS_ENTRANCE []
+floor [ft] -> CATACOMBS_FLOOR_TWO []
+floor [m] -> MASTER_CATACOMBS_FLOOR_ONE []
+floor [master] -> MASTER_CATACOMBS_FLOOR_ONE []
+floor [masterone] -> MASTER_CATACOMBS_FLOOR_ONE []
+floor [mt] -> MASTER_CATACOMBS_FLOOR_TWO []
+floor [t1] -> KUUDRA_NORMAL []
+floor [t5] -> KUUDRA_INFERNAL []
+floor [t6] -> null [fb {"translate":"apex.quick-commands.join.unknown-kuudra","with":["6"]}]
+floor [t0] -> null [fb {"translate":"apex.quick-commands.join.unknown-kuudra","with":["0"]}]
+floor [th] -> KUUDRA_HOT []
+floor [tb] -> KUUDRA_BURNING []
+floor [tf] -> KUUDRA_FIERY []
+floor [ti] -> KUUDRA_NORMAL []
+floor [tier] -> KUUDRA_NORMAL []
+floor [kuudratier3] -> KUUDRA_BURNING []
+floor [kuudrat] -> KUUDRA_NORMAL []
+floor [kuudratiernormal] -> KUUDRA_NORMAL []
+floor [k] -> KUUDRA_NORMAL []
+floor [catacombs4] -> CATACOMBS_FLOOR_FOUR []
+floor [c] -> CATACOMBS_FLOOR_ONE []
+floor [d] -> CATACOMBS_FLOOR_ONE []
+floor [dungeons2] -> CATACOMBS_FLOOR_TWO []
+floor [dungeons] -> CATACOMBS_FLOOR_ONE []
+floor [x] -> null []
+floor [] -> null []
+floor [7] -> null []
+floor [fl1] -> CATACOMBS_FLOOR_ONE []
+floor [fe] -> CATACOMBS_ENTRANCE []
+floor [floorentrance] -> CATACOMBS_ENTRANCE []
+floor [m e] -> null [fb {"translate":"apex.quick-commands.join.unknown-catacombs","with":[" e"]}]
+floor [tierhot] -> KUUDRA_HOT []
+floor [tierz] -> null [fb {"translate":"apex.quick-commands.join.unknown-kuudra","with":["z"]}]
+floor [f-1] -> null [fb {"translate":"apex.quick-commands.join.unknown-catacombs","with":["-1"]}]
+floor [f 7] -> CATACOMBS_ENTRANCE []
+floor [master7x] -> null [fb {"translate":"apex.quick-commands.join.unknown-catacombs","with":["7x"]}]
+floor [floor10] -> null [fb {"translate":"apex.quick-commands.join.unknown-catacombs","with":["10"]}]

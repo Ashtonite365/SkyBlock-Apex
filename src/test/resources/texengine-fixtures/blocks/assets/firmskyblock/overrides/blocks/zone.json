@@ -1,0 +1,1 @@
+{"modes":"hub","area":[{"min":[10,0,10],"max":[0,5,0]}],"replacements":{"minecraft:dirt":{"block":"firmskyblock:fancy_dirt","sound":"x:y"}}}

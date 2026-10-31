@@ -1,0 +1,8 @@
+apexUrl http://apex.ashtonite365.dev/moulconfig
+Bar {http://apex.ashtonite365.dev/moulconfig}Bar children=NONE attrs={emptyColor=true, fillColor=true, progress=true, total=true}
+Button {http://apex.ashtonite365.dev/moulconfig}Button children=ONE attrs={enabled=false, noBackground=false, onClick=true}
+Fixed {http://apex.ashtonite365.dev/moulconfig}Fixed children=ONE attrs={height=false, width=false}
+Hover {http://apex.ashtonite365.dev/moulconfig}Hover children=ONE attrs={delay=false, lines=true}
+Image {http://apex.ashtonite365.dev/moulconfig}Image children=NONE attrs={height=true, resource=true, u1=false, u2=false, v1=false, v2=false, width=true}
+Tick {http://apex.ashtonite365.dev/moulconfig}Tick children=NONE attrs={tick=true}
+moulconfig loaders 24

@@ -1,0 +1,16 @@
+idle false false
+focus
+click ERR:NullPointerException true
+click0 ERR:NullPointerException true
+set KeyCodeButton(keyCode=340)
+blur
+shift true null false
+releaseShift false false KeyCodeButton(keyCode=340)
+set KeyCodeButton(keyCode=65)
+blur
+a true false KeyCodeButton(keyCode=65)
+set Unbound
+blur
+esc true false Unbound
+lost false null Unbound
+releaseIdle false

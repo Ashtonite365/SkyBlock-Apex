@@ -1,0 +1,5181 @@
+{
+  "cases": 1294,
+  "data": [
+    {
+      "in": "grid|Superpairs (Beginner)",
+      "out": "[19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34]"
+    },
+    {
+      "in": "grid| Superpairs (High) ",
+      "out": "[11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 29, 30, 31, 32, 33, 38, 39, 40, 41, 42]"
+    },
+    {
+      "in": "grid|Superpairs (Grand)",
+      "out": "[11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 29, 30, 31, 32, 33, 38, 39, 40, 41, 42]"
+    },
+    {
+      "in": "grid|Superpairs (Supreme)",
+      "out": "[10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]"
+    },
+    {
+      "in": "grid|Superpairs (Transcendent)",
+      "out": "[10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]"
+    },
+    {
+      "in": "grid|Superpairs (Metaphysical)",
+      "out": "[10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]"
+    },
+    {
+      "in": "grid|Superpairs (Unknown)",
+      "out": "null"
+    },
+    {
+      "in": "grid|Superpairs (Grand Master)",
+      "out": "null"
+    },
+    {
+      "in": "grid|Superpairs ()",
+      "out": "null"
+    },
+    {
+      "in": "grid|superpairs (High)",
+      "out": "null"
+    },
+    {
+      "in": "grid|Superpairs (High)x",
+      "out": "null"
+    },
+    {
+      "in": "grid|Chronomatron (High)",
+      "out": "null"
+    },
+    {
+      "in": "grid|",
+      "out": "null"
+    },
+    {
+      "in": "hidden|?",
+      "out": "true"
+    },
+    {
+      "in": "hidden| ? ",
+      "out": "true"
+    },
+    {
+      "in": "hidden|Click a button!",
+      "out": "false"
+    },
+    {
+      "in": "hidden|Click any button",
+      "out": "true"
+    },
+    {
+      "in": "hidden|Click a second button!",
+      "out": "true"
+    },
+    {
+      "in": "hidden|Click a secony button",
+      "out": "true"
+    },
+    {
+      "in": "hidden|Click any button!",
+      "out": "true"
+    },
+    {
+      "in": "hidden|Next button is instantly rewarded!",
+      "out": "true"
+    },
+    {
+      "in": "hidden|Next button is instantly rewarded",
+      "out": "true"
+    },
+    {
+      "in": "hidden|Click a seco button",
+      "out": "false"
+    },
+    {
+      "in": "hidden|Enchanted Book",
+      "out": "false"
+    },
+    {
+      "in": "hidden|",
+      "out": "false"
+    },
+    {
+      "in": "hidden|??",
+      "out": "false"
+    },
+    {
+      "in": "book|[]",
+      "out": "null"
+    },
+    {
+      "in": "book|[XX ULTRA-RARE BOOK! XX]",
+      "out": "null"
+    },
+    {
+      "in": "book|[XX ULTRA-RARE BOOK! XX, x]",
+      "out": "null"
+    },
+    {
+      "in": "book|[ XX ULTRA-RARE BOOK! XX , ,   Feather Falling VI ]",
+      "out": "Feather Falling VI"
+    },
+    {
+      "in": "book|[XX ULTRA-RARE BOOK! XX, ,    ]",
+      "out": "null"
+    },
+    {
+      "in": "book|[ULTRA-RARE BOOK!, , Book]",
+      "out": "null"
+    },
+    {
+      "in": "book|[XX ULTRA-RARE BOOK! XX, a, Mana Steal I, z]",
+      "out": "Mana Steal I"
+    },
+    {
+      "in": "flip|0|0|{3=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|0|1|{4=false, 3=false, 11=false, 9=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|0|2|{7=true, 0=true, 8=true, 11=true, 3=true, 1=true, 4=true}|null",
+      "out": "[11, 3, 4]"
+    },
+    {
+      "in": "flip|0|3|{10=false, 2=true, 11=true, 7=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|0|4|{9=true, 8=true, 6=true, 10=false, 1=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|0|5|{8=true, 5=false, 11=true, 3=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|0|6|{6=false, 9=true, 1=false, 3=false, 7=true, 10=false}|-1",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|0|7|{1=false, 2=true, 3=true, 7=true, 11=true}|0",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|0|8|{1=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|0|9|{3=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|0|10|{4=true, 8=true, 10=true}|null",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|0|11|{6=true, 8=true}|2",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|0|12|{6=false, 7=false, 3=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|0|13|{}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|0|14|{9=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|0|15|{}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|0|16|{3=true, 8=true, 7=true, 9=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|0|17|{0=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|0|18|{10=true, 0=true, 2=true, 1=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|0|{5=false, 9=true, 6=true, 11=true, 3=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|1|{2=true, 9=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|2|{11=true, 4=true, 0=false, 7=false, 10=true, 8=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|3|{0=true, 5=true}|0",
+      "out": "[0, 5]"
+    },
+    {
+      "in": "flip|1|4|{1=false, 10=true, 2=false, 9=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|5|{0=true, 1=true, 9=false, 2=true, 6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|6|{4=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|7|{10=true, 1=true, 9=true, 5=true}|1",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|1|8|{1=false, 5=false, 2=true, 7=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|9|{4=true, 8=true, 0=true, 11=true, 2=true, 7=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|10|{3=true, 6=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|11|{4=true, 1=true}|1",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|1|12|{6=true, 8=true, 1=true, 5=false}|0",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|1|13|{1=false, 11=true, 4=true, 8=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|14|{6=true, 2=true, 0=false, 5=true, 9=true, 10=true, 8=true}|2",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|1|15|{5=false}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|16|{8=true, 0=true, 7=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|17|{3=true, 6=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|18|{8=true, 3=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|19|{0=false, 3=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|20|{10=true, 11=true, 1=false, 4=true, 9=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|21|{3=true, 1=true, 0=false, 2=true, 10=true, 7=true, 5=true}|-1",
+      "out": "[1, 5]"
+    },
+    {
+      "in": "flip|1|22|{1=true, 5=false, 0=true}|null",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|1|23|{7=false, 9=false, 5=true, 4=true, 0=true, 11=true}|0",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|1|24|{5=false, 2=true, 4=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|1|25|{4=true, 5=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|2|0|{0=true, 6=false, 5=true, 3=true, 1=false, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|2|1|{6=true, 8=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|2|2|{}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|2|3|{4=false, 7=false}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|2|4|{10=false, 3=false, 8=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|2|5|{}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|2|6|{6=false, 0=false, 9=true, 5=true, 10=true}|-1",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|2|7|{8=true, 4=true, 6=true, 11=true, 3=false}|-1",
+      "out": "[4, 6]"
+    },
+    {
+      "in": "flip|2|8|{0=false, 5=false, 3=true, 1=true, 8=false, 10=true}|1",
+      "out": "[3, 1]"
+    },
+    {
+      "in": "flip|2|9|{0=true, 5=true, 4=true, 8=true, 10=true}|5",
+      "out": "[0, 5, 8]"
+    },
+    {
+      "in": "flip|2|10|{8=true, 2=true, 3=true, 11=true, 6=false, 9=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|2|11|{3=false, 6=false, 0=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|2|12|{3=false, 8=false, 6=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|2|13|{4=false, 1=true, 11=true, 6=true}|0",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|2|14|{8=false, 2=true, 5=false, 1=false, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|2|15|{7=false, 0=true, 5=false, 9=true, 1=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|2|16|{0=true, 9=false, 8=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|3|0|{3=true, 1=false, 7=false, 10=false, 5=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|3|1|{5=false, 11=false, 2=true, 10=false, 9=false, 4=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|3|2|{9=true, 10=true, 4=false, 11=true, 3=true}|5",
+      "out": "[9, 10, 11]"
+    },
+    {
+      "in": "flip|3|3|{7=true, 0=false, 11=true, 9=true, 10=true, 3=false}|-1",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|3|4|{6=true, 8=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|3|5|{5=true, 11=false, 7=false, 3=true, 9=false}|null",
+      "out": "[5, 3]"
+    },
+    {
+      "in": "flip|3|6|{}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|0|{3=true, 11=true, 2=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|1|{2=false, 3=true, 0=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|2|{7=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|3|{2=false, 11=false, 8=true, 9=true, 0=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|4|{4=true, 5=true, 7=true, 9=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|5|{1=true, 5=true, 10=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|6|{8=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|7|{7=false, 2=true, 0=false, 9=true, 1=true}|0",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|4|8|{11=true, 8=false}|2",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|4|9|{}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|10|{11=true, 4=true, 6=true, 1=true, 0=true, 2=true}|0",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|4|11|{7=false, 4=true, 5=true, 11=true, 1=true, 3=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|12|{9=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|13|{2=false, 7=false, 1=true, 6=false, 8=false, 4=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|14|{9=false, 0=true, 6=true, 10=true, 7=true}|0",
+      "out": "[6, 7]"
+    },
+    {
+      "in": "flip|4|15|{10=false, 11=false, 7=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|16|{2=true, 6=false, 11=true, 1=false, 0=false, 8=true, 10=true, 4=true}|2",
+      "out": "[11, 10]"
+    },
+    {
+      "in": "flip|4|17|{3=true, 4=true, 5=false, 1=true, 9=false, 10=false, 2=false, 8=false}|5",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|4|18|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|19|{0=true, 2=true, 6=true, 11=true, 3=false, 9=false}|0",
+      "out": "[0, 2, 6]"
+    },
+    {
+      "in": "flip|4|20|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|21|{7=false, 5=false, 0=false, 8=true, 3=true, 11=false}|null",
+      "out": "[8, 3]"
+    },
+    {
+      "in": "flip|4|22|{9=false, 10=true, 8=true, 5=true, 11=true, 1=true, 3=true, 7=true}|1",
+      "out": "[10, 5, 11, 7]"
+    },
+    {
+      "in": "flip|4|23|{}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|24|{9=true, 3=false, 4=false}|0",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|4|25|{9=true, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|4|26|{8=false, 10=true, 1=true, 3=true, 2=true}|2",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|5|0|{1=true, 10=true, 9=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|5|1|{4=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|5|2|{4=false, 9=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|5|3|{5=true, 10=true, 3=false, 6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|5|4|{11=true, 4=true, 6=false}|5",
+      "out": "[4]"
+    },
+    {
+      "in": "flip|5|5|{3=false, 11=true, 4=true, 5=true, 1=false, 7=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|5|6|{9=false, 10=true, 1=true, 3=false}|1",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|5|7|{2=true, 10=false, 6=false, 5=false, 3=true, 11=true}|-1",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|5|8|{1=true, 7=true, 8=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|5|9|{4=true, 0=false, 2=true, 9=false, 10=true}|0",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|5|10|{0=true, 6=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|5|11|{}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|5|12|{4=false, 11=false, 5=true, 2=true, 10=false, 8=true}|0",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|5|13|{2=false, 0=true, 8=false, 11=true, 10=true, 6=true}|1",
+      "out": "[11, 10, 6]"
+    },
+    {
+      "in": "flip|5|14|{8=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|5|15|{1=true, 5=false, 10=true, 9=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|5|16|{3=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|5|17|{0=true, 9=true, 8=false, 10=true, 3=true, 7=true, 4=false}|1",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|5|18|{6=true, 0=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|5|19|{11=true, 1=true, 5=true, 9=true, 4=true, 7=false}|null",
+      "out": "[5, 4]"
+    },
+    {
+      "in": "flip|5|20|{0=false, 7=false, 2=true, 10=false, 11=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|5|21|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|5|22|{2=true, 11=false, 8=true, 5=false, 0=false, 6=true}|0",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|5|23|{6=true, 4=true, 10=true}|null",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|5|24|{8=false, 4=true, 10=true, 2=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|0|{4=true, 10=false, 9=true, 1=true, 0=false, 2=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|1|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|2|{9=true, 8=true, 4=true, 3=true, 1=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|3|{2=false, 3=false, 7=false, 6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|4|{9=false, 8=true, 10=true, 7=false, 1=true}|2",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|6|5|{11=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|6|{4=true, 2=true, 6=true, 11=true}|5",
+      "out": "[2, 11]"
+    },
+    {
+      "in": "flip|6|7|{10=false, 9=false, 6=false, 3=true}|5",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|6|8|{7=true, 10=false, 3=false, 0=true, 2=true, 6=false}|null",
+      "out": "[7, 0]"
+    },
+    {
+      "in": "flip|6|9|{6=true, 0=true, 7=true, 8=false, 5=false}|0",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|6|10|{4=false, 1=true, 8=false, 0=false, 3=false, 6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|11|{3=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|12|{2=true, 0=false, 6=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|13|{9=true, 3=false, 8=true, 0=true, 6=true}|2",
+      "out": "[9, 8, 0, 6]"
+    },
+    {
+      "in": "flip|6|14|{11=true, 7=true, 5=false, 4=true, 0=true, 6=true}|-1",
+      "out": "[4]"
+    },
+    {
+      "in": "flip|6|15|{11=true, 6=true, 7=true, 1=false, 10=true, 3=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|16|{10=false, 6=true, 11=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|17|{4=false, 7=true, 3=true, 8=false, 11=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|18|{4=true, 0=true}|1",
+      "out": "[4]"
+    },
+    {
+      "in": "flip|6|19|{10=false, 2=true, 9=true, 7=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|20|{10=true, 11=true, 0=false}|2",
+      "out": "[10, 11]"
+    },
+    {
+      "in": "flip|6|21|{0=true, 2=false, 3=false, 10=true, 5=true, 6=true}|0",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|6|22|{6=true, 5=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|23|{11=true, 6=true, 7=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|24|{2=true, 7=true, 1=true, 10=true}|0",
+      "out": "[2, 7, 1]"
+    },
+    {
+      "in": "flip|6|25|{0=true, 8=false, 2=false, 6=true, 9=true, 4=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|26|{}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|27|{7=true, 8=false, 1=true, 9=false, 10=true, 6=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|6|28|{8=true, 9=true, 0=true, 6=true, 3=false, 4=true}|1",
+      "out": "[8, 9]"
+    },
+    {
+      "in": "flip|7|0|{7=true, 11=true, 5=true, 2=false, 9=true, 8=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|7|1|{10=true, 5=false, 7=false, 11=false, 6=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|7|2|{0=true, 10=false, 3=false, 7=true, 9=true}|5",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|7|3|{10=false, 9=false, 2=true}|0",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|7|4|{10=true, 2=false, 3=true, 7=true, 1=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|7|5|{0=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|7|6|{7=true, 3=false, 1=true, 0=true}|0",
+      "out": "[1, 0]"
+    },
+    {
+      "in": "flip|7|7|{3=false, 10=false, 11=true, 2=true, 1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|7|8|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|7|9|{8=false, 1=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|7|10|{}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|7|11|{2=true, 7=true, 11=false, 8=true, 0=false}|1",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|7|12|{}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|7|13|{1=true, 6=true, 7=false, 4=true, 5=true, 9=true}|5",
+      "out": "[1, 5, 9]"
+    },
+    {
+      "in": "flip|7|14|{9=true, 3=true, 10=false, 6=true, 5=true, 4=true, 7=false}|1",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|7|15|{10=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|7|16|{6=true, 1=true, 10=true, 0=false, 4=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|7|17|{6=false, 5=true, 10=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|7|18|{8=true, 10=true, 7=false, 1=true, 0=true}|1",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|7|19|{7=false, 6=true, 3=false, 8=true, 4=true}|0",
+      "out": "[6, 4]"
+    },
+    {
+      "in": "flip|8|0|{5=true, 1=true, 10=false, 3=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|8|1|{0=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|8|2|{5=true, 3=false, 1=true, 7=false, 10=true, 0=true}|-1",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|8|3|{4=true, 8=true, 5=false, 10=true, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|8|4|{0=true, 11=false, 10=true, 3=true}|1",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|8|5|{5=true, 9=true}|1",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|8|6|{11=false, 2=false}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|8|7|{1=true, 7=true, 4=true}|0",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|8|8|{9=false, 6=false, 3=true, 1=true, 5=false, 0=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|8|9|{9=true, 1=true, 7=false, 8=true, 6=true}|null",
+      "out": "[9, 6]"
+    },
+    {
+      "in": "flip|8|10|{7=false, 8=true, 6=true, 10=true, 2=true}|null",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|8|11|{11=true, 9=true, 7=false, 1=true, 5=false, 8=false}|2",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|8|12|{}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|8|13|{0=true, 1=true, 2=true, 9=true, 11=false, 10=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|8|14|{3=true, 1=true, 0=true, 8=true, 5=true}|5",
+      "out": "[8, 5]"
+    },
+    {
+      "in": "flip|8|15|{3=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|8|16|{0=true, 7=true, 5=false, 3=true, 1=false, 11=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|8|17|{2=true, 11=true, 3=false, 9=false}|1",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|8|18|{8=false, 5=true, 10=true, 2=false}|5",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|8|19|{4=true, 1=true, 0=true}|1",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|8|20|{11=false, 0=false, 8=true, 3=false}|5",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|8|21|{4=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|8|22|{6=true, 5=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|9|0|{6=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|9|1|{8=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|9|2|{10=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|9|3|{2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|9|4|{5=true, 9=true, 6=true}|null",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|9|5|{5=true, 10=true, 9=false}|0",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|9|6|{8=true, 0=true, 4=true, 5=false, 1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|9|7|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|9|8|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|9|9|{0=false, 8=true, 5=true}|-1",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|9|10|{11=true, 5=true, 0=true, 4=true, 6=true, 9=true, 1=false, 10=true}|0",
+      "out": "[0, 9]"
+    },
+    {
+      "in": "flip|9|11|{11=true, 8=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|9|12|{4=false, 10=false, 3=true, 2=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|9|13|{9=true, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|9|14|{10=true}|-1",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|10|0|{0=true, 9=false, 5=true, 8=false, 6=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|10|1|{9=true, 7=true, 10=true, 3=true, 5=true, 0=true}|-1",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|10|2|{5=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|10|3|{10=true, 9=true, 5=true, 1=true, 3=true}|5",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|10|4|{3=true, 6=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|10|5|{11=true, 2=true, 7=true, 4=false, 8=true, 9=false, 10=true, 1=true}|0",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|10|6|{5=false, 10=true, 2=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|10|7|{8=false, 10=true, 9=false, 6=true, 7=true, 3=true, 2=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|10|8|{1=false, 2=false, 11=true, 4=false, 9=true, 8=true}|1",
+      "out": "[9, 8]"
+    },
+    {
+      "in": "flip|10|9|{7=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|0|{9=true, 6=true, 8=true, 0=true, 1=true, 7=true, 11=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|1|{5=false, 3=true, 10=true, 8=true, 7=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|2|{3=false, 8=true, 0=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|3|{6=false, 5=true, 4=false, 1=true, 11=false, 0=true, 8=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|4|{0=true, 11=true, 2=true, 3=false, 5=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|5|{7=false, 4=true, 9=true, 1=true, 3=false, 10=true, 8=false, 5=true}|1",
+      "out": "[4]"
+    },
+    {
+      "in": "flip|11|6|{5=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|7|{3=true, 2=true, 6=true, 5=true, 9=true}|0",
+      "out": "[3, 6]"
+    },
+    {
+      "in": "flip|11|8|{1=true, 4=false, 11=false, 6=true, 8=true, 9=true, 5=true}|2",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|11|9|{11=true, 1=true, 9=true, 5=true}|null",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|11|10|{5=true, 0=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|11|{5=true, 3=true, 8=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|12|{8=true, 2=true, 9=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|13|{7=false, 11=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|14|{0=true, 4=true, 7=true, 5=true, 3=true, 11=false}|1",
+      "out": "[4, 7]"
+    },
+    {
+      "in": "flip|11|15|{2=false, 10=true, 9=false, 3=true, 6=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|16|{2=true, 9=false, 4=true, 6=true, 7=false, 8=true}|0",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|11|17|{5=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|18|{10=true, 9=true, 8=true, 6=true}|0",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|11|19|{2=true, 11=true, 6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|20|{3=true, 0=false, 2=false, 4=true, 5=true, 11=true, 7=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|21|{5=true, 0=false, 11=true, 7=true, 4=true, 10=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|11|22|{8=true, 10=true, 7=true, 5=false}|5",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|11|23|{10=true, 0=true, 5=false, 8=false, 3=true}|2",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|11|24|{11=false, 7=true, 5=true, 3=true}|-1",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|12|0|{9=true, 5=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|1|{4=false, 8=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|2|{7=true, 1=true, 0=false, 2=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|3|{0=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|4|{1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|5|{6=true, 8=false, 2=false, 9=true, 1=true, 7=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|6|{0=true, 11=true}|0",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|12|7|{9=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|8|{2=true}|1",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|12|9|{9=true, 1=true, 7=false, 8=true}|0",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|12|10|{11=false, 2=true, 10=true, 4=true, 7=true}|null",
+      "out": "[4, 7]"
+    },
+    {
+      "in": "flip|12|11|{}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|12|{10=true, 2=true, 9=true, 3=true, 4=true, 6=true, 1=false}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|13|{3=true, 5=false, 10=true, 1=true, 0=true, 7=false, 4=false, 2=true}|-1",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|12|14|{10=true, 0=false, 3=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|15|{9=false, 11=true, 10=false, 1=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|16|{4=false, 5=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|17|{}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|18|{9=false, 7=true, 2=true, 6=true, 4=false, 1=false, 11=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|19|{10=false, 6=false, 3=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|20|{7=true, 8=false, 5=true, 2=true, 11=false, 9=true}|2",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|12|21|{4=true, 6=false, 0=true, 10=true, 7=true, 5=false}|null",
+      "out": "[4, 10]"
+    },
+    {
+      "in": "flip|12|22|{3=true, 11=true, 10=false}|0",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|12|23|{5=false, 9=true, 10=true, 7=true, 1=false, 3=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|24|{0=false, 2=true, 9=true, 7=true, 4=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|12|25|{0=true, 8=true, 10=false, 4=true, 9=true, 2=true}|2",
+      "out": "[0, 8]"
+    },
+    {
+      "in": "flip|12|26|{7=true, 11=true, 1=true, 0=true, 5=true, 2=true, 4=true}|null",
+      "out": "[1, 5]"
+    },
+    {
+      "in": "flip|12|27|{0=true, 1=false, 8=true, 6=true, 3=true}|0",
+      "out": "[6, 3]"
+    },
+    {
+      "in": "flip|12|28|{10=true, 8=true, 1=false, 3=true}|1",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|13|0|{10=true, 0=true, 4=false, 1=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|13|1|{0=false, 2=true, 10=false, 1=true, 3=true, 6=false}|1",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|13|2|{2=true, 10=true, 8=true}|0",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|14|0|{0=true, 7=true, 4=false, 6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|14|1|{10=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|14|2|{0=false, 7=false, 9=false, 3=true, 5=true, 4=true}|null",
+      "out": "[4]"
+    },
+    {
+      "in": "flip|14|3|{1=true, 7=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|14|4|{6=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|14|5|{10=true, 8=false, 7=true, 0=true, 2=false, 5=false}|0",
+      "out": "[10, 7, 0]"
+    },
+    {
+      "in": "flip|14|6|{}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|14|7|{2=true, 11=true, 7=true, 9=true}|5",
+      "out": "[2, 9]"
+    },
+    {
+      "in": "flip|14|8|{6=true, 2=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|14|9|{11=true, 5=false, 9=false, 0=true, 8=true}|5",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|14|10|{4=false, 8=true, 2=false, 0=true, 3=true, 1=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|14|11|{8=true, 5=true, 11=true, 1=false, 10=true, 6=true, 0=false, 4=true}|5",
+      "out": "[5, 4]"
+    },
+    {
+      "in": "flip|14|12|{10=false, 9=false, 8=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|14|13|{8=true, 5=true, 7=true, 2=true, 10=false, 0=true, 11=true}|0",
+      "out": "[2, 0]"
+    },
+    {
+      "in": "flip|14|14|{2=false, 7=false, 11=false, 5=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|14|15|{10=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|14|16|{1=false, 5=false, 2=true, 0=true, 4=true, 8=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|14|17|{1=true, 7=true, 10=true, 8=true, 6=true, 3=true}|0",
+      "out": "[1, 10]"
+    },
+    {
+      "in": "flip|14|18|{4=true, 6=true, 8=true, 0=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|14|19|{5=true, 1=false, 6=true, 2=false, 4=true, 8=false}|-1",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|14|20|{8=true, 1=false}|0",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|14|21|{5=true, 10=true, 9=true, 11=true, 2=true, 4=true, 3=true, 8=true}|2",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|15|0|{1=true, 10=true, 6=false, 2=true, 4=false, 8=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|15|1|{9=true, 1=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|15|2|{6=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|0|{10=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|1|{2=true, 10=true, 4=true, 6=false, 5=true, 9=true, 3=true, 7=true, 11=true}|0",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|16|2|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|3|{4=true, 7=false, 11=false, 5=false, 8=false, 6=false, 9=false, 10=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|4|{11=false, 1=true, 5=true, 4=true, 9=false}|2",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|16|5|{8=false, 3=true, 6=true, 1=true}|1",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|16|6|{8=true, 4=true, 7=true, 1=true}|0",
+      "out": "[8, 7]"
+    },
+    {
+      "in": "flip|16|7|{2=false, 5=true, 0=true, 4=false, 10=true, 8=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|8|{2=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|9|{1=true, 0=true, 11=true, 8=false, 7=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|10|{7=true, 8=true, 5=false, 3=false, 4=false, 6=true, 9=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|11|{10=true, 6=true, 4=false, 9=true, 3=true, 2=true}|null",
+      "out": "[9, 3, 2]"
+    },
+    {
+      "in": "flip|16|12|{10=true, 2=true, 9=false, 0=true, 6=true, 5=true}|0",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|16|13|{11=false, 5=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|14|{8=true, 4=true, 3=true}|0",
+      "out": "[4]"
+    },
+    {
+      "in": "flip|16|15|{11=true, 5=true, 7=false, 8=true, 0=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|16|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|17|{1=true, 7=false, 0=false, 10=false, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|18|{3=true, 10=true, 7=true}|1",
+      "out": "[10, 7]"
+    },
+    {
+      "in": "flip|16|19|{8=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|20|{5=true, 9=false, 4=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|21|{}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|22|{10=true, 4=true, 11=true, 9=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|23|{2=true, 0=true, 1=true, 6=true}|null",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|16|24|{9=true, 1=false, 2=false, 3=true, 5=true, 11=true}|0",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|16|25|{}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|26|{6=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|16|27|{8=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|17|0|{8=true, 6=true, 10=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|17|1|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|17|2|{11=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|17|3|{9=true, 0=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|17|4|{5=true, 4=true, 8=true, 6=false, 10=true, 11=true}|5",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|17|5|{8=false, 4=false, 5=false, 9=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|17|6|{7=true, 3=false, 1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|17|7|{8=true}|5",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|17|8|{6=false, 0=true, 11=false, 10=false, 4=true}|-1",
+      "out": "[0, 4]"
+    },
+    {
+      "in": "flip|17|9|{1=true, 3=true, 6=true, 4=false, 9=false, 0=false, 8=true}|0",
+      "out": "[3, 6]"
+    },
+    {
+      "in": "flip|17|10|{6=true, 5=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|17|11|{11=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|17|12|{7=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|17|13|{3=false, 11=true, 6=true, 10=false, 5=false, 7=true, 2=true, 1=false}|-1",
+      "out": "[11, 7]"
+    },
+    {
+      "in": "flip|17|14|{5=false, 6=true, 11=true, 7=true, 9=true}|1",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|17|15|{4=true, 8=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|18|0|{1=true, 11=true, 8=false, 2=false, 0=true, 6=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|18|1|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|18|2|{2=true, 7=true, 8=true, 6=true}|0",
+      "out": "[2, 8, 6]"
+    },
+    {
+      "in": "flip|18|3|{}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|18|4|{5=true, 11=true, 2=true, 1=true, 3=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|18|5|{2=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|18|6|{0=true, 7=true, 1=false, 6=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|18|7|{1=true, 5=true, 4=true, 2=false}|2",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|18|8|{3=true, 8=true, 6=true, 5=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|18|9|{7=true, 5=true, 0=true, 11=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|18|10|{8=true, 6=false, 4=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|18|11|{2=true, 1=true, 0=true, 8=false, 5=false, 9=false}|0",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|18|12|{6=true, 1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|18|13|{11=true, 5=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|18|14|{10=false, 3=true, 9=false, 8=true, 5=true}|2",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|19|0|{7=false, 8=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|19|1|{1=true, 11=true, 9=false, 4=true, 10=true, 8=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|19|2|{7=true, 4=true, 8=true, 10=true}|-1",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|19|3|{8=true, 2=true, 11=false, 6=true, 7=true, 1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|19|4|{11=false, 10=true, 6=false, 1=false, 9=true, 7=true, 2=false}|2",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|19|5|{3=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|19|6|{10=true, 5=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|19|7|{7=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|19|8|{6=false, 11=true, 4=true, 9=true, 2=false}|0",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|19|9|{4=true, 6=true}|2",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|19|10|{1=true, 4=true, 6=true, 7=false}|5",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|19|11|{4=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|19|12|{2=true, 6=true, 10=false, 3=true, 11=true}|0",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|19|13|{11=true, 9=true, 10=true, 0=true, 1=false}|null",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|19|14|{3=true, 7=false, 8=false, 0=true, 6=true, 1=true}|0",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|19|15|{9=false, 10=false, 8=false, 7=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|19|16|{2=true, 7=false, 4=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|19|17|{5=true, 8=true, 6=true}|1",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|20|0|{11=true, 1=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|20|1|{0=true, 5=false, 4=true, 2=true, 8=true, 7=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|20|2|{8=true, 6=false, 0=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|20|3|{0=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|20|4|{3=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|20|5|{7=true, 1=false, 11=true}|null",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|20|6|{1=true, 0=true, 6=true, 5=true, 2=true, 8=true, 9=true}|0",
+      "out": "[1, 0, 6, 5]"
+    },
+    {
+      "in": "flip|20|7|{7=false, 9=true, 11=true, 10=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|20|8|{3=false, 0=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|20|9|{9=false, 1=false, 0=true, 7=true, 4=true, 10=true, 5=false}|2",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|21|0|{10=true, 0=true, 5=true, 9=true, 6=true, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|21|1|{}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|21|2|{9=true, 8=true, 3=true, 2=true, 1=true, 0=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|21|3|{4=false, 3=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|21|4|{8=true, 7=true, 6=true, 3=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|21|5|{11=true, 6=true, 4=false, 3=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|21|6|{4=false, 8=true, 7=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|0|{6=true, 9=true, 2=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|1|{10=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|2|{5=true, 1=false, 8=false, 3=true, 9=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|3|{8=false, 3=false, 6=true, 4=true, 7=true, 0=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|4|{2=true, 7=true}|-1",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|22|5|{2=true, 6=true, 5=true, 8=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|6|{11=false, 5=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|7|{11=true, 0=true, 4=true, 9=true, 10=true, 5=true, 3=true, 2=false}|null",
+      "out": "[11, 3]"
+    },
+    {
+      "in": "flip|22|8|{4=false, 10=true, 3=false, 2=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|9|{9=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|10|{}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|11|{9=true, 7=true, 8=false, 5=false, 3=true}|1",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|22|12|{5=false, 2=true, 0=false, 6=true, 9=false}|-1",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|22|13|{3=false, 0=true}|5",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|22|14|{9=true, 6=true, 3=false, 1=true, 11=false, 10=false, 8=false, 7=true}|0",
+      "out": "[9, 1]"
+    },
+    {
+      "in": "flip|22|15|{9=true, 11=true, 10=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|16|{0=true, 5=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|17|{3=false, 6=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|18|{9=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|19|{}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|20|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|21|{11=true, 4=true, 10=false, 5=true}|1",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|22|22|{11=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|23|{7=false, 1=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|22|24|{9=true, 8=false, 7=true, 1=false, 10=false, 3=false}|2",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|23|0|{5=true, 4=true, 11=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|23|1|{1=false, 6=false, 5=false, 10=true, 0=true, 11=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|23|2|{1=true}|0",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|23|3|{9=true, 4=false, 10=true, 2=true, 5=true, 11=true}|-1",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|23|4|{3=false, 2=false, 5=true, 10=true, 0=true, 6=true, 4=true}|0",
+      "out": "[6, 4]"
+    },
+    {
+      "in": "flip|23|5|{8=true, 6=true, 1=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|23|6|{9=false, 6=true, 1=true, 10=false, 7=true}|-1",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|23|7|{1=true, 8=true, 0=true, 5=true, 10=true}|5",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|23|8|{0=true, 11=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|23|9|{1=true, 10=true, 2=true, 7=false, 4=true}|0",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|23|10|{8=true, 7=true, 1=false, 3=true, 4=true}|-1",
+      "out": "[7, 3]"
+    },
+    {
+      "in": "flip|23|11|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|23|12|{4=false, 6=false, 3=false, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|23|13|{10=true, 1=true, 4=false}|-1",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|23|14|{9=true, 6=true, 4=false}|2",
+      "out": "[9, 6]"
+    },
+    {
+      "in": "flip|23|15|{3=true, 6=false, 10=false, 2=true, 4=false, 1=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|23|16|{1=true, 2=true, 11=false, 10=false}|2",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|23|17|{6=true, 9=false, 0=true, 1=false}|0",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|23|18|{9=true, 8=false, 11=true, 1=true, 5=false, 4=true}|-1",
+      "out": "[9, 11, 1, 4]"
+    },
+    {
+      "in": "flip|23|19|{0=false, 9=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|23|20|{5=false, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|23|21|{11=false, 2=true, 9=true}|1",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|23|22|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|23|23|{11=false, 6=true, 2=false, 5=true}|1",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|23|24|{3=false, 11=true, 6=true, 0=true, 5=true, 1=true, 10=true}|0",
+      "out": "[11, 0, 10]"
+    },
+    {
+      "in": "flip|24|0|{10=true, 5=true, 9=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|24|1|{11=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|24|2|{0=false, 7=true, 1=true, 2=true, 10=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|24|3|{7=false, 4=true, 0=false, 9=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|24|4|{}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|25|0|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|25|1|{3=true, 5=false, 11=true, 9=false, 0=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|25|2|{1=true, 3=false, 4=true, 8=false}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|25|3|{5=false, 7=true, 0=false, 1=true, 9=false}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|25|4|{2=false, 8=true, 11=false, 6=true}|0",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|25|5|{8=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|25|6|{3=true, 5=true, 8=true, 11=true, 2=true}|null",
+      "out": "[3, 5, 11, 2]"
+    },
+    {
+      "in": "flip|25|7|{6=true, 9=true, 0=false, 2=false}|null",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|25|8|{3=true, 10=false, 2=false, 4=true, 7=true, 6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|25|9|{1=true, 11=true, 10=true, 3=false, 8=true, 9=true}|-1",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|26|0|{2=true, 11=true, 7=true, 9=false, 6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|26|1|{0=false, 4=true, 9=true}|5",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|26|2|{0=true, 7=true, 2=true}|5",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|26|3|{10=false, 3=true, 9=false, 7=false, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|26|4|{0=false, 6=true, 11=true, 1=false, 8=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|26|5|{7=false, 8=false, 6=true, 10=true, 1=true, 0=true}|1",
+      "out": "[10, 1, 0]"
+    },
+    {
+      "in": "flip|26|6|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|26|7|{9=false, 8=true, 11=false, 10=true, 5=true, 6=true}|1",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|26|8|{2=true, 4=true, 6=true, 3=true, 8=false, 5=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|26|9|{10=false, 0=true, 11=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|26|10|{1=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|26|11|{10=true, 6=false, 2=true, 11=true, 5=true}|null",
+      "out": "[10, 11, 5]"
+    },
+    {
+      "in": "flip|27|0|{8=true, 3=false, 1=false, 9=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|27|1|{7=true, 9=true, 6=false, 0=true, 11=false, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|0|{3=true, 9=false, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|1|{8=false, 3=false, 0=true, 10=true, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|2|{6=true, 5=true, 3=true, 10=false}|-1",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|28|3|{2=false, 9=true, 7=true}|1",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|28|4|{4=true, 9=true, 7=true, 6=true, 8=false, 10=false, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|5|{9=false, 7=false, 0=true, 5=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|6|{10=true, 8=true, 1=true, 0=true, 7=true}|null",
+      "out": "[10, 8, 7]"
+    },
+    {
+      "in": "flip|28|7|{9=true, 11=true, 1=false, 2=true, 7=true, 6=false}|1",
+      "out": "[9, 2]"
+    },
+    {
+      "in": "flip|28|8|{6=true, 7=true, 9=true, 11=false, 4=true}|5",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|28|9|{7=true, 3=true, 8=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|10|{7=true, 0=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|11|{3=true, 6=true, 9=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|12|{5=false, 7=false, 1=false, 8=true, 3=true, 2=false, 10=false, 0=true}|-1",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|28|13|{2=true, 6=false, 4=true, 3=false, 0=false, 9=false, 10=true}|null",
+      "out": "[2, 10]"
+    },
+    {
+      "in": "flip|28|14|{9=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|15|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|16|{7=false, 3=true, 0=true, 9=false, 10=false, 4=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|17|{1=true, 9=true, 10=false}|1",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|28|18|{8=true, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|19|{2=true, 1=true, 3=true, 11=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|20|{3=true, 5=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|21|{2=false, 9=true, 0=true, 11=false, 4=true, 7=false, 10=false, 6=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|22|{3=false, 9=true, 5=true, 2=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|23|{1=false, 7=true, 4=true, 10=true, 6=true, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|24|{4=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|28|25|{11=true, 2=true}|0",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|29|0|{8=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|29|1|{9=false, 4=true, 0=false, 5=true, 3=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|29|2|{}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|29|3|{2=true, 11=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|29|4|{0=true, 3=true, 10=false, 1=false, 7=false}|0",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|29|5|{4=true, 11=false, 8=true, 1=false, 7=true, 3=true}|2",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|30|0|{}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|30|1|{8=false, 3=false, 9=true, 4=true, 2=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|30|2|{3=true, 10=true, 1=true, 0=false, 6=true}|2",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|30|3|{3=true, 9=true, 1=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|30|4|{2=false, 11=true, 8=true, 6=false}|5",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|30|5|{7=true, 8=true, 10=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|30|6|{6=true, 7=true, 3=true, 0=false, 10=true, 8=true}|5",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|30|7|{}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|30|8|{4=true, 1=true, 10=true, 3=true, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|30|9|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|30|10|{3=true, 4=true, 9=true, 2=false, 0=true, 6=false}|null",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|30|11|{10=true, 7=true, 5=true, 6=true, 2=false, 0=false}|0",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|30|12|{1=false, 2=false, 6=false, 0=true, 9=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|0|{1=true, 6=true, 4=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|1|{}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|2|{9=true, 8=false, 11=false, 6=true, 5=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|3|{11=false, 1=true, 7=true, 10=true, 8=true}|-1",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|31|4|{1=true, 2=true, 5=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|5|{5=true, 10=true, 11=true}|5",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|31|6|{7=true, 11=false, 3=true, 1=true, 4=true, 0=true, 6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|7|{7=false, 4=true, 10=true, 0=false, 3=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|8|{7=true, 1=true}|-1",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|31|9|{2=true, 6=false, 7=false, 0=false, 5=false, 8=true, 11=true, 1=true}|0",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|31|10|{1=false, 2=true, 9=true, 7=true}|null",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|31|11|{}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|12|{11=true, 2=false, 3=true, 8=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|13|{10=true, 0=true, 6=true, 8=true, 5=false, 1=false, 4=true}|0",
+      "out": "[0, 6, 8]"
+    },
+    {
+      "in": "flip|31|14|{4=false, 2=true, 9=true, 3=false}|-1",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|31|15|{2=true, 3=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|16|{11=true, 7=true, 1=true, 0=true, 5=true, 6=false, 9=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|17|{4=true, 5=true, 8=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|18|{11=false, 6=true}|null",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|31|19|{2=false, 7=true, 11=true, 9=true, 1=true}|-1",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|31|20|{5=true, 6=false, 0=false, 10=false, 9=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|21|{2=false, 11=true, 4=false, 9=false, 8=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|22|{4=true, 6=true}|5",
+      "out": "[4, 6]"
+    },
+    {
+      "in": "flip|31|23|{4=true, 2=true, 5=true, 11=true, 6=true, 1=true}|0",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|31|24|{8=true, 4=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|31|25|{8=true, 1=false, 6=false, 2=true, 10=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|0|{0=true, 6=true, 5=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|1|{}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|2|{7=false, 1=true, 10=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|3|{5=true, 11=true, 4=false, 1=true, 9=false, 0=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|4|{7=true, 8=true, 2=false, 6=false, 10=true}|0",
+      "out": "[7, 10]"
+    },
+    {
+      "in": "flip|32|5|{1=false, 8=true, 2=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|6|{5=true, 7=true, 9=false, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|7|{3=true, 1=true}|2",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|32|8|{8=true, 9=false, 4=true, 11=true}|1",
+      "out": "[4]"
+    },
+    {
+      "in": "flip|32|9|{4=true, 8=true, 5=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|10|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|11|{7=false, 10=true, 8=true, 6=true}|-1",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|32|12|{}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|13|{4=false, 2=false, 5=false, 11=true, 8=true, 3=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|14|{0=true, 6=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|15|{}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|16|{3=true, 6=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|17|{5=true, 1=true, 3=true, 11=true, 6=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|18|{1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|19|{9=true, 6=false, 1=true, 0=true, 2=false, 10=true, 11=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|32|20|{5=false, 11=true, 3=false, 2=true}|0",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|32|21|{3=true}|5",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|32|22|{9=false, 11=true, 8=true, 2=false, 4=true, 1=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|33|0|{}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|33|1|{4=true, 10=true, 6=true, 2=true, 5=true, 0=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|33|2|{1=true, 0=false, 5=true, 9=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|33|3|{3=true, 6=false, 8=true, 5=false, 9=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|33|4|{4=false, 10=true, 5=false, 11=false, 2=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|33|5|{7=false, 3=true, 5=false, 2=false, 0=true, 10=true, 9=true, 4=true}|5",
+      "out": "[0, 4]"
+    },
+    {
+      "in": "flip|33|6|{1=true, 0=true, 7=true, 9=true, 8=true}|5",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|34|0|{7=true, 2=true, 4=true, 1=true, 5=false, 11=true, 0=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|34|1|{7=true, 0=true, 10=true, 8=true, 4=true, 11=false, 3=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|34|2|{8=true, 3=true, 2=false}|null",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|34|3|{}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|34|4|{6=true, 4=false, 5=true, 11=false, 10=false, 7=true, 1=true}|0",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|34|5|{3=false, 7=false, 0=true, 11=true, 4=true}|1",
+      "out": "[11, 4]"
+    },
+    {
+      "in": "flip|34|6|{1=true, 5=true, 7=true, 4=true, 11=false, 6=false}|1",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|34|7|{10=false, 8=true, 0=false, 1=true, 6=true, 2=true}|null",
+      "out": "[6, 2]"
+    },
+    {
+      "in": "flip|34|8|{1=true, 7=false, 3=true}|5",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|34|9|{9=false, 4=true, 11=true, 1=true, 5=false, 3=false}|0",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|34|10|{6=true, 2=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|34|11|{5=true, 6=false, 8=false, 3=true, 4=true, 1=true}|0",
+      "out": "[5, 3]"
+    },
+    {
+      "in": "flip|34|12|{1=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|34|13|{2=false, 1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|34|14|{2=true, 11=true, 5=true, 0=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|34|15|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|34|16|{9=true, 8=false, 11=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|34|17|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|34|18|{8=false, 11=true, 6=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|34|19|{0=false, 2=true, 3=true, 8=false, 1=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|35|0|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|35|1|{1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|35|2|{4=true, 3=true, 9=true, 2=true, 0=true, 8=false, 10=true, 1=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|35|3|{10=false, 11=true, 6=false, 2=true, 4=true, 8=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|35|4|{}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|36|0|{3=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|36|1|{5=true, 9=false, 8=false, 7=true, 1=true, 11=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|36|2|{4=true, 9=true}|-1",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|36|3|{7=false, 1=true, 6=true, 0=false, 9=true, 5=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|36|4|{1=true, 5=true, 7=false, 4=true, 6=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|0|{8=true, 2=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|1|{6=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|2|{5=true, 1=true, 2=true, 9=false}|0",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|37|3|{7=true, 2=false}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|4|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|5|{2=true, 8=true, 5=false, 6=true, 0=true, 7=true, 9=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|6|{10=true, 1=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|7|{0=false, 1=true, 4=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|8|{9=true, 5=false, 11=true, 7=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|9|{10=true, 1=true, 9=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|10|{5=false, 7=false, 1=false, 8=false, 0=false, 11=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|11|{1=false, 0=false, 9=true, 6=false, 11=true, 5=true}|0",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|37|12|{0=true, 11=true, 10=true, 5=true, 9=false, 3=true, 6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|13|{1=false, 2=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|14|{4=false, 7=true, 2=false, 6=false}|null",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|37|15|{5=true, 6=true, 9=true, 2=false, 0=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|16|{8=false, 3=true, 4=true, 10=true, 5=true, 1=true, 2=true}|null",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|37|17|{3=true, 0=false, 1=false, 8=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|18|{2=true, 3=false, 8=false, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|19|{6=false, 1=true}|1",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|37|20|{10=true, 0=true}|1",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|37|21|{4=true, 0=false, 11=true, 6=true}|0",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|37|22|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|23|{2=true, 11=true, 5=true, 7=true, 10=true, 8=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|24|{5=true, 9=true, 3=true, 2=true}|5",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|37|25|{10=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|26|{9=false, 10=true, 5=true, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|37|27|{0=true, 11=true, 8=true, 2=false, 4=true}|-1",
+      "out": "[0, 8]"
+    },
+    {
+      "in": "flip|37|28|{}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|0|{1=true, 4=true, 10=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|1|{3=false, 9=true, 0=false, 10=true, 7=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|2|{5=true, 8=false, 6=true, 0=true, 2=false, 7=true}|0",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|38|3|{3=true, 4=true, 6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|4|{9=true, 8=false, 0=true, 7=true, 3=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|5|{7=true, 8=true, 4=true, 3=true, 9=false}|5",
+      "out": "[8, 3]"
+    },
+    {
+      "in": "flip|38|6|{9=true}|2",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|38|7|{1=false, 5=false, 10=true, 7=true, 11=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|8|{}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|9|{11=true, 1=false, 10=false, 0=true, 7=false}|0",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|38|10|{}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|11|{3=true, 1=true, 9=true, 10=true, 7=true}|-1",
+      "out": "[1, 10, 7]"
+    },
+    {
+      "in": "flip|38|12|{11=false, 1=false, 8=true, 9=true, 10=false, 6=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|13|{9=true, 3=true, 0=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|14|{9=false, 4=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|15|{9=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|16|{10=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|17|{1=true, 11=true, 2=false, 0=false, 8=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|18|{9=true, 5=true, 10=true, 11=true}|null",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|38|19|{9=true, 5=true, 1=true, 6=false, 10=false, 8=true}|-1",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|38|20|{7=true, 8=false, 5=true, 9=false, 1=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|21|{4=true, 3=true, 7=false, 1=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|38|22|{1=true, 6=false, 5=false, 3=false, 8=true, 11=true, 0=true}|-1",
+      "out": "[8, 0]"
+    },
+    {
+      "in": "flip|38|23|{0=true, 1=false, 4=false, 2=true, 11=true}|null",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|38|24|{9=true, 7=true, 1=true}|5",
+      "out": "[9, 7, 1]"
+    },
+    {
+      "in": "flip|38|25|{1=true, 8=true, 7=false, 10=true}|5",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|38|26|{1=true, 6=true, 11=true}|-1",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|38|27|{7=true}|1",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|38|28|{7=false, 6=true, 1=true, 11=true, 5=false, 0=false, 2=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|39|0|{3=false, 2=true, 9=true, 8=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|39|1|{9=false, 0=true, 6=false, 11=true, 7=true, 2=true, 5=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|39|2|{3=true, 4=true, 0=true, 7=false}|5",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|39|3|{0=true, 3=false, 5=true, 6=true, 10=false}|5",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|40|0|{}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|40|1|{11=true, 3=false, 9=true, 6=true, 1=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|40|2|{4=true, 9=true, 0=false, 1=true, 11=true, 2=true, 3=true}|-1",
+      "out": "[1, 3]"
+    },
+    {
+      "in": "flip|40|3|{}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|40|4|{5=true, 11=true, 9=true, 7=true, 4=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|40|5|{3=true, 7=true, 2=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|0|{6=true, 3=true, 11=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|1|{}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|2|{4=false, 1=false, 10=true, 2=true, 11=true, 5=true, 8=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|3|{3=true, 6=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|4|{4=true, 1=true, 10=true, 11=true, 7=false, 6=true}|null",
+      "out": "[4, 1, 6]"
+    },
+    {
+      "in": "flip|41|5|{8=true, 10=false, 1=true, 3=true, 0=true, 7=true, 5=true}|1",
+      "out": "[8, 7]"
+    },
+    {
+      "in": "flip|41|6|{6=true, 1=true, 0=false, 11=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|7|{0=false, 11=true, 6=false, 5=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|8|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|9|{4=true, 11=true, 1=true, 7=true, 0=false, 6=false, 2=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|10|{11=true, 10=false, 9=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|11|{10=true, 1=true, 0=true}|0",
+      "out": "[10, 0]"
+    },
+    {
+      "in": "flip|41|12|{6=true, 9=false, 5=true, 0=false, 4=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|13|{}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|14|{2=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|15|{10=false, 6=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|16|{3=false, 7=true, 9=true, 6=true, 8=false, 1=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|17|{3=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|41|18|{7=true, 4=true, 8=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|0|{4=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|1|{7=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|2|{1=true, 7=true, 8=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|3|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|4|{6=false, 7=true, 0=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|5|{4=true, 11=true, 5=true, 3=true, 6=true}|0",
+      "out": "[4, 6]"
+    },
+    {
+      "in": "flip|42|6|{0=false, 4=false, 3=false, 9=true, 1=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|7|{4=true, 11=false}|1",
+      "out": "[4]"
+    },
+    {
+      "in": "flip|42|8|{7=true, 1=true, 3=true, 8=true, 5=true, 0=true}|-1",
+      "out": "[1, 3, 0]"
+    },
+    {
+      "in": "flip|42|9|{4=false, 11=true}|2",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|42|10|{11=true, 6=true, 10=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|11|{10=true, 3=true, 9=false, 0=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|12|{2=true, 7=false, 11=false, 6=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|13|{6=false, 5=true, 8=false, 10=true, 7=true}|null",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|42|14|{7=false, 8=true, 0=true, 9=false}|1",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|42|15|{6=true, 7=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|16|{7=true, 1=true, 10=false, 0=false, 5=true, 3=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|17|{6=true, 1=false, 3=false, 2=false}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|18|{4=true, 6=true, 9=false, 10=true, 3=true}|1",
+      "out": "[10, 3]"
+    },
+    {
+      "in": "flip|42|19|{3=false, 6=true, 5=false, 10=true, 9=false, 4=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|20|{6=true, 8=false, 11=true, 1=false, 5=true}|0",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|42|21|{10=false, 4=true, 9=true, 0=true, 5=true, 6=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|22|{0=true, 10=true, 4=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|23|{7=false, 4=false, 8=true, 3=true}|5",
+      "out": "[8, 3]"
+    },
+    {
+      "in": "flip|42|24|{3=true, 11=true, 4=true, 0=true, 6=true, 8=true, 5=false, 1=true}|0",
+      "out": "[4, 6, 1]"
+    },
+    {
+      "in": "flip|42|25|{11=true, 10=true, 2=true, 1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|26|{6=true, 10=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|27|{6=true, 5=false, 4=true, 0=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|42|28|{1=true, 2=true, 8=false, 0=false}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|0|{2=true, 4=true, 9=true, 10=true, 7=true, 0=false, 1=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|1|{11=true, 6=true, 7=false, 8=true, 10=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|2|{8=true, 0=true, 7=true}|0",
+      "out": "[0, 7]"
+    },
+    {
+      "in": "flip|43|3|{7=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|4|{3=true, 11=true, 4=false, 6=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|5|{11=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|6|{5=false, 8=true, 10=true, 4=true}|null",
+      "out": "[4]"
+    },
+    {
+      "in": "flip|43|7|{8=false, 1=true, 9=true, 6=false, 7=true, 3=true, 4=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|8|{1=true, 6=true, 3=false, 9=true, 4=true, 5=true, 0=true}|0",
+      "out": "[6, 4, 5]"
+    },
+    {
+      "in": "flip|43|9|{9=true, 10=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|10|{5=true, 9=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|11|{1=true, 4=true, 10=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|12|{9=true, 0=true, 5=false, 1=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|13|{6=false, 11=true, 9=false, 1=true, 7=false, 2=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|14|{0=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|15|{3=false, 7=true, 5=true, 6=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|16|{4=false, 11=false, 1=false, 0=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|43|17|{3=true, 0=true, 1=true, 9=true, 7=false}|0",
+      "out": "[3, 1]"
+    },
+    {
+      "in": "flip|43|18|{7=true}|1",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|44|0|{6=true, 5=true, 4=true, 1=true, 2=true, 8=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|44|1|{0=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|44|2|{2=true, 1=true, 7=true, 3=false, 10=true, 8=false, 6=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|44|3|{2=false, 4=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|44|4|{8=false, 10=true, 9=false, 5=true, 7=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|44|5|{11=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|44|6|{11=true, 1=false, 5=true, 2=false, 4=true}|1",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|45|0|{0=false, 10=true, 1=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|45|1|{6=true, 1=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|45|2|{0=true, 2=false, 3=true, 8=true}|1",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|45|3|{1=true, 4=true, 9=false, 5=true, 7=false, 3=false, 8=true, 11=false}|null",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|45|4|{11=false, 10=true, 7=true, 2=true}|5",
+      "out": "[7, 2]"
+    },
+    {
+      "in": "flip|45|5|{5=false, 6=true, 10=true, 11=true, 7=true, 9=true, 1=true, 0=true}|0",
+      "out": "[11, 9]"
+    },
+    {
+      "in": "flip|45|6|{1=true, 7=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|45|7|{4=true, 1=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|45|8|{4=false, 8=true, 0=true, 10=false, 7=false, 5=true, 9=true, 1=false}|null",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|45|9|{0=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|45|10|{10=false, 4=true, 0=false, 11=true, 1=true}|1",
+      "out": "[4, 1]"
+    },
+    {
+      "in": "flip|45|11|{7=true, 1=true, 11=false, 4=true}|0",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|45|12|{11=false, 5=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|45|13|{7=true, 5=true, 10=false, 4=true, 2=true, 8=true, 0=true}|5",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|45|14|{5=false}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|45|15|{11=false, 4=false, 5=false, 6=true, 2=true, 8=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|45|16|{8=true, 1=true, 11=true, 6=false, 5=false, 0=true, 10=false}|0",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|45|17|{4=true, 3=false, 2=true, 9=true}|2",
+      "out": "[4]"
+    },
+    {
+      "in": "flip|45|18|{4=false, 6=true, 3=false, 9=false, 8=true, 11=false, 2=true}|1",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|45|19|{7=true, 6=false, 3=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|45|20|{4=true, 9=true, 11=true, 1=true, 0=true, 7=true}|null",
+      "out": "[4, 9, 11]"
+    },
+    {
+      "in": "flip|46|0|{9=false, 7=false, 5=true, 0=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|46|1|{4=true, 7=true, 6=true, 5=true, 1=false, 9=false, 11=false}|5",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|46|2|{9=true, 3=false, 11=true, 1=true}|null",
+      "out": "[9, 11, 1]"
+    },
+    {
+      "in": "flip|47|0|{7=true, 9=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|47|1|{2=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|47|2|{0=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|47|3|{10=false, 5=true, 4=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|47|4|{7=true, 6=true, 3=true, 1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|47|5|{9=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|47|6|{0=true, 6=false, 8=true, 5=true, 1=true, 3=true, 4=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|47|7|{8=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|47|8|{2=false, 9=false, 10=true, 8=true, 7=false}|1",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|47|9|{3=true, 7=true, 1=true, 5=true}|2",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|47|10|{9=true, 0=true, 6=true, 5=false, 7=true, 4=true}|0",
+      "out": "[9, 6]"
+    },
+    {
+      "in": "flip|47|11|{9=true, 0=true, 1=false, 2=true}|5",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|47|12|{7=true, 4=true, 10=false, 9=true, 0=false, 11=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|47|13|{3=true, 10=true, 5=true}|0",
+      "out": "[10, 5]"
+    },
+    {
+      "in": "flip|47|14|{6=false, 2=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|47|15|{10=true, 9=true, 2=true, 7=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|47|16|{0=true, 7=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|47|17|{5=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|47|18|{4=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|47|19|{2=true, 4=false, 3=true, 11=true, 7=false, 5=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|0|{2=false, 0=true, 5=true, 4=true, 8=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|1|{7=false, 4=false, 9=false, 8=true, 0=false, 11=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|2|{9=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|3|{11=true, 5=true, 1=true, 0=true, 2=true}|-1",
+      "out": "[0, 2]"
+    },
+    {
+      "in": "flip|48|4|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|5|{1=true, 5=false, 0=true, 8=false, 4=true}|5",
+      "out": "[4]"
+    },
+    {
+      "in": "flip|48|6|{10=true, 3=true, 8=true, 9=true, 7=true, 0=true, 6=false}|0",
+      "out": "[8, 9, 7]"
+    },
+    {
+      "in": "flip|48|7|{8=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|8|{6=true, 5=true}|-1",
+      "out": "[6, 5]"
+    },
+    {
+      "in": "flip|48|9|{8=true, 0=true, 6=true, 3=true, 5=false, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|10|{6=true, 4=true, 9=true, 8=true, 5=true, 0=false}|1",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|48|11|{4=true, 7=true, 11=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|12|{0=false, 7=false, 3=true, 5=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|13|{4=true, 0=true, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|14|{5=false, 11=true, 7=false, 3=true, 1=true, 9=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|15|{9=true, 0=false, 7=true, 6=true, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|16|{6=false, 9=true, 5=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|17|{4=true, 9=true, 2=true, 10=true, 11=true, 5=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|18|{2=false, 8=true, 6=true, 3=true, 10=false, 5=true}|null",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|48|19|{0=true, 11=true, 4=true, 1=false, 7=false}|0",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|48|20|{8=true, 11=true, 0=true, 4=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|21|{1=false, 10=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|22|{9=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|48|23|{10=true}|-1",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|48|24|{10=false, 9=false, 5=true, 4=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|0|{0=false, 8=true, 4=true, 7=true, 9=true, 5=true, 1=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|1|{8=true, 1=true, 7=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|2|{4=true, 1=true, 3=false, 8=true, 9=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|3|{9=true, 2=true, 3=true, 1=true, 5=true, 11=false}|2",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|49|4|{1=false, 11=true, 3=true, 6=true, 2=true}|0",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|49|5|{1=true, 4=true, 8=true, 7=true, 11=false, 6=false}|2",
+      "out": "[1, 7]"
+    },
+    {
+      "in": "flip|49|6|{}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|7|{5=true, 1=true, 11=false, 0=false, 6=true, 8=true}|0",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|49|8|{5=false, 3=false, 7=false, 6=false}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|9|{9=false, 1=false, 5=true}|null",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|49|10|{2=true, 4=false, 1=true, 9=true, 5=false, 10=true}|2",
+      "out": "[1, 9]"
+    },
+    {
+      "in": "flip|49|11|{9=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|12|{11=true, 4=true}|1",
+      "out": "[11, 4]"
+    },
+    {
+      "in": "flip|49|13|{1=false, 9=false, 7=true}|0",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|49|14|{10=true, 1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|15|{3=true, 4=true, 11=true, 1=true, 0=true, 6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|16|{9=true, 5=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|17|{}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|18|{8=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|19|{}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|20|{9=false, 7=false, 5=true}|1",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|49|21|{10=false, 3=true, 2=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|22|{1=true, 0=true, 8=true, 11=true, 7=false, 6=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|23|{1=false, 4=true, 0=false, 8=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|24|{6=true, 3=true}|-1",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|49|25|{}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|26|{8=true, 9=false, 5=false, 2=true, 6=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|49|27|{7=true, 0=false}|-1",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|50|0|{7=false, 3=true, 6=false, 10=true, 2=true, 1=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|50|1|{5=false, 2=true, 0=true, 4=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|50|2|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|50|3|{6=true, 0=true, 1=true}|-1",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|50|4|{6=false, 3=false, 7=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|50|5|{5=true, 0=true, 9=false, 6=false, 2=false, 7=false}|0",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|50|6|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|50|7|{10=false, 1=false, 3=true, 4=false, 11=true, 5=true}|0",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|50|8|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|50|9|{8=true, 3=true, 4=true, 2=false, 10=false, 1=false, 11=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|50|10|{10=true, 8=true, 4=false, 3=true, 9=true, 7=false}|-1",
+      "out": "[10, 9]"
+    },
+    {
+      "in": "flip|50|11|{9=true, 5=false, 10=true, 4=true, 6=true}|null",
+      "out": "[4, 6]"
+    },
+    {
+      "in": "flip|51|0|{10=true, 3=true, 7=true, 4=true, 0=true, 1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|51|1|{}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|51|2|{7=true, 10=true, 6=true, 0=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|51|3|{4=false, 8=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|51|4|{10=true, 1=false, 2=true, 0=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|51|5|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|51|6|{5=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|51|7|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|51|8|{1=true, 3=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|51|9|{8=false, 2=true, 9=false, 11=true, 5=false, 6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|51|10|{6=true, 8=false, 11=true, 5=true, 7=true, 2=false, 0=true}|5",
+      "out": "[5, 0]"
+    },
+    {
+      "in": "flip|52|0|{0=true, 11=false, 2=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|52|1|{7=true, 1=true, 5=false, 11=false, 2=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|52|2|{4=true, 9=true, 6=false, 7=false, 3=false, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|52|3|{11=true, 3=false, 10=true, 1=true, 4=true, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|52|4|{4=true, 5=true, 9=false, 11=false}|5",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|52|5|{3=true, 11=false, 5=true, 2=true, 0=true, 9=true}|5",
+      "out": "[3, 9]"
+    },
+    {
+      "in": "flip|52|6|{0=true, 1=true, 5=true, 8=true, 10=true, 7=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|52|7|{5=true, 4=true, 2=false, 11=true}|null",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|52|8|{8=true, 2=true, 11=true, 7=true}|null",
+      "out": "[2, 7]"
+    },
+    {
+      "in": "flip|52|9|{11=false, 4=false, 3=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|52|10|{0=false, 6=false, 4=false, 3=true, 11=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|52|11|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|52|12|{3=true, 5=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|52|13|{7=true, 6=true, 5=true, 10=false}|2",
+      "out": "[6]"
+    },
+    {
+      "in": "flip|53|0|{}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|53|1|{4=false, 10=true, 9=true, 2=true, 6=true, 11=false, 1=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|53|2|{8=false, 2=true, 4=true}|-1",
+      "out": "[4]"
+    },
+    {
+      "in": "flip|53|3|{10=true, 4=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|53|4|{10=true, 2=false, 7=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|53|5|{8=true, 11=false, 2=false}|0",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|53|6|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|53|7|{9=true, 7=true, 4=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|53|8|{4=true, 6=true, 9=true, 3=true, 1=true}|0",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|53|9|{4=true, 6=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|53|10|{5=false, 7=true, 11=true, 10=false, 6=true, 4=true, 2=true, 1=true}|0",
+      "out": "[11, 2]"
+    },
+    {
+      "in": "flip|53|11|{0=true, 8=true, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|53|12|{3=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|53|13|{11=true, 8=true, 2=true, 0=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|53|14|{8=true, 2=false}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|53|15|{9=false, 10=true, 0=true, 7=true, 6=true, 11=false, 5=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|53|16|{11=true, 7=true}|5",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|53|17|{3=false, 8=false, 9=true}|2",
+      "out": "[9]"
+    },
+    {
+      "in": "flip|53|18|{4=true, 9=true, 11=false, 0=false, 3=true}|-1",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|53|19|{2=true, 1=false, 7=true, 11=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|53|20|{3=true, 6=true, 8=true}|null",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|53|21|{11=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|53|22|{5=true, 1=true, 9=true, 8=false, 2=false, 11=true, 4=true}|0",
+      "out": "[5, 1, 11]"
+    },
+    {
+      "in": "flip|53|23|{11=true, 0=true, 4=false, 1=false, 3=false}|2",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|53|24|{3=false, 2=true, 7=true, 9=true, 10=false}|-1",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|54|0|{6=false, 7=false, 1=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|54|1|{5=false, 11=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|54|2|{7=true, 11=false, 3=true, 5=true, 2=true, 10=true, 9=false}|0",
+      "out": "[7, 5]"
+    },
+    {
+      "in": "flip|54|3|{0=true, 2=true, 5=true, 11=false, 1=false, 9=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|54|4|{}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|54|5|{4=true, 6=true, 10=true, 8=false, 3=true, 1=true}|0",
+      "out": "[6, 1]"
+    },
+    {
+      "in": "flip|54|6|{2=true, 9=true, 7=false, 10=true, 5=true, 1=false, 11=true}|2",
+      "out": "[9, 11]"
+    },
+    {
+      "in": "flip|54|7|{3=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|54|8|{6=false, 7=false, 2=true, 3=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|54|9|{0=false, 4=true, 3=false, 11=true, 1=true, 9=false}|-1",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|54|10|{1=true, 0=true, 11=true, 7=false, 5=true}|0",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|54|11|{8=true, 6=false, 1=true, 11=false, 0=true, 4=false, 7=true}|-1",
+      "out": "[8, 7]"
+    },
+    {
+      "in": "flip|54|12|{4=true, 5=true}|0",
+      "out": "[4]"
+    },
+    {
+      "in": "flip|54|13|{11=false, 2=true, 1=true, 8=false, 0=true, 10=true, 7=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|54|14|{10=true, 9=true, 7=true, 11=false, 2=false, 6=false}|5",
+      "out": "[9, 7]"
+    },
+    {
+      "in": "flip|54|15|{4=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|54|16|{4=true, 9=true, 8=false, 3=true, 2=true}|0",
+      "out": "[4]"
+    },
+    {
+      "in": "flip|54|17|{10=true, 8=true, 4=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|0|{1=false, 10=false, 8=true, 4=true, 11=false, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|1|{}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|2|{0=false, 6=true, 9=false, 7=true, 1=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|3|{5=true, 4=true, 1=true, 9=true}|0",
+      "out": "[1, 9]"
+    },
+    {
+      "in": "flip|55|4|{2=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|5|{0=true, 9=true, 10=true, 4=true, 2=true, 8=false, 11=true}|0",
+      "out": "[0, 10, 2, 11]"
+    },
+    {
+      "in": "flip|55|6|{8=true, 10=true, 1=false, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|7|{9=true, 10=false, 5=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|8|{5=true, 8=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|9|{7=false, 1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|10|{9=true, 8=false, 6=true, 5=true, 7=true, 0=true, 10=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|11|{7=false, 10=false, 11=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|12|{4=true, 0=true, 8=true, 11=true, 9=false, 6=true, 2=true}|0",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|55|13|{9=true, 1=false, 6=true, 0=true, 7=true, 11=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|14|{}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|15|{9=true, 6=true, 2=true, 3=true, 5=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|16|{7=false, 5=true, 11=true, 3=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|17|{1=true, 7=false, 10=false, 3=true, 5=false}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|18|{9=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|19|{2=true, 0=true, 11=false, 5=true}|2",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|55|20|{3=false, 8=false, 2=false, 11=false, 7=true}|-1",
+      "out": "[7]"
+    },
+    {
+      "in": "flip|55|21|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|22|{8=true, 2=true, 0=false, 1=true, 5=true, 10=false}|-1",
+      "out": "[8, 2]"
+    },
+    {
+      "in": "flip|55|23|{6=true, 8=true, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|55|24|{9=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|0|{5=true, 1=true, 6=true, 4=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|1|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|2|{}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|3|{8=true, 1=true, 7=false, 6=true, 0=false, 4=false, 5=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|4|{9=false, 7=false, 5=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|5|{8=true, 10=true, 9=true, 1=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|6|{10=false, 1=true, 9=true, 5=true, 3=true, 0=true, 4=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|7|{5=true, 1=true, 11=false, 4=true, 0=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|8|{11=true, 0=true, 10=true, 8=true, 6=true, 2=true}|5",
+      "out": "[11, 10]"
+    },
+    {
+      "in": "flip|56|9|{}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|10|{3=true, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|11|{6=true, 8=false, 3=true, 4=true, 0=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|12|{5=true, 6=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|13|{10=true, 2=false, 7=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|14|{7=false, 4=false, 5=true, 10=true, 6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|15|{6=false, 8=true, 11=true, 3=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|16|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|17|{4=true, 7=true, 0=false, 9=true, 6=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|18|{9=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|56|19|{6=false, 9=false, 0=true, 7=false, 1=true}|1",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|56|20|{8=true, 1=true, 3=true, 10=false, 2=true}|0",
+      "out": "[3]"
+    },
+    {
+      "in": "flip|57|0|{3=true, 9=true, 4=true, 0=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|57|1|{5=false, 2=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|57|2|{3=false, 10=false, 1=true, 2=true, 4=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|57|3|{6=false, 5=true, 4=true, 0=true, 10=false, 9=true}|1",
+      "out": "[5]"
+    },
+    {
+      "in": "flip|57|4|{10=true, 2=true, 5=false, 7=false}|0",
+      "out": "[10]"
+    },
+    {
+      "in": "flip|57|5|{3=true, 0=true, 4=false, 7=false, 9=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|57|6|{6=true, 7=false, 1=false, 0=true, 4=true, 8=true, 5=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|57|7|{2=false, 6=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|57|8|{5=false, 2=false, 0=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|57|9|{4=false, 0=false, 9=true, 7=true, 8=true, 10=true, 2=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|57|10|{}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|57|11|{8=false, 4=true, 5=true, 7=false, 9=true, 10=true, 0=true}|0",
+      "out": "[4, 5, 0]"
+    },
+    {
+      "in": "flip|57|12|{}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|57|13|{5=true, 2=true}|2",
+      "out": "[]"
+    },
+    {
+      "in": "flip|57|14|{2=true, 8=true, 1=true, 9=true, 10=true, 6=true}|0",
+      "out": "[8, 1, 6]"
+    },
+    {
+      "in": "flip|58|0|{10=true, 9=true, 4=true, 0=false, 8=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|58|1|{2=true, 4=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|58|2|{5=true}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|58|3|{10=true, 11=true, 1=false, 0=true, 3=true, 6=false, 5=false, 7=true, 9=false}|0",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|58|4|{1=true, 7=true, 6=false, 11=true, 10=true}|5",
+      "out": "[1]"
+    },
+    {
+      "in": "flip|58|5|{0=false, 2=false, 4=true, 3=true, 8=false, 10=true}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|58|6|{11=true, 8=true, 4=true, 3=false, 9=false}|-1",
+      "out": "[8]"
+    },
+    {
+      "in": "flip|58|7|{2=false, 6=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|58|8|{5=false, 2=true, 7=true}|null",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|58|9|{6=true, 1=true, 8=true, 3=true, 10=false}|0",
+      "out": "[6, 3]"
+    },
+    {
+      "in": "flip|58|10|{6=true, 2=true, 7=false, 11=false}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|58|11|{7=true, 1=true, 8=false, 0=true, 10=false}|2",
+      "out": "[7, 0]"
+    },
+    {
+      "in": "flip|58|12|{0=true, 11=false, 8=false, 10=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|0|{4=true, 11=true, 8=true, 7=true, 0=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|1|{0=false, 11=true, 1=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|2|{10=false, 4=true, 7=false}|1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|3|{1=false, 6=true, 8=true, 7=false, 4=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|4|{5=true, 1=true, 7=true}|0",
+      "out": "[1, 7]"
+    },
+    {
+      "in": "flip|59|5|{9=true, 4=true, 5=false, 2=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|6|{8=false, 4=true, 9=true, 5=true, 3=false, 1=true, 0=true}|1",
+      "out": "[5, 0]"
+    },
+    {
+      "in": "flip|59|7|{7=false}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|8|{5=true, 3=false, 9=true, 10=false, 2=true, 11=true}|0",
+      "out": "[2]"
+    },
+    {
+      "in": "flip|59|9|{4=false, 5=false, 0=false}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|10|{7=true, 4=true, 1=true, 11=true, 5=false, 2=false, 8=true}|1",
+      "out": "[7, 4, 8]"
+    },
+    {
+      "in": "flip|59|11|{9=true, 10=false, 0=true, 1=true, 7=true}|null",
+      "out": "[0]"
+    },
+    {
+      "in": "flip|59|12|{6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|13|{7=false, 9=true, 6=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|14|{6=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|15|{5=false, 9=true, 10=true, 1=true, 0=true, 6=true, 3=false}|5",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|16|{5=false, 1=true, 11=true, 6=true}|-1",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|17|{2=true, 7=true, 6=true}|null",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|18|{11=false, 4=true, 7=true}|0",
+      "out": "[]"
+    },
+    {
+      "in": "flip|59|19|{2=true, 11=true, 6=false, 3=false, 9=false, 1=true, 8=true}|1",
+      "out": "[11]"
+    },
+    {
+      "in": "flip|59|20|{5=false, 6=true, 11=true, 7=true, 1=true, 3=false, 0=true}|0",
+      "out": "[6]"
+    },
+    {
+      "in": "inv|start",
+      "out": "Zed"
+    },
+    {
+      "in": "inv|0|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|1|[MVP+] Alice has invited you to join their party! You have 60 seconds",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|2|The party invite from Bob has expired.",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|3|has invited you to join their party!",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|4|The party invite from Bob has expired.",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|5|has invited you to join their party!",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|6|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|7|",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|8|random",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|9|The party invite from Bob has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|10|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|11|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|12|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|13|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|14|The party invite from Alice has expired",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|15|The party invite from [VIP] Alice has expired.",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|16|",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|17|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|18|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|19|random",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|20|The party invite from Bob has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|21|The party invite from bob has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|22|random",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|23|The party invite from Alice has expired",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|24|has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|25|random",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|26|The party invite from bob has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|27|The party invite from [VIP] Alice has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|28|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|29|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|30|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|31|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|32|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|33|The party invite from Bob has expired.",
+      "out": "null"
+    },
+    {
+      "in": "inv|34|has invited you to join their party!",
+      "out": "null"
+    },
+    {
+      "in": "inv|35|[MVP+] Alice has invited you to join their party! You have 60 seconds",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|36|",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|37|The party invite from Alice has expired",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|38|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|39|random",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|40|The party invite from Alice has expired",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|41|",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|42|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|43|",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|44|",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|45|The party invite from Alice has expired",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|46|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|47|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|48|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|49|The party invite from [VIP] Alice has expired.",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|50|",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|51|[MVP+] Alice has invited you to join their party! You have 60 seconds",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|52|The party invite from Alice has expired",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|53|The party invite from Bob has expired.",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|54|[MVP+] Alice has invited you to join their party! You have 60 seconds",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|55|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|56|The party invite from [VIP] Alice has expired.",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|57|The party invite from Bob has expired.",
+      "out": "null"
+    },
+    {
+      "in": "inv|58|The party invite from bob has expired.",
+      "out": "null"
+    },
+    {
+      "in": "inv|59|The party invite from Bob has expired.",
+      "out": "null"
+    },
+    {
+      "in": "inv|60|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|61|has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|62|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|63|The party invite from Alice has expired",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|64|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|65|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|66|The party invite from bob has expired.",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|67|has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|68|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|69|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|70|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|71|The party invite from Bob has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|72|",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|73|The party invite from bob has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|74|The party invite from bob has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|75|has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|76|The party invite from bob has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|77|The party invite from Alice has expired",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|78|has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|79|[MVP+] Alice has invited you to join their party! You have 60 seconds",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|80|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|81|random",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|82|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|83|The party invite from bob has expired.",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|84|has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|85|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|86|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|87|[MVP+] Alice has invited you to join their party! You have 60 seconds",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|88|The party invite from bob has expired.",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|89|The party invite from [VIP] Alice has expired.",
+      "out": "null"
+    },
+    {
+      "in": "inv|90|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|91|The party invite from bob has expired.",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|92|",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|93|The party invite from Alice has expired",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|94|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|95|The party invite from Bob has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|96|The party invite from Alice has expired",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|97|The party invite from Alice has expired",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|98|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|99|random",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|100|has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|101|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|102|The party invite from Bob has expired.",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|103|",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|104|has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|105|The party invite from bob has expired.",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|106|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|107|[MVP+] Alice has invited you to join their party! You have 60 seconds",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|108|The party invite from [VIP] Alice has expired.",
+      "out": "null"
+    },
+    {
+      "in": "inv|109|The party invite from Alice has expired",
+      "out": "null"
+    },
+    {
+      "in": "inv|110|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|111|random",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|112|The party invite from [VIP] Alice has expired.",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|113|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|114|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|115|The party invite from bob has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|116|The party invite from bob has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|117|[MVP+] Alice has invited you to join their party! You have 60 seconds",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|118|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|119|",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|120|The party invite from bob has expired.",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|121|The party invite from [VIP] Alice has expired.",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|122|The party invite from [VIP] Alice has expired.",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|123|The party invite from [VIP] Alice has expired.",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|124|The party invite from Alice has expired",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|125|The party invite from Bob has expired.",
+      "out": "null"
+    },
+    {
+      "in": "inv|126|",
+      "out": "null"
+    },
+    {
+      "in": "inv|127|The party invite from Alice has expired",
+      "out": "null"
+    },
+    {
+      "in": "inv|128|The party invite from bob has expired.",
+      "out": "null"
+    },
+    {
+      "in": "inv|129|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|130|The party invite from [VIP] Alice has expired.",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|131|has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|132|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|133|[MVP+] Alice has invited you to join their party! You have 60 seconds",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|134|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|135|The party invite from Bob has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|136|[MVP+] Alice has invited you to join their party! You have 60 seconds",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|137|The party invite from [VIP] Alice has expired.",
+      "out": "null"
+    },
+    {
+      "in": "inv|138|has invited you to join their party!",
+      "out": "null"
+    },
+    {
+      "in": "inv|139|The party invite from Alice has expired",
+      "out": "null"
+    },
+    {
+      "in": "inv|140|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|141|The party invite from Bob has expired.",
+      "out": "null"
+    },
+    {
+      "in": "inv|142|The party invite from [VIP] Alice has expired.",
+      "out": "null"
+    },
+    {
+      "in": "inv|143|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|144|The party invite from [VIP] Alice has expired.",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|145|",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|146|The party invite from Alice has expired",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|147|",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|148|[MVP+] Alice has invited you to join their party! You have 60 seconds",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|149|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|150|",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|151|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|152|",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|153|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|154|The party invite from bob has expired.",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|155|has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|156|[MVP+] Alice has invited you to join their party! You have 60 seconds",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|157|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|158|[MVP+] Alice has invited you to join their party! You have 60 seconds",
+      "out": "Alice"
+    },
+    {
+      "in": "inv|159|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|160|The party invite from bob has expired.",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|161|random",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|162|random",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|163|The party invite from Alice has expired",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|164|The party invite from bob has expired.",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|165|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|166|The party invite from Bob has expired.",
+      "out": "null"
+    },
+    {
+      "in": "inv|167|The party invite from [VIP] Alice has expired.",
+      "out": "null"
+    },
+    {
+      "in": "inv|168|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|169|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|170|The party invite from [VIP] Alice has expired.",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|171|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|172|The party invite from Alice has expired",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|173|The party invite from bob has expired.",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|174|The party invite from [VIP] Alice has expired.",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|175|The party invite from Bob has expired.",
+      "out": "null"
+    },
+    {
+      "in": "inv|176|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|177|random",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|178|The party invite from Alice has expired",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|179|",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|180|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|181|has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|182|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|183|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|184|The party invite from Alice has expired",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|185|The party invite from [VIP] Alice has expired.",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|186|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|187|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|188|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|189|Bob has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|190|has invited you to join their party!",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|191|",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|192|random",
+      "out": "Bob"
+    },
+    {
+      "in": "inv|193|§9Dan has invited you to join their party!",
+      "out": "Dan"
+    },
+    {
+      "in": "inv|194|xx Carl has invited you to join their party!",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|195|",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|196|The party invite from [VIP] Alice has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|197|The party invite from Bob has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|198|The party invite from Bob has expired.",
+      "out": "Carl"
+    },
+    {
+      "in": "inv|199|[MVP+] Alice has invited you to join their party! You have 60 seconds",
+      "out": "Alice"
+    },
+    {
+      "in": "accept|p accept",
+      "out": "true"
+    },
+    {
+      "in": "warp|p accept|true",
+      "out": "null"
+    },
+    {
+      "in": "warp|p accept|false",
+      "out": "null"
+    },
+    {
+      "in": "accept| P ACCEPT ",
+      "out": "true"
+    },
+    {
+      "in": "warp| P ACCEPT |true",
+      "out": "null"
+    },
+    {
+      "in": "warp| P ACCEPT |false",
+      "out": "null"
+    },
+    {
+      "in": "accept|party accept",
+      "out": "true"
+    },
+    {
+      "in": "warp|party accept|true",
+      "out": "null"
+    },
+    {
+      "in": "warp|party accept|false",
+      "out": "null"
+    },
+    {
+      "in": "accept|party  accept",
+      "out": "false"
+    },
+    {
+      "in": "warp|party  accept|true",
+      "out": "null"
+    },
+    {
+      "in": "warp|party  accept|false",
+      "out": "null"
+    },
+    {
+      "in": "accept|p accept Bob",
+      "out": "false"
+    },
+    {
+      "in": "warp|p accept Bob|true",
+      "out": "null"
+    },
+    {
+      "in": "warp|p accept Bob|false",
+      "out": "null"
+    },
+    {
+      "in": "accept|hub",
+      "out": "false"
+    },
+    {
+      "in": "warp|hub|true",
+      "out": "hub"
+    },
+    {
+      "in": "warp|hub|false",
+      "out": "hub"
+    },
+    {
+      "in": "accept|Hub",
+      "out": "false"
+    },
+    {
+      "in": "warp|Hub|true",
+      "out": "hub"
+    },
+    {
+      "in": "warp|Hub|false",
+      "out": "hub"
+    },
+    {
+      "in": "accept| hub ",
+      "out": "false"
+    },
+    {
+      "in": "warp| hub |true",
+      "out": "hub"
+    },
+    {
+      "in": "warp| hub |false",
+      "out": "hub"
+    },
+    {
+      "in": "accept|jerry",
+      "out": "false"
+    },
+    {
+      "in": "warp|jerry|true",
+      "out": "null"
+    },
+    {
+      "in": "warp|jerry|false",
+      "out": "jerry"
+    },
+    {
+      "in": "accept|warp hub",
+      "out": "false"
+    },
+    {
+      "in": "warp|warp hub|true",
+      "out": "null"
+    },
+    {
+      "in": "warp|warp hub|false",
+      "out": "null"
+    },
+    {
+      "in": "accept|",
+      "out": "false"
+    },
+    {
+      "in": "warp||true",
+      "out": "null"
+    },
+    {
+      "in": "warp||false",
+      "out": "null"
+    },
+    {
+      "in": "accept|garden",
+      "out": "false"
+    },
+    {
+      "in": "warp|garden|true",
+      "out": "garden"
+    },
+    {
+      "in": "warp|garden|false",
+      "out": "garden"
+    },
+    {
+      "in": "accept|is",
+      "out": "false"
+    },
+    {
+      "in": "warp|is|true",
+      "out": "null"
+    },
+    {
+      "in": "warp|is|false",
+      "out": "null"
+    },
+    {
+      "in": "accept|dungeon_hub",
+      "out": "false"
+    },
+    {
+      "in": "warp|dungeon_hub|true",
+      "out": "dungeon_hub"
+    },
+    {
+      "in": "warp|dungeon_hub|false",
+      "out": "dungeon_hub"
+    }
+  ]
+}

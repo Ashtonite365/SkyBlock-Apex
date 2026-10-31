@@ -1,0 +1,29 @@
+sample	{"storageInventories":{"0":{"slot":0,"inventory":null,"icon":null},"3":{"slot":3,"inventory":"H4sIAAAAAAAA/03MMQvCMBCG4dMithkqDuLa3+Fkhw4uFUQEp1KTKwaau5JcEf+90Q71tuN7eBVABtmpvlX19Xy5K4i/AqXZDUxIEjLInSXUvu3k0LPHNJIFrMuH7a28U9jNsx6DsGuodQjbMgyopeCukCcWFRlIYWkN7GdvbOuYTBNe7A0ksNI8ksT+caKbmcYw4T9JJpL/1/x3+N0H6+2+c9cAAAA=","icon":"H4sIAAAAAAAA/+NiYOBk4PT0C3P1C/EPiuRiAPK5GLiS83ML8vNS80qKORhEczPzUpOLEtNKrJJLi0vyc+PzEnNTGbhd81JSixScM1KLSxg4GJgyUxj4kVSCheEAADCILbhnAAAA"},"12":{"slot":12,"inventory":null,"icon":"H4sIAAAAAAAA/+NiYOBk4PT0C3P1C/EPiuRiAPK5GLiS83ML8vNS80qKORhEczPzUpOLEtNKrJJLi0vyc+PzEnNTGbhd81JSixScM1KLSxg4GJgyUxj4kVSCheEAADCILbhnAAAA"}},"customNames":{"1":"Pets","12":"Mining stuff"},"hotbarSelectedPage":12}
+empty	{"storageInventories":{},"customNames":{},"hotbarSelectedPage":null}
+name 0	Ender Chest #1
+name 1	Pets
+name 2	Ender Chest #3
+name 3	Ender Chest #4
+name 4	Ender Chest #5
+name 5	Ender Chest #6
+name 6	Ender Chest #7
+name 7	Ender Chest #8
+name 8	Ender Chest #9
+name 9	Backpack #1
+name 10	Backpack #2
+name 11	Backpack #3
+name 12	Mining stuff
+name 13	Backpack #5
+name 14	Backpack #6
+name 15	Backpack #7
+name 16	Backpack #8
+name 17	Backpack #9
+name 18	Backpack #10
+name 19	Backpack #11
+name 20	Backpack #12
+name 21	Backpack #13
+name 22	Backpack #14
+name 23	Backpack #15
+name 24	Backpack #16
+name 25	Backpack #17
+name 26	Backpack #18

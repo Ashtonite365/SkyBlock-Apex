@@ -1,0 +1,35 @@
+built ok
+root AnyCaseLiteral apex exec=true
+  AnyCaseLiteral buttons exec=true redirect=false
+  AnyCaseLiteral config exec=true redirect=false
+    AnyCaseLiteral toggle exec=false redirect=false
+      ArgumentCommandNode config exec=false redirect=false
+        ArgumentCommandNode property exec=true redirect=false
+  AnyCaseLiteral help exec=true redirect=false
+    ArgumentCommandNode category exec=true redirect=false
+  AnyCaseLiteral price exec=false redirect=false
+    ArgumentCommandNode item exec=true redirect=false
+  AnyCaseLiteral repo exec=false redirect=false
+    AnyCaseLiteral checkpr exec=false redirect=false
+      ArgumentCommandNode prnum exec=true redirect=false
+    AnyCaseLiteral reload exec=true redirect=false
+      AnyCaseLiteral fetch exec=true redirect=false
+  AnyCaseLiteral sendcoords exec=true redirect=false
+    ArgumentCommandNode rest exec=true redirect=false
+  AnyCaseLiteral storage exec=true redirect=false
+  AnyCaseLiteral storagename exec=false redirect=false
+    AnyCaseLiteral backpack exec=false redirect=false
+      ArgumentCommandNode page exec=true redirect=false
+        ArgumentCommandNode name exec=true redirect=false
+    AnyCaseLiteral enderchest exec=false redirect=false
+      ArgumentCommandNode page exec=true redirect=false
+        ArgumentCommandNode name exec=true redirect=false
+  AnyCaseLiteral storageoverview exec=true redirect=false
+  AnyCaseLiteral debuglog exec=false redirect=false
+    AnyCaseLiteral toggle exec=false redirect=false
+      ArgumentCommandNode tag exec=true redirect=false
+  AnyCaseLiteral repo exec=true redirect=false
+exec [apex config toggle nosuchconfig prop] ok 1 fb=[fb apex.command.toggle.no-config-found]
+exec [apex dev debuglog toggle zz-ours-test] ex IllegalStateException Config dev.ashtonite365.apex.features.debug.DebugLogger$EnabledLogs@# not loaded — forgot to register? fb=[]
+exec [apex dev debuglog toggle zz-ours-test] ex IllegalStateException Config dev.ashtonite365.apex.features.debug.DebugLogger$EnabledLogs@# not loaded — forgot to register? fb=[]
+debuglog ex IllegalStateException Config dev.ashtonite365.apex.features.debug.DebugLogger$EnabledLogs@# not loaded — forgot to register?

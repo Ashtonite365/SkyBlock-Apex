@@ -1,0 +1,2513 @@
+{
+  "cases": 627,
+  "data": [
+    {
+      "in": "status",
+      "out": "[DONE/✔/§a, FAILED/✖/§c, OPEN/✦/§6]"
+    },
+    {
+      "in": "parse|0|[Tic Tac Toe: [✦], Puzzles:(1), Name-Dash: [✔], , Tic Tac Toe: [✦], Name-Dash: [✔], Boulder: [?]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|1|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|2|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|3|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|4|[Ice Fill: [✔]  , Name-Dash: [✔]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|5|[ Higher Or Lower: [✖], Creeper Beams: [✔] (Ashton), ,   Two Spaces: [✔]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|6|[Creeper Beams: [✔] (Ashton), Teleport Maze: [✦] ,  Higher Or Lower: [✖], , Puzzles: (0), Puzzles: (0), Deaths: 3, Puzzles: (3)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|6|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|6|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|7|[Boulder: [?],  Three Weirdos: [✖] (Bob), Quiz: [✔] (Ashton) extra,   Two Spaces: [✔], Boulder: [?]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|8|[Bomb Defuse: [✔] (Ash_ton),   Two Spaces: [✔], Puzzles: (0), Puzzles: (3), Bomb Defuse: [✔] (Ash_ton), Creeper Beams: [✔] (Ashton)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|8|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|8|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|9|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|10|[Creeper Beams: [✔] (Ashton),  Higher Or Lower: [✖], puzzles: (1),  Higher Or Lower: [✖], Puzzles: (3), Quiz: [✔] (Ashton) extra, Puzzles: (1)]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|10|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|10|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|11|[puzzles: (1), Puzzles: (3)]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|11|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|11|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|12|[Creeper Beams: [✔] (Ashton), Deaths: 3, Name-Dash: [✔],  Higher Or Lower: [✖]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|13|[Puzzles: (0), Teleport Maze: [✦] ,  Puzzles: (2) , Puzzles: (1), ???: [✦], Puzzles: (99999999999)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|13|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|13|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|14|[ Three Weirdos: [✖] (Bob), Quiz: [✔] (Ashton) extra]",
+      "out": "null"
+    },
+    {
+      "in": "parse|15|[Water Board: [✔](x),  Higher Or Lower: [✖], puzzles: (1), Ice Fill: [✔]  ]",
+      "out": "null"
+    },
+    {
+      "in": "parse|16|[Puzzles: (3), Puzzles: (99999999999)]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|16|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|16|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|17|[Boulder: [?], Puzzles: (0), Name-Dash: [✔]]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|17|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|17|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|18|[Boulder: [?], Puzzles: (0), Puzzles: (99999999999), Puzzles:(1), Ice Fill: [✔]  , Puzzles: (1), Boulder: [?], Teleport Maze: [✦] ]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|18|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|18|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|19|[Ice Fill: [✔]  , , Creeper Beams: [✔] (Ashton), Deaths: 3,  Three Weirdos: [✖] (Bob), puzzles: (1)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|20|[Water Board: [✔](x), Puzzles: (1), Deaths: 3, Bomb Defuse: [✔] (Ash_ton)]",
+      "out": "State(count=1, entries=[])"
+    },
+    {
+      "in": "render|20|t",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "render|20|f",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "parse|21|[Name-Dash: [✔], Quiz: [✔] (Ashton) extra]",
+      "out": "null"
+    },
+    {
+      "in": "parse|22|[Creeper Beams: [✔] (Ashton), Deaths: 3, , Water Board: [✔](x),   Two Spaces: [✔], Bomb Defuse: [✔] (Ash_ton)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|23|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|24|[  Two Spaces: [✔], Puzzles: (1)]",
+      "out": "State(count=1, entries=[])"
+    },
+    {
+      "in": "render|24|t",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "render|24|f",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "parse|25|[Puzzles: (0), ???: [✦], Water Board: [✔](x),   Two Spaces: [✔], Puzzles: (1), ???: [✦],   Two Spaces: [✔]]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|25|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|25|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|26|[Bomb Defuse: [✔] (Ash_ton),  Puzzles: (2) ]",
+      "out": "State(count=2, entries=[])"
+    },
+    {
+      "in": "render|26|t",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "render|26|f",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "parse|27|[Boulder: [?],  Higher Or Lower: [✖], puzzles: (1)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|28|[Puzzles: (99999999999),  Puzzles: (2) ,  Three Weirdos: [✖] (Bob), Boulder: [?], Puzzles: (3), Name-Dash: [✔]]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|29|[, Puzzles:(1)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|30|[  Two Spaces: [✔]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|31|[  Two Spaces: [✔],  Puzzles: (2) , Puzzles:(1), Bomb Defuse: [✔] (Ash_ton)]",
+      "out": "State(count=2, entries=[Entry(name=Bomb Defuse, status=DONE, player=Ash_ton)])"
+    },
+    {
+      "in": "render|31|t",
+      "out": "[§5Puzzles §8(§32§8), §eBomb Defuse§8: [§a✔§8] §7(§6Ash_ton§7)]"
+    },
+    {
+      "in": "render|31|f",
+      "out": "[§5Puzzles §8(§32§8), §eBomb Defuse§8: [§a✔§8]]"
+    },
+    {
+      "in": "parse|32|[Puzzles: (1), Teleport Maze: [✦] ,  Three Weirdos: [✖] (Bob), ???: [✦]]",
+      "out": "State(count=1, entries=[Entry(name=Teleport Maze, status=OPEN, player=null)])"
+    },
+    {
+      "in": "render|32|t",
+      "out": "[§5Puzzles §8(§31§8), §eTeleport Maze§8: [§6✦§8]]"
+    },
+    {
+      "in": "render|32|f",
+      "out": "[§5Puzzles §8(§31§8), §eTeleport Maze§8: [§6✦§8]]"
+    },
+    {
+      "in": "parse|33|[Puzzles: (99999999999), Tic Tac Toe: [✦], Creeper Beams: [✔] (Ashton), Boulder: [?], Puzzles: (1), Name-Dash: [✔],   Two Spaces: [✔], Puzzles: (3)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|34|[Water Board: [✔](x), Water Board: [✔](x), Name-Dash: [✔],   Two Spaces: [✔],  Puzzles: (2) , puzzles: (1)]",
+      "out": "State(count=2, entries=[])"
+    },
+    {
+      "in": "render|34|t",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "render|34|f",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "parse|35|[Deaths: 3, Name-Dash: [✔], ???: [✦], Puzzles: (0), Water Board: [✔](x), Puzzles: (3), Puzzles: (3)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|35|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|35|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|36|[Water Board: [✔](x), Tic Tac Toe: [✦], Name-Dash: [✔], Name-Dash: [✔], Puzzles:(1)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|37|[Name-Dash: [✔], ???: [✦], Creeper Beams: [✔] (Ashton), Puzzles: (3), Ice Fill: [✔]  , Puzzles: (99999999999)]",
+      "out": "State(count=3, entries=[Entry(name=Ice Fill, status=DONE, player=null)])"
+    },
+    {
+      "in": "render|37|t",
+      "out": "[§5Puzzles §8(§33§8), §eIce Fill§8: [§a✔§8]]"
+    },
+    {
+      "in": "render|37|f",
+      "out": "[§5Puzzles §8(§33§8), §eIce Fill§8: [§a✔§8]]"
+    },
+    {
+      "in": "parse|38|[Puzzles: (3), Water Board: [✔](x), Water Board: [✔](x), Tic Tac Toe: [✦],  Puzzles: (2) , Puzzles: (0), puzzles: (1)]",
+      "out": "State(count=3, entries=[Entry(name=Water Board, status=DONE, player=x), Entry(name=Water Board, status=DONE, player=x), Entry(name=Tic Tac Toe, status=OPEN, player=null)])"
+    },
+    {
+      "in": "render|38|t",
+      "out": "[§5Puzzles §8(§33§8), §eWater Board§8: [§a✔§8] §7(§6x§7), §eWater Board§8: [§a✔§8] §7(§6x§7), §eTic Tac Toe§8: [§6✦§8]]"
+    },
+    {
+      "in": "render|38|f",
+      "out": "[§5Puzzles §8(§33§8), §eWater Board§8: [§a✔§8], §eWater Board§8: [§a✔§8], §eTic Tac Toe§8: [§6✦§8]]"
+    },
+    {
+      "in": "parse|39|[Bomb Defuse: [✔] (Ash_ton), Water Board: [✔](x),   Two Spaces: [✔], Puzzles:(1), Boulder: [?], Puzzles: (1), Creeper Beams: [✔] (Ashton)]",
+      "out": "State(count=1, entries=[Entry(name=Creeper Beams, status=DONE, player=Ashton)])"
+    },
+    {
+      "in": "render|39|t",
+      "out": "[§5Puzzles §8(§31§8), §eCreeper Beams§8: [§a✔§8] §7(§6Ashton§7)]"
+    },
+    {
+      "in": "render|39|f",
+      "out": "[§5Puzzles §8(§31§8), §eCreeper Beams§8: [§a✔§8]]"
+    },
+    {
+      "in": "parse|40|[Puzzles: (99999999999), Ice Fill: [✔]  , Puzzles: (3),  Puzzles: (2) , , ???: [✦]]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|41|[Ice Fill: [✔]  ]",
+      "out": "null"
+    },
+    {
+      "in": "parse|42|[  Two Spaces: [✔], Water Board: [✔](x), Water Board: [✔](x), Ice Fill: [✔]  ,   Two Spaces: [✔], Creeper Beams: [✔] (Ashton), Quiz: [✔] (Ashton) extra, puzzles: (1)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|43|[Boulder: [?],   Two Spaces: [✔], Puzzles: (0), Puzzles:(1),  Puzzles: (2) ]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|43|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|43|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|44|[puzzles: (1), Bomb Defuse: [✔] (Ash_ton)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|45|[Puzzles: (3), Puzzles: (99999999999)]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|45|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|45|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|46|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|47|[Tic Tac Toe: [✦], ???: [✦],  Three Weirdos: [✖] (Bob), Ice Fill: [✔]  , Tic Tac Toe: [✦]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|48|[Puzzles:(1)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|49|[Ice Fill: [✔]  , Boulder: [?], Puzzles: (1)]",
+      "out": "State(count=1, entries=[])"
+    },
+    {
+      "in": "render|49|t",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "render|49|f",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "parse|50|[Puzzles: (99999999999), Teleport Maze: [✦] , Quiz: [✔] (Ashton) extra, Name-Dash: [✔]]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|51|[, Name-Dash: [✔],  Higher Or Lower: [✖], Teleport Maze: [✦] ]",
+      "out": "null"
+    },
+    {
+      "in": "parse|52|[Quiz: [✔] (Ashton) extra, Boulder: [?],  Three Weirdos: [✖] (Bob), Creeper Beams: [✔] (Ashton)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|53|[Bomb Defuse: [✔] (Ash_ton), Deaths: 3, Boulder: [?]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|54|[Teleport Maze: [✦] , Creeper Beams: [✔] (Ashton), Teleport Maze: [✦] ]",
+      "out": "null"
+    },
+    {
+      "in": "parse|55|[Teleport Maze: [✦] , Water Board: [✔](x), Deaths: 3, Puzzles: (0)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|55|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|55|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|56|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|57|[???: [✦], Name-Dash: [✔]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|58|[Boulder: [?], Name-Dash: [✔], Puzzles: (0), Quiz: [✔] (Ashton) extra]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|58|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|58|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|59|[Creeper Beams: [✔] (Ashton), Bomb Defuse: [✔] (Ash_ton), ???: [✦]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|60|[Tic Tac Toe: [✦], Bomb Defuse: [✔] (Ash_ton), Teleport Maze: [✦] , puzzles: (1), Ice Fill: [✔]  , Puzzles:(1), Ice Fill: [✔]  ]",
+      "out": "null"
+    },
+    {
+      "in": "parse|61|[Boulder: [?], Puzzles: (3), Puzzles:(1), Puzzles: (99999999999), Puzzles:(1)]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|61|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|61|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|62|[puzzles: (1), ???: [✦]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|63|[ Puzzles: (2) , ???: [✦],  Higher Or Lower: [✖], Bomb Defuse: [✔] (Ash_ton),   Two Spaces: [✔], Deaths: 3]",
+      "out": "State(count=2, entries=[Entry(name=???, status=OPEN, player=null), Entry(name=Higher Or Lower, status=FAILED, player=null)])"
+    },
+    {
+      "in": "render|63|t",
+      "out": "[§5Puzzles §8(§32§8), §e???§8: [§6✦§8], §eHigher Or Lower§8: [§c✖§8]]"
+    },
+    {
+      "in": "render|63|f",
+      "out": "[§5Puzzles §8(§32§8), §e???§8: [§6✦§8], §eHigher Or Lower§8: [§c✖§8]]"
+    },
+    {
+      "in": "parse|64|[Water Board: [✔](x)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|65|[Teleport Maze: [✦] , Name-Dash: [✔], Tic Tac Toe: [✦], Name-Dash: [✔]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|66|[ Higher Or Lower: [✖], Bomb Defuse: [✔] (Ash_ton), puzzles: (1), puzzles: (1), Creeper Beams: [✔] (Ashton)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|67|[Puzzles: (99999999999), Puzzles: (99999999999), Teleport Maze: [✦] ]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|68|[Puzzles: (99999999999)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|69|[Boulder: [?], Ice Fill: [✔]  ]",
+      "out": "null"
+    },
+    {
+      "in": "parse|70|[Puzzles: (1), ???: [✦], Puzzles: (1), Teleport Maze: [✦] , Tic Tac Toe: [✦], Deaths: 3, Creeper Beams: [✔] (Ashton)]",
+      "out": "State(count=1, entries=[Entry(name=???, status=OPEN, player=null)])"
+    },
+    {
+      "in": "render|70|t",
+      "out": "[§5Puzzles §8(§31§8), §e???§8: [§6✦§8]]"
+    },
+    {
+      "in": "render|70|f",
+      "out": "[§5Puzzles §8(§31§8), §e???§8: [§6✦§8]]"
+    },
+    {
+      "in": "parse|71|[puzzles: (1), Puzzles: (99999999999), Boulder: [?], , ???: [✦], Creeper Beams: [✔] (Ashton), Tic Tac Toe: [✦]]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|72|[Puzzles: (0), Deaths: 3, Puzzles: (0), Puzzles:(1)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|72|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|72|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|73|[Bomb Defuse: [✔] (Ash_ton), Creeper Beams: [✔] (Ashton), Puzzles: (3), Boulder: [?]]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|73|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|73|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|74|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|75|[Puzzles:(1),  Three Weirdos: [✖] (Bob),   Two Spaces: [✔], Tic Tac Toe: [✦], Tic Tac Toe: [✦], Quiz: [✔] (Ashton) extra]",
+      "out": "null"
+    },
+    {
+      "in": "parse|76|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|77|[, Boulder: [?], Teleport Maze: [✦] , Creeper Beams: [✔] (Ashton), Boulder: [?], Quiz: [✔] (Ashton) extra, Quiz: [✔] (Ashton) extra]",
+      "out": "null"
+    },
+    {
+      "in": "parse|78|[Bomb Defuse: [✔] (Ash_ton), Quiz: [✔] (Ashton) extra, Name-Dash: [✔]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|79|[ Puzzles: (2) , Tic Tac Toe: [✦], Creeper Beams: [✔] (Ashton), Boulder: [?],  Higher Or Lower: [✖],  Three Weirdos: [✖] (Bob)]",
+      "out": "State(count=2, entries=[Entry(name=Tic Tac Toe, status=OPEN, player=null), Entry(name=Creeper Beams, status=DONE, player=Ashton)])"
+    },
+    {
+      "in": "render|79|t",
+      "out": "[§5Puzzles §8(§32§8), §eTic Tac Toe§8: [§6✦§8], §eCreeper Beams§8: [§a✔§8] §7(§6Ashton§7)]"
+    },
+    {
+      "in": "render|79|f",
+      "out": "[§5Puzzles §8(§32§8), §eTic Tac Toe§8: [§6✦§8], §eCreeper Beams§8: [§a✔§8]]"
+    },
+    {
+      "in": "parse|80|[ Higher Or Lower: [✖], Boulder: [?], Bomb Defuse: [✔] (Ash_ton),   Two Spaces: [✔], Ice Fill: [✔]  ,  Puzzles: (2) ,   Two Spaces: [✔]]",
+      "out": "State(count=2, entries=[])"
+    },
+    {
+      "in": "render|80|t",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "render|80|f",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "parse|81|[Puzzles: (3), Water Board: [✔](x),  Higher Or Lower: [✖], Deaths: 3,  Three Weirdos: [✖] (Bob), Deaths: 3,   Two Spaces: [✔], Puzzles:(1)]",
+      "out": "State(count=3, entries=[Entry(name=Water Board, status=DONE, player=x), Entry(name=Higher Or Lower, status=FAILED, player=null)])"
+    },
+    {
+      "in": "render|81|t",
+      "out": "[§5Puzzles §8(§33§8), §eWater Board§8: [§a✔§8] §7(§6x§7), §eHigher Or Lower§8: [§c✖§8]]"
+    },
+    {
+      "in": "render|81|f",
+      "out": "[§5Puzzles §8(§33§8), §eWater Board§8: [§a✔§8], §eHigher Or Lower§8: [§c✖§8]]"
+    },
+    {
+      "in": "parse|82|[Puzzles: (99999999999), Puzzles: (3), Creeper Beams: [✔] (Ashton), Bomb Defuse: [✔] (Ash_ton), Teleport Maze: [✦] , Puzzles: (0), Tic Tac Toe: [✦]]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|83|[Puzzles:(1),  Three Weirdos: [✖] (Bob), Boulder: [?]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|84|[Creeper Beams: [✔] (Ashton)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|85|[Bomb Defuse: [✔] (Ash_ton),  Puzzles: (2) , Water Board: [✔](x),  Three Weirdos: [✖] (Bob)]",
+      "out": "State(count=2, entries=[Entry(name=Water Board, status=DONE, player=x), Entry(name=Three Weirdos, status=FAILED, player=Bob)])"
+    },
+    {
+      "in": "render|85|t",
+      "out": "[§5Puzzles §8(§32§8), §eWater Board§8: [§a✔§8] §7(§6x§7), §eThree Weirdos§8: [§c✖§8] §7(§6Bob§7)]"
+    },
+    {
+      "in": "render|85|f",
+      "out": "[§5Puzzles §8(§32§8), §eWater Board§8: [§a✔§8], §eThree Weirdos§8: [§c✖§8]]"
+    },
+    {
+      "in": "parse|86|[Water Board: [✔](x), Teleport Maze: [✦] ,  Puzzles: (2) ]",
+      "out": "State(count=2, entries=[])"
+    },
+    {
+      "in": "render|86|t",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "render|86|f",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "parse|87|[Quiz: [✔] (Ashton) extra, puzzles: (1), Deaths: 3, Quiz: [✔] (Ashton) extra,   Two Spaces: [✔], puzzles: (1)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|88|[puzzles: (1), Ice Fill: [✔]  , Bomb Defuse: [✔] (Ash_ton)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|89|[Puzzles: (1), Tic Tac Toe: [✦]]",
+      "out": "State(count=1, entries=[Entry(name=Tic Tac Toe, status=OPEN, player=null)])"
+    },
+    {
+      "in": "render|89|t",
+      "out": "[§5Puzzles §8(§31§8), §eTic Tac Toe§8: [§6✦§8]]"
+    },
+    {
+      "in": "render|89|f",
+      "out": "[§5Puzzles §8(§31§8), §eTic Tac Toe§8: [§6✦§8]]"
+    },
+    {
+      "in": "parse|90|[Bomb Defuse: [✔] (Ash_ton), Ice Fill: [✔]  , Quiz: [✔] (Ashton) extra, Ice Fill: [✔]  , Puzzles: (1),  Puzzles: (2) , Ice Fill: [✔]  ,  Puzzles: (2) ]",
+      "out": "State(count=1, entries=[])"
+    },
+    {
+      "in": "render|90|t",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "render|90|f",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "parse|91|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|92|[Puzzles:(1), Deaths: 3, Quiz: [✔] (Ashton) extra, Puzzles: (99999999999), Puzzles: (1)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|93|[Water Board: [✔](x), Tic Tac Toe: [✦], ???: [✦], , Ice Fill: [✔]  , Boulder: [?]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|94|[Water Board: [✔](x), Puzzles:(1),  Three Weirdos: [✖] (Bob), Puzzles: (3), Quiz: [✔] (Ashton) extra,  Higher Or Lower: [✖], Deaths: 3,  Higher Or Lower: [✖]]",
+      "out": "State(count=3, entries=[Entry(name=Higher Or Lower, status=FAILED, player=null)])"
+    },
+    {
+      "in": "render|94|t",
+      "out": "[§5Puzzles §8(§33§8), §eHigher Or Lower§8: [§c✖§8]]"
+    },
+    {
+      "in": "render|94|f",
+      "out": "[§5Puzzles §8(§33§8), §eHigher Or Lower§8: [§c✖§8]]"
+    },
+    {
+      "in": "parse|95|[Boulder: [?],  Puzzles: (2) ]",
+      "out": "State(count=2, entries=[])"
+    },
+    {
+      "in": "render|95|t",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "render|95|f",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "parse|96|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|97|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|98|[Puzzles: (1), Puzzles: (3), Ice Fill: [✔]  ,  Puzzles: (2) ,  Higher Or Lower: [✖], Ice Fill: [✔]  ,   Two Spaces: [✔]]",
+      "out": "State(count=1, entries=[])"
+    },
+    {
+      "in": "render|98|t",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "render|98|f",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "parse|99|[Name-Dash: [✔], puzzles: (1), Name-Dash: [✔]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|100|[  Two Spaces: [✔]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|101|[, Bomb Defuse: [✔] (Ash_ton)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|102|[Tic Tac Toe: [✦], Creeper Beams: [✔] (Ashton),  Higher Or Lower: [✖]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|103|[  Two Spaces: [✔]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|104|[Deaths: 3,  Puzzles: (2) , puzzles: (1), Quiz: [✔] (Ashton) extra,  Puzzles: (2) , puzzles: (1), Deaths: 3]",
+      "out": "State(count=2, entries=[])"
+    },
+    {
+      "in": "render|104|t",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "render|104|f",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "parse|105|[Puzzles: (3),  Higher Or Lower: [✖],  Puzzles: (2) ,  Puzzles: (2) , , Boulder: [?]]",
+      "out": "State(count=3, entries=[Entry(name=Higher Or Lower, status=FAILED, player=null)])"
+    },
+    {
+      "in": "render|105|t",
+      "out": "[§5Puzzles §8(§33§8), §eHigher Or Lower§8: [§c✖§8]]"
+    },
+    {
+      "in": "render|105|f",
+      "out": "[§5Puzzles §8(§33§8), §eHigher Or Lower§8: [§c✖§8]]"
+    },
+    {
+      "in": "parse|106|[Water Board: [✔](x), Tic Tac Toe: [✦], Puzzles: (0)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|106|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|106|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|107|[Bomb Defuse: [✔] (Ash_ton), Boulder: [?]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|108|[Quiz: [✔] (Ashton) extra, Boulder: [?], Deaths: 3, Quiz: [✔] (Ashton) extra, Puzzles:(1),  Three Weirdos: [✖] (Bob)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|109|[Boulder: [?],  Three Weirdos: [✖] (Bob)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|110|[  Two Spaces: [✔], Bomb Defuse: [✔] (Ash_ton),  Puzzles: (2) ,  Puzzles: (2) ]",
+      "out": "State(count=2, entries=[])"
+    },
+    {
+      "in": "render|110|t",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "render|110|f",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "parse|111|[  Two Spaces: [✔], Puzzles: (0),  Higher Or Lower: [✖], Quiz: [✔] (Ashton) extra, Puzzles:(1)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|111|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|111|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|112|[Puzzles: (99999999999),  Higher Or Lower: [✖]]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|113|[Tic Tac Toe: [✦], Puzzles: (99999999999), Ice Fill: [✔]  , Puzzles: (1),  Higher Or Lower: [✖], Water Board: [✔](x), puzzles: (1)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|114|[Quiz: [✔] (Ashton) extra, Quiz: [✔] (Ashton) extra]",
+      "out": "null"
+    },
+    {
+      "in": "parse|115|[  Two Spaces: [✔],  Higher Or Lower: [✖]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|116|[ Higher Or Lower: [✖], Puzzles: (1), Puzzles:(1), Bomb Defuse: [✔] (Ash_ton),  Higher Or Lower: [✖]]",
+      "out": "State(count=1, entries=[])"
+    },
+    {
+      "in": "render|116|t",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "render|116|f",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "parse|117|[Puzzles: (3),  Three Weirdos: [✖] (Bob),  Three Weirdos: [✖] (Bob), Puzzles: (3),  Three Weirdos: [✖] (Bob), Puzzles:(1), Ice Fill: [✔]  ]",
+      "out": "State(count=3, entries=[Entry(name=Three Weirdos, status=FAILED, player=Bob), Entry(name=Three Weirdos, status=FAILED, player=Bob)])"
+    },
+    {
+      "in": "render|117|t",
+      "out": "[§5Puzzles §8(§33§8), §eThree Weirdos§8: [§c✖§8] §7(§6Bob§7), §eThree Weirdos§8: [§c✖§8] §7(§6Bob§7)]"
+    },
+    {
+      "in": "render|117|f",
+      "out": "[§5Puzzles §8(§33§8), §eThree Weirdos§8: [§c✖§8], §eThree Weirdos§8: [§c✖§8]]"
+    },
+    {
+      "in": "parse|118|[ Three Weirdos: [✖] (Bob), Water Board: [✔](x), Puzzles: (0), Deaths: 3, Puzzles: (99999999999)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|118|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|118|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|119|[ Puzzles: (2) , Ice Fill: [✔]  ]",
+      "out": "State(count=2, entries=[Entry(name=Ice Fill, status=DONE, player=null)])"
+    },
+    {
+      "in": "render|119|t",
+      "out": "[§5Puzzles §8(§32§8), §eIce Fill§8: [§a✔§8]]"
+    },
+    {
+      "in": "render|119|f",
+      "out": "[§5Puzzles §8(§32§8), §eIce Fill§8: [§a✔§8]]"
+    },
+    {
+      "in": "parse|120|[Deaths: 3, Puzzles: (3), Tic Tac Toe: [✦],  Three Weirdos: [✖] (Bob)]",
+      "out": "State(count=3, entries=[Entry(name=Tic Tac Toe, status=OPEN, player=null), Entry(name=Three Weirdos, status=FAILED, player=Bob)])"
+    },
+    {
+      "in": "render|120|t",
+      "out": "[§5Puzzles §8(§33§8), §eTic Tac Toe§8: [§6✦§8], §eThree Weirdos§8: [§c✖§8] §7(§6Bob§7)]"
+    },
+    {
+      "in": "render|120|f",
+      "out": "[§5Puzzles §8(§33§8), §eTic Tac Toe§8: [§6✦§8], §eThree Weirdos§8: [§c✖§8]]"
+    },
+    {
+      "in": "parse|121|[  Two Spaces: [✔], Boulder: [?]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|122|[puzzles: (1), Puzzles:(1),  Higher Or Lower: [✖], Puzzles:(1), Bomb Defuse: [✔] (Ash_ton),  Higher Or Lower: [✖]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|123|[Quiz: [✔] (Ashton) extra, Teleport Maze: [✦] ,  Three Weirdos: [✖] (Bob),  Three Weirdos: [✖] (Bob),  Three Weirdos: [✖] (Bob), Creeper Beams: [✔] (Ashton),  Puzzles: (2) , Bomb Defuse: [✔] (Ash_ton)]",
+      "out": "State(count=2, entries=[Entry(name=Bomb Defuse, status=DONE, player=Ash_ton)])"
+    },
+    {
+      "in": "render|123|t",
+      "out": "[§5Puzzles §8(§32§8), §eBomb Defuse§8: [§a✔§8] §7(§6Ash_ton§7)]"
+    },
+    {
+      "in": "render|123|f",
+      "out": "[§5Puzzles §8(§32§8), §eBomb Defuse§8: [§a✔§8]]"
+    },
+    {
+      "in": "parse|124|[puzzles: (1), Puzzles: (0), Puzzles: (3), Teleport Maze: [✦] , Puzzles:(1), Puzzles: (3), Deaths: 3]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|124|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|124|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|125|[, Boulder: [?], Teleport Maze: [✦] , Puzzles: (99999999999), Puzzles:(1),  Three Weirdos: [✖] (Bob), Puzzles:(1)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|126|[, ,   Two Spaces: [✔], Puzzles: (1)]",
+      "out": "State(count=1, entries=[])"
+    },
+    {
+      "in": "render|126|t",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "render|126|f",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "parse|127|[ Higher Or Lower: [✖], Deaths: 3, Tic Tac Toe: [✦]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|128|[ Three Weirdos: [✖] (Bob), Teleport Maze: [✦] , Puzzles: (0), Creeper Beams: [✔] (Ashton), Puzzles: (3), Puzzles: (0), Teleport Maze: [✦] ]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|128|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|128|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|129|[Puzzles: (0), Puzzles:(1), Boulder: [?]]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|129|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|129|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|130|[puzzles: (1),   Two Spaces: [✔], ???: [✦],  Puzzles: (2) ]",
+      "out": "State(count=2, entries=[])"
+    },
+    {
+      "in": "render|130|t",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "render|130|f",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "parse|131|[Puzzles:(1), puzzles: (1)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|132|[  Two Spaces: [✔],  Puzzles: (2) , Puzzles:(1), Deaths: 3, Puzzles:(1), Puzzles: (1), Water Board: [✔](x)]",
+      "out": "State(count=2, entries=[])"
+    },
+    {
+      "in": "render|132|t",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "render|132|f",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "parse|133|[Puzzles: (0), , Puzzles:(1), Teleport Maze: [✦] , Tic Tac Toe: [✦]]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|133|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|133|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|134|[Tic Tac Toe: [✦], Puzzles: (3), , Puzzles: (3), Deaths: 3, Boulder: [?], Puzzles: (1)]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|134|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|134|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|135|[, Puzzles: (99999999999), Quiz: [✔] (Ashton) extra, Creeper Beams: [✔] (Ashton), Creeper Beams: [✔] (Ashton)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|136|[ Puzzles: (2) , Quiz: [✔] (Ashton) extra, Deaths: 3,   Two Spaces: [✔]]",
+      "out": "State(count=2, entries=[])"
+    },
+    {
+      "in": "render|136|t",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "render|136|f",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "parse|137|[Quiz: [✔] (Ashton) extra, Puzzles: (0)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|137|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|137|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|138|[Puzzles: (0), ???: [✦], Deaths: 3, Bomb Defuse: [✔] (Ash_ton), Creeper Beams: [✔] (Ashton),  Puzzles: (2) ,  Puzzles: (2) ]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|138|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|138|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|139|[Creeper Beams: [✔] (Ashton), Name-Dash: [✔],  Three Weirdos: [✖] (Bob)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|140|[Puzzles: (1),   Two Spaces: [✔], Puzzles: (99999999999), Water Board: [✔](x), Puzzles: (0), Quiz: [✔] (Ashton) extra, Puzzles: (0)]",
+      "out": "State(count=1, entries=[])"
+    },
+    {
+      "in": "render|140|t",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "render|140|f",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "parse|141|[Puzzles:(1), Quiz: [✔] (Ashton) extra, Tic Tac Toe: [✦],   Two Spaces: [✔], Water Board: [✔](x), Puzzles: (3)]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|141|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|141|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|142|[???: [✦], Puzzles: (1), Puzzles: (1), Puzzles: (1), Name-Dash: [✔],  Higher Or Lower: [✖], Boulder: [?], ???: [✦]]",
+      "out": "State(count=1, entries=[])"
+    },
+    {
+      "in": "render|142|t",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "render|142|f",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "parse|143|[Tic Tac Toe: [✦], Teleport Maze: [✦] , Boulder: [?], Ice Fill: [✔]  , Creeper Beams: [✔] (Ashton),  Puzzles: (2) ]",
+      "out": "State(count=2, entries=[])"
+    },
+    {
+      "in": "render|143|t",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "render|143|f",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "parse|144|[ Puzzles: (2) , , Water Board: [✔](x)]",
+      "out": "State(count=2, entries=[Entry(name=Water Board, status=DONE, player=x)])"
+    },
+    {
+      "in": "render|144|t",
+      "out": "[§5Puzzles §8(§32§8), §eWater Board§8: [§a✔§8] §7(§6x§7)]"
+    },
+    {
+      "in": "render|144|f",
+      "out": "[§5Puzzles §8(§32§8), §eWater Board§8: [§a✔§8]]"
+    },
+    {
+      "in": "parse|145|[ Higher Or Lower: [✖], Bomb Defuse: [✔] (Ash_ton), Puzzles: (3)]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|145|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|145|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|146|[Teleport Maze: [✦] , Puzzles: (99999999999)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|147|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|148|[ Puzzles: (2) ]",
+      "out": "State(count=2, entries=[])"
+    },
+    {
+      "in": "render|148|t",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "render|148|f",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "parse|149|[,  Three Weirdos: [✖] (Bob), Deaths: 3, Quiz: [✔] (Ashton) extra, Puzzles: (99999999999), Puzzles: (0), Boulder: [?], Water Board: [✔](x)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|150|[Name-Dash: [✔], Puzzles: (99999999999), Water Board: [✔](x), Ice Fill: [✔]  , Boulder: [?], Deaths: 3]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|151|[Puzzles:(1), Bomb Defuse: [✔] (Ash_ton), Water Board: [✔](x), Deaths: 3, , Puzzles: (3), Puzzles: (99999999999)]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|151|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|151|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|152|[ Higher Or Lower: [✖]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|153|[Bomb Defuse: [✔] (Ash_ton), Puzzles:(1),  Three Weirdos: [✖] (Bob), puzzles: (1), Bomb Defuse: [✔] (Ash_ton), Tic Tac Toe: [✦], Puzzles: (0)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|153|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|153|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|154|[Puzzles: (1), Puzzles: (3), Puzzles: (1), ,  Three Weirdos: [✖] (Bob)]",
+      "out": "State(count=1, entries=[])"
+    },
+    {
+      "in": "render|154|t",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "render|154|f",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "parse|155|[Name-Dash: [✔], Puzzles: (99999999999), ???: [✦], puzzles: (1)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|156|[Creeper Beams: [✔] (Ashton), Creeper Beams: [✔] (Ashton), Bomb Defuse: [✔] (Ash_ton), Teleport Maze: [✦] , Quiz: [✔] (Ashton) extra]",
+      "out": "null"
+    },
+    {
+      "in": "parse|157|[Deaths: 3, Name-Dash: [✔],  Three Weirdos: [✖] (Bob)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|158|[Creeper Beams: [✔] (Ashton), Teleport Maze: [✦] ]",
+      "out": "null"
+    },
+    {
+      "in": "parse|159|[Puzzles: (3)]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|159|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|159|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|160|[, , Puzzles: (3)]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|160|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|160|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|161|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|162|[Name-Dash: [✔], Bomb Defuse: [✔] (Ash_ton), Puzzles:(1),  Higher Or Lower: [✖], Teleport Maze: [✦] ,  Puzzles: (2) , Puzzles:(1), Teleport Maze: [✦] ]",
+      "out": "State(count=2, entries=[Entry(name=Teleport Maze, status=OPEN, player=null)])"
+    },
+    {
+      "in": "render|162|t",
+      "out": "[§5Puzzles §8(§32§8), §eTeleport Maze§8: [§6✦§8]]"
+    },
+    {
+      "in": "render|162|f",
+      "out": "[§5Puzzles §8(§32§8), §eTeleport Maze§8: [§6✦§8]]"
+    },
+    {
+      "in": "parse|163|[Puzzles:(1), Puzzles: (99999999999), , Puzzles: (99999999999)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|164|[Water Board: [✔](x), Puzzles: (1), Puzzles: (99999999999), Bomb Defuse: [✔] (Ash_ton), Water Board: [✔](x), Quiz: [✔] (Ashton) extra]",
+      "out": "State(count=1, entries=[])"
+    },
+    {
+      "in": "render|164|t",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "render|164|f",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "parse|165|[Name-Dash: [✔], ???: [✦],  Three Weirdos: [✖] (Bob)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|166|[Puzzles: (0), Puzzles: (3), Puzzles: (0), Puzzles: (3),  Puzzles: (2) , Deaths: 3, Quiz: [✔] (Ashton) extra]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|166|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|166|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|167|[Puzzles: (0), , Puzzles: (3),  Higher Or Lower: [✖], Puzzles: (1), Bomb Defuse: [✔] (Ash_ton), Ice Fill: [✔]  ]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|167|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|167|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|168|[Creeper Beams: [✔] (Ashton), Bomb Defuse: [✔] (Ash_ton), Puzzles: (99999999999), Deaths: 3, Quiz: [✔] (Ashton) extra, Puzzles: (0)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|169|[Puzzles: (99999999999), Teleport Maze: [✦] , Ice Fill: [✔]  , puzzles: (1),  Three Weirdos: [✖] (Bob)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|170|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|171|[Puzzles: (0), Name-Dash: [✔], Ice Fill: [✔]  ]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|171|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|171|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|172|[???: [✦],  Higher Or Lower: [✖], Water Board: [✔](x)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|173|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|174|[ Puzzles: (2) , Quiz: [✔] (Ashton) extra, ,  Higher Or Lower: [✖], Puzzles: (3), Puzzles: (3), Teleport Maze: [✦] , Name-Dash: [✔]]",
+      "out": "State(count=2, entries=[])"
+    },
+    {
+      "in": "render|174|t",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "render|174|f",
+      "out": "[§5Puzzles §8(§32§8)]"
+    },
+    {
+      "in": "parse|175|[Water Board: [✔](x),  Puzzles: (2) ,  Higher Or Lower: [✖], Teleport Maze: [✦] , , Puzzles: (0), Teleport Maze: [✦] , Puzzles:(1)]",
+      "out": "State(count=2, entries=[Entry(name=Higher Or Lower, status=FAILED, player=null), Entry(name=Teleport Maze, status=OPEN, player=null)])"
+    },
+    {
+      "in": "render|175|t",
+      "out": "[§5Puzzles §8(§32§8), §eHigher Or Lower§8: [§c✖§8], §eTeleport Maze§8: [§6✦§8]]"
+    },
+    {
+      "in": "render|175|f",
+      "out": "[§5Puzzles §8(§32§8), §eHigher Or Lower§8: [§c✖§8], §eTeleport Maze§8: [§6✦§8]]"
+    },
+    {
+      "in": "parse|176|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|177|[Puzzles: (99999999999)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|178|[Puzzles:(1), Puzzles: (3),  Puzzles: (2) , Boulder: [?]]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|178|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|178|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|179|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|180|[Quiz: [✔] (Ashton) extra, ???: [✦]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|181|[  Two Spaces: [✔], Tic Tac Toe: [✦]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|182|[Tic Tac Toe: [✦], Quiz: [✔] (Ashton) extra,  Higher Or Lower: [✖]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|183|[Teleport Maze: [✦] , Puzzles: (99999999999),  Three Weirdos: [✖] (Bob)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|184|[Puzzles: (99999999999), Creeper Beams: [✔] (Ashton), Puzzles: (3), Puzzles: (1)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|185|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|186|[, Creeper Beams: [✔] (Ashton), Puzzles: (0), , Quiz: [✔] (Ashton) extra, Name-Dash: [✔], Puzzles: (3), Puzzles: (0)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|186|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|186|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|187|[Tic Tac Toe: [✦], ???: [✦],  Higher Or Lower: [✖], Teleport Maze: [✦] , Puzzles: (99999999999), Puzzles:(1), Puzzles: (3)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|188|[ Three Weirdos: [✖] (Bob)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|189|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|190|[Puzzles: (99999999999), Name-Dash: [✔], Ice Fill: [✔]  , Teleport Maze: [✦] , ???: [✦]]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|191|[Quiz: [✔] (Ashton) extra, Name-Dash: [✔], , Teleport Maze: [✦] , Puzzles: (3), Name-Dash: [✔]]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|191|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|191|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|192|[puzzles: (1), Water Board: [✔](x)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|193|[ Three Weirdos: [✖] (Bob), Deaths: 3, puzzles: (1), Ice Fill: [✔]  , Quiz: [✔] (Ashton) extra, Puzzles: (3), Puzzles: (3), ]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|193|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|193|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|194|[Name-Dash: [✔]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|195|[Name-Dash: [✔], Tic Tac Toe: [✦], Quiz: [✔] (Ashton) extra, Creeper Beams: [✔] (Ashton),  Higher Or Lower: [✖], Bomb Defuse: [✔] (Ash_ton), Deaths: 3, Water Board: [✔](x)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|196|[Teleport Maze: [✦] , Deaths: 3, Puzzles:(1), Quiz: [✔] (Ashton) extra, Creeper Beams: [✔] (Ashton), Puzzles: (99999999999), Water Board: [✔](x)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|197|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|198|[Bomb Defuse: [✔] (Ash_ton), Puzzles: (99999999999)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|199|[Puzzles:(1), Puzzles: (99999999999), Puzzles: (99999999999),  Higher Or Lower: [✖], Ice Fill: [✔]  , Water Board: [✔](x), Puzzles: (0), Puzzles: (0)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|200|[ Puzzles: (2) , Puzzles: (3), Ice Fill: [✔]  , Bomb Defuse: [✔] (Ash_ton), Ice Fill: [✔]  , Boulder: [?], Teleport Maze: [✦] ]",
+      "out": "State(count=2, entries=[Entry(name=Ice Fill, status=DONE, player=null)])"
+    },
+    {
+      "in": "render|200|t",
+      "out": "[§5Puzzles §8(§32§8), §eIce Fill§8: [§a✔§8]]"
+    },
+    {
+      "in": "render|200|f",
+      "out": "[§5Puzzles §8(§32§8), §eIce Fill§8: [§a✔§8]]"
+    },
+    {
+      "in": "parse|201|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|202|[Tic Tac Toe: [✦]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|203|[ Three Weirdos: [✖] (Bob)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|204|[Bomb Defuse: [✔] (Ash_ton)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|205|[Teleport Maze: [✦] , Tic Tac Toe: [✦], Puzzles: (1), Puzzles:(1), Puzzles: (0), Puzzles: (3)]",
+      "out": "State(count=1, entries=[])"
+    },
+    {
+      "in": "render|205|t",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "render|205|f",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "parse|206|[  Two Spaces: [✔], ???: [✦], Quiz: [✔] (Ashton) extra, Tic Tac Toe: [✦], Tic Tac Toe: [✦],   Two Spaces: [✔]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|207|[Boulder: [?], Puzzles: (1)]",
+      "out": "State(count=1, entries=[])"
+    },
+    {
+      "in": "render|207|t",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "render|207|f",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "parse|208|[Puzzles: (0)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|208|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|208|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|209|[Creeper Beams: [✔] (Ashton),   Two Spaces: [✔], puzzles: (1),   Two Spaces: [✔], puzzles: (1), Puzzles: (0), Tic Tac Toe: [✦], Puzzles: (0)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|209|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|209|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|210|[Deaths: 3, Name-Dash: [✔], Puzzles: (3), Water Board: [✔](x), Puzzles: (3),   Two Spaces: [✔]]",
+      "out": "State(count=3, entries=[Entry(name=Water Board, status=DONE, player=x)])"
+    },
+    {
+      "in": "render|210|t",
+      "out": "[§5Puzzles §8(§33§8), §eWater Board§8: [§a✔§8] §7(§6x§7)]"
+    },
+    {
+      "in": "render|210|f",
+      "out": "[§5Puzzles §8(§33§8), §eWater Board§8: [§a✔§8]]"
+    },
+    {
+      "in": "parse|211|[Puzzles: (1), Tic Tac Toe: [✦],  Higher Or Lower: [✖], Name-Dash: [✔],  Higher Or Lower: [✖]]",
+      "out": "State(count=1, entries=[Entry(name=Tic Tac Toe, status=OPEN, player=null)])"
+    },
+    {
+      "in": "render|211|t",
+      "out": "[§5Puzzles §8(§31§8), §eTic Tac Toe§8: [§6✦§8]]"
+    },
+    {
+      "in": "render|211|f",
+      "out": "[§5Puzzles §8(§31§8), §eTic Tac Toe§8: [§6✦§8]]"
+    },
+    {
+      "in": "parse|212|[Water Board: [✔](x), Quiz: [✔] (Ashton) extra, Puzzles: (1), Bomb Defuse: [✔] (Ash_ton), Name-Dash: [✔], Ice Fill: [✔]  , Bomb Defuse: [✔] (Ash_ton), puzzles: (1)]",
+      "out": "State(count=1, entries=[Entry(name=Bomb Defuse, status=DONE, player=Ash_ton)])"
+    },
+    {
+      "in": "render|212|t",
+      "out": "[§5Puzzles §8(§31§8), §eBomb Defuse§8: [§a✔§8] §7(§6Ash_ton§7)]"
+    },
+    {
+      "in": "render|212|f",
+      "out": "[§5Puzzles §8(§31§8), §eBomb Defuse§8: [§a✔§8]]"
+    },
+    {
+      "in": "parse|213|[Puzzles: (0),  Higher Or Lower: [✖], Bomb Defuse: [✔] (Ash_ton),  Three Weirdos: [✖] (Bob), ???: [✦], Puzzles: (0)]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|213|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|213|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|214|[Tic Tac Toe: [✦], Teleport Maze: [✦] , Quiz: [✔] (Ashton) extra]",
+      "out": "null"
+    },
+    {
+      "in": "parse|215|[ Puzzles: (2) , Water Board: [✔](x), puzzles: (1),   Two Spaces: [✔]]",
+      "out": "State(count=2, entries=[Entry(name=Water Board, status=DONE, player=x)])"
+    },
+    {
+      "in": "render|215|t",
+      "out": "[§5Puzzles §8(§32§8), §eWater Board§8: [§a✔§8] §7(§6x§7)]"
+    },
+    {
+      "in": "render|215|f",
+      "out": "[§5Puzzles §8(§32§8), §eWater Board§8: [§a✔§8]]"
+    },
+    {
+      "in": "parse|216|[Water Board: [✔](x), ???: [✦]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|217|[Puzzles: (3), Teleport Maze: [✦] ]",
+      "out": "State(count=3, entries=[Entry(name=Teleport Maze, status=OPEN, player=null)])"
+    },
+    {
+      "in": "render|217|t",
+      "out": "[§5Puzzles §8(§33§8), §eTeleport Maze§8: [§6✦§8]]"
+    },
+    {
+      "in": "render|217|f",
+      "out": "[§5Puzzles §8(§33§8), §eTeleport Maze§8: [§6✦§8]]"
+    },
+    {
+      "in": "parse|218|[ Puzzles: (2) , Water Board: [✔](x), ???: [✦], Name-Dash: [✔]]",
+      "out": "State(count=2, entries=[Entry(name=Water Board, status=DONE, player=x), Entry(name=???, status=OPEN, player=null)])"
+    },
+    {
+      "in": "render|218|t",
+      "out": "[§5Puzzles §8(§32§8), §eWater Board§8: [§a✔§8] §7(§6x§7), §e???§8: [§6✦§8]]"
+    },
+    {
+      "in": "render|218|f",
+      "out": "[§5Puzzles §8(§32§8), §eWater Board§8: [§a✔§8], §e???§8: [§6✦§8]]"
+    },
+    {
+      "in": "parse|219|[, Name-Dash: [✔], Puzzles: (99999999999), Tic Tac Toe: [✦], Puzzles: (0), Bomb Defuse: [✔] (Ash_ton), Boulder: [?]]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|220|[ Three Weirdos: [✖] (Bob), Teleport Maze: [✦] , Ice Fill: [✔]  , Name-Dash: [✔]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|221|[Puzzles: (0), Ice Fill: [✔]  ]",
+      "out": "State(count=0, entries=[])"
+    },
+    {
+      "in": "render|221|t",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "render|221|f",
+      "out": "[§5Puzzles §8(§30§8)]"
+    },
+    {
+      "in": "parse|222|[Water Board: [✔](x), ???: [✦], Puzzles:(1), Deaths: 3, Puzzles:(1),  Higher Or Lower: [✖], Teleport Maze: [✦] ,  Three Weirdos: [✖] (Bob)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|223|[???: [✦], Tic Tac Toe: [✦], Ice Fill: [✔]  , Deaths: 3, Boulder: [?], ]",
+      "out": "null"
+    },
+    {
+      "in": "parse|224|[Deaths: 3, Puzzles: (3), , Puzzles: (0), Puzzles:(1), Puzzles: (3),  Higher Or Lower: [✖], Puzzles:(1)]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|224|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|224|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|225|[ Three Weirdos: [✖] (Bob), Tic Tac Toe: [✦], Bomb Defuse: [✔] (Ash_ton),  Higher Or Lower: [✖], Name-Dash: [✔],  Higher Or Lower: [✖]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|226|[  Two Spaces: [✔], Quiz: [✔] (Ashton) extra, Teleport Maze: [✦] , ???: [✦]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|227|[Ice Fill: [✔]  , Bomb Defuse: [✔] (Ash_ton)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|228|[Puzzles: (99999999999)]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|229|[Water Board: [✔](x), Bomb Defuse: [✔] (Ash_ton), Ice Fill: [✔]  , puzzles: (1), ]",
+      "out": "null"
+    },
+    {
+      "in": "parse|230|[puzzles: (1), Puzzles:(1), Name-Dash: [✔],  Three Weirdos: [✖] (Bob), Creeper Beams: [✔] (Ashton), puzzles: (1), ???: [✦], Quiz: [✔] (Ashton) extra]",
+      "out": "null"
+    },
+    {
+      "in": "parse|231|[Puzzles: (99999999999), Boulder: [?], Teleport Maze: [✦] , Tic Tac Toe: [✦]]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|232|[Boulder: [?], Ice Fill: [✔]  ]",
+      "out": "null"
+    },
+    {
+      "in": "parse|233|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|234|[Boulder: [?], Creeper Beams: [✔] (Ashton), Name-Dash: [✔], Deaths: 3, Quiz: [✔] (Ashton) extra,  Three Weirdos: [✖] (Bob),   Two Spaces: [✔], ]",
+      "out": "null"
+    },
+    {
+      "in": "parse|235|[Ice Fill: [✔]  , Puzzles: (3), Deaths: 3, Quiz: [✔] (Ashton) extra]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|235|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|235|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|236|[Water Board: [✔](x), Quiz: [✔] (Ashton) extra, Puzzles: (99999999999),  Puzzles: (2) , , ???: [✦]]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "parse|237|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|238|[]",
+      "out": "null"
+    },
+    {
+      "in": "parse|239|[ Higher Or Lower: [✖]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|240|[puzzles: (1),   Two Spaces: [✔], Ice Fill: [✔]  , Puzzles:(1)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|241|[  Two Spaces: [✔], puzzles: (1), Bomb Defuse: [✔] (Ash_ton), Boulder: [?]]",
+      "out": "null"
+    },
+    {
+      "in": "parse|242|[Water Board: [✔](x), ???: [✦], Bomb Defuse: [✔] (Ash_ton),  Puzzles: (2) , Teleport Maze: [✦] ]",
+      "out": "State(count=2, entries=[Entry(name=Teleport Maze, status=OPEN, player=null)])"
+    },
+    {
+      "in": "render|242|t",
+      "out": "[§5Puzzles §8(§32§8), §eTeleport Maze§8: [§6✦§8]]"
+    },
+    {
+      "in": "render|242|f",
+      "out": "[§5Puzzles §8(§32§8), §eTeleport Maze§8: [§6✦§8]]"
+    },
+    {
+      "in": "parse|243|[Quiz: [✔] (Ashton) extra, Ice Fill: [✔]  , Bomb Defuse: [✔] (Ash_ton), Puzzles:(1), Quiz: [✔] (Ashton) extra, Puzzles: (3)]",
+      "out": "State(count=3, entries=[])"
+    },
+    {
+      "in": "render|243|t",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "render|243|f",
+      "out": "[§5Puzzles §8(§33§8)]"
+    },
+    {
+      "in": "parse|244|[Quiz: [✔] (Ashton) extra, Puzzles: (1), Puzzles:(1), ]",
+      "out": "State(count=1, entries=[])"
+    },
+    {
+      "in": "render|244|t",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "render|244|f",
+      "out": "[§5Puzzles §8(§31§8)]"
+    },
+    {
+      "in": "parse|245|[Creeper Beams: [✔] (Ashton), Puzzles: (3), Bomb Defuse: [✔] (Ash_ton), Puzzles: (3), Puzzles: (1), puzzles: (1), Quiz: [✔] (Ashton) extra, Puzzles: (0)]",
+      "out": "State(count=3, entries=[Entry(name=Bomb Defuse, status=DONE, player=Ash_ton)])"
+    },
+    {
+      "in": "render|245|t",
+      "out": "[§5Puzzles §8(§33§8), §eBomb Defuse§8: [§a✔§8] §7(§6Ash_ton§7)]"
+    },
+    {
+      "in": "render|245|f",
+      "out": "[§5Puzzles §8(§33§8), §eBomb Defuse§8: [§a✔§8]]"
+    },
+    {
+      "in": "parse|246|[Tic Tac Toe: [✦], Creeper Beams: [✔] (Ashton), Name-Dash: [✔], , Puzzles: (1), ???: [✦], Puzzles:(1)]",
+      "out": "State(count=1, entries=[Entry(name=???, status=OPEN, player=null)])"
+    },
+    {
+      "in": "render|246|t",
+      "out": "[§5Puzzles §8(§31§8), §e???§8: [§6✦§8]]"
+    },
+    {
+      "in": "render|246|f",
+      "out": "[§5Puzzles §8(§31§8), §e???§8: [§6✦§8]]"
+    },
+    {
+      "in": "parse|247|[Teleport Maze: [✦] , puzzles: (1)]",
+      "out": "null"
+    },
+    {
+      "in": "parse|248|[Bomb Defuse: [✔] (Ash_ton), puzzles: (1), Name-Dash: [✔], Puzzles: (1), ???: [✦]]",
+      "out": "State(count=1, entries=[Entry(name=???, status=OPEN, player=null)])"
+    },
+    {
+      "in": "render|248|t",
+      "out": "[§5Puzzles §8(§31§8), §e???§8: [§6✦§8]]"
+    },
+    {
+      "in": "render|248|f",
+      "out": "[§5Puzzles §8(§31§8), §e???§8: [§6✦§8]]"
+    },
+    {
+      "in": "parse|249|[ Higher Or Lower: [✖]]",
+      "out": "null"
+    },
+    {
+      "in": "boss|[BOSS] Maxor: hi",
+      "out": "true"
+    },
+    {
+      "in": "boss|[BOSS] The Watcher: Congratulations",
+      "out": "false"
+    },
+    {
+      "in": "boss|[BOSS] The Watcherx",
+      "out": "false"
+    },
+    {
+      "in": "boss|[BOSS]Maxor",
+      "out": "false"
+    },
+    {
+      "in": "boss|[BOSS] ",
+      "out": "true"
+    },
+    {
+      "in": "boss|[BOSS]",
+      "out": "false"
+    },
+    {
+      "in": "boss| [BOSS] Maxor",
+      "out": "false"
+    },
+    {
+      "in": "boss|[boss] Maxor",
+      "out": "false"
+    },
+    {
+      "in": "boss|",
+      "out": "false"
+    },
+    {
+      "in": "slayer|0",
+      "out": "[Revenant Horror IV,1038659,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1069078,null,null,null] [null,1069078,null,null,null] Q=33.117s/null/null/null [null,1069078,null,null,null] [null,1069078,null,null,null] [Revenant Horror IV,1069078,null,null,null] [Revenant Horror IV,1069078,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|1",
+      "out": "Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] [Revenant Horror IV,1030547,null,null,null] [Tarantula Broodfather III,1030547,1039101,null,null] K=Kill(boss=Tarantula Broodfather III, bossTime=9.001s, questTime=17.555s, pbBefore=null, at=1048102) [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,1294208,null,null,null] [Revenant Horror IV,1294208,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=16"
+    },
+    {
+      "in": "slayer|2",
+      "out": "Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1011688,null,null,null] Q=16.935s/null/null/null [Tarantula Broodfather III,1011688,null,null,null] K=null [Tarantula Broodfather III,1011688,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,1031720,null,null,null] Q=424ms/null/null/null [Tarantula Broodfather III,1031720,null,null,null] Q=25.122s/null/null/null [Tarantula Broodfather III,1031720,null,null,null]  calls=5"
+    },
+    {
+      "in": "slayer|3",
+      "out": "Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,1019416,1053206,45s,null] Q=42.731s/45.259s/null/null [Revenant Horror IV,1019416,1053206,45s,null] Q=1m 44.889s/1m 19.253s/null/null [Revenant Horror IV,1019416,1053206,45s,null] K=Kill(boss=Revenant Horror IV, bossTime=1m 24.296s, questTime=1m 58.086s, pbBefore=45s, at=1137502) [Revenant Horror IV,null,null,null,39.296s] Q=null/null/Kill(boss=Revenant Horror IV, bossTime=1m 24.296s, questTime=1m 58.086s, pbBefore=45s, at=1137502)/null [Revenant Horror IV,null,null,null,39.296s] [Tarantula Broodfather III,null,null,null,39.296s] [null,null,null,null,39.296s] K=null [null,null,null,null,39.296s] K=null [null,null,null,null,39.296s] Q=null/null/null/null [null,null,null,null,39.296s] K=null [null,null,null,null,39.296s] Q=null/null/null/null [null,null,null,null,39.296s] K=null [null,null,null,null,39.296s] Q=null/null/null/null [null,null,null,null,39.296s] [Tarantula Broodfather III,null,null,null,39.296s] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,39.296s] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,39.296s] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,39.296s] [Revenant Horror IV,null,null,null,39.296s] K=null [Revenant Horror IV,null,null,null,39.296s] Q=null/null/null/null [Revenant Horror IV,null,null,null,39.296s] Q=null/null/null/null [Revenant Horror IV,null,null,null,39.296s] K=null [Revenant Horror IV,null,null,null,39.296s] K=null [Revenant Horror IV,null,null,null,39.296s] K=null [Revenant Horror IV,null,null,null,39.296s] K=null [Revenant Horror IV,null,null,null,39.296s] Q=null/null/null/null [Revenant Horror IV,null,null,null,39.296s] Q=null/null/null/null [Revenant Horror IV,null,null,null,39.296s]  calls=29"
+    },
+    {
+      "in": "slayer|4",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,1009741,null,null,null] Q=2.491s/null/null/null [null,1009741,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,1038114,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|5",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1012093,null,null,null] Q=19.49s/null/null/null [Tarantula Broodfather III,1012093,null,null,null] [Revenant Horror IV,1012093,null,null,null] K=null [Revenant Horror IV,1012093,null,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|6",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|7",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|8",
+      "out": "K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,1011897,null,null,null] K=null [Tarantula Broodfather III,1027960,null,null,null] [Revenant Horror IV,1027960,null,null,null] [Tarantula Broodfather III,1027960,null,null,null] Q=11.803s/null/null/null [Tarantula Broodfather III,1027960,null,null,null] Q=17.487s/null/null/null [Tarantula Broodfather III,1027960,null,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|9",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1014601,1047343,null,null] Q=1m 4.461s/51.961s/null/null [Tarantula Broodfather III,1014601,1047343,null,null] Q=1m 36.652s/1m 8.563s/null/null [Tarantula Broodfather III,1014601,1047343,null,null]  calls=6"
+    },
+    {
+      "in": "slayer|10",
+      "out": "Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] [Revenant Horror IV,1008622,null,null,null] [null,1008622,null,null,null] Q=5.611s/null/null/null [null,1008622,null,null,null] [null,1008622,null,null,null] K=null [null,1044144,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|11",
+      "out": "[Revenant Horror IV,1032094,null,null,null] [Tarantula Broodfather III,1032094,null,null,null] Q=38.546s/null/null/null [Tarantula Broodfather III,1032094,null,null,null] [Tarantula Broodfather III,1032094,1105691,null,null] [Tarantula Broodfather III,1032094,1105691,null,null] K=null [Tarantula Broodfather III,1032094,1105691,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1124071,null,null,null] [null,1124071,null,null,null] Q=32.011s/null/null/null [null,1124071,null,null,null] [null,1124071,null,null,null] Q=50.028s/null/null/null [null,1124071,null,null,null] K=null [null,1124071,null,null,null] [Tarantula Broodfather III,1124071,null,null,null] Q=1m 10.936s/null/null/null [Tarantula Broodfather III,1124071,null,null,null]  calls=7"
+    },
+    {
+      "in": "slayer|12",
+      "out": "K=null [null,1020039,null,null,null] [null,1020039,null,null,null] Q=37.335s/null/null/null [null,1020039,null,null,null] K=null [null,1020039,null,null,null] [null,1020039,null,null,null] K=null [null,1020039,null,null,null] K=null [null,1020039,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|13",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1031223,null,null,null] K=null [Revenant Horror IV,1031223,null,null,null] [Tarantula Broodfather III,1031223,null,null,null] [Revenant Horror IV,1031223,null,null,null] [null,1031223,null,null,null] [Tarantula Broodfather III,1031223,1034597,null,null] Q=7.578s/20.339s/null/null [Tarantula Broodfather III,1031223,1034597,null,null] Q=26.646s/58.147s/null/null [Tarantula Broodfather III,1031223,1034597,null,null] K=Kill(boss=Tarantula Broodfather III, bossTime=1m 22.672s, questTime=1m 26.046s, pbBefore=null, at=1117269) [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=7"
+    },
+    {
+      "in": "slayer|14",
+      "out": "K=null [null,null,null,null,null] [Revenant Horror IV,1001252,null,null,null] [null,1001252,null,null,null] [Revenant Horror IV,1001252,null,null,null] Q=739ms/null/null/null [Revenant Horror IV,1001252,null,null,null] Q=12.671s/null/null/null [Revenant Horror IV,1001252,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|15",
+      "out": "[null,null,null,null,null] [Tarantula Broodfather III,1038708,null,null,null] Q=15.418s/null/null/null [Tarantula Broodfather III,1038708,null,null,null] Q=49.698s/null/null/null [Tarantula Broodfather III,1038708,null,null,null] [null,1038708,null,null,null] Q=1m 13.579s/null/null/null [null,1038708,null,null,null] Q=1m 31.262s/null/null/null [null,1038708,null,null,null] [Revenant Horror IV,1038708,1130209,45s,null] K=null [Revenant Horror IV,1038708,1130209,45s,null] Q=1m 58.944s/53.434s/null/null [Revenant Horror IV,1038708,1130209,45s,null] Q=2m 57.101s/1m 42.784s/null/null [Revenant Horror IV,1038708,1130209,45s,null] K=null [Revenant Horror IV,1253807,null,null,null] [null,1253807,null,null,null] [Tarantula Broodfather III,1253807,null,null,null] Q=4.022s/null/null/null [Tarantula Broodfather III,1253807,null,null,null] Q=10.873s/null/null/null [Tarantula Broodfather III,1253807,null,null,null] K=null [Tarantula Broodfather III,1253807,null,null,null] Q=25.362s/null/null/null [Tarantula Broodfather III,1253807,null,null,null] Q=57.605s/null/null/null [Tarantula Broodfather III,1253807,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=15"
+    },
+    {
+      "in": "slayer|16",
+      "out": "[null,null,null,null,null] [Tarantula Broodfather III,1023652,1062843,null,null] [Revenant Horror IV,1023652,1062843,null,null] Q=52.036s/46.443s/null/null [Revenant Horror IV,1023652,1062843,null,null] K=null [Revenant Horror IV,null,null,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|17",
+      "out": "[Revenant Horror IV,1019636,null,null,null] Q=3.63s/null/null/null [Revenant Horror IV,1019636,null,null,null] [null,1019636,null,null,null] Q=35.911s/null/null/null [null,1019636,null,null,null] Q=37.135s/null/null/null [null,1019636,null,null,null] K=null [null,1019636,null,null,null] Q=38.828s/null/null/null [null,1019636,null,null,null] Q=43.205s/null/null/null [null,1019636,null,null,null]  calls=6"
+    },
+    {
+      "in": "slayer|18",
+      "out": "[Revenant Horror IV,1005063,1026282,45s,null] Q=58.06s/1m 9.417s/null/null [Revenant Horror IV,1005063,1026282,45s,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|19",
+      "out": "[Tarantula Broodfather III,1016951,null,null,null] Q=6.138s/null/null/null [Tarantula Broodfather III,1016951,null,null,null] [null,1016951,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1029390,null,null,null] [Revenant Horror IV,1029390,null,null,null] Q=38.982s/null/null/null [Revenant Horror IV,1029390,null,null,null] K=null [Revenant Horror IV,null,null,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|20",
+      "out": "[Tarantula Broodfather III,1018862,null,null,null] K=null [Tarantula Broodfather III,1018862,null,null,null] Q=13.503s/null/null/null [Tarantula Broodfather III,1018862,null,null,null] K=null [Tarantula Broodfather III,1049367,null,null,null] [null,1049367,null,null,null] [Tarantula Broodfather III,1049367,1077202,null,null] [Tarantula Broodfather III,1049367,1077202,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|21",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,1015646,1018180,45s,null] Q=25.028s/53.419s/null/null [Revenant Horror IV,1015646,1018180,45s,null] Q=1m 17.942s/1m 30.519s/null/null [Revenant Horror IV,1015646,1018180,45s,null] Q=1m 40.009s/1m 53.257s/null/null [Revenant Horror IV,1015646,1018180,45s,null] [Tarantula Broodfather III,1015646,1018180,45s,null] [Revenant Horror IV,1015646,1018180,45s,null] [Revenant Horror IV,1015646,1018180,45s,null] [null,1015646,1018180,45s,null] K=null [null,1015646,1018180,45s,null] [Revenant Horror IV,1015646,1018180,45s,null] K=null [Revenant Horror IV,1170617,null,null,null] Q=30.47s/null/null/null [Revenant Horror IV,1170617,null,null,null] [Revenant Horror IV,1170617,1223576,45s,null] [Tarantula Broodfather III,1170617,1223576,45s,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null]  calls=11"
+    },
+    {
+      "in": "slayer|22",
+      "out": "K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] [Revenant Horror IV,1009337,null,null,null] K=null [Revenant Horror IV,1009337,null,null,null] Q=19.947s/null/null/null [Revenant Horror IV,1009337,null,null,null] Q=45.977s/null/null/null [Revenant Horror IV,1009337,null,null,null] [Tarantula Broodfather III,1009337,null,null,null] K=null [Tarantula Broodfather III,1009337,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|23",
+      "out": "[Tarantula Broodfather III,1038665,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,1049115,null,null,null] [Tarantula Broodfather III,1049115,1050101,null,null] K=Kill(boss=Tarantula Broodfather III, bossTime=24.083s, questTime=25.069s, pbBefore=null, at=1074184) [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/Kill(boss=Tarantula Broodfather III, bossTime=24.083s, questTime=25.069s, pbBefore=null, at=1074184)/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,1194737,1232876,null,null] [null,1194737,1232876,null,null] [Revenant Horror IV,1194737,1232876,null,null] [null,1194737,1232876,null,null]  calls=10"
+    },
+    {
+      "in": "slayer|24",
+      "out": "K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1012154,null,null,null] [Revenant Horror IV,1012154,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] [Revenant Horror IV,1014358,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,1022960,null,null,null] [Tarantula Broodfather III,1022960,1026845,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|25",
+      "out": "[Tarantula Broodfather III,1013130,1028495,null,null] [null,1013130,1028495,null,null] Q=37.619s/49.545s/null/null [null,1013130,1028495,null,null] K=null [null,1079822,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,1108094,null,null,null] Q=21.5s/null/null/null [null,1108094,null,null,null] [Tarantula Broodfather III,1108094,null,null,null] [Tarantula Broodfather III,1108094,null,null,null] [null,1108094,null,null,null] K=null [null,null,null,null,null] K=null [null,1137375,null,null,null] Q=21.797s/null/null/null [null,1137375,null,null,null] [Tarantula Broodfather III,1137375,null,null,null] K=null [Tarantula Broodfather III,1137375,null,null,null] [null,1137375,null,null,null]  calls=9"
+    },
+    {
+      "in": "slayer|26",
+      "out": "K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] K=null [null,1035501,null,null,null] Q=29.52s/null/null/null [null,1035501,null,null,null] K=null [null,1035501,null,null,null] Q=47.726s/null/null/null [null,1035501,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|27",
+      "out": "K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|28",
+      "out": "K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,1026952,null,null,null] [Revenant Horror IV,1026952,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=1"
+    },
+    {
+      "in": "slayer|29",
+      "out": "[Revenant Horror IV,1010040,null,null,null] Q=3.405s/null/null/null [Revenant Horror IV,1010040,null,null,null] K=null [Revenant Horror IV,1010040,null,null,null] [Revenant Horror IV,1010040,null,null,null] Q=20.726s/null/null/null [Revenant Horror IV,1010040,null,null,null] Q=27.412s/null/null/null [Revenant Horror IV,1010040,null,null,null] Q=34.498s/null/null/null [Revenant Horror IV,1010040,null,null,null] K=null [Revenant Horror IV,1010040,null,null,null] [Tarantula Broodfather III,1010040,null,null,null] [Revenant Horror IV,1010040,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null]  calls=5"
+    },
+    {
+      "in": "slayer|30",
+      "out": "[null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,1027811,1041771,null,null] [Revenant Horror IV,1027811,1041771,null,null] Q=19.617s/20.991s/null/null [Revenant Horror IV,1027811,1041771,null,null] Q=36.517s/53.64s/null/null [Revenant Horror IV,1027811,1041771,null,null] K=null [Revenant Horror IV,1027811,1041771,null,null] Q=1m 38.074s/1m 59.061s/null/null [Revenant Horror IV,1027811,1041771,null,null] [null,1027811,1041771,null,null] [null,1027811,1041771,null,null] [Revenant Horror IV,1027811,1041771,null,null] K=null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null]  calls=8"
+    },
+    {
+      "in": "slayer|31",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1022387,null,null,null] [Tarantula Broodfather III,1022387,null,null,null] [Revenant Horror IV,1022387,null,null,null] K=null [Revenant Horror IV,1022387,null,null,null] Q=8.289s/null/null/null [Revenant Horror IV,1022387,null,null,null] K=null [Revenant Horror IV,null,null,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|32",
+      "out": "[Tarantula Broodfather III,1036963,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1075543,null,null,null] [Tarantula Broodfather III,1075543,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,1096511,null,null,null] Q=6.311s/null/null/null [Tarantula Broodfather III,1096511,null,null,null] [Tarantula Broodfather III,1096511,1129402,null,null] [Tarantula Broodfather III,1096511,1129402,null,null] Q=1m 11.936s/1m 4.207s/null/null [Tarantula Broodfather III,1096511,1129402,null,null] [Revenant Horror IV,1096511,1129402,null,null] [null,1096511,1129402,null,null] [Tarantula Broodfather III,1096511,1129402,null,null] [null,1096511,1129402,null,null] [null,1096511,1129402,null,null] [null,1096511,1129402,null,null] [Revenant Horror IV,1096511,1129402,null,null] Q=2m 0.098s/2m 3.599s/null/null [Revenant Horror IV,1096511,1129402,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1277595,null,null,null] Q=31.202s/null/null/null [Revenant Horror IV,1277595,null,null,null] [null,1277595,null,null,null] Q=1m 1.666s/null/null/null [null,1277595,null,null,null]  calls=12"
+    },
+    {
+      "in": "slayer|33",
+      "out": "[null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1027443,null,null,null] Q=2.189s/null/null/null [Tarantula Broodfather III,1027443,null,null,null] Q=23.017s/null/null/null [Tarantula Broodfather III,1027443,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|34",
+      "out": "Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,1035592,1037648,45s,null] [Tarantula Broodfather III,1035592,1037648,45s,null]  calls=2"
+    },
+    {
+      "in": "slayer|35",
+      "out": "K=null [null,null,null,null,null] [Revenant Horror IV,1001272,null,null,null] [Revenant Horror IV,1001272,null,null,null]  calls=1"
+    },
+    {
+      "in": "slayer|36",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1003437,null,null,null] Q=92ms/null/null/null [Revenant Horror IV,1003437,null,null,null] [Revenant Horror IV,1003437,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|37",
+      "out": "K=null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,1034461,null,null,null] Q=3.205s/null/null/null [Tarantula Broodfather III,1034461,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|38",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,1006202,null,null,null] K=null [null,1006202,null,null,null] K=null [null,1006202,null,null,null] [null,1006202,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null]  calls=1"
+    },
+    {
+      "in": "slayer|39",
+      "out": "K=null [null,1031754,null,null,null] K=null [null,1031754,null,null,null] Q=8.185s/null/null/null [null,1031754,null,null,null] [Tarantula Broodfather III,1031754,null,null,null] [Revenant Horror IV,1031754,null,null,null] Q=42.58s/null/null/null [Revenant Horror IV,1031754,null,null,null] [Tarantula Broodfather III,1031754,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,1112888,null,null,null] [Revenant Horror IV,1112888,null,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|40",
+      "out": "K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1006233,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1026233,null,null,null] K=null [Revenant Horror IV,1026233,null,null,null] Q=20.65s/null/null/null [Revenant Horror IV,1026233,null,null,null] K=null [Revenant Horror IV,null,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|41",
+      "out": "[Revenant Horror IV,1002985,null,null,null] [null,1002985,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1028978,null,null,null] [Revenant Horror IV,1028978,null,null,null] [Tarantula Broodfather III,1028978,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|42",
+      "out": "[Tarantula Broodfather III,1012814,null,null,null] Q=1.484s/null/null/null [Tarantula Broodfather III,1012814,null,null,null] [Revenant Horror IV,1012814,null,null,null] K=null [Revenant Horror IV,1012814,null,null,null] Q=36.346s/null/null/null [Revenant Horror IV,1012814,null,null,null] Q=42.997s/null/null/null [Revenant Horror IV,1012814,null,null,null] Q=44.742s/null/null/null [Revenant Horror IV,1012814,null,null,null] Q=1m 9.56s/null/null/null [Revenant Horror IV,1012814,null,null,null] K=null [Revenant Horror IV,1012814,null,null,null] Q=1m 17.279s/null/null/null [Revenant Horror IV,1012814,null,null,null] Q=1m 24.617s/null/null/null [Revenant Horror IV,1012814,null,null,null] K=null [Revenant Horror IV,1012814,null,null,null] [Revenant Horror IV,1012814,null,null,null] [Tarantula Broodfather III,1012814,null,null,null] [null,1012814,null,null,null] [Revenant Horror IV,1012814,1122019,45s,null] [Revenant Horror IV,1012814,1122019,45s,null] Q=2m 6.215s/32.745s/null/null [Revenant Horror IV,1012814,1122019,45s,null] [null,1012814,1122019,45s,null] [null,1012814,1122019,45s,null] [Tarantula Broodfather III,1012814,1122019,45s,null] [Tarantula Broodfather III,1012814,1122019,45s,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=11"
+    },
+    {
+      "in": "slayer|43",
+      "out": "K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] [Revenant Horror IV,1033278,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null]  calls=1"
+    },
+    {
+      "in": "slayer|44",
+      "out": "[Tarantula Broodfather III,1033703,null,null,null] [Revenant Horror IV,1033703,null,null,null] [null,1033703,null,null,null] Q=10.744s/null/null/null [null,1033703,null,null,null] [null,1033703,null,null,null] [null,1033703,null,null,null] [Revenant Horror IV,1033703,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1077772,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] [Revenant Horror IV,1088076,null,null,null] [Revenant Horror IV,1088076,1097467,45s,null] [Revenant Horror IV,1088076,1097467,45s,null] K=null [Revenant Horror IV,1088076,1097467,45s,null] [Revenant Horror IV,1088076,1097467,45s,null] Q=39.191s/1m 5.586s/null/null [Revenant Horror IV,1088076,1097467,45s,null] Q=1m 51.51s/2m 20.586s/null/null [Revenant Horror IV,1088076,1097467,45s,null] [Revenant Horror IV,1088076,1097467,45s,null] K=null [Revenant Horror IV,1088076,1097467,45s,null] Q=2m 55.857s/2m 50.911s/null/null [Revenant Horror IV,1088076,1097467,45s,null]  calls=11"
+    },
+    {
+      "in": "slayer|45",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,1038295,null,null,null] Q=6.353s/null/null/null [Revenant Horror IV,1038295,null,null,null] Q=8.49s/null/null/null [Revenant Horror IV,1038295,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1055303,null,null,null] [Tarantula Broodfather III,1055303,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,1078656,null,null,null] Q=18.153s/null/null/null [Tarantula Broodfather III,1078656,null,null,null] K=null [Tarantula Broodfather III,1078656,null,null,null] Q=24.07s/null/null/null [Tarantula Broodfather III,1078656,null,null,null] K=null [Tarantula Broodfather III,1078656,null,null,null] Q=29.01s/null/null/null [Tarantula Broodfather III,1078656,null,null,null] [Revenant Horror IV,1078656,null,null,null] K=null [Revenant Horror IV,1078656,null,null,null] Q=1m 7.728s/null/null/null [Revenant Horror IV,1078656,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null]  calls=9"
+    },
+    {
+      "in": "slayer|46",
+      "out": "[Revenant Horror IV,1038532,null,null,null] [null,1038532,null,null,null] [null,1038532,null,null,null] K=null [null,1038532,null,null,null] Q=3.268s/null/null/null [null,1038532,null,null,null] Q=17.709s/null/null/null [null,1038532,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] [Revenant Horror IV,1061999,null,null,null] Q=22.281s/null/null/null [Revenant Horror IV,1061999,null,null,null] [Tarantula Broodfather III,1061999,null,null,null] K=null [Tarantula Broodfather III,1061999,null,null,null]  calls=5"
+    },
+    {
+      "in": "slayer|47",
+      "out": "K=null [null,null,null,null,null] [Tarantula Broodfather III,1002388,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null]  calls=1"
+    },
+    {
+      "in": "slayer|48",
+      "out": "K=null [null,null,null,null,null] [Revenant Horror IV,1014660,null,null,null] Q=19.32s/null/null/null [Revenant Horror IV,1014660,null,null,null] [Revenant Horror IV,1014660,null,null,null] K=null [Revenant Horror IV,1014660,null,null,null] K=null [Revenant Horror IV,1014660,null,null,null] Q=29.136s/null/null/null [Revenant Horror IV,1014660,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|49",
+      "out": "K=null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|50",
+      "out": "K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|51",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|52",
+      "out": "K=null [null,null,null,null,null] [Tarantula Broodfather III,1013646,1025070,null,null] Q=27.451s/25.301s/null/null [Tarantula Broodfather III,1013646,1025070,null,null] K=null [Tarantula Broodfather III,1065634,null,null,null] Q=26.972s/null/null/null [Tarantula Broodfather III,1065634,null,null,null] Q=36.611s/null/null/null [Tarantula Broodfather III,1065634,null,null,null] Q=1m 1.332s/null/null/null [Tarantula Broodfather III,1065634,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] [Revenant Horror IV,1135413,1169512,45s,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null]  calls=10"
+    },
+    {
+      "in": "slayer|53",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] [Revenant Horror IV,1007806,1011719,45s,null] Q=42.224s/1m 15.443s/null/null [Revenant Horror IV,1007806,1011719,45s,null] Q=1m 35.813s/1m 49.657s/null/null [Revenant Horror IV,1007806,1011719,45s,null] K=Kill(boss=Revenant Horror IV, bossTime=2m 16.533s, questTime=2m 20.446s, pbBefore=45s, at=1148252) [Revenant Horror IV,null,null,null,1m 31.533s] Q=null/null/Kill(boss=Revenant Horror IV, bossTime=2m 16.533s, questTime=2m 20.446s, pbBefore=45s, at=1148252)/null [Revenant Horror IV,null,null,null,1m 31.533s] K=null [Revenant Horror IV,null,null,null,1m 31.533s] K=null [Revenant Horror IV,null,null,null,1m 31.533s] K=null [Revenant Horror IV,null,null,null,1m 31.533s] K=null [Revenant Horror IV,null,null,null,1m 31.533s] Q=null/null/null/null [Revenant Horror IV,null,null,null,1m 31.533s] K=null [Revenant Horror IV,null,null,null,1m 31.533s] K=null [Revenant Horror IV,null,null,null,1m 31.533s] [Tarantula Broodfather III,null,null,null,1m 31.533s] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,1m 31.533s] K=null [Tarantula Broodfather III,1269911,null,null,1m 31.533s] Q=38.962s/null/null/null [Tarantula Broodfather III,1269911,null,null,1m 31.533s] Q=2m 5.14s/null/null/null [Tarantula Broodfather III,1269911,null,null,1m 31.533s] [null,1269911,null,null,1m 31.533s] K=null [null,1269911,null,null,1m 31.533s] K=null [null,1269911,null,null,1m 31.533s] [Revenant Horror IV,1269911,null,null,1m 31.533s] [Tarantula Broodfather III,1269911,null,null,1m 31.533s]  calls=20"
+    },
+    {
+      "in": "slayer|54",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|55",
+      "out": "K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1031721,null,null,null] K=null [Tarantula Broodfather III,1031721,null,null,null] [Tarantula Broodfather III,1031721,null,null,null] [Tarantula Broodfather III,1031721,null,null,null] [Tarantula Broodfather III,1031721,1041950,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|56",
+      "out": "K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1027072,1036841,null,null] [Tarantula Broodfather III,1027072,1036841,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,1055536,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|57",
+      "out": "K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1015376,1020048,null,null] [Revenant Horror IV,1015376,1020048,null,null] Q=23.483s/34.111s/null/null [Revenant Horror IV,1015376,1020048,null,null] Q=57.795s/1m 22.13s/null/null [Revenant Horror IV,1015376,1020048,null,null] [Revenant Horror IV,1015376,1020048,null,null] Q=1m 28.508s/1m 53.206s/null/null [Revenant Horror IV,1015376,1020048,null,null] Q=2m 11.226s/2m 37.157s/null/null [Revenant Horror IV,1015376,1020048,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null]  calls=10"
+    },
+    {
+      "in": "slayer|58",
+      "out": "K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,1002731,null,null,null] [Revenant Horror IV,1002731,null,null,null] Q=34.773s/null/null/null [Revenant Horror IV,1002731,null,null,null] [Tarantula Broodfather III,1002731,null,null,null] [null,1002731,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|59",
+      "out": "Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,1008027,1030343,45s,null] Q=31.075s/40.961s/null/null [Revenant Horror IV,1008027,1030343,45s,null] K=Kill(boss=Revenant Horror IV, bossTime=48.295s, questTime=1m 10.611s, pbBefore=45s, at=1078638) [Revenant Horror IV,null,null,null,3.295s] [Tarantula Broodfather III,null,null,null,3.295s] Q=null/null/Kill(boss=Revenant Horror IV, bossTime=48.295s, questTime=1m 10.611s, pbBefore=45s, at=1078638)/null [Tarantula Broodfather III,null,null,null,3.295s] K=null [Tarantula Broodfather III,null,null,null,3.295s] [Revenant Horror IV,null,null,null,3.295s] [Tarantula Broodfather III,null,null,null,3.295s] K=null [Tarantula Broodfather III,null,null,null,3.295s] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,3.295s] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,3.295s] [Revenant Horror IV,null,null,null,3.295s] K=null [Revenant Horror IV,null,null,null,3.295s] [Tarantula Broodfather III,null,null,null,3.295s]  calls=11"
+    },
+    {
+      "in": "slayer|60",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|61",
+      "out": "[Revenant Horror IV,1035778,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1041690,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1074194,1102755,null,null] Q=40.653s/49.469s/null/null [Tarantula Broodfather III,1074194,1102755,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=6"
+    },
+    {
+      "in": "slayer|62",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|63",
+      "out": "K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|64",
+      "out": "Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1033941,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null]  calls=1"
+    },
+    {
+      "in": "slayer|65",
+      "out": "[Tarantula Broodfather III,1025445,null,null,null] [null,1025445,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1039357,null,null,null] [Tarantula Broodfather III,1039357,null,null,null] Q=10.701s/null/null/null [Tarantula Broodfather III,1039357,null,null,null] [null,1039357,null,null,null] Q=31.771s/null/null/null [null,1039357,null,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|66",
+      "out": "Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,1007698,1040847,45s,null] Q=1m 3.802s/33.459s/null/null [Revenant Horror IV,1007698,1040847,45s,null] K=null [Revenant Horror IV,1007698,1040847,45s,null] K=null [Revenant Horror IV,1007698,1040847,45s,null] K=null [Revenant Horror IV,1007698,1040847,45s,null] K=null [Revenant Horror IV,1096838,null,null,null] K=null [Revenant Horror IV,1096838,null,null,null]  calls=5"
+    },
+    {
+      "in": "slayer|67",
+      "out": "[Tarantula Broodfather III,1001730,null,null,null] Q=16.548s/null/null/null [Tarantula Broodfather III,1001730,null,null,null] [Revenant Horror IV,1001730,null,null,null] Q=21.293s/null/null/null [Revenant Horror IV,1001730,null,null,null] Q=25.853s/null/null/null [Revenant Horror IV,1001730,null,null,null] K=null [Revenant Horror IV,1001730,null,null,null] Q=57.971s/null/null/null [Revenant Horror IV,1001730,null,null,null] Q=1m 26.618s/null/null/null [Revenant Horror IV,1001730,null,null,null] Q=1m 28.347s/null/null/null [Revenant Horror IV,1001730,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1109624,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,1116982,null,null,null] K=null [Revenant Horror IV,1116982,null,null,null]  calls=9"
+    },
+    {
+      "in": "slayer|68",
+      "out": "[Tarantula Broodfather III,1000171,null,null,null] Q=32.873s/null/null/null [Tarantula Broodfather III,1000171,null,null,null] Q=1m 1.735s/null/null/null [Tarantula Broodfather III,1000171,null,null,null] [null,1000171,null,null,null] Q=1m 16.644s/null/null/null [null,1000171,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] [Revenant Horror IV,1102893,null,null,null] Q=28.404s/null/null/null [Revenant Horror IV,1102893,null,null,null] Q=32.375s/null/null/null [Revenant Horror IV,1102893,null,null,null] [null,1102893,null,null,null] Q=54.516s/null/null/null [null,1102893,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=8"
+    },
+    {
+      "in": "slayer|69",
+      "out": "[Revenant Horror IV,1018395,1034139,45s,null] [Tarantula Broodfather III,1018395,1034139,45s,null] [null,1018395,1034139,45s,null] K=Kill(boss=null, bossTime=33.29s, questTime=49.034s, pbBefore=45s, at=1067429) [null,null,null,null,-11.71s] K=null [null,null,null,null,-11.71s] Q=null/null/Kill(boss=null, bossTime=33.29s, questTime=49.034s, pbBefore=45s, at=1067429)/null [null,null,null,null,-11.71s] Q=null/null/null/null [null,null,null,null,-11.71s]  calls=7"
+    },
+    {
+      "in": "slayer|70",
+      "out": "K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|71",
+      "out": "K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,1029008,null,null,null] Q=32.236s/null/null/null [Revenant Horror IV,1029008,null,null,null] K=null [Revenant Horror IV,1029008,null,null,null] Q=57.85s/null/null/null [Revenant Horror IV,1029008,null,null,null] K=null [Revenant Horror IV,1029008,null,null,null] [Tarantula Broodfather III,1029008,1119503,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|72",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,1013087,1023748,null,null] [null,1013087,1023748,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|73",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1016175,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null]  calls=1"
+    },
+    {
+      "in": "slayer|74",
+      "out": "[Revenant Horror IV,1026444,null,null,null] Q=24.089s/null/null/null [Revenant Horror IV,1026444,null,null,null] K=null [Revenant Horror IV,1026444,null,null,null] K=null [Revenant Horror IV,1059424,null,null,null] [null,1059424,null,null,null] [null,1059424,null,null,null] K=null [null,1059424,null,null,null] [Revenant Horror IV,1059424,null,null,null] Q=8.676s/null/null/null [Revenant Horror IV,1059424,null,null,null] Q=11.275s/null/null/null [Revenant Horror IV,1059424,null,null,null] [Revenant Horror IV,1059424,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null]  calls=5"
+    },
+    {
+      "in": "slayer|75",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|76",
+      "out": "K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,1005361,null,null,null] K=null [null,1014942,null,null,null] Q=30.652s/null/null/null [null,1014942,null,null,null] K=null [null,1071881,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|77",
+      "out": "K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,1025697,1057909,45s,null] [Tarantula Broodfather III,1025697,1057909,45s,null] K=Kill(boss=Tarantula Broodfather III, bossTime=28.808s, questTime=1m 1.02s, pbBefore=45s, at=1086717) [Tarantula Broodfather III,null,null,null,-16.192s] K=null [Tarantula Broodfather III,null,null,null,-16.192s] K=null [Tarantula Broodfather III,null,null,null,-16.192s] K=null [Tarantula Broodfather III,null,null,null,-16.192s] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,-16.192s] [Tarantula Broodfather III,null,null,null,-16.192s] [null,null,null,null,-16.192s] [Tarantula Broodfather III,1197131,null,null,-16.192s] K=null [Tarantula Broodfather III,null,null,null,-16.192s] K=null [Tarantula Broodfather III,null,null,null,-16.192s] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,-16.192s] K=null [Tarantula Broodfather III,null,null,null,-16.192s]  calls=8"
+    },
+    {
+      "in": "slayer|78",
+      "out": "[Tarantula Broodfather III,1014774,1033271,null,null] [Revenant Horror IV,1014774,1033271,null,null] [null,1014774,1033271,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,1050991,1055200,null,null] Q=35.216s/53.986s/null/null [Tarantula Broodfather III,1050991,1055200,null,null] Q=1m 27.225s/2m 2.967s/null/null [Tarantula Broodfather III,1050991,1055200,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,1205343,null,null,null]  calls=9"
+    },
+    {
+      "in": "slayer|79",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,1004294,null,null,null] [null,1004294,null,null,null] [Revenant Horror IV,1004294,1015086,45s,null] Q=15.092s/37.283s/null/null [Revenant Horror IV,1004294,1015086,45s,null] Q=1m 6.772s/1m 14.926s/null/null [Revenant Horror IV,1004294,1015086,45s,null] Q=1m 42.615s/1m 35.205s/null/null [Revenant Horror IV,1004294,1015086,45s,null] K=null [Revenant Horror IV,1124412,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,1148179,null,null,null]  calls=10"
+    },
+    {
+      "in": "slayer|80",
+      "out": "Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1034550,null,null,null] K=null [Tarantula Broodfather III,1054883,null,null,null] [null,1054883,null,null,null] [Tarantula Broodfather III,1054883,null,null,null] [null,1054883,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|81",
+      "out": "[Revenant Horror IV,1003398,null,null,null] [Tarantula Broodfather III,1003398,1035738,null,null] [Tarantula Broodfather III,1003398,1035738,null,null] [null,1003398,1035738,null,null] Q=32.721s/25.875s/null/null [null,1003398,1035738,null,null] [Tarantula Broodfather III,1003398,1035738,null,null] [null,1003398,1035738,null,null] [Revenant Horror IV,1003398,1035738,null,null] Q=1m 15.726s/1m 16.006s/null/null [Revenant Horror IV,1003398,1035738,null,null] [null,1003398,1035738,null,null] K=null [null,1003398,1035738,null,null] [Revenant Horror IV,1003398,1035738,null,null] K=Kill(boss=Revenant Horror IV, bossTime=1m 44.295s, questTime=2m 16.635s, pbBefore=null, at=1140033) [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null]  calls=19"
+    },
+    {
+      "in": "slayer|82",
+      "out": "[null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] K=null [null,1023217,null,null,null] [Tarantula Broodfather III,1023217,null,null,null] Q=20.353s/null/null/null [Tarantula Broodfather III,1023217,null,null,null] Q=50.958s/null/null/null [Tarantula Broodfather III,1023217,null,null,null] Q=54.332s/null/null/null [Tarantula Broodfather III,1023217,null,null,null] Q=1m 8.979s/null/null/null [Tarantula Broodfather III,1023217,null,null,null] [Tarantula Broodfather III,1023217,null,null,null] Q=1m 26.1s/null/null/null [Tarantula Broodfather III,1023217,null,null,null] Q=1m 44.432s/null/null/null [Tarantula Broodfather III,1023217,null,null,null] Q=2m 19.361s/null/null/null [Tarantula Broodfather III,1023217,null,null,null] [Tarantula Broodfather III,1023217,1192851,null,null] Q=3m 21.74s/1m 11.113s/null/null [Tarantula Broodfather III,1023217,1192851,null,null]  calls=11"
+    },
+    {
+      "in": "slayer|83",
+      "out": "[Tarantula Broodfather III,1027937,null,null,null] [Tarantula Broodfather III,1027937,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1039305,1074114,null,null] [null,1039305,1074114,null,null] [Revenant Horror IV,1039305,1074114,null,null] [Tarantula Broodfather III,1039305,1074114,null,null] K=Kill(boss=Tarantula Broodfather III, bossTime=536ms, questTime=35.345s, pbBefore=null, at=1074650) [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null]  calls=6"
+    },
+    {
+      "in": "slayer|84",
+      "out": "K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|85",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,1002428,null,null,null] Q=29.5s/null/null/null [Revenant Horror IV,1002428,null,null,null] [Tarantula Broodfather III,1002428,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1068274,1103829,null,null] K=null [Tarantula Broodfather III,1068274,1103829,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|86",
+      "out": "[Tarantula Broodfather III,1027167,null,null,null] [Tarantula Broodfather III,1027167,1057400,null,null] Q=30.883s/22.901s/null/null [Tarantula Broodfather III,1027167,1057400,null,null] [null,1027167,1057400,null,null] Q=1m 0.413s/45.971s/null/null [null,1027167,1057400,null,null] [Revenant Horror IV,1027167,1057400,null,null] [Tarantula Broodfather III,1027167,1057400,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=6"
+    },
+    {
+      "in": "slayer|87",
+      "out": "[Tarantula Broodfather III,1005487,null,null,null] [Tarantula Broodfather III,1005487,null,null,null] Q=6.576s/null/null/null [Tarantula Broodfather III,1005487,null,null,null] K=null [Tarantula Broodfather III,1005487,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,1046877,null,null,null] K=null [null,1046877,null,null,null] K=null [null,1046877,null,null,null] Q=1.181s/null/null/null [null,1046877,null,null,null] [null,1046877,null,null,null] K=null [null,1046877,null,null,null] K=null [null,1050931,null,null,null] Q=5.358s/null/null/null [null,1050931,null,null,null] [null,1050931,null,null,null] Q=7.118s/null/null/null [null,1050931,null,null,null] Q=36.192s/null/null/null [null,1050931,null,null,null] [null,1050931,null,null,null] Q=47.557s/null/null/null [null,1050931,null,null,null]  calls=9"
+    },
+    {
+      "in": "slayer|88",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1025013,null,null,null] [Revenant Horror IV,1025013,1057678,45s,null] Q=57.916s/46.068s/null/null [Revenant Horror IV,1025013,1057678,45s,null] [Tarantula Broodfather III,1025013,1057678,45s,null] Q=1m 36.038s/1m 30.41s/null/null [Tarantula Broodfather III,1025013,1057678,45s,null] [Revenant Horror IV,1025013,1057678,45s,null] [Revenant Horror IV,1025013,1057678,45s,null] Q=2m 6.034s/1m 40.279s/null/null [Revenant Horror IV,1025013,1057678,45s,null] K=null [Revenant Horror IV,1171750,null,null,null] [Revenant Horror IV,1171750,1196218,45s,null]  calls=10"
+    },
+    {
+      "in": "slayer|89",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1027077,null,null,null] K=null [Tarantula Broodfather III,1043317,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|90",
+      "out": "[Tarantula Broodfather III,1010034,null,null,null] Q=30.757s/null/null/null [Tarantula Broodfather III,1010034,null,null,null] Q=48.004s/null/null/null [Tarantula Broodfather III,1010034,null,null,null] [Tarantula Broodfather III,1010034,1080901,null,null] K=null [Tarantula Broodfather III,1010034,1080901,null,null] K=null [Tarantula Broodfather III,1010034,1080901,null,null] [Revenant Horror IV,1010034,1080901,null,null] Q=1m 12.658s/19.408s/null/null [Revenant Horror IV,1010034,1080901,null,null] K=null [Revenant Horror IV,1139534,null,null,null] Q=9.531s/null/null/null [Revenant Horror IV,1139534,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null]  calls=8"
+    },
+    {
+      "in": "slayer|91",
+      "out": "K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,1002274,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1026590,1060465,null,null] K=null [Tarantula Broodfather III,1026590,1060465,null,null] [Revenant Horror IV,1026590,1060465,null,null] [null,1026590,1060465,null,null] Q=58.636s/54.946s/null/null [null,1026590,1060465,null,null] K=Kill(boss=null, bossTime=1m 13.65s, questTime=1m 47.525s, pbBefore=null, at=1134115) [null,null,null,null,null] Q=null/null/Kill(boss=null, bossTime=1m 13.65s, questTime=1m 47.525s, pbBefore=null, at=1134115)/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null]  calls=12"
+    },
+    {
+      "in": "slayer|92",
+      "out": "K=null [null,1020107,null,null,null] K=null [null,1020107,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,1034764,null,null,null] Q=2.848s/null/null/null [null,1034764,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|93",
+      "out": "[null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|94",
+      "out": "[Revenant Horror IV,1011744,null,null,null] Q=26.157s/null/null/null [Revenant Horror IV,1011744,null,null,null] [Tarantula Broodfather III,1011744,null,null,null] Q=58.641s/null/null/null [Tarantula Broodfather III,1011744,null,null,null] Q=1m 2.555s/null/null/null [Tarantula Broodfather III,1011744,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|95",
+      "out": "K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|96",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,1024736,null,null,null]  calls=1"
+    },
+    {
+      "in": "slayer|97",
+      "out": "[Tarantula Broodfather III,1002352,null,null,null] Q=38.824s/null/null/null [Tarantula Broodfather III,1002352,null,null,null] Q=1m 0.489s/null/null/null [Tarantula Broodfather III,1002352,null,null,null] [null,1002352,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,1101622,null,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|98",
+      "out": "[null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|99",
+      "out": "K=null [null,null,null,null,null] [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,1024763,1063951,45s,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1070324,null,null,null] K=null [Revenant Horror IV,1070324,null,null,null] [null,1070324,null,null,null] Q=10.499s/null/null/null [null,1070324,null,null,null] Q=34.588s/null/null/null [null,1070324,null,null,null] Q=43.776s/null/null/null [null,1070324,null,null,null] K=null [null,1070324,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=6"
+    },
+    {
+      "in": "slayer|100",
+      "out": "K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|101",
+      "out": "[Revenant Horror IV,1034658,null,null,null] [Revenant Horror IV,1034658,null,null,null] [Tarantula Broodfather III,1034658,null,null,null] Q=18.352s/null/null/null [Tarantula Broodfather III,1034658,null,null,null] Q=46.742s/null/null/null [Tarantula Broodfather III,1034658,null,null,null] [Tarantula Broodfather III,1034658,null,null,null] K=null [Tarantula Broodfather III,1034658,null,null,null] [null,1034658,null,null,null] Q=1m 5.358s/null/null/null [null,1034658,null,null,null] Q=1m 28.021s/null/null/null [null,1034658,null,null,null] Q=1m 33.451s/null/null/null [null,1034658,null,null,null] K=null [null,1034658,null,null,null]  calls=6"
+    },
+    {
+      "in": "slayer|102",
+      "out": "Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,1010037,null,null,null] [Tarantula Broodfather III,1010037,null,null,null] [Tarantula Broodfather III,1010037,null,null,null] [Revenant Horror IV,1010037,null,null,null] [Tarantula Broodfather III,1010037,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1046810,null,null,null] K=null [Revenant Horror IV,1046810,null,null,null] Q=15.702s/null/null/null [Revenant Horror IV,1046810,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1094720,null,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|103",
+      "out": "K=null [null,null,null,null,null] [Tarantula Broodfather III,1006981,null,null,null] Q=11.772s/null/null/null [Tarantula Broodfather III,1006981,null,null,null] K=null [Tarantula Broodfather III,1006981,null,null,null] [null,1006981,null,null,null] Q=47.838s/null/null/null [null,1006981,null,null,null] Q=1m 22.26s/null/null/null [null,1006981,null,null,null] K=null [null,1006981,null,null,null] Q=1m 51.221s/null/null/null [null,1006981,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null]  calls=5"
+    },
+    {
+      "in": "slayer|104",
+      "out": "K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,1033878,1034411,45s,null] [Revenant Horror IV,1033878,1034411,45s,null] [null,1033878,1034411,45s,null] [Revenant Horror IV,1033878,1034411,45s,null] [Tarantula Broodfather III,1033878,1034411,45s,null] [Tarantula Broodfather III,1033878,1034411,45s,null] [Tarantula Broodfather III,1033878,1034411,45s,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1051326,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|105",
+      "out": "[null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,1039142,null,null,null] K=null [null,1039142,null,null,null] [Tarantula Broodfather III,1039142,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null]  calls=1"
+    },
+    {
+      "in": "slayer|106",
+      "out": "K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1018833,null,null,null] [Revenant Horror IV,1018833,null,null,null] [Revenant Horror IV,1018833,null,null,null] K=null [Revenant Horror IV,1049274,null,null,null] Q=27.279s/null/null/null [Revenant Horror IV,1049274,null,null,null] Q=55.462s/null/null/null [Revenant Horror IV,1049274,null,null,null] Q=1m 15.666s/null/null/null [Revenant Horror IV,1049274,null,null,null]  calls=5"
+    },
+    {
+      "in": "slayer|107",
+      "out": "K=null [null,null,null,null,null] [Revenant Horror IV,1003073,null,null,null] K=null [Revenant Horror IV,1003073,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=1"
+    },
+    {
+      "in": "slayer|108",
+      "out": "[Revenant Horror IV,1021228,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1025577,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|109",
+      "out": "K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|110",
+      "out": "K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1017535,null,null,null] Q=38.385s/null/null/null [Revenant Horror IV,1017535,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|111",
+      "out": "Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1017039,null,null,null] Q=39.832s/null/null/null [Tarantula Broodfather III,1017039,null,null,null] Q=48.632s/null/null/null [Tarantula Broodfather III,1017039,null,null,null] K=null [Tarantula Broodfather III,1085675,null,null,null] [Revenant Horror IV,1085675,null,null,null] Q=19.846s/null/null/null [Revenant Horror IV,1085675,null,null,null] [Tarantula Broodfather III,1085675,null,null,null] [Revenant Horror IV,1085675,null,null,null] [Revenant Horror IV,1085675,null,null,null] [null,1085675,null,null,null] [Revenant Horror IV,1085675,null,null,null] K=null [Revenant Horror IV,1085675,null,null,null] [Tarantula Broodfather III,1085675,null,null,null] Q=36.239s/null/null/null [Tarantula Broodfather III,1085675,null,null,null] [Revenant Horror IV,1085675,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1147141,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,1164112,null,null,null] [null,1164112,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=8"
+    },
+    {
+      "in": "slayer|112",
+      "out": "[null,null,null,null,null] [Tarantula Broodfather III,1034687,null,null,null] Q=31.229s/null/null/null [Tarantula Broodfather III,1034687,null,null,null] K=null [Tarantula Broodfather III,1034687,null,null,null] Q=53.218s/null/null/null [Tarantula Broodfather III,1034687,null,null,null] K=null [Tarantula Broodfather III,1034687,null,null,null] Q=1m 21.733s/null/null/null [Tarantula Broodfather III,1034687,null,null,null] Q=1m 50.915s/null/null/null [Tarantula Broodfather III,1034687,null,null,null] Q=2m 25.313s/null/null/null [Tarantula Broodfather III,1034687,null,null,null] [Revenant Horror IV,1034687,null,null,null] K=null [Revenant Horror IV,1034687,null,null,null] Q=2m 59.001s/null/null/null [Revenant Horror IV,1034687,null,null,null] [Revenant Horror IV,1034687,null,null,null] [Tarantula Broodfather III,1034687,null,null,null]  calls=7"
+    },
+    {
+      "in": "slayer|113",
+      "out": "Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|114",
+      "out": "K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,1024556,null,null,null] K=null [null,1064285,null,null,null] Q=28.129s/null/null/null [null,1064285,null,null,null] K=null [null,1103771,null,null,null] Q=5.34s/null/null/null [null,1103771,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=5"
+    },
+    {
+      "in": "slayer|115",
+      "out": "[null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|116",
+      "out": "[Tarantula Broodfather III,1001425,null,null,null] Q=19.733s/null/null/null [Tarantula Broodfather III,1001425,null,null,null] [null,1001425,null,null,null] [null,1001425,null,null,null] [null,1001425,null,null,null] Q=30.199s/null/null/null [null,1001425,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|117",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|118",
+      "out": "[null,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|119",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,1033126,null,null,null] Q=18.368s/null/null/null [null,1033126,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,1069176,null,null,null] K=null [null,null,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|120",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] [Revenant Horror IV,1000515,null,null,null] K=null [Revenant Horror IV,1000515,null,null,null] Q=17.804s/null/null/null [Revenant Horror IV,1000515,null,null,null] Q=34.946s/null/null/null [Revenant Horror IV,1000515,null,null,null] [Revenant Horror IV,1000515,null,null,null] K=null [Revenant Horror IV,null,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|121",
+      "out": "K=null [null,1011795,null,null,null] K=null [null,1011795,null,null,null] [Tarantula Broodfather III,1011795,null,null,null] K=null [Tarantula Broodfather III,1011795,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=1"
+    },
+    {
+      "in": "slayer|122",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1020200,1036040,null,null] [Revenant Horror IV,1020200,1036040,null,null] [Revenant Horror IV,1020200,1036040,null,null] [Revenant Horror IV,1020200,1036040,null,null] Q=29.65s/15.378s/null/null [Revenant Horror IV,1020200,1036040,null,null] Q=51.099s/49.577s/null/null [Revenant Horror IV,1020200,1036040,null,null] [null,1020200,1036040,null,null] [Revenant Horror IV,1020200,1036040,null,null] [null,1020200,1036040,null,null] [Tarantula Broodfather III,1020200,1036040,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=6"
+    },
+    {
+      "in": "slayer|123",
+      "out": "K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1006488,1016801,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|124",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,1023181,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1049873,null,null,null] K=null [Revenant Horror IV,1049873,null,null,null] K=null [Revenant Horror IV,1049873,null,null,null] K=null [Revenant Horror IV,1063298,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|125",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|126",
+      "out": "[null,null,null,null,null] [Tarantula Broodfather III,1012762,null,null,null] Q=13.496s/null/null/null [Tarantula Broodfather III,1012762,null,null,null] Q=41.773s/null/null/null [Tarantula Broodfather III,1012762,null,null,null] [Revenant Horror IV,1012762,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1057436,null,null,null] Q=20.081s/null/null/null [Revenant Horror IV,1057436,null,null,null] K=null [Revenant Horror IV,1057436,null,null,null] K=null [Revenant Horror IV,1103277,null,null,null]  calls=6"
+    },
+    {
+      "in": "slayer|127",
+      "out": "[Revenant Horror IV,1003626,1019899,45s,null] K=null [Revenant Horror IV,1040764,null,null,null] K=null [Revenant Horror IV,1040764,null,null,null] [Tarantula Broodfather III,1040764,null,null,null] Q=33.267s/null/null/null [Tarantula Broodfather III,1040764,null,null,null] [Revenant Horror IV,1040764,null,null,null] [Revenant Horror IV,1040764,null,null,null] Q=1m 2.202s/null/null/null [Revenant Horror IV,1040764,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null]  calls=5"
+    },
+    {
+      "in": "slayer|128",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1011802,null,null,null] [Revenant Horror IV,1011802,null,null,null] [null,1011802,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null]  calls=1"
+    },
+    {
+      "in": "slayer|129",
+      "out": "[Revenant Horror IV,1011306,1029447,45s,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1032311,null,null,null] [null,1032311,null,null,null] [null,1032311,null,null,null] K=null [null,1071465,null,null,null] K=null [null,1071465,null,null,null] [Revenant Horror IV,1071465,null,null,null] [Revenant Horror IV,1071465,null,null,null] K=null [Revenant Horror IV,1071465,null,null,null] [Tarantula Broodfather III,1071465,null,null,null] [null,1071465,null,null,null] [Tarantula Broodfather III,1071465,1077842,null,null] Q=45.488s/1m 12.758s/null/null [Tarantula Broodfather III,1071465,1077842,null,null] K=Kill(boss=Tarantula Broodfather III, bossTime=1m 33.714s, questTime=1m 40.091s, pbBefore=null, at=1171556) [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null]  calls=8"
+    },
+    {
+      "in": "slayer|130",
+      "out": "[Revenant Horror IV,1025357,null,null,null] Q=10.104s/null/null/null [Revenant Horror IV,1025357,null,null,null] Q=34.296s/null/null/null [Revenant Horror IV,1025357,null,null,null] Q=47.186s/null/null/null [Revenant Horror IV,1025357,null,null,null] Q=1m 23.947s/null/null/null [Revenant Horror IV,1025357,null,null,null] Q=1m 42.829s/null/null/null [Revenant Horror IV,1025357,null,null,null] Q=2m 8.891s/null/null/null [Revenant Horror IV,1025357,null,null,null] K=null [Revenant Horror IV,1025357,null,null,null] Q=2m 9.787s/null/null/null [Revenant Horror IV,1025357,null,null,null] Q=2m 28.165s/null/null/null [Revenant Horror IV,1025357,null,null,null] Q=2m 53.63s/null/null/null [Revenant Horror IV,1025357,null,null,null] Q=3m 4.187s/null/null/null [Revenant Horror IV,1025357,null,null,null] Q=3m 9.717s/null/null/null [Revenant Horror IV,1025357,null,null,null] Q=3m 45.849s/null/null/null [Revenant Horror IV,1025357,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] [null,null,null,null,null] [null,null,null,null,null]  calls=13"
+    },
+    {
+      "in": "slayer|131",
+      "out": "K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1025405,null,null,null] [Revenant Horror IV,1025405,1056846,45s,null] Q=1m 4.965s/59.616s/null/null [Revenant Horror IV,1025405,1056846,45s,null] Q=2m 8.448s/1m 53.65s/null/null [Revenant Horror IV,1025405,1056846,45s,null] K=Kill(boss=Revenant Horror IV, bossTime=2m 18.251s, questTime=2m 49.692s, pbBefore=45s, at=1195097) [Revenant Horror IV,null,null,null,1m 33.251s] K=null [Revenant Horror IV,null,null,null,1m 33.251s] Q=null/null/Kill(boss=Revenant Horror IV, bossTime=2m 18.251s, questTime=2m 49.692s, pbBefore=45s, at=1195097)/null [Revenant Horror IV,null,null,null,1m 33.251s] [Revenant Horror IV,null,null,null,1m 33.251s] [null,null,null,null,1m 33.251s] [Revenant Horror IV,1252465,null,null,1m 33.251s] Q=33.058s/null/null/null [Revenant Horror IV,1252465,null,null,1m 33.251s] Q=1m 42.617s/null/null/null [Revenant Horror IV,1252465,null,null,1m 33.251s] K=null [Revenant Horror IV,null,null,null,1m 33.251s] [null,null,null,null,1m 33.251s] Q=null/null/null/null [null,null,null,null,1m 33.251s] Q=null/null/null/null [null,null,null,null,1m 33.251s] Q=null/null/null/null [null,null,null,null,1m 33.251s] Q=null/null/null/null [null,null,null,null,1m 33.251s] Q=null/null/null/null [null,null,null,null,1m 33.251s] Q=null/null/null/null [null,null,null,null,1m 33.251s] K=null [null,null,null,null,1m 33.251s] [Revenant Horror IV,null,null,null,1m 33.251s] [Tarantula Broodfather III,null,null,null,1m 33.251s] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,1m 33.251s]  calls=30"
+    },
+    {
+      "in": "slayer|132",
+      "out": "[null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1002152,null,null,null] Q=32.716s/null/null/null [Tarantula Broodfather III,1002152,null,null,null] [null,1002152,null,null,null] Q=59.147s/null/null/null [null,1002152,null,null,null] [Tarantula Broodfather III,1002152,1089812,null,null] K=null [Tarantula Broodfather III,1002152,1089812,null,null] [Tarantula Broodfather III,1002152,1089812,null,null] Q=1m 27.923s/20.831s/null/null [Tarantula Broodfather III,1002152,1089812,null,null] Q=1m 58.646s/48.713s/null/null [Tarantula Broodfather III,1002152,1089812,null,null] [Tarantula Broodfather III,1002152,1089812,null,null] Q=2m 25.334s/1m 18.365s/null/null [Tarantula Broodfather III,1002152,1089812,null,null] Q=3m 24.96s/2m 22.116s/null/null [Tarantula Broodfather III,1002152,1089812,null,null] Q=3m 55.795s/3m 5.117s/null/null [Tarantula Broodfather III,1002152,1089812,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null]  calls=14"
+    },
+    {
+      "in": "slayer|133",
+      "out": "[Tarantula Broodfather III,1019160,null,null,null] K=null [Tarantula Broodfather III,1056205,null,null,null] [Revenant Horror IV,1056205,null,null,null] K=null [Revenant Horror IV,1056205,null,null,null] [Revenant Horror IV,1056205,null,null,null] [Tarantula Broodfather III,1056205,null,null,null] [null,1056205,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1079616,1082471,null,null] Q=38.168s/1m 10.026s/null/null [Tarantula Broodfather III,1079616,1082471,null,null] Q=1m 38.793s/2m 14.312s/null/null [Tarantula Broodfather III,1079616,1082471,null,null] Q=2m 50.063s/2m 57.53s/null/null [Tarantula Broodfather III,1079616,1082471,null,null] [Tarantula Broodfather III,1079616,1082471,null,null] [Revenant Horror IV,1079616,1082471,null,null]  calls=10"
+    },
+    {
+      "in": "slayer|134",
+      "out": "K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,1029891,null,null,null] [null,1029891,null,null,null] [Revenant Horror IV,1029891,null,null,null] K=null [Revenant Horror IV,1029891,null,null,null] Q=32.48s/null/null/null [Revenant Horror IV,1029891,null,null,null] [Tarantula Broodfather III,1029891,null,null,null] [null,1029891,null,null,null] [Tarantula Broodfather III,1029891,null,null,null] Q=43.555s/null/null/null [Tarantula Broodfather III,1029891,null,null,null] K=null [Tarantula Broodfather III,1105413,null,null,null] K=null [Tarantula Broodfather III,1110438,null,null,null] K=null [Tarantula Broodfather III,1110438,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null]  calls=5"
+    },
+    {
+      "in": "slayer|135",
+      "out": "[null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,1037971,null,null,null] Q=2.313s/null/null/null [null,1037971,null,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|136",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1006308,null,null,null] [null,1006308,null,null,null] Q=34.512s/null/null/null [null,1006308,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1042362,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|137",
+      "out": "Q=null/null/null/null [null,null,null,null,null] K=null [null,1030516,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,1036269,null,null,null] [null,1036269,null,null,null] [Revenant Horror IV,1036269,1060959,45s,null] [Revenant Horror IV,1036269,1060959,45s,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|138",
+      "out": "Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1016263,1055267,null,null] [null,1016263,1055267,null,null] [null,1016263,1055267,null,null] [null,1016263,1055267,null,null] [null,1016263,1055267,null,null] [null,1016263,1055267,null,null] Q=50.526s/47.434s/null/null [null,1016263,1055267,null,null]  calls=4"
+    },
+    {
+      "in": "slayer|139",
+      "out": "K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1009975,null,null,null] [null,1009975,null,null,null] Q=34.949s/null/null/null [null,1009975,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null]  calls=2"
+    },
+    {
+      "in": "slayer|140",
+      "out": "[null,null,null,null,null] [Revenant Horror IV,1014766,null,null,null] K=null [Revenant Horror IV,1036854,null,null,null] [null,1036854,null,null,null] Q=22.273s/null/null/null [null,1036854,null,null,null] [null,1036854,null,null,null] [Revenant Horror IV,1036854,null,null,null] K=null [Revenant Horror IV,1036854,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|141",
+      "out": "[Tarantula Broodfather III,1036830,null,null,null] [Revenant Horror IV,1036830,1039039,45s,null] K=null [Revenant Horror IV,1036830,1039039,45s,null] [null,1036830,1039039,45s,null] Q=13.846s/46.442s/null/null [null,1036830,1039039,45s,null] [Tarantula Broodfather III,1036830,1039039,45s,null] Q=1m 4.737s/1m 37.57s/null/null [Tarantula Broodfather III,1036830,1039039,45s,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] [Revenant Horror IV,1157264,1174081,45s,null] Q=20.659s/23.761s/null/null [Revenant Horror IV,1157264,1174081,45s,null] [Tarantula Broodfather III,1157264,1174081,45s,null] Q=59.719s/1m 19.183s/null/null [Tarantula Broodfather III,1157264,1174081,45s,null] Q=1m 47.274s/1m 38.454s/null/null [Tarantula Broodfather III,1157264,1174081,45s,null] K=null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null]  calls=14"
+    },
+    {
+      "in": "slayer|142",
+      "out": "[null,null,null,null,null] [Revenant Horror IV,1030841,null,null,null] [null,1030841,null,null,null] Q=116ms/null/null/null [null,1030841,null,null,null] Q=2.873s/null/null/null [null,1030841,null,null,null] Q=9.99s/null/null/null [null,1030841,null,null,null] K=null [null,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1065413,null,null,null] [null,1065413,null,null,null] K=null [null,1065413,null,null,null] K=null [null,1095660,null,null,null] Q=15.054s/null/null/null [null,1095660,null,null,null] [null,1095660,null,null,null] [Revenant Horror IV,1095660,null,null,null] [Tarantula Broodfather III,1095660,null,null,null] Q=24.347s/null/null/null [Tarantula Broodfather III,1095660,null,null,null] Q=54.008s/null/null/null [Tarantula Broodfather III,1095660,null,null,null] Q=57.771s/null/null/null [Tarantula Broodfather III,1095660,null,null,null]  calls=10"
+    },
+    {
+      "in": "slayer|143",
+      "out": "K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null]  calls=0"
+    },
+    {
+      "in": "slayer|144",
+      "out": "K=null [null,null,null,null,null] [Revenant Horror IV,1004985,1007041,45s,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] [Revenant Horror IV,1009205,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null]  calls=3"
+    },
+    {
+      "in": "slayer|145",
+      "out": "[Tarantula Broodfather III,1019977,null,null,null] [Revenant Horror IV,1019977,null,null,null] [Revenant Horror IV,1019977,null,null,null] Q=29.729s/null/null/null [Revenant Horror IV,1019977,null,null,null] Q=48.289s/null/null/null [Revenant Horror IV,1019977,null,null,null] [Revenant Horror IV,1019977,null,null,null] [Tarantula Broodfather III,1019977,null,null,null] Q=54.299s/null/null/null [Tarantula Broodfather III,1019977,null,null,null] [Revenant Horror IV,1019977,null,null,null] [Revenant Horror IV,1019977,null,null,null] K=null [Revenant Horror IV,1100578,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Tarantula Broodfather III,1114786,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null] [Tarantula Broodfather III,null,null,null,null]  calls=6"
+    },
+    {
+      "in": "slayer|146",
+      "out": "K=null [null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1036462,null,null,null] Q=4.212s/null/null/null [Revenant Horror IV,1036462,null,null,null] [Tarantula Broodfather III,1036462,null,null,null] Q=32.036s/null/null/null [Tarantula Broodfather III,1036462,null,null,null] [Tarantula Broodfather III,1036462,1083620,null,null] Q=1m 5.22s/32.475s/null/null [Tarantula Broodfather III,1036462,1083620,null,null] K=Kill(boss=Tarantula Broodfather III, bossTime=40.143s, questTime=1m 27.301s, pbBefore=null, at=1123763) [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] [Revenant Horror IV,null,null,null,null]  calls=7"
+    },
+    {
+      "in": "slayer|147",
+      "out": "[null,null,null,null,null] Q=null/null/null/null [null,null,null,null,null] [Revenant Horror IV,1001630,null,null,null] [null,1001630,null,null,null] [Revenant Horror IV,1001630,1024747,45s,null] Q=47.697s/31.992s/null/null [Revenant Horror IV,1001630,1024747,45s,null] Q=1m 12.353s/58.848s/null/null [Revenant Horror IV,1001630,1024747,45s,null] K=null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] K=null [Revenant Horror IV,1093818,null,null,null] K=null [Revenant Horror IV,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] Q=null/null/null/null [Tarantula Broodfather III,null,null,null,null]  calls=7"
+    },
+    {
+      "in": "slayer|148",
+      "out": "K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,1035079,null,null,null] [Revenant Horror IV,1035079,1068631,45s,null] [Tarantula Broodfather III,1035079,1068631,45s,null] K=null [Tarantula Broodfather III,1035079,1068631,45s,null]  calls=2"
+    },
+    {
+      "in": "slayer|149",
+      "out": "K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] K=null [null,null,null,null,null] [Revenant Horror IV,null,null,null,null] Q=null/null/null/null [Revenant Horror IV,null,null,null,null] [null,null,null,null,null] [Tarantula Broodfather III,1011127,null,null,null] K=null [Tarantula Broodfather III,1031536,null,null,null] [Tarantula Broodfather III,1031536,null,null,null] K=null [Tarantula Broodfather III,null,null,null,null] K=null [Tarantula Broodfather III,1041523,null,null,null] Q=23.551s/null/null/null [Tarantula Broodfather III,1041523,null,null,null] [null,1041523,null,null,null] Q=49.029s/null/null/null [null,1041523,null,null,null]  calls=5"
+    },
+    {
+      "in": "delta|0s",
+      "out": "§c+<0s>"
+    },
+    {
+      "in": "delta|1ms",
+      "out": "§c+<1ms>"
+    },
+    {
+      "in": "delta|-1ms",
+      "out": "§a-<1ms>"
+    },
+    {
+      "in": "delta|3s",
+      "out": "§c+<3s>"
+    },
+    {
+      "in": "delta|-2.5s",
+      "out": "§a-<2.5s>"
+    },
+    {
+      "in": "delta|Infinity",
+      "out": "§c+<Infinity>"
+    },
+    {
+      "in": "delta|-Infinity",
+      "out": "§a-<Infinity>"
+    }
+  ]
+}

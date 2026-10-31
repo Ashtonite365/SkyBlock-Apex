@@ -1,0 +1,1 @@
+{"match":{"regex":".*Gems.*"},"replacements":[{"match":"Gems","style":{"bold":true},"replace":{"text":"G"}}]}

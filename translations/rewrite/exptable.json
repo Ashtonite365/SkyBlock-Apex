@@ -1,0 +1,17 @@
+{
+	"apex.config.custom-menu-exptable": "Custom Menu: Experimentation Table",
+	"apex.config.custom-menu-exptable.accent": "Accent Colour",
+	"apex.config.custom-menu-exptable.accent.description": "Highlight colour for active tabs and buttons in menus that use the shared theme.",
+	"apex.config.custom-menu-exptable.height": "Height",
+	"apex.config.custom-menu-exptable.height.description": "Menu height in pixels at 100 % scale (0 = the menu's default).",
+	"apex.config.custom-menu-exptable.mode": "Menu",
+	"apex.config.custom-menu-exptable.mode.choice.apex": "Apex",
+	"apex.config.custom-menu-exptable.mode.choice.normal": "Normal",
+	"apex.config.custom-menu-exptable.mode.description": "Apex: the table's items in Apex styling, filler panes removed, Hypixel's layout kept. Normal: Hypixel's own chest. Also needs the Experimentation Table Apex Menus switch.",
+	"apex.config.custom-menu-exptable.reset": "Reset",
+	"apex.config.custom-menu-exptable.reset.description": "Put this menu back to Apex with its default size, scale and colour.",
+	"apex.config.custom-menu-exptable.scale": "Scale %",
+	"apex.config.custom-menu-exptable.scale.description": "Menu size in percent; it never grows past the screen.",
+	"apex.config.custom-menu-exptable.width": "Width",
+	"apex.config.custom-menu-exptable.width.description": "Menu width in pixels at 100 % scale (0 = the menu's default)."
+}

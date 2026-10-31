@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# One-to-many / conditional migration rules (DerivedRule in SettingsMigration.kt).
+# inputs: old_config.old_key[=json default], comma separated<TAB>target new path<TAB>expression ($1..$n, true, false, !, &&, ||, parentheses)
+# D13 (H3): the merged nearby sea creature HUD is on if either old HUD was on (Plus health list ON + Apex count OFF -> ON).
+# Its health list option follows the Plus toggle through H3's plain row (sea-creature-extras.health-display -> nearby-creatures-health).
+fishing-helper.nearby-creatures=false,sea-creature-extras.health-display=false	fishing.sea-creatures.nearby-creatures	$1 || $2

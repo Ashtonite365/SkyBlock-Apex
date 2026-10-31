@@ -1,0 +1,7 @@
+{
+	"apex.config.custom-menu-fancy-warp": "Custom Menu: Fancy Warp Map",
+	"apex.config.custom-menu-fancy-warp.fancy-map": "Fancy Warp Map",
+	"apex.config.custom-menu-fancy-warp.fancy-map.description": "Draw Fast Travel as Apex's island map with purple portal markers and a list of each island's warps, read live from the menu (locked warps are dimmed). Off: the plain tile grid. Also /apex fancy.",
+	"apex.settings.custom_menus.fancy-warp": "Fancy Warp Map",
+	"apex.settings.custom_menus.group.fancy-warp": "Fancy Warp"
+}

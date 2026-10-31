@@ -1,0 +1,3953 @@
+{
+  "cases": 987,
+  "data": [
+    {
+      "in": "season|0",
+      "out": "3"
+    },
+    {
+      "in": "season|-9223372036854775808",
+      "out": "2"
+    },
+    {
+      "in": "season|9223372036854775807",
+      "out": "2"
+    },
+    {
+      "in": "season|1560275700000",
+      "out": "0"
+    },
+    {
+      "in": "season|1560275699999",
+      "out": "3"
+    },
+    {
+      "in": "season|1751919496891",
+      "out": "1"
+    },
+    {
+      "in": "season|1537871151424",
+      "out": "3"
+    },
+    {
+      "in": "season|1813412195691",
+      "out": "0"
+    },
+    {
+      "in": "season|1676501503883",
+      "out": "1"
+    },
+    {
+      "in": "season|1795090732076",
+      "out": "0"
+    },
+    {
+      "in": "season|1587239121319",
+      "out": "1"
+    },
+    {
+      "in": "season|1830682833564",
+      "out": "3"
+    },
+    {
+      "in": "season|1762655130555",
+      "out": "1"
+    },
+    {
+      "in": "season|1785923079916",
+      "out": "1"
+    },
+    {
+      "in": "season|1795762682238",
+      "out": "2"
+    },
+    {
+      "in": "season|1516810898823",
+      "out": "2"
+    },
+    {
+      "in": "season|1587816345559",
+      "out": "2"
+    },
+    {
+      "in": "season|1682833295607",
+      "out": "2"
+    },
+    {
+      "in": "season|1616340120426",
+      "out": "2"
+    },
+    {
+      "in": "season|1678352060150",
+      "out": "2"
+    },
+    {
+      "in": "season|1632751789280",
+      "out": "1"
+    },
+    {
+      "in": "season|1726432868634",
+      "out": "0"
+    },
+    {
+      "in": "season|1850092757153",
+      "out": "0"
+    },
+    {
+      "in": "season|1734957375025",
+      "out": "1"
+    },
+    {
+      "in": "season|1886722184340",
+      "out": "1"
+    },
+    {
+      "in": "season|1899850959448",
+      "out": "2"
+    },
+    {
+      "in": "season|1661481322578",
+      "out": "2"
+    },
+    {
+      "in": "season|1775479539622",
+      "out": "0"
+    },
+    {
+      "in": "season|1778418930810",
+      "out": "2"
+    },
+    {
+      "in": "season|1786317703514",
+      "out": "1"
+    },
+    {
+      "in": "season|1758064021964",
+      "out": "0"
+    },
+    {
+      "in": "season|1792033242572",
+      "out": "0"
+    },
+    {
+      "in": "season|1511334696434",
+      "out": "1"
+    },
+    {
+      "in": "season|1798998643697",
+      "out": "3"
+    },
+    {
+      "in": "season|1577845946256",
+      "out": "1"
+    },
+    {
+      "in": "season|1664370794043",
+      "out": "0"
+    },
+    {
+      "in": "season|1753417350715",
+      "out": "2"
+    },
+    {
+      "in": "season|1511481492301",
+      "out": "2"
+    },
+    {
+      "in": "season|1656586861846",
+      "out": "3"
+    },
+    {
+      "in": "season|1728966530760",
+      "out": "3"
+    },
+    {
+      "in": "season|1538696532789",
+      "out": "2"
+    },
+    {
+      "in": "season|1542958655999",
+      "out": "0"
+    },
+    {
+      "in": "season|1875343933166",
+      "out": "3"
+    },
+    {
+      "in": "season|1549421924346",
+      "out": "2"
+    },
+    {
+      "in": "season|1643862191788",
+      "out": "0"
+    },
+    {
+      "in": "season|1716299240131",
+      "out": "2"
+    },
+    {
+      "in": "season|1759893442773",
+      "out": "0"
+    },
+    {
+      "in": "season|1531191363415",
+      "out": "3"
+    },
+    {
+      "in": "season|1508639760982",
+      "out": "1"
+    },
+    {
+      "in": "season|1611700259012",
+      "out": "0"
+    },
+    {
+      "in": "season|1854390053949",
+      "out": "3"
+    },
+    {
+      "in": "season|1569701838118",
+      "out": "0"
+    },
+    {
+      "in": "season|1649889513153",
+      "out": "2"
+    },
+    {
+      "in": "season|1758188777915",
+      "out": "1"
+    },
+    {
+      "in": "season|1709823128424",
+      "out": "0"
+    },
+    {
+      "in": "season|1653670439871",
+      "out": "0"
+    },
+    {
+      "in": "season|1887340537847",
+      "out": "2"
+    },
+    {
+      "in": "season|1750516430469",
+      "out": "0"
+    },
+    {
+      "in": "season|1818601667463",
+      "out": "2"
+    },
+    {
+      "in": "season|1720460466403",
+      "out": "3"
+    },
+    {
+      "in": "season|1814684096410",
+      "out": "3"
+    },
+    {
+      "in": "season|1784198826802",
+      "out": "2"
+    },
+    {
+      "in": "season|1688569377951",
+      "out": "1"
+    },
+    {
+      "in": "season|1796620448493",
+      "out": "1"
+    },
+    {
+      "in": "season|1770752781723",
+      "out": "1"
+    },
+    {
+      "in": "season|1849968338270",
+      "out": "3"
+    },
+    {
+      "in": "season|1719689259509",
+      "out": "0"
+    },
+    {
+      "in": "season|1793266277306",
+      "out": "3"
+    },
+    {
+      "in": "season|1610852042792",
+      "out": "1"
+    },
+    {
+      "in": "season|1842395652146",
+      "out": "3"
+    },
+    {
+      "in": "season|1742734396848",
+      "out": "2"
+    },
+    {
+      "in": "season|1690439508679",
+      "out": "2"
+    },
+    {
+      "in": "season|1541345163868",
+      "out": "2"
+    },
+    {
+      "in": "season|1511753727113",
+      "out": "1"
+    },
+    {
+      "in": "season|1743829938563",
+      "out": "0"
+    },
+    {
+      "in": "season|1580381650479",
+      "out": "0"
+    },
+    {
+      "in": "season|1796129900823",
+      "out": "1"
+    },
+    {
+      "in": "season|1567210294452",
+      "out": "2"
+    },
+    {
+      "in": "season|1674463163310",
+      "out": "3"
+    },
+    {
+      "in": "season|1558394997256",
+      "out": "3"
+    },
+    {
+      "in": "season|1502821945022",
+      "out": "1"
+    },
+    {
+      "in": "season|1647538898052",
+      "out": "1"
+    },
+    {
+      "in": "season|1553273228262",
+      "out": "1"
+    },
+    {
+      "in": "season|1824966383477",
+      "out": "3"
+    },
+    {
+      "in": "season|1754294982915",
+      "out": "2"
+    },
+    {
+      "in": "season|1816721039424",
+      "out": "1"
+    },
+    {
+      "in": "season|1745475708399",
+      "out": "3"
+    },
+    {
+      "in": "season|1688880099482",
+      "out": "0"
+    },
+    {
+      "in": "season|1816246294341",
+      "out": "1"
+    },
+    {
+      "in": "season|1835999232439",
+      "out": "2"
+    },
+    {
+      "in": "season|1799195510948",
+      "out": "0"
+    },
+    {
+      "in": "season|1538870932585",
+      "out": "0"
+    },
+    {
+      "in": "season|1602431347533",
+      "out": "1"
+    },
+    {
+      "in": "season|1528908244884",
+      "out": "2"
+    },
+    {
+      "in": "season|1778800936130",
+      "out": "2"
+    },
+    {
+      "in": "season|1693527194549",
+      "out": "2"
+    },
+    {
+      "in": "season|1851525796112",
+      "out": "1"
+    },
+    {
+      "in": "season|1509603913125",
+      "out": "1"
+    },
+    {
+      "in": "season|1767596990730",
+      "out": "1"
+    },
+    {
+      "in": "season|1725212449247",
+      "out": "1"
+    },
+    {
+      "in": "season|1586498458865",
+      "out": "2"
+    },
+    {
+      "in": "season|1744268761945",
+      "out": "0"
+    },
+    {
+      "in": "season|1501126070196",
+      "out": "1"
+    },
+    {
+      "in": "season|1896619065205",
+      "out": "1"
+    },
+    {
+      "in": "season|1724752885021",
+      "out": "1"
+    },
+    {
+      "in": "season|1874015526649",
+      "out": "3"
+    },
+    {
+      "in": "season|1869052202478",
+      "out": "2"
+    },
+    {
+      "in": "season|1712152985069",
+      "out": "0"
+    },
+    {
+      "in": "season|1589584514575",
+      "out": "2"
+    },
+    {
+      "in": "season|1805575450146",
+      "out": "2"
+    },
+    {
+      "in": "season|1692324750323",
+      "out": "3"
+    },
+    {
+      "in": "season|1699877434301",
+      "out": "2"
+    },
+    {
+      "in": "season|1506026828506",
+      "out": "1"
+    },
+    {
+      "in": "season|1574555638786",
+      "out": "3"
+    },
+    {
+      "in": "season|1877370773115",
+      "out": "1"
+    },
+    {
+      "in": "season|1753999336234",
+      "out": "3"
+    },
+    {
+      "in": "season|1543588183664",
+      "out": "2"
+    },
+    {
+      "in": "season|1665941134127",
+      "out": "2"
+    },
+    {
+      "in": "season|1818064155382",
+      "out": "1"
+    },
+    {
+      "in": "season|1642991350655",
+      "out": "1"
+    },
+    {
+      "in": "season|1602126320650",
+      "out": "3"
+    },
+    {
+      "in": "season|1795092080731",
+      "out": "0"
+    },
+    {
+      "in": "season|1676524415037",
+      "out": "1"
+    },
+    {
+      "in": "season|1743024310114",
+      "out": "1"
+    },
+    {
+      "in": "season|1604499979417",
+      "out": "0"
+    },
+    {
+      "in": "season|1896564176923",
+      "out": "1"
+    },
+    {
+      "in": "season|1654975463185",
+      "out": "0"
+    },
+    {
+      "in": "season|1559541049491",
+      "out": "1"
+    },
+    {
+      "in": "season|1696755842141",
+      "out": "2"
+    },
+    {
+      "in": "season|1862270465950",
+      "out": "2"
+    },
+    {
+      "in": "season|1712406671299",
+      "out": "3"
+    },
+    {
+      "in": "season|1687943647509",
+      "out": "3"
+    },
+    {
+      "in": "season|1763221814169",
+      "out": "2"
+    },
+    {
+      "in": "season|1657298511477",
+      "out": "1"
+    },
+    {
+      "in": "season|1557503456687",
+      "out": "3"
+    },
+    {
+      "in": "season|1565129224109",
+      "out": "3"
+    },
+    {
+      "in": "season|1889617972461",
+      "out": "3"
+    },
+    {
+      "in": "season|1553069609803",
+      "out": "3"
+    },
+    {
+      "in": "season|1761278102327",
+      "out": "1"
+    },
+    {
+      "in": "season|1605120021431",
+      "out": "1"
+    },
+    {
+      "in": "season|1784295387218",
+      "out": "3"
+    },
+    {
+      "in": "season|1863470025350",
+      "out": "0"
+    },
+    {
+      "in": "season|1598817230104",
+      "out": "1"
+    },
+    {
+      "in": "season|1739962868232",
+      "out": "2"
+    },
+    {
+      "in": "season|1628033415665",
+      "out": "3"
+    },
+    {
+      "in": "season|1728548329668",
+      "out": "3"
+    },
+    {
+      "in": "season|1568168379648",
+      "out": "2"
+    },
+    {
+      "in": "season|1867333912618",
+      "out": "3"
+    },
+    {
+      "in": "season|1598926673114",
+      "out": "2"
+    },
+    {
+      "in": "season|1608641267941",
+      "out": "1"
+    },
+    {
+      "in": "season|1607528111438",
+      "out": "3"
+    },
+    {
+      "in": "season|1525571404818",
+      "out": "1"
+    },
+    {
+      "in": "season|1521903261359",
+      "out": "0"
+    },
+    {
+      "in": "season|1753508520910",
+      "out": "3"
+    },
+    {
+      "in": "season|1890986174972",
+      "out": "3"
+    },
+    {
+      "in": "season|1897142456073",
+      "out": "2"
+    },
+    {
+      "in": "season|1603021025115",
+      "out": "3"
+    },
+    {
+      "in": "season|1607013283592",
+      "out": "2"
+    },
+    {
+      "in": "season|1713732303234",
+      "out": "3"
+    },
+    {
+      "in": "season|1698631063106",
+      "out": "3"
+    },
+    {
+      "in": "season|1572113954477",
+      "out": "2"
+    },
+    {
+      "in": "season|1512413313714",
+      "out": "3"
+    },
+    {
+      "in": "season|1875905758741",
+      "out": "0"
+    },
+    {
+      "in": "season|1510876413192",
+      "out": "1"
+    },
+    {
+      "in": "season|1846992255446",
+      "out": "1"
+    },
+    {
+      "in": "season|1817549273245",
+      "out": "1"
+    },
+    {
+      "in": "season|1779557878348",
+      "out": "0"
+    },
+    {
+      "in": "season|1553493200823",
+      "out": "3"
+    },
+    {
+      "in": "season|1862968703611",
+      "out": "0"
+    },
+    {
+      "in": "season|1627088015174",
+      "out": "2"
+    },
+    {
+      "in": "season|1511156716158",
+      "out": "3"
+    },
+    {
+      "in": "season|1786547862489",
+      "out": "3"
+    },
+    {
+      "in": "season|1694669190300",
+      "out": "0"
+    },
+    {
+      "in": "season|1549088309096",
+      "out": "3"
+    },
+    {
+      "in": "season|1595295916440",
+      "out": "1"
+    },
+    {
+      "in": "season|1714184866341",
+      "out": "3"
+    },
+    {
+      "in": "season|1652653736980",
+      "out": "3"
+    },
+    {
+      "in": "season|1833250616219",
+      "out": "2"
+    },
+    {
+      "in": "season|1558032396517",
+      "out": "3"
+    },
+    {
+      "in": "season|1660549289687",
+      "out": "2"
+    },
+    {
+      "in": "season|1674727687197",
+      "out": "1"
+    },
+    {
+      "in": "season|1813042664961",
+      "out": "0"
+    },
+    {
+      "in": "season|1760801832125",
+      "out": "0"
+    },
+    {
+      "in": "season|1704471467870",
+      "out": "0"
+    },
+    {
+      "in": "season|1594743592398",
+      "out": "0"
+    },
+    {
+      "in": "season|1696574798244",
+      "out": "1"
+    },
+    {
+      "in": "season|1822277097872",
+      "out": "3"
+    },
+    {
+      "in": "season|1649381987237",
+      "out": "2"
+    },
+    {
+      "in": "season|1842494043604",
+      "out": "0"
+    },
+    {
+      "in": "season|1719131988345",
+      "out": "3"
+    },
+    {
+      "in": "season|1534904518225",
+      "out": "0"
+    },
+    {
+      "in": "season|1844182232668",
+      "out": "3"
+    },
+    {
+      "in": "season|1752159863074",
+      "out": "3"
+    },
+    {
+      "in": "season|1730592645021",
+      "out": "2"
+    },
+    {
+      "in": "season|1627867606166",
+      "out": "1"
+    },
+    {
+      "in": "season|1856502504920",
+      "out": "2"
+    },
+    {
+      "in": "season|1861085051975",
+      "out": "3"
+    },
+    {
+      "in": "season|1643245367850",
+      "out": "3"
+    },
+    {
+      "in": "season|1758644573698",
+      "out": "1"
+    },
+    {
+      "in": "season|1897772063785",
+      "out": "0"
+    },
+    {
+      "in": "season|1796415986164",
+      "out": "3"
+    },
+    {
+      "in": "season|1773980156950",
+      "out": "2"
+    },
+    {
+      "in": "season|1895061092232",
+      "out": "3"
+    },
+    {
+      "in": "season|1800532536246",
+      "out": "0"
+    },
+    {
+      "in": "season|1531074854936",
+      "out": "2"
+    },
+    {
+      "in": "perks",
+      "out": "[(§dSpring, §6+25☘ Farming Fortune), (§6Summer, §3+20 Farming Wisdom), (§eAutumn, §cPests §7spawn §a15% §7more often), (§9Winter, §7Visitors give §a5% §7more §cCopper)]"
+    },
+    {
+      "in": "vinyls",
+      "out": "{Not Just a Pest=Beetle, Cricket Choir=Cricket, Earthworm Ensemble=Earthworm, Pretty Fly=Fly, Cicada Symphony=Locust, DynaMITES=Mite, Buzzin' Beats=Mosquito, Wings of Harmony=Moth, Rodent Revolution=Rat, Slow and Groovy=Slug, Pray For Me=Praying Mantis, Firefly in the Hole=Firefly, Imagine Dragonflies=Dragonfly}"
+    },
+    {
+      "in": "playing|[]",
+      "out": "null"
+    },
+    {
+      "in": "playing|[Now Playing: Pretty Fly]",
+      "out": "Pretty Fly"
+    },
+    {
+      "in": "playing|[  Now Playing: None  ]",
+      "out": "None"
+    },
+    {
+      "in": "playing|[x, Now Playing: DynaMITES, Now Playing: Pray For Me]",
+      "out": "DynaMITES"
+    },
+    {
+      "in": "playing|[Now Playing: ]",
+      "out": "null"
+    },
+    {
+      "in": "playing|[Now Playing:  Cricket Choir]",
+      "out": " Cricket Choir"
+    },
+    {
+      "in": "playing|[§aNow Playing: Fly]",
+      "out": "null"
+    },
+    {
+      "in": "rate|[]",
+      "out": "null"
+    },
+    {
+      "in": "rate|[Times Visited: 1,000, Offers Accepted: 250]",
+      "out": "25.0"
+    },
+    {
+      "in": "rate|[Offers Accepted: 5, Times Visited: 0]",
+      "out": "null"
+    },
+    {
+      "in": "rate|[Times Visited: 10]",
+      "out": "null"
+    },
+    {
+      "in": "rate|[ Times Visited: ,, Offers Accepted: 1]",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "rate|[Times Visited: 3, Offers Accepted: 7, Offers Accepted: 1]",
+      "out": "233.33333333333334"
+    },
+    {
+      "in": "rate|[Times Visited: 3 , Offers Accepted: 1]",
+      "out": "null"
+    },
+    {
+      "in": "rate|[Times Visited: 99999999999999999999999, Offers Accepted: 1]",
+      "out": "1.0000000000000001E-21"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat XV|0",
+      "out": "15"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat XV|1",
+      "out": "15"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat XV|2",
+      "out": "15"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat XV|3",
+      "out": "15"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat XV|4",
+      "out": "15"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat XV|5",
+      "out": "15"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat XV|6",
+      "out": "15"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat XV|7",
+      "out": "15"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat XV|8",
+      "out": "15"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat XV|9",
+      "out": "15"
+    },
+    {
+      "in": "slot|Crop Milestones|Melon Slice IX|0",
+      "out": "9"
+    },
+    {
+      "in": "slot|Crop Milestones|Melon Slice IX|1",
+      "out": "9"
+    },
+    {
+      "in": "slot|Crop Milestones|Melon Slice IX|2",
+      "out": "9"
+    },
+    {
+      "in": "slot|Crop Milestones|Melon Slice IX|3",
+      "out": "9"
+    },
+    {
+      "in": "slot|Crop Milestones|Melon Slice IX|4",
+      "out": "9"
+    },
+    {
+      "in": "slot|Crop Milestones|Melon Slice IX|5",
+      "out": "9"
+    },
+    {
+      "in": "slot|Crop Milestones|Melon Slice IX|6",
+      "out": "9"
+    },
+    {
+      "in": "slot|Crop Milestones|Melon Slice IX|7",
+      "out": "9"
+    },
+    {
+      "in": "slot|Crop Milestones|Melon Slice IX|8",
+      "out": "9"
+    },
+    {
+      "in": "slot|Crop Milestones|Melon Slice IX|9",
+      "out": "9"
+    },
+    {
+      "in": "slot|Crop Milestones|Sugar Cane 14|0",
+      "out": "14"
+    },
+    {
+      "in": "slot|Crop Milestones|Sugar Cane 14|1",
+      "out": "14"
+    },
+    {
+      "in": "slot|Crop Milestones|Sugar Cane 14|2",
+      "out": "14"
+    },
+    {
+      "in": "slot|Crop Milestones|Sugar Cane 14|3",
+      "out": "14"
+    },
+    {
+      "in": "slot|Crop Milestones|Sugar Cane 14|4",
+      "out": "14"
+    },
+    {
+      "in": "slot|Crop Milestones|Sugar Cane 14|5",
+      "out": "14"
+    },
+    {
+      "in": "slot|Crop Milestones|Sugar Cane 14|6",
+      "out": "14"
+    },
+    {
+      "in": "slot|Crop Milestones|Sugar Cane 14|7",
+      "out": "14"
+    },
+    {
+      "in": "slot|Crop Milestones|Sugar Cane 14|8",
+      "out": "14"
+    },
+    {
+      "in": "slot|Crop Milestones|Sugar Cane 14|9",
+      "out": "14"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Mushroom|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Mushroom|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Mushroom|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Mushroom|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Mushroom|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Mushroom|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Mushroom|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Mushroom|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Mushroom|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Mushroom|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Cocoa Beans IV|0",
+      "out": "4"
+    },
+    {
+      "in": "slot|Crop Milestones|Cocoa Beans IV|1",
+      "out": "4"
+    },
+    {
+      "in": "slot|Crop Milestones|Cocoa Beans IV|2",
+      "out": "4"
+    },
+    {
+      "in": "slot|Crop Milestones|Cocoa Beans IV|3",
+      "out": "4"
+    },
+    {
+      "in": "slot|Crop Milestones|Cocoa Beans IV|4",
+      "out": "4"
+    },
+    {
+      "in": "slot|Crop Milestones|Cocoa Beans IV|5",
+      "out": "4"
+    },
+    {
+      "in": "slot|Crop Milestones|Cocoa Beans IV|6",
+      "out": "4"
+    },
+    {
+      "in": "slot|Crop Milestones|Cocoa Beans IV|7",
+      "out": "4"
+    },
+    {
+      "in": "slot|Crop Milestones|Cocoa Beans IV|8",
+      "out": "4"
+    },
+    {
+      "in": "slot|Crop Milestones|Cocoa Beans IV|9",
+      "out": "4"
+    },
+    {
+      "in": "slot|Crop Milestones|Nether Wart|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Nether Wart|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Nether Wart|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Nether Wart|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Nether Wart|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Nether Wart|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Nether Wart|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Nether Wart|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Nether Wart|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Nether Wart|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Upgrade X|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Upgrade X|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Upgrade X|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Upgrade X|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Upgrade X|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Upgrade X|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Upgrade X|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Upgrade X|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Upgrade X|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Upgrade X|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|X|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|X|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|X|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|X|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|X|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|X|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|X|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|X|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|X|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|X|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Speed IIII|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Speed IIII|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Speed IIII|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Speed IIII|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Speed IIII|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Speed IIII|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Speed IIII|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Speed IIII|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Speed IIII|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Speed IIII|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat |0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat |1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat |2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat |3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat |4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat |5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat |6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat |7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat |8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Wheat |9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Pumpkin MMXX|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Pumpkin MMXX|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Pumpkin MMXX|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Pumpkin MMXX|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Pumpkin MMXX|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Pumpkin MMXX|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Pumpkin MMXX|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Pumpkin MMXX|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Pumpkin MMXX|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Pumpkin MMXX|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Carrot abc|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Carrot abc|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Carrot abc|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Carrot abc|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Carrot abc|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Carrot abc|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Carrot abc|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Carrot abc|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Carrot abc|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones|Carrot abc|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones||0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones||1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones||2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones||3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones||4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones||5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones||6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones||7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones||8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Milestones||9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat XV|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat XV|1",
+      "out": "5"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat XV|2",
+      "out": "12"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat XV|3",
+      "out": "3"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat XV|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat XV|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat XV|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat XV|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat XV|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat XV|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Melon Slice IX|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Melon Slice IX|1",
+      "out": "5"
+    },
+    {
+      "in": "slot|Crop Upgrades|Melon Slice IX|2",
+      "out": "12"
+    },
+    {
+      "in": "slot|Crop Upgrades|Melon Slice IX|3",
+      "out": "3"
+    },
+    {
+      "in": "slot|Crop Upgrades|Melon Slice IX|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Melon Slice IX|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Melon Slice IX|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Melon Slice IX|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Melon Slice IX|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Melon Slice IX|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Sugar Cane 14|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Sugar Cane 14|1",
+      "out": "5"
+    },
+    {
+      "in": "slot|Crop Upgrades|Sugar Cane 14|2",
+      "out": "12"
+    },
+    {
+      "in": "slot|Crop Upgrades|Sugar Cane 14|3",
+      "out": "3"
+    },
+    {
+      "in": "slot|Crop Upgrades|Sugar Cane 14|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Sugar Cane 14|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Sugar Cane 14|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Sugar Cane 14|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Sugar Cane 14|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Sugar Cane 14|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat|1",
+      "out": "5"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat|2",
+      "out": "12"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat|3",
+      "out": "3"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Mushroom|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Mushroom|1",
+      "out": "5"
+    },
+    {
+      "in": "slot|Crop Upgrades|Mushroom|2",
+      "out": "12"
+    },
+    {
+      "in": "slot|Crop Upgrades|Mushroom|3",
+      "out": "3"
+    },
+    {
+      "in": "slot|Crop Upgrades|Mushroom|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Mushroom|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Mushroom|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Mushroom|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Mushroom|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Mushroom|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Cocoa Beans IV|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Cocoa Beans IV|1",
+      "out": "5"
+    },
+    {
+      "in": "slot|Crop Upgrades|Cocoa Beans IV|2",
+      "out": "12"
+    },
+    {
+      "in": "slot|Crop Upgrades|Cocoa Beans IV|3",
+      "out": "3"
+    },
+    {
+      "in": "slot|Crop Upgrades|Cocoa Beans IV|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Cocoa Beans IV|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Cocoa Beans IV|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Cocoa Beans IV|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Cocoa Beans IV|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Cocoa Beans IV|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Nether Wart|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Nether Wart|1",
+      "out": "5"
+    },
+    {
+      "in": "slot|Crop Upgrades|Nether Wart|2",
+      "out": "12"
+    },
+    {
+      "in": "slot|Crop Upgrades|Nether Wart|3",
+      "out": "3"
+    },
+    {
+      "in": "slot|Crop Upgrades|Nether Wart|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Nether Wart|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Nether Wart|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Nether Wart|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Nether Wart|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Nether Wart|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Upgrade X|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Upgrade X|1",
+      "out": "5"
+    },
+    {
+      "in": "slot|Crop Upgrades|Upgrade X|2",
+      "out": "12"
+    },
+    {
+      "in": "slot|Crop Upgrades|Upgrade X|3",
+      "out": "3"
+    },
+    {
+      "in": "slot|Crop Upgrades|Upgrade X|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Upgrade X|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Upgrade X|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Upgrade X|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Upgrade X|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Upgrade X|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|X|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|X|1",
+      "out": "5"
+    },
+    {
+      "in": "slot|Crop Upgrades|X|2",
+      "out": "12"
+    },
+    {
+      "in": "slot|Crop Upgrades|X|3",
+      "out": "3"
+    },
+    {
+      "in": "slot|Crop Upgrades|X|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|X|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|X|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|X|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|X|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|X|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Speed IIII|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Speed IIII|1",
+      "out": "5"
+    },
+    {
+      "in": "slot|Crop Upgrades|Speed IIII|2",
+      "out": "12"
+    },
+    {
+      "in": "slot|Crop Upgrades|Speed IIII|3",
+      "out": "3"
+    },
+    {
+      "in": "slot|Crop Upgrades|Speed IIII|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Speed IIII|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Speed IIII|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Speed IIII|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Speed IIII|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Speed IIII|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat |0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat |1",
+      "out": "5"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat |2",
+      "out": "12"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat |3",
+      "out": "3"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat |4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat |5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat |6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat |7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat |8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Wheat |9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Pumpkin MMXX|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Pumpkin MMXX|1",
+      "out": "5"
+    },
+    {
+      "in": "slot|Crop Upgrades|Pumpkin MMXX|2",
+      "out": "12"
+    },
+    {
+      "in": "slot|Crop Upgrades|Pumpkin MMXX|3",
+      "out": "3"
+    },
+    {
+      "in": "slot|Crop Upgrades|Pumpkin MMXX|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Pumpkin MMXX|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Pumpkin MMXX|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Pumpkin MMXX|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Pumpkin MMXX|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Pumpkin MMXX|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Carrot abc|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Carrot abc|1",
+      "out": "5"
+    },
+    {
+      "in": "slot|Crop Upgrades|Carrot abc|2",
+      "out": "12"
+    },
+    {
+      "in": "slot|Crop Upgrades|Carrot abc|3",
+      "out": "3"
+    },
+    {
+      "in": "slot|Crop Upgrades|Carrot abc|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Carrot abc|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Carrot abc|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Carrot abc|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Carrot abc|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades|Carrot abc|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades||0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades||1",
+      "out": "5"
+    },
+    {
+      "in": "slot|Crop Upgrades||2",
+      "out": "12"
+    },
+    {
+      "in": "slot|Crop Upgrades||3",
+      "out": "3"
+    },
+    {
+      "in": "slot|Crop Upgrades||4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades||5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades||6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades||7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades||8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Crop Upgrades||9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat XV|0",
+      "out": "15"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat XV|1",
+      "out": "15"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat XV|2",
+      "out": "15"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat XV|3",
+      "out": "15"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat XV|4",
+      "out": "15"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat XV|5",
+      "out": "15"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat XV|6",
+      "out": "15"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat XV|7",
+      "out": "15"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat XV|8",
+      "out": "15"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat XV|9",
+      "out": "15"
+    },
+    {
+      "in": "slot|Composter Upgrades|Melon Slice IX|0",
+      "out": "9"
+    },
+    {
+      "in": "slot|Composter Upgrades|Melon Slice IX|1",
+      "out": "9"
+    },
+    {
+      "in": "slot|Composter Upgrades|Melon Slice IX|2",
+      "out": "9"
+    },
+    {
+      "in": "slot|Composter Upgrades|Melon Slice IX|3",
+      "out": "9"
+    },
+    {
+      "in": "slot|Composter Upgrades|Melon Slice IX|4",
+      "out": "9"
+    },
+    {
+      "in": "slot|Composter Upgrades|Melon Slice IX|5",
+      "out": "9"
+    },
+    {
+      "in": "slot|Composter Upgrades|Melon Slice IX|6",
+      "out": "9"
+    },
+    {
+      "in": "slot|Composter Upgrades|Melon Slice IX|7",
+      "out": "9"
+    },
+    {
+      "in": "slot|Composter Upgrades|Melon Slice IX|8",
+      "out": "9"
+    },
+    {
+      "in": "slot|Composter Upgrades|Melon Slice IX|9",
+      "out": "9"
+    },
+    {
+      "in": "slot|Composter Upgrades|Sugar Cane 14|0",
+      "out": "14"
+    },
+    {
+      "in": "slot|Composter Upgrades|Sugar Cane 14|1",
+      "out": "14"
+    },
+    {
+      "in": "slot|Composter Upgrades|Sugar Cane 14|2",
+      "out": "14"
+    },
+    {
+      "in": "slot|Composter Upgrades|Sugar Cane 14|3",
+      "out": "14"
+    },
+    {
+      "in": "slot|Composter Upgrades|Sugar Cane 14|4",
+      "out": "14"
+    },
+    {
+      "in": "slot|Composter Upgrades|Sugar Cane 14|5",
+      "out": "14"
+    },
+    {
+      "in": "slot|Composter Upgrades|Sugar Cane 14|6",
+      "out": "14"
+    },
+    {
+      "in": "slot|Composter Upgrades|Sugar Cane 14|7",
+      "out": "14"
+    },
+    {
+      "in": "slot|Composter Upgrades|Sugar Cane 14|8",
+      "out": "14"
+    },
+    {
+      "in": "slot|Composter Upgrades|Sugar Cane 14|9",
+      "out": "14"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Mushroom|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Mushroom|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Mushroom|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Mushroom|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Mushroom|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Mushroom|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Mushroom|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Mushroom|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Mushroom|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Mushroom|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Cocoa Beans IV|0",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Cocoa Beans IV|1",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Cocoa Beans IV|2",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Cocoa Beans IV|3",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Cocoa Beans IV|4",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Cocoa Beans IV|5",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Cocoa Beans IV|6",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Cocoa Beans IV|7",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Cocoa Beans IV|8",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Cocoa Beans IV|9",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Nether Wart|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Nether Wart|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Nether Wart|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Nether Wart|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Nether Wart|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Nether Wart|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Nether Wart|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Nether Wart|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Nether Wart|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Nether Wart|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Upgrade X|0",
+      "out": "10"
+    },
+    {
+      "in": "slot|Composter Upgrades|Upgrade X|1",
+      "out": "10"
+    },
+    {
+      "in": "slot|Composter Upgrades|Upgrade X|2",
+      "out": "10"
+    },
+    {
+      "in": "slot|Composter Upgrades|Upgrade X|3",
+      "out": "10"
+    },
+    {
+      "in": "slot|Composter Upgrades|Upgrade X|4",
+      "out": "10"
+    },
+    {
+      "in": "slot|Composter Upgrades|Upgrade X|5",
+      "out": "10"
+    },
+    {
+      "in": "slot|Composter Upgrades|Upgrade X|6",
+      "out": "10"
+    },
+    {
+      "in": "slot|Composter Upgrades|Upgrade X|7",
+      "out": "10"
+    },
+    {
+      "in": "slot|Composter Upgrades|Upgrade X|8",
+      "out": "10"
+    },
+    {
+      "in": "slot|Composter Upgrades|Upgrade X|9",
+      "out": "10"
+    },
+    {
+      "in": "slot|Composter Upgrades|X|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|X|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|X|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|X|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|X|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|X|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|X|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|X|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|X|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|X|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Speed IIII|0",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Speed IIII|1",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Speed IIII|2",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Speed IIII|3",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Speed IIII|4",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Speed IIII|5",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Speed IIII|6",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Speed IIII|7",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Speed IIII|8",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Speed IIII|9",
+      "out": "4"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat |0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat |1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat |2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat |3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat |4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat |5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat |6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat |7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat |8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Wheat |9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Pumpkin MMXX|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Pumpkin MMXX|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Pumpkin MMXX|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Pumpkin MMXX|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Pumpkin MMXX|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Pumpkin MMXX|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Pumpkin MMXX|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Pumpkin MMXX|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Pumpkin MMXX|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Pumpkin MMXX|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Carrot abc|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Carrot abc|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Carrot abc|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Carrot abc|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Carrot abc|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Carrot abc|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Carrot abc|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Carrot abc|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Carrot abc|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades|Carrot abc|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades||0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades||1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades||2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades||3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades||4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades||5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades||6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades||7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades||8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter Upgrades||9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat XV|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat XV|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat XV|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat XV|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat XV|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat XV|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat XV|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat XV|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat XV|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat XV|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Melon Slice IX|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Melon Slice IX|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Melon Slice IX|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Melon Slice IX|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Melon Slice IX|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Melon Slice IX|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Melon Slice IX|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Melon Slice IX|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Melon Slice IX|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Melon Slice IX|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Sugar Cane 14|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Sugar Cane 14|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Sugar Cane 14|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Sugar Cane 14|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Sugar Cane 14|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Sugar Cane 14|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Sugar Cane 14|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Sugar Cane 14|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Sugar Cane 14|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Sugar Cane 14|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Mushroom|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Mushroom|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Mushroom|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Mushroom|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Mushroom|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Mushroom|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Mushroom|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Mushroom|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Mushroom|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Mushroom|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Cocoa Beans IV|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Cocoa Beans IV|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Cocoa Beans IV|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Cocoa Beans IV|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Cocoa Beans IV|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Cocoa Beans IV|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Cocoa Beans IV|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Cocoa Beans IV|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Cocoa Beans IV|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Cocoa Beans IV|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Nether Wart|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Nether Wart|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Nether Wart|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Nether Wart|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Nether Wart|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Nether Wart|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Nether Wart|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Nether Wart|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Nether Wart|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Nether Wart|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Upgrade X|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Upgrade X|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Upgrade X|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Upgrade X|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Upgrade X|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Upgrade X|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Upgrade X|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Upgrade X|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Upgrade X|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Upgrade X|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|X|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|X|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|X|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|X|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|X|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|X|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|X|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|X|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|X|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|X|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Speed IIII|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Speed IIII|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Speed IIII|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Speed IIII|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Speed IIII|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Speed IIII|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Speed IIII|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Speed IIII|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Speed IIII|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Speed IIII|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat |0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat |1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat |2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat |3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat |4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat |5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat |6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat |7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat |8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Wheat |9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Pumpkin MMXX|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Pumpkin MMXX|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Pumpkin MMXX|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Pumpkin MMXX|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Pumpkin MMXX|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Pumpkin MMXX|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Pumpkin MMXX|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Pumpkin MMXX|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Pumpkin MMXX|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Pumpkin MMXX|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Carrot abc|0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Carrot abc|1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Carrot abc|2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Carrot abc|3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Carrot abc|4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Carrot abc|5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Carrot abc|6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Carrot abc|7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Carrot abc|8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter|Carrot abc|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter||0",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter||1",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter||2",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter||3",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter||4",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter||5",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter||6",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter||7",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter||8",
+      "out": "null"
+    },
+    {
+      "in": "slot|Composter||9",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat XV|0",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat XV|1",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat XV|2",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat XV|3",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat XV|4",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat XV|5",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat XV|6",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat XV|7",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat XV|8",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat XV|9",
+      "out": "null"
+    },
+    {
+      "in": "slot||Melon Slice IX|0",
+      "out": "null"
+    },
+    {
+      "in": "slot||Melon Slice IX|1",
+      "out": "null"
+    },
+    {
+      "in": "slot||Melon Slice IX|2",
+      "out": "null"
+    },
+    {
+      "in": "slot||Melon Slice IX|3",
+      "out": "null"
+    },
+    {
+      "in": "slot||Melon Slice IX|4",
+      "out": "null"
+    },
+    {
+      "in": "slot||Melon Slice IX|5",
+      "out": "null"
+    },
+    {
+      "in": "slot||Melon Slice IX|6",
+      "out": "null"
+    },
+    {
+      "in": "slot||Melon Slice IX|7",
+      "out": "null"
+    },
+    {
+      "in": "slot||Melon Slice IX|8",
+      "out": "null"
+    },
+    {
+      "in": "slot||Melon Slice IX|9",
+      "out": "null"
+    },
+    {
+      "in": "slot||Sugar Cane 14|0",
+      "out": "null"
+    },
+    {
+      "in": "slot||Sugar Cane 14|1",
+      "out": "null"
+    },
+    {
+      "in": "slot||Sugar Cane 14|2",
+      "out": "null"
+    },
+    {
+      "in": "slot||Sugar Cane 14|3",
+      "out": "null"
+    },
+    {
+      "in": "slot||Sugar Cane 14|4",
+      "out": "null"
+    },
+    {
+      "in": "slot||Sugar Cane 14|5",
+      "out": "null"
+    },
+    {
+      "in": "slot||Sugar Cane 14|6",
+      "out": "null"
+    },
+    {
+      "in": "slot||Sugar Cane 14|7",
+      "out": "null"
+    },
+    {
+      "in": "slot||Sugar Cane 14|8",
+      "out": "null"
+    },
+    {
+      "in": "slot||Sugar Cane 14|9",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat|0",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat|1",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat|2",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat|3",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat|4",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat|5",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat|6",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat|7",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat|8",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat|9",
+      "out": "null"
+    },
+    {
+      "in": "slot||Mushroom|0",
+      "out": "null"
+    },
+    {
+      "in": "slot||Mushroom|1",
+      "out": "null"
+    },
+    {
+      "in": "slot||Mushroom|2",
+      "out": "null"
+    },
+    {
+      "in": "slot||Mushroom|3",
+      "out": "null"
+    },
+    {
+      "in": "slot||Mushroom|4",
+      "out": "null"
+    },
+    {
+      "in": "slot||Mushroom|5",
+      "out": "null"
+    },
+    {
+      "in": "slot||Mushroom|6",
+      "out": "null"
+    },
+    {
+      "in": "slot||Mushroom|7",
+      "out": "null"
+    },
+    {
+      "in": "slot||Mushroom|8",
+      "out": "null"
+    },
+    {
+      "in": "slot||Mushroom|9",
+      "out": "null"
+    },
+    {
+      "in": "slot||Cocoa Beans IV|0",
+      "out": "null"
+    },
+    {
+      "in": "slot||Cocoa Beans IV|1",
+      "out": "null"
+    },
+    {
+      "in": "slot||Cocoa Beans IV|2",
+      "out": "null"
+    },
+    {
+      "in": "slot||Cocoa Beans IV|3",
+      "out": "null"
+    },
+    {
+      "in": "slot||Cocoa Beans IV|4",
+      "out": "null"
+    },
+    {
+      "in": "slot||Cocoa Beans IV|5",
+      "out": "null"
+    },
+    {
+      "in": "slot||Cocoa Beans IV|6",
+      "out": "null"
+    },
+    {
+      "in": "slot||Cocoa Beans IV|7",
+      "out": "null"
+    },
+    {
+      "in": "slot||Cocoa Beans IV|8",
+      "out": "null"
+    },
+    {
+      "in": "slot||Cocoa Beans IV|9",
+      "out": "null"
+    },
+    {
+      "in": "slot||Nether Wart|0",
+      "out": "null"
+    },
+    {
+      "in": "slot||Nether Wart|1",
+      "out": "null"
+    },
+    {
+      "in": "slot||Nether Wart|2",
+      "out": "null"
+    },
+    {
+      "in": "slot||Nether Wart|3",
+      "out": "null"
+    },
+    {
+      "in": "slot||Nether Wart|4",
+      "out": "null"
+    },
+    {
+      "in": "slot||Nether Wart|5",
+      "out": "null"
+    },
+    {
+      "in": "slot||Nether Wart|6",
+      "out": "null"
+    },
+    {
+      "in": "slot||Nether Wart|7",
+      "out": "null"
+    },
+    {
+      "in": "slot||Nether Wart|8",
+      "out": "null"
+    },
+    {
+      "in": "slot||Nether Wart|9",
+      "out": "null"
+    },
+    {
+      "in": "slot||Upgrade X|0",
+      "out": "null"
+    },
+    {
+      "in": "slot||Upgrade X|1",
+      "out": "null"
+    },
+    {
+      "in": "slot||Upgrade X|2",
+      "out": "null"
+    },
+    {
+      "in": "slot||Upgrade X|3",
+      "out": "null"
+    },
+    {
+      "in": "slot||Upgrade X|4",
+      "out": "null"
+    },
+    {
+      "in": "slot||Upgrade X|5",
+      "out": "null"
+    },
+    {
+      "in": "slot||Upgrade X|6",
+      "out": "null"
+    },
+    {
+      "in": "slot||Upgrade X|7",
+      "out": "null"
+    },
+    {
+      "in": "slot||Upgrade X|8",
+      "out": "null"
+    },
+    {
+      "in": "slot||Upgrade X|9",
+      "out": "null"
+    },
+    {
+      "in": "slot||X|0",
+      "out": "null"
+    },
+    {
+      "in": "slot||X|1",
+      "out": "null"
+    },
+    {
+      "in": "slot||X|2",
+      "out": "null"
+    },
+    {
+      "in": "slot||X|3",
+      "out": "null"
+    },
+    {
+      "in": "slot||X|4",
+      "out": "null"
+    },
+    {
+      "in": "slot||X|5",
+      "out": "null"
+    },
+    {
+      "in": "slot||X|6",
+      "out": "null"
+    },
+    {
+      "in": "slot||X|7",
+      "out": "null"
+    },
+    {
+      "in": "slot||X|8",
+      "out": "null"
+    },
+    {
+      "in": "slot||X|9",
+      "out": "null"
+    },
+    {
+      "in": "slot||Speed IIII|0",
+      "out": "null"
+    },
+    {
+      "in": "slot||Speed IIII|1",
+      "out": "null"
+    },
+    {
+      "in": "slot||Speed IIII|2",
+      "out": "null"
+    },
+    {
+      "in": "slot||Speed IIII|3",
+      "out": "null"
+    },
+    {
+      "in": "slot||Speed IIII|4",
+      "out": "null"
+    },
+    {
+      "in": "slot||Speed IIII|5",
+      "out": "null"
+    },
+    {
+      "in": "slot||Speed IIII|6",
+      "out": "null"
+    },
+    {
+      "in": "slot||Speed IIII|7",
+      "out": "null"
+    },
+    {
+      "in": "slot||Speed IIII|8",
+      "out": "null"
+    },
+    {
+      "in": "slot||Speed IIII|9",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat |0",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat |1",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat |2",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat |3",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat |4",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat |5",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat |6",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat |7",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat |8",
+      "out": "null"
+    },
+    {
+      "in": "slot||Wheat |9",
+      "out": "null"
+    },
+    {
+      "in": "slot||Pumpkin MMXX|0",
+      "out": "null"
+    },
+    {
+      "in": "slot||Pumpkin MMXX|1",
+      "out": "null"
+    },
+    {
+      "in": "slot||Pumpkin MMXX|2",
+      "out": "null"
+    },
+    {
+      "in": "slot||Pumpkin MMXX|3",
+      "out": "null"
+    },
+    {
+      "in": "slot||Pumpkin MMXX|4",
+      "out": "null"
+    },
+    {
+      "in": "slot||Pumpkin MMXX|5",
+      "out": "null"
+    },
+    {
+      "in": "slot||Pumpkin MMXX|6",
+      "out": "null"
+    },
+    {
+      "in": "slot||Pumpkin MMXX|7",
+      "out": "null"
+    },
+    {
+      "in": "slot||Pumpkin MMXX|8",
+      "out": "null"
+    },
+    {
+      "in": "slot||Pumpkin MMXX|9",
+      "out": "null"
+    },
+    {
+      "in": "slot||Carrot abc|0",
+      "out": "null"
+    },
+    {
+      "in": "slot||Carrot abc|1",
+      "out": "null"
+    },
+    {
+      "in": "slot||Carrot abc|2",
+      "out": "null"
+    },
+    {
+      "in": "slot||Carrot abc|3",
+      "out": "null"
+    },
+    {
+      "in": "slot||Carrot abc|4",
+      "out": "null"
+    },
+    {
+      "in": "slot||Carrot abc|5",
+      "out": "null"
+    },
+    {
+      "in": "slot||Carrot abc|6",
+      "out": "null"
+    },
+    {
+      "in": "slot||Carrot abc|7",
+      "out": "null"
+    },
+    {
+      "in": "slot||Carrot abc|8",
+      "out": "null"
+    },
+    {
+      "in": "slot||Carrot abc|9",
+      "out": "null"
+    },
+    {
+      "in": "slot|||0",
+      "out": "null"
+    },
+    {
+      "in": "slot|||1",
+      "out": "null"
+    },
+    {
+      "in": "slot|||2",
+      "out": "null"
+    },
+    {
+      "in": "slot|||3",
+      "out": "null"
+    },
+    {
+      "in": "slot|||4",
+      "out": "null"
+    },
+    {
+      "in": "slot|||5",
+      "out": "null"
+    },
+    {
+      "in": "slot|||6",
+      "out": "null"
+    },
+    {
+      "in": "slot|||7",
+      "out": "null"
+    },
+    {
+      "in": "slot|||8",
+      "out": "null"
+    },
+    {
+      "in": "slot|||9",
+      "out": "null"
+    },
+    {
+      "in": "comp|0|0",
+      "out": "null"
+    },
+    {
+      "in": "comp|0|1",
+      "out": "null"
+    },
+    {
+      "in": "comp|0|2",
+      "out": "null"
+    },
+    {
+      "in": "comp|0|3",
+      "out": "null"
+    },
+    {
+      "in": "comp|0|4",
+      "out": "null"
+    },
+    {
+      "in": "comp|0|5",
+      "out": "null"
+    },
+    {
+      "in": "comp|0|6",
+      "out": "null"
+    },
+    {
+      "in": "comp|0|7",
+      "out": "null"
+    },
+    {
+      "in": "comp|0|8",
+      "out": "null"
+    },
+    {
+      "in": "comp|0|9",
+      "out": "null"
+    },
+    {
+      "in": "comp|13|0",
+      "out": "null"
+    },
+    {
+      "in": "comp|13|1",
+      "out": "null"
+    },
+    {
+      "in": "comp|13|2",
+      "out": "null"
+    },
+    {
+      "in": "comp|13|3",
+      "out": "null"
+    },
+    {
+      "in": "comp|13|4",
+      "out": "§61,234"
+    },
+    {
+      "in": "comp|13|5",
+      "out": "§65"
+    },
+    {
+      "in": "comp|13|6",
+      "out": "null"
+    },
+    {
+      "in": "comp|13|7",
+      "out": "null"
+    },
+    {
+      "in": "comp|13|8",
+      "out": "null"
+    },
+    {
+      "in": "comp|13|9",
+      "out": "null"
+    },
+    {
+      "in": "comp|46|0",
+      "out": "null"
+    },
+    {
+      "in": "comp|46|1",
+      "out": "§e5.0/9"
+    },
+    {
+      "in": "comp|46|2",
+      "out": "null"
+    },
+    {
+      "in": "comp|46|3",
+      "out": "§e3.0/4"
+    },
+    {
+      "in": "comp|46|4",
+      "out": "null"
+    },
+    {
+      "in": "comp|46|5",
+      "out": "null"
+    },
+    {
+      "in": "comp|46|6",
+      "out": "§e12k/40k"
+    },
+    {
+      "in": "comp|46|7",
+      "out": "null"
+    },
+    {
+      "in": "comp|46|8",
+      "out": "§e50k/100,000"
+    },
+    {
+      "in": "comp|46|9",
+      "out": "null"
+    },
+    {
+      "in": "comp|52|0",
+      "out": "null"
+    },
+    {
+      "in": "comp|52|1",
+      "out": "§a5.0/9"
+    },
+    {
+      "in": "comp|52|2",
+      "out": "null"
+    },
+    {
+      "in": "comp|52|3",
+      "out": "§a3.0/4"
+    },
+    {
+      "in": "comp|52|4",
+      "out": "null"
+    },
+    {
+      "in": "comp|52|5",
+      "out": "null"
+    },
+    {
+      "in": "comp|52|6",
+      "out": "§a12k/40k"
+    },
+    {
+      "in": "comp|52|7",
+      "out": "null"
+    },
+    {
+      "in": "comp|52|8",
+      "out": "§a50k/100,000"
+    },
+    {
+      "in": "comp|52|9",
+      "out": "null"
+    },
+    {
+      "in": "comp|53|0",
+      "out": "null"
+    },
+    {
+      "in": "comp|53|1",
+      "out": "null"
+    },
+    {
+      "in": "comp|53|2",
+      "out": "null"
+    },
+    {
+      "in": "comp|53|3",
+      "out": "null"
+    },
+    {
+      "in": "comp|53|4",
+      "out": "null"
+    },
+    {
+      "in": "comp|53|5",
+      "out": "null"
+    },
+    {
+      "in": "comp|53|6",
+      "out": "null"
+    },
+    {
+      "in": "comp|53|7",
+      "out": "null"
+    },
+    {
+      "in": "comp|53|8",
+      "out": "null"
+    },
+    {
+      "in": "comp|53|9",
+      "out": "null"
+    },
+    {
+      "in": "gap|-9223372036854775808",
+      "out": "0"
+    },
+    {
+      "in": "gap|-1",
+      "out": "0"
+    },
+    {
+      "in": "gap|0",
+      "out": "0"
+    },
+    {
+      "in": "gap|1",
+      "out": "1"
+    },
+    {
+      "in": "gap|29999",
+      "out": "29999"
+    },
+    {
+      "in": "gap|30000",
+      "out": "0"
+    },
+    {
+      "in": "gap|30001",
+      "out": "0"
+    },
+    {
+      "in": "gap|9223372036854775807",
+      "out": "0"
+    },
+    {
+      "in": "cropsin|0|0.0",
+      "out": "0"
+    },
+    {
+      "in": "cropsin|1|1.5",
+      "out": "1"
+    },
+    {
+      "in": "cropsin|10000|1.0E15",
+      "out": "9223372036854775807"
+    },
+    {
+      "in": "cropsin|5|NaN",
+      "out": "0"
+    },
+    {
+      "in": "cropsin|3|-2.7",
+      "out": "-8"
+    },
+    {
+      "in": "cropsin|7|Infinity",
+      "out": "9223372036854775807"
+    },
+    {
+      "in": "cropsin|1|1.0E19",
+      "out": "9223372036854775807"
+    }
+  ]
+}

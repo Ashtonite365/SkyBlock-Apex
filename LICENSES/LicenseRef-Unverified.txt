@@ -1,0 +1,2 @@
+Licence unverified: the original source and licence of this file have not been confirmed.
+It is not covered by the GPL grant of SkyBlock Apex. See REUSE.toml for the file it applies to.

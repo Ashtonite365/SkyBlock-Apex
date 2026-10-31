@@ -1,0 +1,7 @@
+#SPDX-FileCopyrightText: 2025 Linnea Gräf <nea@nea.moe>
+#
+#SPDX-License-Identifier: CC0-1.0
+node_modules
+.vitepress/cache
+.vitepress/dist
+

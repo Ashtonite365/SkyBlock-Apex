@@ -1,0 +1,6 @@
+SYNTHETIC fixture (NOT a real dump). Derived from the real loadouts-p1.txt (ashpc-menudump-0922.log id=11) with:
+- slot 14 "Loadout 1" given set items and an assumed "Currently equipped!" active marker (Hypixel's real wording UNVERIFIED),
+- slot 15 "Loadout 2" given one set item (ready, not active),
+- slot 28 (Belt) emptied to test the empty-role placeholder,
+- slot 50 an invented "Edit Mode" button to test bottom-bar mirroring.
+Replace with a real [ApexSlotDump] (Loadouts is now dumped on every update) once the next jar captures one.

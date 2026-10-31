@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns="http://notenoughupdates.org/moulconfig">
+	<Column>
+		<Row>
+			<Text text="@moneyText" width="300"/>
+		</Row>
+		<Row>
+			<Text text="@collectionText" width="300"/>
+		</Row>
+	</Column>
+</Root>

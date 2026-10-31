@@ -1,0 +1,16 @@
+{
+	"box": "ECCENTRIC_PAINTING_BUNDLE",
+	"source": "https://hypixelskyblock.minecraft.wiki/w/Eccentric_Painting_Bundle",
+	"total_weight": null,
+	"drops": [
+		{
+			"type": "item",
+			"id": "ECCENTRIC_PAINTING",
+			"min": 9,
+			"max": 9,
+			"weight": null,
+			"chance": 1.0
+		}
+	],
+	"note": "fixed contents stated by wiki"
+}

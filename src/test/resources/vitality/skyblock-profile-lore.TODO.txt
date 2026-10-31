@@ -1,0 +1,11 @@
+# TODO(H6): PLACEHOLDER FIXTURE - NOT A REAL DUMP.
+# Replace with the real lore of the SkyBlock Menu "Your SkyBlock Profile" / Stats item (one line per lore line,
+# unformatted or with § codes) once one is captured in-game. Lines starting with '#' are ignored by VitalityTest.
+View your equipment, stats, and more!
+ 
+ ❤ Health 2,116
+ ❈ Defense 412
+ ✎ Intelligence 607
+ ♨ Vitality 105
+ 
+Click to view!

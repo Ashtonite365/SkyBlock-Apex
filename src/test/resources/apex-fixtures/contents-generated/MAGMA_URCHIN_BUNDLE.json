@@ -1,0 +1,16 @@
+{
+	"box": "MAGMA_URCHIN_BUNDLE",
+	"source": "https://hypixelskyblock.minecraft.wiki/w/Magma_Urchin_Bundle",
+	"total_weight": null,
+	"drops": [
+		{
+			"type": "item",
+			"id": "MAGMA_URCHIN",
+			"min": 9,
+			"max": 9,
+			"weight": null,
+			"chance": 1.0
+		}
+	],
+	"note": "fixed contents stated by wiki"
+}

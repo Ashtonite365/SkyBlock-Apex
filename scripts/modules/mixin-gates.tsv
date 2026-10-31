@@ -1,0 +1,31 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Phase O5: mixins whose injected code is gated by a module (DESIGN.md 5.5). One row per mixin; the module is the
+# holder the mixin's code reads (mechanically: the feature class it calls, or the TConfig it reads). Core mixins
+# (signature patches, key sanitising, screen events, aggregating hiders such as PlusEntityHide) are not listed.
+# Regenerate ModuleGates.kt with: python3 scripts/gen_module_gates.py
+mixin	module
+feature/ChatCentringHook.java	hypixel-chat-layout
+feature/ChatPeekPatch.java	chat-peek
+feature/ChatSearchPatch.java	chat-search
+feature/CompactChatPatch.java	compact-chat
+feature/CompactTabListPatch.java	compact-tab-list
+feature/CustomScoreboardPatch.java	custom-scoreboard
+feature/DisableSlotHighlights.java	fixes
+feature/HideOtherBobbersPatch.java	fishing-helper
+feature/HotbarStorageSelectorHeldItemPatch.java	hotbar-storage-selector
+feature/HotbarStorageSelectorHighlightPatch.java	hotbar-storage-selector
+feature/HotbarStorageSelectorKeybindsPatch.java	hotbar-storage-selector
+feature/HotbarStorageSelectorScrollPatch.java	hotbar-storage-selector
+feature/PlusLavaReplacementPatch.java	lava-replacement
+feature/SkillXpBarPatch.java	skill-overlay
+feature/SkillXpLevelPatch.java	skill-overlay
+feature/StatBarsExperienceBarPatch.java	stat-bars-vanilla
+feature/StatBarsVanillaHudPatch.java	stat-bars-vanilla
+feature/StreamerModeTabListPatch.java	streamer-mode
+feature/StreamerModeTeamNamePatch.java	streamer-mode
+CopyChatPatch.java	copy-chat
+DisableHurtCam.java	fixes
+HideStatusEffectsPatch.java	fixes
+HudRenderEventsPatch.java	fixes
+MixinPlayerScreenHandler.java	fixes
+MixinRecipeBookScreen.java	fixes

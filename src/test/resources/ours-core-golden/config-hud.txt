@@ -1,0 +1,98 @@
+migrate 480 x 270 (0,0) -> HudPosition(x=0, y=0, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null) resolve=( 0.000E+0  0.000E+0)
+  place -> HudPosition(x=3, y=1, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null) resolve=( 3.000E+0  1.000E+0)
+  drag -> HudPosition(x=1, y=2, scale=1.3693064, anchor=TOP_LEFT, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=1, y=2, scale=2.0, anchor=TOP_LEFT, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=1, y=2, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null)
+migrate 480 x 270 (10,200) -> HudPosition(x=10, y=-53, scale=1.0, anchor=BOTTOM_LEFT, scaleX=null, scaleY=null) resolve=( 1.000E+1  2.000E+2)
+  place -> HudPosition(x=13, y=-52, scale=1.0, anchor=BOTTOM_LEFT, scaleX=null, scaleY=null) resolve=( 1.300E+1  2.010E+2)
+  drag -> HudPosition(x=11, y=-47, scale=1.3693064, anchor=BOTTOM_LEFT, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=11, y=-47, scale=2.0, anchor=BOTTOM_LEFT, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=11, y=-47, scale=1.0, anchor=BOTTOM_LEFT, scaleX=null, scaleY=null)
+migrate 480 x 270 (230,120) -> HudPosition(x=10, y=-7, scale=1.0, anchor=CENTRE, scaleX=null, scaleY=null) resolve=( 2.300E+2  1.200E+2)
+  place -> HudPosition(x=13, y=-6, scale=1.0, anchor=CENTRE, scaleX=null, scaleY=null) resolve=( 2.330E+2  1.210E+2)
+  drag -> HudPosition(x=21, y=-3, scale=1.3693064, anchor=CENTRE, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=21, y=-3, scale=2.0, anchor=CENTRE, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=21, y=-3, scale=1.0, anchor=CENTRE, scaleX=null, scaleY=null)
+migrate 480 x 270 (470,5) -> HudPosition(x=31, y=5, scale=1.0, anchor=TOP_RIGHT, scaleX=null, scaleY=null) resolve=( 4.700E+2  5.000E+0)
+  place -> HudPosition(x=34, y=6, scale=1.0, anchor=TOP_RIGHT, scaleX=null, scaleY=null) resolve=( 4.730E+2  6.000E+0)
+  drag -> HudPosition(x=52, y=7, scale=1.3693064, anchor=TOP_RIGHT, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=52, y=7, scale=2.0, anchor=TOP_RIGHT, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=52, y=7, scale=1.0, anchor=TOP_RIGHT, scaleX=null, scaleY=null)
+migrate 480 x 270 (213,119) -> HudPosition(x=-7, y=-8, scale=1.0, anchor=CENTRE, scaleX=null, scaleY=null) resolve=( 2.130E+2  1.190E+2)
+  place -> HudPosition(x=-4, y=-7, scale=1.0, anchor=CENTRE, scaleX=null, scaleY=null) resolve=( 2.160E+2  1.200E+2)
+  drag -> HudPosition(x=4, y=-4, scale=1.3693064, anchor=CENTRE, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=4, y=-4, scale=2.0, anchor=CENTRE, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=4, y=-4, scale=1.0, anchor=CENTRE, scaleX=null, scaleY=null)
+migrate 480 x 270 (-5,300) -> HudPosition(x=-5, y=47, scale=1.0, anchor=BOTTOM_LEFT, scaleX=null, scaleY=null) resolve=(-5.000E+0  3.000E+2)
+  place -> HudPosition(x=-2, y=48, scale=1.0, anchor=BOTTOM_LEFT, scaleX=null, scaleY=null) resolve=(-2.000E+0  3.010E+2)
+  drag -> HudPosition(x=-4, y=53, scale=1.3693064, anchor=BOTTOM_LEFT, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=-4, y=53, scale=2.0, anchor=BOTTOM_LEFT, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=-4, y=53, scale=1.0, anchor=BOTTOM_LEFT, scaleX=null, scaleY=null)
+migrate 427 x 240 (0,0) -> HudPosition(x=0, y=0, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null) resolve=( 0.000E+0  0.000E+0)
+  place -> HudPosition(x=3, y=1, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null) resolve=( 3.000E+0  1.000E+0)
+  drag -> HudPosition(x=1, y=2, scale=1.3693064, anchor=TOP_LEFT, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=1, y=2, scale=2.0, anchor=TOP_LEFT, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=1, y=2, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null)
+migrate 427 x 240 (10,200) -> HudPosition(x=10, y=-23, scale=1.0, anchor=BOTTOM_LEFT, scaleX=null, scaleY=null) resolve=( 1.000E+1  2.000E+2)
+  place -> HudPosition(x=13, y=-22, scale=1.0, anchor=BOTTOM_LEFT, scaleX=null, scaleY=null) resolve=( 1.300E+1  2.010E+2)
+  drag -> HudPosition(x=11, y=-17, scale=1.3693064, anchor=BOTTOM_LEFT, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=11, y=-17, scale=2.0, anchor=BOTTOM_LEFT, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=11, y=-17, scale=1.0, anchor=BOTTOM_LEFT, scaleX=null, scaleY=null)
+migrate 427 x 240 (230,120) -> HudPosition(x=37, y=8, scale=1.0, anchor=CENTRE, scaleX=null, scaleY=null) resolve=( 2.300E+2  1.200E+2)
+  place -> HudPosition(x=40, y=9, scale=1.0, anchor=CENTRE, scaleX=null, scaleY=null) resolve=( 2.330E+2  1.210E+2)
+  drag -> HudPosition(x=48, y=12, scale=1.3693064, anchor=CENTRE, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=48, y=12, scale=2.0, anchor=CENTRE, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=48, y=12, scale=1.0, anchor=CENTRE, scaleX=null, scaleY=null)
+migrate 427 x 240 (470,5) -> HudPosition(x=84, y=5, scale=1.0, anchor=TOP_RIGHT, scaleX=null, scaleY=null) resolve=( 4.700E+2  5.000E+0)
+  place -> HudPosition(x=87, y=6, scale=1.0, anchor=TOP_RIGHT, scaleX=null, scaleY=null) resolve=( 4.730E+2  6.000E+0)
+  drag -> HudPosition(x=105, y=7, scale=1.3693064, anchor=TOP_RIGHT, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=105, y=7, scale=2.0, anchor=TOP_RIGHT, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=105, y=7, scale=1.0, anchor=TOP_RIGHT, scaleX=null, scaleY=null)
+migrate 427 x 240 (213,119) -> HudPosition(x=20, y=7, scale=1.0, anchor=CENTRE, scaleX=null, scaleY=null) resolve=( 2.130E+2  1.190E+2)
+  place -> HudPosition(x=23, y=8, scale=1.0, anchor=CENTRE, scaleX=null, scaleY=null) resolve=( 2.160E+2  1.200E+2)
+  drag -> HudPosition(x=31, y=11, scale=1.3693064, anchor=CENTRE, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=31, y=11, scale=2.0, anchor=CENTRE, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=31, y=11, scale=1.0, anchor=CENTRE, scaleX=null, scaleY=null)
+migrate 427 x 240 (-5,300) -> HudPosition(x=-5, y=77, scale=1.0, anchor=BOTTOM_LEFT, scaleX=null, scaleY=null) resolve=(-5.000E+0  3.000E+2)
+  place -> HudPosition(x=-2, y=78, scale=1.0, anchor=BOTTOM_LEFT, scaleX=null, scaleY=null) resolve=(-2.000E+0  3.010E+2)
+  drag -> HudPosition(x=-4, y=83, scale=1.3693064, anchor=BOTTOM_LEFT, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=-4, y=83, scale=2.0, anchor=BOTTOM_LEFT, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=-4, y=83, scale=1.0, anchor=BOTTOM_LEFT, scaleX=null, scaleY=null)
+migrate 961 x 541 (0,0) -> HudPosition(x=0, y=0, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null) resolve=( 0.000E+0  0.000E+0)
+  place -> HudPosition(x=3, y=1, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null) resolve=( 3.000E+0  1.000E+0)
+  drag -> HudPosition(x=1, y=2, scale=1.3693064, anchor=TOP_LEFT, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=1, y=2, scale=2.0, anchor=TOP_LEFT, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=1, y=2, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null)
+migrate 961 x 541 (10,200) -> HudPosition(x=10, y=-62, scale=1.0, anchor=LEFT, scaleX=null, scaleY=null) resolve=( 1.000E+1  2.000E+2)
+  place -> HudPosition(x=13, y=-61, scale=1.0, anchor=LEFT, scaleX=null, scaleY=null) resolve=( 1.300E+1  2.010E+2)
+  drag -> HudPosition(x=11, y=-58, scale=1.3693064, anchor=LEFT, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=11, y=-58, scale=2.0, anchor=LEFT, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=11, y=-58, scale=1.0, anchor=LEFT, scaleX=null, scaleY=null)
+migrate 961 x 541 (230,120) -> HudPosition(x=230, y=120, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null) resolve=( 2.300E+2  1.200E+2)
+  place -> HudPosition(x=233, y=121, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null) resolve=( 2.330E+2  1.210E+2)
+  drag -> HudPosition(x=231, y=122, scale=1.3693064, anchor=TOP_LEFT, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=231, y=122, scale=2.0, anchor=TOP_LEFT, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=231, y=122, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null)
+migrate 961 x 541 (470,5) -> HudPosition(x=10, y=5, scale=1.0, anchor=TOP, scaleX=null, scaleY=null) resolve=( 4.700E+2  5.000E+0)
+  place -> HudPosition(x=13, y=6, scale=1.0, anchor=TOP, scaleX=null, scaleY=null) resolve=( 4.730E+2  6.000E+0)
+  drag -> HudPosition(x=21, y=7, scale=1.3693064, anchor=TOP, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=21, y=7, scale=2.0, anchor=TOP, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=21, y=7, scale=1.0, anchor=TOP, scaleX=null, scaleY=null)
+migrate 961 x 541 (213,119) -> HudPosition(x=213, y=119, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null) resolve=( 2.130E+2  1.190E+2)
+  place -> HudPosition(x=216, y=120, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null) resolve=( 2.160E+2  1.200E+2)
+  drag -> HudPosition(x=214, y=121, scale=1.3693064, anchor=TOP_LEFT, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=214, y=121, scale=2.0, anchor=TOP_LEFT, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=214, y=121, scale=1.0, anchor=TOP_LEFT, scaleX=null, scaleY=null)
+migrate 961 x 541 (-5,300) -> HudPosition(x=-5, y=38, scale=1.0, anchor=LEFT, scaleX=null, scaleY=null) resolve=(-5.000E+0  3.000E+2)
+  place -> HudPosition(x=-2, y=39, scale=1.0, anchor=LEFT, scaleX=null, scaleY=null) resolve=(-2.000E+0  3.010E+2)
+  drag -> HudPosition(x=-4, y=42, scale=1.3693064, anchor=LEFT, scaleX=1.5, scaleY=1.25) sx=1.5 sy=1.25
+  uniform -> HudPosition(x=-4, y=42, scale=2.0, anchor=LEFT, scaleX=2.1908903, scaleY=1.8257418)
+  reset -> HudPosition(x=-4, y=42, scale=1.0, anchor=LEFT, scaleX=null, scaleY=null)
+same HudPosition(x=3, y=4, scale=2.0, anchor=null, scaleX=null, scaleY=null)
+diff HudPosition(x=3, y=4, scale=1.0, anchor=null, scaleX=2.0, scaleY=0.5)
+uni HudPosition(x=3, y=4, scale=3.0, anchor=null, scaleX=6.0, scaleY=1.5)
+zero HudPosition(x=1, y=2, scale=2.0, anchor=null, scaleX=null, scaleY=null)
+unanchored HudPosition(x=50, y=60, scale=1.4142135, anchor=null, scaleX=2.0, scaleY=1.0)
+json {"x":1,"y":2,"scale":1.5} -> HudPosition(x=1, y=2, scale=1.5, anchor=null, scaleX=null, scaleY=null) -> {"x":1,"y":2,"scale":1.5}
+json {"x":1,"y":2,"scale":1.0,"anchor":"top-left","scaleX":2.0,"scaleY":0.5} -> HudPosition(x=1, y=2, scale=1.0, anchor=TOP_LEFT, scaleX=2.0, scaleY=0.5) -> {"x":1,"y":2,"scale":1.0,"anchor":"top-left","scaleX":2.0,"scaleY":0.5}
+enc {"x":7,"y":8,"scale":0.5}

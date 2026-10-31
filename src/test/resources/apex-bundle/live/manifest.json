@@ -1,0 +1,24 @@
+{
+	"bundle": "repo.json.zst",
+	"format": "apex-repo-bundle",
+	"format_version": 1,
+	"version": "2026.10.25.0642",
+	"build_date": "2026-10-25T06:42:01+11:00",
+	"sha256": "71ed9b83d3da227b6d637213404e138e101774226e35a73c1c5e0ba87533b762",
+	"bytes": 2847064,
+	"uncompressed_bytes": 35317039,
+	"file_count": 8567,
+	"item_count": 7986,
+	"contents_count": 27,
+	"katgrade_count": 216,
+	"teleporter_count": 1,
+	"recipe_total": 4293,
+	"recipe_counts": {
+		"Crafting": 2771,
+		"Forge": 144,
+		"KatUpgrade": 217,
+		"MobDrop": 749,
+		"NpcShop": 399,
+		"Trade": 13
+	}
+}

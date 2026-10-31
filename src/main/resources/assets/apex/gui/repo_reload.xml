@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns="http://notenoughupdates.org/moulconfig" xmlns:apex="http://apex.ashtonite365.dev/moulconfig">
+	<Row>
+		<apex:Bar progress="@current" total="@max" emptyColor="#30ff30" fillColor="#30aa30"/>
+		<Text text="@label"/>
+	</Row>
+</Root>

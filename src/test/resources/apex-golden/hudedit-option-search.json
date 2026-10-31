@@ -1,0 +1,177 @@
+{
+  "cases": 43,
+  "data": [
+    {
+      "in": "[]",
+      "out": "0;1;2;3;4;5;6;7;8;9"
+    },
+    {
+      "in": "[ ]",
+      "out": "0;1;2;3;4;5;6;7;8;9"
+    },
+    {
+      "in": "[  ]",
+      "out": "0;1;2;3;4;5;6;7;8;9"
+    },
+    {
+      "in": "[pet]",
+      "out": "1"
+    },
+    {
+      "in": "[PET]",
+      "out": "1"
+    },
+    {
+      "in": "[overlay]",
+      "out": "0;1"
+    },
+    {
+      "in": "[storage overlay]",
+      "out": "0"
+    },
+    {
+      "in": "[overlay storage]",
+      "out": "0"
+    },
+    {
+      "in": "[over lay]",
+      "out": "0;1"
+    },
+    {
+      "in": "[sky]",
+      "out": "0;1;2;3;4;5;6;7;8;9"
+    },
+    {
+      "in": "[skyblock apex]",
+      "out": "0;1;2;3;4;5;6;7;8;9"
+    },
+    {
+      "in": "[dungeon|slayer]",
+      "out": "4;5"
+    },
+    {
+      "in": "[dungeon | slayer]",
+      "out": "4;5"
+    },
+    {
+      "in": "[|]",
+      "out": ""
+    },
+    {
+      "in": "[||]",
+      "out": ""
+    },
+    {
+      "in": "[pet|]",
+      "out": "1"
+    },
+    {
+      "in": "[|pet]",
+      "out": "0;1;2;3;4;5;6;7;8;9"
+    },
+    {
+      "in": "[zoo]",
+      "out": ""
+    },
+    {
+      "in": "[zookeeper]",
+      "out": "1"
+    },
+    {
+      "in": "[f7]",
+      "out": "4"
+    },
+    {
+      "in": "[catacombs map]",
+      "out": "4"
+    },
+    {
+      "in": "[catacombs pets]",
+      "out": ""
+    },
+    {
+      "in": "[hypixel]",
+      "out": "2"
+    },
+    {
+      "in": "[chat width]",
+      "out": "2"
+    },
+    {
+      "in": "[width chat]",
+      "out": "2"
+    },
+    {
+      "in": "[über]",
+      "out": "6"
+    },
+    {
+      "in": "[ünïcödé]",
+      "out": "6"
+    },
+    {
+      "in": "[UNICODE]",
+      "out": ""
+    },
+    {
+      "in": "[mines hollows]",
+      "out": "7"
+    },
+    {
+      "in": "[mines  hollows]",
+      "out": "7"
+    },
+    {
+      "in": "[x]",
+      "out": "0;1;2;3;4;5;6;7;8;9"
+    },
+    {
+      "in": "[hud size]",
+      "out": "8"
+    },
+    {
+      "in": "[size hud]",
+      "out": "8"
+    },
+    {
+      "in": "[pipe]",
+      "out": "9"
+    },
+    {
+      "in": "[pipe | option]",
+      "out": "9"
+    },
+    {
+      "in": "[option]",
+      "out": "9"
+    },
+    {
+      "in": "[e]",
+      "out": "0;1;2;3;4;5;6;7;8;9"
+    },
+    {
+      "in": "[  e  ]",
+      "out": "0;1;2;3;4;5;6;7;8;9"
+    },
+    {
+      "in": "[misc|mining]",
+      "out": "6;7;9"
+    },
+    {
+      "in": "[mining|]",
+      "out": "7"
+    },
+    {
+      "in": "[watchdog]",
+      "out": "3"
+    },
+    {
+      "in": "[hide watch dog]",
+      "out": "3"
+    },
+    {
+      "in": "[a|b|c|map]",
+      "out": "0;1;2;3;4;5;6;7;8;9"
+    }
+  ]
+}

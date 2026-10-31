@@ -1,0 +1,4289 @@
+{
+  "cases": 1071,
+  "data": [
+    {
+      "in": "tool|null",
+      "out": "false false"
+    },
+    {
+      "in": "tool|",
+      "out": "false false"
+    },
+    {
+      "in": "tool|TREECAPITATOR_AXE",
+      "out": "true false"
+    },
+    {
+      "in": "tool|JUNGLE_AXE",
+      "out": "true false"
+    },
+    {
+      "in": "tool|JUNGLE_AXE_2",
+      "out": "true false"
+    },
+    {
+      "in": "tool|SWEET_AXE",
+      "out": "true false"
+    },
+    {
+      "in": "tool|DIAMOND_PICKAXE",
+      "out": "false false"
+    },
+    {
+      "in": "tool|PICKAXE_AXE",
+      "out": "false false"
+    },
+    {
+      "in": "tool|ROOKIE_AXE",
+      "out": "true false"
+    },
+    {
+      "in": "tool|AXE",
+      "out": "false false"
+    },
+    {
+      "in": "tool|_AXE",
+      "out": "true false"
+    },
+    {
+      "in": "tool|FISHING_ROD",
+      "out": "false true"
+    },
+    {
+      "in": "tool|ROD_OF_THE_SEA",
+      "out": "false true"
+    },
+    {
+      "in": "tool|CHALLENGE_ROD",
+      "out": "false true"
+    },
+    {
+      "in": "tool|GIANT_FISHING_ROD",
+      "out": "false true"
+    },
+    {
+      "in": "tool|SHREDDER",
+      "out": "false false"
+    },
+    {
+      "in": "tool|MAGMA_LINE_ROD",
+      "out": "false true"
+    },
+    {
+      "in": "tool|ROD",
+      "out": "false false"
+    },
+    {
+      "in": "tool|_ROD_X",
+      "out": "false false"
+    },
+    {
+      "in": "tool|STARTER_LAVA_ROD",
+      "out": "false true"
+    },
+    {
+      "in": "tool|jungle_axe",
+      "out": "false false"
+    },
+    {
+      "in": "name|DIRT",
+      "out": "Dirt"
+    },
+    {
+      "in": "name|NOT_A_REAL_ITEM_XYZ",
+      "out": "NOT_A_REAL_ITEM_XYZ"
+    },
+    {
+      "in": "name|",
+      "out": ""
+    },
+    {
+      "in": "vw|",
+      "out": "[]"
+    },
+    {
+      "in": "vwa|||true",
+      "out": ""
+    },
+    {
+      "in": "vwa|||false",
+      "out": ""
+    },
+    {
+      "in": "vwa||a|true",
+      "out": "a"
+    },
+    {
+      "in": "vwa||a|false",
+      "out": "a"
+    },
+    {
+      "in": "vwa||abc abc|true",
+      "out": "abc abc"
+    },
+    {
+      "in": "vwa||abc abc|false",
+      "out": "abc abc"
+    },
+    {
+      "in": "vwa||Hello hello HELLO|true",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa||Hello hello HELLO|false",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa||§cRed sp text|true",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa||§cRed sp text|false",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa||aaa|true",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa||aaa|false",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa||foo bar|true",
+      "out": "foo bar"
+    },
+    {
+      "in": "vwa||foo bar|false",
+      "out": "foo bar"
+    },
+    {
+      "in": "vwa||ABab|true",
+      "out": "ABab"
+    },
+    {
+      "in": "vwa||ABab|false",
+      "out": "ABab"
+    },
+    {
+      "in": "vw|a=>b",
+      "out": "[(a, b)]"
+    },
+    {
+      "in": "vwa|a=>b||true",
+      "out": ""
+    },
+    {
+      "in": "vwa|a=>b||false",
+      "out": ""
+    },
+    {
+      "in": "vwa|a=>b|a|true",
+      "out": "b"
+    },
+    {
+      "in": "vwa|a=>b|a|false",
+      "out": "b"
+    },
+    {
+      "in": "vwa|a=>b|abc abc|true",
+      "out": "bbc bbc"
+    },
+    {
+      "in": "vwa|a=>b|abc abc|false",
+      "out": "bbc bbc"
+    },
+    {
+      "in": "vwa|a=>b|Hello hello HELLO|true",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|a=>b|Hello hello HELLO|false",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|a=>b|§cRed sp text|true",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|a=>b|§cRed sp text|false",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|a=>b|aaa|true",
+      "out": "bbb"
+    },
+    {
+      "in": "vwa|a=>b|aaa|false",
+      "out": "bbb"
+    },
+    {
+      "in": "vwa|a=>b|foo bar|true",
+      "out": "foo bbr"
+    },
+    {
+      "in": "vwa|a=>b|foo bar|false",
+      "out": "foo bbr"
+    },
+    {
+      "in": "vwa|a=>b|ABab|true",
+      "out": "ABbb"
+    },
+    {
+      "in": "vwa|a=>b|ABab|false",
+      "out": "bBbb"
+    },
+    {
+      "in": "vw|a=>b;c=>d",
+      "out": "[(a, b), (c, d)]"
+    },
+    {
+      "in": "vwa|a=>b;c=>d||true",
+      "out": ""
+    },
+    {
+      "in": "vwa|a=>b;c=>d||false",
+      "out": ""
+    },
+    {
+      "in": "vwa|a=>b;c=>d|a|true",
+      "out": "b"
+    },
+    {
+      "in": "vwa|a=>b;c=>d|a|false",
+      "out": "b"
+    },
+    {
+      "in": "vwa|a=>b;c=>d|abc abc|true",
+      "out": "bbd bbd"
+    },
+    {
+      "in": "vwa|a=>b;c=>d|abc abc|false",
+      "out": "bbd bbd"
+    },
+    {
+      "in": "vwa|a=>b;c=>d|Hello hello HELLO|true",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|a=>b;c=>d|Hello hello HELLO|false",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|a=>b;c=>d|§cRed sp text|true",
+      "out": "§dRed sp text"
+    },
+    {
+      "in": "vwa|a=>b;c=>d|§cRed sp text|false",
+      "out": "§dRed sp text"
+    },
+    {
+      "in": "vwa|a=>b;c=>d|aaa|true",
+      "out": "bbb"
+    },
+    {
+      "in": "vwa|a=>b;c=>d|aaa|false",
+      "out": "bbb"
+    },
+    {
+      "in": "vwa|a=>b;c=>d|foo bar|true",
+      "out": "foo bbr"
+    },
+    {
+      "in": "vwa|a=>b;c=>d|foo bar|false",
+      "out": "foo bbr"
+    },
+    {
+      "in": "vwa|a=>b;c=>d|ABab|true",
+      "out": "ABbb"
+    },
+    {
+      "in": "vwa|a=>b;c=>d|ABab|false",
+      "out": "bBbb"
+    },
+    {
+      "in": "vw|=>x",
+      "out": "[]"
+    },
+    {
+      "in": "vwa|=>x||true",
+      "out": ""
+    },
+    {
+      "in": "vwa|=>x||false",
+      "out": ""
+    },
+    {
+      "in": "vwa|=>x|a|true",
+      "out": "a"
+    },
+    {
+      "in": "vwa|=>x|a|false",
+      "out": "a"
+    },
+    {
+      "in": "vwa|=>x|abc abc|true",
+      "out": "abc abc"
+    },
+    {
+      "in": "vwa|=>x|abc abc|false",
+      "out": "abc abc"
+    },
+    {
+      "in": "vwa|=>x|Hello hello HELLO|true",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|=>x|Hello hello HELLO|false",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|=>x|§cRed sp text|true",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|=>x|§cRed sp text|false",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|=>x|aaa|true",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa|=>x|aaa|false",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa|=>x|foo bar|true",
+      "out": "foo bar"
+    },
+    {
+      "in": "vwa|=>x|foo bar|false",
+      "out": "foo bar"
+    },
+    {
+      "in": "vwa|=>x|ABab|true",
+      "out": "ABab"
+    },
+    {
+      "in": "vwa|=>x|ABab|false",
+      "out": "ABab"
+    },
+    {
+      "in": "vw|a=>",
+      "out": "[(a, )]"
+    },
+    {
+      "in": "vwa|a=>||true",
+      "out": ""
+    },
+    {
+      "in": "vwa|a=>||false",
+      "out": ""
+    },
+    {
+      "in": "vwa|a=>|a|true",
+      "out": ""
+    },
+    {
+      "in": "vwa|a=>|a|false",
+      "out": ""
+    },
+    {
+      "in": "vwa|a=>|abc abc|true",
+      "out": "bc bc"
+    },
+    {
+      "in": "vwa|a=>|abc abc|false",
+      "out": "bc bc"
+    },
+    {
+      "in": "vwa|a=>|Hello hello HELLO|true",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|a=>|Hello hello HELLO|false",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|a=>|§cRed sp text|true",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|a=>|§cRed sp text|false",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|a=>|aaa|true",
+      "out": ""
+    },
+    {
+      "in": "vwa|a=>|aaa|false",
+      "out": ""
+    },
+    {
+      "in": "vwa|a=>|foo bar|true",
+      "out": "foo br"
+    },
+    {
+      "in": "vwa|a=>|foo bar|false",
+      "out": "foo br"
+    },
+    {
+      "in": "vwa|a=>|ABab|true",
+      "out": "ABb"
+    },
+    {
+      "in": "vwa|a=>|ABab|false",
+      "out": "Bb"
+    },
+    {
+      "in": "vw|;;a=>b;",
+      "out": "[(a, b)]"
+    },
+    {
+      "in": "vwa|;;a=>b;||true",
+      "out": ""
+    },
+    {
+      "in": "vwa|;;a=>b;||false",
+      "out": ""
+    },
+    {
+      "in": "vwa|;;a=>b;|a|true",
+      "out": "b"
+    },
+    {
+      "in": "vwa|;;a=>b;|a|false",
+      "out": "b"
+    },
+    {
+      "in": "vwa|;;a=>b;|abc abc|true",
+      "out": "bbc bbc"
+    },
+    {
+      "in": "vwa|;;a=>b;|abc abc|false",
+      "out": "bbc bbc"
+    },
+    {
+      "in": "vwa|;;a=>b;|Hello hello HELLO|true",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|;;a=>b;|Hello hello HELLO|false",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|;;a=>b;|§cRed sp text|true",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|;;a=>b;|§cRed sp text|false",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|;;a=>b;|aaa|true",
+      "out": "bbb"
+    },
+    {
+      "in": "vwa|;;a=>b;|aaa|false",
+      "out": "bbb"
+    },
+    {
+      "in": "vwa|;;a=>b;|foo bar|true",
+      "out": "foo bbr"
+    },
+    {
+      "in": "vwa|;;a=>b;|foo bar|false",
+      "out": "foo bbr"
+    },
+    {
+      "in": "vwa|;;a=>b;|ABab|true",
+      "out": "ABbb"
+    },
+    {
+      "in": "vwa|;;a=>b;|ABab|false",
+      "out": "bBbb"
+    },
+    {
+      "in": "vw|foo=>bar=>baz",
+      "out": "[(foo, bar=>baz)]"
+    },
+    {
+      "in": "vwa|foo=>bar=>baz||true",
+      "out": ""
+    },
+    {
+      "in": "vwa|foo=>bar=>baz||false",
+      "out": ""
+    },
+    {
+      "in": "vwa|foo=>bar=>baz|a|true",
+      "out": "a"
+    },
+    {
+      "in": "vwa|foo=>bar=>baz|a|false",
+      "out": "a"
+    },
+    {
+      "in": "vwa|foo=>bar=>baz|abc abc|true",
+      "out": "abc abc"
+    },
+    {
+      "in": "vwa|foo=>bar=>baz|abc abc|false",
+      "out": "abc abc"
+    },
+    {
+      "in": "vwa|foo=>bar=>baz|Hello hello HELLO|true",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|foo=>bar=>baz|Hello hello HELLO|false",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|foo=>bar=>baz|§cRed sp text|true",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|foo=>bar=>baz|§cRed sp text|false",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|foo=>bar=>baz|aaa|true",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa|foo=>bar=>baz|aaa|false",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa|foo=>bar=>baz|foo bar|true",
+      "out": "bar=>baz bar"
+    },
+    {
+      "in": "vwa|foo=>bar=>baz|foo bar|false",
+      "out": "bar=>baz bar"
+    },
+    {
+      "in": "vwa|foo=>bar=>baz|ABab|true",
+      "out": "ABab"
+    },
+    {
+      "in": "vwa|foo=>bar=>baz|ABab|false",
+      "out": "ABab"
+    },
+    {
+      "in": "vw|x;y=>z",
+      "out": "[(y, z)]"
+    },
+    {
+      "in": "vwa|x;y=>z||true",
+      "out": ""
+    },
+    {
+      "in": "vwa|x;y=>z||false",
+      "out": ""
+    },
+    {
+      "in": "vwa|x;y=>z|a|true",
+      "out": "a"
+    },
+    {
+      "in": "vwa|x;y=>z|a|false",
+      "out": "a"
+    },
+    {
+      "in": "vwa|x;y=>z|abc abc|true",
+      "out": "abc abc"
+    },
+    {
+      "in": "vwa|x;y=>z|abc abc|false",
+      "out": "abc abc"
+    },
+    {
+      "in": "vwa|x;y=>z|Hello hello HELLO|true",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|x;y=>z|Hello hello HELLO|false",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|x;y=>z|§cRed sp text|true",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|x;y=>z|§cRed sp text|false",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|x;y=>z|aaa|true",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa|x;y=>z|aaa|false",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa|x;y=>z|foo bar|true",
+      "out": "foo bar"
+    },
+    {
+      "in": "vwa|x;y=>z|foo bar|false",
+      "out": "foo bar"
+    },
+    {
+      "in": "vwa|x;y=>z|ABab|true",
+      "out": "ABab"
+    },
+    {
+      "in": "vwa|x;y=>z|ABab|false",
+      "out": "ABab"
+    },
+    {
+      "in": "vw|Hello=>Bye;bye=>hi",
+      "out": "[(Hello, Bye), (bye, hi)]"
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi||true",
+      "out": ""
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi||false",
+      "out": ""
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi|a|true",
+      "out": "a"
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi|a|false",
+      "out": "a"
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi|abc abc|true",
+      "out": "abc abc"
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi|abc abc|false",
+      "out": "abc abc"
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi|Hello hello HELLO|true",
+      "out": "Bye hello HELLO"
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi|Hello hello HELLO|false",
+      "out": "hi hi hi"
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi|§cRed sp text|true",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi|§cRed sp text|false",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi|aaa|true",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi|aaa|false",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi|foo bar|true",
+      "out": "foo bar"
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi|foo bar|false",
+      "out": "foo bar"
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi|ABab|true",
+      "out": "ABab"
+    },
+    {
+      "in": "vwa|Hello=>Bye;bye=>hi|ABab|false",
+      "out": "ABab"
+    },
+    {
+      "in": "vw| sp => ce ",
+      "out": "[( sp ,  ce )]"
+    },
+    {
+      "in": "vwa| sp => ce ||true",
+      "out": ""
+    },
+    {
+      "in": "vwa| sp => ce ||false",
+      "out": ""
+    },
+    {
+      "in": "vwa| sp => ce |a|true",
+      "out": "a"
+    },
+    {
+      "in": "vwa| sp => ce |a|false",
+      "out": "a"
+    },
+    {
+      "in": "vwa| sp => ce |abc abc|true",
+      "out": "abc abc"
+    },
+    {
+      "in": "vwa| sp => ce |abc abc|false",
+      "out": "abc abc"
+    },
+    {
+      "in": "vwa| sp => ce |Hello hello HELLO|true",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa| sp => ce |Hello hello HELLO|false",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa| sp => ce |§cRed sp text|true",
+      "out": "§cRed ce text"
+    },
+    {
+      "in": "vwa| sp => ce |§cRed sp text|false",
+      "out": "§cRed ce text"
+    },
+    {
+      "in": "vwa| sp => ce |aaa|true",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa| sp => ce |aaa|false",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa| sp => ce |foo bar|true",
+      "out": "foo bar"
+    },
+    {
+      "in": "vwa| sp => ce |foo bar|false",
+      "out": "foo bar"
+    },
+    {
+      "in": "vwa| sp => ce |ABab|true",
+      "out": "ABab"
+    },
+    {
+      "in": "vwa| sp => ce |ABab|false",
+      "out": "ABab"
+    },
+    {
+      "in": "vw|§c=>§a",
+      "out": "[(§c, §a)]"
+    },
+    {
+      "in": "vwa|§c=>§a||true",
+      "out": ""
+    },
+    {
+      "in": "vwa|§c=>§a||false",
+      "out": ""
+    },
+    {
+      "in": "vwa|§c=>§a|a|true",
+      "out": "a"
+    },
+    {
+      "in": "vwa|§c=>§a|a|false",
+      "out": "a"
+    },
+    {
+      "in": "vwa|§c=>§a|abc abc|true",
+      "out": "abc abc"
+    },
+    {
+      "in": "vwa|§c=>§a|abc abc|false",
+      "out": "abc abc"
+    },
+    {
+      "in": "vwa|§c=>§a|Hello hello HELLO|true",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|§c=>§a|Hello hello HELLO|false",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|§c=>§a|§cRed sp text|true",
+      "out": "§aRed sp text"
+    },
+    {
+      "in": "vwa|§c=>§a|§cRed sp text|false",
+      "out": "§aRed sp text"
+    },
+    {
+      "in": "vwa|§c=>§a|aaa|true",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa|§c=>§a|aaa|false",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa|§c=>§a|foo bar|true",
+      "out": "foo bar"
+    },
+    {
+      "in": "vwa|§c=>§a|foo bar|false",
+      "out": "foo bar"
+    },
+    {
+      "in": "vwa|§c=>§a|ABab|true",
+      "out": "ABab"
+    },
+    {
+      "in": "vwa|§c=>§a|ABab|false",
+      "out": "ABab"
+    },
+    {
+      "in": "vw|a=>b;a=>c",
+      "out": "[(a, b), (a, c)]"
+    },
+    {
+      "in": "vwa|a=>b;a=>c||true",
+      "out": ""
+    },
+    {
+      "in": "vwa|a=>b;a=>c||false",
+      "out": ""
+    },
+    {
+      "in": "vwa|a=>b;a=>c|a|true",
+      "out": "b"
+    },
+    {
+      "in": "vwa|a=>b;a=>c|a|false",
+      "out": "b"
+    },
+    {
+      "in": "vwa|a=>b;a=>c|abc abc|true",
+      "out": "bbc bbc"
+    },
+    {
+      "in": "vwa|a=>b;a=>c|abc abc|false",
+      "out": "bbc bbc"
+    },
+    {
+      "in": "vwa|a=>b;a=>c|Hello hello HELLO|true",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|a=>b;a=>c|Hello hello HELLO|false",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|a=>b;a=>c|§cRed sp text|true",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|a=>b;a=>c|§cRed sp text|false",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|a=>b;a=>c|aaa|true",
+      "out": "bbb"
+    },
+    {
+      "in": "vwa|a=>b;a=>c|aaa|false",
+      "out": "bbb"
+    },
+    {
+      "in": "vwa|a=>b;a=>c|foo bar|true",
+      "out": "foo bbr"
+    },
+    {
+      "in": "vwa|a=>b;a=>c|foo bar|false",
+      "out": "foo bbr"
+    },
+    {
+      "in": "vwa|a=>b;a=>c|ABab|true",
+      "out": "ABbb"
+    },
+    {
+      "in": "vwa|a=>b;a=>c|ABab|false",
+      "out": "bBbb"
+    },
+    {
+      "in": "vw|ab=>a",
+      "out": "[(ab, a)]"
+    },
+    {
+      "in": "vwa|ab=>a||true",
+      "out": ""
+    },
+    {
+      "in": "vwa|ab=>a||false",
+      "out": ""
+    },
+    {
+      "in": "vwa|ab=>a|a|true",
+      "out": "a"
+    },
+    {
+      "in": "vwa|ab=>a|a|false",
+      "out": "a"
+    },
+    {
+      "in": "vwa|ab=>a|abc abc|true",
+      "out": "ac ac"
+    },
+    {
+      "in": "vwa|ab=>a|abc abc|false",
+      "out": "ac ac"
+    },
+    {
+      "in": "vwa|ab=>a|Hello hello HELLO|true",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|ab=>a|Hello hello HELLO|false",
+      "out": "Hello hello HELLO"
+    },
+    {
+      "in": "vwa|ab=>a|§cRed sp text|true",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|ab=>a|§cRed sp text|false",
+      "out": "§cRed sp text"
+    },
+    {
+      "in": "vwa|ab=>a|aaa|true",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa|ab=>a|aaa|false",
+      "out": "aaa"
+    },
+    {
+      "in": "vwa|ab=>a|foo bar|true",
+      "out": "foo bar"
+    },
+    {
+      "in": "vwa|ab=>a|foo bar|false",
+      "out": "foo bar"
+    },
+    {
+      "in": "vwa|ab=>a|ABab|true",
+      "out": "ABa"
+    },
+    {
+      "in": "vwa|ab=>a|ABab|false",
+      "out": "aa"
+    },
+    {
+      "in": "short|1,234",
+      "out": "1234.0"
+    },
+    {
+      "in": "short|12.5k",
+      "out": "12500.0"
+    },
+    {
+      "in": "short|3M",
+      "out": "3000000.0"
+    },
+    {
+      "in": "short|2b",
+      "out": "2.0E9"
+    },
+    {
+      "in": "short|2B",
+      "out": "2.0E9"
+    },
+    {
+      "in": "short|k",
+      "out": "null"
+    },
+    {
+      "in": "short|",
+      "out": "null"
+    },
+    {
+      "in": "short| 5 ",
+      "out": "5.0"
+    },
+    {
+      "in": "short|1.2.3",
+      "out": "null"
+    },
+    {
+      "in": "short|NaN",
+      "out": "NaN"
+    },
+    {
+      "in": "short|-4k",
+      "out": "-4000.0"
+    },
+    {
+      "in": "short|1e3",
+      "out": "1000.0"
+    },
+    {
+      "in": "short|1e3k",
+      "out": "1000000.0"
+    },
+    {
+      "in": "short|Infinity",
+      "out": "Infinity"
+    },
+    {
+      "in": "short|0x10",
+      "out": "null"
+    },
+    {
+      "in": "short|5kk",
+      "out": "null"
+    },
+    {
+      "in": "short|12,5",
+      "out": "125.0"
+    },
+    {
+      "in": "short|m",
+      "out": "null"
+    },
+    {
+      "in": "short|7 m",
+      "out": "7000000.0"
+    },
+    {
+      "in": "short|1_000",
+      "out": "null"
+    },
+    {
+      "in": "prog|(1,234/2,400) Combat XP",
+      "out": "(1234.0, 2400.0)"
+    },
+    {
+      "in": "prog|12k/15k Kills",
+      "out": "(12000.0, 15000.0)"
+    },
+    {
+      "in": "prog|(0/0) Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|(5/3) x",
+      "out": "(5.0, 3.0)"
+    },
+    {
+      "in": "prog|1/2",
+      "out": "null"
+    },
+    {
+      "in": "prog|(1/2)Combat",
+      "out": "null"
+    },
+    {
+      "in": "prog|(1.5k/2M) XP",
+      "out": "(1500.0, 2000000.0)"
+    },
+    {
+      "in": "prog|(a/2) x",
+      "out": "null"
+    },
+    {
+      "in": "prog| (10/20) y ",
+      "out": "(10.0, 20.0)"
+    },
+    {
+      "in": "prog|(1,,2/3) z",
+      "out": "(12.0, 3.0)"
+    },
+    {
+      "in": "prog|(12.5k/k Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|k/2b Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2b/12.5k Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|(k/2b Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|3M/3M ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(12.5k/12.5k) Kills",
+      "out": "(12500.0, 12500.0)"
+    },
+    {
+      "in": "prog|2b/2B) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|2b/2b ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(k/2B) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(k/2B Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(1,234/k ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(3M/3M) Combat XP",
+      "out": "(3000000.0, 3000000.0)"
+    },
+    {
+      "in": "prog|(1,234/2B) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(k/12.5k) Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2b/ ",
+      "out": "null"
+    },
+    {
+      "in": "prog|2B/2B ",
+      "out": "null"
+    },
+    {
+      "in": "prog|k/3M) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|12.5k/2B) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2b/2B) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2b/12.5k) Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|2B/1,234) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|3M/2b) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2B/1,234 Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|3M/3M Kills",
+      "out": "(3000000.0, 3000000.0)"
+    },
+    {
+      "in": "prog|(3M/12.5k) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(1,234/12.5k Combat XP",
+      "out": "(1234.0, 12500.0)"
+    },
+    {
+      "in": "prog|1,234/ 5 ) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|3M/k Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|3M/) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|12.5k/12.5k) Kills",
+      "out": "(12500.0, 12500.0)"
+    },
+    {
+      "in": "prog|(2B/k Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|k/ 5 ) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(12.5k/2b) Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|1,234/2B) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|12.5k/2B) Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|12.5k/k Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(k/12.5k ",
+      "out": "null"
+    },
+    {
+      "in": "prog|2B/12.5k) Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|2b/12.5k) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(12.5k/k Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|(k/1,234) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|k/3M ",
+      "out": "null"
+    },
+    {
+      "in": "prog|k/1,234) Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|(1,234/3M Kills",
+      "out": "(1234.0, 3000000.0)"
+    },
+    {
+      "in": "prog|(2B/12.5k ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2B/ Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(3M/1,234 ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2B/2B) Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|1,234/) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|k/ 5  ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2b/k) Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|1,234/3M) Kills",
+      "out": "(1234.0, 3000000.0)"
+    },
+    {
+      "in": "prog|(2b/2b) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2b/k ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(12.5k/) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|2b/2B ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(1,234/3M) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(1,234/1,234 ",
+      "out": "null"
+    },
+    {
+      "in": "prog|12.5k/k Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(12.5k/2b ",
+      "out": "null"
+    },
+    {
+      "in": "prog|k/ 5 ) Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|(k/ 5 ) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|12.5k/2b Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|k/1,234) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2b/2B Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(3M/12.5k Combat XP",
+      "out": "(3000000.0, 12500.0)"
+    },
+    {
+      "in": "prog|2b/1,234) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(3M/ 5  Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|2B/) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(3M/2b ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(12.5k/ 5 ) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(1,234/2b ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2b/2B Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(12.5k/3M Combat XP",
+      "out": "(12500.0, 3000000.0)"
+    },
+    {
+      "in": "prog|3M/2B) Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|2B/2B ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2B/) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|1,234/ 5  ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(k/2B Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|3M/3M) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2B/3M) Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|k/2B) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(3M/3M) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(1,234/1,234 Kills",
+      "out": "(1234.0, 1234.0)"
+    },
+    {
+      "in": "prog|(1,234/3M) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|2b/3M Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(3M/ 5 ) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2b/1,234) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2b/2B Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2b/3M) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|k/) ",
+      "out": "null"
+    },
+    {
+      "in": "prog|(1,234/2B) Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(3M/12.5k Combat XP",
+      "out": "(3000000.0, 12500.0)"
+    },
+    {
+      "in": "prog|(3M/ 5  Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|1,234/1,234 Kills",
+      "out": "(1234.0, 1234.0)"
+    },
+    {
+      "in": "prog|(3M/) Combat XP",
+      "out": "null"
+    },
+    {
+      "in": "prog|(2b/2b Kills",
+      "out": "null"
+    },
+    {
+      "in": "prog|(1,234/1,234 Kills",
+      "out": "(1234.0, 1234.0)"
+    },
+    {
+      "in": "prog|3M/3M Kills",
+      "out": "(3000000.0, 3000000.0)"
+    },
+    {
+      "in": "prog|(k/2b) Kills",
+      "out": "null"
+    },
+    {
+      "in": "kills|0.0|100.0|10.0",
+      "out": "10"
+    },
+    {
+      "in": "kills|95.0|100.0|10.0",
+      "out": "1"
+    },
+    {
+      "in": "kills|100.0|100.0|7.0",
+      "out": "0"
+    },
+    {
+      "in": "kills|150.0|100.0|7.0",
+      "out": "0"
+    },
+    {
+      "in": "kills|0.0|100.0|0.0",
+      "out": "null"
+    },
+    {
+      "in": "kills|0.0|100.0|-1.0",
+      "out": "null"
+    },
+    {
+      "in": "kills|0.0|1.0E12|0.001",
+      "out": "2147483647"
+    },
+    {
+      "in": "kills|0.0|NaN|1.0",
+      "out": "0"
+    },
+    {
+      "in": "kills|1.0|2.0|NaN",
+      "out": "0"
+    },
+    {
+      "in": "kills|0.0|3.0|1.0E-320",
+      "out": "2147483647"
+    },
+    {
+      "in": "rng|RNG Meter - 1,234 Stored XP",
+      "out": "true"
+    },
+    {
+      "in": "rng|   RNG Meter - x Stored XP",
+      "out": "true"
+    },
+    {
+      "in": "rng|    RNG Meter - x Stored XP",
+      "out": "false"
+    },
+    {
+      "in": "rng|RNG Meter -  Stored XP",
+      "out": "true"
+    },
+    {
+      "in": "rng|RNG Meter - 5 Stored XP!",
+      "out": "false"
+    },
+    {
+      "in": "spawn|0",
+      "out": "false"
+    },
+    {
+      "in": "need|0",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|1",
+      "out": "false"
+    },
+    {
+      "in": "need|1",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "spawn|2",
+      "out": "false"
+    },
+    {
+      "in": "need|2",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "spawn|3",
+      "out": "false"
+    },
+    {
+      "in": "need|3",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|4",
+      "out": "false"
+    },
+    {
+      "in": "need|4",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|5",
+      "out": "false"
+    },
+    {
+      "in": "need|5",
+      "out": "null"
+    },
+    {
+      "in": "spawn|6",
+      "out": "false"
+    },
+    {
+      "in": "need|6",
+      "out": "null"
+    },
+    {
+      "in": "spawn|7",
+      "out": "true"
+    },
+    {
+      "in": "need|7",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "spawn|8",
+      "out": "false"
+    },
+    {
+      "in": "need|8",
+      "out": "null"
+    },
+    {
+      "in": "spawn|9",
+      "out": "false"
+    },
+    {
+      "in": "need|9",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|10",
+      "out": "false"
+    },
+    {
+      "in": "need|10",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|11",
+      "out": "true"
+    },
+    {
+      "in": "need|11",
+      "out": "null"
+    },
+    {
+      "in": "spawn|12",
+      "out": "false"
+    },
+    {
+      "in": "need|12",
+      "out": "null"
+    },
+    {
+      "in": "spawn|13",
+      "out": "false"
+    },
+    {
+      "in": "need|13",
+      "out": "null"
+    },
+    {
+      "in": "spawn|14",
+      "out": "false"
+    },
+    {
+      "in": "need|14",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|15",
+      "out": "false"
+    },
+    {
+      "in": "need|15",
+      "out": "null"
+    },
+    {
+      "in": "spawn|16",
+      "out": "false"
+    },
+    {
+      "in": "need|16",
+      "out": "null"
+    },
+    {
+      "in": "spawn|17",
+      "out": "false"
+    },
+    {
+      "in": "need|17",
+      "out": "null"
+    },
+    {
+      "in": "spawn|18",
+      "out": "false"
+    },
+    {
+      "in": "need|18",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|19",
+      "out": "false"
+    },
+    {
+      "in": "need|19",
+      "out": "null"
+    },
+    {
+      "in": "spawn|20",
+      "out": "false"
+    },
+    {
+      "in": "need|20",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|21",
+      "out": "false"
+    },
+    {
+      "in": "need|21",
+      "out": "null"
+    },
+    {
+      "in": "spawn|22",
+      "out": "false"
+    },
+    {
+      "in": "need|22",
+      "out": "null"
+    },
+    {
+      "in": "spawn|23",
+      "out": "true"
+    },
+    {
+      "in": "need|23",
+      "out": "null"
+    },
+    {
+      "in": "spawn|24",
+      "out": "false"
+    },
+    {
+      "in": "need|24",
+      "out": "null"
+    },
+    {
+      "in": "spawn|25",
+      "out": "false"
+    },
+    {
+      "in": "need|25",
+      "out": "null"
+    },
+    {
+      "in": "spawn|26",
+      "out": "false"
+    },
+    {
+      "in": "need|26",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "spawn|27",
+      "out": "false"
+    },
+    {
+      "in": "need|27",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "spawn|28",
+      "out": "false"
+    },
+    {
+      "in": "need|28",
+      "out": "null"
+    },
+    {
+      "in": "spawn|29",
+      "out": "false"
+    },
+    {
+      "in": "need|29",
+      "out": "null"
+    },
+    {
+      "in": "spawn|30",
+      "out": "true"
+    },
+    {
+      "in": "need|30",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|31",
+      "out": "true"
+    },
+    {
+      "in": "need|31",
+      "out": "null"
+    },
+    {
+      "in": "spawn|32",
+      "out": "false"
+    },
+    {
+      "in": "need|32",
+      "out": "null"
+    },
+    {
+      "in": "spawn|33",
+      "out": "true"
+    },
+    {
+      "in": "need|33",
+      "out": "null"
+    },
+    {
+      "in": "spawn|34",
+      "out": "false"
+    },
+    {
+      "in": "need|34",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|35",
+      "out": "false"
+    },
+    {
+      "in": "need|35",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "spawn|36",
+      "out": "false"
+    },
+    {
+      "in": "need|36",
+      "out": "null"
+    },
+    {
+      "in": "spawn|37",
+      "out": "true"
+    },
+    {
+      "in": "need|37",
+      "out": "null"
+    },
+    {
+      "in": "spawn|38",
+      "out": "false"
+    },
+    {
+      "in": "need|38",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|39",
+      "out": "true"
+    },
+    {
+      "in": "need|39",
+      "out": "null"
+    },
+    {
+      "in": "spawn|40",
+      "out": "false"
+    },
+    {
+      "in": "need|40",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|41",
+      "out": "false"
+    },
+    {
+      "in": "need|41",
+      "out": "null"
+    },
+    {
+      "in": "spawn|42",
+      "out": "false"
+    },
+    {
+      "in": "need|42",
+      "out": "null"
+    },
+    {
+      "in": "spawn|43",
+      "out": "false"
+    },
+    {
+      "in": "need|43",
+      "out": "null"
+    },
+    {
+      "in": "spawn|44",
+      "out": "false"
+    },
+    {
+      "in": "need|44",
+      "out": "null"
+    },
+    {
+      "in": "spawn|45",
+      "out": "true"
+    },
+    {
+      "in": "need|45",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|46",
+      "out": "true"
+    },
+    {
+      "in": "need|46",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|47",
+      "out": "true"
+    },
+    {
+      "in": "need|47",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|48",
+      "out": "false"
+    },
+    {
+      "in": "need|48",
+      "out": "null"
+    },
+    {
+      "in": "spawn|49",
+      "out": "false"
+    },
+    {
+      "in": "need|49",
+      "out": "null"
+    },
+    {
+      "in": "spawn|50",
+      "out": "false"
+    },
+    {
+      "in": "need|50",
+      "out": "null"
+    },
+    {
+      "in": "spawn|51",
+      "out": "false"
+    },
+    {
+      "in": "need|51",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|52",
+      "out": "false"
+    },
+    {
+      "in": "need|52",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "spawn|53",
+      "out": "false"
+    },
+    {
+      "in": "need|53",
+      "out": "null"
+    },
+    {
+      "in": "spawn|54",
+      "out": "false"
+    },
+    {
+      "in": "need|54",
+      "out": "null"
+    },
+    {
+      "in": "spawn|55",
+      "out": "true"
+    },
+    {
+      "in": "need|55",
+      "out": "null"
+    },
+    {
+      "in": "spawn|56",
+      "out": "false"
+    },
+    {
+      "in": "need|56",
+      "out": "null"
+    },
+    {
+      "in": "spawn|57",
+      "out": "true"
+    },
+    {
+      "in": "need|57",
+      "out": "null"
+    },
+    {
+      "in": "spawn|58",
+      "out": "true"
+    },
+    {
+      "in": "need|58",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|59",
+      "out": "false"
+    },
+    {
+      "in": "need|59",
+      "out": "null"
+    },
+    {
+      "in": "spawn|60",
+      "out": "true"
+    },
+    {
+      "in": "need|60",
+      "out": "null"
+    },
+    {
+      "in": "spawn|61",
+      "out": "false"
+    },
+    {
+      "in": "need|61",
+      "out": "null"
+    },
+    {
+      "in": "spawn|62",
+      "out": "true"
+    },
+    {
+      "in": "need|62",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|63",
+      "out": "true"
+    },
+    {
+      "in": "need|63",
+      "out": "null"
+    },
+    {
+      "in": "spawn|64",
+      "out": "true"
+    },
+    {
+      "in": "need|64",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "spawn|65",
+      "out": "false"
+    },
+    {
+      "in": "need|65",
+      "out": "null"
+    },
+    {
+      "in": "spawn|66",
+      "out": "false"
+    },
+    {
+      "in": "need|66",
+      "out": "null"
+    },
+    {
+      "in": "spawn|67",
+      "out": "true"
+    },
+    {
+      "in": "need|67",
+      "out": "null"
+    },
+    {
+      "in": "spawn|68",
+      "out": "true"
+    },
+    {
+      "in": "need|68",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "spawn|69",
+      "out": "true"
+    },
+    {
+      "in": "need|69",
+      "out": "null"
+    },
+    {
+      "in": "spawn|70",
+      "out": "false"
+    },
+    {
+      "in": "need|70",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|71",
+      "out": "true"
+    },
+    {
+      "in": "need|71",
+      "out": "null"
+    },
+    {
+      "in": "spawn|72",
+      "out": "false"
+    },
+    {
+      "in": "need|72",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|73",
+      "out": "false"
+    },
+    {
+      "in": "need|73",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|74",
+      "out": "false"
+    },
+    {
+      "in": "need|74",
+      "out": "null"
+    },
+    {
+      "in": "spawn|75",
+      "out": "false"
+    },
+    {
+      "in": "need|75",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|76",
+      "out": "false"
+    },
+    {
+      "in": "need|76",
+      "out": "null"
+    },
+    {
+      "in": "spawn|77",
+      "out": "false"
+    },
+    {
+      "in": "need|77",
+      "out": "null"
+    },
+    {
+      "in": "spawn|78",
+      "out": "true"
+    },
+    {
+      "in": "need|78",
+      "out": "null"
+    },
+    {
+      "in": "spawn|79",
+      "out": "false"
+    },
+    {
+      "in": "need|79",
+      "out": "null"
+    },
+    {
+      "in": "spawn|80",
+      "out": "false"
+    },
+    {
+      "in": "need|80",
+      "out": "null"
+    },
+    {
+      "in": "spawn|81",
+      "out": "false"
+    },
+    {
+      "in": "need|81",
+      "out": "null"
+    },
+    {
+      "in": "spawn|82",
+      "out": "false"
+    },
+    {
+      "in": "need|82",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "spawn|83",
+      "out": "false"
+    },
+    {
+      "in": "need|83",
+      "out": "null"
+    },
+    {
+      "in": "spawn|84",
+      "out": "false"
+    },
+    {
+      "in": "need|84",
+      "out": "null"
+    },
+    {
+      "in": "spawn|85",
+      "out": "true"
+    },
+    {
+      "in": "need|85",
+      "out": "null"
+    },
+    {
+      "in": "spawn|86",
+      "out": "false"
+    },
+    {
+      "in": "need|86",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|87",
+      "out": "false"
+    },
+    {
+      "in": "need|87",
+      "out": "null"
+    },
+    {
+      "in": "spawn|88",
+      "out": "false"
+    },
+    {
+      "in": "need|88",
+      "out": "null"
+    },
+    {
+      "in": "spawn|89",
+      "out": "false"
+    },
+    {
+      "in": "need|89",
+      "out": "null"
+    },
+    {
+      "in": "spawn|90",
+      "out": "false"
+    },
+    {
+      "in": "need|90",
+      "out": "null"
+    },
+    {
+      "in": "spawn|91",
+      "out": "false"
+    },
+    {
+      "in": "need|91",
+      "out": "null"
+    },
+    {
+      "in": "spawn|92",
+      "out": "false"
+    },
+    {
+      "in": "need|92",
+      "out": "null"
+    },
+    {
+      "in": "spawn|93",
+      "out": "false"
+    },
+    {
+      "in": "need|93",
+      "out": "null"
+    },
+    {
+      "in": "spawn|94",
+      "out": "false"
+    },
+    {
+      "in": "need|94",
+      "out": "null"
+    },
+    {
+      "in": "spawn|95",
+      "out": "false"
+    },
+    {
+      "in": "need|95",
+      "out": "null"
+    },
+    {
+      "in": "spawn|96",
+      "out": "true"
+    },
+    {
+      "in": "need|96",
+      "out": "null"
+    },
+    {
+      "in": "spawn|97",
+      "out": "false"
+    },
+    {
+      "in": "need|97",
+      "out": "null"
+    },
+    {
+      "in": "spawn|98",
+      "out": "false"
+    },
+    {
+      "in": "need|98",
+      "out": "null"
+    },
+    {
+      "in": "spawn|99",
+      "out": "false"
+    },
+    {
+      "in": "need|99",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|100",
+      "out": "true"
+    },
+    {
+      "in": "need|100",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|101",
+      "out": "false"
+    },
+    {
+      "in": "need|101",
+      "out": "null"
+    },
+    {
+      "in": "spawn|102",
+      "out": "false"
+    },
+    {
+      "in": "need|102",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|103",
+      "out": "false"
+    },
+    {
+      "in": "need|103",
+      "out": "null"
+    },
+    {
+      "in": "spawn|104",
+      "out": "true"
+    },
+    {
+      "in": "need|104",
+      "out": "null"
+    },
+    {
+      "in": "spawn|105",
+      "out": "false"
+    },
+    {
+      "in": "need|105",
+      "out": "null"
+    },
+    {
+      "in": "spawn|106",
+      "out": "false"
+    },
+    {
+      "in": "need|106",
+      "out": "null"
+    },
+    {
+      "in": "spawn|107",
+      "out": "true"
+    },
+    {
+      "in": "need|107",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "spawn|108",
+      "out": "false"
+    },
+    {
+      "in": "need|108",
+      "out": "null"
+    },
+    {
+      "in": "spawn|109",
+      "out": "false"
+    },
+    {
+      "in": "need|109",
+      "out": "null"
+    },
+    {
+      "in": "spawn|110",
+      "out": "false"
+    },
+    {
+      "in": "need|110",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|111",
+      "out": "true"
+    },
+    {
+      "in": "need|111",
+      "out": "null"
+    },
+    {
+      "in": "spawn|112",
+      "out": "false"
+    },
+    {
+      "in": "need|112",
+      "out": "null"
+    },
+    {
+      "in": "spawn|113",
+      "out": "false"
+    },
+    {
+      "in": "need|113",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|114",
+      "out": "true"
+    },
+    {
+      "in": "need|114",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|115",
+      "out": "false"
+    },
+    {
+      "in": "need|115",
+      "out": "null"
+    },
+    {
+      "in": "spawn|116",
+      "out": "true"
+    },
+    {
+      "in": "need|116",
+      "out": "null"
+    },
+    {
+      "in": "spawn|117",
+      "out": "false"
+    },
+    {
+      "in": "need|117",
+      "out": "null"
+    },
+    {
+      "in": "spawn|118",
+      "out": "true"
+    },
+    {
+      "in": "need|118",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|119",
+      "out": "false"
+    },
+    {
+      "in": "need|119",
+      "out": "null"
+    },
+    {
+      "in": "spawn|120",
+      "out": "false"
+    },
+    {
+      "in": "need|120",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|121",
+      "out": "true"
+    },
+    {
+      "in": "need|121",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "spawn|122",
+      "out": "false"
+    },
+    {
+      "in": "need|122",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|123",
+      "out": "true"
+    },
+    {
+      "in": "need|123",
+      "out": "null"
+    },
+    {
+      "in": "spawn|124",
+      "out": "false"
+    },
+    {
+      "in": "need|124",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|125",
+      "out": "false"
+    },
+    {
+      "in": "need|125",
+      "out": "null"
+    },
+    {
+      "in": "spawn|126",
+      "out": "false"
+    },
+    {
+      "in": "need|126",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "spawn|127",
+      "out": "false"
+    },
+    {
+      "in": "need|127",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|128",
+      "out": "true"
+    },
+    {
+      "in": "need|128",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|129",
+      "out": "false"
+    },
+    {
+      "in": "need|129",
+      "out": "null"
+    },
+    {
+      "in": "spawn|130",
+      "out": "true"
+    },
+    {
+      "in": "need|130",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "spawn|131",
+      "out": "false"
+    },
+    {
+      "in": "need|131",
+      "out": "null"
+    },
+    {
+      "in": "spawn|132",
+      "out": "false"
+    },
+    {
+      "in": "need|132",
+      "out": "null"
+    },
+    {
+      "in": "spawn|133",
+      "out": "false"
+    },
+    {
+      "in": "need|133",
+      "out": "null"
+    },
+    {
+      "in": "spawn|134",
+      "out": "false"
+    },
+    {
+      "in": "need|134",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|135",
+      "out": "false"
+    },
+    {
+      "in": "need|135",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|136",
+      "out": "true"
+    },
+    {
+      "in": "need|136",
+      "out": "null"
+    },
+    {
+      "in": "spawn|137",
+      "out": "false"
+    },
+    {
+      "in": "need|137",
+      "out": "null"
+    },
+    {
+      "in": "spawn|138",
+      "out": "false"
+    },
+    {
+      "in": "need|138",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|139",
+      "out": "true"
+    },
+    {
+      "in": "need|139",
+      "out": "null"
+    },
+    {
+      "in": "spawn|140",
+      "out": "false"
+    },
+    {
+      "in": "need|140",
+      "out": "null"
+    },
+    {
+      "in": "spawn|141",
+      "out": "false"
+    },
+    {
+      "in": "need|141",
+      "out": "null"
+    },
+    {
+      "in": "spawn|142",
+      "out": "true"
+    },
+    {
+      "in": "need|142",
+      "out": "null"
+    },
+    {
+      "in": "spawn|143",
+      "out": "false"
+    },
+    {
+      "in": "need|143",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|144",
+      "out": "false"
+    },
+    {
+      "in": "need|144",
+      "out": "(Enchanted Cobblestone, 64)"
+    },
+    {
+      "in": "spawn|145",
+      "out": "false"
+    },
+    {
+      "in": "need|145",
+      "out": "null"
+    },
+    {
+      "in": "spawn|146",
+      "out": "true"
+    },
+    {
+      "in": "need|146",
+      "out": "(Wheat, 5)"
+    },
+    {
+      "in": "spawn|147",
+      "out": "false"
+    },
+    {
+      "in": "need|147",
+      "out": "null"
+    },
+    {
+      "in": "spawn|148",
+      "out": "true"
+    },
+    {
+      "in": "need|148",
+      "out": "null"
+    },
+    {
+      "in": "spawn|149",
+      "out": "true"
+    },
+    {
+      "in": "need|149",
+      "out": "null"
+    },
+    {
+      "in": "mob|[Lv7] Graveyard Zombie 120/120❤",
+      "out": "true"
+    },
+    {
+      "in": "mob|[Lv1] Zombie 100/100❤",
+      "out": "true"
+    },
+    {
+      "in": "mob|[Lv100] ☠ Voidling Extremist 1.2M/8M❤",
+      "out": "true"
+    },
+    {
+      "in": "mob|[Lv7] Revenant Horror 1k/2k❤",
+      "out": "false"
+    },
+    {
+      "in": "mob|[Lv5] Wolf 5/5",
+      "out": "false"
+    },
+    {
+      "in": "mob| [Lv12] Pack Spirit 3,000/3,000❤ ",
+      "out": "false"
+    },
+    {
+      "in": "mob|[Lv90] Corrupted Zombie Villager 1B/2B❤",
+      "out": "true"
+    },
+    {
+      "in": "mob|[Lv] Zombie 1/1❤",
+      "out": "false"
+    },
+    {
+      "in": "mob|[Lv9] Smoldering Blaze 9k/9k❤",
+      "out": "true"
+    },
+    {
+      "in": "mob|[Lv9] Old Wolf 1m/1m❤",
+      "out": "false"
+    },
+    {
+      "in": "mob|Zombie",
+      "out": "false"
+    },
+    {
+      "in": "pillar|5s 8 hits",
+      "out": "5"
+    },
+    {
+      "in": "pillar| 12s 8 hits ",
+      "out": "12"
+    },
+    {
+      "in": "pillar|s 8 hits",
+      "out": "null"
+    },
+    {
+      "in": "pillar|99999999999s 8 hits",
+      "out": "null"
+    },
+    {
+      "in": "pillar|5s 7 hits",
+      "out": "null"
+    },
+    {
+      "in": "pillar|05s 8 hits",
+      "out": "5"
+    },
+    {
+      "in": "shield|ASHEN ♨",
+      "out": "ASHEN"
+    },
+    {
+      "in": "shield|Spirit",
+      "out": "null"
+    },
+    {
+      "in": "shield|CRYSTAL AURIC",
+      "out": "AURIC"
+    },
+    {
+      "in": "shield|§bCRYSTAL",
+      "out": "CRYSTAL"
+    },
+    {
+      "in": "shield|",
+      "out": "null"
+    },
+    {
+      "in": "shield|SPIRITASHEN",
+      "out": "ASHEN"
+    },
+    {
+      "in": "shield|Twilight",
+      "out": "null"
+    },
+    {
+      "in": "shields",
+      "out": "ASHEN/Ashen/§8/Firedust/Kindlebane/Pyrochaos Dagger, AURIC/Auric/§e/Firedust/Kindlebane/Pyrochaos Dagger, SPIRIT/Spirit/§f/Twilight/Mawdredge/Deathripper Dagger, CRYSTAL/Crystal/§b/Twilight/Mawdredge/Deathripper Dagger"
+    },
+    {
+      "in": "twin|TWINCLAWS 1.5s",
+      "out": "true"
+    },
+    {
+      "in": "twin|§c§lTWINCLAWS 0s §r",
+      "out": "true"
+    },
+    {
+      "in": "twin|TWINCLAWS s",
+      "out": "false"
+    },
+    {
+      "in": "twin|twinclaws 1s",
+      "out": "false"
+    },
+    {
+      "in": "twin|xTWINCLAWS 3,0s y",
+      "out": "true"
+    },
+    {
+      "in": "title|null",
+      "out": "false"
+    },
+    {
+      "in": "title|Inferno Minion I",
+      "out": "true"
+    },
+    {
+      "in": "title|Inferno Minion XII",
+      "out": "true"
+    },
+    {
+      "in": "title|Inferno Minion 11",
+      "out": "true"
+    },
+    {
+      "in": "title|Inferno Minion",
+      "out": "false"
+    },
+    {
+      "in": "title|Inferno Minion IIIII",
+      "out": "false"
+    },
+    {
+      "in": "title|Wheat Minion IV",
+      "out": "false"
+    },
+    {
+      "in": "title|Cobblestone Minion 12",
+      "out": "false"
+    },
+    {
+      "in": "title| Minion I",
+      "out": "false"
+    },
+    {
+      "in": "title|Minion I",
+      "out": "false"
+    },
+    {
+      "in": "title|Inferno Minion i",
+      "out": "false"
+    },
+    {
+      "in": "fuel|Inferno Minion Fuel",
+      "out": "true"
+    },
+    {
+      "in": "fuel|Inferno Fuel Block",
+      "out": "true"
+    },
+    {
+      "in": "fuel|Inferno Minion Fuel (Crude Gabagool)",
+      "out": "true"
+    },
+    {
+      "in": "fuel|inferno fuel",
+      "out": "false"
+    },
+    {
+      "in": "fuel|Enchanted Lava Bucket",
+      "out": "false"
+    },
+    {
+      "in": "fuel|",
+      "out": "false"
+    },
+    {
+      "in": "fuel|Inferno",
+      "out": "false"
+    },
+    {
+      "in": "slots",
+      "out": "19 53"
+    },
+    {
+      "in": "piggy|You died and your piggy bank cracked!",
+      "out": "true"
+    },
+    {
+      "in": "piggy|You died, lost 1,234.5 coins and your piggy bank broke!",
+      "out": "true"
+    },
+    {
+      "in": "piggy|You died, lost  coins and your piggy bank cracked!",
+      "out": "true"
+    },
+    {
+      "in": "piggy|You died and your piggy bank shattered!",
+      "out": "false"
+    },
+    {
+      "in": "piggy| You died and your piggy bank broke!",
+      "out": "false"
+    },
+    {
+      "in": "piggy|You died, lost 5 coins and your piggy bank broke",
+      "out": "false"
+    },
+    {
+      "in": "bottle|0",
+      "out": "null"
+    },
+    {
+      "in": "bottle|1",
+      "out": "You are currently fishing, but Thunder in a Bottle, Storm in a Bottle are full"
+    },
+    {
+      "in": "bottle|2",
+      "out": "null"
+    },
+    {
+      "in": "bottle|3",
+      "out": "null"
+    },
+    {
+      "in": "bottle|4",
+      "out": "null"
+    },
+    {
+      "in": "bottle|5",
+      "out": "null"
+    },
+    {
+      "in": "bottle|6",
+      "out": "null"
+    },
+    {
+      "in": "bottle|7",
+      "out": "null"
+    },
+    {
+      "in": "bottle|8",
+      "out": "You are currently fishing, but Storm in a Bottle is full"
+    },
+    {
+      "in": "bottle|9",
+      "out": "null"
+    },
+    {
+      "in": "bottle|10",
+      "out": "null"
+    },
+    {
+      "in": "bottle|11",
+      "out": "null"
+    },
+    {
+      "in": "bottle|12",
+      "out": "null"
+    },
+    {
+      "in": "bottle|13",
+      "out": "null"
+    },
+    {
+      "in": "bottle|14",
+      "out": "null"
+    },
+    {
+      "in": "bottle|15",
+      "out": "You are currently fishing, but Thunder in a Bottle is full"
+    },
+    {
+      "in": "bottle|16",
+      "out": "null"
+    },
+    {
+      "in": "bottle|17",
+      "out": "You are currently fishing, but Storm in a Bottle is full"
+    },
+    {
+      "in": "bottle|18",
+      "out": "null"
+    },
+    {
+      "in": "bottle|19",
+      "out": "null"
+    },
+    {
+      "in": "bottle|20",
+      "out": "null"
+    },
+    {
+      "in": "bottle|21",
+      "out": "null"
+    },
+    {
+      "in": "bottle|22",
+      "out": "null"
+    },
+    {
+      "in": "bottle|23",
+      "out": "null"
+    },
+    {
+      "in": "bottle|24",
+      "out": "null"
+    },
+    {
+      "in": "bottle|25",
+      "out": "You are currently fishing, but Thunder in a Bottle, Storm in a Bottle are full"
+    },
+    {
+      "in": "bottle|26",
+      "out": "You are currently fishing, but Hurricane in a Bottle is full"
+    },
+    {
+      "in": "bottle|27",
+      "out": "null"
+    },
+    {
+      "in": "bottle|28",
+      "out": "null"
+    },
+    {
+      "in": "bottle|29",
+      "out": "null"
+    },
+    {
+      "in": "bottle|30",
+      "out": "You are currently fishing, but Hurricane in a Bottle is full"
+    },
+    {
+      "in": "bottle|31",
+      "out": "null"
+    },
+    {
+      "in": "bottle|32",
+      "out": "null"
+    },
+    {
+      "in": "bottle|33",
+      "out": "null"
+    },
+    {
+      "in": "bottle|34",
+      "out": "You are currently fishing, but Hurricane in a Bottle is full"
+    },
+    {
+      "in": "bottle|35",
+      "out": "null"
+    },
+    {
+      "in": "bottle|36",
+      "out": "You are currently fishing, but Thunder in a Bottle is full"
+    },
+    {
+      "in": "bottle|37",
+      "out": "null"
+    },
+    {
+      "in": "bottle|38",
+      "out": "null"
+    },
+    {
+      "in": "bottle|39",
+      "out": "You are currently fishing, but Thunder in a Bottle is full"
+    },
+    {
+      "in": "bottle|40",
+      "out": "You are currently fishing, but Hurricane in a Bottle is full"
+    },
+    {
+      "in": "bottle|41",
+      "out": "null"
+    },
+    {
+      "in": "bottle|42",
+      "out": "You are currently fishing, but Storm in a Bottle, Hurricane in a Bottle are full"
+    },
+    {
+      "in": "bottle|43",
+      "out": "null"
+    },
+    {
+      "in": "bottle|44",
+      "out": "null"
+    },
+    {
+      "in": "bottle|45",
+      "out": "null"
+    },
+    {
+      "in": "bottle|46",
+      "out": "null"
+    },
+    {
+      "in": "bottle|47",
+      "out": "null"
+    },
+    {
+      "in": "bottle|48",
+      "out": "null"
+    },
+    {
+      "in": "bottle|49",
+      "out": "null"
+    },
+    {
+      "in": "bottle|50",
+      "out": "null"
+    },
+    {
+      "in": "bottle|51",
+      "out": "null"
+    },
+    {
+      "in": "bottle|52",
+      "out": "null"
+    },
+    {
+      "in": "bottle|53",
+      "out": "null"
+    },
+    {
+      "in": "bottle|54",
+      "out": "null"
+    },
+    {
+      "in": "bottle|55",
+      "out": "null"
+    },
+    {
+      "in": "bottle|56",
+      "out": "null"
+    },
+    {
+      "in": "bottle|57",
+      "out": "null"
+    },
+    {
+      "in": "bottle|58",
+      "out": "You are currently fishing, but Hurricane in a Bottle is full"
+    },
+    {
+      "in": "bottle|59",
+      "out": "You are currently fishing, but Storm in a Bottle is full"
+    },
+    {
+      "in": "bottle|60",
+      "out": "null"
+    },
+    {
+      "in": "bottle|61",
+      "out": "null"
+    },
+    {
+      "in": "bottle|62",
+      "out": "You are currently fishing, but Hurricane in a Bottle is full"
+    },
+    {
+      "in": "bottle|63",
+      "out": "You are currently fishing, but Storm in a Bottle, Hurricane in a Bottle are full"
+    },
+    {
+      "in": "bottle|64",
+      "out": "null"
+    },
+    {
+      "in": "bottle|65",
+      "out": "null"
+    },
+    {
+      "in": "bottle|66",
+      "out": "You are currently fishing, but Thunder in a Bottle, Storm in a Bottle, Hurricane in a Bottle are full"
+    },
+    {
+      "in": "bottle|67",
+      "out": "null"
+    },
+    {
+      "in": "bottle|68",
+      "out": "You are currently fishing, but Hurricane in a Bottle is full"
+    },
+    {
+      "in": "bottle|69",
+      "out": "null"
+    },
+    {
+      "in": "bottle|70",
+      "out": "You are currently fishing, but Thunder in a Bottle, Storm in a Bottle are full"
+    },
+    {
+      "in": "bottle|71",
+      "out": "null"
+    },
+    {
+      "in": "bottle|72",
+      "out": "You are currently fishing, but Thunder in a Bottle, Hurricane in a Bottle are full"
+    },
+    {
+      "in": "bottle|73",
+      "out": "null"
+    },
+    {
+      "in": "bottle|74",
+      "out": "null"
+    },
+    {
+      "in": "bottle|75",
+      "out": "You are currently fishing, but Hurricane in a Bottle is full"
+    },
+    {
+      "in": "bottle|76",
+      "out": "null"
+    },
+    {
+      "in": "bottle|77",
+      "out": "null"
+    },
+    {
+      "in": "bottle|78",
+      "out": "null"
+    },
+    {
+      "in": "bottle|79",
+      "out": "null"
+    },
+    {
+      "in": "bottle|80",
+      "out": "null"
+    },
+    {
+      "in": "bottle|81",
+      "out": "null"
+    },
+    {
+      "in": "bottle|82",
+      "out": "null"
+    },
+    {
+      "in": "bottle|83",
+      "out": "null"
+    },
+    {
+      "in": "bottle|84",
+      "out": "null"
+    },
+    {
+      "in": "bottle|85",
+      "out": "null"
+    },
+    {
+      "in": "bottle|86",
+      "out": "You are currently fishing, but Storm in a Bottle is full"
+    },
+    {
+      "in": "bottle|87",
+      "out": "null"
+    },
+    {
+      "in": "bottle|88",
+      "out": "null"
+    },
+    {
+      "in": "bottle|89",
+      "out": "You are currently fishing, but Hurricane in a Bottle is full"
+    },
+    {
+      "in": "bottle|90",
+      "out": "null"
+    },
+    {
+      "in": "bottle|91",
+      "out": "null"
+    },
+    {
+      "in": "bottle|92",
+      "out": "null"
+    },
+    {
+      "in": "bottle|93",
+      "out": "You are currently fishing, but Storm in a Bottle is full"
+    },
+    {
+      "in": "bottle|94",
+      "out": "null"
+    },
+    {
+      "in": "bottle|95",
+      "out": "You are currently fishing, but Storm in a Bottle is full"
+    },
+    {
+      "in": "bottle|96",
+      "out": "You are currently fishing, but Storm in a Bottle is full"
+    },
+    {
+      "in": "bottle|97",
+      "out": "null"
+    },
+    {
+      "in": "bottle|98",
+      "out": "null"
+    },
+    {
+      "in": "bottle|99",
+      "out": "You are currently fishing, but Storm in a Bottle is full"
+    },
+    {
+      "in": "bottle|100",
+      "out": "null"
+    },
+    {
+      "in": "bottle|101",
+      "out": "null"
+    },
+    {
+      "in": "bottle|102",
+      "out": "null"
+    },
+    {
+      "in": "bottle|103",
+      "out": "null"
+    },
+    {
+      "in": "bottle|104",
+      "out": "null"
+    },
+    {
+      "in": "bottle|105",
+      "out": "You are currently fishing, but Thunder in a Bottle is full"
+    },
+    {
+      "in": "bottle|106",
+      "out": "null"
+    },
+    {
+      "in": "bottle|107",
+      "out": "null"
+    },
+    {
+      "in": "bottle|108",
+      "out": "null"
+    },
+    {
+      "in": "bottle|109",
+      "out": "You are currently fishing, but Storm in a Bottle is full"
+    },
+    {
+      "in": "bottle|110",
+      "out": "null"
+    },
+    {
+      "in": "bottle|111",
+      "out": "You are currently fishing, but Thunder in a Bottle, Hurricane in a Bottle are full"
+    },
+    {
+      "in": "bottle|112",
+      "out": "null"
+    },
+    {
+      "in": "bottle|113",
+      "out": "You are currently fishing, but Hurricane in a Bottle is full"
+    },
+    {
+      "in": "bottle|114",
+      "out": "You are currently fishing, but Thunder in a Bottle is full"
+    },
+    {
+      "in": "bottle|115",
+      "out": "null"
+    },
+    {
+      "in": "bottle|116",
+      "out": "null"
+    },
+    {
+      "in": "bottle|117",
+      "out": "You are currently fishing, but Thunder in a Bottle is full"
+    },
+    {
+      "in": "bottle|118",
+      "out": "You are currently fishing, but Storm in a Bottle, Hurricane in a Bottle are full"
+    },
+    {
+      "in": "bottle|119",
+      "out": "You are currently fishing, but Thunder in a Bottle is full"
+    },
+    {
+      "in": "lava|false|false|0|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|0|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|0|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|0|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|0|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|0|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|0|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|0|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|1|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|1|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|1|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|1|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|1|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|1|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|1|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|1|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|2|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|2|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|2|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|2|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|2|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|2|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|2|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|2|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|3|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|3|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|3|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|3|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|3|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|3|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|3|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|3|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|4|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|4|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|4|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|4|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|4|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|4|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|4|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|4|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|5|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|5|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|5|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|5|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|5|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|5|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|5|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|false|5|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|0|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|0|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|0|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|0|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|0|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|0|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|0|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|0|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|1|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|1|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|1|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|1|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|1|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|1|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|1|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|1|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|2|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|2|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|2|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|2|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|2|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|2|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|2|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|2|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|3|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|3|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|3|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|3|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|3|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|3|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|3|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|3|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|4|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|4|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|4|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|4|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|4|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|4|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|4|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|4|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|5|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|5|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|5|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|5|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|5|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|5|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|5|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|false|true|5|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|0|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|0|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|0|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|0|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|0|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|0|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|0|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|0|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|1|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|1|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|1|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|1|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|1|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|1|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|1|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|1|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|2|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|2|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|2|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|2|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|2|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|2|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|2|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|2|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|3|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|3|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|3|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|3|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|3|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|3|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|3|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|3|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|4|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|4|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|4|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|4|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|4|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|4|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|4|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|4|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|5|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|5|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|5|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|5|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|5|true|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|5|true|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|5|true|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|false|5|true|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|true|0|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|true|0|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|true|0|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|true|0|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|true|0|true|false|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|0|true|false|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|0|true|true|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|0|true|true|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|1|false|false|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|1|false|false|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|1|false|true|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|1|false|true|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|1|true|false|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|1|true|false|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|1|true|true|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|1|true|true|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|2|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|true|2|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|true|2|false|true|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|2|false|true|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|2|true|false|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|2|true|false|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|2|true|true|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|2|true|true|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|3|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|true|3|false|false|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|3|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|true|3|false|true|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|3|true|false|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|3|true|false|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|3|true|true|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|3|true|true|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|4|false|false|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|true|4|false|false|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|true|4|false|true|false",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|true|4|false|true|true",
+      "out": "false"
+    },
+    {
+      "in": "lava|true|true|4|true|false|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|4|true|false|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|4|true|true|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|4|true|true|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|5|false|false|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|5|false|false|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|5|false|true|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|5|false|true|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|5|true|false|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|5|true|false|true",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|5|true|true|false",
+      "out": "true"
+    },
+    {
+      "in": "lava|true|true|5|true|true|true",
+      "out": "true"
+    },
+    {
+      "in": "death| ☠ Steve was killed by Zombie.",
+      "out": "Steve"
+    },
+    {
+      "in": "death|☠ You died.",
+      "out": "null"
+    },
+    {
+      "in": "death|☠ Ashton_365 fell into the void.",
+      "out": "Ashton_365"
+    },
+    {
+      "in": "death|☠ Steve",
+      "out": "null"
+    },
+    {
+      "in": "death|☠  Steve x",
+      "out": "null"
+    },
+    {
+      "in": "death|☠ Ste-ve died",
+      "out": "null"
+    },
+    {
+      "in": "death|x ☠ Steve died",
+      "out": "null"
+    },
+    {
+      "in": "death|☠ You  died",
+      "out": "null"
+    },
+    {
+      "in": "xp|§c100/100❤     §b+5 SkyBlock XP §7(Fishing)§b (12/100)     §a50❈ Defense",
+      "out": "§b+5 SkyBlock XP §7(Fishing)§b (12/100)"
+    },
+    {
+      "in": "xp|§b+5 SkyBlock XP §7(Fishing)§b (12/100)",
+      "out": "§b+5 SkyBlock XP §7(Fishing)§b (12/100)"
+    },
+    {
+      "in": "xp|§b+5 SkyBlock XP (Fishing) (12/100)",
+      "out": "null"
+    },
+    {
+      "in": "xp|§b+10 SkyBlock XP §e(Some (nested))§b (1/2)",
+      "out": "null"
+    },
+    {
+      "in": "xp|",
+      "out": "null"
+    },
+    {
+      "in": "xp|§b+5 SkyBlock XP §7(A)§b (1/2) §b+6 SkyBlock XP §7(B)§b (3/4)",
+      "out": "§b+6 SkyBlock XP §7(B)§b (3/4)"
+    }
+  ]
+}

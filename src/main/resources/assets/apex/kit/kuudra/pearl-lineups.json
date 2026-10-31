@@ -1,0 +1,12 @@
+{
+  "_credit": "Pearl lineup table from Odin features/impl/nether/PearlWaypoints.kt @ b005800 (BSD-3-Clause, Copyright (c) 2025 odtheking, https://github.com/odtheking/Odin). See assets/apex/kit/LICENSE-Odin.txt.",
+  "lineups": [
+    {"supply": "Shop", "colour": "red", "start": [[-71,79,-135],[-86,78,-129]], "targets": [[-146,107,-60],[-147,111,-69]]},
+    {"supply": "Triangle", "colour": "light_purple", "start": [[-68,77,-123]], "targets": [[-149,104,-70]]},
+    {"supply": "X", "colour": "yellow", "start": [[-135,77,-139]], "targets": [[-59,115,-71]]},
+    {"supply": "xCannon", "colour": "white", "start": [[-131,79,-114]], "targets": [[-59,106,-59],[-51,108,-67],[-39,93,-76]]},
+    {"supply": "Square", "colour": "aqua", "start": [[-141,78,-91]], "targets": [[-59,106,-59],[-58,127,-148],[-146,107,-60],[-149,104,-70],[-168,124,-118],[-65,109,-162]]},
+    {"supply": "Equals", "colour": "green", "start": [[-66,76,-88]], "targets": [[-168,124,-118]]},
+    {"supply": "Slash", "colour": "blue", "start": [[-115,77,-69]], "targets": [[-65,109,-162]]}
+  ]
+}

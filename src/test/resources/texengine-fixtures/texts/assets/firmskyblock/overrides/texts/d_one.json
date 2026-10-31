@@ -1,0 +1,1 @@
+{"match":{"regex":".*Foo.*"},"replacements":[{"match":"Foo","replace":{"text":"Bar"}}]}

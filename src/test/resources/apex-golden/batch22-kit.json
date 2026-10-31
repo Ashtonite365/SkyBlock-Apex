@@ -1,0 +1,8205 @@
+{
+  "cases": 2050,
+  "data": [
+    {
+      "in": "slots",
+      "out": "[14, 15, 16, 23, 24, 25, 32, 33, 34, 41, 42, 43] 44 17"
+    },
+    {
+      "in": "page|",
+      "out": "null"
+    },
+    {
+      "in": "page|(1/3) Loadout",
+      "out": "(1, 3)"
+    },
+    {
+      "in": "page|Loadouts (2/2) Loadout",
+      "out": "(2, 2)"
+    },
+    {
+      "in": "page|(0/0) Loadout",
+      "out": "(0, 0)"
+    },
+    {
+      "in": "page|(1/3) loadout",
+      "out": "null"
+    },
+    {
+      "in": "page|(1/3)Loadout",
+      "out": "null"
+    },
+    {
+      "in": "page|(a/3) Loadout",
+      "out": "null"
+    },
+    {
+      "in": "page|(99999999999/3) Loadout",
+      "out": "null"
+    },
+    {
+      "in": "page|(3/99999999999) Loadout",
+      "out": "null"
+    },
+    {
+      "in": "page|(1/3) Loadout (2/3) Loadout",
+      "out": "(1, 3)"
+    },
+    {
+      "in": "page|( 1/3) Loadout",
+      "out": "null"
+    },
+    {
+      "in": "page|(-1/3) Loadout",
+      "out": "null"
+    },
+    {
+      "in": "page|Wardrobe (1/3)",
+      "out": "null"
+    },
+    {
+      "in": "page|(12/12) Loadout xyz",
+      "out": "(12, 12)"
+    },
+    {
+      "in": "loadoutKeys",
+      "out": "[loadout-keybinds, next-page, previous-page, loadout-1, loadout-2, loadout-3, loadout-4, loadout-5, loadout-6, loadout-7, loadout-8, loadout-9, loadout-10, loadout-11, loadout-12] 12 [GREY_AREA, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE]"
+    },
+    {
+      "in": "ragKeys",
+      "out": "[cast-alert, cancel-alert, strength-gained] 1.4920635 Ragnarock was cancelled due to (?:being hit|taking damage)!"
+    },
+    {
+      "in": "cancel|Ragnarock was cancelled due to being hit!",
+      "out": "true"
+    },
+    {
+      "in": "cancel|Ragnarock was cancelled due to taking damage!",
+      "out": "true"
+    },
+    {
+      "in": "cancel|Ragnarock was cancelled due to being hit",
+      "out": "false"
+    },
+    {
+      "in": "cancel| Ragnarock was cancelled due to being hit!",
+      "out": "false"
+    },
+    {
+      "in": "cancel|Ragnarock was cancelled due to falling!",
+      "out": "false"
+    },
+    {
+      "in": "cancel|",
+      "out": "false"
+    },
+    {
+      "in": "cancel|ragnarock was cancelled due to being hit!",
+      "out": "false"
+    },
+    {
+      "in": "str|0|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|1|[Strength: +, Strength: +1,250]",
+      "out": "1250"
+    },
+    {
+      "in": "str|2|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|3|[Strength: +1,250, Strength: +100]",
+      "out": "1250"
+    },
+    {
+      "in": "str|4|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|5|[Strength: +1,250, §cStrength: +50 §9(+20), §cStrength: +50 §9(+20)]",
+      "out": "1250"
+    },
+    {
+      "in": "str|6|[Strength: +]",
+      "out": "null"
+    },
+    {
+      "in": "str|7|[Strength: +,]",
+      "out": "null"
+    },
+    {
+      "in": "str|8|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|9|[Damage: +100, Strength: +1,250, Strength: +]",
+      "out": "1250"
+    },
+    {
+      "in": "str|10|[Strength: +100]",
+      "out": "100"
+    },
+    {
+      "in": "str|11|[Strength: +]",
+      "out": "null"
+    },
+    {
+      "in": "str|12|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|13|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|14|[  Strength: +7, Strength: +99999999999]",
+      "out": "7"
+    },
+    {
+      "in": "str|15|[Strength: +,, Damage: +100]",
+      "out": "null"
+    },
+    {
+      "in": "str|16|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|17|[Damage: +100, Strength: +100,   Strength: +7]",
+      "out": "100"
+    },
+    {
+      "in": "str|18|[, Strength: +100, Damage: +100]",
+      "out": "100"
+    },
+    {
+      "in": "str|19|[Strength: +1,250]",
+      "out": "1250"
+    },
+    {
+      "in": "str|20|[Strength: +]",
+      "out": "null"
+    },
+    {
+      "in": "str|21|[§cStrength: +50 §9(+20)]",
+      "out": "50"
+    },
+    {
+      "in": "str|22|[§cStrength: +50 §9(+20), Damage: +100]",
+      "out": "50"
+    },
+    {
+      "in": "str|23|[Strength: +]",
+      "out": "null"
+    },
+    {
+      "in": "str|24|[Strength: +]",
+      "out": "null"
+    },
+    {
+      "in": "str|25|[Strength: 100]",
+      "out": "null"
+    },
+    {
+      "in": "str|26|[§cStrength: +50 §9(+20), Strength: +1,250, ]",
+      "out": "50"
+    },
+    {
+      "in": "str|27|[§cStrength: +50 §9(+20)]",
+      "out": "50"
+    },
+    {
+      "in": "str|28|[Damage: +100, Strength: +100]",
+      "out": "100"
+    },
+    {
+      "in": "str|29|[Strength: +1,250, Strength: +1,250]",
+      "out": "1250"
+    },
+    {
+      "in": "str|30|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|31|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|32|[Strength: +99999999999, Damage: +100]",
+      "out": "null"
+    },
+    {
+      "in": "str|33|[  Strength: +7, , §cStrength: +50 §9(+20)]",
+      "out": "7"
+    },
+    {
+      "in": "str|34|[Strength: +,   Strength: +7, Strength: +100]",
+      "out": "7"
+    },
+    {
+      "in": "str|35|[, Strength: +]",
+      "out": "null"
+    },
+    {
+      "in": "str|36|[Strength: +1,250, Strength: +99999999999, §cStrength: +50 §9(+20)]",
+      "out": "1250"
+    },
+    {
+      "in": "str|37|[Strength: +,,   Strength: +7, Strength: 100]",
+      "out": "null"
+    },
+    {
+      "in": "str|38|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|39|[Strength: +1,250,   Strength: +7]",
+      "out": "1250"
+    },
+    {
+      "in": "str|40|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|41|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|42|[Strength: +99999999999, Strength: +99999999999]",
+      "out": "null"
+    },
+    {
+      "in": "str|43|[Strength: +100, Strength: +99999999999, Strength: +]",
+      "out": "100"
+    },
+    {
+      "in": "str|44|[Strength: +99999999999, Strength: +100, Strength: +100]",
+      "out": "null"
+    },
+    {
+      "in": "str|45|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|46|[§cStrength: +50 §9(+20), ]",
+      "out": "50"
+    },
+    {
+      "in": "str|47|[Strength: +100,   Strength: +7]",
+      "out": "100"
+    },
+    {
+      "in": "str|48|[Damage: +100, Strength: +,, Strength: +1,250]",
+      "out": "null"
+    },
+    {
+      "in": "str|49|[Strength: 100, Strength: +100, Strength: +99999999999]",
+      "out": "100"
+    },
+    {
+      "in": "str|50|[Strength: +1,250, Strength: +99999999999]",
+      "out": "1250"
+    },
+    {
+      "in": "str|51|[Strength: +99999999999,   Strength: +7]",
+      "out": "null"
+    },
+    {
+      "in": "str|52|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|53|[Damage: +100, Strength: 100,   Strength: +7]",
+      "out": "7"
+    },
+    {
+      "in": "str|54|[, Strength: +99999999999, §cStrength: +50 §9(+20)]",
+      "out": "null"
+    },
+    {
+      "in": "str|55|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|56|[Damage: +100]",
+      "out": "null"
+    },
+    {
+      "in": "str|57|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|58|[Strength: +, Damage: +100, Strength: 100]",
+      "out": "null"
+    },
+    {
+      "in": "str|59|[Strength: +100]",
+      "out": "100"
+    },
+    {
+      "in": "str|60|[Strength: +100]",
+      "out": "100"
+    },
+    {
+      "in": "str|61|[, , Strength: +,]",
+      "out": "null"
+    },
+    {
+      "in": "str|62|[Damage: +100,   Strength: +7, §cStrength: +50 §9(+20)]",
+      "out": "7"
+    },
+    {
+      "in": "str|63|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|64|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|65|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|66|[Strength: +, , §cStrength: +50 §9(+20)]",
+      "out": "50"
+    },
+    {
+      "in": "str|67|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|68|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|69|[§cStrength: +50 §9(+20), ]",
+      "out": "50"
+    },
+    {
+      "in": "str|70|[Strength: +,   Strength: +7, §cStrength: +50 §9(+20)]",
+      "out": "7"
+    },
+    {
+      "in": "str|71|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|72|[Damage: +100, ]",
+      "out": "null"
+    },
+    {
+      "in": "str|73|[Damage: +100]",
+      "out": "null"
+    },
+    {
+      "in": "str|74|[Strength: +,, Strength: +100]",
+      "out": "null"
+    },
+    {
+      "in": "str|75|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|76|[Strength: +,]",
+      "out": "null"
+    },
+    {
+      "in": "str|77|[§cStrength: +50 §9(+20)]",
+      "out": "50"
+    },
+    {
+      "in": "str|78|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|79|[Strength: +,, ]",
+      "out": "null"
+    },
+    {
+      "in": "str|80|[Strength: 100, Strength: +100]",
+      "out": "100"
+    },
+    {
+      "in": "str|81|[Damage: +100, Strength: +1,250, Strength: +99999999999]",
+      "out": "1250"
+    },
+    {
+      "in": "str|82|[  Strength: +7, Strength: +,]",
+      "out": "7"
+    },
+    {
+      "in": "str|83|[Strength: +99999999999, Strength: 100]",
+      "out": "null"
+    },
+    {
+      "in": "str|84|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|85|[Strength: +99999999999, Strength: 100, Strength: +99999999999]",
+      "out": "null"
+    },
+    {
+      "in": "str|86|[Strength: +, Strength: 100, Strength: +99999999999]",
+      "out": "null"
+    },
+    {
+      "in": "str|87|[Strength: +,, ]",
+      "out": "null"
+    },
+    {
+      "in": "str|88|[Strength: +1,250,   Strength: +7, Strength: +]",
+      "out": "1250"
+    },
+    {
+      "in": "str|89|[  Strength: +7, §cStrength: +50 §9(+20)]",
+      "out": "7"
+    },
+    {
+      "in": "str|90|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|91|[Strength: +99999999999, Damage: +100]",
+      "out": "null"
+    },
+    {
+      "in": "str|92|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|93|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|94|[, Strength: +,]",
+      "out": "null"
+    },
+    {
+      "in": "str|95|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|96|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|97|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|98|[Strength: +,]",
+      "out": "null"
+    },
+    {
+      "in": "str|99|[Strength: 100, Strength: +100, Strength: +1,250]",
+      "out": "100"
+    },
+    {
+      "in": "str|100|[Strength: +100, Strength: +100]",
+      "out": "100"
+    },
+    {
+      "in": "str|101|[Strength: +, Strength: +1,250, Strength: +99999999999]",
+      "out": "1250"
+    },
+    {
+      "in": "str|102|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|103|[Strength: 100]",
+      "out": "null"
+    },
+    {
+      "in": "str|104|[Strength: +,, §cStrength: +50 §9(+20), §cStrength: +50 §9(+20)]",
+      "out": "null"
+    },
+    {
+      "in": "str|105|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|106|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|107|[Strength: +,, §cStrength: +50 §9(+20)]",
+      "out": "null"
+    },
+    {
+      "in": "str|108|[Strength: +,, Strength: +100, Strength: +99999999999]",
+      "out": "null"
+    },
+    {
+      "in": "str|109|[, ]",
+      "out": "null"
+    },
+    {
+      "in": "str|110|[Strength: 100, Strength: +1,250, Strength: +,]",
+      "out": "1250"
+    },
+    {
+      "in": "str|111|[Damage: +100, Strength: +100]",
+      "out": "100"
+    },
+    {
+      "in": "str|112|[Strength: +100, §cStrength: +50 §9(+20)]",
+      "out": "100"
+    },
+    {
+      "in": "str|113|[  Strength: +7, Strength: 100]",
+      "out": "7"
+    },
+    {
+      "in": "str|114|[Damage: +100, Strength: 100]",
+      "out": "null"
+    },
+    {
+      "in": "str|115|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|116|[, Strength: +]",
+      "out": "null"
+    },
+    {
+      "in": "str|117|[Strength: +, Strength: +99999999999, Strength: +99999999999]",
+      "out": "null"
+    },
+    {
+      "in": "str|118|[Strength: 100, ]",
+      "out": "null"
+    },
+    {
+      "in": "str|119|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|120|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|121|[Strength: +1,250]",
+      "out": "1250"
+    },
+    {
+      "in": "str|122|[Strength: +]",
+      "out": "null"
+    },
+    {
+      "in": "str|123|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|124|[Strength: 100, ]",
+      "out": "null"
+    },
+    {
+      "in": "str|125|[Damage: +100,   Strength: +7]",
+      "out": "7"
+    },
+    {
+      "in": "str|126|[Strength: 100,   Strength: +7]",
+      "out": "7"
+    },
+    {
+      "in": "str|127|[Strength: +, Strength: +100]",
+      "out": "100"
+    },
+    {
+      "in": "str|128|[Damage: +100,   Strength: +7]",
+      "out": "7"
+    },
+    {
+      "in": "str|129|[Strength: +1,250]",
+      "out": "1250"
+    },
+    {
+      "in": "str|130|[Strength: +, Strength: 100,   Strength: +7]",
+      "out": "7"
+    },
+    {
+      "in": "str|131|[Strength: 100, Strength: +100, ]",
+      "out": "100"
+    },
+    {
+      "in": "str|132|[Strength: +, §cStrength: +50 §9(+20),   Strength: +7]",
+      "out": "50"
+    },
+    {
+      "in": "str|133|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|134|[Damage: +100, Strength: +1,250]",
+      "out": "1250"
+    },
+    {
+      "in": "str|135|[Strength: +99999999999,   Strength: +7, Damage: +100]",
+      "out": "null"
+    },
+    {
+      "in": "str|136|[  Strength: +7,   Strength: +7, Strength: 100]",
+      "out": "7"
+    },
+    {
+      "in": "str|137|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|138|[Strength: +]",
+      "out": "null"
+    },
+    {
+      "in": "str|139|[Strength: +100, Strength: +1,250, Strength: +100]",
+      "out": "100"
+    },
+    {
+      "in": "str|140|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|141|[Damage: +100]",
+      "out": "null"
+    },
+    {
+      "in": "str|142|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|143|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|144|[Strength: +99999999999, §cStrength: +50 §9(+20)]",
+      "out": "null"
+    },
+    {
+      "in": "str|145|[]",
+      "out": "null"
+    },
+    {
+      "in": "str|146|[Strength: +,]",
+      "out": "null"
+    },
+    {
+      "in": "str|147|[§cStrength: +50 §9(+20)]",
+      "out": "50"
+    },
+    {
+      "in": "str|148|[Damage: +100, Strength: +100, Strength: +100]",
+      "out": "100"
+    },
+    {
+      "in": "str|149|[Damage: +100]",
+      "out": "null"
+    },
+    {
+      "in": "gain|-2147483648",
+      "out": "-2147483648"
+    },
+    {
+      "in": "gain|-3",
+      "out": "-4"
+    },
+    {
+      "in": "gain|-1",
+      "out": "-1"
+    },
+    {
+      "in": "gain|0",
+      "out": "0"
+    },
+    {
+      "in": "gain|1",
+      "out": "1"
+    },
+    {
+      "in": "gain|3",
+      "out": "4"
+    },
+    {
+      "in": "gain|7",
+      "out": "10"
+    },
+    {
+      "in": "gain|100",
+      "out": "150"
+    },
+    {
+      "in": "gain|1431655765",
+      "out": "2147483647"
+    },
+    {
+      "in": "gain|1431655766",
+      "out": "2147483647"
+    },
+    {
+      "in": "gain|2147483647",
+      "out": "2147483647"
+    },
+    {
+      "in": "sound|entity.wolf.death|1.4920635",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolf.death|1.492",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolf.death|1.4921",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolf.death|1.49215",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolf.death|1.49197",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolf.death|1.0",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.death|NaN",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.death|-1.4920635",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf_angry.death|1.4920635",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolf_angry.death|1.492",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolf_angry.death|1.4921",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolf_angry.death|1.49215",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolf_angry.death|1.49197",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolf_angry.death|1.0",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf_angry.death|NaN",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf_angry.death|-1.4920635",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.hurt|1.4920635",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.hurt|1.492",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.hurt|1.4921",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.hurt|1.49215",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.hurt|1.49197",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.hurt|1.0",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.hurt|NaN",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.hurt|-1.4920635",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolfdeath|1.4920635",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolfdeath|1.492",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolfdeath|1.4921",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolfdeath|1.49215",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolfdeath|1.49197",
+      "out": "true"
+    },
+    {
+      "in": "sound|entity.wolfdeath|1.0",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolfdeath|NaN",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolfdeath|-1.4920635",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wol.death|1.4920635",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wol.death|1.492",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wol.death|1.4921",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wol.death|1.49215",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wol.death|1.49197",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wol.death|1.0",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wol.death|NaN",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wol.death|-1.4920635",
+      "out": "false"
+    },
+    {
+      "in": "sound|x.entity.wolf.death|1.4920635",
+      "out": "false"
+    },
+    {
+      "in": "sound|x.entity.wolf.death|1.492",
+      "out": "false"
+    },
+    {
+      "in": "sound|x.entity.wolf.death|1.4921",
+      "out": "false"
+    },
+    {
+      "in": "sound|x.entity.wolf.death|1.49215",
+      "out": "false"
+    },
+    {
+      "in": "sound|x.entity.wolf.death|1.49197",
+      "out": "false"
+    },
+    {
+      "in": "sound|x.entity.wolf.death|1.0",
+      "out": "false"
+    },
+    {
+      "in": "sound|x.entity.wolf.death|NaN",
+      "out": "false"
+    },
+    {
+      "in": "sound|x.entity.wolf.death|-1.4920635",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.death |1.4920635",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.death |1.492",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.death |1.4921",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.death |1.49215",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.death |1.49197",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.death |1.0",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.death |NaN",
+      "out": "false"
+    },
+    {
+      "in": "sound|entity.wolf.death |-1.4920635",
+      "out": "false"
+    },
+    {
+      "in": "sound||1.4920635",
+      "out": "false"
+    },
+    {
+      "in": "sound||1.492",
+      "out": "false"
+    },
+    {
+      "in": "sound||1.4921",
+      "out": "false"
+    },
+    {
+      "in": "sound||1.49215",
+      "out": "false"
+    },
+    {
+      "in": "sound||1.49197",
+      "out": "false"
+    },
+    {
+      "in": "sound||1.0",
+      "out": "false"
+    },
+    {
+      "in": "sound||NaN",
+      "out": "false"
+    },
+    {
+      "in": "sound||-1.4920635",
+      "out": "false"
+    },
+    {
+      "in": "vesKeys",
+      "out": "[hide-claimed, profit-tooltip]"
+    },
+    {
+      "in": "contents|0|[, 999 Coins , Kuudra Key, Contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|0",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|0|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|0|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|0|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|0|",
+      "out": "false"
+    },
+    {
+      "in": "contents|1|[250,000 Coins, Coins, No more chests to open!, 250,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|1",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|1|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|1|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|1|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|1|",
+      "out": "false"
+    },
+    {
+      "in": "contents|2|[No more chests to open!, Coins, Coins,  Contents , Crimson Essence x100, , Enchanted Book (Fatal Tempo I), contents]",
+      "out": "[Crimson Essence x100]"
+    },
+    {
+      "in": "cost|2",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|2|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|2|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|2|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|2|",
+      "out": "false"
+    },
+    {
+      "in": "contents|3|[contents, Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|3",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|3|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|3|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|3|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|3|",
+      "out": "false"
+    },
+    {
+      "in": "contents|4|[Contents, contents, 1,000,000 Coins, Enchanted Book (Fatal Tempo I), ]",
+      "out": "[contents, 1,000,000 Coins, Enchanted Book (Fatal Tempo I)]"
+    },
+    {
+      "in": "cost|4",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|4|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|4|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|4|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|4|",
+      "out": "false"
+    },
+    {
+      "in": "contents|5|[250,000 Coins,  No more chests to open! , , Coins, Crimson Essence x100, contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|5",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|5|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|5|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|5|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|5|",
+      "out": "false"
+    },
+    {
+      "in": "contents|6|[Crimson Essence x100, Burning Kuudra Core, 1e5 Coins, , Coins, No more chests to open!, Burning Kuudra Core]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|6",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|6|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|6|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|6|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|6|",
+      "out": "false"
+    },
+    {
+      "in": "contents|7|[Burning Kuudra Core, contents, No more chests to open!, , Coins, No more chests to open!, 1e5 Coins,  No more chests to open! ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|7",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|7|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|7|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|7|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|7|",
+      "out": "false"
+    },
+    {
+      "in": "contents|8|[250,000 Coins, 999 Coins , Contents, 250,000 Coins, contents, Burning Kuudra Core, 1,000,000 Coins, Kuudra Key]",
+      "out": "[250,000 Coins, contents, Burning Kuudra Core, 1,000,000 Coins, Kuudra Key]"
+    },
+    {
+      "in": "cost|8",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|8|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|8|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|8|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|8|",
+      "out": "false"
+    },
+    {
+      "in": "contents|9|[No more chests to open!, Burning Kuudra Core]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|9",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|9|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|9|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|9|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|9|",
+      "out": "false"
+    },
+    {
+      "in": "contents|10|[contents, Coins, Kuudra Key, Coins, Cost, Contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|10",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|10|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|10|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|10|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|10|",
+      "out": "false"
+    },
+    {
+      "in": "contents|11|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|11",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|11|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|11|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|11|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|11|",
+      "out": "false"
+    },
+    {
+      "in": "contents|12|[, 250,000 Coins, Kuudra Key, 1,000,000 Coins, 250,000 Coins, Contents, Burning Kuudra Core]",
+      "out": "[Burning Kuudra Core]"
+    },
+    {
+      "in": "cost|12",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|12|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|12|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|12|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|12|",
+      "out": "false"
+    },
+    {
+      "in": "contents|13|[, 1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|13",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|13|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|13|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|13|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|13|",
+      "out": "false"
+    },
+    {
+      "in": "contents|14|[No more chests to open!, 250,000 Coins, Enchanted Book (Fatal Tempo I), , Coins, , Cost, No more chests to open!, Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|14",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|14|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|14|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|14|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|14|",
+      "out": "false"
+    },
+    {
+      "in": "contents|15|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|15",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|15|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|15|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|15|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|15|",
+      "out": "false"
+    },
+    {
+      "in": "contents|16|[ Contents ,  Contents , Enchanted Book (Fatal Tempo I)]",
+      "out": "[Contents, Enchanted Book (Fatal Tempo I)]"
+    },
+    {
+      "in": "cost|16",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|16|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|16|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|16|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|16|",
+      "out": "false"
+    },
+    {
+      "in": "contents|17|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|17",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|17|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|17|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|17|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|17|",
+      "out": "false"
+    },
+    {
+      "in": "contents|18|[1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|18",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|18|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|18|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|18|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|18|",
+      "out": "false"
+    },
+    {
+      "in": "contents|19|[No more chests to open!, Kuudra Key,  No more chests to open! , Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|19",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|19|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|19|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|19|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|19|",
+      "out": "false"
+    },
+    {
+      "in": "contents|20|[No more chests to open!, Coins, Coins,  No more chests to open! , 999 Coins ,  No more chests to open! ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|20",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|20|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|20|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|20|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|20|",
+      "out": "false"
+    },
+    {
+      "in": "contents|21|[Cost]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|21",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|21|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|21|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|21|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|21|",
+      "out": "false"
+    },
+    {
+      "in": "contents|22|[999 Coins , contents,  No more chests to open! , , 1e5 Coins, Crimson Essence x100, 999 Coins ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|22",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|22|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|22|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|22|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|22|",
+      "out": "false"
+    },
+    {
+      "in": "contents|23|[No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|23",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|23|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|23|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|23|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|23|",
+      "out": "false"
+    },
+    {
+      "in": "contents|24|[Burning Kuudra Core, Coins, Coins,  Contents , Contents, Coins, 250,000 Coins, 999 Coins ]",
+      "out": "[Contents, Coins, 250,000 Coins, 999 Coins]"
+    },
+    {
+      "in": "cost|24",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|24|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|24|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|24|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|24|",
+      "out": "false"
+    },
+    {
+      "in": "contents|25|[1,000,000 Coins, Contents, 1,000,000 Coins, Kuudra Key,  Contents , Enchanted Book (Fatal Tempo I)]",
+      "out": "[1,000,000 Coins, Kuudra Key, Contents, Enchanted Book (Fatal Tempo I)]"
+    },
+    {
+      "in": "cost|25",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|25|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|25|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|25|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|25|",
+      "out": "false"
+    },
+    {
+      "in": "contents|26|[contents, Cost, 1,000,000 Coins, 250,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|26",
+      "out": "1250000.0"
+    },
+    {
+      "in": "claimed|26|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|26|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|26|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|26|",
+      "out": "false"
+    },
+    {
+      "in": "contents|27|[contents, No more chests to open!, Contents, Enchanted Book (Fatal Tempo I), Burning Kuudra Core]",
+      "out": "[Enchanted Book (Fatal Tempo I), Burning Kuudra Core]"
+    },
+    {
+      "in": "cost|27",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|27|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|27|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|27|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|27|",
+      "out": "false"
+    },
+    {
+      "in": "contents|28|[Crimson Essence x100, 999 Coins , ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|28",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|28|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|28|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|28|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|28|",
+      "out": "false"
+    },
+    {
+      "in": "contents|29|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|29",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|29|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|29|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|29|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|29|",
+      "out": "false"
+    },
+    {
+      "in": "contents|30|[No more chests to open!, , Coins, , Cost]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|30",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|30|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|30|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|30|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|30|",
+      "out": "false"
+    },
+    {
+      "in": "contents|31|[999 Coins , Burning Kuudra Core, No more chests to open!, Burning Kuudra Core, contents, 250,000 Coins, 1e5 Coins, ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|31",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|31|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|31|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|31|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|31|",
+      "out": "false"
+    },
+    {
+      "in": "contents|32|[ Contents , Cost, Contents, 1e5 Coins]",
+      "out": "[Cost, Contents, 1e5 Coins]"
+    },
+    {
+      "in": "cost|32",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|32|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|32|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|32|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|32|",
+      "out": "false"
+    },
+    {
+      "in": "contents|33|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|33",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|33|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|33|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|33|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|33|",
+      "out": "false"
+    },
+    {
+      "in": "contents|34|[Contents, 999 Coins ]",
+      "out": "[999 Coins]"
+    },
+    {
+      "in": "cost|34",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|34|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|34|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|34|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|34|",
+      "out": "false"
+    },
+    {
+      "in": "contents|35|[250,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|35",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|35|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|35|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|35|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|35|",
+      "out": "false"
+    },
+    {
+      "in": "contents|36|[Cost, No more chests to open!,  Contents ,  No more chests to open! , Cost]",
+      "out": "[No more chests to open!, Cost]"
+    },
+    {
+      "in": "cost|36",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|36|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|36|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|36|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|36|",
+      "out": "false"
+    },
+    {
+      "in": "contents|37|[1e5 Coins, , 1e5 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|37",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|37|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|37|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|37|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|37|",
+      "out": "false"
+    },
+    {
+      "in": "contents|38|[999 Coins , Kuudra Key, Enchanted Book (Fatal Tempo I), Burning Kuudra Core, Cost]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|38",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|38|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|38|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|38|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|38|",
+      "out": "false"
+    },
+    {
+      "in": "contents|39|[Enchanted Book (Fatal Tempo I), Crimson Essence x100]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|39",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|39|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|39|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|39|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|39|",
+      "out": "false"
+    },
+    {
+      "in": "contents|40|[ No more chests to open! ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|40",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|40|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|40|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|40|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|40|",
+      "out": "false"
+    },
+    {
+      "in": "contents|41|[Coins, , Burning Kuudra Core, Kuudra Key, 250,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|41",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|41|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|41|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|41|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|41|",
+      "out": "false"
+    },
+    {
+      "in": "contents|42|[, Coins, 1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|42",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|42|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|42|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|42|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|42|",
+      "out": "false"
+    },
+    {
+      "in": "contents|43|[ No more chests to open! , , Cost, Crimson Essence x100, Kuudra Key, Enchanted Book (Fatal Tempo I)]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|43",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|43|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|43|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|43|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|43|",
+      "out": "false"
+    },
+    {
+      "in": "contents|44|[Crimson Essence x100, Kuudra Key,  Contents ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|44",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|44|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|44|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|44|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|44|",
+      "out": "false"
+    },
+    {
+      "in": "contents|45|[Enchanted Book (Fatal Tempo I), , Cost, 1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|45",
+      "out": "1000000.0"
+    },
+    {
+      "in": "claimed|45|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|45|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|45|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|45|",
+      "out": "false"
+    },
+    {
+      "in": "contents|46|[Kuudra Key, Enchanted Book (Fatal Tempo I), , Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|46",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|46|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|46|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|46|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|46|",
+      "out": "false"
+    },
+    {
+      "in": "contents|47|[ Contents ,  No more chests to open! , ]",
+      "out": "[No more chests to open!]"
+    },
+    {
+      "in": "cost|47",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|47|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|47|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|47|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|47|",
+      "out": "false"
+    },
+    {
+      "in": "contents|48|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|48",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|48|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|48|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|48|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|48|",
+      "out": "false"
+    },
+    {
+      "in": "contents|49|[Kuudra Key, 1e5 Coins, Contents, 1,000,000 Coins, 1,000,000 Coins, Contents]",
+      "out": "[1,000,000 Coins, 1,000,000 Coins, Contents]"
+    },
+    {
+      "in": "cost|49",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|49|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|49|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|49|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|49|",
+      "out": "false"
+    },
+    {
+      "in": "contents|50|[Crimson Essence x100, Kuudra Key, Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|50",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|50|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|50|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|50|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|50|",
+      "out": "false"
+    },
+    {
+      "in": "contents|51|[Coins,  No more chests to open! , , Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|51",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|51|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|51|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|51|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|51|",
+      "out": "false"
+    },
+    {
+      "in": "contents|52|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|52",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|52|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|52|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|52|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|52|",
+      "out": "false"
+    },
+    {
+      "in": "contents|53|[1e5 Coins, Kuudra Key, 1,000,000 Coins, ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|53",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|53|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|53|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|53|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|53|",
+      "out": "false"
+    },
+    {
+      "in": "contents|54|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|54",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|54|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|54|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|54|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|54|",
+      "out": "false"
+    },
+    {
+      "in": "contents|55|[1,000,000 Coins, 1e5 Coins, Crimson Essence x100, 1,000,000 Coins, Crimson Essence x100, 250,000 Coins, Cost]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|55",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|55|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|55|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|55|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|55|",
+      "out": "false"
+    },
+    {
+      "in": "contents|56|[ Contents , Coins, Cost, contents]",
+      "out": "[Coins, Cost, contents]"
+    },
+    {
+      "in": "cost|56",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|56|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|56|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|56|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|56|",
+      "out": "false"
+    },
+    {
+      "in": "contents|57|[Enchanted Book (Fatal Tempo I), Burning Kuudra Core, Contents, 1e5 Coins, Contents, Cost,  No more chests to open! , Enchanted Book (Fatal Tempo I)]",
+      "out": "[1e5 Coins, Contents, Cost, No more chests to open!, Enchanted Book (Fatal Tempo I)]"
+    },
+    {
+      "in": "cost|57",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|57|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|57|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|57|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|57|",
+      "out": "false"
+    },
+    {
+      "in": "contents|58|[1e5 Coins,  Contents ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|58",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|58|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|58|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|58|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|58|",
+      "out": "false"
+    },
+    {
+      "in": "contents|59|[Crimson Essence x100, No more chests to open!, contents, 1e5 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|59",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|59|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|59|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|59|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|59|",
+      "out": "false"
+    },
+    {
+      "in": "contents|60|[Contents, Crimson Essence x100]",
+      "out": "[Crimson Essence x100]"
+    },
+    {
+      "in": "cost|60",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|60|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|60|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|60|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|60|",
+      "out": "false"
+    },
+    {
+      "in": "contents|61|[contents, , Coins, 250,000 Coins, No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|61",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|61|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|61|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|61|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|61|",
+      "out": "false"
+    },
+    {
+      "in": "contents|62|[Enchanted Book (Fatal Tempo I)]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|62",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|62|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|62|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|62|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|62|",
+      "out": "false"
+    },
+    {
+      "in": "contents|63|[contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|63",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|63|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|63|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|63|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|63|",
+      "out": "false"
+    },
+    {
+      "in": "contents|64|[, Coins, , 999 Coins , , , 1e5 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|64",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|64|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|64|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|64|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|64|",
+      "out": "false"
+    },
+    {
+      "in": "contents|65|[Enchanted Book (Fatal Tempo I), contents, Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|65",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|65|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|65|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|65|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|65|",
+      "out": "false"
+    },
+    {
+      "in": "contents|66|[Coins, 1,000,000 Coins, 999 Coins , Contents, , 999 Coins ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|66",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|66|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|66|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|66|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|66|",
+      "out": "false"
+    },
+    {
+      "in": "contents|67|[250,000 Coins, 999 Coins , , Coins, contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|67",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|67|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|67|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|67|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|67|",
+      "out": "false"
+    },
+    {
+      "in": "contents|68|[250,000 Coins, Crimson Essence x100, Burning Kuudra Core, 250,000 Coins, Coins,  No more chests to open! , Cost]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|68",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|68|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|68|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|68|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|68|",
+      "out": "false"
+    },
+    {
+      "in": "contents|69|[Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|69",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|69|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|69|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|69|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|69|",
+      "out": "false"
+    },
+    {
+      "in": "contents|70|[No more chests to open!, 250,000 Coins, , Coins, Contents, 1e5 Coins, contents, , Coins, Coins]",
+      "out": "[1e5 Coins, contents, , Coins, Coins]"
+    },
+    {
+      "in": "cost|70",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|70|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|70|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|70|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|70|",
+      "out": "false"
+    },
+    {
+      "in": "contents|71|[, ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|71",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|71|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|71|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|71|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|71|",
+      "out": "false"
+    },
+    {
+      "in": "contents|72|[250,000 Coins, Coins, contents, 1e5 Coins, 1,000,000 Coins, 1e5 Coins, , Coins, Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|72",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|72|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|72|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|72|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|72|",
+      "out": "false"
+    },
+    {
+      "in": "contents|73|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|73",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|73|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|73|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|73|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|73|",
+      "out": "false"
+    },
+    {
+      "in": "contents|74|[Enchanted Book (Fatal Tempo I), Coins, 999 Coins , contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|74",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|74|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|74|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|74|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|74|",
+      "out": "false"
+    },
+    {
+      "in": "contents|75|[No more chests to open!, Contents, Enchanted Book (Fatal Tempo I), 250,000 Coins]",
+      "out": "[Enchanted Book (Fatal Tempo I), 250,000 Coins]"
+    },
+    {
+      "in": "cost|75",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|75|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|75|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|75|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|75|",
+      "out": "false"
+    },
+    {
+      "in": "contents|76|[1,000,000 Coins, Contents, Burning Kuudra Core, Kuudra Key, , Crimson Essence x100, 1e5 Coins,  No more chests to open! ]",
+      "out": "[Burning Kuudra Core, Kuudra Key]"
+    },
+    {
+      "in": "cost|76",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|76|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|76|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|76|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|76|",
+      "out": "false"
+    },
+    {
+      "in": "contents|77|[, Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|77",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|77|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|77|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|77|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|77|",
+      "out": "false"
+    },
+    {
+      "in": "contents|78|[1e5 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|78",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|78|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|78|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|78|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|78|",
+      "out": "false"
+    },
+    {
+      "in": "contents|79|[1e5 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|79",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|79|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|79|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|79|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|79|",
+      "out": "false"
+    },
+    {
+      "in": "contents|80|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|80",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|80|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|80|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|80|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|80|",
+      "out": "false"
+    },
+    {
+      "in": "contents|81|[, Coins, 250,000 Coins, Burning Kuudra Core, 250,000 Coins, Coins, Enchanted Book (Fatal Tempo I), , Coins, ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|81",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|81|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|81|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|81|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|81|",
+      "out": "false"
+    },
+    {
+      "in": "contents|82|[Enchanted Book (Fatal Tempo I), Contents, Enchanted Book (Fatal Tempo I), Crimson Essence x100]",
+      "out": "[Enchanted Book (Fatal Tempo I), Crimson Essence x100]"
+    },
+    {
+      "in": "cost|82",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|82|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|82|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|82|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|82|",
+      "out": "false"
+    },
+    {
+      "in": "contents|83|[1e5 Coins, Contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|83",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|83|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|83|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|83|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|83|",
+      "out": "false"
+    },
+    {
+      "in": "contents|84|[Coins, contents, Burning Kuudra Core,  Contents , Coins, 999 Coins , Enchanted Book (Fatal Tempo I), Crimson Essence x100]",
+      "out": "[Coins, 999 Coins, Enchanted Book (Fatal Tempo I), Crimson Essence x100]"
+    },
+    {
+      "in": "cost|84",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|84|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|84|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|84|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|84|",
+      "out": "false"
+    },
+    {
+      "in": "contents|85|[contents, contents, Cost]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|85",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|85|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|85|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|85|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|85|",
+      "out": "false"
+    },
+    {
+      "in": "contents|86|[Contents, 1,000,000 Coins, , Coins, 1e5 Coins, , Coins, , Coins, Burning Kuudra Core, Cost]",
+      "out": "[1,000,000 Coins, , Coins, 1e5 Coins, , Coins, , Coins, Burning Kuudra Core, Cost]"
+    },
+    {
+      "in": "cost|86",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|86|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|86|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|86|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|86|",
+      "out": "false"
+    },
+    {
+      "in": "contents|87|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|87",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|87|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|87|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|87|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|87|",
+      "out": "false"
+    },
+    {
+      "in": "contents|88|[, Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|88",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|88|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|88|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|88|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|88|",
+      "out": "false"
+    },
+    {
+      "in": "contents|89|[ Contents ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|89",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|89|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|89|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|89|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|89|",
+      "out": "false"
+    },
+    {
+      "in": "contents|90|[250,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|90",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|90|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|90|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|90|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|90|",
+      "out": "false"
+    },
+    {
+      "in": "contents|91|[Enchanted Book (Fatal Tempo I), contents, , Coins, 1e5 Coins,  Contents ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|91",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|91|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|91|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|91|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|91|",
+      "out": "false"
+    },
+    {
+      "in": "contents|92|[1e5 Coins, Burning Kuudra Core, contents, No more chests to open!,  No more chests to open! , Kuudra Key, Enchanted Book (Fatal Tempo I), contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|92",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|92|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|92|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|92|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|92|",
+      "out": "false"
+    },
+    {
+      "in": "contents|93|[Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|93",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|93|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|93|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|93|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|93|",
+      "out": "false"
+    },
+    {
+      "in": "contents|94|[contents, Coins,  Contents , 250,000 Coins, 1e5 Coins]",
+      "out": "[250,000 Coins, 1e5 Coins]"
+    },
+    {
+      "in": "cost|94",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|94|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|94|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|94|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|94|",
+      "out": "false"
+    },
+    {
+      "in": "contents|95|[250,000 Coins, Cost]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|95",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|95|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|95|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|95|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|95|",
+      "out": "false"
+    },
+    {
+      "in": "contents|96|[Enchanted Book (Fatal Tempo I), 1,000,000 Coins, Burning Kuudra Core]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|96",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|96|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|96|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|96|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|96|",
+      "out": "false"
+    },
+    {
+      "in": "contents|97|[ No more chests to open! , contents, 1e5 Coins, No more chests to open!, contents, Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|97",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|97|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|97|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|97|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|97|",
+      "out": "false"
+    },
+    {
+      "in": "contents|98|[Coins, , Coins, Kuudra Key, , Coins, Coins, Coins,  Contents ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|98",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|98|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|98|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|98|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|98|",
+      "out": "false"
+    },
+    {
+      "in": "contents|99|[Crimson Essence x100, , Coins,  Contents , contents, Cost, Burning Kuudra Core,  No more chests to open! , 1e5 Coins]",
+      "out": "[contents, Cost, Burning Kuudra Core, No more chests to open!, 1e5 Coins]"
+    },
+    {
+      "in": "cost|99",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|99|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|99|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|99|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|99|",
+      "out": "false"
+    },
+    {
+      "in": "contents|100|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|100",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|100|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|100|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|100|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|100|",
+      "out": "false"
+    },
+    {
+      "in": "contents|101|[250,000 Coins, 1,000,000 Coins, Coins,  Contents ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|101",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|101|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|101|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|101|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|101|",
+      "out": "false"
+    },
+    {
+      "in": "contents|102|[1e5 Coins, No more chests to open!, No more chests to open!, Coins, Cost, 1,000,000 Coins, 1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|102",
+      "out": "2000000.0"
+    },
+    {
+      "in": "claimed|102|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|102|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|102|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|102|",
+      "out": "false"
+    },
+    {
+      "in": "contents|103|[ Contents , Kuudra Key, Crimson Essence x100, 1,000,000 Coins,  Contents , contents]",
+      "out": "[Kuudra Key, Crimson Essence x100, 1,000,000 Coins, Contents, contents]"
+    },
+    {
+      "in": "cost|103",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|103|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|103|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|103|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|103|",
+      "out": "false"
+    },
+    {
+      "in": "contents|104|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|104",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|104|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|104|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|104|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|104|",
+      "out": "false"
+    },
+    {
+      "in": "contents|105|[contents, , 999 Coins , 999 Coins , Crimson Essence x100]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|105",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|105|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|105|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|105|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|105|",
+      "out": "false"
+    },
+    {
+      "in": "contents|106|[1e5 Coins, Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|106",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|106|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|106|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|106|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|106|",
+      "out": "false"
+    },
+    {
+      "in": "contents|107|[1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|107",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|107|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|107|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|107|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|107|",
+      "out": "false"
+    },
+    {
+      "in": "contents|108|[ No more chests to open! , 1,000,000 Coins,  No more chests to open! , contents, 250,000 Coins, , Coins,  No more chests to open! , Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|108",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|108|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|108|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|108|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|108|",
+      "out": "false"
+    },
+    {
+      "in": "contents|109|[Enchanted Book (Fatal Tempo I), contents, No more chests to open!,  Contents , contents, Enchanted Book (Fatal Tempo I)]",
+      "out": "[contents, Enchanted Book (Fatal Tempo I)]"
+    },
+    {
+      "in": "cost|109",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|109|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|109|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|109|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|109|",
+      "out": "false"
+    },
+    {
+      "in": "contents|110|[Enchanted Book (Fatal Tempo I), 1e5 Coins, Coins, Contents, Enchanted Book (Fatal Tempo I), Cost]",
+      "out": "[Enchanted Book (Fatal Tempo I), Cost]"
+    },
+    {
+      "in": "cost|110",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|110|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|110|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|110|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|110|",
+      "out": "false"
+    },
+    {
+      "in": "contents|111|[ No more chests to open! ,  Contents , Crimson Essence x100, Coins, Enchanted Book (Fatal Tempo I)]",
+      "out": "[Crimson Essence x100, Coins, Enchanted Book (Fatal Tempo I)]"
+    },
+    {
+      "in": "cost|111",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|111|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|111|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|111|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|111|",
+      "out": "false"
+    },
+    {
+      "in": "contents|112|[Coins,  No more chests to open! , Contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|112",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|112|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|112|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|112|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|112|",
+      "out": "false"
+    },
+    {
+      "in": "contents|113|[Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|113",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|113|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|113|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|113|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|113|",
+      "out": "false"
+    },
+    {
+      "in": "contents|114|[ No more chests to open! , Coins, Crimson Essence x100,  No more chests to open! ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|114",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|114|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|114|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|114|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|114|",
+      "out": "false"
+    },
+    {
+      "in": "contents|115|[Enchanted Book (Fatal Tempo I), Cost, Cost, Coins, 250,000 Coins,  Contents , Coins]",
+      "out": "[Coins]"
+    },
+    {
+      "in": "cost|115",
+      "out": "250000.0"
+    },
+    {
+      "in": "claimed|115|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|115|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|115|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|115|",
+      "out": "false"
+    },
+    {
+      "in": "contents|116|[Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|116",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|116|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|116|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|116|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|116|",
+      "out": "false"
+    },
+    {
+      "in": "contents|117|[No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|117",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|117|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|117|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|117|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|117|",
+      "out": "false"
+    },
+    {
+      "in": "contents|118|[No more chests to open!, Enchanted Book (Fatal Tempo I), Coins,  Contents , Cost,  Contents ]",
+      "out": "[Cost, Contents]"
+    },
+    {
+      "in": "cost|118",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|118|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|118|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|118|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|118|",
+      "out": "false"
+    },
+    {
+      "in": "contents|119|[contents, 250,000 Coins, 1,000,000 Coins, 999 Coins , No more chests to open!,  No more chests to open! ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|119",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|119|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|119|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|119|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|119|",
+      "out": "false"
+    },
+    {
+      "in": "contents|120|[999 Coins , 999 Coins , Coins, Coins, Kuudra Key,  Contents ,  Contents , Contents]",
+      "out": "[Contents, Contents]"
+    },
+    {
+      "in": "cost|120",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|120|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|120|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|120|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|120|",
+      "out": "false"
+    },
+    {
+      "in": "contents|121|[contents, Crimson Essence x100,  Contents ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|121",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|121|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|121|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|121|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|121|",
+      "out": "false"
+    },
+    {
+      "in": "contents|122|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|122",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|122|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|122|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|122|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|122|",
+      "out": "false"
+    },
+    {
+      "in": "contents|123|[Contents, No more chests to open!, , Coins, 999 Coins ]",
+      "out": "[No more chests to open!, , Coins, 999 Coins]"
+    },
+    {
+      "in": "cost|123",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|123|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|123|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|123|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|123|",
+      "out": "false"
+    },
+    {
+      "in": "contents|124|[Crimson Essence x100, Crimson Essence x100, Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|124",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|124|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|124|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|124|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|124|",
+      "out": "false"
+    },
+    {
+      "in": "contents|125|[Cost, Crimson Essence x100, Kuudra Key,  No more chests to open! ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|125",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|125|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|125|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|125|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|125|",
+      "out": "false"
+    },
+    {
+      "in": "contents|126|[ Contents , contents, Coins, , Crimson Essence x100, Contents, Contents, 999 Coins ]",
+      "out": "[contents, Coins]"
+    },
+    {
+      "in": "cost|126",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|126|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|126|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|126|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|126|",
+      "out": "false"
+    },
+    {
+      "in": "contents|127|[Crimson Essence x100, , Coins, 999 Coins , , Coins, Coins, 1e5 Coins, No more chests to open!, ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|127",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|127|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|127|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|127|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|127|",
+      "out": "false"
+    },
+    {
+      "in": "contents|128|[ No more chests to open! , Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|128",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|128|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|128|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|128|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|128|",
+      "out": "false"
+    },
+    {
+      "in": "contents|129|[Crimson Essence x100, Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|129",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|129|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|129|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|129|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|129|",
+      "out": "false"
+    },
+    {
+      "in": "contents|130|[999 Coins , , Coins, Contents, 999 Coins , 250,000 Coins]",
+      "out": "[999 Coins, 250,000 Coins]"
+    },
+    {
+      "in": "cost|130",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|130|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|130|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|130|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|130|",
+      "out": "false"
+    },
+    {
+      "in": "contents|131|[, Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|131",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|131|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|131|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|131|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|131|",
+      "out": "false"
+    },
+    {
+      "in": "contents|132|[Crimson Essence x100, No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|132",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|132|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|132|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|132|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|132|",
+      "out": "false"
+    },
+    {
+      "in": "contents|133|[ No more chests to open! ,  No more chests to open! , Contents, 250,000 Coins, No more chests to open!,  No more chests to open! , 250,000 Coins]",
+      "out": "[250,000 Coins, No more chests to open!, No more chests to open!, 250,000 Coins]"
+    },
+    {
+      "in": "cost|133",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|133|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|133|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|133|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|133|",
+      "out": "false"
+    },
+    {
+      "in": "contents|134|[Burning Kuudra Core]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|134",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|134|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|134|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|134|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|134|",
+      "out": "false"
+    },
+    {
+      "in": "contents|135|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|135",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|135|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|135|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|135|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|135|",
+      "out": "false"
+    },
+    {
+      "in": "contents|136|[ No more chests to open! ,  Contents ,  No more chests to open! ]",
+      "out": "[No more chests to open!]"
+    },
+    {
+      "in": "cost|136",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|136|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|136|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|136|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|136|",
+      "out": "false"
+    },
+    {
+      "in": "contents|137|[Kuudra Key, Cost, 1e5 Coins, Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|137",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|137|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|137|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|137|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|137|",
+      "out": "false"
+    },
+    {
+      "in": "contents|138|[1e5 Coins, Contents, 1e5 Coins,  No more chests to open! ]",
+      "out": "[1e5 Coins, No more chests to open!]"
+    },
+    {
+      "in": "cost|138",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|138|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|138|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|138|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|138|",
+      "out": "false"
+    },
+    {
+      "in": "contents|139|[Cost, Kuudra Key, No more chests to open!, Enchanted Book (Fatal Tempo I), Coins, No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|139",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|139|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|139|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|139|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|139|",
+      "out": "false"
+    },
+    {
+      "in": "contents|140|[1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|140",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|140|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|140|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|140|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|140|",
+      "out": "false"
+    },
+    {
+      "in": "contents|141|[1,000,000 Coins, Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|141",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|141|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|141|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|141|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|141|",
+      "out": "false"
+    },
+    {
+      "in": "contents|142|[1,000,000 Coins, , 250,000 Coins, 999 Coins , Cost]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|142",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|142|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|142|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|142|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|142|",
+      "out": "false"
+    },
+    {
+      "in": "contents|143|[Enchanted Book (Fatal Tempo I), Enchanted Book (Fatal Tempo I), Cost, Contents, 1e5 Coins, 999 Coins , 1,000,000 Coins, 999 Coins ]",
+      "out": "[1e5 Coins, 999 Coins, 1,000,000 Coins, 999 Coins]"
+    },
+    {
+      "in": "cost|143",
+      "out": "1001998.0"
+    },
+    {
+      "in": "claimed|143|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|143|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|143|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|143|",
+      "out": "false"
+    },
+    {
+      "in": "contents|144|[Contents, 1,000,000 Coins, Coins, contents]",
+      "out": "[1,000,000 Coins, Coins, contents]"
+    },
+    {
+      "in": "cost|144",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|144|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|144|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|144|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|144|",
+      "out": "false"
+    },
+    {
+      "in": "contents|145|[Burning Kuudra Core, Contents, Cost, Coins]",
+      "out": "[Cost, Coins]"
+    },
+    {
+      "in": "cost|145",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|145|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|145|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|145|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|145|",
+      "out": "false"
+    },
+    {
+      "in": "contents|146|[contents, Kuudra Key, Kuudra Key, Kuudra Key,  No more chests to open! , 1,000,000 Coins,  Contents ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|146",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|146|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|146|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|146|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|146|",
+      "out": "false"
+    },
+    {
+      "in": "contents|147|[, Coins, 999 Coins , Burning Kuudra Core, Cost, Enchanted Book (Fatal Tempo I), , Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|147",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "claimed|147|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|147|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|147|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|147|",
+      "out": "false"
+    },
+    {
+      "in": "contents|148|[ Contents ,  No more chests to open! , Enchanted Book (Fatal Tempo I)]",
+      "out": "[No more chests to open!, Enchanted Book (Fatal Tempo I)]"
+    },
+    {
+      "in": "cost|148",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|148|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|148|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|148|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|148|",
+      "out": "false"
+    },
+    {
+      "in": "contents|149|[Enchanted Book (Fatal Tempo I), Contents, Crimson Essence x100, 1,000,000 Coins, , Crimson Essence x100,  No more chests to open! , 1,000,000 Coins]",
+      "out": "[Crimson Essence x100, 1,000,000 Coins]"
+    },
+    {
+      "in": "cost|149",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|149|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|149|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|149|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|149|",
+      "out": "false"
+    },
+    {
+      "in": "contents|150|[Enchanted Book (Fatal Tempo I)]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|150",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|150|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|150|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|150|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|150|",
+      "out": "false"
+    },
+    {
+      "in": "contents|151|[250,000 Coins, Contents, No more chests to open!]",
+      "out": "[No more chests to open!]"
+    },
+    {
+      "in": "cost|151",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|151|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|151|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|151|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|151|",
+      "out": "false"
+    },
+    {
+      "in": "contents|152|[1,000,000 Coins, Contents, 1,000,000 Coins, , 1,000,000 Coins]",
+      "out": "[1,000,000 Coins]"
+    },
+    {
+      "in": "cost|152",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|152|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|152|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|152|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|152|",
+      "out": "false"
+    },
+    {
+      "in": "contents|153|[Coins, Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|153",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|153|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|153|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|153|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|153|",
+      "out": "false"
+    },
+    {
+      "in": "contents|154|[, , Coins, 1,000,000 Coins, contents,  No more chests to open! ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|154",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|154|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|154|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|154|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|154|",
+      "out": "false"
+    },
+    {
+      "in": "contents|155|[Burning Kuudra Core, 1,000,000 Coins, contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|155",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|155|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|155|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|155|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|155|",
+      "out": "false"
+    },
+    {
+      "in": "contents|156|[999 Coins , Crimson Essence x100, Enchanted Book (Fatal Tempo I),  Contents ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|156",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|156|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|156|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|156|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|156|",
+      "out": "false"
+    },
+    {
+      "in": "contents|157|[Crimson Essence x100, contents, Crimson Essence x100, ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|157",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|157|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|157|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|157|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|157|",
+      "out": "false"
+    },
+    {
+      "in": "contents|158|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|158",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|158|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|158|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|158|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|158|",
+      "out": "false"
+    },
+    {
+      "in": "contents|159|[Enchanted Book (Fatal Tempo I),  Contents , Burning Kuudra Core]",
+      "out": "[Burning Kuudra Core]"
+    },
+    {
+      "in": "cost|159",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|159|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|159|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|159|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|159|",
+      "out": "false"
+    },
+    {
+      "in": "contents|160|[contents, Burning Kuudra Core, 1e5 Coins, Burning Kuudra Core, ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|160",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|160|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|160|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|160|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|160|",
+      "out": "false"
+    },
+    {
+      "in": "contents|161|[ Contents , , Coins, Contents, Kuudra Key]",
+      "out": "[, Coins, Contents, Kuudra Key]"
+    },
+    {
+      "in": "cost|161",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|161|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|161|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|161|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|161|",
+      "out": "false"
+    },
+    {
+      "in": "contents|162|[250,000 Coins, 250,000 Coins, , Coins, 1,000,000 Coins, Cost, ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|162",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|162|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|162|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|162|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|162|",
+      "out": "false"
+    },
+    {
+      "in": "contents|163|[, Coins, 999 Coins ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|163",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|163|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|163|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|163|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|163|",
+      "out": "false"
+    },
+    {
+      "in": "contents|164|[No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|164",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|164|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|164|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|164|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|164|",
+      "out": "false"
+    },
+    {
+      "in": "contents|165|[Contents, contents]",
+      "out": "[contents]"
+    },
+    {
+      "in": "cost|165",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|165|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|165|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|165|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|165|",
+      "out": "false"
+    },
+    {
+      "in": "contents|166|[Cost,  No more chests to open! , Enchanted Book (Fatal Tempo I), Burning Kuudra Core, Contents,  No more chests to open! , No more chests to open!]",
+      "out": "[No more chests to open!, No more chests to open!]"
+    },
+    {
+      "in": "cost|166",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|166|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|166|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|166|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|166|",
+      "out": "false"
+    },
+    {
+      "in": "contents|167|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|167",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|167|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|167|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|167|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|167|",
+      "out": "false"
+    },
+    {
+      "in": "contents|168|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|168",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|168|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|168|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|168|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|168|",
+      "out": "false"
+    },
+    {
+      "in": "contents|169|[Burning Kuudra Core, Burning Kuudra Core, , Coins, 999 Coins , Crimson Essence x100, Cost, Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|169",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|169|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|169|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|169|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|169|",
+      "out": "false"
+    },
+    {
+      "in": "contents|170|[1,000,000 Coins, No more chests to open!, , Cost,  No more chests to open! , Cost]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|170",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|170|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|170|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|170|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|170|",
+      "out": "false"
+    },
+    {
+      "in": "contents|171|[Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|171",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|171|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|171|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|171|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|171|",
+      "out": "false"
+    },
+    {
+      "in": "contents|172|[Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|172",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|172|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|172|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|172|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|172|",
+      "out": "false"
+    },
+    {
+      "in": "contents|173|[Enchanted Book (Fatal Tempo I), Enchanted Book (Fatal Tempo I), 1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|173",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|173|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|173|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|173|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|173|",
+      "out": "false"
+    },
+    {
+      "in": "contents|174|[250,000 Coins, Burning Kuudra Core, Enchanted Book (Fatal Tempo I), Kuudra Key,  No more chests to open! ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|174",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|174|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|174|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|174|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|174|",
+      "out": "false"
+    },
+    {
+      "in": "contents|175|[Contents, , Coins, Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|175",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|175|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|175|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|175|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|175|",
+      "out": "false"
+    },
+    {
+      "in": "contents|176|[, contents, 250,000 Coins, Contents, 1,000,000 Coins, No more chests to open!, 999 Coins , Coins]",
+      "out": "[1,000,000 Coins, No more chests to open!, 999 Coins, Coins]"
+    },
+    {
+      "in": "cost|176",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|176|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|176|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|176|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|176|",
+      "out": "false"
+    },
+    {
+      "in": "contents|177|[No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|177",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|177|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|177|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|177|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|177|",
+      "out": "false"
+    },
+    {
+      "in": "contents|178|[250,000 Coins, 1,000,000 Coins, No more chests to open!, Crimson Essence x100, ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|178",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|178|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|178|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|178|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|178|",
+      "out": "false"
+    },
+    {
+      "in": "contents|179|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|179",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|179|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|179|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|179|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|179|",
+      "out": "false"
+    },
+    {
+      "in": "contents|180|[ Contents , Contents, Coins]",
+      "out": "[Contents, Coins]"
+    },
+    {
+      "in": "cost|180",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|180|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|180|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|180|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|180|",
+      "out": "false"
+    },
+    {
+      "in": "contents|181|[ No more chests to open! , No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|181",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|181|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|181|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|181|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|181|",
+      "out": "false"
+    },
+    {
+      "in": "contents|182|[Cost, Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|182",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|182|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|182|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|182|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|182|",
+      "out": "false"
+    },
+    {
+      "in": "contents|183|[Contents, Burning Kuudra Core, Coins, , Enchanted Book (Fatal Tempo I), Coins, contents, 1e5 Coins]",
+      "out": "[Burning Kuudra Core, Coins]"
+    },
+    {
+      "in": "cost|183",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|183|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|183|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|183|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|183|",
+      "out": "false"
+    },
+    {
+      "in": "contents|184|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|184",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|184|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|184|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|184|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|184|",
+      "out": "false"
+    },
+    {
+      "in": "contents|185|[, Coins, , Coins, ,  Contents ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|185",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|185|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|185|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|185|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|185|",
+      "out": "false"
+    },
+    {
+      "in": "contents|186|[, Coins, 1e5 Coins, 1,000,000 Coins, Crimson Essence x100, Cost]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|186",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|186|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|186|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|186|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|186|",
+      "out": "false"
+    },
+    {
+      "in": "contents|187|[Burning Kuudra Core, 1,000,000 Coins, Contents, 250,000 Coins,  Contents ,  No more chests to open! ,  Contents ]",
+      "out": "[250,000 Coins, Contents, No more chests to open!, Contents]"
+    },
+    {
+      "in": "cost|187",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|187|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|187|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|187|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|187|",
+      "out": "false"
+    },
+    {
+      "in": "contents|188|[250,000 Coins, 999 Coins , Cost, Crimson Essence x100, Burning Kuudra Core, , Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|188",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "claimed|188|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|188|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|188|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|188|",
+      "out": "false"
+    },
+    {
+      "in": "contents|189|[, 1,000,000 Coins, 999 Coins , Crimson Essence x100, 1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|189",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|189|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|189|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|189|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|189|",
+      "out": "false"
+    },
+    {
+      "in": "contents|190|[Contents, 250,000 Coins, Coins, Enchanted Book (Fatal Tempo I),  No more chests to open! , Kuudra Key]",
+      "out": "[250,000 Coins, Coins, Enchanted Book (Fatal Tempo I), No more chests to open!, Kuudra Key]"
+    },
+    {
+      "in": "cost|190",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|190|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|190|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|190|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|190|",
+      "out": "false"
+    },
+    {
+      "in": "contents|191|[999 Coins , Contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|191",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|191|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|191|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|191|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|191|",
+      "out": "false"
+    },
+    {
+      "in": "contents|192|[1,000,000 Coins, , Kuudra Key, contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|192",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|192|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|192|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|192|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|192|",
+      "out": "false"
+    },
+    {
+      "in": "contents|193|[Kuudra Key, Cost, Enchanted Book (Fatal Tempo I), contents, Kuudra Key,  No more chests to open! , No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|193",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|193|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|193|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|193|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|193|",
+      "out": "false"
+    },
+    {
+      "in": "contents|194|[1,000,000 Coins, Enchanted Book (Fatal Tempo I), , Enchanted Book (Fatal Tempo I), 250,000 Coins, , Coins, 1e5 Coins, ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|194",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|194|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|194|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|194|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|194|",
+      "out": "false"
+    },
+    {
+      "in": "contents|195|[, Coins, Coins, 1e5 Coins, Burning Kuudra Core, , Coins,  Contents , contents, 250,000 Coins]",
+      "out": "[contents, 250,000 Coins]"
+    },
+    {
+      "in": "cost|195",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|195|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|195|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|195|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|195|",
+      "out": "false"
+    },
+    {
+      "in": "contents|196|[1e5 Coins,  No more chests to open! ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|196",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|196|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|196|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|196|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|196|",
+      "out": "false"
+    },
+    {
+      "in": "contents|197|[Cost, Crimson Essence x100]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|197",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|197|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|197|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|197|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|197|",
+      "out": "false"
+    },
+    {
+      "in": "contents|198|[Enchanted Book (Fatal Tempo I), Enchanted Book (Fatal Tempo I), Crimson Essence x100, Kuudra Key, 1,000,000 Coins,  Contents , 250,000 Coins, 250,000 Coins]",
+      "out": "[250,000 Coins, 250,000 Coins]"
+    },
+    {
+      "in": "cost|198",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|198|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|198|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|198|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|198|",
+      "out": "false"
+    },
+    {
+      "in": "contents|199|[No more chests to open!, Enchanted Book (Fatal Tempo I)]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|199",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|199|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|199|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|199|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|199|",
+      "out": "false"
+    },
+    {
+      "in": "contents|200|[ No more chests to open! , 250,000 Coins, contents, Contents,  No more chests to open! ]",
+      "out": "[No more chests to open!]"
+    },
+    {
+      "in": "cost|200",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|200|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|200|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|200|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|200|",
+      "out": "false"
+    },
+    {
+      "in": "contents|201|[999 Coins , 1e5 Coins,  No more chests to open! , Cost, Cost, 1,000,000 Coins, 999 Coins ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|201",
+      "out": "1000999.0"
+    },
+    {
+      "in": "claimed|201|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|201|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|201|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|201|",
+      "out": "false"
+    },
+    {
+      "in": "contents|202|[ Contents , Burning Kuudra Core]",
+      "out": "[Burning Kuudra Core]"
+    },
+    {
+      "in": "cost|202",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|202|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|202|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|202|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|202|",
+      "out": "false"
+    },
+    {
+      "in": "contents|203|[ No more chests to open! , contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|203",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|203|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|203|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|203|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|203|",
+      "out": "false"
+    },
+    {
+      "in": "contents|204|[contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|204",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|204|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|204|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|204|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|204|",
+      "out": "false"
+    },
+    {
+      "in": "contents|205|[Cost, Cost, Kuudra Key, contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|205",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|205|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|205|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|205|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|205|",
+      "out": "false"
+    },
+    {
+      "in": "contents|206|[Cost]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|206",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|206|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|206|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|206|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|206|",
+      "out": "false"
+    },
+    {
+      "in": "contents|207|[Enchanted Book (Fatal Tempo I), No more chests to open!, Contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|207",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|207|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|207|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|207|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|207|",
+      "out": "false"
+    },
+    {
+      "in": "contents|208|[999 Coins , No more chests to open!, 250,000 Coins, 250,000 Coins, Contents, , 1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|208",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|208|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|208|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|208|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|208|",
+      "out": "false"
+    },
+    {
+      "in": "contents|209|[Kuudra Key, Cost, Burning Kuudra Core, 999 Coins , Cost, Cost, Kuudra Key, , Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|209",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "claimed|209|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|209|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|209|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|209|",
+      "out": "false"
+    },
+    {
+      "in": "contents|210|[250,000 Coins, , No more chests to open!, 1e5 Coins, Coins, Contents, No more chests to open!]",
+      "out": "[No more chests to open!]"
+    },
+    {
+      "in": "cost|210",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|210|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|210|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|210|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|210|",
+      "out": "false"
+    },
+    {
+      "in": "contents|211|[No more chests to open!, No more chests to open!, Enchanted Book (Fatal Tempo I), 1e5 Coins, Coins, Coins, 999 Coins , Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|211",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|211|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|211|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|211|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|211|",
+      "out": "false"
+    },
+    {
+      "in": "contents|212|[Contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|212",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|212|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|212|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|212|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|212|",
+      "out": "false"
+    },
+    {
+      "in": "contents|213|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|213",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|213|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|213|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|213|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|213|",
+      "out": "false"
+    },
+    {
+      "in": "contents|214|[, , Contents, 999 Coins ]",
+      "out": "[999 Coins]"
+    },
+    {
+      "in": "cost|214",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|214|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|214|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|214|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|214|",
+      "out": "false"
+    },
+    {
+      "in": "contents|215|[contents, 1e5 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|215",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|215|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|215|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|215|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|215|",
+      "out": "false"
+    },
+    {
+      "in": "contents|216|[ Contents , Contents, Crimson Essence x100, No more chests to open!, , Coins, Cost, Enchanted Book (Fatal Tempo I)]",
+      "out": "[Contents, Crimson Essence x100, No more chests to open!, , Coins, Cost, Enchanted Book (Fatal Tempo I)]"
+    },
+    {
+      "in": "cost|216",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|216|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|216|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|216|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|216|",
+      "out": "false"
+    },
+    {
+      "in": "contents|217|[999 Coins ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|217",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|217|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|217|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|217|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|217|",
+      "out": "false"
+    },
+    {
+      "in": "contents|218|[Cost, Contents, Kuudra Key, contents, , Coins, Crimson Essence x100]",
+      "out": "[Kuudra Key, contents, , Coins, Crimson Essence x100]"
+    },
+    {
+      "in": "cost|218",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "claimed|218|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|218|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|218|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|218|",
+      "out": "false"
+    },
+    {
+      "in": "contents|219|[ No more chests to open! ,  No more chests to open! ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|219",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|219|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|219|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|219|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|219|",
+      "out": "false"
+    },
+    {
+      "in": "contents|220|[Coins,  Contents , 999 Coins ,  No more chests to open! ]",
+      "out": "[999 Coins, No more chests to open!]"
+    },
+    {
+      "in": "cost|220",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|220|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|220|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|220|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|220|",
+      "out": "false"
+    },
+    {
+      "in": "contents|221|[ No more chests to open! , Kuudra Key,  Contents , Kuudra Key]",
+      "out": "[Kuudra Key]"
+    },
+    {
+      "in": "cost|221",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|221|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|221|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|221|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|221|",
+      "out": "false"
+    },
+    {
+      "in": "contents|222|[contents, No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|222",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|222|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|222|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|222|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|222|",
+      "out": "false"
+    },
+    {
+      "in": "contents|223|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|223",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|223|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|223|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|223|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|223|",
+      "out": "false"
+    },
+    {
+      "in": "contents|224|[Enchanted Book (Fatal Tempo I), 1e5 Coins, No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|224",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|224|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|224|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|224|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|224|",
+      "out": "false"
+    },
+    {
+      "in": "contents|225|[Enchanted Book (Fatal Tempo I), 999 Coins ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|225",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|225|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|225|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|225|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|225|",
+      "out": "false"
+    },
+    {
+      "in": "contents|226|[contents, , Coins, , Coins, Contents, , Coins]",
+      "out": "[, Coins]"
+    },
+    {
+      "in": "cost|226",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|226|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|226|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|226|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|226|",
+      "out": "false"
+    },
+    {
+      "in": "contents|227|[Enchanted Book (Fatal Tempo I),  No more chests to open! , Burning Kuudra Core, Contents, contents, Cost,  No more chests to open! ]",
+      "out": "[contents, Cost, No more chests to open!]"
+    },
+    {
+      "in": "cost|227",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|227|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|227|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|227|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|227|",
+      "out": "false"
+    },
+    {
+      "in": "contents|228|[1e5 Coins, 1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|228",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|228|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|228|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|228|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|228|",
+      "out": "false"
+    },
+    {
+      "in": "contents|229|[1,000,000 Coins, No more chests to open!, Burning Kuudra Core]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|229",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|229|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|229|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|229|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|229|",
+      "out": "false"
+    },
+    {
+      "in": "contents|230|[Crimson Essence x100, Contents,  Contents , 250,000 Coins, Enchanted Book (Fatal Tempo I), No more chests to open!, 1,000,000 Coins, 1e5 Coins]",
+      "out": "[Contents, 250,000 Coins, Enchanted Book (Fatal Tempo I), No more chests to open!, 1,000,000 Coins, 1e5 Coins]"
+    },
+    {
+      "in": "cost|230",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|230|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|230|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|230|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|230|",
+      "out": "false"
+    },
+    {
+      "in": "contents|231|[Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|231",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|231|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|231|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|231|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|231|",
+      "out": "false"
+    },
+    {
+      "in": "contents|232|[Crimson Essence x100, Kuudra Key, 999 Coins ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|232",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|232|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|232|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|232|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|232|",
+      "out": "false"
+    },
+    {
+      "in": "contents|233|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|233",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|233|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|233|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|233|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|233|",
+      "out": "false"
+    },
+    {
+      "in": "contents|234|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|234",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|234|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|234|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|234|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|234|",
+      "out": "false"
+    },
+    {
+      "in": "contents|235|[ Contents ,  Contents , Cost, Burning Kuudra Core, contents]",
+      "out": "[Contents, Cost, Burning Kuudra Core, contents]"
+    },
+    {
+      "in": "cost|235",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|235|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|235|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|235|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|235|",
+      "out": "false"
+    },
+    {
+      "in": "contents|236|[Cost, , , contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|236",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|236|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|236|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|236|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|236|",
+      "out": "false"
+    },
+    {
+      "in": "contents|237|[Kuudra Key, 1,000,000 Coins, Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|237",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|237|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|237|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|237|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|237|",
+      "out": "false"
+    },
+    {
+      "in": "contents|238|[Kuudra Key, 1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|238",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|238|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|238|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|238|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|238|",
+      "out": "false"
+    },
+    {
+      "in": "contents|239|[ No more chests to open! ,  Contents ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|239",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|239|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|239|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|239|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|239|",
+      "out": "false"
+    },
+    {
+      "in": "contents|240|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|240",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|240|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|240|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|240|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|240|",
+      "out": "false"
+    },
+    {
+      "in": "contents|241|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|241",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|241|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|241|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|241|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|241|",
+      "out": "false"
+    },
+    {
+      "in": "contents|242|[Burning Kuudra Core, Coins, Contents]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|242",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|242|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|242|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|242|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|242|",
+      "out": "false"
+    },
+    {
+      "in": "contents|243|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|243",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|243|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|243|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|243|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|243|",
+      "out": "false"
+    },
+    {
+      "in": "contents|244|[, Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|244",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|244|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|244|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|244|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|244|",
+      "out": "false"
+    },
+    {
+      "in": "contents|245|[Coins, , Coins, Kuudra Key, Cost]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|245",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|245|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|245|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|245|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|245|",
+      "out": "false"
+    },
+    {
+      "in": "contents|246|[, Coins,  No more chests to open! , No more chests to open!, , Coins, Contents, 1,000,000 Coins, , Coins]",
+      "out": "[1,000,000 Coins, , Coins]"
+    },
+    {
+      "in": "cost|246",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|246|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|246|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|246|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|246|",
+      "out": "false"
+    },
+    {
+      "in": "contents|247|[Coins, , , Coins,  Contents , 1e5 Coins, Kuudra Key]",
+      "out": "[1e5 Coins, Kuudra Key]"
+    },
+    {
+      "in": "cost|247",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|247|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|247|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|247|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|247|",
+      "out": "false"
+    },
+    {
+      "in": "contents|248|[1,000,000 Coins, , Cost, Coins, Cost,  No more chests to open! ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|248",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|248|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|248|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|248|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|248|",
+      "out": "false"
+    },
+    {
+      "in": "contents|249|[, 1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|249",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|249|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|249|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|249|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|249|",
+      "out": "false"
+    },
+    {
+      "in": "contents|250|[Enchanted Book (Fatal Tempo I), Contents,  No more chests to open! , Cost]",
+      "out": "[No more chests to open!, Cost]"
+    },
+    {
+      "in": "cost|250",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|250|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|250|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|250|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|250|",
+      "out": "false"
+    },
+    {
+      "in": "contents|251|[Cost, Coins, , , 999 Coins , 1,000,000 Coins, No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|251",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|251|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|251|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|251|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|251|",
+      "out": "false"
+    },
+    {
+      "in": "contents|252|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|252",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|252|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|252|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|252|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|252|",
+      "out": "false"
+    },
+    {
+      "in": "contents|253|[1,000,000 Coins, Coins, Burning Kuudra Core, contents, , Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|253",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|253|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|253|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|253|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|253|",
+      "out": "false"
+    },
+    {
+      "in": "contents|254|[1,000,000 Coins, 999 Coins ,  Contents , Crimson Essence x100]",
+      "out": "[Crimson Essence x100]"
+    },
+    {
+      "in": "cost|254",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|254|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|254|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|254|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|254|",
+      "out": "false"
+    },
+    {
+      "in": "contents|255|[Crimson Essence x100, ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|255",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|255|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|255|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|255|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|255|",
+      "out": "false"
+    },
+    {
+      "in": "contents|256|[Contents, Cost, 999 Coins , 999 Coins , Crimson Essence x100]",
+      "out": "[Cost, 999 Coins, 999 Coins, Crimson Essence x100]"
+    },
+    {
+      "in": "cost|256",
+      "out": "1998.0"
+    },
+    {
+      "in": "claimed|256|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|256|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|256|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|256|",
+      "out": "false"
+    },
+    {
+      "in": "contents|257|[Burning Kuudra Core, Contents, , Coins, contents, Contents, Cost, 1e5 Coins, 999 Coins ]",
+      "out": "[, Coins, contents, Contents, Cost, 1e5 Coins, 999 Coins]"
+    },
+    {
+      "in": "cost|257",
+      "out": "999.0"
+    },
+    {
+      "in": "claimed|257|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|257|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|257|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|257|",
+      "out": "false"
+    },
+    {
+      "in": "contents|258|[250,000 Coins, Crimson Essence x100, contents, 1e5 Coins, Burning Kuudra Core, 1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|258",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|258|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|258|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|258|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|258|",
+      "out": "false"
+    },
+    {
+      "in": "contents|259|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|259",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|259|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|259|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|259|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|259|",
+      "out": "false"
+    },
+    {
+      "in": "contents|260|[250,000 Coins, Kuudra Key, Cost, 1e5 Coins, 250,000 Coins, 1e5 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|260",
+      "out": "250000.0"
+    },
+    {
+      "in": "claimed|260|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|260|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|260|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|260|",
+      "out": "false"
+    },
+    {
+      "in": "contents|261|[ No more chests to open! , Enchanted Book (Fatal Tempo I), contents, Enchanted Book (Fatal Tempo I), Cost, Kuudra Key, 1,000,000 Coins, , Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|261",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "claimed|261|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|261|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|261|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|261|",
+      "out": "false"
+    },
+    {
+      "in": "contents|262|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|262",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|262|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|262|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|262|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|262|",
+      "out": "false"
+    },
+    {
+      "in": "contents|263|[Crimson Essence x100,  No more chests to open! , Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|263",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|263|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|263|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|263|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|263|",
+      "out": "false"
+    },
+    {
+      "in": "contents|264|[No more chests to open!, 250,000 Coins, , Crimson Essence x100]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|264",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|264|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|264|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|264|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|264|",
+      "out": "false"
+    },
+    {
+      "in": "contents|265|[999 Coins , No more chests to open!, Contents, Burning Kuudra Core,  No more chests to open! ]",
+      "out": "[Burning Kuudra Core, No more chests to open!]"
+    },
+    {
+      "in": "cost|265",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|265|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|265|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|265|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|265|",
+      "out": "false"
+    },
+    {
+      "in": "contents|266|[, 1e5 Coins, Coins, contents, 999 Coins , Enchanted Book (Fatal Tempo I),  No more chests to open! ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|266",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|266|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|266|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|266|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|266|",
+      "out": "false"
+    },
+    {
+      "in": "contents|267|[250,000 Coins, 1,000,000 Coins, Cost, Crimson Essence x100]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|267",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|267|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|267|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|267|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|267|",
+      "out": "false"
+    },
+    {
+      "in": "contents|268|[, Kuudra Key, Enchanted Book (Fatal Tempo I)]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|268",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|268|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|268|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|268|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|268|",
+      "out": "false"
+    },
+    {
+      "in": "contents|269|[, 999 Coins , Cost, No more chests to open!, Crimson Essence x100]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|269",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|269|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|269|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|269|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|269|",
+      "out": "false"
+    },
+    {
+      "in": "contents|270|[contents, Cost, Coins, 250,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|270",
+      "out": "250000.0"
+    },
+    {
+      "in": "claimed|270|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|270|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|270|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|270|",
+      "out": "false"
+    },
+    {
+      "in": "contents|271|[ Contents ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|271",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|271|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|271|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|271|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|271|",
+      "out": "false"
+    },
+    {
+      "in": "contents|272|[Contents,  Contents , 250,000 Coins]",
+      "out": "[Contents, 250,000 Coins]"
+    },
+    {
+      "in": "cost|272",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|272|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|272|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|272|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|272|",
+      "out": "false"
+    },
+    {
+      "in": "contents|273|[Coins, No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|273",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|273|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|273|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|273|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|273|",
+      "out": "false"
+    },
+    {
+      "in": "contents|274|[contents, 250,000 Coins, 1,000,000 Coins, , Coins, 1e5 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|274",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|274|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|274|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|274|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|274|",
+      "out": "false"
+    },
+    {
+      "in": "contents|275|[250,000 Coins, Crimson Essence x100]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|275",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|275|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|275|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|275|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|275|",
+      "out": "false"
+    },
+    {
+      "in": "contents|276|[1e5 Coins,  No more chests to open! , 1e5 Coins, Contents, Contents]",
+      "out": "[Contents]"
+    },
+    {
+      "in": "cost|276",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|276|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|276|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|276|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|276|",
+      "out": "false"
+    },
+    {
+      "in": "contents|277|[Burning Kuudra Core, 250,000 Coins, Burning Kuudra Core, , Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|277",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|277|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|277|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|277|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|277|",
+      "out": "false"
+    },
+    {
+      "in": "contents|278|[ No more chests to open! , No more chests to open!, Coins, Kuudra Key, , Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|278",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|278|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|278|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|278|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|278|",
+      "out": "false"
+    },
+    {
+      "in": "contents|279|[Coins, No more chests to open!, ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|279",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|279|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|279|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|279|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|279|",
+      "out": "false"
+    },
+    {
+      "in": "contents|280|[Contents, Crimson Essence x100, 999 Coins , Crimson Essence x100,  No more chests to open! , Coins]",
+      "out": "[Crimson Essence x100, 999 Coins, Crimson Essence x100, No more chests to open!, Coins]"
+    },
+    {
+      "in": "cost|280",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|280|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|280|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|280|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|280|",
+      "out": "false"
+    },
+    {
+      "in": "contents|281|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|281",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|281|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|281|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|281|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|281|",
+      "out": "false"
+    },
+    {
+      "in": "contents|282|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|282",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|282|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|282|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|282|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|282|",
+      "out": "false"
+    },
+    {
+      "in": "contents|283|[, 1e5 Coins, 250,000 Coins, , , Coins, 1e5 Coins, contents, , Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|283",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|283|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|283|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|283|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|283|",
+      "out": "false"
+    },
+    {
+      "in": "contents|284|[Enchanted Book (Fatal Tempo I), Coins, Enchanted Book (Fatal Tempo I),  No more chests to open! ,  Contents , Contents, 250,000 Coins, , Coins]",
+      "out": "[Contents, 250,000 Coins, , Coins]"
+    },
+    {
+      "in": "cost|284",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|284|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|284|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|284|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|284|",
+      "out": "false"
+    },
+    {
+      "in": "contents|285|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|285",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|285|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|285|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|285|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|285|",
+      "out": "false"
+    },
+    {
+      "in": "contents|286|[]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|286",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|286|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|286|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|286|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|286|",
+      "out": "false"
+    },
+    {
+      "in": "contents|287|[Coins, Cost, Crimson Essence x100, Crimson Essence x100, , Coins,  No more chests to open! , Enchanted Book (Fatal Tempo I), No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|287",
+      "out": "THROWS NumberFormatException"
+    },
+    {
+      "in": "claimed|287|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|287|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|287|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|287|",
+      "out": "false"
+    },
+    {
+      "in": "contents|288|[ No more chests to open! , Burning Kuudra Core, Enchanted Book (Fatal Tempo I)]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|288",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|288|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|288|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|288|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|288|",
+      "out": "false"
+    },
+    {
+      "in": "contents|289|[Cost,  No more chests to open! ,  No more chests to open! ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|289",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|289|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|289|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|289|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|289|",
+      "out": "false"
+    },
+    {
+      "in": "contents|290|[No more chests to open!, , contents, 999 Coins , Crimson Essence x100, ]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|290",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|290|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|290|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|290|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|290|",
+      "out": "false"
+    },
+    {
+      "in": "contents|291|[No more chests to open!, contents, Enchanted Book (Fatal Tempo I), Kuudra Key]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|291",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|291|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|291|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|291|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|291|",
+      "out": "false"
+    },
+    {
+      "in": "contents|292|[999 Coins , , Coins,  Contents , Cost, Cost,  No more chests to open! ]",
+      "out": "[Cost, Cost, No more chests to open!]"
+    },
+    {
+      "in": "cost|292",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|292|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|292|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|292|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|292|",
+      "out": "false"
+    },
+    {
+      "in": "contents|293|[contents, Kuudra Key, , Coins, 250,000 Coins, No more chests to open!, No more chests to open!, Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|293",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|293|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|293|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|293|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|293|",
+      "out": "false"
+    },
+    {
+      "in": "contents|294|[ Contents , Cost, contents, Kuudra Key, Kuudra Key, contents, Burning Kuudra Core]",
+      "out": "[Cost, contents, Kuudra Key, Kuudra Key, contents, Burning Kuudra Core]"
+    },
+    {
+      "in": "cost|294",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|294|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|294|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|294|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|294|",
+      "out": "false"
+    },
+    {
+      "in": "contents|295|[Crimson Essence x100, Contents,  No more chests to open! , Contents, 1e5 Coins, 1,000,000 Coins, 250,000 Coins, 250,000 Coins]",
+      "out": "[No more chests to open!, Contents, 1e5 Coins, 1,000,000 Coins, 250,000 Coins, 250,000 Coins]"
+    },
+    {
+      "in": "cost|295",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|295|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|295|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|295|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|295|",
+      "out": "false"
+    },
+    {
+      "in": "contents|296|[Crimson Essence x100, 250,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|296",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|296|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|296|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|296|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|296|",
+      "out": "false"
+    },
+    {
+      "in": "contents|297|[Kuudra Key, , No more chests to open!]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|297",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|297|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|297|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|297|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|297|",
+      "out": "false"
+    },
+    {
+      "in": "contents|298|[, Crimson Essence x100, Kuudra Key, Burning Kuudra Core, No more chests to open!, 1,000,000 Coins]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|298",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|298|Kuudra's Hollow",
+      "out": "true"
+    },
+    {
+      "in": "claimed|298|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|298|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|298|",
+      "out": "false"
+    },
+    {
+      "in": "contents|299|[1e5 Coins, Enchanted Book (Fatal Tempo I), Crimson Essence x100]",
+      "out": "[]"
+    },
+    {
+      "in": "cost|299",
+      "out": "0.0"
+    },
+    {
+      "in": "claimed|299|Kuudra's Hollow",
+      "out": "false"
+    },
+    {
+      "in": "claimed|299|Kuudra's Hollow ",
+      "out": "false"
+    },
+    {
+      "in": "claimed|299|Paid Chest",
+      "out": "false"
+    },
+    {
+      "in": "claimed|299|",
+      "out": "false"
+    }
+  ]
+}

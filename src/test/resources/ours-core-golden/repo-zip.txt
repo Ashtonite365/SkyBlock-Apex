@@ -1,0 +1,2 @@
+plain	ERR:FileSystemException:/tmp/apex-ours-zip#/out-plain: Is a directory	[items/A.json=a, x/y/z.txt=z]
+slip	ok	[ok.txt=ok]

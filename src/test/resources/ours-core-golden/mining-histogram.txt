@@ -1,0 +1,13 @@
+empty size=0 avg=null agg=null oldest=0 latest=true
+rec 1.0@50 size=1 avg=null avg10=null oldest=50 latest=50
+rec 2.0@40 size=2 avg=0.30 avg10=3.00 oldest=50 latest=40
+rec 4.0@30 size=3 avg=0.35 avg10=3.50 oldest=50 latest=30
+rec 8.0@20 size=4 avg=0.50 avg10=5.00 oldest=50 latest=20
+rec 16.0@10 size=5 avg=0.77 avg10=7.75 oldest=50 latest=10
+rec 32.0@5 size=5 avg=1.77 avg10=17.71 oldest=40 latest=5
+agg ,2.0,4.0,8.0,16.0,32.0 35
+old record size=5
+ties abc size=3
+single avg=null
+zero size=0
+farPast size=0

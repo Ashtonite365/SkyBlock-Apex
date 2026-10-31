@@ -1,0 +1,17 @@
+0 FARMING experienceSkillFarming yellow ROOKIE_HOE xp=1.5 max=60 ladder=60:[50, 125, 200, 300, 500]:111672425
+1 FORAGING experienceSkillForaging brown TREECAPITATOR_AXE xp=10.0 max=57 ladder=60:[50, 125, 200, 300, 500]:111672425
+2 MINING experienceSkillMining light_gray DIAMOND_PICKAXE xp=11.0 max=60 ladder=60:[50, 125, 200, 300, 500]:111672425
+3 ALCHEMY experienceSkillAlchemy purple BREWING_STAND xp=5.0 max=50 ladder=60:[50, 125, 200, 300, 500]:111672425
+4 TAMING experienceSkillTaming green SUPER_EGG xp=7.0 max=60 ladder=60:[50, 125, 200, 300, 500]:111672425
+5 FISHING experienceSkillFishing blue FARMER_ROD xp=9.0 max=50 ladder=60:[50, 125, 200, 300, 500]:111672425
+6 RUNECRAFTING experienceSkillRunecrafting pink MUSIC_RUNE;1 xp=3.0 max=25 ladder=25:[50, 100, 125, 160, 200]:94450
+7 CARPENTRY experienceSkillCarpentry orange WORKBENCH xp=4.0 max=50 ladder=60:[50, 125, 200, 300, 500]:111672425
+8 COMBAT experienceSkillCombat red UNDEAD_SWORD xp=6.0 max=60 ladder=60:[50, 125, 200, 300, 500]:111672425
+9 SOCIAL experienceSkillSocial white EGG_HUNT xp=20.0 max=25 ladder=25:[50, 100, 150, 250, 500]:272800
+10 ENCHANTING experienceSkillEnchanting magenta ENCHANTMENT_TABLE xp=8.0 max=60 ladder=60:[50, 125, 200, 300, 500]:111672425
+0 FARMING FARMING yellow ROOKIE_HOE
+1 FORAGING FORAGING brown TREECAPITATOR_AXE
+2 MINING MINING light_gray DIAMOND_PICKAXE
+3 FISHING FISHING blue FARMER_ROD
+4 COMBAT COMBAT red UNDEAD_SWORD
+5 RIFT null purple SKYBLOCK_MOTE

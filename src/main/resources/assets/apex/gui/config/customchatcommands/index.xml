@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns="http://notenoughupdates.org/moulconfig">
+	<Center>
+		<Row>
+			<Tabs>
+				<Tab>
+					<Tab.Header>
+						<Text text="Custom Chat Commands"/>
+					</Tab.Header>
+					<Tab.Body>
+						<Column>
+							<Text text="This could be potentially bannable, use at your own risk." width="300"/>
+							<Fragment value="apex:gui/config/customchatcommands/wheel.xml" bind="@wheels"/>
+						</Column>
+					</Tab.Body>
+				</Tab>
+			</Tabs>
+			<Meta beforeClose="@beforeClose"/>
+		</Row>
+	</Center>
+</Root>

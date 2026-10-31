@@ -1,0 +1,6 @@
+id=0 title=Bank Withdrawal
+slot=10 name=Everything in the account lore=[Amount to withdraw: 373,567,481, , Click to withdraw!]
+slot=12 name=Half the account lore=[Amount to withdraw: 186,783,740, , Click to withdraw!]
+slot=14 name=Withdraw 20% lore=[Amount to withdraw: 74,713,496, , Click to withdraw!]
+slot=16 name=Specific amount lore=[, Click to withdraw!]
+slot=31 name=Go Back lore=[To Personal Bank Account]

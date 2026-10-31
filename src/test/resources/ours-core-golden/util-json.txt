@@ -1,0 +1,135 @@
+conv null -> gson=null kotlin=null rt=true
+ops null str=Optional.empty num=Optional[null] bool=Optional.empty stream=Optional.empty map=Optional.empty errs=[Not a string: null, -, Not a boolean: null, Not a json array: null, Not a JSON object: null]
+toJsonOps null null
+remove null null
+mergeList null ERR:NoSuchElementException
+mergeMap null "key" E:key is not a string: "key"
+mergeMap null 3 ERR:NoSuchElementException
+mergeMap null null ERR:NoSuchElementException
+conv 1 -> gson=1 kotlin=1 rt=true
+ops 1 str=Optional.empty num=Optional[1] bool=Optional.empty stream=Optional.empty map=Optional.empty errs=[Not a string: 1, -, Not a boolean: 1, Not a json array: 1, Not a JSON object: 1]
+toJsonOps 1 ERR:IllegalStateException
+remove 1 1
+mergeList 1 E:mergeToList called with not a list: 1
+mergeMap 1 "key" E:key is not a string: "key"
+mergeMap 1 3 E:mergeToMap called with not a map: 1
+mergeMap 1 null E:mergeToMap called with not a map: 1
+conv 1.5 -> gson=1.5 kotlin=1.5 rt=true
+ops 1.5 str=Optional.empty num=Optional[1.5] bool=Optional.empty stream=Optional.empty map=Optional.empty errs=[Not a string: 1.5, -, Not a boolean: 1.5, Not a json array: 1.5, Not a JSON object: 1.5]
+toJsonOps 1.5 ERR:IllegalStateException
+remove 1.5 1.5
+mergeList 1.5 E:mergeToList called with not a list: 1.5
+mergeMap 1.5 "key" E:key is not a string: "key"
+mergeMap 1.5 3 E:mergeToMap called with not a map: 1.5
+mergeMap 1.5 null E:mergeToMap called with not a map: 1.5
+conv -0 -> gson=-0 kotlin=-0 rt=true
+ops -0 str=Optional.empty num=Optional[-0] bool=Optional.empty stream=Optional.empty map=Optional.empty errs=[Not a string: -0, -, Not a boolean: -0, Not a json array: -0, Not a JSON object: -0]
+toJsonOps -0 ERR:IllegalStateException
+remove -0 -0
+mergeList -0 E:mergeToList called with not a list: -0
+mergeMap -0 "key" E:key is not a string: "key"
+mergeMap -0 3 E:mergeToMap called with not a map: -0
+mergeMap -0 null E:mergeToMap called with not a map: -0
+conv 1e3 -> gson=1e3 kotlin=1e3 rt=true
+ops 1e3 str=Optional.empty num=Optional[1e3] bool=Optional.empty stream=Optional.empty map=Optional.empty errs=[Not a string: 1e3, -, Not a boolean: 1e3, Not a json array: 1e3, Not a JSON object: 1e3]
+toJsonOps 1e3 ERR:IllegalStateException
+remove 1e3 1e3
+mergeList 1e3 E:mergeToList called with not a list: 1e3
+mergeMap 1e3 "key" E:key is not a string: "key"
+mergeMap 1e3 3 E:mergeToMap called with not a map: 1e3
+mergeMap 1e3 null E:mergeToMap called with not a map: 1e3
+conv 12345678901234567890 -> gson=12345678901234567890 kotlin=12345678901234567890 rt=true
+ops 12345678901234567890 str=Optional.empty num=Optional[12345678901234567890] bool=Optional.empty stream=Optional.empty map=Optional.empty errs=[Not a string: 12345678901234567890, -, Not a boolean: 12345678901234567890, Not a json array: 12345678901234567890, Not a JSON object: 12345678901234567890]
+toJsonOps 12345678901234567890 ERR:IllegalStateException
+remove 12345678901234567890 12345678901234567890
+mergeList 12345678901234567890 E:mergeToList called with not a list: 12345678901234567890
+mergeMap 12345678901234567890 "key" E:key is not a string: "key"
+mergeMap 12345678901234567890 3 E:mergeToMap called with not a map: 12345678901234567890
+mergeMap 12345678901234567890 null E:mergeToMap called with not a map: 12345678901234567890
+conv "s" -> gson="s" kotlin="s" rt=true
+ops "s" str=Optional[s] num=Optional.empty bool=Optional.empty stream=Optional.empty map=Optional.empty errs=[-, not a number: "s", Not a boolean: "s", Not a json array: "s", Not a JSON object: "s"]
+toJsonOps "s" "s"
+remove "s" "s"
+mergeList "s" E:mergeToList called with not a list: "s"
+mergeMap "s" "key" E:key is not a string: "key"
+mergeMap "s" 3 E:mergeToMap called with not a map: "s"
+mergeMap "s" null E:mergeToMap called with not a map: "s"
+conv "1" -> gson="1" kotlin="1" rt=true
+ops "1" str=Optional[1] num=Optional.empty bool=Optional.empty stream=Optional.empty map=Optional.empty errs=[-, not a number: "1", Not a boolean: "1", Not a json array: "1", Not a JSON object: "1"]
+toJsonOps "1" "1"
+remove "1" "1"
+mergeList "1" E:mergeToList called with not a list: "1"
+mergeMap "1" "key" E:key is not a string: "key"
+mergeMap "1" 3 E:mergeToMap called with not a map: "1"
+mergeMap "1" null E:mergeToMap called with not a map: "1"
+conv true -> gson=true kotlin=true rt=true
+ops true str=Optional.empty num=Optional.empty bool=Optional[true] stream=Optional.empty map=Optional.empty errs=[Not a string: true, not a number: true, -, Not a json array: true, Not a JSON object: true]
+toJsonOps true true
+remove true true
+mergeList true E:mergeToList called with not a list: true
+mergeMap true "key" E:key is not a string: "key"
+mergeMap true 3 E:mergeToMap called with not a map: true
+mergeMap true null E:mergeToMap called with not a map: true
+conv false -> gson=false kotlin=false rt=true
+ops false str=Optional.empty num=Optional.empty bool=Optional[false] stream=Optional.empty map=Optional.empty errs=[Not a string: false, not a number: false, -, Not a json array: false, Not a JSON object: false]
+toJsonOps false false
+remove false false
+mergeList false E:mergeToList called with not a list: false
+mergeMap false "key" E:key is not a string: "key"
+mergeMap false 3 E:mergeToMap called with not a map: false
+mergeMap false null E:mergeToMap called with not a map: false
+conv "true" -> gson="true" kotlin="true" rt=true
+ops "true" str=Optional[true] num=Optional.empty bool=Optional[true] stream=Optional.empty map=Optional.empty errs=[-, not a number: "true", -, Not a json array: "true", Not a JSON object: "true"]
+toJsonOps "true" "true"
+remove "true" "true"
+mergeList "true" E:mergeToList called with not a list: "true"
+mergeMap "true" "key" E:key is not a string: "key"
+mergeMap "true" 3 E:mergeToMap called with not a map: "true"
+mergeMap "true" null E:mergeToMap called with not a map: "true"
+conv [] -> gson=[] kotlin=[] rt=true
+ops [] str=Optional.empty num=Optional.empty bool=Optional.empty stream=Optional[[]] map=Optional.empty errs=[Not a string: [], not a number: [], Not a boolean: [], -, Not a JSON object: []]
+toJsonOps [] []
+remove [] []
+mergeList [] ERR:NoSuchElementException
+mergeMap [] "key" E:key is not a string: "key"
+mergeMap [] 3 E:mergeToMap called with not a map: []
+mergeMap [] null E:mergeToMap called with not a map: []
+conv {} -> gson={} kotlin={} rt=true
+ops {} str=Optional.empty num=Optional.empty bool=Optional.empty stream=Optional.empty map=Optional[[]] errs=[Not a string: {}, not a number: {}, Not a boolean: {}, Not a json array: {}, -]
+toJsonOps {} {}
+remove {} {}
+mergeList {} E:mergeToList called with not a list: {}
+mergeMap {} "key" E:key is not a string: "key"
+mergeMap {} 3 ERR:NoSuchElementException
+mergeMap {} null ERR:NoSuchElementException
+conv [1,"a",null,true,{"k":[2.0]}] -> gson=[1,"a",null,true,{"k":[2.0]}] kotlin=[1,"a",null,true,{"k":[2.0]}] rt=true
+ops [1,"a",null,true,{"k":[2.0]}] str=Optional.empty num=Optional.empty bool=Optional.empty stream=Optional[[1, "a", null, true, {"k":[2.0]}]] map=Optional.empty errs=[Not a string: [1,"a",null,true,{"k":[2.0]}], not a number: [1,"a",null,true,{"k":[2.0]}], Not a boolean: [1,"a",null,true,{"k":[2.0]}], -, Not a JSON object: [1,"a",null,true,{"k":[2.0]}]]
+toJsonOps [1,"a",null,true,{"k":[2.0]}] ERR:IllegalStateException
+remove [1,"a",null,true,{"k":[2.0]}] [1,"a",null,true,{"k":[2.0]}]
+mergeList [1,"a",null,true,{"k":[2.0]}] ERR:NoSuchElementException
+mergeMap [1,"a",null,true,{"k":[2.0]}] "key" E:key is not a string: "key"
+mergeMap [1,"a",null,true,{"k":[2.0]}] 3 E:mergeToMap called with not a map: [1,"a",null,true,{"k":[2.0]}]
+mergeMap [1,"a",null,true,{"k":[2.0]}] null E:mergeToMap called with not a map: [1,"a",null,true,{"k":[2.0]}]
+conv {"b":1,"a":{"c":null,"d":[]}} -> gson={"b":1,"a":{"c":null,"d":[]}} kotlin={"b":1,"a":{"c":null,"d":[]}} rt=true
+ops {"b":1,"a":{"c":null,"d":[]}} str=Optional.empty num=Optional.empty bool=Optional.empty stream=Optional.empty map=Optional[["b"=1, "a"={"c":null,"d":[]}]] errs=[Not a string: {"b":1,"a":{"c":null,"d":[]}}, not a number: {"b":1,"a":{"c":null,"d":[]}}, Not a boolean: {"b":1,"a":{"c":null,"d":[]}}, Not a json array: {"b":1,"a":{"c":null,"d":[]}}, -]
+toJsonOps {"b":1,"a":{"c":null,"d":[]}} ERR:IllegalStateException
+remove {"b":1,"a":{"c":null,"d":[]}} {"b":1}
+mergeList {"b":1,"a":{"c":null,"d":[]}} E:mergeToList called with not a list: {"b":1,"a":{"c":null,"d":[]}}
+mergeMap {"b":1,"a":{"c":null,"d":[]}} "key" E:key is not a string: "key"
+mergeMap {"b":1,"a":{"c":null,"d":[]}} 3 ERR:NoSuchElementException
+mergeMap {"b":1,"a":{"c":null,"d":[]}} null ERR:NoSuchElementException
+create null 3 2.5 "x" true [1,null] {"a":1,"5":2}
+codecEncode E:key is not a string: "name"
+codecDecode Optional[Rec(name=y, n=2, tags=[a])]
+codecDecodeBad Optional[No key tags in MapLike[{"name"=1}]; No key n in MapLike[{"name"=1}]; Not a string: 1]
+listCodec Optional[[1,2,3]] Optional[[4, 5]]
+dashless "0123abcd456789ef0123456789abcdef" 0123abcd-4567-89ef-0123-456789abcdef 0123abcd-4567-89ef-0123-456789abcdef ERR:StringIndexOutOfBoundsException DashlessUUIDSerializer STRING
+instant 1234567 1970-01-01T00:00:00.099Z InstantAsLongSerializer LONG
+lenient "0123abcd456789ef0123456789abcdef" ERR:NoSuchElementException
+lenient "0123abcd-4567-89ef-0123-456789abcdef" ERR:NoSuchElementException
+lenient [19114957,1166510575,19088743,-1985229329] ERR:NoSuchElementException
+lenient "nope" E:Failed to parse either. First: Not a json array: "nope"; Second: Invalid UUID nope: Invalid UUID string: nope
+lenient 3 E:Failed to parse either. First: Not a json array: 3; Second: Not a string: 3
+lenientEnc Optional[[19114957,1164413423,19088743,-1985229329]]
+codecSer ERR:IllegalStateException Rec(name=z, n=1, tags=[]) kotlinx.serialization.json.JsonElement ERR:IllegalStateException
+arrays [1,"b"] ["a","b"] []

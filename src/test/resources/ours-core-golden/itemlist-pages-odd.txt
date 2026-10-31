@@ -1,0 +1,9 @@
+== apex:box_contents BoxPageRef(box=NO_SUCH_BOX, page=0)
+inputs []
+outputs []
+craft null
+== apex:pet_rarities PetBaseRef(base=NO_SUCH_PET)
+inputs []
+outputs []
+craft null
+BODY_TOP 24

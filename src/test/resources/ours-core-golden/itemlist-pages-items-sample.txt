@@ -1,0 +1,271 @@
+data AATROX_BADPHONE []
+  line 0 "§lCrafting / recipes" -
+  line 5 "§b> No live price" act
+run line 5 -> [tab.prices AATROX_BADPHONE]
+click 4,34,162x10
+data ARMADILLO;0 []
+  line 0 "§lHow to obtain" -
+  line 5 "§lMob drops" -
+outputs [[ARMADILLO;0x1*0rnullpPetData(rarity=COMMON, petId=ARMADILLO, exp=0.0, isStub=true)[]]]
+item 4,4 DISPLAY ARMADILLO;0x1*0rnullpPetData(rarity=COMMON, petId=ARMADILLO, exp=0.0, isStub=true)[]
+outputs []
+== apex:how_to_get ItemPageRef(itemId=BEACON_5)
+  line 2 "§lMob drops" -
+outputs []
+item 4,4 DISPLAY BEACON_5x1*0rnullpnull[]
+outputs []
+== apex:how_to_get ItemPageRef(itemId=BLUE_WHALE;1)
+  line 2 "§b> Kat Upgrade (1)" act
+inputs []
+run line 6 -> [tab.prices BLUE_WHALE;1]
+click 4,34,162x10
+data CAMPFIRE_TALISMAN_20 []
+  line 0 "§lHow to obtain" -
+  line 5 "§lMob drops" -
+outputs [[CAMPFIRE_TALISMAN_20x1*0rnullpnull[]]]
+item 4,4 DISPLAY CAMPFIRE_TALISMAN_20x1*0rnullpnull[]
+outputs []
+== apex:how_to_get ItemPageRef(itemId=CHICKEN_GENERATOR_8)
+  line 2 "§lMob drops" -
+outputs []
+item 4,4 DISPLAY CHICKEN_GENERATOR_8x1*0rnullpnull[]
+outputs []
+== apex:how_to_get ItemPageRef(itemId=COW_GENERATOR_8)
+  line 2 "§lMob drops" -
+outputs []
+item 4,4 DISPLAY COW_GENERATOR_8x1*0rnullpnull[]
+outputs []
+== apex:how_to_get ItemPageRef(itemId=DESERT_BIOME_STICK)
+  line 2 "§lMob drops" -
+outputs []
+item 4,4 DISPLAY DESERT_BIOME_STICKx1*0rnullpnull[]
+outputs []
+== apex:how_to_get ItemPageRef(itemId=DWARVEN_MINES_PORTAL)
+  line 2 "§b> Open wiki page" act
+  line 7 "§lBazaar / AH" -
+run line 2 -> [] ERR:NullPointerException
+text 4,34 w162 ["§b> How to get this item"]
+run click 4,34,162x10 -> [tab.howto DWARVEN_MINES_PORTAL]
+scroll 4,24,162x134 7
+  line 4 "§b> Beetle §7(100%)" act
+craft null
+== apex:live_price ItemPageRef(itemId=ENCHANTED_BROWN_MUSHROOM)
+inputs []
+lines ENDER_PORTAL_FRAME ["§lHow to obtain", "§b> Open wiki page"*, "§lCrafting / recipes", "§7No recipe produces this item", "§lMob drops", "§7Not dropped by any known mob", "§lBazaar / AH", "§b> No live price"*]
+  line 1 "§b> Open wiki page" act
+  line 6 "§lBazaar / AH" -
+run line 1 -> [] ERR:NullPointerException
+text 4,34 w162 ["§b> How to get this item"]
+run click 4,34,162x10 -> [tab.howto ENDER_PORTAL_FRAME]
+scroll 4,24,162x134 6
+  line 4 "§lBazaar / AH" -
+run line 1 -> [nav.recipes FENCE]
+text 4,34 w162 ["§b> How to get this item"]
+run click 4,34,162x10 -> [tab.howto FENCE]
+scroll 4,24,162x134 6
+  line 4 "§lBazaar / AH" -
+run line 1 -> [nav.recipes FLAWLESS_ONYX_GEM]
+text 4,34 w162 ["§b> How to get this item"]
+run click 4,34,162x10 -> [tab.howto FLAWLESS_ONYX_GEM]
+scroll 4,24,162x134 6
+  line 4 "§lBazaar / AH" -
+run line 1 -> [nav.recipes GHAST_GENERATOR_4]
+text 4,34 w162 ["§b> How to get this item"]
+run click 4,34,162x10 -> [tab.howto GHAST_GENERATOR_4]
+scroll 4,24,162x134 6
+  line 4 "§lBazaar / AH" -
+run line 1 -> [nav.recipes GOLD_BONZO_HEAD]
+text 4,34 w162 ["§b> How to get this item"]
+run click 4,34,162x10 -> [tab.howto GOLD_BONZO_HEAD]
+scroll 4,24,162x134 9
+  line 4 "§7No recipe produces this item" -
+inputs []
+== apex:live_price ItemPageRef(itemId=HALLOWEEN_CANDLES)
+inputs []
+lines HUB_CRYPTS_PORTAL ["§lHow to obtain", "§7https://wiki.hypixel.net/Portals", "§b> Open wiki page"*, "§lCrafting / recipes", "§7No recipe produces this item", "§lMob drops", "§7Not dropped by any known mob", "§lBazaar / AH", "§b> No live price"*]
+  line 1 "§7https://wiki.hypixel.net/Portals" -
+  line 6 "§7Not dropped by any known mob" -
+craft null
+text 4,24 w162 ["No live price"]
+craft null
+item 4,4 DISPLAY IRON_BOOTSx1*0rnullpnull[]
+  line 3 "§lMob drops" -
+outputs []
+== apex:live_price ItemPageRef(itemId=IRON_BOOTS)
+inputs []
+lines LAMP_BLACK ["§lCrafting / recipes", "§b> NPC Shop (1)"*, "§lMob drops", "§7Not dropped by any known mob", "§lBazaar / AH", "§b> No live price"*]
+  line 1 "§b> NPC Shop (1)" act
+inputs []
+== apex:live_price ItemPageRef(itemId=LAMP_BLACK)
+inputs []
+lines LOCKED_BALLOT_BOX ["§lHow to obtain", "§7https://wiki.hypixel.net/Locked_Ballot_Box", "§b> Open wiki page"*, "§lCrafting / recipes", "§7No recipe produces this item", "§lMob drops", "§7Not dropped by any known mob", "§lBazaar / AH", "§b> No live price"*]
+  line 1 "§7https://wiki.hypixel.net/Locked_Ballot_Box" -
+  line 6 "§7Not dropped by any known mob" -
+craft null
+text 4,24 w162 ["No live price"]
+craft null
+item 4,4 DISPLAY MASTER_TAO_NPCx1*0rnullpnull[]
+  line 3 "§7Not dropped by any known mob" -
+craft null
+text 4,34 w162 ["§b> How to get this item"]
+run click 4,34,162x10 -> [tab.howto MASTER_TAO_NPC]
+scroll 4,24,162x134 9
+  line 4 "§7No recipe produces this item" -
+inputs []
+== apex:live_price ItemPageRef(itemId=MOLDFIN_DIAMOND)
+inputs []
+lines OAK_GENERATOR_3 ["§lCrafting / recipes", "§b> Crafting (1)"*, "§lMob drops", "§7Not dropped by any known mob", "§lBazaar / AH", "§b> No live price"*]
+  line 1 "§b> Crafting (1)" act
+inputs []
+== apex:live_price ItemPageRef(itemId=OAK_GENERATOR_3)
+inputs []
+lines PERFECT_BOOTS_6 ["§lCrafting / recipes", "§b> Crafting (1)"*, "§lMob drops", "§7Not dropped by any known mob", "§lBazaar / AH", "§b> No live price"*]
+  line 1 "§b> Crafting (1)" act
+inputs []
+== apex:live_price ItemPageRef(itemId=PERFECT_BOOTS_6)
+inputs []
+lines PET_SKIN_CHICKEN_BABY_CHICK ["§lHow to obtain", "§7https://wiki.hypixel.net/Baby_Chick_Chicken_Skin", "§b> Open wiki page"*, "§lCrafting / recipes", "§7No recipe produces this item", "§lMob drops", "§7Not dropped by any known mob", "§lBazaar / AH", "§b> No live price"*]
+  line 1 "§7https://wiki.hypixel.net/Baby_Chick_Chicken_Skin" -
+  line 6 "§7Not dropped by any known mob" -
+craft null
+text 4,24 w162 ["No live price"]
+craft null
+item 4,4 SMALL_OUTPUT PET_SKIN_TIGER_SABER_TOOTHx1*0rnullpnull[]
+  line 3 "§lCrafting / recipes" -
+  line 8 "§b> No live price" act
+run line 8 -> [tab.prices PET_SKIN_TIGER_SABER_TOOTH]
+click 4,34,162x10
+data POTION_DAMAGE;7 []
+  line 0 "§lCrafting / recipes" -
+  line 5 "§b> No live price" act
+== apex:live_price ItemPageRef(itemId=POTION_DAMAGE;7)
+inputs []
+lines POWER;5 ["§lCrafting / recipes", "§7No recipe produces this item", "§lMob drops", "§7Not dropped by any known mob", "§lBazaar / AH", "§b> No live price"*]
+  line 1 "§7No recipe produces this item" -
+inputs []
+item 4,4 DISPLAY POWER;5x1*0rnullpnull[]
+outputs []
+== apex:how_to_get ItemPageRef(itemId=RABBIT_BOOTS)
+  line 2 "§lMob drops" -
+outputs []
+item 4,4 DISPLAY RABBIT_BOOTSx1*0rnullpnull[]
+outputs []
+== apex:how_to_get ItemPageRef(itemId=REINDEER_BACKPACK)
+  line 2 "§b> Open wiki page" act
+  line 7 "§lBazaar / AH" -
+run line 2 -> [] ERR:NullPointerException
+text 4,34 w162 ["§b> How to get this item"]
+run click 4,34,162x10 -> [tab.howto REINDEER_BACKPACK]
+scroll 4,24,162x134 6
+  line 4 "§lBazaar / AH" -
+run line 1 -> [nav.recipes SALMON_LEGGINGS_NEW]
+text 4,34 w162 ["§b> How to get this item"]
+run click 4,34,162x10 -> [tab.howto SALMON_LEGGINGS_NEW]
+scroll 4,24,162x134 6
+  line 4 "§lBazaar / AH" -
+run line 1 -> [nav.recipes SHEEP_GENERATOR_8]
+text 4,34 w162 ["§b> How to get this item"]
+run click 4,34,162x10 -> [tab.howto SHEEP_GENERATOR_8]
+scroll 4,24,162x134 6
+  line 4 "§lBazaar / AH" -
+run line 1 -> [nav.recipes SLUG_BOOTS]
+text 4,24 w162 ["No live price"]
+craft null
+item 4,4 DISPLAY SPIDER_GENERATOR_10x1*0rnullpnull[]
+  line 3 "§7Not dropped by any known mob" -
+craft null
+text 4,24 w162 ["No live price"]
+craft null
+item 4,4 DISPLAY STARRED_GLACIAL_SCYTHEx1*0rnullpnull[]
+  line 3 "§lMob drops" -
+outputs []
+== apex:live_price ItemPageRef(itemId=STARRED_GLACIAL_SCYTHE)
+inputs []
+lines SYNTHETIC_HEART ["§lCrafting / recipes", "§7No recipe produces this item", "§lMob drops", "§b> Automaton §7(1%)"*, "§lBazaar / AH", "§b> No live price"*]
+  line 1 "§7No recipe produces this item" -
+inputs []
+== apex:live_price ItemPageRef(itemId=SYNTHETIC_HEART)
+inputs []
+lines TITANIUM_DRILL_ENGINE ["§lCrafting / recipes", "§b> Forge (1)"*, "§lMob drops", "§7Not dropped by any known mob", "§lBazaar / AH", "§b> No live price"*]
+  line 1 "§b> Forge (1)" act
+inputs []
+== apex:live_price ItemPageRef(itemId=TITANIUM_DRILL_ENGINE)
+inputs []
+lines ULTIMATE_FLOWSTATE;2 ["§lCrafting / recipes", "§7No recipe produces this item", "§lMob drops", "§7Not dropped by any known mob", "§lBazaar / AH", "§b> No live price"*]
+  line 1 "§7No recipe produces this item" -
+inputs []
+item 4,4 DISPLAY ULTIMATE_FLOWSTATE;2x1*0rnullpnull[]
+outputs []
+== apex:how_to_get ItemPageRef(itemId=VOIDLING_EXTREMIST_MONSTER)
+  line 2 "§b> Open wiki page" act
+  line 7 "§lBazaar / AH" -
+run line 2 -> [] ERR:NullPointerException
+text 4,34 w162 ["§b> How to get this item"]
+run click 4,34,162x10 -> [tab.howto VOIDLING_EXTREMIST_MONSTER]
+scroll 4,24,162x134 8
+  line 4 "§lMob drops" -
+outputs [[WIZARD_BREADCRUMBSx1*0rnullpnull[]]]
+item 4,4 DISPLAY WIZARD_BREADCRUMBSx1*0rnullpnull[]
+outputs []
+== apex:how_to_get ItemPageRef(itemId=ADAPTIVE_BOOTS)
+  line 2 "§lMob drops" -
+outputs []
+== apex:live_price ItemPageRef(itemId=ADAPTIVE_BOOTS)
+inputs []
+lines COMPOST ["§lCrafting / recipes", "§7No recipe produces this item", "§lMob drops", "§b> Mite §7(10%)"*, "§b> Slug §7(4%)"*, "§b> Moth §7(10%)"*, "§b> Rat §7(10%)"*, "§b> Beetle §7(10%)"*, "§b> Mosquito §7(10%)"*, "§b> Cricket §7(10%)"*, "§b> Fly §7(10%)"*, "§b> Locust §7(10%)"*, "§b> Earthworm §7(10%)"*, "§lBazaar / AH", "§b> No live price"*]
+  line 1 "§7No recipe produces this item" -
+  line 6 "§b> Rat §7(10%)" act
+  line 11 "§b> Locust §7(10%)" act
+outputs []
+run line 6 -> [tab.mobs pest_rat]
+run line 11 -> [tab.mobs pest_locust]
+text 4,24 w162 ["No live price"]
+craft null
+item 4,4 DISPLAY ENCHANTED_EYE_OF_ENDERx1*0rnullpnull[]
+  line 3 "§b> Zealot (Enderchest) §7(6.50%)" act
+craft null
+item 4,4 DISPLAY ENCHANTED_EYE_OF_ENDERx1*0rnullpnull[]
+outputs []
+== apex:how_to_get ItemPageRef(itemId=FEATHER)
+  line 2 "§lMob drops" -
+inputs []
+run line 6 -> [tab.prices FEATHER]
+click 4,34,162x10
+data GOLD_NUGGET [redstone_pigman:[MobDrop(itemId=GOLD_NUGGET, count=2, chance=50%, extra=[])]]
+  line 0 "§lCrafting / recipes" -
+  line 5 "§b> No live price" act
+run line 3 -> [tab.mobs redstone_pigman]
+text 4,34 w162 ["§b> How to get this item"]
+run click 4,34,162x10 -> [tab.howto GOLD_NUGGET]
+scroll 4,24,162x134 6
+  line 4 "§lBazaar / AH" -
+run line 1 -> [nav.recipes MAGMA_CUBE;2]
+text 4,24 w162 ["No live price"]
+craft null
+item 4,4 DISPLAY PET_ITEM_TIER_BOOST_DROPx1*0rnullpnull[]
+  line 3 "§b> Endstone Protector (Boss) §7(0.2%)" act
+craft null
+text 4,24 w162 ["No live price"]
+craft null
+item 4,4 DISPLAY ROUGH_SAPPHIRE_GEMx1*0rnullpnull[]
+  line 3 "§b> Automaton §7(x8-15)" act
+  line 8 "§b> No live price" act
+run line 4 -> [tab.mobs scatha]
+item 4,4 DISPLAY ROUGH_SAPPHIRE_GEMx1*0rnullpnull[]
+outputs []
+== apex:how_to_get ItemPageRef(itemId=SPIRIT;4)
+  line 2 "§lMob drops" -
+outputs []
+== apex:live_price ItemPageRef(itemId=SPIRIT;4)
+inputs []
+lines UNSTABLE_DRAGON_CHESTPLATE ["§lCrafting / recipes", "§b> Crafting (1)"*, "§b> Other recipes (5)"*, "§lMob drops", "§b> Unstable Ender Dragon §7(30%)"*, "§lBazaar / AH", "§b> No live price"*]
+  line 1 "§b> Crafting (1)" act
+  line 6 "§b> No live price" act
+run line 2 -> [nav.recipes UNSTABLE_DRAGON_CHESTPLATE]
+text 4,24 w162 ["No live price"]
+craft null
+item 4,4 DISPLAY NOT_AN_ITEMx1*0rnullpnull[]
+  line 3 "§7Not dropped by any known mob" -
+craft null
+text 4,34 w162 ["§b> How to get this item"]
+run click 4,34,162x10 -> [tab.howto NOT_AN_ITEM]

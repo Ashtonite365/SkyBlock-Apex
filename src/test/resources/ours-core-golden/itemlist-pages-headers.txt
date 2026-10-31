@@ -1,0 +1,15 @@
+MOBS apex:skyblock_mobs HOW_TO apex:how_to_get PRICES apex:live_price CRAFTING apex:crafting_recipe
+id apex:x_y
+0 RendererPage apex:crafting_recipe {"translate":"apex.category.crafting"} minecraft:crafting_tablex1:null 150x66 n=2261
+1 RendererPage apex:forge_recipe {"translate":"apex.category.forge"} minecraft:furnacex1:null 150x104 n=116
+2 RendererPage apex:essence_upgrade {"translate":"apex.category.essence"} minecraft:player_headx1:{"extra":[{"color":"light_purple","text":"Wither Essence"}],"italic":false,"text":""} 150x66 n=3182
+3 RendererPage apex:reforge_recipe {"translate":"apex.recipecategory.reforge"} minecraft:anvilx1:null 150x66 n=119
+4 RendererPage apex:trade_recipe {"translate":"apex.category.trade"} minecraft:emeraldx1:null 150x40 n=78
+5 RendererPage apex:kat_recipe {"translate":"apex.category.katgrade"} minecraft:bonex1:null 150x70 n=159
+6 MobDropsPage apex:mob_drop_recipe "Mob Drops" minecraft:diamond_swordx1:null 150x100 n=259
+7 MobsPage apex:skyblock_mobs "SkyBlock Mobs" minecraft:zombie_headx1:null 160x200 n=287
+8 HowToPage apex:how_to_get "How to get" minecraft:compassx1:null 170x160 n=1817
+9 PricesPage apex:live_price "Bazaar / AH price" minecraft:gold_ingotx1:null 170x90 n=0
+10 ShopPage apex:npc_shopping "SkyBlock NPC Shopping" minecraft:emeraldx1:null 150x66 n=715
+11 ContentsPage apex:box_contents "Contents" minecraft:chestx1:null 160x130 n=0
+12 PetRaritiesPage apex:pet_rarities "Pet Rarities" minecraft:bonex1:null 160x60 n=76

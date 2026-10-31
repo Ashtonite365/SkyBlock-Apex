@@ -1,0 +1,1 @@
+{"item_ids":["POWER_HELM"],"layers":[{"identifier":"firmskyblock:power","tint":true}],"overrides":[{"predicate":{"apex:display_name":"Shiny"},"model":"firmskyblock:shiny"}]}

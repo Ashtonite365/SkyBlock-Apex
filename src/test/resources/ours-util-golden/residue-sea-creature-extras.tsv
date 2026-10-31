@@ -1,0 +1,351 @@
+ring 0	56.111459,212.160863,-9.703203;56.111459,212.160863,-9.703203;56.111459,212.160863,-9.703203;56.111459,212.160863,-9.703203;56.111459,212.160863,-9.703203;56.111459,212.160863,-9.703203;56.111459,212.160863,-9.703203;56.111459,212.160863,-9.703203;56.111459,212.160863,-9.703203
+ringDefault 0	49
+ring 1	39.164467,112.724967,-70.070452;39.164467,112.724967,-70.070452;39.164467,112.724967,-70.070452;39.164467,112.724967,-70.070452;39.164467,112.724967,-70.070452;39.164467,112.724967,-70.070452;39.164467,112.724967,-70.070452;39.164467,112.724967,-70.070452;39.164467,112.724967,-70.070452;39.164467,112.724967,-70.070452;39.164467,112.724967,-70.070452
+ringDefault 1	49
+ring 2	18.090367,35.340243,69.086576;8.711218,35.340243,91.729846;-13.932053,35.340243,101.108996;-36.575323,35.340243,91.729846;-45.954472,35.340243,69.086576;-36.575323,35.340243,46.443306;-13.932053,35.340243,37.064156;8.711218,35.340243,46.443306;18.090367,35.340243,69.086576
+ringDefault 2	49
+ring 3	65.798408,155.601981,71.848976;13.784431,155.601981,71.848976;65.798408,155.601981,71.848976
+ringDefault 3	49
+ring 4	27.376632,165.508036,-81.940836;27.376632,165.508036,-81.940836;27.376632,165.508036,-81.940836;27.376632,165.508036,-81.940836;27.376632,165.508036,-81.940836
+ringDefault 4	49
+ring 5	64.147626,172.000502,-45.584152;41.568466,172.000502,-23.004992;18.989306,172.000502,-45.584152;41.568466,172.000502,-68.163312;64.147626,172.000502,-45.584152
+ringDefault 5	49
+ring 6	53.396211,41.670358,51.228181;53.396211,41.670358,51.228181;53.396211,41.670358,51.228181;53.396211,41.670358,51.228181;53.396211,41.670358,51.228181;53.396211,41.670358,51.228181;53.396211,41.670358,51.228181;53.396211,41.670358,51.228181
+ringDefault 6	49
+ring 7	66.188793,80.843098,-78.450314;66.188793,80.843098,-78.450314;66.188793,80.843098,-78.450314;66.188793,80.843098,-78.450314;66.188793,80.843098,-78.450314;66.188793,80.843098,-78.450314;66.188793,80.843098,-78.450314
+ringDefault 7	49
+ring 8	-12.277326,70.140200,-77.157058;-15.372942,70.140200,-68.651922;-23.211318,70.140200,-64.126434;-32.124790,70.140200,-65.698120;-37.942646,70.140200,-72.631570;-37.942646,70.140200,-81.682547;-32.124790,70.140200,-88.615997;-23.211318,70.140200,-90.187682;-15.372942,70.140200,-85.662194;-12.277326,70.140200,-77.157058
+ringDefault 8	49
+ring 9	-61.897008,146.178505,2.857735;-64.106145,146.178505,10.381366;-70.032172,146.178505,15.516297;-77.793616,146.178505,16.632224;-84.926274,146.178505,13.374848;-89.165577,146.178505,6.778363;-89.165577,146.178505,-1.062894;-84.926274,146.178505,-7.659379;-77.793616,146.178505,-10.916754;-70.032172,146.178505,-9.800827;-64.106145,146.178505,-4.665896;-61.897008,146.178505,2.857735
+ringDefault 9	49
+ring 10	-91.445843,136.845452,17.180153;-91.445843,136.845452,17.180153;-91.445843,136.845452,17.180153;-91.445843,136.845452,17.180153;-91.445843,136.845452,17.180153;-91.445843,136.845452,17.180153;-91.445843,136.845452,17.180153;-91.445843,136.845452,17.180153
+ringDefault 10	49
+ring 11	-81.318639,203.948244,-39.898613;-81.318639,203.948244,-39.898613
+ringDefault 11	49
+ring 12	16.855313,199.891854,40.714961;16.855313,199.891854,40.714961
+ringDefault 12	49
+ring 13	-28.657924,99.138555,-33.460919;-28.657924,99.138555,-33.460919;-28.657924,99.138555,-33.460919;-28.657924,99.138555,-33.460919;-28.657924,99.138555,-33.460919;-28.657924,99.138555,-33.460919;-28.657924,99.138555,-33.460919;-28.657924,99.138555,-33.460919;-28.657924,99.138555,-33.460919
+ringDefault 13	49
+ring 14	-81.456069,134.717068,36.564765;-84.842309,134.717068,42.429903;-91.614787,134.717068,42.429903;-95.001027,134.717068,36.564765;-91.614787,134.717068,30.699626;-84.842309,134.717068,30.699626;-81.456069,134.717068,36.564765
+ringDefault 14	49
+ring 15	-85.071228,69.956397,-20.057123;-85.071228,69.956397,-20.057123;-85.071228,69.956397,-20.057123;-85.071228,69.956397,-20.057123
+ringDefault 15	49
+ring 16	9.167830,50.208386,30.272649;9.167830,50.208386,30.272649;9.167830,50.208386,30.272649;9.167830,50.208386,30.272649;9.167830,50.208386,30.272649;9.167830,50.208386,30.272649;9.167830,50.208386,30.272649;9.167830,50.208386,30.272649
+ringDefault 16	49
+ring 17	-15.352052,150.771885,-18.187893;-15.352052,150.771885,-18.187893
+ringDefault 17	49
+ring 18	3.927615,38.352614,56.859488;-28.588734,38.352614,89.375838;-61.105084,38.352614,56.859488;-28.588734,38.352614,24.343138;3.927615,38.352614,56.859488
+ringDefault 18	49
+ring 19	90.271436,60.511961,-37.598816;74.738137,60.511961,-16.219064;49.604731,60.511961,-24.385403;49.604731,60.511961,-50.812229;74.738137,60.511961,-58.978568;90.271436,60.511961,-37.598816
+ringDefault 19	49
+ring 20	-22.232120,134.747121,43.815223;-22.232120,134.747121,43.815223;-22.232120,134.747121,43.815223;-22.232120,134.747121,43.815223;-22.232120,134.747121,43.815223;-22.232120,134.747121,43.815223;-22.232120,134.747121,43.815223;-22.232120,134.747121,43.815223;-22.232120,134.747121,43.815223
+ringDefault 20	49
+ring 21	74.356570,68.211278,-26.767057;71.546227,68.211278,-19.982288;64.761458,68.211278,-17.171944;57.976689,68.211278,-19.982288;55.166346,68.211278,-26.767057;57.976689,68.211278,-33.551825;64.761458,68.211278,-36.362169;71.546227,68.211278,-33.551825;74.356570,68.211278,-26.767057
+ringDefault 21	49
+ring 22	-55.867681,95.617127,88.472224;-74.219016,95.617127,120.257668;-110.921685,95.617127,120.257668;-129.273020,95.617127,88.472224;-110.921685,95.617127,56.686780;-74.219016,95.617127,56.686780;-55.867681,95.617127,88.472224
+ringDefault 22	49
+ring 23	-55.581762,64.210961,1.985301;-55.581762,64.210961,1.985301;-55.581762,64.210961,1.985301;-55.581762,64.210961,1.985301
+ringDefault 23	49
+ring 24	-23.975741,98.292560,-72.705692;-23.975741,98.292560,-72.705692;-23.975741,98.292560,-72.705692;-23.975741,98.292560,-72.705692;-23.975741,98.292560,-72.705692;-23.975741,98.292560,-72.705692;-23.975741,98.292560,-72.705692;-23.975741,98.292560,-72.705692;-23.975741,98.292560,-72.705692
+ringDefault 24	49
+ring 25	62.037518,102.236916,-61.582923;42.785922,102.236916,-35.085374;11.636185,102.236916,-45.206537;11.636185,102.236916,-77.959308;42.785922,102.236916,-88.080471;62.037518,102.236916,-61.582923
+ringDefault 25	49
+ring 26	-19.354813,198.617060,79.916956;-19.354813,198.617060,79.916956;-19.354813,198.617060,79.916956;-19.354813,198.617060,79.916956;-19.354813,198.617060,79.916956;-19.354813,198.617060,79.916956;-19.354813,198.617060,79.916956;-19.354813,198.617060,79.916956
+ringDefault 26	49
+ring 27	-28.852724,146.905281,29.363528;-28.852724,146.905281,29.363528
+ringDefault 27	49
+ring 28	-56.617785,203.719096,-35.419230;-56.617785,203.719096,-35.419230;-56.617785,203.719096,-35.419230;-56.617785,203.719096,-35.419230;-56.617785,203.719096,-35.419230;-56.617785,203.719096,-35.419230;-56.617785,203.719096,-35.419230;-56.617785,203.719096,-35.419230;-56.617785,203.719096,-35.419230;-56.617785,203.719096,-35.419230;-56.617785,203.719096,-35.419230;-56.617785,203.719096,-35.419230
+ringDefault 28	49
+ring 29	34.040113,130.824795,-46.156999;27.101509,130.824795,-29.405728;10.350238,130.824795,-22.467124;-6.401034,130.824795,-29.405728;-13.339638,130.824795,-46.156999;-6.401034,130.824795,-62.908271;10.350238,130.824795,-69.846875;27.101509,130.824795,-62.908271;34.040113,130.824795,-46.156999
+ringDefault 29	49
+ring 30	-8.427381,78.923544,93.868859;-8.427381,78.923544,93.868859;-8.427381,78.923544,93.868859;-8.427381,78.923544,93.868859;-8.427381,78.923544,93.868859;-8.427381,78.923544,93.868859;-8.427381,78.923544,93.868859;-8.427381,78.923544,93.868859;-8.427381,78.923544,93.868859
+ringDefault 30	49
+ring 31	22.240526,153.157821,-66.576002;22.240526,153.157821,-66.576002
+ringDefault 31	49
+ring 32	23.746378,152.946787,-20.674800;16.921854,152.946787,-1.924575;-0.358447,152.946787,8.052211;-20.008880,152.946787,4.587309;-32.834789,152.946787,-10.698014;-32.834789,152.946787,-30.651587;-20.008880,152.946787,-45.936910;-0.358447,152.946787,-49.401812;16.921854,152.946787,-39.425025;23.746378,152.946787,-20.674800
+ringDefault 32	49
+ring 33	-16.552372,141.164425,-16.125841;-30.829650,141.164425,-16.125841;-16.552372,141.164425,-16.125841
+ringDefault 33	49
+ring 34	51.434473,90.325723,-74.587253;51.434473,90.325723,-74.587253;51.434473,90.325723,-74.587253;51.434473,90.325723,-74.587253;51.434473,90.325723,-74.587253;51.434473,90.325723,-74.587253;51.434473,90.325723,-74.587253
+ringDefault 34	49
+ring 35	114.900536,99.215327,59.892623;58.859432,99.215327,59.892623;114.900536,99.215327,59.892623
+ringDefault 35	49
+ring 36	-83.901043,182.808449,-81.489042;-89.336527,182.808449,-72.074508;-100.207494,182.808449,-72.074508;-105.642977,182.808449,-81.489042;-100.207494,182.808449,-90.903576;-89.336527,182.808449,-90.903576;-83.901043,182.808449,-81.489042
+ringDefault 36	49
+ring 37	-11.013368,230.915275,-30.589693;-11.013368,230.915275,-30.589693;-11.013368,230.915275,-30.589693;-11.013368,230.915275,-30.589693;-11.013368,230.915275,-30.589693;-11.013368,230.915275,-30.589693;-11.013368,230.915275,-30.589693;-11.013368,230.915275,-30.589693;-11.013368,230.915275,-30.589693
+ringDefault 37	49
+ring 38	90.886810,132.768204,-14.074435;90.886810,132.768204,-14.074435
+ringDefault 38	49
+ring 39	57.677678,156.931501,-63.732285;57.677678,156.931501,-63.732285;57.677678,156.931501,-63.732285;57.677678,156.931501,-63.732285;57.677678,156.931501,-63.732285
+ringDefault 39	49
+range	D403e000000000000/30.0
+names 0 	()
+names 1 	()
+names 2 Wr, SeS, BbWbSaW, aU	(au,bbwbsaw,ses,wr)
+names 3 lBe arWBa, ea Ue	(ea ue,lbe arwba)
+names 4 	()
+names 5 re,rlrAWl,BJS,SbS WUeBUS,,ASbW	(asbw,bjs,re,rlrawl,sbs wuebus)
+names 6 	()
+names 7 Wb	(wb)
+names 8 Aa  ,Aa	(aa)
+names 9 laSSr,,BSB, e, eSa k, A,WUS	(a,bsb,e,esa k,lassr,wus)
+names 10  SJba ,,,,raW WUWJa,B	(b,raw wuwja,sjba)
+names 11 ake  SWBbW ,l,aSS ,rBSaeJrUSa ,klb	(ake  swbbw,ass,klb,l,rbsaejrusa)
+names 12 UUrSAkWW , S ,Saa WABab ,	(s,saa wabab,uursakww)
+names 13 S,,AS	(as,s)
+names 14 S eSbB abW,,rakSa,e	(e,raksa,s esbb abw)
+names 15 aeek ,W,B , ,B W J 	(aeek,b,b w j,w)
+names 16 akAA aS ,U a	(akaa as,u a)
+names 17 SSrk A WbS, aWS,UWS,  bA b SrAr, e,	(aws,ba b srar,e,ssrk a wbs,uws)
+names 18 rASJSUlak, UW l, A SJSr S 	(a sjsr s,rasjsulak,uw l)
+names 19 	()
+names 20 , Wa, SUakrUrW	(suakrurw,wa)
+names 21 bUrrSJaA ,Wbl	(burrsjaa,wbl)
+names 22 S,aJJWUBae, SJk   bArJ, rSBa,Jla	(ajjwubae,jla,rsba,s,sjk   barj)
+names 23 	()
+names 24 ,, Jk,,SakarbaJ	(jk,sakarbaj)
+names 25 earl,  , b 	(b,earl)
+names 26 klWAaWae, UJkS	(klwaawae,ujks)
+names 27 U SSJkS,WB bBaWJr, elbSSSa,Sr	(elbsssa,sr,u ssjks,wb bbawjr)
+names 28 Be, 	(be)
+names 29 elJ ,Jl ,UlSWWB la	(elj,jl,ulswwb la)
+names 30 akel, l	(akel,l)
+names 31 BUJba ,UAUrJSa,SA	(bujba,sa,uaurjsa)
+names 32 	()
+names 33 ak	(ak)
+names 34 	()
+names 35  r,Se, Aka	(aka,r,se)
+names 36 ,alSUU,laSSAW	(alsuu,lassaw)
+names 37 Jrb,kaarr a,Sl,,SAUb,elJ	(elj,jrb,kaarr a,saub,sl)
+names 38 rbe,,,	(rbe)
+names 39 	()
+names 40 eeSS,,A,,	(a,eess)
+names 41   ,S We, abA , UASaW ABl , WJa,alBJk	(aba,albjk,s we,uasaw abl,wja)
+names 42  J ,SJW  , ,BWWJBrlWSr	(bwwjbrlwsr,j,sjw)
+names 43 	()
+names 44 SArJb,rSS	(rss,sarjb)
+names 45 AS erAlalU, SrWbSl, blAW JaSS	(as eralalu,blaw jass,srwbsl)
+names 46  S JW, ,eAk  ,bSWS	(bsws,eak,s jw)
+names 47  ,WSSJUS  ,J ,Bb,kWk	(bb,j,kwk,wssjus)
+names 48  rAaJS ,b, ,JAk,erAA e	(b,eraa e,jak,raajs)
+names 49 l, AeWJbllWS, ,lJSJBrb, S Bl	(aewjbllws,l,ljsjbrb,s bl)
+names 50 bUaWkb, JWSWUeaA	(buawkb,jwswueaa)
+names 51 WarSe, ,WaSa, UrSW W	(ursw w,warse,wasa)
+names 52 ,arW	(arw)
+names 53 lS BW  ,J ASJJWlBb ,	(j asjjwlbb,ls bw)
+names 54 ae A,WlAb,SJ aaAae	(ae a,sj aaaae,wlab)
+names 55 kS 	(ks)
+names 56   BSb , rBJa r ,UUb	(bsb,rbja r,uub)
+names 57 	()
+names 58 	()
+names 59 k WarSSS 	(k warsss)
+creatureOf Water Hydra	Water Hydra
+creatureOf padded Water Hydra	<null>
+creatureOf Carrot King	Carrot King
+creatureOf padded Carrot King	<null>
+creatureOf Sea Guardian	Sea Guardian
+creatureOf padded Sea Guardian	<null>
+creatureOf Squid	Squid
+creatureOf padded Squid	<null>
+creatureOf Night Squid	Night Squid
+creatureOf padded Night Squid	<null>
+creatureOf Sea Walker	Sea Walker
+creatureOf padded Sea Walker	<null>
+creatureOf Sea Witch	Sea Witch
+creatureOf padded Sea Witch	<null>
+creatureOf Sea Archer	Sea Archer
+creatureOf padded Sea Archer	<null>
+creatureOf Rider of the Deep	Rider of the Deep
+creatureOf padded Rider of the Deep	<null>
+creatureOf Catfish	Catfish
+creatureOf padded Catfish	<null>
+creatureOf Sea Leech	Sea Leech
+creatureOf padded Sea Leech	<null>
+creatureOf Guardian Defender	Guardian Defender
+creatureOf padded Guardian Defender	<null>
+creatureOf Deep Sea Protector	Deep Sea Protector
+creatureOf padded Deep Sea Protector	<null>
+creatureOf Agarimoo	Agarimoo
+creatureOf padded Agarimoo	<null>
+creatureOf Inkling	Inkling
+creatureOf padded Inkling	<null>
+creatureOf Manta Ray	Manta Ray
+creatureOf padded Manta Ray	<null>
+creatureOf Frog Man	Frog Man
+creatureOf padded Frog Man	<null>
+creatureOf Snapping Turtle	Snapping Turtle
+creatureOf padded Snapping Turtle	<null>
+creatureOf Blue Ringed Octopus	Blue Ringed Octopus
+creatureOf padded Blue Ringed Octopus	<null>
+creatureOf Wiki Tiki	Wiki Tiki
+creatureOf padded Wiki Tiki	<null>
+creatureOf Great White Shark	Great White Shark
+creatureOf padded Great White Shark	<null>
+creatureOf Nurse Shark	Nurse Shark
+creatureOf padded Nurse Shark	<null>
+creatureOf Blue Shark	Blue Shark
+creatureOf padded Blue Shark	<null>
+creatureOf Tiger Shark	Tiger Shark
+creatureOf padded Tiger Shark	<null>
+creatureOf Reindrake	Reindrake
+creatureOf padded Reindrake	<null>
+creatureOf Yeti	Yeti
+creatureOf padded Yeti	<null>
+creatureOf Nutcracker	Nutcracker
+creatureOf padded Nutcracker	<null>
+creatureOf Frozen Steve	Frozen Steve
+creatureOf padded Frozen Steve	<null>
+creatureOf Frosty	Frosty
+creatureOf padded Frosty	<null>
+creatureOf Grinch	Grinch
+creatureOf padded Grinch	<null>
+creatureOf Phantom Fisher	Phantom Fisher
+creatureOf padded Phantom Fisher	<null>
+creatureOf Grim Reaper	Grim Reaper
+creatureOf padded Grim Reaper	<null>
+creatureOf Scarecrow	Scarecrow
+creatureOf padded Scarecrow	<null>
+creatureOf Nightmare	Nightmare
+creatureOf padded Nightmare	<null>
+creatureOf Werewolf	Werewolf
+creatureOf padded Werewolf	<null>
+creatureOf Jumpin' Jack	Jumpin' Jack
+creatureOf padded Jumpin' Jack	<null>
+creatureOf Fried Chicken	Fried Chicken
+creatureOf padded Fried Chicken	<null>
+creatureOf Fireproof Witch	Fireproof Witch
+creatureOf padded Fireproof Witch	<null>
+creatureOf Magma Slug	Magma Slug
+creatureOf padded Magma Slug	<null>
+creatureOf Moogma	Moogma
+creatureOf padded Moogma	<null>
+creatureOf Lava Leech	Lava Leech
+creatureOf padded Lava Leech	<null>
+creatureOf Pyroclastic Worm	Pyroclastic Worm
+creatureOf padded Pyroclastic Worm	<null>
+creatureOf Lava Flame	Lava Flame
+creatureOf padded Lava Flame	<null>
+creatureOf Fire Eel	Fire Eel
+creatureOf padded Fire Eel	<null>
+creatureOf Taurus	Taurus
+creatureOf padded Taurus	<null>
+creatureOf Volcanic Snail	Volcanic Snail
+creatureOf padded Volcanic Snail	<null>
+creatureOf Magma Pillar	Magma Pillar
+creatureOf padded Magma Pillar	<null>
+creatureOf Fiery Scuttler	Fiery Scuttler
+creatureOf padded Fiery Scuttler	<null>
+creatureOf Thunder	Thunder
+creatureOf padded Thunder	<null>
+creatureOf Lord Jawbus	Lord Jawbus
+creatureOf padded Lord Jawbus	<null>
+creatureOf Plhlegblast	Plhlegblast
+creatureOf padded Plhlegblast	<null>
+creatureOf Ragnarok	Ragnarok
+creatureOf padded Ragnarok	<null>
+creatureOf Vanquisher	Vanquisher
+creatureOf padded Vanquisher	<null>
+creatureOf Oasis Rabbit	Oasis Rabbit
+creatureOf padded Oasis Rabbit	<null>
+creatureOf Oasis Sheep	Oasis Sheep
+creatureOf padded Oasis Sheep	<null>
+creatureOf Abyssal Miner	Abyssal Miner
+creatureOf padded Abyssal Miner	<null>
+creatureOf Water Worm	Water Worm
+creatureOf padded Water Worm	<null>
+creatureOf Poisoned Water Worm	Poisoned Water Worm
+creatureOf padded Poisoned Water Worm	<null>
+creatureOf Flaming Worm	Flaming Worm
+creatureOf padded Flaming Worm	<null>
+creatureOf Lava Blaze	Lava Blaze
+creatureOf padded Lava Blaze	<null>
+creatureOf Lava Pigman	Lava Pigman
+creatureOf padded Lava Pigman	<null>
+creatureOf Small Mithril Grubber	Small Mithril Grubber
+creatureOf padded Small Mithril Grubber	<null>
+creatureOf Medium Mithril Grubber	Medium Mithril Grubber
+creatureOf padded Medium Mithril Grubber	<null>
+creatureOf Large Mithril Grubber	Large Mithril Grubber
+creatureOf padded Large Mithril Grubber	<null>
+creatureOf Bloated Mithril Grubber	Bloated Mithril Grubber
+creatureOf padded Bloated Mithril Grubber	<null>
+creatureOf Trash Gobbler	Trash Gobbler
+creatureOf padded Trash Gobbler	<null>
+creatureOf Dumpster Diver	Dumpster Diver
+creatureOf padded Dumpster Diver	<null>
+creatureOf Banshee	Banshee
+creatureOf padded Banshee	<null>
+creatureOf Bayou Sludge	Bayou Sludge
+creatureOf padded Bayou Sludge	<null>
+creatureOf Alligator	Alligator
+creatureOf padded Alligator	<null>
+creatureOf Titanoboa	Titanoboa
+creatureOf padded Titanoboa	<null>
+creatureOf Nessie	Nessie
+creatureOf padded Nessie	<null>
+creatureOf The Loch Emperor	The Loch Emperor
+creatureOf padded The Loch Emperor	<null>
+creatureOf Bogged	Bogged
+creatureOf padded Bogged	<null>
+creatureOf Tadgang	Tadgang
+creatureOf padded Tadgang	<null>
+creatureOf Ent	Ent
+creatureOf padded Ent	<null>
+creatureOf Wetwing	Wetwing
+creatureOf padded Wetwing	<null>
+creatureOf Stridersurfer	Stridersurfer
+creatureOf padded Stridersurfer	<null>
+creatureOf Atoll Croaker	Atoll Croaker
+creatureOf padded Atoll Croaker	<null>
+creatureOf Lotus Guardian	Lotus Guardian
+creatureOf padded Lotus Guardian	<null>
+creatureOf gorF	gorF
+creatureOf padded gorF	<null>
+creatureOf Drowned Captain	Drowned Captain
+creatureOf padded Drowned Captain	<null>
+creatureOf Puddle Jumper	Puddle Jumper
+creatureOf padded Puddle Jumper	<null>
+creatureOf Frog Prince	Frog Prince
+creatureOf padded Frog Prince	<null>
+creatureOf Haggard	Haggard
+creatureOf padded Haggard	<null>
+creatureOf Brineling	Brineling
+creatureOf padded Brineling	<null>
+creatureOf Sprawl	Sprawl
+creatureOf padded Sprawl	<null>
+creatureOf Torrid	Torrid
+creatureOf padded Torrid	<null>
+creatureOf Silkbreeze	Silkbreeze
+creatureOf padded Silkbreeze	<null>
+creatureOf Giant Isopod	Giant Isopod
+creatureOf padded Giant Isopod	<null>
+creatureOf fuzz 0	<null>
+creatureOf fuzz 1	<null>
+creatureOf fuzz 2	<null>
+creatureOf fuzz 3	<null>
+creatureOf fuzz 4	<null>
+creatureOf fuzz 5	<null>
+creatureOf fuzz 6	<null>
+creatureOf fuzz 7	<null>
+creatureOf fuzz 8	<null>
+creatureOf fuzz 9	<null>
+creatureOf fuzz 10	<null>
+creatureOf fuzz 11	<null>
+creatureOf fuzz 12	<null>
+creatureOf fuzz 13	<null>
+creatureOf fuzz 14	<null>
+creatureOf fuzz 15	<null>
+creatureOf fuzz 16	<null>
+creatureOf fuzz 17	<null>
+creatureOf fuzz 18	<null>
+creatureOf fuzz 19	<null>
+creatureOf fuzz 20	<null>
+creatureOf fuzz 21	<null>
+creatureOf fuzz 22	<null>
+creatureOf fuzz 23	<null>
+creatureOf fuzz 24	<null>
+creatureOf fuzz 25	<null>
+creatureOf fuzz 26	<null>
+creatureOf fuzz 27	<null>
+creatureOf fuzz 28	<null>
+creatureOf fuzz 29	<null>

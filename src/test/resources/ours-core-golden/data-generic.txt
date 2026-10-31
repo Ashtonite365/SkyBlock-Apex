@@ -1,0 +1,132 @@
+generic dev.ashtonite365.apex.features.auction.AuctionTools$DConfig prefix=auction-search-history storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[auction-search-history] sha=f3b481f03dd5375349aa3f09
+  empty keys=[auction-search-history] sha=f3b481f03dd5375349aa3f09
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.chat.ChatExtras$DConfig prefix=chat-extras storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[chat-extras] sha=91dd32a2b73358b40bbcfd3b
+  empty keys=[chat-extras] sha=91dd32a2b73358b40bbcfd3b
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.customchatcommands.CustomChatCommandsData$DConfig prefix=custom-chat-commands storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[custom-chat-commands] sha=9a3dfd02c064f62ef74b5b39
+  empty keys=[custom-chat-commands] sha=6c2749a09c3cee575386b7bc
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.debug.DebugLogger$EnabledLogs prefix=DebugLogs storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[DebugLogs] sha=f740a80efab9df521e06ac56
+  empty keys=[DebugLogs] sha=f740a80efab9df521e06ac56
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.garden.GardenPests$PestProfitData prefix=garden-pest-profit storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[garden-pest-profit] sha=c3749ff2dd21dc06cb5191cd
+  empty keys=[garden-pest-profit] sha=c3749ff2dd21dc06cb5191cd
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.inventory.SlotLocking$GlobalConfig prefix=global-slot-locks storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[global-slot-locks] sha=4420cf87acdf2a7bb1a2ba48
+  empty keys=[global-slot-locks] sha=4420cf87acdf2a7bb1a2ba48
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.inventory.buttons.InventoryButtons$DConfig prefix=inventory-buttons storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[inventory-buttons] sha=1b637db0e4ba1f38ddfa40f0
+  empty keys=[inventory-buttons] sha=1b637db0e4ba1f38ddfa40f0
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.items.ItemCustomizer$DConfig prefix=item-customizations storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[item-customizations] sha=792a03826c13d19ea17be712
+  empty keys=[item-customizations] sha=792a03826c13d19ea17be712
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.kit.terminals.TerminalPbs$Store prefix=terminal-pbs storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[terminal-pbs] sha=44906f013fb6c9878c1df37d
+  empty keys=[terminal-pbs] sha=44906f013fb6c9878c1df37d
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.menus.ah.AhTileCounts$Data prefix=ah-tile-counts storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[ah-tile-counts] sha=0cb83c4fd2d80bd94c104c97
+  empty keys=[ah-tile-counts] sha=0cb83c4fd2d80bd94c104c97
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.menus.quests.QuestNotes$Data prefix=apex-quest-notes storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[apex-quest-notes] sha=5b27f933b72a3ac94a8ae34e
+  empty keys=[apex-quest-notes] sha=5b27f933b72a3ac94a8ae34e
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.misc.CombatStatsVitality$DConfig prefix=stat-bars-vitality storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[stat-bars-vitality] sha=3fefcdfd5477307ccd6b3b70
+  empty keys=[stat-bars-vitality] sha=3fefcdfd5477307ccd6b3b70
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.misc.MiscExtras$Data prefix=misc-todos storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[misc-todos] sha=c029c1c70d880f65d0c8c951
+  empty keys=[misc-todos] sha=c029c1c70d880f65d0c8c951
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.plus.combat.CombatPlusPorts$DragonData prefix=dragon-profit storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[dragon-profit] sha=f7d24d5dbea4c6743a56964a
+  empty keys=[dragon-profit] sha=f7d24d5dbea4c6743a56964a
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.plus.combat.CombatPlusPorts$EnderNodeData prefix=ender-node-profit storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[ender-node-profit] sha=f4222512058ae7da93f378ea
+  empty keys=[ender-node-profit] sha=f4222512058ae7da93f378ea
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.plus.reminders.MiscPlusPorts$TodoData prefix=todos storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[todos] sha=ce0fcf59455e9af0bd8c366b
+  empty keys=[todos] sha=ce0fcf59455e9af0bd8c366b
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.plus.rift.PlusRiftExtras$DConfig prefix=rift-extras storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[rift-extras] sha=bebeb41177b317f46a779709
+  empty keys=[rift-extras] sha=bebeb41177b317f46a779709
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.plus.slayer.SlayerPlusMerges$ProfitData prefix=slayer-profit storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[slayer-profit] sha=cdb0f7320c6684924689a06e
+  empty keys=[slayer-profit] sha=cdb0f7320c6684924689a06e
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.world.ApexWaypoints$DConfig prefix=apex-waypoints storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[apex-waypoints] sha=e9ff2819a3d60e449dc58868
+  empty keys=[apex-waypoints] sha=ad0ef332655c9c2f0b064abb
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.features.world.WaypointRouteManager$DConfig prefix=waypoints storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[waypoints] sha=3c4dedb34e65a5d7c9128906
+  empty keys=[waypoints] sha=3c4dedb34e65a5d7c9128906
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.gui.config.RiskDisclaimer$DConfig prefix=risk-disclaimer storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[risk-disclaimer] sha=b597617a3d6044f2a035f9ee
+  empty keys=[risk-disclaimer] sha=b597617a3d6044f2a035f9ee
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException
+generic dev.ashtonite365.apex.repo.LearnedSkullTextures$Store prefix=learned-skull-textures storage=STORAGE dataHolder=true keys=[kotlin.Unit]
+  default keys=[learned-skull-textures] sha=f782bcd2fee9495a2015379e
+  empty keys=[learned-skull-textures] sha=f782bcd2fee9495a2015379e
+  other-key true
+  junk ERR:JsonDecodingException
+  cleared loaded=false data=ERR:IllegalStateException save=ERR:IllegalStateException

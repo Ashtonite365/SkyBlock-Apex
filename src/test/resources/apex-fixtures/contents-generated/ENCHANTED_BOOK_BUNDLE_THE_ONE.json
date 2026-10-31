@@ -1,0 +1,17 @@
+{
+	"box": "ENCHANTED_BOOK_BUNDLE_THE_ONE",
+	"source": "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Book_Bundle",
+	"total_weight": null,
+	"drops": [
+		{
+			"type": "item",
+			"id": null,
+			"min": 1,
+			"max": 1,
+			"weight": null,
+			"chance": 1.0,
+			"note": "The One IV (Hypixel id ULTIMATE_THE_ONE;4): book item not in Apex repo"
+		}
+	],
+	"note": "fixed contents stated by wiki"
+}

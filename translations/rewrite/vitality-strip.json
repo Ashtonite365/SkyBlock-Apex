@@ -1,0 +1,3 @@
+{
+	"apex.config.stat-bars.show-vitality.description": "Bar for your Rift Vitality (only shown while the action bar reports Vitality). While on, the vitality segment is removed from the action bar"
+}

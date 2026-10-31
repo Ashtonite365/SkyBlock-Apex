@@ -1,0 +1,28 @@
+plainType class dev.ashtonite365.apex.test.ours.events.EventsEquivalenceTest$Plain class dev.ashtonite365.apex.test.ours.events.EventsEquivalenceTest$Stoppable
+registered true true
+a1
+b1
+c1
+same true
+a2
+b2
+throw IllegalStateException boom
+a2
+b2
+c2
+throw null
+labels [a, b, c] [false, true, false] [[], [IllegalStateException], []]
+first1 false
+skipped1
+seesAll1 false
+late1
+result1 false
+first2 false
+seesAll2 true
+result2 true
+first3 false
+seesAll3 true
+result3 true
+seesAll9 true
+pre true
+toggle false

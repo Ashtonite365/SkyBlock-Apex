@@ -1,0 +1,192 @@
+payload	SkinPayload(byKind={SKIN=TextureRef(link=http://textures.minecraft.net/texture/abc, extras={model=slim})}, ownerId=00000000-0000-0005-0000-000000000006, ownerName=Name, publicSkin=false, issuedAt=2009-02-13T23:31:30.123Z)
+payloadDefaults	({},<null>,<null>,true)
+texDefaults	TextureRef(link=u, extras={})
+props	(textures=textures|eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWJjIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fSwicHJvZmlsZUlkIjoiMDAwMDAwMDAwMDAwMDAwNTAwMDAwMDAwMDAwMDAwMDYiLCJwcm9maWxlTmFtZSI6Ik5hbWUiLCJpc1B1YmxpYyI6ZmFsc2UsInRpbWVzdGFtcCI6MTIzNDU2Nzg5MDEyM30=|null)
+decode	SkinPayload(byKind={SKIN=TextureRef(link=http://textures.minecraft.net/texture/abc, extras={model=slim})}, ownerId=00000000-0000-0005-0000-000000000006, ownerName=Name, publicSkin=false, issuedAt=2009-02-13T23:31:30.123Z)
+decode 	<null>
+decode e30	SkinPayload(byKind={}, ownerId=null, ownerName=null, publicSkin=true, issuedAt=1970-01-01T00:00:00Z)
+decode e30=	SkinPayload(byKind={}, ownerId=null, ownerName=null, publicSkin=true, issuedAt=1970-01-01T00:00:00Z)
+decode e30==	SkinPayload(byKind={}, ownerId=null, ownerName=null, publicSkin=true, issuedAt=1970-01-01T00:00:00Z)
+decode e30===	SkinPayload(byKind={}, ownerId=null, ownerName=null, publicSkin=true, issuedAt=1970-01-01T00:00:00Z)
+decode !!!	<null>
+decode eyJ0ZXh0dXJlcyI6e319	SkinPayload(byKind={}, ownerId=null, ownerName=null, publicSkin=true, issuedAt=1970-01-01T00:00:00Z)
+decode eyJ0ZXh0dXJlcyI6e319=	SkinPayload(byKind={}, ownerId=null, ownerName=null, publicSkin=true, issuedAt=1970-01-01T00:00:00Z)
+decode bnVsbA==	<null>
+decode W10=	<null>
+decodeWrongName	!java.lang.AssertionError: Assertion failed
+arbitrary	d3cb85e2-3075-48a1-b213-a9bfb62360c1
+encodedOwner	(00000000-0000-0001-0000-000000000002,LameGuy123,(textures=e30=|null))
+skullItem	(1,minecraft:player_head,(00000000-0000-0003-0000-000000000004,nea89,(textures=SkinPayload(byKind={SKIN=TextureRef(link=http://x/y, extras={})}, ownerId=00000000-0000-0003-0000-000000000004, ownerName=nea89, publicSkin=true, issuedAt=1970-01-01T00:00:00Z))))
+setSkullOwner	(00000000-0000-0007-0000-000000000008,nea89,(textures=SkinPayload(byKind={SKIN=TextureRef(link=u, extras={})}, ownerId=00000000-0000-0007-0000-000000000008, ownerName=nea89, publicSkin=true, issuedAt=1970-01-01T00:00:00Z)))
+skullJson	{"textures":{"SKIN":{"url":"http://textures.minecraft.net/texture/abc","metadata":{"model":"slim"}}},"profileId":"00000000000000050000000000000006","profileName":"Name","isPublic":false,"timestamp":1234567890123}
+skullJsonDecode	SkinPayload(byKind={CAPE=TextureRef(link=c, extras={})}, ownerId=00000000-0000-0001-0000-000000000002, ownerName=null, publicSkin=true, issuedAt=1970-01-01T00:00:00.005Z)
+smuggle	true
+initLevels	(STARTING,MC_INIT,RENDER_INIT,RENDER,MAIN_MENU)
+initAtLeast	(true,false,false,false,false)
+initBumpBad	!java.lang.IllegalStateException: Cannot bump initLevel MAIN_MENU from STARTING
+slotConsts	(0,1,2)
+fakeSlot	(0,5,6,true,0,1,false,true,true,true,util.mc.FakeInventory,2,java.lang.IllegalArgumentException,true)
+fakeInvEmpty	(true,1)
+container	((0,1,2),(minecraft:applex1,minecraft:airx0,minecraft:stonex3),3,java.util.NoSuchElementException)
+slotIndex	(SlotKey(index=3, inPlayerInventory=true),true,SlotKey(index=4, inPlayerInventory=true))
+tabList	({"header":"h","body":["a","b"]},true,TabSnapshot(header=Optional[literal{h}], footer=Optional.empty, body=[literal{a}, literal{b}]))
+tabListCache	true
+rect	ScreenRectangle[position=ScreenPosition[x=1, y=2], width=30, height=40]
+textures	apex:generic_vanilla_widget
+tolerant	(true,RegistryOps,true)
+errorCodec	(nope,nope)
+neverEncode	true
+locraw	((ServerLocation(server=mini1, gametype=SKYBLOCK, mode=hub, map=null),true),<null>,<null>,<null>,{"server":"s","gametype":"SKYBLOCK","mode":"garden","map":"Garden"},true)
+sbdata	((false,false,<null>,<null>,00000000-0000-0000-0000-000000000000),(false,false,<null>,<null>,00000000-0000-0000-0000-000000000000),(true,true,garden,00000000-0000-0009-0000-000000000009,00000000-0000-0009-0000-000000000009),(false,true,<null>,<null>,00000000-0000-0000-0000-000000000000),(00000000-0000-0000-0000-000000000000,US/Eastern,(CLICK THIS TO SUGGEST IT IN CHAT [DASHES],CLICK THIS TO SUGGEST IT IN CHAT [NO DASHES]),false))
+coordinate	((1.5, 2.5, 3.5),(-0.5, -1.5, -2.5))
+registry	(minecraft:diamond,<null>)
+fmt 0	apex.fuzz.k0apex.fuzz.k2§4blal0f§4a
+fmt 1	a§e3apex.fuzz.
+fmt 2	§4k§49NL
+fmt 3	§45fmKkR§4apex.fuzz.§6:Ld§4,5§1Lnz8
+fmt 4	7yR78M§5apex.fuzz.5364rlapex.fuzz.k2§4NLrd§5l:57RbK..§6yO-ozapex.fuzz.apex.fuzz.k0
+fmt 5	_R:ebapex.fuzz.§2Kzd924 17eapex.fuzz.k187
+fmt 6	e-l0§5§4NN§1apex.fuzz.§1nR3blKa_
+fmt 7	fbakR
+fmt 8	§dapex.fuzz.§4fb§4fb§40yN§4apex.fuzz.§4e§f2Nz:
+fmt 9	§3fb§37eR§9c§9O 7:
+fmt 10	§6apex.fuzz.§6apex.fuzz.apex.fuzz.§d:2ozcKapex.fuzz.50lkc2zdx§5-L§9fb§9l_§02l6 2§6apex.fuzz.§capex.fuzz.k0
+fmt 11	
+fmt 12	fb7
+fmt 13	apex.fuzz.k0apex.fuzz.f-,O5xLy
+fmt 14	nLK§9apex.fuzz.§9apex.fuzz.§95M yf85§91cKRmO8fb79apex.fuzz.k2§ddapex.fuzz.
+fmt 15	
+fmt 16	n2MfbO.5K§bapex.fuzz.k0apex.fuzz.lm§2dxfc079M,.1.7zN§f92
+fmt 17	apex.fuzz.§7apex.fuzz.k1§7,Ne§cnKebkN,9R4xa73Kb§0apex.fuzz.k2
+fmt 18	apex.fuzz.apex.fuzz.§4RmO4e
+fmt 19	kk5xKd5d3o8§clOdMy18cfb§c5:z
+fmt 20	apex.fuzz.RRNL§cn.1O__n1§capex.fuzz.2
+fmt 21	K7apex.fuzz.§7apex.fuzz.k10-O6a5R8_fbR
+fmt 22	4Ncfrloe
+fmt 23	68MaKrlO.b,O§bapex.fuzz.§bNMb5N§7_f8b8d§bapex.fuzz.k1§8c84zO1yfy0
+fmt 24	ybm  yR
+fmt 25	azNK§7ab2yNzL,5r94
+fmt 26	mMb5-mr2
+fmt 27	
+fmt 28	5a4myebab84b§7fb§7e§9§7
+fmt 29	fb0fx5Mapex.fuzz.8§8:k
+fmt 30	§3apex.fuzz.§3K:§1ranaMd,§8oz6§3apex.fuzz.k0
+fmt 31	apex.fuzz.§aapex.fuzz.apex.fuzz.3bl.O5,Rn
+fmt 32	§cR5§4apex.fuzz.k0y7.4N.M8d-L07 4137m§92__§0r7cK§capex.fuzz.k2§capex.fuzz.§cen_9d2§2a
+fmt 33	§594_eb- d
+fmt 34	
+fmt 35	apex.fuzz.On5aOa7nn-5z2Napex.fuzz.§1Lf4yf_ynl-
+fmt 36	:5me_
+fmt 37	aK.891b§
+fmt 38	fbOmny§93o,e- .5
+fmt 39	apex.fuzz.§by§b:§e-kzl§7a
+fmt 40	§efb§eyl6§e6:7:a7§3fb
+fmt 41	xylO2§cy
+fmt 42	9R.lapex.fuzz.
+fmt 43	§efb§e83
+fmt 44	
+fmt 45	§efbapex.fuzz.xz3rmxd88b§bxr_-0b§dKz59zkl1fb.2a
+fmt 46	anr.b-fb7-L:x4x0z ekkarrfmyfb§7apex.fuzz.k0
+fmt 47	fb3
+fmt 48	4_N64napex.fuzz.k0
+fmt 49	apex.fuzz.§6apex.fuzz.
+fmt 50	apex.fuzz.fbN9x2
+fmt 51	9k§fl§1e§ffb§fNrapex.fuzz.k09x0fb§0RRazapex.fuzz.k1§02bz
+fmt 52	5o1L7n§7fb§7fb2,5
+fmt 53	apex.fuzz.k1apex.fuzz.lxbba:xaaxcob83
+fmt 54	apex.fuzz.k2kKy6,apex.fuzz.o5Oa-a§58on9KMe:4lk
+fmt 55	nLaa
+fmt 56	fbyMapex.fuzz.k0
+fmt 57	2l3kO:R§1apex.fuzz.k1
+fmt 58	 f8-ofb8r ,§b7mc6§bfb§bL§b eye3n
+fmt 59	apex.fuzz.apex.fuzz.apex.fuzz.c43coRrc:,4LcN:efbec4apex.fuzz.e§3azbOyRM
+fmt 60	
+fmt 61	apex.fuzz.9-apex.fuzz.701§56M§4_§3MMb3 bco
+fmt 62	§c,aO§0R§0mzapex.fuzz.3a§fo,§dapex.fuzz.o:la4n41KM§1r§dfb§d§0x§b:NNOMo
+fmt 63	§5K,lx2m§5fb§5kKkl§5apex.fuzz.§5md.b7b9§f_66.
+fmt 64	rR§capex.fuzz.7§63b ,kKlapex.fuzz.k1§abdOKO 
+fmt 65	ddapex.fuzz.k0eabr§axM
+fmt 66	apex.fuzz.k0
+fmt 67	M:r7Kk
+fmt 68	fb7oMm§6apex.fuzz.
+fmt 69	§0c1
+fmt 70	§62k46f.4§d_Na-§9M87c
+fmt 71	fblnc
+fmt 72	71
+fmt 73	fboRen
+fmt 74	6§ad0o4apex.fuzz._20aapex.fuzz.k0§efb§ez§e-n:2y
+fmt 75	apex.fuzz.§9m.d88l 26ebb37nz§a1 68 5r§aapex.fuzz.§a-§afb_mbN.xxdapex.fuzz.k2§d7§4fb§40d
+fmt 76	§fapex.fuzz.k0§fapex.fuzz.§0fb§0 95apex.fuzz._9§fod§c§fne:Mn§02ko
+fmt 77	fbbR8mfbLd90adOMkOe,,§4x9l
+fmt 78	§b§e 6mkK8§capex.fuzz.k1apex.fuzz.k243yk2K3.
+fmt 79	c1fz§4ob§
+fmt 80	8_§4N§4apex.fuzz.§ab0nk0r
+fmt 81	R_7apex.fuzz.k2§3fb§3yl1kf7L9:mRan2-9_l6
+fmt 82	apex.fuzz.§bapex.fuzz.9r ,rxz-K9§bkkL3mKam§b0Lfl.y§bK-a9dz6apex.fuzz.k1z0K§4l 5fL dOfbfbol4r
+fmt 83	fbbK.fb52-f§2apex.fuzz.k2§2apex.fuzz.§3n §6M8:481c§4R9kNz.
+fmt 84	apex.fuzz.9_L_Odaca8L,krdafbfd§4aK§2Nez:cR5§32,§7§dapex.fuzz.§3apex.fuzz.§3rbaa_
+fmt 85	apex.fuzz.fb2_36kk4k§89r0.a6xc
+fmt 86	apex.fuzz.k1apex.fuzz.§fapex.fuzz.k2fb_7_apex.fuzz.RcckL§
+fmt 87	aapex.fuzz.k27KlMmK25
+fmt 88	§9apex.fuzz.
+fmt 89	§7fb§71§
+fmt 90	
+fmt 91	79
+fmt 92	§aapex.fuzz.§bx-M K
+fmt 93	§1na
+fmt 94	§9apex.fuzz.§a§9bco§2apex.fuzz.§2ay§00Kk_r2lb§2c7.f4§9apex.fuzz.§9apex.fuzz.§9apex.fuzz.§9c§e4_K62-3b1O
+fmt 95	apex.fuzz.§f77f_0ao§fc7NR8n
+fmt 96	r
+fmt 97	apex.fuzz.L0Lb:rMa
+fmt 98	§3apex.fuzz.
+fmt 99	fbOr:9-a§cz.a§bapex.fuzz.k1§b3nN
+fmt 100	b
+fmt 101	apex.fuzz.a421kNRaapex.fuzz.apex.fuzz.§f 3ab6.2
+fmt 102	bb7eapex.fuzz.-fRm§cnL1m:5L§ana9O6b§909zn7a: §9Nz7m2
+fmt 103	
+fmt 104	apex.fuzz.k2a_-apex.fuzz.rr:aaf:apex.fuzz.fb:-eR-nl0Nemla§87M1M5:2
+fmt 105	apex.fuzz.apex.fuzz.2fb2§7cnapex.fuzz.k2§ffb§fK_-21R8k§2m§3apex.fuzz.§34-KyK6
+fmt 106	29apex.fuzz.k1fba
+fmt 107	cd3e§efb§ez0b §9apex.fuzz.§e§cKd-O§4§eN4
+fmt 108	apex.fuzz.k0xk§4apex.fuzz.§5b§4fbnabo§4Oa0be 0apex.fuzz.k0
+fmt 109	zb-:eb
+fmt 110	b .-§1
+fmt 111	 b§
+fmt 112	§5apex.fuzz.k2
+fmt 113	
+fmt 114	fbc2fL§dapex.fuzz.§dd1L:§d1n0nbz§dapex.fuzz.§dn--5§df§78mKb1R_mnb1lf
+fmt 115	§dzapex.fuzz.k2aa2255en
+fmt 116	
+fmt 117	-.K5Ly-fb§9mRnapex.fuzz.k0
+fmt 118	
+fmt 119	§1apex.fuzz.k2aK4r7c§eL  4:apex.fuzz.O1ca,:,§bnboz7M_.,z§73rlmo
+fmt 120	apex.fuzz.k25ky§bapex.fuzz.§eb85k_4k_Rm,e_R§6L_9bez6a.-b_
+fmt 121	K7
+fmt 122	L_7fb141x§f0xK4apex.fuzz.§4:8§2b4ML.xnM.38z§4lf2
+fmt 123	8fN39
+fmt 124	1f§bapex.fuzz.Rn§3bOM379b
+fmt 125	
+fmt 126	§4apex.fuzz.k2§e7,e56§1fb§1b§2k7ec
+fmt 127	§9apex.fuzz.§4md78ako§9Nf Mbc
+fmt 128	
+fmt 129	z§62n78,K
+fmt 130	apex.fuzz.apex.fuzz.be7,2n88r aafb11OLM
+fmt 131	§7n 5:6apex.fuzz.-§cfb§c5.7l ,§2or100K§7e2Rz7a§8§7R8b9 .k§7N.l3cdzz
+fmt 132	3M66 .§fapex.fuzz.k0
+fmt 133	ynd189§42:O3o§4zL8l99c2apex.fuzz.k2§e0c11ma§efb§e2aa§ex,a:,2zOLbfMyy2
+fmt 134	5k5,ML§4fb§4brb
+fmt 135	fb4x7c§4apex.fuzz.§4apex.fuzz.§4apex.fuzz.17,a0R§9apex.fuzz.
+fmt 136	§afb§a:apex.fuzz.8bfcr4zd§b§3apex.fuzz.k2
+fmt 137	apex.fuzz.kapex.fuzz.k0
+fmt 138	§2apex.fuzz.k1§e5ncn OLapex.fuzz.
+fmt 139	§ae
+fmt 140	apex.fuzz.k2e1mml:aOcLbf8LRfxapex.fuzz.§2N§c §782M-lz8rab-MR§fR:1._66Rx§b§b.9:xo-3
+fmt 141	fb
+fmt 142	apex.fuzz.apex.fuzz.
+fmt 143	09§8fb§8.,0§8apex.fuzz.§8
+fmt 144	fb8§8apex.fuzz.§4..laf7fb§3-
+fmt 145	,rkfe1d
+fmt 146	apex.fuzz.§cfb§capex.fuzz.k1m§4apex.fuzz.k2
+fmt 147	§dfb§d0L4§4fb§4 xk§4r0-r-§0_§44f
+fmt 148	x7aM§3apex.fuzz.§3apex.fuzz.k0§c2b2,§3ab0f§8413z
+fmt 149	§2.N9§0apex.fuzz.

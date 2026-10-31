@@ -1,0 +1,278 @@
+SkyBlock Apex - third-party asset notice
+
+SkyBlock Apex is a modified version of Firmament, modified by Ashton (Ashtonite365), 2026
+
+Firmament: https://github.com/nea89o/Firmament, Copyright (C) Linnea Gräf and the Firmament contributors,
+GPL-3.0-or-later. SkyBlock Apex as a whole is licensed GPL-3.0-or-later (LICENSE).
+
+Status 28 Oct 2026: the code ported from the projects below (NotEnoughUpdates, Odin, SkyHanni, Skyblocker,
+Feesh, Better Hypixel Chat) was rewritten clean-room and verified by golden differential tests; the notices are
+kept for the textures and data still bundled (the last ports, the SkyHanni sea creature files and Odin's Simon
+Says / Arrow Align logic, were rewritten in the 28 Oct residue pass). CREDITS.md lists what is still derived.
+
+Trademarks and affiliation
+    SkyBlock Apex is an unofficial, free fan-made mod. It is not an official Minecraft product and is not approved by,
+    endorsed by or associated with Mojang Studios or Microsoft. It is not affiliated with, endorsed by or sponsored by
+    Hypixel Inc.; "Hypixel" and "Hypixel SkyBlock" are trademarks of Hypixel Inc. and are used only to say which server
+    the mod works with. Other project names in this file are their owners' and are used only to give credit.
+
+Hypixel SkyBlock Resource Pack
+    Not included in any SkyBlock Apex jar. Every build downloads Hypixel's own SkyBlock Resource Pack from Hypixel's
+    public API (https://api.hypixel.net/v2/resources/packs), checks its SHA-1 and caches it in config/apex/cache/.
+    (C) Hypixel Inc., under its own licence (the LICENSE inside the downloaded pack), downloaded from Hypixel,
+    not distributed by Apex.
+
+src/main/kotlin/features/chat/PartyCommands.kt (chat commands: !coords, !pt, !warp, !8ball, !dt, ... and chat emotes)
+    Partly ported from Odin's ChatCommands module (https://github.com/odtheking/Odin,
+    src/main/kotlin/com/odtheking/odin/features/impl/skyblock/ChatCommands.kt, commit b0058000).
+    Copyright (c) 2025, odtheking. Licensed under the BSD 3-Clause License (LICENSES/BSD-3-Clause.txt);
+    the licence text and this copyright notice must be kept with any redistribution. Combined work: GPL-3.0-or-later.
+
+src/main/kotlin/features/dungeon/TerminalExtras.kt, src/main/kotlin/features/dungeon/DungeonStatusHuds.kt,
+src/main/kotlin/features/kuudra/KuudraInfo.kt (terminal times/status/titles/sounds, blessing/breaker/invincibility HUDs,
+Kuudra HP HUD, Fresh Tools, pre-spot alert)
+    Ported from Odin (https://github.com/odtheking/Odin, src/main/kotlin/com/odtheking/odin/features/impl/boss/
+    TerminalTimes.kt, TerminalsStatus.kt, TerminalTitles.kt, TerminalSounds.kt; dungeon/BlessingDisplay.kt,
+    BreakerDisplay.kt, InvincibilityTimer.kt; nether/KuudraInfo.kt, FreshTools.kt, NoPre.kt; utils/skyblock/Supply.kt).
+    Copyright (c) 2025, odtheking. Licensed under the BSD 3-Clause License (LICENSES/BSD-3-Clause.txt);
+    the licence text and this copyright notice must be kept with any redistribution. Combined work: GPL-3.0-or-later.
+
+src/main/kotlin/features/dungeon/Boulder.kt, src/main/resources/assets/apex/puzzles/boulder-solutions.json
+    Puzzle solution data and approach ported from Odin (https://github.com/odtheking/Odin,
+    features/impl/dungeon/puzzlesolvers/BoulderSolver.kt, src/main/resources/assets/odin/puzzles/boulder-solutions.json, commit b0058000).
+    Copyright (c) 2025, odtheking. Licensed under the BSD 3-Clause License (LICENSES/BSD-3-Clause.txt);
+    the licence text and this copyright notice must be kept with any redistribution. Combined work: GPL-3.0-or-later.
+
+src/main/kotlin/features/kit/puzzles/, src/main/kotlin/features/kit/dungeon/, src/main/resources/assets/apex/kit/puzzles/
+    Ported from Odin (https://github.com/odtheking/Odin, features/impl/dungeon/puzzlesolvers/QuizSolver.kt,
+    IceFillSolver.kt, dungeon/PuzzleHud.kt, Highlight.kt, LeapMenu.kt, RoomClear.kt, MageBeam.kt, DoorHighlight.kt,
+    src/main/resources/assets/odin/puzzles/quiz-answers.json, ice-fill-floors.json, commit b005800).
+    Portions of SkyBlock Apex are derived from Odin, Copyright (c) 2025, odtheking, licensed under BSD-3-Clause.
+    Licensed under the BSD 3-Clause License (LICENSES/BSD-3-Clause.txt, assets/apex/kit/puzzles/LICENSE-Odin.txt);
+    the licence text and this copyright notice must be kept with any redistribution. Combined work: GPL-3.0-or-later.
+
+src/main/kotlin/features/kit/dungeon/LeapMenuOptions.kt (H6b), src/main/kotlin/util/kit/ (H4 hooks, cherry-picked)
+    Ported from Odin (https://github.com/odtheking/Odin, features/impl/dungeon/LeapMenu.kt,
+    dungeon/puzzlesolvers/QuizSolver.kt, dungeon/PuzzleHud.kt, utils/skyblock/SplitsManager.kt, commit b005800).
+    Copyright (c) 2025, odtheking. Licensed under the BSD 3-Clause License (LICENSES/BSD-3-Clause.txt);
+    the licence text and this copyright notice must be kept with any redistribution. Combined work: GPL-3.0-or-later.
+
+src/main/kotlin/util/plus/ (ProfitTracker.kt, ShPatterns.kt, ShRepoData.kt, HudLines.kt), src/main/resources/assets/apex/plus/
+    API shape adapted from SkyHanni (https://github.com/hannibal002/SkyHanni: SkyHanniTracker, SkyHanniItemTracker,
+    RepoPattern, Renderable; static data from SkyHanni-REPO). Copyright (C) hannibal002 & SkyHanni contributors.
+    Licensed under LGPL-2.1; used under its section 3 in this GPL-3.0-or-later work. No SkyHanni-REPO download.
+
+src/main/kotlin/features/plus/commands/PlusCommands.kt
+    Ported from SkyHanni (https://github.com/hannibal002/SkyHanni, features/commands/AcceptLastPartyInvite.kt,
+    ShortenWarpCommand.kt, TransferCooldown.kt). Copyright (C) hannibal002 & SkyHanni contributors.
+    Licensed under LGPL-2.1; used under its section 3 in this GPL-3.0-or-later work.
+
+src/main/kotlin/features/plus/commands/PlusCommandExtras.kt
+    Ported from SkyHanni (https://github.com/hannibal002/SkyHanni, features/commands/ViewRecipeCommand.kt,
+    tabcomplete/GetFromSacksTabComplete.kt, OpenLastStorage.kt, PreventEarlyCommands.kt, WikiManager.kt).
+    Copyright (C) hannibal002 & SkyHanni contributors. Licensed under LGPL-2.1; used under its section 3 in this GPL-3.0-or-later work.
+
+src/main/kotlin/features/inventory/StackSizeNumbers.kt, src/main/kotlin/features/apexmarket/CookieConverter.kt (SkyHanni options)
+    Partly ported from SkyHanni (https://github.com/hannibal002/SkyHanni, features/inventory/ItemDisplayOverlayFeatures.kt,
+    BitsPerCookieVisual.kt). Copyright (C) hannibal002 & SkyHanni contributors. LGPL-2.1, used under its section 3 (GPL-3.0-or-later).
+src/main/kotlin/features/plus/{visualwords,garden}/ (H3 SkyHanni ports: SkyHanniLoreTweaks, SprayTracker)
+    Ported from SkyHanni (https://github.com/hannibal002/SkyHanni): ReplaceRomanNumerals, ColorHexInLore, SprayDisplay,
+    SprayonatorType. Copyright (C) 2022-2026 hannibal002 & SkyHanni contributors. LGPL-2.1, used under its section 3
+    in this GPL-3.0-or-later work. No network access.
+    H5 SkyHanni ports (features/plus/{mining,crimson,pets,gui}): code ported from SkyHanni
+    (GhostTracker, CrystalNucleusTracker, ExcavatorProfitTracker, VolcanoExplosivityDisplay, PabloHelper,
+    SirihHelper, PetCandyUsedDisplay, TrevorTracker). Copyright (C) hannibal002 & SkyHanni contributors, LGPL-2.1, used under section 3.
+src/main/kotlin/features/plus/{events,chat,misc}/ and H6-merged options (SkyBlock Apex H6 port)
+    Ported from SkyHanni (https://github.com/hannibal002/SkyHanni). Copyright (C) 2022-2026 hannibal002 & SkyHanni
+    contributors. Licensed under LGPL-2.1; used under its section 3 in this GPL-3.0-or-later work. See CREDITS.md.
+src/main/kotlin/features/plus/{fishing,rift,hunting,foraging,stranded}/ (H1)
+    Ported from SkyHanni (https://github.com/hannibal002/SkyHanni). Copyright (C) hannibal002 & SkyHanni contributors.
+    Licensed under LGPL-2.1; used under its section 3 in this GPL-3.0-or-later work.
+    Also: CorpseLoot, CorpseTracker, MiningNotifications, InfernoMinionFeatures (H5).
+src/main/kotlin/features/plus/{dungeon,slayer,combat,reminders}/, features/dungeon/CroesusHelpers.kt (kismet marker)
+    Ported from SkyHanni (https://github.com/hannibal002/SkyHanni). Copyright (C) 2022-2026 hannibal002 & SkyHanni contributors.
+
+src/main/kotlin/features/plus/inventory/ShInventorySmall.kt
+    Ported from SkyHanni (https://github.com/hannibal002/SkyHanni, features/inventory/UltimateEnchantStar.kt, EvolvingItems.kt,
+    museum/MuseumCategoryHighlighter.kt, AuctionOutbidWarning.kt). Copyright (C) hannibal002 & SkyHanni contributors.
+    Licensed under LGPL-2.1; used under its section 3 in this GPL-3.0-or-later work.
+    Also: NucleusBarriersBox, SulphurSkitterBox, PetNametag (H5).
+    Also: MinionUpgradeHelper (H5).
+
+src/main/kotlin/features/garden/{GardenPests,GardenVisitors,GardenSensitivity,GardenProgress,GardenTools}.kt, src/main/kotlin/features/misc/{MiscRender,CompactTabList}.kt,
+src/main/kotlin/features/plus/{garden,visualwords}/ (H3 SkyHanni garden/render/tab list/visual words ports)
+    Ported from SkyHanni (https://github.com/hannibal002/SkyHanni): PestFinder, PestSpawnTimer, PestProfitTracker, GardenVisitorTimer,
+    VisitorRewardWarning, GardenPlotBorders, GardenWarpCommands, MouseSensitivityReducer, GardenCropMilestoneDisplay, JacobContestTimeNeeded,
+    GardenBpsTracker, GardenOptimalSpeed, CustomSpeedConfig,
+    FarmingFortuneDisplay, JacobContestFFNeededDisplay,
+    AnitaMedalProfit, SkyMartCopperPrice,
+    FarmingLaneCreator, FarmingLaneFeatures, FarmingLane, NoBreak,
+    GardenLevelDisplay, HoeLevelDisplay, CropFeverTracker, RareCropTracker,
+    GardenNextJacobContest, ContestBracket, JacobContestStatsSummary, FarmingContestApi,
+    CropMoneyDisplay, GardenBestCropTime,
+    PhantomleafSolver, HarvestableHighlight, CarrolynHelper,
+    ParticleHider, FixGhostEntities (temporary armour stands),
+    GardenOptimalAngles, GardenYawAndPitch,
+    ColorfulItemStats (stat icons, drop units), RestorePieceOfWizardPortalLore, FixChimeraDescription,
+    GardenInventoryNumbers, GardenUptimeManager, GardenCropsInCommand,
+    AtmosphericFilterDisplay, StereoHarmonyDisplay, ZorroCapeContestProtection, LogBookStats, SeeThroughWindow,
+    ModifyVisualWords, AdvancedPlayerList, ExpOrbsOnGroundHider, HideFarEntities, PartyMemberOutlines. Copyright (C) 2022-2026 hannibal002 &
+    SkyHanni contributors. LGPL-2.1, used under its section 3 in this GPL-3.0-or-later work. No network access.
+
+- H1 skip rows (sh-h1-skips): ShTrophyFillet, ShSeaCreatureSettings, ShShardChecklist ported from SkyHanni TrophyFishFillet,
+    SpecificSeaCreatureSettings/SpecificSeaCreatures, SafariShardChecklist/SafariShard/SafariBiome. Copyright (C) 2022-2026 hannibal002 &
+    SkyHanni contributors. LGPL-2.1, used under its section 3 in this GPL-3.0-or-later work. Trophy fillet values are read at runtime from
+    the NEU item repo (constants/trophyfish.json, MIT License, Copyright (c) 2020 Moulberry) that Apex already loads; nothing bundled. No network access.
+
+- H1 Thunder Sparks (shrepo-h1): ShThunderSparks ported from SkyHanni ThunderSparksHighlight. Copyright (C) 2022-2026 hannibal002 &
+    SkyHanni contributors. LGPL-2.1, used under its section 3 in this GPL-3.0-or-later work. Skull texture from SkyHanni-REPO
+    constants/Skulls.json (MIT, see the SkyHanni-REPO section) via ShRepoSource; no new network access.
+src/main/kotlin/util/skyblock/DungeonTabSecrets.kt (action bar / tab list secret parser, needed-secrets maths)
+    Ported from Odin (https://github.com/odtheking/Odin, commit b0058000,
+    utils/skyblock/ActionBarListener.kt, utils/skyblock/dungeon/DungeonListener.kt, utils/skyblock/dungeon/DungeonUtils.kt).
+    Copyright (c) 2025, odtheking. Licensed under the BSD 3-Clause License (LICENSES/BSD-3-Clause.txt);
+    the licence text and this copyright notice must be kept with any redistribution. Combined work: GPL-3.0-or-later.
+    Parsing details reimplemented (no code copied) from ideas in Skyblocker (LGPL-3.0, commit a3f25d79) and
+    Dungeon Rooms Mod (GPL-3.0, commit 4d9ce890).
+src/main/kotlin/features/plus/rift/ShRiftHighlights2.kt, ShRiftPuzzles.kt, ShRiftLivingCave.kt, ShRiftExtras.kt, ShRiftLogic.kt
+    Ported from SkyHanni (https://github.com/hannibal002/SkyHanni). Copyright (C) 2022-2026 hannibal002 & SkyHanni contributors.
+    Licensed under LGPL-2.1; used under its section 3 in this GPL-3.0-or-later work.
+    H5 (feat-h5-urbook): SuperpairsCardFlip / Ultra Rare Book alert, WhispersPerHotfPerk, StarlynCouponProfit ported from
+    SkyHanni (UltraRareBookAlert, ExperimentationSuperpairApi, ExperimentationTableApi, WhispersPerHotfPerk, HotfData,
+    StarlynSisterCouponProfit). Copyright (C) hannibal002 & SkyHanni contributors, LGPL-2.1, used under section 3. No SkyHanni-REPO data.
+
+src/main/resources/assets/apex/plus-repo/ (bundled SkyHanni-REPO snapshot) and data downloaded at runtime by
+src/main/kotlin/util/plus/ShRepoSource.kt, from https://github.com/hannibal002/SkyHanni-REPO:
+    MIT License
+    
+    Copyright (c) 2022 hannibal2
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+src/main/kotlin/features/plus/rift/ShRiftParkour.kt, ShRiftPuzzles2.kt, ShRiftRepoLogic.kt
+    Ported from SkyHanni (https://github.com/hannibal002/SkyHanni). Copyright (C) 2022-2026 hannibal002 & SkyHanni contributors.
+    Licensed under LGPL-2.1; used under its section 3 in this GPL-3.0-or-later work. Route/puzzle data from SkyHanni-REPO (MIT).
+
+src/main/kotlin/features/dungeon/TerminalSolver.kt (rubix/melody/colours/first-click options), src/main/kotlin/features/kit/terminals/KitTerminalLogic.kt
+    Ported from Odin (https://github.com/odtheking/Odin, src/main/kotlin/com/odtheking/odin/features/impl/boss/TerminalSolver.kt; utils/skyblock/dungeon/terminals/terminalhandler/RubixHandler.kt, MelodyHandler.kt).
+    Copyright (c) 2025, odtheking. Licensed under the BSD 3-Clause License (LICENSES/BSD-3-Clause.txt);
+    the licence text and this copyright notice must be kept with any redistribution. Combined work: GPL-3.0-or-later.
+
+src/main/kotlin/features/kit/devices/KitDevicesLogic.kt (Arrow Align wall layouts, data only; the code is Apex's own)
+    Layouts from Odin (https://github.com/odtheking/Odin, src/main/kotlin/com/odtheking/odin/features/impl/boss/ArrowAlign.kt).
+    Copyright (c) 2025, odtheking. Licensed under the BSD 3-Clause License (LICENSES/BSD-3-Clause.txt);
+    the licence text and this copyright notice must be kept with any redistribution. Combined work: GPL-3.0-or-later.
+
+src/main/kotlin/features/dungeon/TerminalSimulator.kt (extra modes, ping), src/main/kotlin/features/kit/terminals/TermSimModels.kt
+    Ported from Odin (https://github.com/odtheking/Odin, src/main/kotlin/com/odtheking/odin/features/impl/boss/termsim/RubixSim.kt, StartsWithSim.kt, SelectAllSim.kt, TermSimGUI.kt; features/impl/boss/TerminalSimulator.kt).
+    Copyright (c) 2025, odtheking. Licensed under the BSD 3-Clause License (LICENSES/BSD-3-Clause.txt);
+    the licence text and this copyright notice must be kept with any redistribution. Combined work: GPL-3.0-or-later.
+
+src/main/kotlin/features/kit/terminals/TerminalPbs.kt (terminal-extras.terminal-pbs option)
+    Ported from Odin (https://github.com/odtheking/Odin, src/main/kotlin/com/odtheking/odin/features/impl/boss/TerminalTimes.kt; utils/PersonalBest.kt).
+    Copyright (c) 2025, odtheking. Licensed under the BSD 3-Clause License (LICENSES/BSD-3-Clause.txt);
+    the licence text and this copyright notice must be kept with any redistribution. Combined work: GPL-3.0-or-later.
+
+src/main/kotlin/features/dungeon/DungeonSplits.kt (Odin options), src/main/kotlin/features/kit/splits/
+    Ported from Odin (https://github.com/odtheking/Odin, src/main/kotlin/com/odtheking/odin/features/impl/skyblock/Splits.kt, utils/skyblock/SplitsManager.kt, features/impl/boss/ExtraStats.kt, commit b005800).
+    Copyright (c) 2025, odtheking. Licensed under the BSD 3-Clause License (LICENSES/BSD-3-Clause.txt);
+    the licence text and this copyright notice must be kept with any redistribution. Combined work: GPL-3.0-or-later.
+
+src/main/kotlin/features/kit/boss/ (boss tick timers, Spirit Bear, terracotta timers, wither dragons, king relics)
+    Ported from Odin (https://github.com/odtheking/Odin, src/main/kotlin/com/odtheking/odin/features/impl/boss/TickTimers.kt, SpiritBear.kt, TerracottaTimer.kt, WitherDragons.kt, WitherDragonsEnum.kt, DragonCheck.kt, KingRelics.kt, commit b005800).
+    Copyright (c) 2025, odtheking. Licensed under the BSD 3-Clause License (LICENSES/BSD-3-Clause.txt);
+    the licence text and this copyright notice must be kept with any redistribution. Combined work: GPL-3.0-or-later.
+
+src/main/kotlin/features/kit/kuudra/, src/main/kotlin/features/kit/crimson/VesuviusHelper.kt, src/main/kotlin/features/kit/devices/SharpshooterHighlight.kt
+    Ported from Odin (https://github.com/odtheking/Odin, src/main/kotlin/com/odtheking/odin/features/impl/nether/
+    SupplyHelper.kt, BuildHelper.kt, Misc.kt, RemovePerks.kt, KuudraTracker.kt, Vesuvius.kt; utils/skyblock/Supply.kt,
+    KuudraUtils.kt; features/impl/boss/ArrowsDevice.kt) by H5 (od-h5).
+    Copyright (c) 2025, odtheking. All rights reserved. Redistribution and use in source and binary forms, with or
+    without modification, are permitted provided that the conditions of the BSD 3-Clause License are met; full text
+    in LICENSES/BSD-3-Clause.txt.
+
+src/main/kotlin/features/kit/skyblock/ (Ragnarock.kt, PetKeybinds.kt, LoadoutKeybinds.kt), src/main/kotlin/features/kit/render/
+(OdinCamera.kt, GyroWandRing.kt, RenderHides.kt)
+    Portions of SkyBlock Apex are derived from Odin (https://github.com/odtheking/Odin, src/main/kotlin/com/odtheking/odin/
+    features/impl/skyblock/Ragnarock.kt, PetKeybinds.kt, LoadoutKeybinds.kt; render/Camera.kt, GyroWand.kt, RenderOptimizer.kt;
+    commit b0058000). (The Melody Message port, features/kit/devices/MelodyMessage.kt, no longer exists.)
+    Copyright (c) 2025, odtheking. Licensed under the BSD 3-Clause License (LICENSES/BSD-3-Clause.txt);
+    the licence text and this copyright notice must be kept with any redistribution. Combined work: GPL-3.0-or-later.
+
+Settings rewrite credits review (H4, REWRITE_PLAN.md §9). Every notice above is kept unchanged; these add the projects
+the review found missing from this file.
+
+MoulConfig (shaded into the jar; src/compat/moulconfig/ uses it for the /apex settings screen)
+    MoulConfig, https://github.com/NotEnoughUpdates/MoulConfig, local build of master 4eaeb73c for 26.3.
+    Copyright (C) Linnea Gräf, Moulberry and the NotEnoughUpdates contributors. Licensed under the GNU Lesser General
+    Public License v3.0 or later (LICENSES/LGPL-3.0-or-later.txt). Combined work: GPL-3.0-or-later.
+
+src/vendor/jarvis/ (HUD editor)
+    Vendored from Jarvis, https://github.com/nea89o/jarvis. Copyright (C) 2026 Linnea Gräf and the Jarvis contributors.
+    Licensed under LGPL-3.0-or-later (LICENSES/LGPL-3.0-or-later.txt); modified by SkyBlock Apex (8-handle resizing).
+
+src/main/kotlin/features/fishing/SeaCreatures.kt (sea creature names, rarities and catch messages)
+    Data from Feesh, https://github.com/Sleepy-Panda/Feesh. Copyright (C) Sleepy-Panda. Licensed under the Apache
+    License 2.0 (LICENSES/Apache-2.0.txt). Combined work: GPL-3.0-or-later.
+
+src/main/kotlin/features/chat/HypixelChatLayout.kt, src/main/java/dev/ashtonite365/apex/mixins/feature/HypixelChatLayoutPatch.java
+    Centred-line and separator chat layout ported from Better Hypixel Chat by viciscat, https://github.com/viciscat/BetterHypixelChat.
+    Licensed under GPL-3.0-or-later (LICENSES/GPL-3.0-or-later.txt).
+
+src/main/kotlin/features/misc/StatBars.kt (optional bar textures)
+    barsV2 texture from SkyblockAddons, https://github.com/BiscuitDevelopment/SkyblockAddons. Copyright (c) 2021 Biscuit
+    Development. Licensed under the MIT License (META-INF/apex/LICENSES/LICENSE-SkyblockAddons.txt); the copyright and permission
+    notice must be kept with any redistribution. Further bar textures from Skyblocker (LGPL-3.0-only) and SkyHanni.
+
+src/main/kotlin/features/menus/skyblock/FancyWarp.kt, FastTravelMenu.kt (fancy warp map)
+    Behaviour inspired by the SkyblockAddons fancy warp menu (MIT, Copyright (c) 2023 Biscuit Development).
+    Original implementation; no SkyblockAddons code, images or other assets are included.
+
+SkyHanni (all "Ported from SkyHanni" entries above)
+    LGPL-2.1, used under its section 3 in this GPL-3.0-or-later work. Licence text: LICENSES/LGPL-2.1-only.txt.
+
+repo/LiveAuctionPrices.kt
+    Reads live lowest-BIN data from the Elite API (api.eliteskyblock.com, https://elitebot.dev) under its terms of use.
+    No Elite code is copied.
+
+Bundled and nested libraries (licence texts in META-INF/apex/LICENSES/)
+    LibNinePatch (https://github.com/Juuxel/LibNinePatch), Juuxel, MPL-2.0, shaded inside MoulConfig:
+        LICENSE-LibNinePatch-MPL-2.0.txt (also LibNinePatch-MPL-2.0-via-MoulConfig.txt, MoulConfig's own copy).
+    Manningham Mills (mm, https://github.com/Chocohead/Fabric-ASM), Chocohead, MPL-2.0, nested jar mm-2.4.1.jar:
+        LICENSE-ManninghamMills-MPL-2.0.txt.
+    MixinExtras (https://github.com/LlamaLad7/MixinExtras), Copyright (c) 2022-present LlamaLad7, MIT: LICENSE-MixinExtras.txt.
+    Hypixel Mod API (https://github.com/HypixelDev/ModAPI), Copyright (c) 2024 Hypixel Inc., MIT: LICENSE-HypixelModAPI.txt.
+    NEU RepoParser (https://github.com/NotEnoughUpdates/RepoParser), Copyright 2023 Linnea Gräf, BSD-2-Clause, shaded:
+        LICENSE-RepoParser-BSD-2-Clause.txt.
+    Cloth BasicMath (https://github.com/shedaniel/cloth-basic-math), shedaniel, The Unlicense: LICENSE-cloth-basic-math-Unlicense.txt.
+
+src/main/resources/legacy_data/*.json
+    From PrismarineJS minecraft-data (https://github.com/PrismarineJS/minecraft-data), MIT (declared in its README).
+    Copyright (c) 2015-present PrismarineJS contributors. META-INF/apex/LICENSES/LICENSE-minecraft-data.txt.
+
+src/main/resources/assets/apex/font/wiki/ (Noto Sans, Noto Serif subsets)
+    Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic). SIL Open Font
+    License 1.1 (LICENSES/OFL-1.1.txt).
+
+CC BY 4.0 artwork (circle.png by june_hibiscus)
+    See META-INF/apex/LICENSES/ATTRIBUTION-CC-BY-4.0.txt and LICENSES/CC-BY-4.0.txt.
+
+Item Wiki (F12) page text and images
+    Read at runtime from the Hypixel SkyBlock Wiki (https://hypixelskyblock.minecraft.wiki), content licensed
+    CC BY-NC-SA 3.0 (https://creativecommons.org/licenses/by-nc-sa/3.0/). Nothing from the wiki is bundled.

@@ -1,0 +1,31 @@
+ability_damage	Ability Damage
+block_fortune	Block Fortune
+bonus_attack_speed	Bonus Attack Speed
+breaking_power	Breaking Power
+crit_chance	Crit Chance
+crit_damage	Crit Damage
+damage	Damage
+defense	Defense
+farming_fortune	Farming Fortune
+farming_wisdom	Farming Wisdom
+fear	Fear
+ferocity	Ferocity
+fishing_speed	Fishing Speed
+foraging_fortune	Foraging Fortune
+foraging_wisdom	Foraging Wisdom
+health	Health
+heat_resistance	Heat Resistance
+intelligence	Intelligence
+magic_find	Magic Find
+mining_fortune	Mining Fortune
+mining_speed	Mining Speed
+mining_wisdom	Mining Wisdom
+sea_creature_chance	Sea Creature Chance
+speed	Speed
+strength	Strength
+vitality	Vitality
+walk_speed	Walk Speed
+a	A
+	
+true_defense	True Defense
+x_y_z_	X Y Z 

@@ -1,0 +1,57 @@
+broken-null	{"components":{"apex:is_broken":{"is_broken":true},"minecraft:custom_data":{"ID":"null"},"minecraft:custom_name":"null","minecraft:lore":[{"translate":"apex.repo.brokenitem","with":["null"]}]},"id":"minecraft:painting"}
+broken-hint	{"components":{"apex:is_broken":{"is_broken":true},"minecraft:custom_data":{"ID":"NOT_A_REAL_THING"},"minecraft:custom_name":"NOT_A_REAL_THING","minecraft:lore":[{"translate":"apex.repo.brokenitem","with":["NOT_A_REAL_THING"]}]},"id":"minecraft:painting"}
+broken-item	{"components":{"apex:is_broken":{"is_broken":true},"minecraft:custom_data":{"ID":"AATROX_PHONE_NUMBER"},"minecraft:custom_name":"§aMaddox's Phone Number","minecraft:lore":[{"translate":"apex.repo.brokenitem","with":["AATROX_PHONE_NUMBER"]}]},"id":"minecraft:painting"}
+coin-0	{"components":{"minecraft:custom_name":"§r§60 Coins","minecraft:profile":{"id":[544274123,-170183046,-1395628845,-1702994661],"name":"nea89","properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4MDcxNzIxY2M1YjRjZDQwNmNlNDMxYTEzZjg2MDgzYTg5NzNlMTA2NGQyZjg4OTc4Njk5MzBlZTZlNTIzNyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIyMDcwZjZjYmY1ZGIzNjdhYWNkMDY0ZDM5YTdlNWQxYiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjowfQ=="}]}},"id":"minecraft:player_head"}
+coin-1	{"components":{"minecraft:custom_name":"§r§61 Coins","minecraft:profile":{"id":[544274123,-170183046,-1395628845,-1702994661],"name":"nea89","properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4MDcxNzIxY2M1YjRjZDQwNmNlNDMxYTEzZjg2MDgzYTg5NzNlMTA2NGQyZjg4OTc4Njk5MzBlZTZlNTIzNyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIyMDcwZjZjYmY1ZGIzNjdhYWNkMDY0ZDM5YTdlNWQxYiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjowfQ=="}]}},"id":"minecraft:player_head"}
+coin-2	{"components":{"minecraft:custom_name":"§r§62 Coins","minecraft:profile":{"id":[544274123,-170183046,-1395628845,-1702994661],"name":"nea89","properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4MDcxNzIxY2M1YjRjZDQwNmNlNDMxYTEzZjg2MDgzYTg5NzNlMTA2NGQyZjg4OTc4Njk5MzBlZTZlNTIzNyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIyMDcwZjZjYmY1ZGIzNjdhYWNkMDY0ZDM5YTdlNWQxYiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjowfQ=="}]}},"id":"minecraft:player_head"}
+coin-64	{"components":{"minecraft:custom_name":"§r§664 Coins","minecraft:profile":{"id":[544274123,-170183046,-1395628845,-1702994661],"name":"nea89","properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4MDcxNzIxY2M1YjRjZDQwNmNlNDMxYTEzZjg2MDgzYTg5NzNlMTA2NGQyZjg4OTc4Njk5MzBlZTZlNTIzNyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIyMDcwZjZjYmY1ZGIzNjdhYWNkMDY0ZDM5YTdlNWQxYiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjowfQ=="}]}},"id":"minecraft:player_head"}
+coin-1000	{"components":{"minecraft:custom_name":"§r§61,000 Coins","minecraft:profile":{"id":[544274123,-170183046,-1395628845,-1702994661],"name":"nea89","properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4MDcxNzIxY2M1YjRjZDQwNmNlNDMxYTEzZjg2MDgzYTg5NzNlMTA2NGQyZjg4OTc4Njk5MzBlZTZlNTIzNyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIyMDcwZjZjYmY1ZGIzNjdhYWNkMDY0ZDM5YTdlNWQxYiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjowfQ=="}]}},"id":"minecraft:player_head"}
+coin-150000	{"components":{"minecraft:custom_name":"§r§6150,000 Coins","minecraft:profile":{"id":[-1795546027,679555582,-1152457758,1297669091],"name":"nea89","properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzliNzc5OTlmZWQzYTI3NThiZmVhZjA3OTNlNTIyODM4MTdiZWE2NDA0NGJmNDNlZjI5NDMzZjk1NGJiNTJmNiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI5NGZhMjQ1NTI4ODEzMWZlYmI0ZWUzZTI0ZDU4ZGJlMyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjowfQ=="}]}},"id":"minecraft:player_head"}
+coin-5000000	{"components":{"minecraft:custom_name":"§r§65,000,000 Coins","minecraft:profile":{"id":[-1795546027,679555582,-1152457758,1297669091],"name":"nea89","properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzliNzc5OTlmZWQzYTI3NThiZmVhZjA3OTNlNTIyODM4MTdiZWE2NDA0NGJmNDNlZjI5NDMzZjk1NGJiNTJmNiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI5NGZhMjQ1NTI4ODEzMWZlYmI0ZWUzZTI0ZDU4ZGJlMyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjowfQ=="}]}},"id":"minecraft:player_head"}
+coin-20000000	{"components":{"minecraft:custom_name":"§r§620,000,000 Coins","minecraft:profile":{"id":[184082207,160185202,-1402247722,1607513704],"name":"nea89","properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I5NTFmZWQ2YTdiMmNiYzIwMzY5MTZkZWM3YTQ2YzRhNTY0ODE1NjRkMTRmOTQ1YjZlYmMwMzM4Mjc2NmQzYiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIwYWY4ZGYxZjA5OGMzYjcyYWM2YjY1ZDY1ZmQwYjY2OCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjowfQ=="}]}},"id":"minecraft:player_head"}
+coin-2000000000	{"components":{"minecraft:custom_name":"§r§62,000,000,000 Coins","minecraft:profile":{"id":[184082207,160185202,-1402247722,1607513704],"name":"nea89","properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I5NTFmZWQ2YTdiMmNiYzIwMzY5MTZkZWM3YTQ2YzRhNTY0ODE1NjRkMTRmOTQ1YjZlYmMwMzM4Mjc2NmQzYiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIwYWY4ZGYxZjA5OGMzYjcyYWM2YjY1ZDY1ZmQwYjY2OCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjowfQ=="}]}},"id":"minecraft:player_head"}
+missing	{"components":{"apex:is_broken":{"is_broken":true},"minecraft:custom_data":{"ID":"NOPE"},"minecraft:custom_name":"NOPE","minecraft:lore":[{"translate":"apex.repo.brokenitem","with":["NOPE"]}]},"id":"minecraft:painting"}
+repl	{"components":{"minecraft:custom_data":{"id":"AMMONITE;4","originTag":"PET_MENU","petInfo":"{\"type\":\"AMMONITE\",\"active\":false,\"exp\":0,\"tier\":\"LEGENDARY\",\"hideInfo\":false,\"candyUsed\":0}"},"minecraft:custom_name":{"extra":[{"color":"gray","text":"[Lvl 42] "},{"color":"gold","text":"Ammonite"}],"italic":false,"text":""},"minecraft:dyed_color":10511680,"minecraft:lore":[{"extra":[{"color":"dark_gray","text":"Fishing Pet"}],"italic":false,"text":""},{"italic":false,"text":""},{"extra":[{"color":"gray","text":"Sea Creature Chance: "},{"color":"red","text":"{SEA_CREATURE_CHANCE}%"}],"italic":false,"text":""},{"italic":false,"text":""},{"extra":[{"color":"gold","text":"Heart of the Sea"}],"italic":false,"text":""},{"extra":[{"color":"gray","text":"Grants "},{"color":"dark_aqua","text":"+{0}α Sea Creature"}],"italic":false,"text":""},{"extra":[{"color":"dark_aqua","text":"Chance "},{"color":"gray","text":"to your pet for each"}],"italic":false,"text":""},{"extra":[{"color":"dark_purple","text":"Heart of the Mountain "},{"color":"gray","text":"level."}],"italic":false,"text":""},{"italic":false,"text":""},{"extra":[{"color":"gold","text":"Expert Cave Fisher"}],"italic":false,"text":""},{"extra":[{"color":"gray","text":"The fishing speed reduction"}],"italic":false,"text":""},{"extra":[{"color":"gray","text":"from being underground is"}],"italic":false,"text":""},{"extra":[{"color":"gray","text":"attenuated by "},{"color":"green","text":"{1}%"},{"color":"gray","text":"."}],"italic":false,"text":""},{"italic":false,"text":""},{"extra":[{"color":"gold","text":"Gift of the Ammonite"}],"italic":false,"text":""},{"extra":[{"color":"gray","text":"Each Mining and Fishing level"}],"italic":false,"text":""},{"extra":[{"color":"gray","text":"grants "},{"color":"aqua","text":"+0.5☂ Fishing Speed"},{"color":"gray","text":","}],"italic":false,"text":""},{"extra":[{"color":"white","text":"+2✦ Speed "},{"color":"gray","text":"and "},{"color":"green","text":"+2❈"}],"italic":false,"text":""},{"extra":[{"color":"green","text":"Defense"},{"color":"gray","text":"."}],"italic":false,"text":""},{"italic":false,"text":""},{"extra":[{"color":"yellow","text":"Right-click to add this pet to"}],"italic":false,"text":""},{"extra":[{"color":"yellow","text":"your pet menu!"}],"italic":false,"text":""},{"italic":false,"text":""},{"extra":[{"bold":true,"color":"gold","text":"LEGENDARY"}],"italic":false,"text":""}],"minecraft:profile":{"id":[-799174018,-158977474,-1675515491,235717322],"name":"","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYyMDExNTI5NDE1NiwKICAicHJvZmlsZUlkIiA6ICI0NWY3YTJlNjE3ODE0YjJjODAwODM5MmRmN2IzNWY0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfSnVzdERvSXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA3NGE3YmQ5NzZmZTZhYmExNjI0MTYxNzkzYmU1NDdkNTRjODM1Y2Y0MjIyNDNhODUxYmEwOWQxZTY1MDU1MyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"}]},"minecraft:tooltip_display":{"hidden_components":["minecraft:dyed_color"]}},"id":"minecraft:player_head"}
+glint-AATROX_BADPHONE	ERR:CommandSyntaxException
+glint-AATROX_BATPHONE	ERR:CommandSyntaxException
+glint-AATROX_MAYOR_MONSTER	ERR:CommandSyntaxException
+glint-AATROX_PHONE_NUMBER	ERR:CommandSyntaxException
+glint-ABICASE_BLUE_AQUA	ERR:CommandSyntaxException
+glint-ABICASE_BLUE_BLUE	ERR:CommandSyntaxException
+glint-ABICASE_BLUE_GREEN	ERR:CommandSyntaxException
+glint-ABICASE_BLUE_RED	ERR:CommandSyntaxException
+glint-ABICASE_BLUE_YELLOW	ERR:CommandSyntaxException
+glint-ABICASE_REZAR	ERR:CommandSyntaxException
+glint-ABICASE_SUMSUNG_1	ERR:CommandSyntaxException
+glint-ABICASE_SUMSUNG_2	ERR:CommandSyntaxException
+glint-ABINGOPHONE	ERR:CommandSyntaxException
+glint-ABIPHONE_FLIP_DRAGON	ERR:CommandSyntaxException
+glint-ABIPHONE_FLIP_NUCLEUS	ERR:CommandSyntaxException
+glint-ABIPHONE_FLIP_VOLCANO	ERR:CommandSyntaxException
+glint-ABIPHONE_XIII_PRO	ERR:CommandSyntaxException
+glint-ABIPHONE_XIII_PRO_GIGA	ERR:CommandSyntaxException
+glint-ABIPHONE_XII_MEGA	ERR:CommandSyntaxException
+glint-ABIPHONE_XII_MEGA_COLOR	ERR:CommandSyntaxException
+glint-ABIPHONE_XIV_ENORMOUS	ERR:CommandSyntaxException
+glint-ABIPHONE_XIV_ENORMOUS_BLACK	ERR:CommandSyntaxException
+glint-ABIPHONE_XIV_ENORMOUS_PURPLE	ERR:CommandSyntaxException
+glint-ABIPHONE_XI_ULTRA	ERR:CommandSyntaxException
+glint-ABIPHONE_XI_ULTRA_STYLE	ERR:CommandSyntaxException
+glint-ABIPHONE_X_PLUS	ERR:CommandSyntaxException
+glint-ABIPHONE_X_PLUS_SPECIAL_EDITION	ERR:CommandSyntaxException
+glint-ABSOLUTE_ENDER_PEARL	ERR:CommandSyntaxException
+glint-ACACIA_BIRDHOUSE	ERR:CommandSyntaxException
+glint-ACACIA_DOOR_ITEM	ERR:CommandSyntaxException
+glint-ACACIA_FENCE	ERR:CommandSyntaxException
+glint-ACACIA_FENCE_GATE	ERR:CommandSyntaxException
+glint-ACACIA_GENERATOR_1	ERR:CommandSyntaxException
+glint-ACACIA_GENERATOR_10	ERR:CommandSyntaxException
+glint-ACACIA_GENERATOR_11	ERR:CommandSyntaxException
+glint-ACACIA_GENERATOR_2	ERR:CommandSyntaxException
+glint-ACACIA_GENERATOR_3	ERR:CommandSyntaxException
+glint-ACACIA_GENERATOR_4	ERR:CommandSyntaxException
+glint-ACACIA_GENERATOR_5	ERR:CommandSyntaxException
+glint-ACACIA_GENERATOR_6	ERR:CommandSyntaxException
+hasCache	false
+headNoTex	truetruefalsefalse
+version	5023

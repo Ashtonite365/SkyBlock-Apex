@@ -1,0 +1,12 @@
+keys apex.config.configconfig.zz-probe apex.config.configconfig.zz-probe.description label=apex.config.configconfig.zz-probe desc=apex.config.configconfig.zz-probe.description
+unloaded ERR:IllegalStateException:Lateinit variable not initialized raw=null json=5 parentActive=true risk=NONE forced=false tier=null
+load {"zz-probe":7} -> 7 raw=7 json=7
+load {"zz-probe":"bad"} -> 5 raw=5 json=5
+load {"other":1} -> 5 raw=5 json=5
+load 3 -> 5 raw=5 json=5
+load {} -> 5 raw=5 json=5
+load {"zz-probe":9} -> 9 raw=9 json=9
+set 2 2
+value 4
+override Over Desc
+flag true json=true desc=apex.config.configconfig.zz-flag.description

@@ -1,0 +1,52 @@
+bool enc true -> true back=true
+bool enc false -> false back=false
+bool dec true -> true
+bool dec "false" -> false
+bool dec 1 -> ERR:IllegalStateException:1 does not represent a Boolean
+bool dec {} -> ERR:IllegalArgumentException:Element class kotlinx.serialization.json.JsonObject is not a JsonPrimitive
+int enc 0 -> 0 back=0
+int enc 5 -> 5 back=5
+int enc -3 -> -3 back=-3
+int enc 2147483647 -> 2147483647 back=2147483647
+int dec 7 -> 7
+int dec "8" -> 8
+int dec 7.5 -> ERR:NumberFormatException:Unexpected JSON token at offset 1: Unexpected symbol '.' in numeric literal at path: $\nJSON input: 7.5
+int dec null -> ERR:NumberFormatException:Unexpected JSON token at offset 0: Unexpected symbol 'n' in numeric literal at path: $\nJSON input: null
+int dec [] -> ERR:IllegalArgumentException:Element class kotlinx.serialization.json.JsonArray is not a JsonPrimitive
+intInput enc 5 -> 5 back=5
+intInput enc 200 -> 200 back=120
+intInput dec 1 -> 5
+intInput dec 130 -> 120
+intInput dec 60 -> 60
+intInput dec "x" -> ERR:NumberFormatException:Unexpected JSON token at offset 0: Unexpected symbol 'x' in numeric literal at path: $\nJSON input: x
+parse '' -> null
+parse ' 60 ' -> 60
+parse '4' -> null
+parse '121' -> null
+parse '120' -> 120
+parse '-5' -> null
+parse 'abc' -> null
+parse '0060' -> 60
+parse '99999999999' -> null
+dur enc 1.5s -> 1500 back=1500
+dur enc 0s -> 0 back=0
+dur enc 2.5s -> 2500 back=2500
+dur dec 250 -> 250ms
+dur dec 1.5 -> ERR:NumberFormatException:Unexpected JSON token at offset 1: Unexpected symbol '.' in numeric literal at path: $\nJSON input: 1.5
+dur dec "9" -> 9ms
+str enc  -> "" back=""
+str enc héllo -> "héllo" back="héllo"
+str enc a"b -> "a\"b" back="a\"b"
+str dec "x" -> x
+str dec 5 -> 5
+str dec true -> true
+str dec {} -> ERR:IllegalArgumentException:Element class kotlinx.serialization.json.JsonObject is not a JsonPrimitive
+click enc null dec kotlin.Unit
+colour enc {"h":0.25,"s":0.5,"b":0.75,"a":128,"c":0} legacy=0:128:143:191:96 back=0:128:143:191:96
+colour enc {"h":1.0,"s":1.0,"b":1.0,"a":255,"c":3000} legacy=246:255:255:0:0 back=246:255:255:0:0
+colour enc {"h":0.0,"s":0.0,"b":0.0,"a":255,"c":0} legacy=0:255:0:0:0 back=0:255:0:0:0
+colour dec {"h":0.1,"s":0.2,"b":0.3,"a":4,"c":5} -> 259:4:77:70:61
+colour dec {"h":0.1} -> ERR:MissingFieldException:Fields [s, b, a, c] are required for type with serial name 'dev.ashtonite365.apex.gui.config.ColourHandler.ChromaDelegate', but they were missing
+colour dec {"c":5,"a":4,"b":0.3,"s":0.2,"h":0.1} -> 259:4:77:70:61
+chroma descriptor ApexChromaColour 5
+providers ERR:moulconfig-platform-unavailable:dev.ashtonite365.apex.gui.config.ApexConfigScreenProvider: dev.ashtonite365.apex.gui.config.styled.StyledSettingsProvider not a subtype

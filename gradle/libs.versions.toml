@@ -1,0 +1,118 @@
+# SPDX-FileCopyrightText: 2023 Linnea Gräf <nea@nea.moe>
+# SPDX-License-Identifier: CC0-1.0
+
+[versions]
+jei = "31.12.0.65"
+minecraft = "26.3"
+
+fabric_kotlin = "1.13.12+kotlin.2.4.0"
+kotlin = "2.4.0"
+kotlin_ksp = "2.3.9"
+
+fabric_loader = "0.19.5"
+fabric_api = "0.162.0+26.3"
+architectury = "21.0.5"
+modmenu = "21.0.0"
+rei = "26.3.824"
+architectury_rei = "22.0.3"
+emi = "1.0.1+26.3+fabric"
+reidev = "33d8900cd6621816680634fcbae2dd07f1cffbd3"
+
+loom = "1.13.457" # TODO: port back to architectury (and) 1.9.424
+
+sodium = "mc26.3-0.9.2-fabric"
+
+freecammod = "1.4.0-rc.1"
+
+femalegender = "5.0.0+mc26.3-fabric"
+
+iris = "1.11.7+26.3-fabric"
+
+shadow = "9.4.1"
+
+notenoughanimations = "WQRZ7KyE"
+
+jade = "26.3.5+fabric"
+
+noChatRestrictions = "Fabric-MC26.3-v1.3.0"
+
+devauth = "1.2.2"
+
+neurepoparser = "1.11.0"
+
+hotswap_agent = "2.0.3"
+
+mixinextras = "0.5.4"
+
+
+moulconfig = "9999.9999.9999" # local build of MoulConfig master 4eaeb73c (modern-26.3), see port notes
+
+mcAutoTranslations = "0.5.0"
+
+hypixelmodapi = "1.0.2"
+hypixelmodapi_fabric = "1.0.2+build.1+mc26.1"
+
+manninghamMills = "2.4.1"
+
+yacl = "3.9.7+26.3-fabric"
+
+basicMath = "0.6.1"
+
+classtransform = "1.14.1"
+
+asm = "9.9.1"
+
+[libraries]
+jei_common_api = { module = "mezz.jei:jei-26.3-common-api", version.ref = "jei" }
+jei_fabric_api = { module = "mezz.jei:jei-26.3-fabric-api", version.ref = "jei" }
+minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
+fabric_loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric_loader" }
+fabric_api = { module = "net.fabricmc.fabric-api:fabric-api", version.ref = "fabric_api" }
+fabric_api_deprecated = { module = "net.fabricmc.fabric-api:fabric-api-deprecated", version.ref = "fabric_api" }
+fabric_kotlin = { module = "net.fabricmc:fabric-language-kotlin", version.ref = "fabric_kotlin" }
+architectury = { module = "dev.architectury:architectury", version.ref = "architectury" }
+
+rei_api = { module = "me.shedaniel:RoughlyEnoughItems-api", version.ref = "rei" }
+rei_api_fabric = { module = "me.shedaniel:RoughlyEnoughItems-api-fabric", version.ref = "rei" }
+emi = { module = "maven.modrinth:pf-emi", version.ref = "emi" }
+rei_fabric = { module = "me.shedaniel:RoughlyEnoughItems-fabric", version.ref = "rei" }
+
+rei_dev_api = { module = "com.github.shedaniel.roughlyenoughitems:RoughlyEnoughItems-api", version.ref = "reidev" }
+rei_dev_fabric = { module = "com.github.shedaniel.roughlyenoughitems:RoughlyEnoughItems-fabric", version.ref = "reidev" }
+
+jspecify = { module = "org.jspecify:jspecify", version = "1.0.0" }
+jbAnnotations = { module = "org.jetbrains:annotations", version = "26.1.0" }
+
+moulconfig = { module = "org.notenoughupdates.moulconfig:modern-26.3", version.ref = "moulconfig" }
+repoparser = { module = "moe.nea:neurepoparser", version.ref = "neurepoparser" }
+mixinextras = { module = "io.github.llamalad7:mixinextras-fabric", version.ref = "mixinextras" }
+manninghamMills = { module = "me.shedaniel:mm", version.ref = "manninghamMills" }
+aaronhmapi = { module = "net.azureaaron:hm-api", version = "1.0.0+1.21" }
+hypixelmodapi = { module = "net.hypixel:mod-api", version.ref = "hypixelmodapi" }
+hypixelmodapi_fabric = { module = "maven.modrinth:hypixel-mod-api", version.ref = "hypixelmodapi_fabric" }
+notenoughanimations = { module = "maven.modrinth:not-enough-animations", version.ref = "notenoughanimations" }
+hotswap = { module = "virtual.github.hotswapagent:hotswap-agent", version.ref = "hotswap_agent" }
+architectury_fabric = { module = "dev.architectury:architectury-fabric", version.ref = "architectury" }
+devauth = { module = "me.djtheredstoner:DevAuth-fabric", version.ref = "devauth" }
+modmenu = { module = "maven.modrinth:modmenu", version.ref = "modmenu" }
+sodium = { module = "maven.modrinth:sodium", version.ref = "sodium" }
+freecammod = { module = "maven.modrinth:freecam", version.ref = "freecammod" }
+femalegender = { module = "maven.modrinth:female-gender", version.ref = "femalegender" }
+iris = { module = "maven.modrinth:iris", version.ref = "iris" }
+jade = { module = "maven.modrinth:jade", version.ref = "jade" }
+noChatRestrictions = { module = "maven.modrinth:no-chat-restrictions", version.ref = "noChatRestrictions" }
+yacl = { module = "dev.isxander:yet-another-config-lib", version.ref = "yacl" }
+basicMath = { module = "me.shedaniel.cloth:basic-math", version.ref = "basicMath" }
+classTransform-mixinsTranslator = { module = "net.lenni0451.classtransform:mixinstranslator", version.ref = "classtransform" }
+classTransform-core = { module = "net.lenni0451.classtransform:core", version.ref = "classtransform" }
+
+asm = { module = "org.ow2.asm:asm", version.ref = "asm" }
+
+[plugins]
+kotlin_jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin_plugin_serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+kotlin_plugin_powerassert = { id = "org.jetbrains.kotlin.plugin.power-assert", version.ref = "kotlin" }
+kotlin_plugin_ksp = { id = "com.google.devtools.ksp", version.ref = "kotlin_ksp" }
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
+loom = { id = "net.fabricmc.fabric-loom", version = "1.17.1" }
+mcAutoTranslations = { id = "moe.nea.mc-auto-translations", version.ref = "mcAutoTranslations" }

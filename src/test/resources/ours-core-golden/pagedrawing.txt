@@ -1,0 +1,405 @@
+rows '' 1 -> 1 wrap=1
+rows '' 20 -> 1 wrap=1
+rows '' 60 -> 1 wrap=1
+rows '' 120 -> 1 wrap=1
+rows '' 400 -> 1 wrap=1
+rows 'short' 1 -> 5 wrap=5
+rows 'short' 20 -> 2 wrap=2
+rows 'short' 60 -> 1 wrap=1
+rows 'short' 120 -> 1 wrap=1
+rows 'short' 400 -> 1 wrap=1
+rows '§lBold heading text that is long enough to wrap twice or more in a narrow box' 1 -> 60 wrap=60
+rows '§lBold heading text that is long enough to wrap twice or more in a narrow box' 20 -> 29 wrap=29
+rows '§lBold heading text that is long enough to wrap twice or more in a narrow box' 60 -> 10 wrap=10
+rows '§lBold heading text that is long enough to wrap twice or more in a narrow box' 120 -> 5 wrap=5
+rows '§lBold heading text that is long enough to wrap twice or more in a narrow box' 400 -> 2 wrap=2
+rows 'a b c d e f g h i j k l m n o p q r s t u v w x y z' 1 -> 26 wrap=26
+rows 'a b c d e f g h i j k l m n o p q r s t u v w x y z' 20 -> 13 wrap=13
+rows 'a b c d e f g h i j k l m n o p q r s t u v w x y z' 60 -> 5 wrap=5
+rows 'a b c d e f g h i j k l m n o p q r s t u v w x y z' 120 -> 3 wrap=3
+rows 'a b c d e f g h i j k l m n o p q r s t u v w x y z' 400 -> 1 wrap=1
+rows 'Averyveryverylongwordwithoutanyspacesatallthatmustbreak' 1 -> 55 wrap=55
+rows 'Averyveryverylongwordwithoutanyspacesatallthatmustbreak' 20 -> 18 wrap=18
+rows 'Averyveryverylongwordwithoutanyspacesatallthatmustbreak' 60 -> 6 wrap=6
+rows 'Averyveryverylongwordwithoutanyspacesatallthatmustbreak' 120 -> 3 wrap=3
+rows 'Averyveryverylongwordwithoutanyspacesatallthatmustbreak' 400 -> 1 wrap=1
+wrapped 0,0,100 bounds=me.shedaniel.math.Rectangle@#[height=50,width=100,x=0,y=0]
+  draw text {-}first line 0 0 ffffffff true | text {gray}a second, rather 0 10 ffffffff true | text {gray}long line that wraps 0 20 ffffffff true | text {aqua}Last 0 30 ffffffff true
+wrapped 10,20,40 bounds=me.shedaniel.math.Rectangle@#[height=110,width=40,x=10,y=20]
+  draw text {-}first 10 20 ffffffff true | text {-}line 10 30 ffffffff true | text {gray}a 10 40 ffffffff true | text {gray}second, 10 50 ffffffff true | text {gray}rather 10 60 ffffffff true | text {gray}long 10 70 ffffffff true | text {gray}line 10 80 ffffffff true | text {gray}that 10 90 ffffffff true | text {gray}wraps 10 100 ffffffff true | text {aqua}Last 10 110 ffffffff true
+wrapped 5,5,300 bounds=me.shedaniel.math.Rectangle@#[height=40,width=300,x=5,y=5]
+  draw text {-}first line 5 5 ffffffff true | text {gray}a second, rather long line that wraps 5 15 ffffffff true | text {aqua}Last 5 25 ffffffff true
+wrapped empty bounds=me.shedaniel.math.Rectangle@#[height=0,width=50,x=3,y=4] draw 
+scroll box me.shedaniel.math.Rectangle@#[height=80,width=120,x=10,y=10]
+  draw0 scissor 10 10 130 90 | text {-,b}Heading 0 10 10 ffffffff true | text {gray}note 1 10 20 ffffffff true | text {gray}note 2 10 30 ffffffff true | text {aqua}> link number 3 with a 10 40 ffffffff true | text {aqua}long label that needs 10 50 ffffffff true | text {aqua}wrapping in the box 10 60 ffffffff true | text {gray}note 4 10 70 ffffffff true | text {-,b}Heading 5 10 80 ffffffff true | text {gray}note 6 10 90 ffffffff true | unscissor | fill 127 10 130 90 40ffffff | fill 127 10 130 26 c0ffffff
+  scroll inside -1.0 -> true outside -> false
+    draw 898213794
+  scroll inside -1.0 -> true outside -> false
+    draw 625828458
+  scroll inside -3.0 -> true outside -> false
+    draw -1541201148
+  scroll inside -100.0 -> true outside -> false
+    draw -236593000
+  scroll inside 2.0 -> true outside -> false
+    draw 2025611309
+  scroll inside 0.5 -> true outside -> false
+    draw 279601619
+  scroll inside 100.0 -> true outside -> false
+    draw 2137218295
+  scroll inside -0.5 -> true outside -> false
+    draw -393930473
+  click y=8 -> false fired=[]
+  click y=11 -> false fired=[]
+  click y=14 -> false fired=[]
+  click y=17 -> false fired=[]
+  click y=20 -> false fired=[]
+  click y=23 -> false fired=[]
+  click y=26 -> false fired=[]
+  click y=29 -> false fired=[]
+  click y=32 -> false fired=[]
+  click y=35 -> false fired=[]
+  click y=38 -> false fired=[]
+  click y=41 -> true fired=[3]
+  click y=44 -> true fired=[3, 3]
+  click y=47 -> true fired=[3, 3, 3]
+  click y=50 -> true fired=[3, 3, 3, 3]
+  click y=53 -> true fired=[3, 3, 3, 3, 3]
+  click y=56 -> true fired=[3, 3, 3, 3, 3, 3]
+  click y=59 -> true fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=62 -> true fired=[3, 3, 3, 3, 3, 3, 3, 3]
+  click y=65 -> true fired=[3, 3, 3, 3, 3, 3, 3, 3, 3]
+  click y=68 -> true fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  click y=71 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  click y=74 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  click y=77 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  click y=80 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  click y=83 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  click y=86 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  click y=89 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  click y=92 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  click outside x -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  after scroll click y=10 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  after scroll click y=15 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  after scroll click y=20 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  after scroll click y=25 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  after scroll click y=30 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  after scroll click y=35 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  after scroll click y=40 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  after scroll click y=45 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  after scroll click y=50 -> true fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 10]
+  after scroll click y=55 -> true fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 10, 10]
+  after scroll click y=60 -> true fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 10, 10, 10]
+  after scroll click y=65 -> true fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10]
+  after scroll click y=70 -> true fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10]
+  after scroll click y=75 -> true fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  after scroll click y=80 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  after scroll click y=85 -> false fired=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  draw end scissor 10 10 130 90 | text {-,b}Heading 5 10 0 ffffffff true | text {gray}note 6 10 10 ffffffff true | text {gray}note 7 10 20 ffffffff true | text {gray}note 8 10 30 ffffffff true | text {gray}note 9 10 40 ffffffff true | text {aqua}> link number 10 with a 10 50 ffffffff true | text {aqua}long label that needs 10 60 ffffffff true | text {aqua}wrapping in the box 10 70 ffffffff true | text {gray}note 11 10 80 ffffffff true | text {gray}note 12 10 90 ffffffff true | unscissor | fill 127 10 130 90 40ffffff | fill 127 27 130 43 c0ffffff
+scroll box me.shedaniel.math.Rectangle@#[height=400,width=300,x=0,y=0]
+  draw0 scissor 0 0 300 400 | text {-,b}Heading 0 0 0 ffffffff true | text {gray}note 1 0 10 ffffffff true | text {gray}note 2 0 20 ffffffff true | text {aqua}> link number 3 with a long label that needs wrapping in 0 30 ffffffff true | text {aqua}the box 0 40 ffffffff true | text {gray}note 4 0 50 ffffffff true | text {-,b}Heading 5 0 60 ffffffff true | text {gray}note 6 0 70 ffffffff true | text {gray}note 7 0 80 ffffffff true | text {gray}note 8 0 90 ffffffff true | text {gray}note 9 0 100 ffffffff true | text {aqua}> link number 10 with a long label that needs wrapping in 0 110 ffffffff true | text {aqua}the box 0 120 ffffffff true | text {gray}note 11 0 130 ffffffff true | text {gray}note 12 0 140 ffffffff true | text {gray}note 13 0 150 ffffffff true | text {gray}note 14 0 160 ffffffff true | text {-,b}Heading 15 0 170 ffffffff true | text {gray}note 16 0 180 ffffffff true | text {aqua}> link number 17 with a long label that needs wrapping in 0 190 ffffffff true | text {aqua}the box 0 200 ffffffff true | text {gray}note 18 0 210 ffffffff true | text {gray}note 19 0 220 ffffffff true | text {-,b}Heading 20 0 230 ffffffff true | text {gray}note 21 0 240 ffffffff true | text {gray}note 22 0 250 ffffffff true | text {gray}note 23 0 260 ffffffff true | text {aqua}> link number 24 with a long label that needs wrapping in 0 270 ffffffff true | text {aqua}the box 0 280 ffffffff true | text {-,b}Heading 25 0 290 ffffffff true | text {gray}note 26 0 300 ffffffff true | text {gray}note 27 0 310 ffffffff true | text {gray}note 28 0 320 ffffffff true | text {gray}note 29 0 330 ffffffff true | unscissor
+  scroll inside -1.0 -> false outside -> false
+    draw 2145825466
+  scroll inside -1.0 -> false outside -> false
+    draw 2145825466
+  scroll inside -3.0 -> false outside -> false
+    draw 2145825466
+  scroll inside -100.0 -> false outside -> false
+    draw 2145825466
+  scroll inside 2.0 -> false outside -> false
+    draw 2145825466
+  scroll inside 0.5 -> false outside -> false
+    draw 2145825466
+  scroll inside 100.0 -> false outside -> false
+    draw 2145825466
+  scroll inside -0.5 -> false outside -> false
+    draw 2145825466
+  click y=-2 -> false fired=[]
+  click y=1 -> false fired=[]
+  click y=4 -> false fired=[]
+  click y=7 -> false fired=[]
+  click y=10 -> false fired=[]
+  click y=13 -> false fired=[]
+  click y=16 -> false fired=[]
+  click y=19 -> false fired=[]
+  click y=22 -> false fired=[]
+  click y=25 -> false fired=[]
+  click y=28 -> false fired=[]
+  click y=31 -> true fired=[3]
+  click y=34 -> true fired=[3, 3]
+  click y=37 -> true fired=[3, 3, 3]
+  click y=40 -> true fired=[3, 3, 3, 3]
+  click y=43 -> true fired=[3, 3, 3, 3, 3]
+  click y=46 -> true fired=[3, 3, 3, 3, 3, 3]
+  click y=49 -> true fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=52 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=55 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=58 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=61 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=64 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=67 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=70 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=73 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=76 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=79 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=82 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=85 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=88 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=91 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=94 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=97 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=100 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=103 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=106 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=109 -> false fired=[3, 3, 3, 3, 3, 3, 3]
+  click y=112 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10]
+  click y=115 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10]
+  click y=118 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10]
+  click y=121 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10]
+  click y=124 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10]
+  click y=127 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=130 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=133 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=136 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=139 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=142 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=145 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=148 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=151 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=154 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=157 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=160 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=163 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=166 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=169 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=172 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=175 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=178 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=181 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=184 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=187 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]
+  click y=190 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17]
+  click y=193 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17]
+  click y=196 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17]
+  click y=199 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17]
+  click y=202 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17]
+  click y=205 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17]
+  click y=208 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=211 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=214 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=217 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=220 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=223 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=226 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=229 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=232 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=235 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=238 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=241 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=244 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=247 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=250 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=253 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=256 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=259 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=262 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=265 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=268 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17]
+  click y=271 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24]
+  click y=274 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24]
+  click y=277 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24]
+  click y=280 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24]
+  click y=283 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24]
+  click y=286 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24]
+  click y=289 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=292 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=295 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=298 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=301 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=304 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=307 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=310 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=313 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=316 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=319 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=322 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=325 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=328 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=331 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=334 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=337 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=340 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=343 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=346 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=349 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=352 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=355 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=358 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=361 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=364 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=367 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=370 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=373 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=376 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=379 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=382 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=385 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=388 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=391 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=394 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=397 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click y=400 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  click outside x -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  after scroll click y=0 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  after scroll click y=5 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  after scroll click y=10 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  after scroll click y=15 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  after scroll click y=20 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  after scroll click y=25 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24]
+  after scroll click y=30 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3]
+  after scroll click y=35 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3]
+  after scroll click y=40 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3]
+  after scroll click y=45 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3]
+  after scroll click y=50 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3]
+  after scroll click y=55 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3]
+  after scroll click y=60 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3]
+  after scroll click y=65 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3]
+  after scroll click y=70 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3]
+  after scroll click y=75 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3]
+  after scroll click y=80 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3]
+  after scroll click y=85 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3]
+  after scroll click y=90 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3]
+  after scroll click y=95 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3]
+  after scroll click y=100 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3]
+  after scroll click y=105 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3]
+  after scroll click y=110 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10]
+  after scroll click y=115 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10]
+  after scroll click y=120 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10]
+  after scroll click y=125 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10]
+  after scroll click y=130 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10]
+  after scroll click y=135 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10]
+  after scroll click y=140 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10]
+  after scroll click y=145 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10]
+  after scroll click y=150 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10]
+  after scroll click y=155 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10]
+  after scroll click y=160 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10]
+  after scroll click y=165 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10]
+  after scroll click y=170 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10]
+  after scroll click y=175 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10]
+  after scroll click y=180 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10]
+  after scroll click y=185 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10]
+  after scroll click y=190 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17]
+  after scroll click y=195 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17]
+  after scroll click y=200 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17]
+  after scroll click y=205 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17]
+  after scroll click y=210 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17]
+  after scroll click y=215 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17]
+  after scroll click y=220 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17]
+  after scroll click y=225 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17]
+  after scroll click y=230 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17]
+  after scroll click y=235 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17]
+  after scroll click y=240 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17]
+  after scroll click y=245 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17]
+  after scroll click y=250 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17]
+  after scroll click y=255 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17]
+  after scroll click y=260 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17]
+  after scroll click y=265 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17]
+  after scroll click y=270 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24]
+  after scroll click y=275 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24]
+  after scroll click y=280 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24]
+  after scroll click y=285 -> true fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=290 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=295 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=300 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=305 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=310 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=315 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=320 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=325 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=330 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=335 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=340 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=345 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=350 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=355 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=360 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=365 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=370 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=375 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=380 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=385 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=390 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  after scroll click y=395 -> false fired=[3, 3, 3, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10, 17, 17, 17, 17, 17, 17, 17, 24, 24, 24, 24, 24, 24, 24, 3, 3, 3, 3, 10, 10, 10, 10, 17, 17, 17, 17, 24, 24, 24, 24]
+  draw end scissor 0 0 300 400 | text {-,b}Heading 0 0 0 ffffffff true | text {gray}note 1 0 10 ffffffff true | text {gray}note 2 0 20 ffffffff true | text {aqua}> link number 3 with a long label that needs wrapping in 0 30 ffffffff true | text {aqua}the box 0 40 ffffffff true | text {gray}note 4 0 50 ffffffff true | text {-,b}Heading 5 0 60 ffffffff true | text {gray}note 6 0 70 ffffffff true | text {gray}note 7 0 80 ffffffff true | text {gray}note 8 0 90 ffffffff true | text {gray}note 9 0 100 ffffffff true | text {aqua}> link number 10 with a long label that needs wrapping in 0 110 ffffffff true | text {aqua}the box 0 120 ffffffff true | text {gray}note 11 0 130 ffffffff true | text {gray}note 12 0 140 ffffffff true | text {gray}note 13 0 150 ffffffff true | text {gray}note 14 0 160 ffffffff true | text {-,b}Heading 15 0 170 ffffffff true | text {gray}note 16 0 180 ffffffff true | text {aqua}> link number 17 with a long label that needs wrapping in 0 190 ffffffff true | text {aqua}the box 0 200 ffffffff true | text {gray}note 18 0 210 ffffffff true | text {gray}note 19 0 220 ffffffff true | text {-,b}Heading 20 0 230 ffffffff true | text {gray}note 21 0 240 ffffffff true | text {gray}note 22 0 250 ffffffff true | text {gray}note 23 0 260 ffffffff true | text {aqua}> link number 24 with a long label that needs wrapping in 0 270 ffffffff true | text {aqua}the box 0 280 ffffffff true | text {-,b}Heading 25 0 290 ffffffff true | text {gray}note 26 0 300 ffffffff true | text {gray}note 27 0 310 ffffffff true | text {gray}note 28 0 320 ffffffff true | text {gray}note 29 0 330 ffffffff true | unscissor
+scroll box me.shedaniel.math.Rectangle@#[height=30,width=30,x=5,y=5]
+  draw0 scissor 5 5 35 35 | text {-,b}Hea 5 5 ffffffff true | text {-,b}ding 5 15 ffffffff true | text {-,b}0 5 25 ffffffff true | text {gray}note 5 35 ffffffff true | text {gray}1 5 45 ffffffff true | unscissor | fill 32 5 35 35 40ffffff | fill 32 5 35 13 c0ffffff
+  scroll inside -1.0 -> true outside -> false
+    draw -1328073470
+  scroll inside -1.0 -> true outside -> false
+    draw 310640770
+  scroll inside -3.0 -> true outside -> false
+    draw -734054821
+  scroll inside -100.0 -> true outside -> false
+    draw -468944993
+  scroll inside 2.0 -> true outside -> false
+    draw 1969959510
+  scroll inside 0.5 -> true outside -> false
+    draw -124588756
+  scroll inside 100.0 -> true outside -> false
+    draw 1029082533
+  scroll inside -0.5 -> true outside -> false
+    draw 1054472656
+  click y=3 -> false fired=[]
+  click y=6 -> false fired=[]
+  click y=9 -> false fired=[]
+  click y=12 -> false fired=[]
+  click y=15 -> false fired=[]
+  click y=18 -> false fired=[]
+  click y=21 -> false fired=[]
+  click y=24 -> false fired=[]
+  click y=27 -> false fired=[]
+  click y=30 -> false fired=[]
+  click y=33 -> false fired=[]
+  click y=36 -> false fired=[]
+  click outside x -> false fired=[]
+  after scroll click y=5 -> true fired=[3]
+  after scroll click y=10 -> true fired=[3, 3]
+  after scroll click y=15 -> true fired=[3, 3, 3]
+  after scroll click y=20 -> true fired=[3, 3, 3, 3]
+  after scroll click y=25 -> true fired=[3, 3, 3, 3, 3]
+  after scroll click y=30 -> true fired=[3, 3, 3, 3, 3, 3]
+  draw end scissor 5 5 35 35 | text {aqua}> link 5 -5 ffffffff true | text {aqua}numb 5 5 ffffffff true | text {aqua}er 3 5 15 ffffffff true | text {aqua}with 5 25 ffffffff true | text {aqua}a 5 35 ffffffff true | text {aqua}long 5 45 ffffffff true | text {aqua}label 5 55 ffffffff true | text {aqua}that 5 65 ffffffff true | text {aqua}need 5 75 ffffffff true | text {aqua}s 5 85 ffffffff true | text {aqua}wrap 5 95 ffffffff true | text {aqua}ping 5 105 ffffffff true | text {aqua}in 5 115 ffffffff true | text {aqua}the 5 125 ffffffff true | text {aqua}box 5 135 ffffffff true | unscissor | fill 32 5 35 35 40ffffff | fill 32 6 35 14 c0ffffff
+scroll empty [false, false, 2]
+mob ZOMBIE_TEST unknown=true entity=null fallback=null
+  tooltipAt 0,0 -> []
+  tooltipAt 20,30 -> [Zombie, §7Level 5]
+  tooltipAt 40,50 -> [Zombie, §7Level 5]
+  tooltipAt 59,89 -> [Zombie, §7Level 5]
+  tooltipAt 60,90 -> [Zombie, §7Level 5]
+  tooltipAt 61,91 -> []
+  draw fill 20 30 60 90 ffaa2222 | text {-}Zombie 24 30 ffffffff true
+  draw again fill 20 30 60 90 ffaa2222 | text {-}Zombie 24 30 ffffffff true
+  tooltip after draw [Zombie, §7Level 5]
+mob UNKNOWN_THING_X unknown=true entity=null fallback=null
+  tooltipAt 0,0 -> []
+  tooltipAt 20,30 -> [Zombie, §7Level 5]
+  tooltipAt 40,50 -> [Zombie, §7Level 5]
+  tooltipAt 59,89 -> [Zombie, §7Level 5]
+  tooltipAt 60,90 -> [Zombie, §7Level 5]
+  tooltipAt 61,91 -> []
+  draw fill 20 30 60 90 ffaa2222 | text {-}Thing 27 30 ffffffff true
+  draw again fill 20 30 60 90 ffaa2222 | text {-}Thing 27 30 ffffffff true
+  tooltip after draw [Zombie, §7Level 5]
+mob  unknown=true entity=null fallback=null
+  tooltipAt 0,0 -> []
+  tooltipAt 20,30 -> [Zombie, §7Level 5]
+  tooltipAt 40,50 -> [Zombie, §7Level 5]
+  tooltipAt 59,89 -> [Zombie, §7Level 5]
+  tooltipAt 60,90 -> [Zombie, §7Level 5]
+  tooltipAt 61,91 -> []
+  draw fill 20 30 60 90 ffaa2222
+  draw again fill 20 30 60 90 ffaa2222
+  tooltip after draw [Zombie, §7Level 5]
+clear kotlin.Unit
+after clear true
+confirmLink ERR:NullPointerException
+confirmLink bad kotlin.Unit

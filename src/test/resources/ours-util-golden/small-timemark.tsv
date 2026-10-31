@@ -1,0 +1,125 @@
+str 0	https://time.is/0
+hash 0	0
+minus 0 0	0s
+passedAt 0 0	Infinity
+cmp 0 0	0
+eq 0 0	true
+minus 0 1	-Infinity
+passedAt 0 1	Infinity
+cmp 0 1	-1
+eq 0 1	false
+minus 0 1000	-Infinity
+passedAt 0 1000	Infinity
+cmp 0 1000	-1
+eq 0 1000	false
+minus 0 1700000000000	-Infinity
+passedAt 0 1700000000000	Infinity
+cmp 0 1700000000000	-1
+eq 0 1700000000000	false
+minus 0 -5	-Infinity
+passedAt 0 -5	Infinity
+cmp 0 -5	1
+eq 0 -5	false
+str 1	https://time.is/1
+hash 1	1
+minus 1 0	Infinity
+passedAt 1 0	-1ms
+cmp 1 0	1
+eq 1 0	false
+minus 1 1	0s
+passedAt 1 1	0s
+cmp 1 1	0
+eq 1 1	true
+minus 1 1000	-999ms
+passedAt 1 1000	999ms
+cmp 1 1000	-1
+eq 1 1000	false
+minus 1 1700000000000	-(19675d 22h 13m 19.999s)
+passedAt 1 1700000000000	19675d 22h 13m 19.999s
+cmp 1 1700000000000	-1
+eq 1 1700000000000	false
+minus 1 -5	6ms
+passedAt 1 -5	-6ms
+cmp 1 -5	1
+eq 1 -5	false
+str 1000	https://time.is/1000
+hash 1000	1000
+minus 1000 0	Infinity
+passedAt 1000 0	-1s
+cmp 1000 0	1
+eq 1000 0	false
+minus 1000 1	999ms
+passedAt 1000 1	-999ms
+cmp 1000 1	1
+eq 1000 1	false
+minus 1000 1000	0s
+passedAt 1000 1000	0s
+cmp 1000 1000	0
+eq 1000 1000	true
+minus 1000 1700000000000	-(19675d 22h 13m 19s)
+passedAt 1000 1700000000000	19675d 22h 13m 19s
+cmp 1000 1700000000000	-1
+eq 1000 1700000000000	false
+minus 1000 -5	1.005s
+passedAt 1000 -5	-1.005s
+cmp 1000 -5	1
+eq 1000 -5	false
+str 1700000000000	https://time.is/1700000000000
+hash 1700000000000	-807048821
+minus 1700000000000 0	Infinity
+passedAt 1700000000000 0	-(19675d 22h 13m 20s)
+cmp 1700000000000 0	1
+eq 1700000000000 0	false
+minus 1700000000000 1	19675d 22h 13m 19.999s
+passedAt 1700000000000 1	-(19675d 22h 13m 19.999s)
+cmp 1700000000000 1	1
+eq 1700000000000 1	false
+minus 1700000000000 1000	19675d 22h 13m 19s
+passedAt 1700000000000 1000	-(19675d 22h 13m 19s)
+cmp 1700000000000 1000	1
+eq 1700000000000 1000	false
+minus 1700000000000 1700000000000	0s
+passedAt 1700000000000 1700000000000	0s
+cmp 1700000000000 1700000000000	0
+eq 1700000000000 1700000000000	true
+minus 1700000000000 -5	19675d 22h 13m 20.005s
+passedAt 1700000000000 -5	-(19675d 22h 13m 20.005s)
+cmp 1700000000000 -5	1
+eq 1700000000000 -5	false
+str -5	https://time.is/-5
+hash -5	4
+minus -5 0	Infinity
+passedAt -5 0	5ms
+cmp -5 0	-1
+eq -5 0	false
+minus -5 1	-6ms
+passedAt -5 1	6ms
+cmp -5 1	-1
+eq -5 1	false
+minus -5 1000	-1.005s
+passedAt -5 1000	1.005s
+cmp -5 1000	-1
+eq -5 1000	false
+minus -5 1700000000000	-(19675d 22h 13m 20.005s)
+passedAt -5 1700000000000	19675d 22h 13m 20.005s
+cmp -5 1700000000000	-1
+eq -5 1700000000000	false
+minus -5 -5	0s
+passedAt -5 -5	0s
+cmp -5 -5	0
+eq -5 -5	true
+farPast	https://time.is/0
+farPastPassed	Infinity
+agoInf	https://time.is/0
+agoNegInf	!java.lang.IllegalArgumentException: Failed requirement.
+agoSane	true
+nowSane	true
+nowVsFar	Infinity
+farVsNow	-Infinity
+ticks 0s	0
+ticks 49ms	0
+ticks 50ms	1
+ticks 1s	20
+ticks -120ms	-2
+ticks 3m	3600
+ticks Infinity	184467440737095516

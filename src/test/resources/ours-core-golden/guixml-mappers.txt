@@ -1,0 +1,14 @@
+#FF0000 awt=-65536
+#FF0000 shedaniel=-65536
+#7F00FF00 awt=2130771712
+#7F00FF00 shedaniel=2130771712
+#FF0000FF awt=-16776961
+#FF0000FF shedaniel=-16776961
+123456 awt=123456
+123456 shedaniel=123456
+-1 awt=-1
+-1 shedaniel=-1
+#GG0000 awt=ERR:NumberFormatException:For input string: "GG0000" under radix 16
+#GG0000 shedaniel=ERR:NumberFormatException:For input string: "GG0000" under radix 16
+#123 awt=-16776925
+#123 shedaniel=ERR:IllegalStateException:Hexcolor #123 needs to be exactly 6 or 8 hex digits long

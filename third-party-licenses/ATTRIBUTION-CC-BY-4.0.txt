@@ -1,0 +1,9 @@
+SkyBlock Apex: attributions for CC BY 4.0 artwork (licence text: META-INF/apex/LICENSES/CC-BY-4.0.txt,
+https://creativecommons.org/licenses/by/4.0/). These replace the per-file *.license sidecars, which are not packed into the jar.
+
+- assets/apex/textures/gui/circle.png: (c) 2024 june_hibiscus, CC BY 4.0.
+- Capes (assets/apex/textures/cape/), CC BY 4.0:
+  - apex_star.png, parallax_background.png, parallax_template.png: ic22487 and Linnea Gräf
+  - firm_static.png: ic22487 and kathund
+  - fsr_static.png: Tendan
+  - h_plus.png: ic22487

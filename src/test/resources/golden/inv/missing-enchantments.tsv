@@ -1,0 +1,92 @@
+inline Sharpness V, Critical VI, Smite VII|0|false	{}"" [{}"Sharpness V" {dark_gray}" → VII" {dark_gray}", " {}"Critical VI" {}", " {}"Smite VII"]
+inline Sharpness V, Critical VI, Smite VII|0|true	{}"" [{blue}"Sharpness V" {dark_gray}" → VII" {dark_gray}", " {blue}"Critical VI" {blue}", " {blue}"Smite VII"]
+inline Sharpness V, Critical VI, Smite VII|1|false	{}"" [{}"Sharpness V" {dark_gray}" → VI" {dark_gray}", " {}"Critical VI" {dark_gray}" → VII" {dark_gray}", " {}"Smite VII"]
+inline Sharpness V, Critical VI, Smite VII|1|true	{}"" [{blue}"Sharpness V" {dark_gray}" → VI" {dark_gray}", " {blue}"Critical VI" {dark_gray}" → VII" {dark_gray}", " {blue}"Smite VII"]
+inline Sharpness V, Critical VI, Smite VII|2|false	{}"" [{}"Sharpness V" {}", " {}"Critical VI" {}", " {}"Smite VII" {dark_gray}" → VII"]
+inline Sharpness V, Critical VI, Smite VII|2|true	{}"" [{blue}"Sharpness V" {blue}", " {blue}"Critical VI" {blue}", " {blue}"Smite VII" {dark_gray}" → VII"]
+inline Sharpness V, Critical VI, Smite VII|3|false	{}"Sharpness V, Critical VI, Smite VII"
+inline Sharpness V, Critical VI, Smite VII|3|true	{blue}"Sharpness V, Critical VI, Smite VII"
+inline Sharpness V, Critical VI, Smite VII|4|false	{}"" [{}"Sharpness V" {}", " {}"Critical VI" {}", " {}"Smite VII"]
+inline Sharpness V, Critical VI, Smite VII|4|true	{}"" [{blue}"Sharpness V" {blue}", " {blue}"Critical VI" {blue}", " {blue}"Smite VII"]
+inline Sharpness V, Critical VI, Smite VII|5|false	{}"" [{}"Sharpness V" {dark_gray}" → X" {dark_gray}", " {}"Critical VI" {}", " {}"Smite VII"]
+inline Sharpness V, Critical VI, Smite VII|5|true	{}"" [{blue}"Sharpness V" {dark_gray}" → X" {dark_gray}", " {blue}"Critical VI" {blue}", " {blue}"Smite VII"]
+inline Sharpness V|0|false	{}"" [{}"Sharpness V" {dark_gray}" → VII"]
+inline Sharpness V|0|true	{}"" [{blue}"Sharpness V" {dark_gray}" → VII"]
+inline Sharpness V|1|false	{}"" [{}"Sharpness V" {dark_gray}" → VI"]
+inline Sharpness V|1|true	{}"" [{blue}"Sharpness V" {dark_gray}" → VI"]
+inline Sharpness V|2|false	{}"" [{}"Sharpness V"]
+inline Sharpness V|2|true	{}"" [{blue}"Sharpness V"]
+inline Sharpness V|3|false	{}"Sharpness V"
+inline Sharpness V|3|true	{blue}"Sharpness V"
+inline Sharpness V|4|false	{}"" [{}"Sharpness V"]
+inline Sharpness V|4|true	{}"" [{blue}"Sharpness V"]
+inline Sharpness V|5|false	{}"" [{}"Sharpness V" {dark_gray}" → X"]
+inline Sharpness V|5|true	{}"" [{blue}"Sharpness V" {dark_gray}" → X"]
+inline Critical VI, Sharpness V|0|false	{}"" [{}"Critical VI" {}", " {}"Sharpness V" {dark_gray}" → VII"]
+inline Critical VI, Sharpness V|0|true	{}"" [{blue}"Critical VI" {blue}", " {blue}"Sharpness V" {dark_gray}" → VII"]
+inline Critical VI, Sharpness V|1|false	{}"" [{}"Critical VI" {dark_gray}" → VII" {dark_gray}", " {}"Sharpness V" {dark_gray}" → VI"]
+inline Critical VI, Sharpness V|1|true	{}"" [{blue}"Critical VI" {dark_gray}" → VII" {dark_gray}", " {blue}"Sharpness V" {dark_gray}" → VI"]
+inline Critical VI, Sharpness V|2|false	{}"" [{}"Critical VI" {}", " {}"Sharpness V"]
+inline Critical VI, Sharpness V|2|true	{}"" [{blue}"Critical VI" {blue}", " {blue}"Sharpness V"]
+inline Critical VI, Sharpness V|3|false	{}"Critical VI, Sharpness V"
+inline Critical VI, Sharpness V|3|true	{blue}"Critical VI, Sharpness V"
+inline Critical VI, Sharpness V|4|false	{}"" [{}"Critical VI" {}", " {}"Sharpness V"]
+inline Critical VI, Sharpness V|4|true	{}"" [{blue}"Critical VI" {blue}", " {blue}"Sharpness V"]
+inline Critical VI, Sharpness V|5|false	{}"" [{}"Critical VI" {}", " {}"Sharpness V" {dark_gray}" → X"]
+inline Critical VI, Sharpness V|5|true	{}"" [{blue}"Critical VI" {blue}", " {blue}"Sharpness V" {dark_gray}" → X"]
+inline Ultimate Wise V, Growth VI, Protection V|0|false	{}"" [{}"Ultimate Wise V" {}", " {}"Growth VI" {}", " {}"Protection V"]
+inline Ultimate Wise V, Growth VI, Protection V|0|true	{}"" [{blue}"Ultimate Wise V" {blue}", " {blue}"Growth VI" {blue}", " {blue}"Protection V"]
+inline Ultimate Wise V, Growth VI, Protection V|1|false	{}"" [{}"Ultimate Wise V" {}", " {}"Growth VI" {}", " {}"Protection V"]
+inline Ultimate Wise V, Growth VI, Protection V|1|true	{}"" [{blue}"Ultimate Wise V" {blue}", " {blue}"Growth VI" {blue}", " {blue}"Protection V"]
+inline Ultimate Wise V, Growth VI, Protection V|2|false	{}"" [{}"Ultimate Wise V" {}", " {}"Growth VI" {}", " {}"Protection V"]
+inline Ultimate Wise V, Growth VI, Protection V|2|true	{}"" [{blue}"Ultimate Wise V" {blue}", " {blue}"Growth VI" {blue}", " {blue}"Protection V"]
+inline Ultimate Wise V, Growth VI, Protection V|3|false	{}"Ultimate Wise V, Growth VI, Protection V"
+inline Ultimate Wise V, Growth VI, Protection V|3|true	{blue}"Ultimate Wise V, Growth VI, Protection V"
+inline Ultimate Wise V, Growth VI, Protection V|4|false	{}"" [{}"Ultimate Wise V" {}", " {}"Growth VI" {dark_gray}" → VII" {dark_gray}", " {}"Protection V" {dark_gray}" → VII"]
+inline Ultimate Wise V, Growth VI, Protection V|4|true	{}"" [{blue}"Ultimate Wise V" {blue}", " {blue}"Growth VI" {dark_gray}" → VII" {dark_gray}", " {blue}"Protection V" {dark_gray}" → VII"]
+inline Ultimate Wise V, Growth VI, Protection V|5|false	{}"" [{}"Ultimate Wise V" {}", " {}"Growth VI" {}", " {}"Protection V"]
+inline Ultimate Wise V, Growth VI, Protection V|5|true	{}"" [{blue}"Ultimate Wise V" {blue}", " {blue}"Growth VI" {blue}", " {blue}"Protection V"]
+inline Nothing here|0|false	{}"" [{}"Nothing here"]
+inline Nothing here|0|true	{}"" [{blue}"Nothing here"]
+inline Nothing here|1|false	{}"" [{}"Nothing here"]
+inline Nothing here|1|true	{}"" [{blue}"Nothing here"]
+inline Nothing here|2|false	{}"" [{}"Nothing here"]
+inline Nothing here|2|true	{}"" [{blue}"Nothing here"]
+inline Nothing here|3|false	{}"Nothing here"
+inline Nothing here|3|true	{blue}"Nothing here"
+inline Nothing here|4|false	{}"" [{}"Nothing here"]
+inline Nothing here|4|true	{}"" [{blue}"Nothing here"]
+inline Nothing here|5|false	{}"" [{}"Nothing here"]
+inline Nothing here|5|true	{}"" [{blue}"Nothing here"]
+inline Sharpness V, Sharpness V|0|false	{}"" [{}"Sharpness V" {dark_gray}" → VII" {dark_gray}", " {}"Sharpness V" {dark_gray}" → VII"]
+inline Sharpness V, Sharpness V|0|true	{}"" [{blue}"Sharpness V" {dark_gray}" → VII" {dark_gray}", " {blue}"Sharpness V" {dark_gray}" → VII"]
+inline Sharpness V, Sharpness V|1|false	{}"" [{}"Sharpness V" {dark_gray}" → VI" {dark_gray}", " {}"Sharpness V" {dark_gray}" → VI"]
+inline Sharpness V, Sharpness V|1|true	{}"" [{blue}"Sharpness V" {dark_gray}" → VI" {dark_gray}", " {blue}"Sharpness V" {dark_gray}" → VI"]
+inline Sharpness V, Sharpness V|2|false	{}"" [{}"Sharpness V" {}", " {}"Sharpness V"]
+inline Sharpness V, Sharpness V|2|true	{}"" [{blue}"Sharpness V" {blue}", " {blue}"Sharpness V"]
+inline Sharpness V, Sharpness V|3|false	{}"Sharpness V, Sharpness V"
+inline Sharpness V, Sharpness V|3|true	{blue}"Sharpness V, Sharpness V"
+inline Sharpness V, Sharpness V|4|false	{}"" [{}"Sharpness V" {}", " {}"Sharpness V"]
+inline Sharpness V, Sharpness V|4|true	{}"" [{blue}"Sharpness V" {blue}", " {blue}"Sharpness V"]
+inline Sharpness V, Sharpness V|5|false	{}"" [{}"Sharpness V" {dark_gray}" → X" {dark_gray}", " {}"Sharpness V" {dark_gray}" → X"]
+inline Sharpness V, Sharpness V|5|true	{}"" [{blue}"Sharpness V" {dark_gray}" → X" {dark_gray}", " {blue}"Sharpness V" {dark_gray}" → X"]
+inline Sharpness VI, Critical VI|0|false	{}"" [{}"Sharpness VI" {dark_gray}" → VII" {dark_gray}", " {}"Critical VI"]
+inline Sharpness VI, Critical VI|0|true	{}"" [{blue}"Sharpness VI" {dark_gray}" → VII" {dark_gray}", " {blue}"Critical VI"]
+inline Sharpness VI, Critical VI|1|false	{}"" [{}"Sharpness VI" {dark_gray}" → VI" {dark_gray}", " {}"Critical VI" {dark_gray}" → VII"]
+inline Sharpness VI, Critical VI|1|true	{}"" [{blue}"Sharpness VI" {dark_gray}" → VI" {dark_gray}", " {blue}"Critical VI" {dark_gray}" → VII"]
+inline Sharpness VI, Critical VI|2|false	{}"" [{}"Sharpness VI" {}", " {}"Critical VI"]
+inline Sharpness VI, Critical VI|2|true	{}"" [{blue}"Sharpness VI" {blue}", " {blue}"Critical VI"]
+inline Sharpness VI, Critical VI|3|false	{}"Sharpness VI, Critical VI"
+inline Sharpness VI, Critical VI|3|true	{blue}"Sharpness VI, Critical VI"
+inline Sharpness VI, Critical VI|4|false	{}"" [{}"Sharpness VI" {}", " {}"Critical VI"]
+inline Sharpness VI, Critical VI|4|true	{}"" [{blue}"Sharpness VI" {blue}", " {blue}"Critical VI"]
+inline Sharpness VI, Critical VI|5|false	{}"" [{}"Sharpness VI" {dark_gray}" → X" {dark_gray}", " {}"Critical VI"]
+inline Sharpness VI, Critical VI|5|true	{}"" [{blue}"Sharpness VI" {dark_gray}" → X" {dark_gray}", " {blue}"Critical VI"]
+insert Name~Lore~LEGENDARY SWORD	2
+insert Name~RARE~x~EPIC BOOTS~y	3
+insert Name	1
+insert 	0
+insert COMMONER~uncommon	0
+insert VERY SPECIAL~SPECIAL	1
+insert DIVINE DUNGEON ITEM~a~MYTHIC	2
+insert  LEGENDARY	1

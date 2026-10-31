@@ -1,0 +1,1172 @@
+text 0 TOP 0/false	8ccbdaf629b77d7142d93111
+bbtext 0 TOP 0/false	bf3f1a9beffe681d02d4a2cc
+text 0 BOTTOM 0/false	d7aee600b31c25e597e74860
+bbtext 0 BOTTOM 0/false	6aec64987f3d214c4f9b32fb
+text 0 CENTER 0/false	de22b6586583375bd2caaa71
+bbtext 0 CENTER 0/false	7b36967977cb4bd9337ff341
+bbtextBg 0 0 0/false	6a194ec0cdfa280062942d17
+bbtextBg 0 1073741824 0/false	7a5981f467739ba78e3efe95
+bbtextBg 0 -1 0/false	52e2efc520735d121b615a16
+text 1 TOP 0/false	473430e44604173d721bd3cf
+bbtext 1 TOP 0/false	4cf35bf740e4166a478518f6
+text 1 BOTTOM 0/false	84aec8481593723f14a2bee0
+bbtext 1 BOTTOM 0/false	2d26b332cd9aa7fc0d035786
+text 1 CENTER 0/false	feb4f587e6c0731bc4279aee
+bbtext 1 CENTER 0/false	6ecccb19b901612de02044d9
+bbtextBg 1 0 0/false	79efb9b26a74ab0dd5eb4b95
+bbtextBg 1 1073741824 0/false	a686375830e8e767b802b3d8
+bbtextBg 1 -1 0/false	67a513c4f06f6d32e9c149ca
+text 2 TOP 0/false	0e20b10b8eb35f530a385b72
+bbtext 2 TOP 0/false	e8261f5da3244e6c919578ed
+text 2 BOTTOM 0/false	c62b0f7827303c0e8edaa673
+bbtext 2 BOTTOM 0/false	408389b246143a18b3a67549
+text 2 CENTER 0/false	e515f78caab1fc9382a5e622
+bbtext 2 CENTER 0/false	835e1b31a9fe899343bdc54a
+bbtextBg 2 0 0/false	0a6793278183c02068cc5837
+bbtextBg 2 1073741824 0/false	a9910ec35c3a5b5ef3d28d99
+bbtextBg 2 -1 0/false	c4a25f3aa4845d18b0cd45e9
+text 3 TOP 0/false	208c2ce02caccb0d2d7fbf47
+bbtext 3 TOP 0/false	5e60951244447deb26323c53
+text 3 BOTTOM 0/false	e44d0d104af0c73b311e4be0
+bbtext 3 BOTTOM 0/false	364650acaf8ff0324370358a
+text 3 CENTER 0/false	95b3d85def7dfb78af0e9309
+bbtext 3 CENTER 0/false	4617a16f628b44eab34db780
+bbtextBg 3 0 0/false	b292d8c9db6a2c2c919829da
+bbtextBg 3 1073741824 0/false	3aa13f2f268ab60b5024754f
+bbtextBg 3 -1 0/false	8c2e88b9ee66da55ec2fc9dc
+text 4 TOP 0/false	750a972728db964055993381
+bbtext 4 TOP 0/false	3a22e42ee4c99c8703c40f67
+text 4 BOTTOM 0/false	29c5dcfa6cb6896df3966b9a
+bbtext 4 BOTTOM 0/false	41652d0cbbc88b1d3b4ddbad
+text 4 CENTER 0/false	61b154f6d29e756cdfc0e231
+bbtext 4 CENTER 0/false	968f448b453a114fe4127a3a
+bbtextBg 4 0 0/false	17c9e4e7d86d277389995201
+bbtextBg 4 1073741824 0/false	a634f9cde6325dc3015e5e7e
+bbtextBg 4 -1 0/false	ecf6d3e9c438e1e4b0f2eea4
+texture 0/false	10a10793cd733dbb56b02f95
+textureUv 0/false	9d3557bd63504cefe006f579
+bbtexture 0/false	7cb148c86bace210001222a8
+bbwaypoint BlockPos{x=0, y=0, z=0} 0/false	f159b9c41cb30f0e23827ec4
+bbwaypoint BlockPos{x=100, y=64, z=-100} 0/false	040a9f7fb26d094543f8ce87
+bbwaypoint BlockPos{x=10, y=64, z=-4} 0/false	a79c04aad515d0c00ac543ef
+waypoint0 BlockPos{x=0, y=0, z=0} 0/false	bee4dc1cc7dde6222f4939fc
+waypoint2 BlockPos{x=0, y=0, z=0} 0/false	ccf7225fa39411f788d57c3a
+waypoint0 BlockPos{x=100, y=64, z=-100} 0/false	e974c38f269ce3525342a769
+waypoint2 BlockPos{x=100, y=64, z=-100} 0/false	7202215c694e0ee076b971a7
+waypoint0 BlockPos{x=10, y=64, z=-4} 0/false	9e81a5c886e52de0439cb9fb
+waypoint2 BlockPos{x=10, y=64, z=-4} 0/false	6a507e1deb69ce13bc83fe2f
+marker CUBE_FILLED 0 0.5 0/false	6a746ae35020080c2fd78eb3
+markerS CUBE_FILLED 0 0.5 0/false	392020629878bb397b50c03a
+lookBlock CUBE_FILLED 0 0.5 0/false	f820ab32c1240c40c7b197b2
+marker CUBE_FILLED 0 1.0 0/false	5a63ad9d235b999d9ce67531
+markerS CUBE_FILLED 0 1.0 0/false	808c36d9c6b5208355cbffaa
+lookBlock CUBE_FILLED 0 1.0 0/false	3c34ef68aaffcc784ba25702
+marker CUBE_FILLED 0 2.5 0/false	4cf7ad9ce7f1e30b8bc638d1
+markerS CUBE_FILLED 0 2.5 0/false	c966f23d5c35bbf7a0df18db
+lookBlock CUBE_FILLED 0 2.5 0/false	e5a334fddfdae8b12497be08
+marker CUBE_FILLED 40 0.5 0/false	6a3516b0906a2161ef87f02b
+markerS CUBE_FILLED 40 0.5 0/false	cc5316e8a2dea02a91eadc46
+lookBlock CUBE_FILLED 40 0.5 0/false	eb1c570a0f3268c75e88262c
+marker CUBE_FILLED 40 1.0 0/false	2854cf97848afcc211783a41
+markerS CUBE_FILLED 40 1.0 0/false	bf21e41cbf09d298902745c8
+lookBlock CUBE_FILLED 40 1.0 0/false	47cbb32d5381d97db70d6efd
+marker CUBE_FILLED 40 2.5 0/false	b4525bc3cfacd3ad16f5349f
+markerS CUBE_FILLED 40 2.5 0/false	29148420ea79284d32af28e8
+lookBlock CUBE_FILLED 40 2.5 0/false	0898dd4dd8258cf520615ff4
+marker CUBE_FILLED 100 0.5 0/false	2e4d76af353fefbf682a7ecf
+markerS CUBE_FILLED 100 0.5 0/false	f180005fe2d12519ed650341
+lookBlock CUBE_FILLED 100 0.5 0/false	e1c0e53a7278c6fd4b5bf349
+marker CUBE_FILLED 100 1.0 0/false	573dd9a100f35fc6aecb3d39
+markerS CUBE_FILLED 100 1.0 0/false	f57708607fc17bbd6560542a
+lookBlock CUBE_FILLED 100 1.0 0/false	f1927325ea9cc58da9656b3c
+marker CUBE_FILLED 100 2.5 0/false	99c94f5906826b19573ccf7f
+markerS CUBE_FILLED 100 2.5 0/false	3973c2f6da7d87e12fdc76fd
+lookBlock CUBE_FILLED 100 2.5 0/false	cc8e2bbddce83446496f9cda
+marker CUBE_OUTLINE 0 0.5 0/false	3dfdd78f97eaafcace331fad
+markerS CUBE_OUTLINE 0 0.5 0/false	de29f873762f624001ae20bd
+lookBlock CUBE_OUTLINE 0 0.5 0/false	1b167163cd70ce5be23dcb87
+marker CUBE_OUTLINE 0 1.0 0/false	7dbe26c977ee21edb4779531
+markerS CUBE_OUTLINE 0 1.0 0/false	dcec61cb3499e14af69119d7
+lookBlock CUBE_OUTLINE 0 1.0 0/false	ee42c0a698746d34d298166f
+marker CUBE_OUTLINE 0 2.5 0/false	4d02eeb8a6c529ca1b9281ae
+markerS CUBE_OUTLINE 0 2.5 0/false	36dddcc835d489e9198610d8
+lookBlock CUBE_OUTLINE 0 2.5 0/false	92dac9fa09b094b52c98d9a9
+marker CUBE_OUTLINE 40 0.5 0/false	08b7353ca129514fc9e10ced
+markerS CUBE_OUTLINE 40 0.5 0/false	b5fb1930379deca2a42fe10e
+lookBlock CUBE_OUTLINE 40 0.5 0/false	33adfe9308b1330ad870030d
+marker CUBE_OUTLINE 40 1.0 0/false	29d20ddf8c9baa61c377eced
+markerS CUBE_OUTLINE 40 1.0 0/false	8a150917e5ca8a0d70e89d3b
+lookBlock CUBE_OUTLINE 40 1.0 0/false	969be5f512d0e124c4d6cb08
+marker CUBE_OUTLINE 40 2.5 0/false	2d921fec4f959a0cac31ffe4
+markerS CUBE_OUTLINE 40 2.5 0/false	c0e1866a1be67dedd1723054
+lookBlock CUBE_OUTLINE 40 2.5 0/false	7fb95edd3b54f49175d00736
+marker CUBE_OUTLINE 100 0.5 0/false	c5d8e152655589cacbb0b175
+markerS CUBE_OUTLINE 100 0.5 0/false	c650293a74760a2e93118d13
+lookBlock CUBE_OUTLINE 100 0.5 0/false	2ea5f1dbc7b24042b8d7d33e
+marker CUBE_OUTLINE 100 1.0 0/false	f71a1ade8b6b46b9866ea5df
+markerS CUBE_OUTLINE 100 1.0 0/false	c820726b0d2bd0330c5ffe94
+lookBlock CUBE_OUTLINE 100 1.0 0/false	e224872c15d13ccc55867f08
+marker CUBE_OUTLINE 100 2.5 0/false	9b8f183ed2d23ec79824a481
+markerS CUBE_OUTLINE 100 2.5 0/false	a108b7e7c70fff56fc03d12a
+lookBlock CUBE_OUTLINE 100 2.5 0/false	f2b04cf181d85b7148ae0110
+marker SQUARE_FILLED 0 0.5 0/false	018e62d1805ca7fb952bbbcc
+markerS SQUARE_FILLED 0 0.5 0/false	66ba2afa531aaa786670c067
+lookBlock SQUARE_FILLED 0 0.5 0/false	06554bd09eb2a6c6155ab1ee
+marker SQUARE_FILLED 0 1.0 0/false	8730f639ce6939e060a835db
+markerS SQUARE_FILLED 0 1.0 0/false	46ce4147730a314dd21b9636
+lookBlock SQUARE_FILLED 0 1.0 0/false	0ad1843412fcbb1669f96957
+marker SQUARE_FILLED 0 2.5 0/false	f858d1400305328574ab909e
+markerS SQUARE_FILLED 0 2.5 0/false	0e6e20727413c7b488f50ffa
+lookBlock SQUARE_FILLED 0 2.5 0/false	fa4c6c528a14a2f920408fd7
+marker SQUARE_FILLED 40 0.5 0/false	8c77d445a48bd906eadd15b0
+markerS SQUARE_FILLED 40 0.5 0/false	92404ab1cfbe6895b5928e31
+lookBlock SQUARE_FILLED 40 0.5 0/false	597d3f1fdbcd6d72f286d534
+marker SQUARE_FILLED 40 1.0 0/false	248f358fedda519fa07d579c
+markerS SQUARE_FILLED 40 1.0 0/false	50e0d96058ad4b1dbf2a3fbd
+lookBlock SQUARE_FILLED 40 1.0 0/false	adc6f35e699e43ae3fc999e7
+marker SQUARE_FILLED 40 2.5 0/false	04ee7b553f06ffdaac752c28
+markerS SQUARE_FILLED 40 2.5 0/false	8df52ef1c34d4e602be64a47
+lookBlock SQUARE_FILLED 40 2.5 0/false	8874c6b29b757a5fa922d89c
+marker SQUARE_FILLED 100 0.5 0/false	65b52ffa5a83a1e00afe8c52
+markerS SQUARE_FILLED 100 0.5 0/false	ba6806dd7477366a6ee6de56
+lookBlock SQUARE_FILLED 100 0.5 0/false	bd95710142ebbdbb0f60e73c
+marker SQUARE_FILLED 100 1.0 0/false	50f0e72bb6f661efd5e02a40
+markerS SQUARE_FILLED 100 1.0 0/false	20441a060a8244893ab5a026
+lookBlock SQUARE_FILLED 100 1.0 0/false	891676726cf60485050c7f88
+marker SQUARE_FILLED 100 2.5 0/false	3d15fcfd5fd7e419d3b0bf3a
+markerS SQUARE_FILLED 100 2.5 0/false	3de89dfeeb6ad20a8e7b97e3
+lookBlock SQUARE_FILLED 100 2.5 0/false	b10f35d780a14f7172c709e4
+marker SQUARE_OUTLINE 0 0.5 0/false	775f7b58cf44e340dc6170af
+markerS SQUARE_OUTLINE 0 0.5 0/false	7ee8c31df74cc301634cf0a8
+lookBlock SQUARE_OUTLINE 0 0.5 0/false	98492f29302c1ce8e6cb0525
+marker SQUARE_OUTLINE 0 1.0 0/false	6e46219fcc355f962aff2839
+markerS SQUARE_OUTLINE 0 1.0 0/false	47d033838d6b271402900a81
+lookBlock SQUARE_OUTLINE 0 1.0 0/false	5a8d6c20a661438a8a61b0c0
+marker SQUARE_OUTLINE 0 2.5 0/false	2e77e6e80890fd47b1a8606f
+markerS SQUARE_OUTLINE 0 2.5 0/false	3c2b6acf4a8de7c52e4f728c
+lookBlock SQUARE_OUTLINE 0 2.5 0/false	39de39e0738a584eaf288120
+marker SQUARE_OUTLINE 40 0.5 0/false	c80e80b82903fa94864ea61c
+markerS SQUARE_OUTLINE 40 0.5 0/false	3c042417e7bb5b2c5ff4b5f0
+lookBlock SQUARE_OUTLINE 40 0.5 0/false	293a7e49161e91b059038eca
+marker SQUARE_OUTLINE 40 1.0 0/false	0779e5a269dbeb102c8f2d77
+markerS SQUARE_OUTLINE 40 1.0 0/false	d28b2dabbe75856d3f8bd4e4
+lookBlock SQUARE_OUTLINE 40 1.0 0/false	d786cc7d80f36ea69b06db42
+marker SQUARE_OUTLINE 40 2.5 0/false	4ab03d6532af8324ad469038
+markerS SQUARE_OUTLINE 40 2.5 0/false	b09f4b0d2814bc4eeae6e15b
+lookBlock SQUARE_OUTLINE 40 2.5 0/false	291ed62b2c4829f016b8d5f8
+marker SQUARE_OUTLINE 100 0.5 0/false	0a9c0202819933b3e0818ca9
+markerS SQUARE_OUTLINE 100 0.5 0/false	1bbce1f2c88baaafc9fc77eb
+lookBlock SQUARE_OUTLINE 100 0.5 0/false	d77f5c67a3ceaff282f54472
+marker SQUARE_OUTLINE 100 1.0 0/false	56f8fc67a01548069b70ba5c
+markerS SQUARE_OUTLINE 100 1.0 0/false	c8d9719374766cdacde907fd
+lookBlock SQUARE_OUTLINE 100 1.0 0/false	0b7abfbaec3dc51444638023
+marker SQUARE_OUTLINE 100 2.5 0/false	83e604cac02f166dfbc355a6
+markerS SQUARE_OUTLINE 100 2.5 0/false	c6dc013912b60c8efdf5ec19
+lookBlock SQUARE_OUTLINE 100 2.5 0/false	1a592431b7b8fec97395eb7b
+marker CIRCLE_FILLED 0 0.5 0/false	62d30ad520c4ae1842a0a683
+markerS CIRCLE_FILLED 0 0.5 0/false	239c9adf7fc37de4b25cd022
+lookBlock CIRCLE_FILLED 0 0.5 0/false	6dd5935eaea7c10446b6eb16
+marker CIRCLE_FILLED 0 1.0 0/false	c1c8c4a1f87a5be8a990366e
+markerS CIRCLE_FILLED 0 1.0 0/false	22790f360ac56d1ef274c0b0
+lookBlock CIRCLE_FILLED 0 1.0 0/false	e835f1a91c9a4879b38389dd
+marker CIRCLE_FILLED 0 2.5 0/false	dd74dc9ec4437ae208545f85
+markerS CIRCLE_FILLED 0 2.5 0/false	40bae1884d919ec9b1c6faca
+lookBlock CIRCLE_FILLED 0 2.5 0/false	7da0ba4602c5a743ad6db926
+marker CIRCLE_FILLED 40 0.5 0/false	17986a25267c41617a1776df
+markerS CIRCLE_FILLED 40 0.5 0/false	afdd071dbd32e5dd13eecc4a
+lookBlock CIRCLE_FILLED 40 0.5 0/false	5142d8f5acc9046adb8faa11
+marker CIRCLE_FILLED 40 1.0 0/false	2ab57ceddeb6566c3d44983e
+markerS CIRCLE_FILLED 40 1.0 0/false	b5314684d30a852e2494a48f
+lookBlock CIRCLE_FILLED 40 1.0 0/false	adcea64a15906325d3fc4019
+marker CIRCLE_FILLED 40 2.5 0/false	f77ef40f5c0b94d97bef642e
+markerS CIRCLE_FILLED 40 2.5 0/false	9cbc9b3c21f0d85f03a3d841
+lookBlock CIRCLE_FILLED 40 2.5 0/false	a5c08b273d72eec0706e00aa
+marker CIRCLE_FILLED 100 0.5 0/false	6106ae30221a188c2740c16f
+markerS CIRCLE_FILLED 100 0.5 0/false	b087428b3708626bbb204d36
+lookBlock CIRCLE_FILLED 100 0.5 0/false	8885ad90c4a119fa5ada4306
+marker CIRCLE_FILLED 100 1.0 0/false	8e1517d3e0534cb70ae526e1
+markerS CIRCLE_FILLED 100 1.0 0/false	9eae78151cdb9dd36fdc4763
+lookBlock CIRCLE_FILLED 100 1.0 0/false	f9c332791b41af93efb8f304
+marker CIRCLE_FILLED 100 2.5 0/false	1ab34b05dcc26b432ca1bfa5
+markerS CIRCLE_FILLED 100 2.5 0/false	ce6b3e1ae47c4e739b9d8314
+lookBlock CIRCLE_FILLED 100 2.5 0/false	b5cb5f83ab3f0a921f1ed7f5
+marker CIRCLE_OUTLINE 0 0.5 0/false	ffd0e693feacefd5dc40724b
+markerS CIRCLE_OUTLINE 0 0.5 0/false	bf7dba4e73e851bf0d49e264
+lookBlock CIRCLE_OUTLINE 0 0.5 0/false	1295d29c15f804f559558c18
+marker CIRCLE_OUTLINE 0 1.0 0/false	77b6c9e09756715ce2c2d064
+markerS CIRCLE_OUTLINE 0 1.0 0/false	26dc72d579e8fc13120bd95f
+lookBlock CIRCLE_OUTLINE 0 1.0 0/false	cde89c93f84eba4958f929fe
+marker CIRCLE_OUTLINE 0 2.5 0/false	7ca1f381a5a40306af0e601b
+markerS CIRCLE_OUTLINE 0 2.5 0/false	490c0eb3f1edac8888df1d88
+lookBlock CIRCLE_OUTLINE 0 2.5 0/false	4302539421e6ef5c23debace
+marker CIRCLE_OUTLINE 40 0.5 0/false	81405ddb00473b45d2c15c65
+markerS CIRCLE_OUTLINE 40 0.5 0/false	42ef1d8f08b3c490966954ff
+lookBlock CIRCLE_OUTLINE 40 0.5 0/false	00789b272f1b91b2b9d1f5ad
+marker CIRCLE_OUTLINE 40 1.0 0/false	8d8ddc9c17fa1b969d0c68d6
+markerS CIRCLE_OUTLINE 40 1.0 0/false	fbe2ffe3937b554f4945ad1c
+lookBlock CIRCLE_OUTLINE 40 1.0 0/false	36b29353877c355e4c40e460
+marker CIRCLE_OUTLINE 40 2.5 0/false	0a0b92d7daeb7540014c5a97
+markerS CIRCLE_OUTLINE 40 2.5 0/false	2d92ace47e3fdd021becdebe
+lookBlock CIRCLE_OUTLINE 40 2.5 0/false	6c35f8af27855267c11867fc
+marker CIRCLE_OUTLINE 100 0.5 0/false	a3bbee9c1b416251bf8998dd
+markerS CIRCLE_OUTLINE 100 0.5 0/false	7c6037a8698a7dd2b088b93d
+lookBlock CIRCLE_OUTLINE 100 0.5 0/false	1af06b6d11578365edf4b056
+marker CIRCLE_OUTLINE 100 1.0 0/false	b37f06404ddf8c537eb28138
+markerS CIRCLE_OUTLINE 100 1.0 0/false	445ce1aae74c42d4eb0d5a80
+lookBlock CIRCLE_OUTLINE 100 1.0 0/false	7e8d967f2d53faf509e3136c
+marker CIRCLE_OUTLINE 100 2.5 0/false	1999734be11b1bef1043c455
+markerS CIRCLE_OUTLINE 100 2.5 0/false	615a66a8d0a7f1790ac6aa66
+lookBlock CIRCLE_OUTLINE 100 2.5 0/false	60d038eabf1ec9cbfc3e82d8
+marker SPHERE_FILLED 0 0.5 0/false	5d693c5152ab2443c089f13e
+markerS SPHERE_FILLED 0 0.5 0/false	684b9d4641f882ff2323862c
+lookBlock SPHERE_FILLED 0 0.5 0/false	ecab863311cc1d545e73714e
+marker SPHERE_FILLED 0 1.0 0/false	9840af42c49cb924d6922ff9
+markerS SPHERE_FILLED 0 1.0 0/false	5bf4598511e2dc7d002e8608
+lookBlock SPHERE_FILLED 0 1.0 0/false	80a702ff7284a833b8c3a99e
+marker SPHERE_FILLED 0 2.5 0/false	cb71fdc9618859b679c17a16
+markerS SPHERE_FILLED 0 2.5 0/false	166944319946e49fd498fdc5
+lookBlock SPHERE_FILLED 0 2.5 0/false	51737e3f5e4e9e48532b9ff6
+marker SPHERE_FILLED 40 0.5 0/false	7972b02659606f2b9e474319
+markerS SPHERE_FILLED 40 0.5 0/false	d4c35970b4007c6bfd410a50
+lookBlock SPHERE_FILLED 40 0.5 0/false	4d4ee679af86f8d470ff462c
+marker SPHERE_FILLED 40 1.0 0/false	1a96e0555f7c1b1ffac4db2e
+markerS SPHERE_FILLED 40 1.0 0/false	059013ad15b81548de6cfc17
+lookBlock SPHERE_FILLED 40 1.0 0/false	5ea0b8ab092a605bc08543db
+marker SPHERE_FILLED 40 2.5 0/false	952518e0c6fcd3516aa615a8
+markerS SPHERE_FILLED 40 2.5 0/false	271e51f711f9e1f8556f6657
+lookBlock SPHERE_FILLED 40 2.5 0/false	33490bb03d139a722d3c9987
+marker SPHERE_FILLED 100 0.5 0/false	13131a04d3ad3f6866f7130d
+markerS SPHERE_FILLED 100 0.5 0/false	8e029704fd54b581a427f292
+lookBlock SPHERE_FILLED 100 0.5 0/false	8cb8e27898acd60e326fb809
+marker SPHERE_FILLED 100 1.0 0/false	cf51a04855259e5200947253
+markerS SPHERE_FILLED 100 1.0 0/false	dd7c2bbec39a60bae881d967
+lookBlock SPHERE_FILLED 100 1.0 0/false	4135d8cc8083d890149c41f9
+marker SPHERE_FILLED 100 2.5 0/false	270ecde38aae389d89f3c4a1
+markerS SPHERE_FILLED 100 2.5 0/false	6a1d4c3965609f802ecaf3b3
+lookBlock SPHERE_FILLED 100 2.5 0/false	0988d176dc293efa183d57ce
+marker SPHERE_OUTLINE 0 0.5 0/false	188cee955045625fde4c59bf
+markerS SPHERE_OUTLINE 0 0.5 0/false	f6a26dba0e3da2d9dc4c3d0c
+lookBlock SPHERE_OUTLINE 0 0.5 0/false	9f2c3dd24ade293b4f7c485f
+marker SPHERE_OUTLINE 0 1.0 0/false	6c68c21c05e211628cb4f466
+markerS SPHERE_OUTLINE 0 1.0 0/false	99b5c0851d2201a09485416d
+lookBlock SPHERE_OUTLINE 0 1.0 0/false	8d87dc67026d70185a54f159
+marker SPHERE_OUTLINE 0 2.5 0/false	11dbdc664df7524aeb8f2c14
+markerS SPHERE_OUTLINE 0 2.5 0/false	b222f5d0150608291cef23f8
+lookBlock SPHERE_OUTLINE 0 2.5 0/false	ace6d17258ccdcb8f7959d95
+marker SPHERE_OUTLINE 40 0.5 0/false	a12bfbbc1478300a3d186917
+markerS SPHERE_OUTLINE 40 0.5 0/false	6d037653d6773db4164e762c
+lookBlock SPHERE_OUTLINE 40 0.5 0/false	c9415222b654b2becf51ff62
+marker SPHERE_OUTLINE 40 1.0 0/false	b10584fea4e1cc51529cda1a
+markerS SPHERE_OUTLINE 40 1.0 0/false	f31d63fb28704a91aeda5670
+lookBlock SPHERE_OUTLINE 40 1.0 0/false	c8d13c5c093d136e058e9399
+marker SPHERE_OUTLINE 40 2.5 0/false	1cc679aeb596e1ddd6da1671
+markerS SPHERE_OUTLINE 40 2.5 0/false	2b5258904a15a0a7b50371a4
+lookBlock SPHERE_OUTLINE 40 2.5 0/false	26056c188ad8fdf1cc44e8d8
+marker SPHERE_OUTLINE 100 0.5 0/false	af4cb63769f2b165f6f4e166
+markerS SPHERE_OUTLINE 100 0.5 0/false	a6d922ba5851cfb67be2d7d9
+lookBlock SPHERE_OUTLINE 100 0.5 0/false	e70411088fc7852ced1bbd7b
+marker SPHERE_OUTLINE 100 1.0 0/false	2267bc1c12562e0a57ab3edd
+markerS SPHERE_OUTLINE 100 1.0 0/false	644765ceb5632522af9c60bb
+lookBlock SPHERE_OUTLINE 100 1.0 0/false	388fb0cd548a29409df76281
+marker SPHERE_OUTLINE 100 2.5 0/false	670963168e6998afeffb00be
+markerS SPHERE_OUTLINE 100 2.5 0/false	c4b404269a4e491e5686b2d6
+lookBlock SPHERE_OUTLINE 100 2.5 0/false	66173e353eaa27d393e4926c
+markerBox 0/false	24430efed6328cc2e5e73aa7
+looks PERSONAL 0/false	9c426aee5e704e2162c38e2d
+looks ROUTES 0/false	9c426aee5e704e2162c38e2d
+looks TEMPORARY 0/false	9c426aee5e704e2162c38e2d
+looks NPCS 0/false	9c426aee5e704e2162c38e2d
+looks FAIRY_SOULS 0/false	9c426aee5e704e2162c38e2d
+looks ENIGMA_SOULS 0/false	9c426aee5e704e2162c38e2d
+looks DIANA 0/false	9c426aee5e704e2162c38e2d
+looks DWARVEN 0/false	9c426aee5e704e2162c38e2d
+looks CRYSTAL_HOLLOWS 0/false	9c426aee5e704e2162c38e2d
+looks MINING_SOLVERS 0/false	9c426aee5e704e2162c38e2d
+looks GLACITE 0/false	9c426aee5e704e2162c38e2d
+looks CORPSES_LADDERS 0/false	9c426aee5e704e2162c38e2d
+looks PESTS 0/false	9c426aee5e704e2162c38e2d
+looks KUUDRA 0/false	9c426aee5e704e2162c38e2d
+looks TERMINALS 0/false	9c426aee5e704e2162c38e2d
+looks SECRET_WAYFINDER 0/false	9c426aee5e704e2162c38e2d
+looks FISHING 0/false	9c426aee5e704e2162c38e2d
+looks FORAGING 0/false	9c426aee5e704e2162c38e2d
+looks RIFT 0/false	9c426aee5e704e2162c38e2d
+text 0 TOP 0/true	8ccbdaf629b77d7142d93111
+bbtext 0 TOP 0/true	bf3f1a9beffe681d02d4a2cc
+text 0 BOTTOM 0/true	d7aee600b31c25e597e74860
+bbtext 0 BOTTOM 0/true	6aec64987f3d214c4f9b32fb
+text 0 CENTER 0/true	de22b6586583375bd2caaa71
+bbtext 0 CENTER 0/true	7b36967977cb4bd9337ff341
+bbtextBg 0 0 0/true	6a194ec0cdfa280062942d17
+bbtextBg 0 1073741824 0/true	7a5981f467739ba78e3efe95
+bbtextBg 0 -1 0/true	52e2efc520735d121b615a16
+text 1 TOP 0/true	473430e44604173d721bd3cf
+bbtext 1 TOP 0/true	4cf35bf740e4166a478518f6
+text 1 BOTTOM 0/true	84aec8481593723f14a2bee0
+bbtext 1 BOTTOM 0/true	2d26b332cd9aa7fc0d035786
+text 1 CENTER 0/true	feb4f587e6c0731bc4279aee
+bbtext 1 CENTER 0/true	6ecccb19b901612de02044d9
+bbtextBg 1 0 0/true	79efb9b26a74ab0dd5eb4b95
+bbtextBg 1 1073741824 0/true	a686375830e8e767b802b3d8
+bbtextBg 1 -1 0/true	67a513c4f06f6d32e9c149ca
+text 2 TOP 0/true	0e20b10b8eb35f530a385b72
+bbtext 2 TOP 0/true	e8261f5da3244e6c919578ed
+text 2 BOTTOM 0/true	c62b0f7827303c0e8edaa673
+bbtext 2 BOTTOM 0/true	408389b246143a18b3a67549
+text 2 CENTER 0/true	e515f78caab1fc9382a5e622
+bbtext 2 CENTER 0/true	835e1b31a9fe899343bdc54a
+bbtextBg 2 0 0/true	0a6793278183c02068cc5837
+bbtextBg 2 1073741824 0/true	a9910ec35c3a5b5ef3d28d99
+bbtextBg 2 -1 0/true	c4a25f3aa4845d18b0cd45e9
+text 3 TOP 0/true	208c2ce02caccb0d2d7fbf47
+bbtext 3 TOP 0/true	5e60951244447deb26323c53
+text 3 BOTTOM 0/true	e44d0d104af0c73b311e4be0
+bbtext 3 BOTTOM 0/true	364650acaf8ff0324370358a
+text 3 CENTER 0/true	95b3d85def7dfb78af0e9309
+bbtext 3 CENTER 0/true	4617a16f628b44eab34db780
+bbtextBg 3 0 0/true	b292d8c9db6a2c2c919829da
+bbtextBg 3 1073741824 0/true	3aa13f2f268ab60b5024754f
+bbtextBg 3 -1 0/true	8c2e88b9ee66da55ec2fc9dc
+text 4 TOP 0/true	750a972728db964055993381
+bbtext 4 TOP 0/true	3a22e42ee4c99c8703c40f67
+text 4 BOTTOM 0/true	29c5dcfa6cb6896df3966b9a
+bbtext 4 BOTTOM 0/true	41652d0cbbc88b1d3b4ddbad
+text 4 CENTER 0/true	61b154f6d29e756cdfc0e231
+bbtext 4 CENTER 0/true	968f448b453a114fe4127a3a
+bbtextBg 4 0 0/true	17c9e4e7d86d277389995201
+bbtextBg 4 1073741824 0/true	a634f9cde6325dc3015e5e7e
+bbtextBg 4 -1 0/true	ecf6d3e9c438e1e4b0f2eea4
+texture 0/true	10a10793cd733dbb56b02f95
+textureUv 0/true	9d3557bd63504cefe006f579
+bbtexture 0/true	7cb148c86bace210001222a8
+bbwaypoint BlockPos{x=0, y=0, z=0} 0/true	f159b9c41cb30f0e23827ec4
+bbwaypoint BlockPos{x=100, y=64, z=-100} 0/true	040a9f7fb26d094543f8ce87
+bbwaypoint BlockPos{x=10, y=64, z=-4} 0/true	a79c04aad515d0c00ac543ef
+waypoint0 BlockPos{x=0, y=0, z=0} 0/true	bee4dc1cc7dde6222f4939fc
+waypoint2 BlockPos{x=0, y=0, z=0} 0/true	ccf7225fa39411f788d57c3a
+waypoint0 BlockPos{x=100, y=64, z=-100} 0/true	e974c38f269ce3525342a769
+waypoint2 BlockPos{x=100, y=64, z=-100} 0/true	7202215c694e0ee076b971a7
+waypoint0 BlockPos{x=10, y=64, z=-4} 0/true	9e81a5c886e52de0439cb9fb
+waypoint2 BlockPos{x=10, y=64, z=-4} 0/true	6a507e1deb69ce13bc83fe2f
+marker CUBE_FILLED 0 0.5 0/true	18fa506b5325dae80e9fe1e1
+markerS CUBE_FILLED 0 0.5 0/true	392020629878bb397b50c03a
+lookBlock CUBE_FILLED 0 0.5 0/true	f820ab32c1240c40c7b197b2
+marker CUBE_FILLED 0 1.0 0/true	954e0f19c77f051b8c775fb8
+markerS CUBE_FILLED 0 1.0 0/true	808c36d9c6b5208355cbffaa
+lookBlock CUBE_FILLED 0 1.0 0/true	3c34ef68aaffcc784ba25702
+marker CUBE_FILLED 0 2.5 0/true	ecc2c361f6595e8fdb40ef15
+markerS CUBE_FILLED 0 2.5 0/true	c966f23d5c35bbf7a0df18db
+lookBlock CUBE_FILLED 0 2.5 0/true	e5a334fddfdae8b12497be08
+marker CUBE_FILLED 40 0.5 0/true	e0ced19894994dcddce93fff
+markerS CUBE_FILLED 40 0.5 0/true	cc5316e8a2dea02a91eadc46
+lookBlock CUBE_FILLED 40 0.5 0/true	eb1c570a0f3268c75e88262c
+marker CUBE_FILLED 40 1.0 0/true	bb58aa663a7e276e841a4989
+markerS CUBE_FILLED 40 1.0 0/true	bf21e41cbf09d298902745c8
+lookBlock CUBE_FILLED 40 1.0 0/true	47cbb32d5381d97db70d6efd
+marker CUBE_FILLED 40 2.5 0/true	27fe2fe5574d4448914b3ad6
+markerS CUBE_FILLED 40 2.5 0/true	29148420ea79284d32af28e8
+lookBlock CUBE_FILLED 40 2.5 0/true	0898dd4dd8258cf520615ff4
+marker CUBE_FILLED 100 0.5 0/true	243b2f389aba7ffb011d1b80
+markerS CUBE_FILLED 100 0.5 0/true	f180005fe2d12519ed650341
+lookBlock CUBE_FILLED 100 0.5 0/true	e1c0e53a7278c6fd4b5bf349
+marker CUBE_FILLED 100 1.0 0/true	bc7658350111e56a2e976709
+markerS CUBE_FILLED 100 1.0 0/true	f57708607fc17bbd6560542a
+lookBlock CUBE_FILLED 100 1.0 0/true	f1927325ea9cc58da9656b3c
+marker CUBE_FILLED 100 2.5 0/true	865196a1fa3e48f010ff6bbb
+markerS CUBE_FILLED 100 2.5 0/true	3973c2f6da7d87e12fdc76fd
+lookBlock CUBE_FILLED 100 2.5 0/true	cc8e2bbddce83446496f9cda
+marker CUBE_OUTLINE 0 0.5 0/true	13cdab479cb270f207032b19
+markerS CUBE_OUTLINE 0 0.5 0/true	de29f873762f624001ae20bd
+lookBlock CUBE_OUTLINE 0 0.5 0/true	1b167163cd70ce5be23dcb87
+marker CUBE_OUTLINE 0 1.0 0/true	02db22a58c114df913699bcb
+markerS CUBE_OUTLINE 0 1.0 0/true	dcec61cb3499e14af69119d7
+lookBlock CUBE_OUTLINE 0 1.0 0/true	ee42c0a698746d34d298166f
+marker CUBE_OUTLINE 0 2.5 0/true	0c7e07438ddfaac0fedf2396
+markerS CUBE_OUTLINE 0 2.5 0/true	36dddcc835d489e9198610d8
+lookBlock CUBE_OUTLINE 0 2.5 0/true	92dac9fa09b094b52c98d9a9
+marker CUBE_OUTLINE 40 0.5 0/true	2eca3e0f0fa20789093fc7c3
+markerS CUBE_OUTLINE 40 0.5 0/true	b5fb1930379deca2a42fe10e
+lookBlock CUBE_OUTLINE 40 0.5 0/true	33adfe9308b1330ad870030d
+marker CUBE_OUTLINE 40 1.0 0/true	b0e532278625bcac11e27c47
+markerS CUBE_OUTLINE 40 1.0 0/true	8a150917e5ca8a0d70e89d3b
+lookBlock CUBE_OUTLINE 40 1.0 0/true	969be5f512d0e124c4d6cb08
+marker CUBE_OUTLINE 40 2.5 0/true	089a1db07a47e1de9737ecb3
+markerS CUBE_OUTLINE 40 2.5 0/true	c0e1866a1be67dedd1723054
+lookBlock CUBE_OUTLINE 40 2.5 0/true	7fb95edd3b54f49175d00736
+marker CUBE_OUTLINE 100 0.5 0/true	1b54f9a0da3a3391bd732a63
+markerS CUBE_OUTLINE 100 0.5 0/true	c650293a74760a2e93118d13
+lookBlock CUBE_OUTLINE 100 0.5 0/true	2ea5f1dbc7b24042b8d7d33e
+marker CUBE_OUTLINE 100 1.0 0/true	edce349a856aff0b688bfeea
+markerS CUBE_OUTLINE 100 1.0 0/true	c820726b0d2bd0330c5ffe94
+lookBlock CUBE_OUTLINE 100 1.0 0/true	e224872c15d13ccc55867f08
+marker CUBE_OUTLINE 100 2.5 0/true	df96063b2af5eb3503b5167e
+markerS CUBE_OUTLINE 100 2.5 0/true	a108b7e7c70fff56fc03d12a
+lookBlock CUBE_OUTLINE 100 2.5 0/true	f2b04cf181d85b7148ae0110
+marker SQUARE_FILLED 0 0.5 0/true	7e45075e8eceee019a32f913
+markerS SQUARE_FILLED 0 0.5 0/true	66ba2afa531aaa786670c067
+lookBlock SQUARE_FILLED 0 0.5 0/true	06554bd09eb2a6c6155ab1ee
+marker SQUARE_FILLED 0 1.0 0/true	6ced2425b6d6c959a9ddff2f
+markerS SQUARE_FILLED 0 1.0 0/true	46ce4147730a314dd21b9636
+lookBlock SQUARE_FILLED 0 1.0 0/true	0ad1843412fcbb1669f96957
+marker SQUARE_FILLED 0 2.5 0/true	1d259caa2cf52f8ef081214e
+markerS SQUARE_FILLED 0 2.5 0/true	0e6e20727413c7b488f50ffa
+lookBlock SQUARE_FILLED 0 2.5 0/true	fa4c6c528a14a2f920408fd7
+marker SQUARE_FILLED 40 0.5 0/true	3f7c1a25c2a666c950aeacd0
+markerS SQUARE_FILLED 40 0.5 0/true	92404ab1cfbe6895b5928e31
+lookBlock SQUARE_FILLED 40 0.5 0/true	597d3f1fdbcd6d72f286d534
+marker SQUARE_FILLED 40 1.0 0/true	4b524c706ead0aacda5c0236
+markerS SQUARE_FILLED 40 1.0 0/true	50e0d96058ad4b1dbf2a3fbd
+lookBlock SQUARE_FILLED 40 1.0 0/true	adc6f35e699e43ae3fc999e7
+marker SQUARE_FILLED 40 2.5 0/true	3d9f2e89a36e61e72d63276f
+markerS SQUARE_FILLED 40 2.5 0/true	8df52ef1c34d4e602be64a47
+lookBlock SQUARE_FILLED 40 2.5 0/true	8874c6b29b757a5fa922d89c
+marker SQUARE_FILLED 100 0.5 0/true	a9fbf83cba1ceddc69040ec0
+markerS SQUARE_FILLED 100 0.5 0/true	ba6806dd7477366a6ee6de56
+lookBlock SQUARE_FILLED 100 0.5 0/true	bd95710142ebbdbb0f60e73c
+marker SQUARE_FILLED 100 1.0 0/true	d8bafd7fe4dc29b65ea39592
+markerS SQUARE_FILLED 100 1.0 0/true	20441a060a8244893ab5a026
+lookBlock SQUARE_FILLED 100 1.0 0/true	891676726cf60485050c7f88
+marker SQUARE_FILLED 100 2.5 0/true	71d73980253386312cdad762
+markerS SQUARE_FILLED 100 2.5 0/true	3de89dfeeb6ad20a8e7b97e3
+lookBlock SQUARE_FILLED 100 2.5 0/true	b10f35d780a14f7172c709e4
+marker SQUARE_OUTLINE 0 0.5 0/true	f7e07c01cf2f7bd76d0053c7
+markerS SQUARE_OUTLINE 0 0.5 0/true	7ee8c31df74cc301634cf0a8
+lookBlock SQUARE_OUTLINE 0 0.5 0/true	98492f29302c1ce8e6cb0525
+marker SQUARE_OUTLINE 0 1.0 0/true	52f88286c89be441c9fd6042
+markerS SQUARE_OUTLINE 0 1.0 0/true	47d033838d6b271402900a81
+lookBlock SQUARE_OUTLINE 0 1.0 0/true	5a8d6c20a661438a8a61b0c0
+marker SQUARE_OUTLINE 0 2.5 0/true	1a74c08bf54dbb9c59c661ee
+markerS SQUARE_OUTLINE 0 2.5 0/true	3c2b6acf4a8de7c52e4f728c
+lookBlock SQUARE_OUTLINE 0 2.5 0/true	39de39e0738a584eaf288120
+marker SQUARE_OUTLINE 40 0.5 0/true	e5c4f657abf31a0a8e1af334
+markerS SQUARE_OUTLINE 40 0.5 0/true	3c042417e7bb5b2c5ff4b5f0
+lookBlock SQUARE_OUTLINE 40 0.5 0/true	293a7e49161e91b059038eca
+marker SQUARE_OUTLINE 40 1.0 0/true	e13317412379b9dbbc6b9852
+markerS SQUARE_OUTLINE 40 1.0 0/true	d28b2dabbe75856d3f8bd4e4
+lookBlock SQUARE_OUTLINE 40 1.0 0/true	d786cc7d80f36ea69b06db42
+marker SQUARE_OUTLINE 40 2.5 0/true	7e5aa0ede484847ecebb89a8
+markerS SQUARE_OUTLINE 40 2.5 0/true	b09f4b0d2814bc4eeae6e15b
+lookBlock SQUARE_OUTLINE 40 2.5 0/true	291ed62b2c4829f016b8d5f8
+marker SQUARE_OUTLINE 100 0.5 0/true	2551f92ee98ff31b4c80c306
+markerS SQUARE_OUTLINE 100 0.5 0/true	1bbce1f2c88baaafc9fc77eb
+lookBlock SQUARE_OUTLINE 100 0.5 0/true	d77f5c67a3ceaff282f54472
+marker SQUARE_OUTLINE 100 1.0 0/true	50a8b3983860cb82a4ffaa1a
+markerS SQUARE_OUTLINE 100 1.0 0/true	c8d9719374766cdacde907fd
+lookBlock SQUARE_OUTLINE 100 1.0 0/true	0b7abfbaec3dc51444638023
+marker SQUARE_OUTLINE 100 2.5 0/true	b579e756c07d3edf5c253230
+markerS SQUARE_OUTLINE 100 2.5 0/true	c6dc013912b60c8efdf5ec19
+lookBlock SQUARE_OUTLINE 100 2.5 0/true	1a592431b7b8fec97395eb7b
+marker CIRCLE_FILLED 0 0.5 0/true	0ce9d769d3ffd781789908b4
+markerS CIRCLE_FILLED 0 0.5 0/true	239c9adf7fc37de4b25cd022
+lookBlock CIRCLE_FILLED 0 0.5 0/true	6dd5935eaea7c10446b6eb16
+marker CIRCLE_FILLED 0 1.0 0/true	77731f2fc169e7be17e2c064
+markerS CIRCLE_FILLED 0 1.0 0/true	22790f360ac56d1ef274c0b0
+lookBlock CIRCLE_FILLED 0 1.0 0/true	e835f1a91c9a4879b38389dd
+marker CIRCLE_FILLED 0 2.5 0/true	a5cea66f512de64ebaf58a0c
+markerS CIRCLE_FILLED 0 2.5 0/true	40bae1884d919ec9b1c6faca
+lookBlock CIRCLE_FILLED 0 2.5 0/true	7da0ba4602c5a743ad6db926
+marker CIRCLE_FILLED 40 0.5 0/true	a0e078a274d8e0b884a4114e
+markerS CIRCLE_FILLED 40 0.5 0/true	afdd071dbd32e5dd13eecc4a
+lookBlock CIRCLE_FILLED 40 0.5 0/true	5142d8f5acc9046adb8faa11
+marker CIRCLE_FILLED 40 1.0 0/true	97835c0f3377469eeeef34c7
+markerS CIRCLE_FILLED 40 1.0 0/true	b5314684d30a852e2494a48f
+lookBlock CIRCLE_FILLED 40 1.0 0/true	adcea64a15906325d3fc4019
+marker CIRCLE_FILLED 40 2.5 0/true	088f23e5cf69aecda29037e9
+markerS CIRCLE_FILLED 40 2.5 0/true	9cbc9b3c21f0d85f03a3d841
+lookBlock CIRCLE_FILLED 40 2.5 0/true	a5c08b273d72eec0706e00aa
+marker CIRCLE_FILLED 100 0.5 0/true	a2d6601b66a40819ac1f1faf
+markerS CIRCLE_FILLED 100 0.5 0/true	b087428b3708626bbb204d36
+lookBlock CIRCLE_FILLED 100 0.5 0/true	8885ad90c4a119fa5ada4306
+marker CIRCLE_FILLED 100 1.0 0/true	796d2f40ffe17e68c2a28836
+markerS CIRCLE_FILLED 100 1.0 0/true	9eae78151cdb9dd36fdc4763
+lookBlock CIRCLE_FILLED 100 1.0 0/true	f9c332791b41af93efb8f304
+marker CIRCLE_FILLED 100 2.5 0/true	26e25c9112ae57ff9e566ded
+markerS CIRCLE_FILLED 100 2.5 0/true	ce6b3e1ae47c4e739b9d8314
+lookBlock CIRCLE_FILLED 100 2.5 0/true	b5cb5f83ab3f0a921f1ed7f5
+marker CIRCLE_OUTLINE 0 0.5 0/true	42f345748d6016b029648575
+markerS CIRCLE_OUTLINE 0 0.5 0/true	bf7dba4e73e851bf0d49e264
+lookBlock CIRCLE_OUTLINE 0 0.5 0/true	1295d29c15f804f559558c18
+marker CIRCLE_OUTLINE 0 1.0 0/true	ee2781e3947e709f9a6567e7
+markerS CIRCLE_OUTLINE 0 1.0 0/true	26dc72d579e8fc13120bd95f
+lookBlock CIRCLE_OUTLINE 0 1.0 0/true	cde89c93f84eba4958f929fe
+marker CIRCLE_OUTLINE 0 2.5 0/true	443c8c7e94a3642d63792ca2
+markerS CIRCLE_OUTLINE 0 2.5 0/true	490c0eb3f1edac8888df1d88
+lookBlock CIRCLE_OUTLINE 0 2.5 0/true	4302539421e6ef5c23debace
+marker CIRCLE_OUTLINE 40 0.5 0/true	3306304adf1d488614ef3bde
+markerS CIRCLE_OUTLINE 40 0.5 0/true	42ef1d8f08b3c490966954ff
+lookBlock CIRCLE_OUTLINE 40 0.5 0/true	00789b272f1b91b2b9d1f5ad
+marker CIRCLE_OUTLINE 40 1.0 0/true	b625278c4327e07034c642af
+markerS CIRCLE_OUTLINE 40 1.0 0/true	fbe2ffe3937b554f4945ad1c
+lookBlock CIRCLE_OUTLINE 40 1.0 0/true	36b29353877c355e4c40e460
+marker CIRCLE_OUTLINE 40 2.5 0/true	87883ab1f704f9893c4944f9
+markerS CIRCLE_OUTLINE 40 2.5 0/true	2d92ace47e3fdd021becdebe
+lookBlock CIRCLE_OUTLINE 40 2.5 0/true	6c35f8af27855267c11867fc
+marker CIRCLE_OUTLINE 100 0.5 0/true	901e171c70550a0cd359482d
+markerS CIRCLE_OUTLINE 100 0.5 0/true	7c6037a8698a7dd2b088b93d
+lookBlock CIRCLE_OUTLINE 100 0.5 0/true	1af06b6d11578365edf4b056
+marker CIRCLE_OUTLINE 100 1.0 0/true	af6ac973d8c3ad8761d84820
+markerS CIRCLE_OUTLINE 100 1.0 0/true	445ce1aae74c42d4eb0d5a80
+lookBlock CIRCLE_OUTLINE 100 1.0 0/true	7e8d967f2d53faf509e3136c
+marker CIRCLE_OUTLINE 100 2.5 0/true	9d8ee39b281684b36ccede54
+markerS CIRCLE_OUTLINE 100 2.5 0/true	615a66a8d0a7f1790ac6aa66
+lookBlock CIRCLE_OUTLINE 100 2.5 0/true	60d038eabf1ec9cbfc3e82d8
+marker SPHERE_FILLED 0 0.5 0/true	c4e77bed9c8f51bb6ddddc91
+markerS SPHERE_FILLED 0 0.5 0/true	684b9d4641f882ff2323862c
+lookBlock SPHERE_FILLED 0 0.5 0/true	ecab863311cc1d545e73714e
+marker SPHERE_FILLED 0 1.0 0/true	e92567330a732447efd576ac
+markerS SPHERE_FILLED 0 1.0 0/true	5bf4598511e2dc7d002e8608
+lookBlock SPHERE_FILLED 0 1.0 0/true	80a702ff7284a833b8c3a99e
+marker SPHERE_FILLED 0 2.5 0/true	deb842eb5655713da7f6ebd3
+markerS SPHERE_FILLED 0 2.5 0/true	166944319946e49fd498fdc5
+lookBlock SPHERE_FILLED 0 2.5 0/true	51737e3f5e4e9e48532b9ff6
+marker SPHERE_FILLED 40 0.5 0/true	6ac2d8da1062868d6b67e504
+markerS SPHERE_FILLED 40 0.5 0/true	d4c35970b4007c6bfd410a50
+lookBlock SPHERE_FILLED 40 0.5 0/true	4d4ee679af86f8d470ff462c
+marker SPHERE_FILLED 40 1.0 0/true	fcdf21500a6dc0ce4789404a
+markerS SPHERE_FILLED 40 1.0 0/true	059013ad15b81548de6cfc17
+lookBlock SPHERE_FILLED 40 1.0 0/true	5ea0b8ab092a605bc08543db
+marker SPHERE_FILLED 40 2.5 0/true	869c8f4219e2c9abc4abf72d
+markerS SPHERE_FILLED 40 2.5 0/true	271e51f711f9e1f8556f6657
+lookBlock SPHERE_FILLED 40 2.5 0/true	33490bb03d139a722d3c9987
+marker SPHERE_FILLED 100 0.5 0/true	7e6539b742d30aa2600f3be5
+markerS SPHERE_FILLED 100 0.5 0/true	8e029704fd54b581a427f292
+lookBlock SPHERE_FILLED 100 0.5 0/true	8cb8e27898acd60e326fb809
+marker SPHERE_FILLED 100 1.0 0/true	043cc7a7a8e516096333f116
+markerS SPHERE_FILLED 100 1.0 0/true	dd7c2bbec39a60bae881d967
+lookBlock SPHERE_FILLED 100 1.0 0/true	4135d8cc8083d890149c41f9
+marker SPHERE_FILLED 100 2.5 0/true	6360706cd4835471d4ec0c34
+markerS SPHERE_FILLED 100 2.5 0/true	6a1d4c3965609f802ecaf3b3
+lookBlock SPHERE_FILLED 100 2.5 0/true	0988d176dc293efa183d57ce
+marker SPHERE_OUTLINE 0 0.5 0/true	e069f94a13171b65d1c68a89
+markerS SPHERE_OUTLINE 0 0.5 0/true	f6a26dba0e3da2d9dc4c3d0c
+lookBlock SPHERE_OUTLINE 0 0.5 0/true	9f2c3dd24ade293b4f7c485f
+marker SPHERE_OUTLINE 0 1.0 0/true	6b95499838d9fd1d4e0b49d8
+markerS SPHERE_OUTLINE 0 1.0 0/true	99b5c0851d2201a09485416d
+lookBlock SPHERE_OUTLINE 0 1.0 0/true	8d87dc67026d70185a54f159
+marker SPHERE_OUTLINE 0 2.5 0/true	72b6afd227be537b7134f257
+markerS SPHERE_OUTLINE 0 2.5 0/true	b222f5d0150608291cef23f8
+lookBlock SPHERE_OUTLINE 0 2.5 0/true	ace6d17258ccdcb8f7959d95
+marker SPHERE_OUTLINE 40 0.5 0/true	a30bcfba8ec5f01a041eb13d
+markerS SPHERE_OUTLINE 40 0.5 0/true	6d037653d6773db4164e762c
+lookBlock SPHERE_OUTLINE 40 0.5 0/true	c9415222b654b2becf51ff62
+marker SPHERE_OUTLINE 40 1.0 0/true	be1af8c122769b7d08806e1a
+markerS SPHERE_OUTLINE 40 1.0 0/true	f31d63fb28704a91aeda5670
+lookBlock SPHERE_OUTLINE 40 1.0 0/true	c8d13c5c093d136e058e9399
+marker SPHERE_OUTLINE 40 2.5 0/true	8cf93414219ba9b7b5e4a966
+markerS SPHERE_OUTLINE 40 2.5 0/true	2b5258904a15a0a7b50371a4
+lookBlock SPHERE_OUTLINE 40 2.5 0/true	26056c188ad8fdf1cc44e8d8
+marker SPHERE_OUTLINE 100 0.5 0/true	d58cc55e410f5e562d3726e4
+markerS SPHERE_OUTLINE 100 0.5 0/true	a6d922ba5851cfb67be2d7d9
+lookBlock SPHERE_OUTLINE 100 0.5 0/true	e70411088fc7852ced1bbd7b
+marker SPHERE_OUTLINE 100 1.0 0/true	43ba00f2b56328cc518b5344
+markerS SPHERE_OUTLINE 100 1.0 0/true	644765ceb5632522af9c60bb
+lookBlock SPHERE_OUTLINE 100 1.0 0/true	388fb0cd548a29409df76281
+marker SPHERE_OUTLINE 100 2.5 0/true	aeab0682bd8b29502d64e51c
+markerS SPHERE_OUTLINE 100 2.5 0/true	c4b404269a4e491e5686b2d6
+lookBlock SPHERE_OUTLINE 100 2.5 0/true	66173e353eaa27d393e4926c
+markerBox 0/true	563a8a7ac1c9d8dd68d5938a
+looks PERSONAL 0/true	9c426aee5e704e2162c38e2d
+looks ROUTES 0/true	9c426aee5e704e2162c38e2d
+looks TEMPORARY 0/true	9c426aee5e704e2162c38e2d
+looks NPCS 0/true	9c426aee5e704e2162c38e2d
+looks FAIRY_SOULS 0/true	9c426aee5e704e2162c38e2d
+looks ENIGMA_SOULS 0/true	9c426aee5e704e2162c38e2d
+looks DIANA 0/true	9c426aee5e704e2162c38e2d
+looks DWARVEN 0/true	9c426aee5e704e2162c38e2d
+looks CRYSTAL_HOLLOWS 0/true	9c426aee5e704e2162c38e2d
+looks MINING_SOLVERS 0/true	9c426aee5e704e2162c38e2d
+looks GLACITE 0/true	9c426aee5e704e2162c38e2d
+looks CORPSES_LADDERS 0/true	9c426aee5e704e2162c38e2d
+looks PESTS 0/true	9c426aee5e704e2162c38e2d
+looks KUUDRA 0/true	9c426aee5e704e2162c38e2d
+looks TERMINALS 0/true	9c426aee5e704e2162c38e2d
+looks SECRET_WAYFINDER 0/true	9c426aee5e704e2162c38e2d
+looks FISHING 0/true	9c426aee5e704e2162c38e2d
+looks FORAGING 0/true	9c426aee5e704e2162c38e2d
+looks RIFT 0/true	9c426aee5e704e2162c38e2d
+text 0 TOP 1/false	d114e7d98b0f194ad462c5c8
+bbtext 0 TOP 1/false	ae15b68ca5fafff3a3ad2f02
+text 0 BOTTOM 1/false	65a3fec4c42371e1d157ee15
+bbtext 0 BOTTOM 1/false	ad9c9e247a511fd133c10e89
+text 0 CENTER 1/false	9211ee71a6cf0dec3cbf1a40
+bbtext 0 CENTER 1/false	40e747d31a2cb9fdd01d09a1
+bbtextBg 0 0 1/false	ac94e96c0193cb6f6a27001b
+bbtextBg 0 1073741824 1/false	b8452a44aaa66a4bbda02f9b
+bbtextBg 0 -1 1/false	0840aed631c66a2e5e8dd2e5
+text 1 TOP 1/false	8539457cb6a5003611550789
+bbtext 1 TOP 1/false	1b06adbfd638555cffb4c84d
+text 1 BOTTOM 1/false	8e5a1664dd671372b682baa6
+bbtext 1 BOTTOM 1/false	b77025703ecffd3b47659e2a
+text 1 CENTER 1/false	f508984ab6d3d3c0dfb5eab7
+bbtext 1 CENTER 1/false	cb53a8dfab701da537a8d701
+bbtextBg 1 0 1/false	47eb90f94fc9ef5e73ad80d4
+bbtextBg 1 1073741824 1/false	811a0485a7d655d6f4c009b6
+bbtextBg 1 -1 1/false	dd595414e5e55869b03c45bd
+text 2 TOP 1/false	46d1e2e0b0e6eea204041164
+bbtext 2 TOP 1/false	43f7032516797526c8c1b8d0
+text 2 BOTTOM 1/false	f701ee59ef5eb10c349efd61
+bbtext 2 BOTTOM 1/false	f90330ece1c8c983139d3b64
+text 2 CENTER 1/false	c62d632a73cea648b5279a06
+bbtext 2 CENTER 1/false	bb97095ecce7718810c18c9e
+bbtextBg 2 0 1/false	27ce349fce272402c7d2d58c
+bbtextBg 2 1073741824 1/false	da1861f1750848e597a64cea
+bbtextBg 2 -1 1/false	2831ddd5d55a50970ddddcc2
+text 3 TOP 1/false	0bdb6722a728db1d11faedc4
+bbtext 3 TOP 1/false	18ea2a8908e94f3254078cbb
+text 3 BOTTOM 1/false	0642807069f55635aa2232b6
+bbtext 3 BOTTOM 1/false	102caa62c42dfebb816fba3f
+text 3 CENTER 1/false	37bea6c7715c007fbb0dd3c8
+bbtext 3 CENTER 1/false	0b0014d96ee68daa843b3b80
+bbtextBg 3 0 1/false	f3ae84af00ffa403f2f142c9
+bbtextBg 3 1073741824 1/false	71d3994d13bdfc8ef96a5c01
+bbtextBg 3 -1 1/false	18e2805e1daeb4922b5297e5
+text 4 TOP 1/false	882a3d2e54f660231e8c3daf
+bbtext 4 TOP 1/false	892a3a5fcff06d524f0f8fc0
+text 4 BOTTOM 1/false	e48de9704e32011412a8413d
+bbtext 4 BOTTOM 1/false	27c880e9751dda0ebb833e26
+text 4 CENTER 1/false	0ab1b13aecf95111341c9ce9
+bbtext 4 CENTER 1/false	b214feec3343cdcabbd657be
+bbtextBg 4 0 1/false	23fab2d42ae2e7d6ba263dc2
+bbtextBg 4 1073741824 1/false	22b57cd25b59b82f94712881
+bbtextBg 4 -1 1/false	718ff3651894843e63df1a80
+texture 1/false	c904a50d8454341690a4ab24
+textureUv 1/false	4ca439de1592dd6a94f0b81e
+bbtexture 1/false	bd86b8aecea9b6250d612ea3
+bbwaypoint BlockPos{x=0, y=0, z=0} 1/false	fb4f84401241d7ed1656494b
+bbwaypoint BlockPos{x=100, y=64, z=-100} 1/false	514b1a4d337408f1898e159d
+bbwaypoint BlockPos{x=10, y=64, z=-4} 1/false	b2295e222a5338379766d828
+waypoint0 BlockPos{x=0, y=0, z=0} 1/false	cf29c8d215f0952a8c41d947
+waypoint2 BlockPos{x=0, y=0, z=0} 1/false	07722c78ad8b0b1b428fc620
+waypoint0 BlockPos{x=100, y=64, z=-100} 1/false	705188d26ffa35127eaa6fc6
+waypoint2 BlockPos{x=100, y=64, z=-100} 1/false	bae01952586197a5a8d6828b
+waypoint0 BlockPos{x=10, y=64, z=-4} 1/false	87fa084cfc5bfed7e5d7124e
+waypoint2 BlockPos{x=10, y=64, z=-4} 1/false	86f1c237f0e3545e2cf8a3c4
+marker CUBE_FILLED 0 0.5 1/false	985e3c837b88a9cdfe2edc77
+markerS CUBE_FILLED 0 0.5 1/false	d3d1a8e7881dcf48feacab78
+lookBlock CUBE_FILLED 0 0.5 1/false	c5d425c7b9efa7c7c70e245e
+marker CUBE_FILLED 0 1.0 1/false	26eb1ec0b760f5c7bf1f5b87
+markerS CUBE_FILLED 0 1.0 1/false	aa9a797e2338eeeb3c29e09f
+lookBlock CUBE_FILLED 0 1.0 1/false	d2f4da4d7d72adb680b4bd54
+marker CUBE_FILLED 0 2.5 1/false	6183b1870a9dc6213583afa4
+markerS CUBE_FILLED 0 2.5 1/false	83cdf1aeb5a66992289c6584
+lookBlock CUBE_FILLED 0 2.5 1/false	75a053a0fe85bdb4bc41901f
+marker CUBE_FILLED 40 0.5 1/false	e2280bb2999713d04efc2321
+markerS CUBE_FILLED 40 0.5 1/false	7cd76287cfcf256ae339326b
+lookBlock CUBE_FILLED 40 0.5 1/false	cfc5b9eab6e662a42f99ff51
+marker CUBE_FILLED 40 1.0 1/false	713846cdcc91799a37426b1c
+markerS CUBE_FILLED 40 1.0 1/false	35a7b42fc7b06a6b497de068
+lookBlock CUBE_FILLED 40 1.0 1/false	a6ed41acfcd29b87ecf5a087
+marker CUBE_FILLED 40 2.5 1/false	75caa50c6e541122f3c30de1
+markerS CUBE_FILLED 40 2.5 1/false	66e56ef102e1938a7efcf054
+lookBlock CUBE_FILLED 40 2.5 1/false	59fff27bc398af9e2ad60f2a
+marker CUBE_FILLED 100 0.5 1/false	d751a78fdb3880ddc8549599
+markerS CUBE_FILLED 100 0.5 1/false	3ae05ed680fc89c762f6412c
+lookBlock CUBE_FILLED 100 0.5 1/false	4b5c48c397a49986e4e60479
+marker CUBE_FILLED 100 1.0 1/false	460bca830eb5e601b8f1e6c3
+markerS CUBE_FILLED 100 1.0 1/false	7a10f3e76d29b9aea616f3e4
+lookBlock CUBE_FILLED 100 1.0 1/false	b05ac20ac57507dbabd271b6
+marker CUBE_FILLED 100 2.5 1/false	9674ffe24dc2b405f27896da
+markerS CUBE_FILLED 100 2.5 1/false	c805e862a5029e40da5cb119
+lookBlock CUBE_FILLED 100 2.5 1/false	4dea397ebd0280112cfc99ce
+marker CUBE_OUTLINE 0 0.5 1/false	cb2d8fbeb13e86902c7109f2
+markerS CUBE_OUTLINE 0 0.5 1/false	6602cce44aa4d220aa52b3e6
+lookBlock CUBE_OUTLINE 0 0.5 1/false	4a1100e5da6f8b6f38f59b7b
+marker CUBE_OUTLINE 0 1.0 1/false	43bfa5a625888d5768ae7a85
+markerS CUBE_OUTLINE 0 1.0 1/false	6e91fff74bafebe14c0f4611
+lookBlock CUBE_OUTLINE 0 1.0 1/false	b48c6f437914b4a956116246
+marker CUBE_OUTLINE 0 2.5 1/false	9c13b6b697e441eaa718be2f
+markerS CUBE_OUTLINE 0 2.5 1/false	59255824802c76fc6ce70bbb
+lookBlock CUBE_OUTLINE 0 2.5 1/false	d49ff21699d58dcb775a5489
+marker CUBE_OUTLINE 40 0.5 1/false	4f1ac2d525e51a1e274c5401
+markerS CUBE_OUTLINE 40 0.5 1/false	02f7e4d2410ffc16fd1cce44
+lookBlock CUBE_OUTLINE 40 0.5 1/false	edf08c80fe958efacb1d4227
+marker CUBE_OUTLINE 40 1.0 1/false	83158d3ba034a4696de64252
+markerS CUBE_OUTLINE 40 1.0 1/false	9f328cb5c758125232d378e1
+lookBlock CUBE_OUTLINE 40 1.0 1/false	f9a1cca3fdebe4769b186a66
+marker CUBE_OUTLINE 40 2.5 1/false	2492ab905c29e879a9d6de81
+markerS CUBE_OUTLINE 40 2.5 1/false	a9cd39bc99f2857911da463e
+lookBlock CUBE_OUTLINE 40 2.5 1/false	87550251298d38a6a93eef27
+marker CUBE_OUTLINE 100 0.5 1/false	0d9e55ab59fa0d8b536efb0b
+markerS CUBE_OUTLINE 100 0.5 1/false	402986bb143c947702c80f60
+lookBlock CUBE_OUTLINE 100 0.5 1/false	db1013337bed8db235b57340
+marker CUBE_OUTLINE 100 1.0 1/false	28b3bfd490406dcebb088f22
+markerS CUBE_OUTLINE 100 1.0 1/false	9935a21cff7112a4409ec7fb
+lookBlock CUBE_OUTLINE 100 1.0 1/false	40fb965dc862fca08b2d5162
+marker CUBE_OUTLINE 100 2.5 1/false	93dea11c959e93bc021975d1
+markerS CUBE_OUTLINE 100 2.5 1/false	ae9a9a741d2f2f7da5e43b61
+lookBlock CUBE_OUTLINE 100 2.5 1/false	f1131f309467e6e7d864a88a
+marker SQUARE_FILLED 0 0.5 1/false	7c769a4ffe3823e90f3bbfa2
+markerS SQUARE_FILLED 0 0.5 1/false	9fc7ca8ea0bf9ee39dc8f89d
+lookBlock SQUARE_FILLED 0 0.5 1/false	d636fe89cbb3b894b4fc6d5c
+marker SQUARE_FILLED 0 1.0 1/false	68cc11946689446be3ea68a6
+markerS SQUARE_FILLED 0 1.0 1/false	72432c7adafd8ad9ef990cac
+lookBlock SQUARE_FILLED 0 1.0 1/false	071cb85be3e1d212e4521232
+marker SQUARE_FILLED 0 2.5 1/false	5e3cd9170563cf1a583a5212
+markerS SQUARE_FILLED 0 2.5 1/false	d57c42e8551cf3f72829260d
+lookBlock SQUARE_FILLED 0 2.5 1/false	5426f8e6e1b2643332e6d817
+marker SQUARE_FILLED 40 0.5 1/false	5495bd4f6349a9c7794c3698
+markerS SQUARE_FILLED 40 0.5 1/false	7a48fc5f4ed82f3457223924
+lookBlock SQUARE_FILLED 40 0.5 1/false	bd751048c54920c1b8675a1a
+marker SQUARE_FILLED 40 1.0 1/false	f3b859d0c56de232e01c1d19
+markerS SQUARE_FILLED 40 1.0 1/false	41daf8e3f1ee59f6ab5984e3
+lookBlock SQUARE_FILLED 40 1.0 1/false	8f254465111bd9f75abd7231
+marker SQUARE_FILLED 40 2.5 1/false	0df3f32fe9a53e7a534b9fe3
+markerS SQUARE_FILLED 40 2.5 1/false	f3bf7163a899ad550e15bcc1
+lookBlock SQUARE_FILLED 40 2.5 1/false	66f39b2813ec6414aa024bd5
+marker SQUARE_FILLED 100 0.5 1/false	2de63a6ed0d36f923c0ea1d8
+markerS SQUARE_FILLED 100 0.5 1/false	edf6f822ddf6b7c148992060
+lookBlock SQUARE_FILLED 100 0.5 1/false	4c15d0e7996a9d7f01497c0d
+marker SQUARE_FILLED 100 1.0 1/false	9ed73119ff5e9ed8545ce8e1
+markerS SQUARE_FILLED 100 1.0 1/false	a397160797212fe4a9a451f0
+lookBlock SQUARE_FILLED 100 1.0 1/false	7d4ee9756e8db214e8181d4c
+marker SQUARE_FILLED 100 2.5 1/false	aa4fd007dac30cfa5febbf1d
+markerS SQUARE_FILLED 100 2.5 1/false	dd411ace8e68ce24d905b210
+lookBlock SQUARE_FILLED 100 2.5 1/false	34e230ffb7d2500490d69035
+marker SQUARE_OUTLINE 0 0.5 1/false	e5ac937759149426ac761a00
+markerS SQUARE_OUTLINE 0 0.5 1/false	5e273e5a65b7e9d83c49e0f0
+lookBlock SQUARE_OUTLINE 0 0.5 1/false	a4099126a7fb560ae4cdbe4d
+marker SQUARE_OUTLINE 0 1.0 1/false	566a13307f7437934a30cee5
+markerS SQUARE_OUTLINE 0 1.0 1/false	5aea1b9d2f250df416977039
+lookBlock SQUARE_OUTLINE 0 1.0 1/false	04ae53cb11b954c53ac6a5e5
+marker SQUARE_OUTLINE 0 2.5 1/false	76d842db7c551a67aea62c83
+markerS SQUARE_OUTLINE 0 2.5 1/false	3125c2fb6c765b1100be25fa
+lookBlock SQUARE_OUTLINE 0 2.5 1/false	b5e058968c433f3b2845a108
+marker SQUARE_OUTLINE 40 0.5 1/false	2411013b4855e836f710c741
+markerS SQUARE_OUTLINE 40 0.5 1/false	c81db079ef27e5b73e6711ac
+lookBlock SQUARE_OUTLINE 40 0.5 1/false	c20bf35aaa1ba807f2916b23
+marker SQUARE_OUTLINE 40 1.0 1/false	2fbdad3f496bd50e46064a8f
+markerS SQUARE_OUTLINE 40 1.0 1/false	b9b3b27322f67bc1ce551556
+lookBlock SQUARE_OUTLINE 40 1.0 1/false	305ffdf60a7cc7de699ecf88
+marker SQUARE_OUTLINE 40 2.5 1/false	c5c50f79c7d623961bc62132
+markerS SQUARE_OUTLINE 40 2.5 1/false	1a13034a375d444929d23834
+lookBlock SQUARE_OUTLINE 40 2.5 1/false	0b61c5a53c6c15e032a24eb2
+marker SQUARE_OUTLINE 100 0.5 1/false	f55f360de79ee41fa6eab67c
+markerS SQUARE_OUTLINE 100 0.5 1/false	c94a19f4829ac125a3a0d62c
+lookBlock SQUARE_OUTLINE 100 0.5 1/false	de70c2aa11ca2fc577ee969f
+marker SQUARE_OUTLINE 100 1.0 1/false	a3faae2cd4cf61f44633c598
+markerS SQUARE_OUTLINE 100 1.0 1/false	01c80124c4139dad7b70df01
+lookBlock SQUARE_OUTLINE 100 1.0 1/false	7acf405b97fc1f11fea6f6b1
+marker SQUARE_OUTLINE 100 2.5 1/false	289549eca0817f462a2d0e72
+markerS SQUARE_OUTLINE 100 2.5 1/false	93b80e75da5197c2fc8e6767
+lookBlock SQUARE_OUTLINE 100 2.5 1/false	5f71b2b2a35fdf1207b55f82
+marker CIRCLE_FILLED 0 0.5 1/false	cf90632af17f5bd40b27ac37
+markerS CIRCLE_FILLED 0 0.5 1/false	e2ee2a3dcdb83f9e26db8b8d
+lookBlock CIRCLE_FILLED 0 0.5 1/false	9b97c304ab832263a08cb38b
+marker CIRCLE_FILLED 0 1.0 1/false	1ef4e59b96e9666e3ad34d11
+markerS CIRCLE_FILLED 0 1.0 1/false	e9fc21f661d569961aea1a61
+lookBlock CIRCLE_FILLED 0 1.0 1/false	36787239aae5fbe506cf025a
+marker CIRCLE_FILLED 0 2.5 1/false	87e8be62b487845f0b75e851
+markerS CIRCLE_FILLED 0 2.5 1/false	05425fbc4fc84c3c53dbfa85
+lookBlock CIRCLE_FILLED 0 2.5 1/false	5b190b040c7af0ba59284928
+marker CIRCLE_FILLED 40 0.5 1/false	d6677131075fecbaf024ddea
+markerS CIRCLE_FILLED 40 0.5 1/false	dadaf5db1741c9d7dca92153
+lookBlock CIRCLE_FILLED 40 0.5 1/false	cee6a857a3d793defec5f8bc
+marker CIRCLE_FILLED 40 1.0 1/false	351a8db554b8507131e65638
+markerS CIRCLE_FILLED 40 1.0 1/false	03666659c8c906b511e4bd93
+lookBlock CIRCLE_FILLED 40 1.0 1/false	4248682a74c515a381d06456
+marker CIRCLE_FILLED 40 2.5 1/false	57af3e7f7a16ad1306b62720
+markerS CIRCLE_FILLED 40 2.5 1/false	aea4f2a15aff2ef1dbc76715
+lookBlock CIRCLE_FILLED 40 2.5 1/false	cad7e77d54cdf277894ecf8a
+marker CIRCLE_FILLED 100 0.5 1/false	eb871d1e1f29128cc5432580
+markerS CIRCLE_FILLED 100 0.5 1/false	a553f66e75276d56080afd2d
+lookBlock CIRCLE_FILLED 100 0.5 1/false	1b25a98144c96a5a38eea65c
+marker CIRCLE_FILLED 100 1.0 1/false	5c911adaf32c77726a57f9e3
+markerS CIRCLE_FILLED 100 1.0 1/false	e65525cdd5b1854bb5842816
+lookBlock CIRCLE_FILLED 100 1.0 1/false	39141176cd84e10049ba8874
+marker CIRCLE_FILLED 100 2.5 1/false	878831dc1d153747f0a9177d
+markerS CIRCLE_FILLED 100 2.5 1/false	c32384ccdcb33c429780ccd9
+lookBlock CIRCLE_FILLED 100 2.5 1/false	917dc876836660233b0f5a45
+marker CIRCLE_OUTLINE 0 0.5 1/false	5decc2488b6f5d9bad89184b
+markerS CIRCLE_OUTLINE 0 0.5 1/false	526394b06a0b7ded9db5fd3b
+lookBlock CIRCLE_OUTLINE 0 0.5 1/false	1efcd473b452a53a7a0481b5
+marker CIRCLE_OUTLINE 0 1.0 1/false	696bdf786f2a57a706ff8167
+markerS CIRCLE_OUTLINE 0 1.0 1/false	d0f770da3301c7c6e3412b2b
+lookBlock CIRCLE_OUTLINE 0 1.0 1/false	b36957350f29bccd99eac00a
+marker CIRCLE_OUTLINE 0 2.5 1/false	f246677d02b93f2f51f07a26
+markerS CIRCLE_OUTLINE 0 2.5 1/false	60ee857a1c281f0971ffbbcc
+lookBlock CIRCLE_OUTLINE 0 2.5 1/false	f0c41f246c6f4842bb1f7b2d
+marker CIRCLE_OUTLINE 40 0.5 1/false	eccd58efabd974163c19750e
+markerS CIRCLE_OUTLINE 40 0.5 1/false	478bd23b9161c4042f0f21de
+lookBlock CIRCLE_OUTLINE 40 0.5 1/false	91ebe165488dfec29963434c
+marker CIRCLE_OUTLINE 40 1.0 1/false	1c356e51a894f8607bc16ccf
+markerS CIRCLE_OUTLINE 40 1.0 1/false	614e658f0c6670fdf6a9bf53
+lookBlock CIRCLE_OUTLINE 40 1.0 1/false	3396dc80cb42113ef474658b
+marker CIRCLE_OUTLINE 40 2.5 1/false	80c61f59d3f17a88c94cb9e9
+markerS CIRCLE_OUTLINE 40 2.5 1/false	9e2c7c6f3520106ced81aec9
+lookBlock CIRCLE_OUTLINE 40 2.5 1/false	7f2dc171f21e887a889565c6
+marker CIRCLE_OUTLINE 100 0.5 1/false	64f8475f12467c2006a92bac
+markerS CIRCLE_OUTLINE 100 0.5 1/false	341422e7321c58c3772d275b
+lookBlock CIRCLE_OUTLINE 100 0.5 1/false	663ef0a3027328b4939b07c6
+marker CIRCLE_OUTLINE 100 1.0 1/false	1c4cdb8ac567194c24b6edf7
+markerS CIRCLE_OUTLINE 100 1.0 1/false	2b53ad628c58d6c676a04655
+lookBlock CIRCLE_OUTLINE 100 1.0 1/false	a6054cb47cdd9ddb3a73a115
+marker CIRCLE_OUTLINE 100 2.5 1/false	b479a62c89e6cf7193f7e7a7
+markerS CIRCLE_OUTLINE 100 2.5 1/false	5f2773226d047cf98191c4fd
+lookBlock CIRCLE_OUTLINE 100 2.5 1/false	2ee1db1e5de298bb120bb4cb
+marker SPHERE_FILLED 0 0.5 1/false	f72a1600fc74d577b15803e6
+markerS SPHERE_FILLED 0 0.5 1/false	023bbe00e7534dcd9ec86497
+lookBlock SPHERE_FILLED 0 0.5 1/false	ee612c281784974f69fd03a8
+marker SPHERE_FILLED 0 1.0 1/false	fc726182879df641e60b98b3
+markerS SPHERE_FILLED 0 1.0 1/false	e92cadb4debbfd8f5f4d23ed
+lookBlock SPHERE_FILLED 0 1.0 1/false	dcd6de01851ddff68495a75a
+marker SPHERE_FILLED 0 2.5 1/false	be13e9c617367b582f8e3f2e
+markerS SPHERE_FILLED 0 2.5 1/false	20439cd04d559c8df7026bb9
+lookBlock SPHERE_FILLED 0 2.5 1/false	4f242c553d5ded8281bdeda2
+marker SPHERE_FILLED 40 0.5 1/false	28b1ca317501da7be2572a36
+markerS SPHERE_FILLED 40 0.5 1/false	dfa0196fc65b9cb4672b0345
+lookBlock SPHERE_FILLED 40 0.5 1/false	0b2238a17c36d41d03a5a0fb
+marker SPHERE_FILLED 40 1.0 1/false	c53ed0ba440558d76f39953f
+markerS SPHERE_FILLED 40 1.0 1/false	d41d9b60cae4d3badeba719f
+lookBlock SPHERE_FILLED 40 1.0 1/false	b94b626bc40785f6f17bb701
+marker SPHERE_FILLED 40 2.5 1/false	67465ade02cea7bef305b314
+markerS SPHERE_FILLED 40 2.5 1/false	116bf352e5579f16fb9a7962
+lookBlock SPHERE_FILLED 40 2.5 1/false	7ba14670e7fdac53c265f283
+marker SPHERE_FILLED 100 0.5 1/false	5b415266dbfd9b98cdaf5316
+markerS SPHERE_FILLED 100 0.5 1/false	1bd58de629a60279c9b15a21
+lookBlock SPHERE_FILLED 100 0.5 1/false	d550d519efe7819fca7c093e
+marker SPHERE_FILLED 100 1.0 1/false	1af76953b4f3be65ba413613
+markerS SPHERE_FILLED 100 1.0 1/false	4ee69ff40c5ad8d1f6fe11ae
+lookBlock SPHERE_FILLED 100 1.0 1/false	3c870db54cf94184a53caf10
+marker SPHERE_FILLED 100 2.5 1/false	3c514b7379944ad19d17e0af
+markerS SPHERE_FILLED 100 2.5 1/false	8a0b6afb954294b83922ae30
+lookBlock SPHERE_FILLED 100 2.5 1/false	98b0098953761550a1bf54be
+marker SPHERE_OUTLINE 0 0.5 1/false	a03ccdbed7715945530a22c4
+markerS SPHERE_OUTLINE 0 0.5 1/false	2b4f21964667ef9643e2ceb7
+lookBlock SPHERE_OUTLINE 0 0.5 1/false	9030b0d5f88b0bf99d8e813f
+marker SPHERE_OUTLINE 0 1.0 1/false	01e816e870150e0c07b290f5
+markerS SPHERE_OUTLINE 0 1.0 1/false	fbf407aa2432426bdbbe02a9
+lookBlock SPHERE_OUTLINE 0 1.0 1/false	611d5d044dbe6766e225b6bd
+marker SPHERE_OUTLINE 0 2.5 1/false	2f324b32279d05388cba8404
+markerS SPHERE_OUTLINE 0 2.5 1/false	a9fbebaa934f9c49d27f476a
+lookBlock SPHERE_OUTLINE 0 2.5 1/false	1da6c1c3a976f60278df953b
+marker SPHERE_OUTLINE 40 0.5 1/false	3fa55b95e5b45d2a910dd788
+markerS SPHERE_OUTLINE 40 0.5 1/false	6729918c35b35e359583edab
+lookBlock SPHERE_OUTLINE 40 0.5 1/false	53dbca2c827e742ff7787e66
+marker SPHERE_OUTLINE 40 1.0 1/false	e1462f05d4d4a3422ed04301
+markerS SPHERE_OUTLINE 40 1.0 1/false	6223a7d2fc1417447224dcee
+lookBlock SPHERE_OUTLINE 40 1.0 1/false	172d6dabcdc5af99acede8e0
+marker SPHERE_OUTLINE 40 2.5 1/false	81ce340db07e4a0b48a38228
+markerS SPHERE_OUTLINE 40 2.5 1/false	2c6e45ce4aede69059ae8acd
+lookBlock SPHERE_OUTLINE 40 2.5 1/false	fc6ba64bb79374b2d3131955
+marker SPHERE_OUTLINE 100 0.5 1/false	8f4c5df540fc0a1741c2e590
+markerS SPHERE_OUTLINE 100 0.5 1/false	2fc4bbb3d643428d1139283a
+lookBlock SPHERE_OUTLINE 100 0.5 1/false	1fcb9d6a46d336dfadd9723a
+marker SPHERE_OUTLINE 100 1.0 1/false	1ba04371c83c20682171aa65
+markerS SPHERE_OUTLINE 100 1.0 1/false	03313066e6ca92caea28828c
+lookBlock SPHERE_OUTLINE 100 1.0 1/false	680f8a194b9eaa9b9b0ef70f
+marker SPHERE_OUTLINE 100 2.5 1/false	c9b766c676685de9264d8088
+markerS SPHERE_OUTLINE 100 2.5 1/false	054df9cd7736b7018c095b33
+lookBlock SPHERE_OUTLINE 100 2.5 1/false	592c37bd9a1f296eb31124f9
+markerBox 1/false	c943166a6b357c99a2bc83f0
+looks PERSONAL 1/false	bf088e4fccf6bfc70bf90e0a
+looks ROUTES 1/false	bf088e4fccf6bfc70bf90e0a
+looks TEMPORARY 1/false	bf088e4fccf6bfc70bf90e0a
+looks NPCS 1/false	bf088e4fccf6bfc70bf90e0a
+looks FAIRY_SOULS 1/false	bf088e4fccf6bfc70bf90e0a
+looks ENIGMA_SOULS 1/false	bf088e4fccf6bfc70bf90e0a
+looks DIANA 1/false	bf088e4fccf6bfc70bf90e0a
+looks DWARVEN 1/false	bf088e4fccf6bfc70bf90e0a
+looks CRYSTAL_HOLLOWS 1/false	bf088e4fccf6bfc70bf90e0a
+looks MINING_SOLVERS 1/false	bf088e4fccf6bfc70bf90e0a
+looks GLACITE 1/false	bf088e4fccf6bfc70bf90e0a
+looks CORPSES_LADDERS 1/false	bf088e4fccf6bfc70bf90e0a
+looks PESTS 1/false	bf088e4fccf6bfc70bf90e0a
+looks KUUDRA 1/false	bf088e4fccf6bfc70bf90e0a
+looks TERMINALS 1/false	bf088e4fccf6bfc70bf90e0a
+looks SECRET_WAYFINDER 1/false	bf088e4fccf6bfc70bf90e0a
+looks FISHING 1/false	bf088e4fccf6bfc70bf90e0a
+looks FORAGING 1/false	bf088e4fccf6bfc70bf90e0a
+looks RIFT 1/false	bf088e4fccf6bfc70bf90e0a
+text 0 TOP 1/true	d114e7d98b0f194ad462c5c8
+bbtext 0 TOP 1/true	ae15b68ca5fafff3a3ad2f02
+text 0 BOTTOM 1/true	65a3fec4c42371e1d157ee15
+bbtext 0 BOTTOM 1/true	ad9c9e247a511fd133c10e89
+text 0 CENTER 1/true	9211ee71a6cf0dec3cbf1a40
+bbtext 0 CENTER 1/true	40e747d31a2cb9fdd01d09a1
+bbtextBg 0 0 1/true	ac94e96c0193cb6f6a27001b
+bbtextBg 0 1073741824 1/true	b8452a44aaa66a4bbda02f9b
+bbtextBg 0 -1 1/true	0840aed631c66a2e5e8dd2e5
+text 1 TOP 1/true	8539457cb6a5003611550789
+bbtext 1 TOP 1/true	1b06adbfd638555cffb4c84d
+text 1 BOTTOM 1/true	8e5a1664dd671372b682baa6
+bbtext 1 BOTTOM 1/true	b77025703ecffd3b47659e2a
+text 1 CENTER 1/true	f508984ab6d3d3c0dfb5eab7
+bbtext 1 CENTER 1/true	cb53a8dfab701da537a8d701
+bbtextBg 1 0 1/true	47eb90f94fc9ef5e73ad80d4
+bbtextBg 1 1073741824 1/true	811a0485a7d655d6f4c009b6
+bbtextBg 1 -1 1/true	dd595414e5e55869b03c45bd
+text 2 TOP 1/true	46d1e2e0b0e6eea204041164
+bbtext 2 TOP 1/true	43f7032516797526c8c1b8d0
+text 2 BOTTOM 1/true	f701ee59ef5eb10c349efd61
+bbtext 2 BOTTOM 1/true	f90330ece1c8c983139d3b64
+text 2 CENTER 1/true	c62d632a73cea648b5279a06
+bbtext 2 CENTER 1/true	bb97095ecce7718810c18c9e
+bbtextBg 2 0 1/true	27ce349fce272402c7d2d58c
+bbtextBg 2 1073741824 1/true	da1861f1750848e597a64cea
+bbtextBg 2 -1 1/true	2831ddd5d55a50970ddddcc2
+text 3 TOP 1/true	0bdb6722a728db1d11faedc4
+bbtext 3 TOP 1/true	18ea2a8908e94f3254078cbb
+text 3 BOTTOM 1/true	0642807069f55635aa2232b6
+bbtext 3 BOTTOM 1/true	102caa62c42dfebb816fba3f
+text 3 CENTER 1/true	37bea6c7715c007fbb0dd3c8
+bbtext 3 CENTER 1/true	0b0014d96ee68daa843b3b80
+bbtextBg 3 0 1/true	f3ae84af00ffa403f2f142c9
+bbtextBg 3 1073741824 1/true	71d3994d13bdfc8ef96a5c01
+bbtextBg 3 -1 1/true	18e2805e1daeb4922b5297e5
+text 4 TOP 1/true	882a3d2e54f660231e8c3daf
+bbtext 4 TOP 1/true	892a3a5fcff06d524f0f8fc0
+text 4 BOTTOM 1/true	e48de9704e32011412a8413d
+bbtext 4 BOTTOM 1/true	27c880e9751dda0ebb833e26
+text 4 CENTER 1/true	0ab1b13aecf95111341c9ce9
+bbtext 4 CENTER 1/true	b214feec3343cdcabbd657be
+bbtextBg 4 0 1/true	23fab2d42ae2e7d6ba263dc2
+bbtextBg 4 1073741824 1/true	22b57cd25b59b82f94712881
+bbtextBg 4 -1 1/true	718ff3651894843e63df1a80
+texture 1/true	c904a50d8454341690a4ab24
+textureUv 1/true	4ca439de1592dd6a94f0b81e
+bbtexture 1/true	bd86b8aecea9b6250d612ea3
+bbwaypoint BlockPos{x=0, y=0, z=0} 1/true	fb4f84401241d7ed1656494b
+bbwaypoint BlockPos{x=100, y=64, z=-100} 1/true	514b1a4d337408f1898e159d
+bbwaypoint BlockPos{x=10, y=64, z=-4} 1/true	b2295e222a5338379766d828
+waypoint0 BlockPos{x=0, y=0, z=0} 1/true	cf29c8d215f0952a8c41d947
+waypoint2 BlockPos{x=0, y=0, z=0} 1/true	07722c78ad8b0b1b428fc620
+waypoint0 BlockPos{x=100, y=64, z=-100} 1/true	705188d26ffa35127eaa6fc6
+waypoint2 BlockPos{x=100, y=64, z=-100} 1/true	bae01952586197a5a8d6828b
+waypoint0 BlockPos{x=10, y=64, z=-4} 1/true	87fa084cfc5bfed7e5d7124e
+waypoint2 BlockPos{x=10, y=64, z=-4} 1/true	86f1c237f0e3545e2cf8a3c4
+marker CUBE_FILLED 0 0.5 1/true	b76b121c6da1381e71133e76
+markerS CUBE_FILLED 0 0.5 1/true	d3d1a8e7881dcf48feacab78
+lookBlock CUBE_FILLED 0 0.5 1/true	c5d425c7b9efa7c7c70e245e
+marker CUBE_FILLED 0 1.0 1/true	34d614fc8b744ffff23eae89
+markerS CUBE_FILLED 0 1.0 1/true	aa9a797e2338eeeb3c29e09f
+lookBlock CUBE_FILLED 0 1.0 1/true	d2f4da4d7d72adb680b4bd54
+marker CUBE_FILLED 0 2.5 1/true	1c813fa3bc07e9717c7942a8
+markerS CUBE_FILLED 0 2.5 1/true	83cdf1aeb5a66992289c6584
+lookBlock CUBE_FILLED 0 2.5 1/true	75a053a0fe85bdb4bc41901f
+marker CUBE_FILLED 40 0.5 1/true	4352931a489c1f16cc6e905d
+markerS CUBE_FILLED 40 0.5 1/true	7cd76287cfcf256ae339326b
+lookBlock CUBE_FILLED 40 0.5 1/true	cfc5b9eab6e662a42f99ff51
+marker CUBE_FILLED 40 1.0 1/true	549522551fbc9cecc521134d
+markerS CUBE_FILLED 40 1.0 1/true	35a7b42fc7b06a6b497de068
+lookBlock CUBE_FILLED 40 1.0 1/true	a6ed41acfcd29b87ecf5a087
+marker CUBE_FILLED 40 2.5 1/true	848b1e11ac9ad9f0ea5945ff
+markerS CUBE_FILLED 40 2.5 1/true	66e56ef102e1938a7efcf054
+lookBlock CUBE_FILLED 40 2.5 1/true	59fff27bc398af9e2ad60f2a
+marker CUBE_FILLED 100 0.5 1/true	ff319777bbaf56d2c71941e5
+markerS CUBE_FILLED 100 0.5 1/true	3ae05ed680fc89c762f6412c
+lookBlock CUBE_FILLED 100 0.5 1/true	4b5c48c397a49986e4e60479
+marker CUBE_FILLED 100 1.0 1/true	d6c4b6e03654a50e2d468e4a
+markerS CUBE_FILLED 100 1.0 1/true	7a10f3e76d29b9aea616f3e4
+lookBlock CUBE_FILLED 100 1.0 1/true	b05ac20ac57507dbabd271b6
+marker CUBE_FILLED 100 2.5 1/true	4fa20c4ec9d49c1359aff80e
+markerS CUBE_FILLED 100 2.5 1/true	c805e862a5029e40da5cb119
+lookBlock CUBE_FILLED 100 2.5 1/true	4dea397ebd0280112cfc99ce
+marker CUBE_OUTLINE 0 0.5 1/true	6530feb8fe0820fbf31c41a7
+markerS CUBE_OUTLINE 0 0.5 1/true	6602cce44aa4d220aa52b3e6
+lookBlock CUBE_OUTLINE 0 0.5 1/true	4a1100e5da6f8b6f38f59b7b
+marker CUBE_OUTLINE 0 1.0 1/true	966290e3cd3f3967a704d546
+markerS CUBE_OUTLINE 0 1.0 1/true	6e91fff74bafebe14c0f4611
+lookBlock CUBE_OUTLINE 0 1.0 1/true	b48c6f437914b4a956116246
+marker CUBE_OUTLINE 0 2.5 1/true	067d17867671b178dc6d3d41
+markerS CUBE_OUTLINE 0 2.5 1/true	59255824802c76fc6ce70bbb
+lookBlock CUBE_OUTLINE 0 2.5 1/true	d49ff21699d58dcb775a5489
+marker CUBE_OUTLINE 40 0.5 1/true	1a27a0df24b3ef2dab8ee802
+markerS CUBE_OUTLINE 40 0.5 1/true	02f7e4d2410ffc16fd1cce44
+lookBlock CUBE_OUTLINE 40 0.5 1/true	edf08c80fe958efacb1d4227
+marker CUBE_OUTLINE 40 1.0 1/true	cad2a33bd496c214e8ef3686
+markerS CUBE_OUTLINE 40 1.0 1/true	9f328cb5c758125232d378e1
+lookBlock CUBE_OUTLINE 40 1.0 1/true	f9a1cca3fdebe4769b186a66
+marker CUBE_OUTLINE 40 2.5 1/true	7b9992d705d342cc2a8cae42
+markerS CUBE_OUTLINE 40 2.5 1/true	a9cd39bc99f2857911da463e
+lookBlock CUBE_OUTLINE 40 2.5 1/true	87550251298d38a6a93eef27
+marker CUBE_OUTLINE 100 0.5 1/true	32f5b521d13f07b0c30c1487
+markerS CUBE_OUTLINE 100 0.5 1/true	402986bb143c947702c80f60
+lookBlock CUBE_OUTLINE 100 0.5 1/true	db1013337bed8db235b57340
+marker CUBE_OUTLINE 100 1.0 1/true	1b612eec963a41076831fa94
+markerS CUBE_OUTLINE 100 1.0 1/true	9935a21cff7112a4409ec7fb
+lookBlock CUBE_OUTLINE 100 1.0 1/true	40fb965dc862fca08b2d5162
+marker CUBE_OUTLINE 100 2.5 1/true	616491b9a9965d418f09180a
+markerS CUBE_OUTLINE 100 2.5 1/true	ae9a9a741d2f2f7da5e43b61
+lookBlock CUBE_OUTLINE 100 2.5 1/true	f1131f309467e6e7d864a88a
+marker SQUARE_FILLED 0 0.5 1/true	cfefff995335c58988e06e8d
+markerS SQUARE_FILLED 0 0.5 1/true	9fc7ca8ea0bf9ee39dc8f89d
+lookBlock SQUARE_FILLED 0 0.5 1/true	d636fe89cbb3b894b4fc6d5c
+marker SQUARE_FILLED 0 1.0 1/true	9535fb2fa4af144ca28086b1
+markerS SQUARE_FILLED 0 1.0 1/true	72432c7adafd8ad9ef990cac
+lookBlock SQUARE_FILLED 0 1.0 1/true	071cb85be3e1d212e4521232
+marker SQUARE_FILLED 0 2.5 1/true	ffd12e92c79ea35c5a7330b7
+markerS SQUARE_FILLED 0 2.5 1/true	d57c42e8551cf3f72829260d
+lookBlock SQUARE_FILLED 0 2.5 1/true	5426f8e6e1b2643332e6d817
+marker SQUARE_FILLED 40 0.5 1/true	0cc2a16cc484f5a131c6f026
+markerS SQUARE_FILLED 40 0.5 1/true	7a48fc5f4ed82f3457223924
+lookBlock SQUARE_FILLED 40 0.5 1/true	bd751048c54920c1b8675a1a
+marker SQUARE_FILLED 40 1.0 1/true	a30c6c78be5929761231c163
+markerS SQUARE_FILLED 40 1.0 1/true	41daf8e3f1ee59f6ab5984e3
+lookBlock SQUARE_FILLED 40 1.0 1/true	8f254465111bd9f75abd7231
+marker SQUARE_FILLED 40 2.5 1/true	cdd60ec2da4e84b9c9e2c7be
+markerS SQUARE_FILLED 40 2.5 1/true	f3bf7163a899ad550e15bcc1
+lookBlock SQUARE_FILLED 40 2.5 1/true	66f39b2813ec6414aa024bd5
+marker SQUARE_FILLED 100 0.5 1/true	e99f1b0461f3e948c7a4b379
+markerS SQUARE_FILLED 100 0.5 1/true	edf6f822ddf6b7c148992060
+lookBlock SQUARE_FILLED 100 0.5 1/true	4c15d0e7996a9d7f01497c0d
+marker SQUARE_FILLED 100 1.0 1/true	4fcf35dd847abece0de1ab0a
+markerS SQUARE_FILLED 100 1.0 1/true	a397160797212fe4a9a451f0
+lookBlock SQUARE_FILLED 100 1.0 1/true	7d4ee9756e8db214e8181d4c
+marker SQUARE_FILLED 100 2.5 1/true	469631af5c570be704b3b721
+markerS SQUARE_FILLED 100 2.5 1/true	dd411ace8e68ce24d905b210
+lookBlock SQUARE_FILLED 100 2.5 1/true	34e230ffb7d2500490d69035
+marker SQUARE_OUTLINE 0 0.5 1/true	5bc27d296e1469f40aaf0cbb
+markerS SQUARE_OUTLINE 0 0.5 1/true	5e273e5a65b7e9d83c49e0f0
+lookBlock SQUARE_OUTLINE 0 0.5 1/true	a4099126a7fb560ae4cdbe4d
+marker SQUARE_OUTLINE 0 1.0 1/true	855765df26505f128743936c
+markerS SQUARE_OUTLINE 0 1.0 1/true	5aea1b9d2f250df416977039
+lookBlock SQUARE_OUTLINE 0 1.0 1/true	04ae53cb11b954c53ac6a5e5
+marker SQUARE_OUTLINE 0 2.5 1/true	f0a4b9eb36c978f6654a9307
+markerS SQUARE_OUTLINE 0 2.5 1/true	3125c2fb6c765b1100be25fa
+lookBlock SQUARE_OUTLINE 0 2.5 1/true	b5e058968c433f3b2845a108
+marker SQUARE_OUTLINE 40 0.5 1/true	ab16dd2f964ccd08fefa17eb
+markerS SQUARE_OUTLINE 40 0.5 1/true	c81db079ef27e5b73e6711ac
+lookBlock SQUARE_OUTLINE 40 0.5 1/true	c20bf35aaa1ba807f2916b23
+marker SQUARE_OUTLINE 40 1.0 1/true	ec5993d29f08e696b0406053
+markerS SQUARE_OUTLINE 40 1.0 1/true	b9b3b27322f67bc1ce551556
+lookBlock SQUARE_OUTLINE 40 1.0 1/true	305ffdf60a7cc7de699ecf88
+marker SQUARE_OUTLINE 40 2.5 1/true	9ea97a88c6664396a1ba8203
+markerS SQUARE_OUTLINE 40 2.5 1/true	1a13034a375d444929d23834
+lookBlock SQUARE_OUTLINE 40 2.5 1/true	0b61c5a53c6c15e032a24eb2
+marker SQUARE_OUTLINE 100 0.5 1/true	ae8ca35bd980ca7b843e93d4
+markerS SQUARE_OUTLINE 100 0.5 1/true	c94a19f4829ac125a3a0d62c
+lookBlock SQUARE_OUTLINE 100 0.5 1/true	de70c2aa11ca2fc577ee969f
+marker SQUARE_OUTLINE 100 1.0 1/true	563344756987e2ede461c59a
+markerS SQUARE_OUTLINE 100 1.0 1/true	01c80124c4139dad7b70df01
+lookBlock SQUARE_OUTLINE 100 1.0 1/true	7acf405b97fc1f11fea6f6b1
+marker SQUARE_OUTLINE 100 2.5 1/true	5aa354ffbbc771fd13e70bb8
+markerS SQUARE_OUTLINE 100 2.5 1/true	93b80e75da5197c2fc8e6767
+lookBlock SQUARE_OUTLINE 100 2.5 1/true	5f71b2b2a35fdf1207b55f82
+marker CIRCLE_FILLED 0 0.5 1/true	5a4181d8449e44c7f2456928
+markerS CIRCLE_FILLED 0 0.5 1/true	e2ee2a3dcdb83f9e26db8b8d
+lookBlock CIRCLE_FILLED 0 0.5 1/true	9b97c304ab832263a08cb38b
+marker CIRCLE_FILLED 0 1.0 1/true	7e6066a2ba095d9dc39b0cbe
+markerS CIRCLE_FILLED 0 1.0 1/true	e9fc21f661d569961aea1a61
+lookBlock CIRCLE_FILLED 0 1.0 1/true	36787239aae5fbe506cf025a
+marker CIRCLE_FILLED 0 2.5 1/true	15fd1661ef3e1ce6ac2c43c0
+markerS CIRCLE_FILLED 0 2.5 1/true	05425fbc4fc84c3c53dbfa85
+lookBlock CIRCLE_FILLED 0 2.5 1/true	5b190b040c7af0ba59284928
+marker CIRCLE_FILLED 40 0.5 1/true	146ad0ac5f2c7ef36cfde9be
+markerS CIRCLE_FILLED 40 0.5 1/true	dadaf5db1741c9d7dca92153
+lookBlock CIRCLE_FILLED 40 0.5 1/true	cee6a857a3d793defec5f8bc
+marker CIRCLE_FILLED 40 1.0 1/true	ffc9b679bb104db112b990de
+markerS CIRCLE_FILLED 40 1.0 1/true	03666659c8c906b511e4bd93
+lookBlock CIRCLE_FILLED 40 1.0 1/true	4248682a74c515a381d06456
+marker CIRCLE_FILLED 40 2.5 1/true	548a1f5f12cbca2be736a363
+markerS CIRCLE_FILLED 40 2.5 1/true	aea4f2a15aff2ef1dbc76715
+lookBlock CIRCLE_FILLED 40 2.5 1/true	cad7e77d54cdf277894ecf8a
+marker CIRCLE_FILLED 100 0.5 1/true	383f6adbdb91ca7a9f62b9b1
+markerS CIRCLE_FILLED 100 0.5 1/true	a553f66e75276d56080afd2d
+lookBlock CIRCLE_FILLED 100 0.5 1/true	1b25a98144c96a5a38eea65c
+marker CIRCLE_FILLED 100 1.0 1/true	bdc435db463182d5c5c922b4
+markerS CIRCLE_FILLED 100 1.0 1/true	e65525cdd5b1854bb5842816
+lookBlock CIRCLE_FILLED 100 1.0 1/true	39141176cd84e10049ba8874
+marker CIRCLE_FILLED 100 2.5 1/true	a8cd184b9cbc50e64fb23f25
+markerS CIRCLE_FILLED 100 2.5 1/true	c32384ccdcb33c429780ccd9
+lookBlock CIRCLE_FILLED 100 2.5 1/true	917dc876836660233b0f5a45
+marker CIRCLE_OUTLINE 0 0.5 1/true	5235e5f4379f1efe82c7e05a
+markerS CIRCLE_OUTLINE 0 0.5 1/true	526394b06a0b7ded9db5fd3b
+lookBlock CIRCLE_OUTLINE 0 0.5 1/true	1efcd473b452a53a7a0481b5
+marker CIRCLE_OUTLINE 0 1.0 1/true	b69236d81760d83ab8ee34f8
+markerS CIRCLE_OUTLINE 0 1.0 1/true	d0f770da3301c7c6e3412b2b
+lookBlock CIRCLE_OUTLINE 0 1.0 1/true	b36957350f29bccd99eac00a
+marker CIRCLE_OUTLINE 0 2.5 1/true	dba40fd10821f9d303f498a5
+markerS CIRCLE_OUTLINE 0 2.5 1/true	60ee857a1c281f0971ffbbcc
+lookBlock CIRCLE_OUTLINE 0 2.5 1/true	f0c41f246c6f4842bb1f7b2d
+marker CIRCLE_OUTLINE 40 0.5 1/true	33c99abe8fa483a4f45b0dd5
+markerS CIRCLE_OUTLINE 40 0.5 1/true	478bd23b9161c4042f0f21de
+lookBlock CIRCLE_OUTLINE 40 0.5 1/true	91ebe165488dfec29963434c
+marker CIRCLE_OUTLINE 40 1.0 1/true	f15d7fcaed5f381aef2fa662
+markerS CIRCLE_OUTLINE 40 1.0 1/true	614e658f0c6670fdf6a9bf53
+lookBlock CIRCLE_OUTLINE 40 1.0 1/true	3396dc80cb42113ef474658b
+marker CIRCLE_OUTLINE 40 2.5 1/true	82039c5e54982c16f3b5ef88
+markerS CIRCLE_OUTLINE 40 2.5 1/true	9e2c7c6f3520106ced81aec9
+lookBlock CIRCLE_OUTLINE 40 2.5 1/true	7f2dc171f21e887a889565c6
+marker CIRCLE_OUTLINE 100 0.5 1/true	9a608b1fabd2d1c5bd534e56
+markerS CIRCLE_OUTLINE 100 0.5 1/true	341422e7321c58c3772d275b
+lookBlock CIRCLE_OUTLINE 100 0.5 1/true	663ef0a3027328b4939b07c6
+marker CIRCLE_OUTLINE 100 1.0 1/true	7b4d26083501b4f9244f7dac
+markerS CIRCLE_OUTLINE 100 1.0 1/true	2b53ad628c58d6c676a04655
+lookBlock CIRCLE_OUTLINE 100 1.0 1/true	a6054cb47cdd9ddb3a73a115
+marker CIRCLE_OUTLINE 100 2.5 1/true	443e6db0fa598c1f092578c1
+markerS CIRCLE_OUTLINE 100 2.5 1/true	5f2773226d047cf98191c4fd
+lookBlock CIRCLE_OUTLINE 100 2.5 1/true	2ee1db1e5de298bb120bb4cb
+marker SPHERE_FILLED 0 0.5 1/true	1c272c8d9fad1077905909f6
+markerS SPHERE_FILLED 0 0.5 1/true	023bbe00e7534dcd9ec86497
+lookBlock SPHERE_FILLED 0 0.5 1/true	ee612c281784974f69fd03a8
+marker SPHERE_FILLED 0 1.0 1/true	c192a3c6222f33646b64b78d
+markerS SPHERE_FILLED 0 1.0 1/true	e92cadb4debbfd8f5f4d23ed
+lookBlock SPHERE_FILLED 0 1.0 1/true	dcd6de01851ddff68495a75a
+marker SPHERE_FILLED 0 2.5 1/true	a1800d90a02e2f789baa67ef
+markerS SPHERE_FILLED 0 2.5 1/true	20439cd04d559c8df7026bb9
+lookBlock SPHERE_FILLED 0 2.5 1/true	4f242c553d5ded8281bdeda2
+marker SPHERE_FILLED 40 0.5 1/true	62ab843403dfad43e8207232
+markerS SPHERE_FILLED 40 0.5 1/true	dfa0196fc65b9cb4672b0345
+lookBlock SPHERE_FILLED 40 0.5 1/true	0b2238a17c36d41d03a5a0fb
+marker SPHERE_FILLED 40 1.0 1/true	1f3e308b6a08f77dbc9e6e1d
+markerS SPHERE_FILLED 40 1.0 1/true	d41d9b60cae4d3badeba719f
+lookBlock SPHERE_FILLED 40 1.0 1/true	b94b626bc40785f6f17bb701
+marker SPHERE_FILLED 40 2.5 1/true	c5a830bd61fa6c5909d54195
+markerS SPHERE_FILLED 40 2.5 1/true	116bf352e5579f16fb9a7962
+lookBlock SPHERE_FILLED 40 2.5 1/true	7ba14670e7fdac53c265f283
+marker SPHERE_FILLED 100 0.5 1/true	3502b1dfa336f605bcc28061
+markerS SPHERE_FILLED 100 0.5 1/true	1bd58de629a60279c9b15a21
+lookBlock SPHERE_FILLED 100 0.5 1/true	d550d519efe7819fca7c093e
+marker SPHERE_FILLED 100 1.0 1/true	db1df3d770fecdacce80a2b1
+markerS SPHERE_FILLED 100 1.0 1/true	4ee69ff40c5ad8d1f6fe11ae
+lookBlock SPHERE_FILLED 100 1.0 1/true	3c870db54cf94184a53caf10
+marker SPHERE_FILLED 100 2.5 1/true	b3e8f3381efa881d0764c1f3
+markerS SPHERE_FILLED 100 2.5 1/true	8a0b6afb954294b83922ae30
+lookBlock SPHERE_FILLED 100 2.5 1/true	98b0098953761550a1bf54be
+marker SPHERE_OUTLINE 0 0.5 1/true	1f07439792ae58df16fee878
+markerS SPHERE_OUTLINE 0 0.5 1/true	2b4f21964667ef9643e2ceb7
+lookBlock SPHERE_OUTLINE 0 0.5 1/true	9030b0d5f88b0bf99d8e813f
+marker SPHERE_OUTLINE 0 1.0 1/true	03a14f0bda403869a9e09e74
+markerS SPHERE_OUTLINE 0 1.0 1/true	fbf407aa2432426bdbbe02a9
+lookBlock SPHERE_OUTLINE 0 1.0 1/true	611d5d044dbe6766e225b6bd
+marker SPHERE_OUTLINE 0 2.5 1/true	cff99e9649a63c02ca12dbe9
+markerS SPHERE_OUTLINE 0 2.5 1/true	a9fbebaa934f9c49d27f476a
+lookBlock SPHERE_OUTLINE 0 2.5 1/true	1da6c1c3a976f60278df953b
+marker SPHERE_OUTLINE 40 0.5 1/true	21c19f59940668e62d1a5eda
+markerS SPHERE_OUTLINE 40 0.5 1/true	6729918c35b35e359583edab
+lookBlock SPHERE_OUTLINE 40 0.5 1/true	53dbca2c827e742ff7787e66
+marker SPHERE_OUTLINE 40 1.0 1/true	01384933cec95fdc013fddbd
+markerS SPHERE_OUTLINE 40 1.0 1/true	6223a7d2fc1417447224dcee
+lookBlock SPHERE_OUTLINE 40 1.0 1/true	172d6dabcdc5af99acede8e0
+marker SPHERE_OUTLINE 40 2.5 1/true	413c5b4943ed544c0883ed4e
+markerS SPHERE_OUTLINE 40 2.5 1/true	2c6e45ce4aede69059ae8acd
+lookBlock SPHERE_OUTLINE 40 2.5 1/true	fc6ba64bb79374b2d3131955
+marker SPHERE_OUTLINE 100 0.5 1/true	404cc3075de49eb4c4062c00
+markerS SPHERE_OUTLINE 100 0.5 1/true	2fc4bbb3d643428d1139283a
+lookBlock SPHERE_OUTLINE 100 0.5 1/true	1fcb9d6a46d336dfadd9723a
+marker SPHERE_OUTLINE 100 1.0 1/true	899b7966e8187d0f7ba1b801
+markerS SPHERE_OUTLINE 100 1.0 1/true	03313066e6ca92caea28828c
+lookBlock SPHERE_OUTLINE 100 1.0 1/true	680f8a194b9eaa9b9b0ef70f
+marker SPHERE_OUTLINE 100 2.5 1/true	bf943c8c85a4cce7a8a17ce8
+markerS SPHERE_OUTLINE 100 2.5 1/true	054df9cd7736b7018c095b33
+lookBlock SPHERE_OUTLINE 100 2.5 1/true	592c37bd9a1f296eb31124f9
+markerBox 1/true	a715d38afc6adbf462287114
+looks PERSONAL 1/true	bf088e4fccf6bfc70bf90e0a
+looks ROUTES 1/true	bf088e4fccf6bfc70bf90e0a
+looks TEMPORARY 1/true	bf088e4fccf6bfc70bf90e0a
+looks NPCS 1/true	bf088e4fccf6bfc70bf90e0a
+looks FAIRY_SOULS 1/true	bf088e4fccf6bfc70bf90e0a
+looks ENIGMA_SOULS 1/true	bf088e4fccf6bfc70bf90e0a
+looks DIANA 1/true	bf088e4fccf6bfc70bf90e0a
+looks DWARVEN 1/true	bf088e4fccf6bfc70bf90e0a
+looks CRYSTAL_HOLLOWS 1/true	bf088e4fccf6bfc70bf90e0a
+looks MINING_SOLVERS 1/true	bf088e4fccf6bfc70bf90e0a
+looks GLACITE 1/true	bf088e4fccf6bfc70bf90e0a
+looks CORPSES_LADDERS 1/true	bf088e4fccf6bfc70bf90e0a
+looks PESTS 1/true	bf088e4fccf6bfc70bf90e0a
+looks KUUDRA 1/true	bf088e4fccf6bfc70bf90e0a
+looks TERMINALS 1/true	bf088e4fccf6bfc70bf90e0a
+looks SECRET_WAYFINDER 1/true	bf088e4fccf6bfc70bf90e0a
+looks FISHING 1/true	bf088e4fccf6bfc70bf90e0a
+looks FORAGING 1/true	bf088e4fccf6bfc70bf90e0a
+looks RIFT 1/true	bf088e4fccf6bfc70bf90e0a

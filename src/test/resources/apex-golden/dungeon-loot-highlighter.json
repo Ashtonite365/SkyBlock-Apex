@@ -1,0 +1,353 @@
+{
+  "cases": 87,
+  "data": [
+    {
+      "in": "lore|§6§lLEGENDARY DUNGEON SWORD",
+      "out": "true"
+    },
+    {
+      "in": "lore|§5§lEPIC DUNGEON ITEM",
+      "out": "false"
+    },
+    {
+      "in": "lore|DUNGEON",
+      "out": "true"
+    },
+    {
+      "in": "lore|DUNGEON ITEM",
+      "out": "false"
+    },
+    {
+      "in": "lore|DUNGEON ITEMS",
+      "out": "false"
+    },
+    {
+      "in": "lore|dungeon",
+      "out": "false"
+    },
+    {
+      "in": "lore|RARE DUNGEON BOOTS",
+      "out": "true"
+    },
+    {
+      "in": "lore|DUNGEONITEM",
+      "out": "true"
+    },
+    {
+      "in": "lore|DUNGEON  ITEM",
+      "out": "true"
+    },
+    {
+      "in": "lore|XDUNGEONX",
+      "out": "true"
+    },
+    {
+      "in": "lore|§7Gear Score: §d300",
+      "out": "false"
+    },
+    {
+      "in": "lore|",
+      "out": "false"
+    },
+    {
+      "in": "lore|DUNGEON ITEM DUNGEON",
+      "out": "true"
+    },
+    {
+      "in": "lore|SPECIAL DUNGEON",
+      "out": "true"
+    },
+    {
+      "in": "lore|COMMON DUNGEON ITEM",
+      "out": "false"
+    },
+    {
+      "in": "junk|DEFUSE_KIT|Healing VIII Splash Potion",
+      "out": "true"
+    },
+    {
+      "in": "junk|DEFUSE_KIT|§cHealing VIII Splash Potion",
+      "out": "true"
+    },
+    {
+      "in": "junk|DEFUSE_KIT|Healing VII Splash Potion",
+      "out": "true"
+    },
+    {
+      "in": "junk|DEFUSE_KIT|Healing VIII Splash Potion x2",
+      "out": "true"
+    },
+    {
+      "in": "junk|DEFUSE_KIT|Defuse Kit",
+      "out": "true"
+    },
+    {
+      "in": "junk|DEFUSE_KIT|",
+      "out": "true"
+    },
+    {
+      "in": "junk|TRAINING_WEIGHTS|Healing VIII Splash Potion",
+      "out": "true"
+    },
+    {
+      "in": "junk|TRAINING_WEIGHTS|§cHealing VIII Splash Potion",
+      "out": "true"
+    },
+    {
+      "in": "junk|TRAINING_WEIGHTS|Healing VII Splash Potion",
+      "out": "true"
+    },
+    {
+      "in": "junk|TRAINING_WEIGHTS|Healing VIII Splash Potion x2",
+      "out": "true"
+    },
+    {
+      "in": "junk|TRAINING_WEIGHTS|Defuse Kit",
+      "out": "true"
+    },
+    {
+      "in": "junk|TRAINING_WEIGHTS|",
+      "out": "true"
+    },
+    {
+      "in": "junk|DUNGEON_LORE_PAPER|Healing VIII Splash Potion",
+      "out": "true"
+    },
+    {
+      "in": "junk|DUNGEON_LORE_PAPER|§cHealing VIII Splash Potion",
+      "out": "true"
+    },
+    {
+      "in": "junk|DUNGEON_LORE_PAPER|Healing VII Splash Potion",
+      "out": "true"
+    },
+    {
+      "in": "junk|DUNGEON_LORE_PAPER|Healing VIII Splash Potion x2",
+      "out": "true"
+    },
+    {
+      "in": "junk|DUNGEON_LORE_PAPER|Defuse Kit",
+      "out": "true"
+    },
+    {
+      "in": "junk|DUNGEON_LORE_PAPER|",
+      "out": "true"
+    },
+    {
+      "in": "junk|REVIVE_STONE|Healing VIII Splash Potion",
+      "out": "true"
+    },
+    {
+      "in": "junk|REVIVE_STONE|§cHealing VIII Splash Potion",
+      "out": "true"
+    },
+    {
+      "in": "junk|REVIVE_STONE|Healing VII Splash Potion",
+      "out": "true"
+    },
+    {
+      "in": "junk|REVIVE_STONE|Healing VIII Splash Potion x2",
+      "out": "true"
+    },
+    {
+      "in": "junk|REVIVE_STONE|Defuse Kit",
+      "out": "true"
+    },
+    {
+      "in": "junk|REVIVE_STONE|",
+      "out": "true"
+    },
+    {
+      "in": "junk|POTION|Healing VIII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|POTION|§cHealing VIII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|POTION|Healing VII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|POTION|Healing VIII Splash Potion x2",
+      "out": "false"
+    },
+    {
+      "in": "junk|POTION|Defuse Kit",
+      "out": "false"
+    },
+    {
+      "in": "junk|POTION|",
+      "out": "false"
+    },
+    {
+      "in": "junk|POTION_HEALING|Healing VIII Splash Potion",
+      "out": "THROWS IllegalStateException"
+    },
+    {
+      "in": "junk|POTION_HEALING|§cHealing VIII Splash Potion",
+      "out": "THROWS IllegalStateException"
+    },
+    {
+      "in": "junk|POTION_HEALING|Healing VII Splash Potion",
+      "out": "THROWS IllegalStateException"
+    },
+    {
+      "in": "junk|POTION_HEALING|Healing VIII Splash Potion x2",
+      "out": "THROWS IllegalStateException"
+    },
+    {
+      "in": "junk|POTION_HEALING|Defuse Kit",
+      "out": "THROWS IllegalStateException"
+    },
+    {
+      "in": "junk|POTION_HEALING|",
+      "out": "THROWS IllegalStateException"
+    },
+    {
+      "in": "junk|POTIONX|Healing VIII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|POTIONX|§cHealing VIII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|POTIONX|Healing VII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|POTIONX|Healing VIII Splash Potion x2",
+      "out": "false"
+    },
+    {
+      "in": "junk|POTIONX|Defuse Kit",
+      "out": "false"
+    },
+    {
+      "in": "junk|POTIONX|",
+      "out": "false"
+    },
+    {
+      "in": "junk|XPOTION|Healing VIII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|XPOTION|§cHealing VIII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|XPOTION|Healing VII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|XPOTION|Healing VIII Splash Potion x2",
+      "out": "false"
+    },
+    {
+      "in": "junk|XPOTION|Defuse Kit",
+      "out": "false"
+    },
+    {
+      "in": "junk|XPOTION|",
+      "out": "false"
+    },
+    {
+      "in": "junk|defuse_kit|Healing VIII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|defuse_kit|§cHealing VIII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|defuse_kit|Healing VII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|defuse_kit|Healing VIII Splash Potion x2",
+      "out": "false"
+    },
+    {
+      "in": "junk|defuse_kit|Defuse Kit",
+      "out": "false"
+    },
+    {
+      "in": "junk|defuse_kit|",
+      "out": "false"
+    },
+    {
+      "in": "junk|ENCHANTED_BOOK|Healing VIII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|ENCHANTED_BOOK|§cHealing VIII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|ENCHANTED_BOOK|Healing VII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|ENCHANTED_BOOK|Healing VIII Splash Potion x2",
+      "out": "false"
+    },
+    {
+      "in": "junk|ENCHANTED_BOOK|Defuse Kit",
+      "out": "false"
+    },
+    {
+      "in": "junk|ENCHANTED_BOOK|",
+      "out": "false"
+    },
+    {
+      "in": "junk||Healing VIII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk||§cHealing VIII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk||Healing VII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk||Healing VIII Splash Potion x2",
+      "out": "false"
+    },
+    {
+      "in": "junk||Defuse Kit",
+      "out": "false"
+    },
+    {
+      "in": "junk||",
+      "out": "false"
+    },
+    {
+      "in": "junk|SPIRIT_LEAP|Healing VIII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|SPIRIT_LEAP|§cHealing VIII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|SPIRIT_LEAP|Healing VII Splash Potion",
+      "out": "false"
+    },
+    {
+      "in": "junk|SPIRIT_LEAP|Healing VIII Splash Potion x2",
+      "out": "false"
+    },
+    {
+      "in": "junk|SPIRIT_LEAP|Defuse Kit",
+      "out": "false"
+    },
+    {
+      "in": "junk|SPIRIT_LEAP|",
+      "out": "false"
+    }
+  ]
+}

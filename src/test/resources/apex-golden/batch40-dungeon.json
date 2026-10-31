@@ -1,0 +1,5969 @@
+{
+  "cases": 1491,
+  "data": [
+    {
+      "in": "consts",
+      "out": "[[BOSS] The Watcher: Things feel a little more roomy now, eh?, [BOSS] The Watcher: Oh.. hello?, [BOSS] The Watcher: I'm starting to get tired of seeing you around here..., [BOSS] The Watcher: You've managed to scratch and claw your way here, eh?, [BOSS] The Watcher: So you made it this far... interesting., [BOSS] The Watcher: Ah, we meet again..., [BOSS] The Watcher: Ah, you've finally arrived.] [BOSS] The Watcher: Let's see how you can handle this. [BOSS] Sadan: So you made it all the way here... Now you wish to defy me? Sadan?! [BOSS] Sadan: ENOUGH!"
+    },
+    {
+      "in": "ft|PREPARE",
+      "out": "[^\\[NPC] Mort: (?:Here, I found this map|You should find it useful|Good luck\\.|Talk to me to change your class).*, .* is now ready!$, ^Dungeon starts in \\d+ seconds?\\.$, .* has started the dungeon countdown\\..*] [^\\[NPC] Mort: (?:Here, I found this map|You should find it useful|Good luck\\.|Talk to me to change your class).*, .* is now ready!$, ^Dungeon starts in \\d+ seconds?\\.$, .* has started the dungeon countdown\\..*]"
+    },
+    {
+      "in": "ft|START",
+      "out": "[^Your active Potion Effects have been paused and stored\\..*, ^You can no longer consume or splash any potions during the remainder of this Dungeon run!$] [^Your active Potion Effects have been paused and stored\\..*, ^You can no longer consume or splash any potions during the remainder of this Dungeon run!$]"
+    },
+    {
+      "in": "ft|AMBIENCE",
+      "out": "[^A shiver runs down your spine\\.\\.\\.$] [^A shiver runs down your spine\\.\\.\\.$]"
+    },
+    {
+      "in": "ft|PICKUP",
+      "out": "[.* has obtained (?:Superboom TNT|Revive Stone|Premium Flesh|Beating Heart|Blessing of .*).*, .*found a Wither Essence! Everyone gains an extra essence!$, ^.* the Fairy: (?:You killed me!|Have a great life!).*, ^A Blessing of .* was picked up!$] [.* has obtained (?:Superboom TNT|Revive Stone|Premium Flesh|Beating Heart|Blessing of .*).*, .*found a Wither Essence! Everyone gains an extra essence!$, ^.* the Fairy: (?:You killed me!|Have a great life!).*, ^A Blessing of .* was picked up!$]"
+    },
+    {
+      "in": "ft|REMINDER",
+      "out": "[^RIGHT CLICK on (?:a WITHER door|the BLOOD DOOR) to open it\\..*] [^RIGHT CLICK on (?:a WITHER door|the BLOOD DOOR) to open it\\..*]"
+    },
+    {
+      "in": "ft|BUFF",
+      "out": "[^DUNGEON BUFF! .*, ^BUFF! You have gained Healing V!$, ^ {5}(?:Granted|Grants|Also granted) you .*] [^DUNGEON BUFF! .*, ^BUFF! You have gained Healing V!$, ^ {5}(?:Granted|Grants|Also granted) you .*]"
+    },
+    {
+      "in": "ft|NOT_POSSIBLE",
+      "out": "[^You cannot hit the silverfish while it's moving!$, ^You cannot move the silverfish in that direction!$, ^There are blocks in the way!$, ^This chest has already been searched!$, ^This lever has already been used\\.$, ^You cannot do that in this room!$, ^You do not have the key for this door!$, ^You have already opened this dungeon chest!$, ^You cannot use abilities in this room!$, ^A mystical force in this room prevents you from using that ability!$] [^You cannot hit the silverfish while it's moving!$, ^You cannot move the silverfish in that direction!$, ^There are blocks in the way!$, ^This chest has already been searched!$, ^This lever has already been used\\.$, ^You cannot do that in this room!$, ^You do not have the key for this door!$, ^You have already opened this dungeon chest!$, ^You cannot use abilities in this room!$, ^A mystical force in this room prevents you from using that ability!$]"
+    },
+    {
+      "in": "ft|DAMAGE",
+      "out": "[^The .* (?:struck|hit) you for .* damage!$, .* (?:struck|hit) you for [\\d,.]+ (?:true )?damage\\.$, .* exploded, hitting you for .* damage\\.$, ^Your .* hit .* (?:enemy|enemies) for .* damage\\.$, ^The Mage's Magma burnt you for .* true damage\\.$] [^The .* (?:struck|hit) you for .* damage!$, .* (?:struck|hit) you for [\\d,.]+ (?:true )?damage\\.$, .* exploded, hitting you for .* damage\\.$, ^Your .* hit .* (?:enemy|enemies) for .* damage\\.$, ^The Mage's Magma burnt you for .* true damage\\.$]"
+    },
+    {
+      "in": "ft|ABILITY",
+      "out": "[.* used .* on you!$, ^Your Guided Sheep hit .*, ^You were healed for .* health by .*, .* picked up your .* Orb!$, ^This ability is on cooldown for .*s\\.$, .* healed you for .* health!$, ^Your bone plating reduced the damage you took by .*, .* formed a tether with you!$, ^Your tether with .* healed you for .*, ^Your Spirit Pet (?:healed|hit) .*, ^You need at least .* mana to activate this!$, ^Your fairy healed .*, .* fairy healed you for .*, ^(?:Guided Sheep|Creeper Veil|Rapid Fire|Castle of Stone|Ragnarok|Thunderstorm).* (?:is now available|Activated|De-activated|is ready to use).*] [.* used .* on you!$, ^Your Guided Sheep hit .*, ^You were healed for .* health by .*, .* picked up your .* Orb!$, ^This ability is on cooldown for .*s\\.$, .* healed you for .* health!$, ^Your bone plating reduced the damage you took by .*, .* formed a tether with you!$, ^Your tether with .* healed you for .*, ^Your Spirit Pet (?:healed|hit) .*, ^You need at least .* mana to activate this!$, ^Your fairy healed .*, .* fairy healed you for .*, ^(?:Guided Sheep|Creeper Veil|Rapid Fire|Castle of Stone|Ragnarok|Thunderstorm).* (?:is now available|Activated|De-activated|is ready to use).*]"
+    },
+    {
+      "in": "ft|PUZZLE",
+      "out": "[^PUZZLE SOLVED! .* (?:wasn't fooled by|tied Tic Tac Toe).*, ^\\[STATUE] Oruo the Omniscient: (?!.*chose the wrong).*] [^PUZZLE SOLVED! .* (?:wasn't fooled by|tied Tic Tac Toe).*, ^\\[STATUE] Oruo the Omniscient: (?!.*chose the wrong).*]"
+    },
+    {
+      "in": "line|[BOSS] The Watcher: Things feel a little more roomy now, eh?",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Things feel a little more roomy now, eh?|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Things feel a little more roomy now, eh?|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Things feel a little more roomy now, eh?|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Things feel a little more roomy now, eh?|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Things feel a little more roomy now, eh?|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] The Watcher: Let's see how you can handle this.",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Let's see how you can handle this.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Let's see how you can handle this.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Let's see how you can handle this.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Let's see how you can handle this.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Let's see how you can handle this.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] The Watcher: You have proven yourself. You may pass.",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: You have proven yourself. You may pass.|null",
+      "out": "Enter Boss Room"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: You have proven yourself. You may pass.|Steve",
+      "out": "Enter Boss Room"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: You have proven yourself. You may pass.|",
+      "out": "Enter Boss Room"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: You have proven yourself. You may pass.|steve",
+      "out": "Enter Boss Room"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: You have proven yourself. You may pass.|Alex",
+      "out": "Enter Boss Room"
+    },
+    {
+      "in": "line|[BOSS] The Watcher: That will be enough for now.",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: That will be enough for now.|null",
+      "out": "Clear Blood Room"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: That will be enough for now.|Steve",
+      "out": "Clear Blood Room"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: That will be enough for now.|",
+      "out": "Clear Blood Room"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: That will be enough for now.|steve",
+      "out": "Clear Blood Room"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: That will be enough for now.|Alex",
+      "out": "Clear Blood Room"
+    },
+    {
+      "in": "line|The Crystal withers your soul as you hold it in your hands!",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|The Crystal withers your soul as you hold it in your hands!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Crystal withers your soul as you hold it in your hands!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Crystal withers your soul as you hold it in your hands!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Crystal withers your soul as you hold it in your hands!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Crystal withers your soul as you hold it in your hands!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|It doesn't seem like that is supposed to go there.",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|It doesn't seem like that is supposed to go there.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|It doesn't seem like that is supposed to go there.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|It doesn't seem like that is supposed to go there.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|It doesn't seem like that is supposed to go there.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|It doesn't seem like that is supposed to go there.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] Bonzo: Gratz",
+      "out": "null|true|Bonzo|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo: Gratz|null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo: Gratz|Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo: Gratz|",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo: Gratz|steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo: Gratz|Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Bonzo",
+      "out": "null|true|Bonzo|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo|null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo|Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo|",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo|steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo|Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Livid: hi",
+      "out": "null|true|Livid|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Livid: hi|null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Livid: hi|Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Livid: hi|",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Livid: hi|steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Livid: hi|Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Hungry Livid: hi",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Hungry Livid: hi|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Hungry Livid: hi|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Hungry Livid: hi|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Hungry Livid: hi|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Hungry Livid: hi|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] Smart Livid: x:y",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Smart Livid: x:y|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Smart Livid: x:y|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Smart Livid: x:y|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Smart Livid: x:y|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Smart Livid: x:y|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] Livids: hi",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Livids: hi|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Livids: hi|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Livids: hi|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Livids: hi|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Livids: hi|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] Wither King: You... again?",
+      "out": "null|true|Wither King|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Wither King: You... again?|null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Wither King: You... again?|Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Wither King: You... again?|",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Wither King: You... again?|steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Wither King: You... again?|Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] King: x",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] King: x|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] King: x|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] King: x|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] King: x|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] King: x|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] Sadan: ENOUGH!",
+      "out": "null|true|Sadan|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Sadan: ENOUGH!|null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Sadan: ENOUGH!|Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Sadan: ENOUGH!|",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Sadan: ENOUGH!|steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Sadan: ENOUGH!|Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] The Professor: Oh?",
+      "out": "null|true|The Professor|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] The Professor: Oh?|null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] The Professor: Oh?|Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] The Professor: Oh?|",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] The Professor: Oh?|steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] The Professor: Oh?|Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Enderman: x",
+      "out": "null|true|Enderman|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Enderman: x|null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Enderman: x|Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Enderman: x|",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Enderman: x|steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Enderman: x|Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Thorn: x",
+      "out": "null|true|Thorn|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Thorn: x|null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Thorn: x|Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Thorn: x|",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Thorn: x|steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Thorn: x|Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Maxor: x",
+      "out": "null|true|Maxor|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Maxor: x|null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Maxor: x|Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Maxor: x|",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Maxor: x|steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Maxor: x|Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Storm: x",
+      "out": "null|true|Storm|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Storm: x|null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Storm: x|Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Storm: x|",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Storm: x|steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Storm: x|Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Goldor: x",
+      "out": "null|true|Goldor|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Goldor: x|null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Goldor: x|Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Goldor: x|",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Goldor: x|steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Goldor: x|Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Necron: x",
+      "out": "null|true|Necron|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Necron: x|null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Necron: x|Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Necron: x|",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Necron: x|steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Necron: x|Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Scarf: x",
+      "out": "null|true|Scarf|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Scarf: x|null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Scarf: x|Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Scarf: x|",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Scarf: x|steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Scarf: x|Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] : x",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] : x|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] : x|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] : x|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] : x|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] : x|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS]",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS]|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS]|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS]|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS]|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS]|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS]  Bonzo: x",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS]  Bonzo: x|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS]  Bonzo: x|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS]  Bonzo: x|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS]  Bonzo: x|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS]  Bonzo: x|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[boss] Bonzo: x",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[boss] Bonzo: x|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[boss] Bonzo: x|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[boss] Bonzo: x|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[boss] Bonzo: x|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[boss] Bonzo: x|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| [BOSS] Bonzo: x",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| [BOSS] Bonzo: x|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| [BOSS] Bonzo: x|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| [BOSS] Bonzo: x|",
+      "out": "null"
+    },
+    {
+      "in": "copilot| [BOSS] Bonzo: x|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| [BOSS] Bonzo: x|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|PUZZLE FAIL! Steve killed a Blaze in the wrong order! Yikes!",
+      "out": "Steve|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve killed a Blaze in the wrong order! Yikes!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve killed a Blaze in the wrong order! Yikes!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve killed a Blaze in the wrong order! Yikes!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve killed a Blaze in the wrong order! Yikes!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve killed a Blaze in the wrong order! Yikes!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|PUZZLE FAIL! Steve",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|PUZZLE FAIL!  x y",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL!  x y|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL!  x y|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL!  x y|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL!  x y|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL!  x y|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[STATUE] Oruo the Omniscient: Alex chose the wrong answer! I shall never forget this moment of misrememberance.",
+      "out": "Alex|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex chose the wrong answer! I shall never forget this moment of misrememberance.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex chose the wrong answer! I shall never forget this moment of misrememberance.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex chose the wrong answer! I shall never forget this moment of misrememberance.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex chose the wrong answer! I shall never forget this moment of misrememberance.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex chose the wrong answer! I shall never forget this moment of misrememberance.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[STATUE] Oruo the Omniscient: Alex answered Question #1 correctly!",
+      "out": "null|false|null|PUZZLE|false|false|null|false"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex answered Question #1 correctly!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex answered Question #1 correctly!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex answered Question #1 correctly!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex answered Question #1 correctly!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex answered Question #1 correctly!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[STATUE] Oruo the Omniscient: ",
+      "out": "null|false|null|PUZZLE|false|false|null|false"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|PUZZLE SOLVED! Steve wasn't fooled by Bob! Good job!",
+      "out": "null|false|null|PUZZLE|false|false|null|false"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve wasn't fooled by Bob! Good job!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve wasn't fooled by Bob! Good job!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve wasn't fooled by Bob! Good job!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve wasn't fooled by Bob! Good job!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve wasn't fooled by Bob! Good job!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|PUZZLE SOLVED! Steve tied Tic Tac Toe! Good job!",
+      "out": "null|false|null|PUZZLE|false|false|null|false"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve tied Tic Tac Toe! Good job!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve tied Tic Tac Toe! Good job!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve tied Tic Tac Toe! Good job!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve tied Tic Tac Toe! Good job!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve tied Tic Tac Toe! Good job!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[NPC] Mort: Here, I found this map when I first entered the dungeon.",
+      "out": "null|false|null|PREPARE|false|false|null|false"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Here, I found this map when I first entered the dungeon.|null",
+      "out": "Clear first room"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Here, I found this map when I first entered the dungeon.|Steve",
+      "out": "Clear first room"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Here, I found this map when I first entered the dungeon.|",
+      "out": "Clear first room"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Here, I found this map when I first entered the dungeon.|steve",
+      "out": "Clear first room"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Here, I found this map when I first entered the dungeon.|Alex",
+      "out": "Clear first room"
+    },
+    {
+      "in": "line|[NPC] Mort: Good luck.",
+      "out": "null|false|null|PREPARE|false|false|null|false"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Good luck.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Good luck.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Good luck.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Good luck.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Good luck.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[NPC] Mort: Talk to me to change your class",
+      "out": "null|false|null|PREPARE|false|false|null|false"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Talk to me to change your class|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Talk to me to change your class|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Talk to me to change your class|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Talk to me to change your class|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Talk to me to change your class|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve is now ready!",
+      "out": "null|false|null|PREPARE|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve is now ready!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve is now ready!|Steve",
+      "out": "Wait for the dungeon to start!"
+    },
+    {
+      "in": "copilot|Steve is now ready!|",
+      "out": "Wait for the dungeon to start!"
+    },
+    {
+      "in": "copilot|Steve is now ready!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve is now ready!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Dungeon starts in 1 second.",
+      "out": "null|false|null|PREPARE|false|false|null|false"
+    },
+    {
+      "in": "copilot|Dungeon starts in 1 second.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 1 second.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 1 second.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 1 second.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 1 second.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Dungeon starts in 5 seconds.",
+      "out": "null|false|null|PREPARE|false|false|null|false"
+    },
+    {
+      "in": "copilot|Dungeon starts in 5 seconds.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 5 seconds.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 5 seconds.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 5 seconds.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 5 seconds.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Dungeon starts in seconds.",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Dungeon starts in seconds.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in seconds.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in seconds.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in seconds.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in seconds.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve has started the dungeon countdown. The dungeon will begin in 1 minute.",
+      "out": "null|false|null|PREPARE|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve has started the dungeon countdown. The dungeon will begin in 1 minute.|null",
+      "out": "Ready up"
+    },
+    {
+      "in": "copilot|Steve has started the dungeon countdown. The dungeon will begin in 1 minute.|Steve",
+      "out": "Ready up"
+    },
+    {
+      "in": "copilot|Steve has started the dungeon countdown. The dungeon will begin in 1 minute.|",
+      "out": "Ready up"
+    },
+    {
+      "in": "copilot|Steve has started the dungeon countdown. The dungeon will begin in 1 minute.|steve",
+      "out": "Ready up"
+    },
+    {
+      "in": "copilot|Steve has started the dungeon countdown. The dungeon will begin in 1 minute.|Alex",
+      "out": "Ready up"
+    },
+    {
+      "in": "line|Your active Potion Effects have been paused and stored. They will be restored when you leave Dungeons!",
+      "out": "null|false|null|START|false|false|null|false"
+    },
+    {
+      "in": "copilot|Your active Potion Effects have been paused and stored. They will be restored when you leave Dungeons!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your active Potion Effects have been paused and stored. They will be restored when you leave Dungeons!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your active Potion Effects have been paused and stored. They will be restored when you leave Dungeons!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your active Potion Effects have been paused and stored. They will be restored when you leave Dungeons!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your active Potion Effects have been paused and stored. They will be restored when you leave Dungeons!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|You can no longer consume or splash any potions during the remainder of this Dungeon run!",
+      "out": "null|false|null|START|false|false|null|false"
+    },
+    {
+      "in": "copilot|You can no longer consume or splash any potions during the remainder of this Dungeon run!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You can no longer consume or splash any potions during the remainder of this Dungeon run!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You can no longer consume or splash any potions during the remainder of this Dungeon run!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You can no longer consume or splash any potions during the remainder of this Dungeon run!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You can no longer consume or splash any potions during the remainder of this Dungeon run!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|A shiver runs down your spine...",
+      "out": "null|false|null|AMBIENCE|false|false|null|false"
+    },
+    {
+      "in": "copilot|A shiver runs down your spine...|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A shiver runs down your spine...|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A shiver runs down your spine...|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A shiver runs down your spine...|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A shiver runs down your spine...|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve has obtained Superboom TNT!",
+      "out": "null|false|null|PICKUP|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve has obtained Superboom TNT!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Superboom TNT!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Superboom TNT!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Superboom TNT!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Superboom TNT!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve has obtained Blessing of Power!",
+      "out": "null|false|null|PICKUP|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve has obtained Blessing of Power!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Blessing of Power!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Blessing of Power!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Blessing of Power!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Blessing of Power!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve has obtained Wither Key!",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key!|null",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key!|Steve",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key!|",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key!|steve",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key!|Alex",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "line|Steve has obtained Blood Key!",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve has obtained Blood Key!|null",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Blood Key!|Steve",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Blood Key!|",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Blood Key!|steve",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Blood Key!|Alex",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "line|A Wither Key was picked up!",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|A Wither Key was picked up!|null",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key was picked up!|Steve",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key was picked up!|",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key was picked up!|steve",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key was picked up!|Alex",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "line|A Blood Key was picked up!",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|A Blood Key was picked up!|null",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|A Blood Key was picked up!|Steve",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|A Blood Key was picked up!|",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|A Blood Key was picked up!|steve",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|A Blood Key was picked up!|Alex",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "line|A Wither Key!",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|A Wither Key!|null",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key!|Steve",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key!|",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key!|steve",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key!|Alex",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "line|Steve found a Wither Essence! Everyone gains an extra essence!",
+      "out": "null|false|null|PICKUP|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve found a Wither Essence! Everyone gains an extra essence!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve found a Wither Essence! Everyone gains an extra essence!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve found a Wither Essence! Everyone gains an extra essence!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve found a Wither Essence! Everyone gains an extra essence!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve found a Wither Essence! Everyone gains an extra essence!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Bob the Fairy: You killed me! Take this Revive Stone so that my death is not in vain!",
+      "out": "null|false|null|PICKUP|false|false|null|false"
+    },
+    {
+      "in": "copilot|Bob the Fairy: You killed me! Take this Revive Stone so that my death is not in vain!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Bob the Fairy: You killed me! Take this Revive Stone so that my death is not in vain!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Bob the Fairy: You killed me! Take this Revive Stone so that my death is not in vain!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Bob the Fairy: You killed me! Take this Revive Stone so that my death is not in vain!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Bob the Fairy: You killed me! Take this Revive Stone so that my death is not in vain!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|A Blessing of Wisdom was picked up!",
+      "out": "null|false|null|PICKUP|false|false|null|false"
+    },
+    {
+      "in": "copilot|A Blessing of Wisdom was picked up!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A Blessing of Wisdom was picked up!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A Blessing of Wisdom was picked up!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A Blessing of Wisdom was picked up!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A Blessing of Wisdom was picked up!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|RIGHT CLICK on a WITHER door to open it. This key can only be used to open 1 door!",
+      "out": "null|false|null|REMINDER|false|false|null|false"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on a WITHER door to open it. This key can only be used to open 1 door!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on a WITHER door to open it. This key can only be used to open 1 door!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on a WITHER door to open it. This key can only be used to open 1 door!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on a WITHER door to open it. This key can only be used to open 1 door!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on a WITHER door to open it. This key can only be used to open 1 door!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|RIGHT CLICK on the BLOOD DOOR to open it.",
+      "out": "null|false|null|REMINDER|false|false|null|false"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on the BLOOD DOOR to open it.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on the BLOOD DOOR to open it.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on the BLOOD DOOR to open it.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on the BLOOD DOOR to open it.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on the BLOOD DOOR to open it.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|DUNGEON BUFF! Steve found a Blessing of Life V!",
+      "out": "null|false|null|BUFF|false|false|null|false"
+    },
+    {
+      "in": "copilot|DUNGEON BUFF! Steve found a Blessing of Life V!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|DUNGEON BUFF! Steve found a Blessing of Life V!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|DUNGEON BUFF! Steve found a Blessing of Life V!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|DUNGEON BUFF! Steve found a Blessing of Life V!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|DUNGEON BUFF! Steve found a Blessing of Life V!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|BUFF! You have gained Healing V!",
+      "out": "null|false|null|BUFF|false|false|null|false"
+    },
+    {
+      "in": "copilot|BUFF! You have gained Healing V!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|BUFF! You have gained Healing V!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|BUFF! You have gained Healing V!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|BUFF! You have gained Healing V!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|BUFF! You have gained Healing V!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|     Granted you +10 Strength.",
+      "out": "null|false|null|BUFF|false|false|null|false"
+    },
+    {
+      "in": "copilot|     Granted you +10 Strength.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|     Granted you +10 Strength.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|     Granted you +10 Strength.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|     Granted you +10 Strength.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|     Granted you +10 Strength.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|    Granted you x",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|    Granted you x|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|    Granted you x|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|    Granted you x|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|    Granted you x|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|    Granted you x|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|You cannot hit the silverfish while it's moving!",
+      "out": "null|false|null|NOT_POSSIBLE|false|false|null|false"
+    },
+    {
+      "in": "copilot|You cannot hit the silverfish while it's moving!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You cannot hit the silverfish while it's moving!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You cannot hit the silverfish while it's moving!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You cannot hit the silverfish while it's moving!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You cannot hit the silverfish while it's moving!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|There are blocks in the way!",
+      "out": "null|false|null|NOT_POSSIBLE|false|false|null|false"
+    },
+    {
+      "in": "copilot|There are blocks in the way!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|There are blocks in the way!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|There are blocks in the way!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|There are blocks in the way!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|There are blocks in the way!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|This lever has already been used.",
+      "out": "null|false|null|NOT_POSSIBLE|false|false|null|false"
+    },
+    {
+      "in": "copilot|This lever has already been used.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This lever has already been used.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This lever has already been used.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This lever has already been used.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This lever has already been used.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|A mystical force in this room prevents you from using that ability!",
+      "out": "null|false|null|NOT_POSSIBLE|false|false|null|false"
+    },
+    {
+      "in": "copilot|A mystical force in this room prevents you from using that ability!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A mystical force in this room prevents you from using that ability!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A mystical force in this room prevents you from using that ability!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A mystical force in this room prevents you from using that ability!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A mystical force in this room prevents you from using that ability!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|You do not have the key for this door!",
+      "out": "null|false|null|NOT_POSSIBLE|false|false|null|false"
+    },
+    {
+      "in": "copilot|You do not have the key for this door!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You do not have the key for this door!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You do not have the key for this door!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You do not have the key for this door!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You do not have the key for this door!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|The Zombie struck you for 1,234 damage!",
+      "out": "null|false|null|DAMAGE|false|false|null|false"
+    },
+    {
+      "in": "copilot|The Zombie struck you for 1,234 damage!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Zombie struck you for 1,234 damage!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Zombie struck you for 1,234 damage!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Zombie struck you for 1,234 damage!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Zombie struck you for 1,234 damage!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Skeleton hit you for 5.5 true damage.",
+      "out": "null|false|null|DAMAGE|false|false|null|false"
+    },
+    {
+      "in": "copilot|Skeleton hit you for 5.5 true damage.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Skeleton hit you for 5.5 true damage.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Skeleton hit you for 5.5 true damage.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Skeleton hit you for 5.5 true damage.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Skeleton hit you for 5.5 true damage.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Creeper exploded, hitting you for 100 damage.",
+      "out": "null|false|null|DAMAGE|false|false|null|false"
+    },
+    {
+      "in": "copilot|Creeper exploded, hitting you for 100 damage.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Creeper exploded, hitting you for 100 damage.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Creeper exploded, hitting you for 100 damage.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Creeper exploded, hitting you for 100 damage.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Creeper exploded, hitting you for 100 damage.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Your Ice Spray hit 3 enemies for 1,000 damage.",
+      "out": "null|false|null|DAMAGE|false|false|null|false"
+    },
+    {
+      "in": "copilot|Your Ice Spray hit 3 enemies for 1,000 damage.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Ice Spray hit 3 enemies for 1,000 damage.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Ice Spray hit 3 enemies for 1,000 damage.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Ice Spray hit 3 enemies for 1,000 damage.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Ice Spray hit 3 enemies for 1,000 damage.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|The Mage's Magma burnt you for 10 true damage.",
+      "out": "null|false|null|DAMAGE|false|false|null|false"
+    },
+    {
+      "in": "copilot|The Mage's Magma burnt you for 10 true damage.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Mage's Magma burnt you for 10 true damage.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Mage's Magma burnt you for 10 true damage.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Mage's Magma burnt you for 10 true damage.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Mage's Magma burnt you for 10 true damage.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve used Healing Circle on you!",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve used Healing Circle on you!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve used Healing Circle on you!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve used Healing Circle on you!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve used Healing Circle on you!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve used Healing Circle on you!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Your Guided Sheep hit 2 enemies",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|Your Guided Sheep hit 2 enemies|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Guided Sheep hit 2 enemies|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Guided Sheep hit 2 enemies|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Guided Sheep hit 2 enemies|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Guided Sheep hit 2 enemies|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|You were healed for 100 health by Steve's Wand",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|You were healed for 100 health by Steve's Wand|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You were healed for 100 health by Steve's Wand|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You were healed for 100 health by Steve's Wand|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You were healed for 100 health by Steve's Wand|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You were healed for 100 health by Steve's Wand|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve picked up your Healing Orb!",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve picked up your Healing Orb!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve picked up your Healing Orb!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve picked up your Healing Orb!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve picked up your Healing Orb!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve picked up your Healing Orb!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|This ability is on cooldown for 3s.",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|This ability is on cooldown for 3s.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This ability is on cooldown for 3s.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This ability is on cooldown for 3s.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This ability is on cooldown for 3s.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This ability is on cooldown for 3s.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve healed you for 50 health!",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve healed you for 50 health!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve healed you for 50 health!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve healed you for 50 health!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve healed you for 50 health!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve healed you for 50 health!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve formed a tether with you!",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve formed a tether with you!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve formed a tether with you!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve formed a tether with you!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve formed a tether with you!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve formed a tether with you!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Your Spirit Pet healed Steve",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|Your Spirit Pet healed Steve|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Spirit Pet healed Steve|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Spirit Pet healed Steve|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Spirit Pet healed Steve|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Spirit Pet healed Steve|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|You need at least 50 mana to activate this!",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|You need at least 50 mana to activate this!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You need at least 50 mana to activate this!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You need at least 50 mana to activate this!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You need at least 50 mana to activate this!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You need at least 50 mana to activate this!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Your fairy healed you",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|Your fairy healed you|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your fairy healed you|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your fairy healed you|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your fairy healed you|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your fairy healed you|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Ragnarok is now available!",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|Ragnarok is now available!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Ragnarok is now available!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Ragnarok is now available!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Ragnarok is now available!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Ragnarok is now available!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Castle of Stone Activated!",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|Castle of Stone Activated!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Castle of Stone Activated!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Castle of Stone Activated!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Castle of Stone Activated!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Castle of Stone Activated!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve opened a WITHER door!",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve opened a WITHER door!|null",
+      "out": "Clear next room"
+    },
+    {
+      "in": "copilot|Steve opened a WITHER door!|Steve",
+      "out": "Clear next room"
+    },
+    {
+      "in": "copilot|Steve opened a WITHER door!|",
+      "out": "Clear next room"
+    },
+    {
+      "in": "copilot|Steve opened a WITHER door!|steve",
+      "out": "Clear next room"
+    },
+    {
+      "in": "copilot|Steve opened a WITHER door!|Alex",
+      "out": "Clear next room"
+    },
+    {
+      "in": "line|The BLOOD DOOR has been opened!",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|The BLOOD DOOR has been opened!|null",
+      "out": "Wait for Blood Room to fully spawn"
+    },
+    {
+      "in": "copilot|The BLOOD DOOR has been opened!|Steve",
+      "out": "Wait for Blood Room to fully spawn"
+    },
+    {
+      "in": "copilot|The BLOOD DOOR has been opened!|",
+      "out": "Wait for Blood Room to fully spawn"
+    },
+    {
+      "in": "copilot|The BLOOD DOOR has been opened!|steve",
+      "out": "Wait for Blood Room to fully spawn"
+    },
+    {
+      "in": "copilot|The BLOOD DOOR has been opened!|Alex",
+      "out": "Wait for Blood Room to fully spawn"
+    },
+    {
+      "in": "line| ☠ Steve was killed by Zombie and became a ghost.",
+      "out": "null|false|null|null|true|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed by Zombie and became a ghost.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed by Zombie and became a ghost.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed by Zombie and became a ghost.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed by Zombie and became a ghost.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed by Zombie and became a ghost.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ You died and became a ghost.",
+      "out": "null|false|null|null|true|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ You died and became a ghost.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ You died and became a ghost.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ You died and became a ghost.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ You died and became a ghost.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ You died and became a ghost.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ Steve disconnected from the Dungeon and became a ghost.",
+      "out": "null|false|null|null|true|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ Steve disconnected from the Dungeon and became a ghost.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve disconnected from the Dungeon and became a ghost.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve disconnected from the Dungeon and became a ghost.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve disconnected from the Dungeon and became a ghost.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve disconnected from the Dungeon and became a ghost.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ Steve fell into the void and became a ghost.",
+      "out": "null|false|null|null|true|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ Steve fell into the void and became a ghost.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve fell into the void and became a ghost.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve fell into the void and became a ghost.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve fell into the void and became a ghost.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve fell into the void and became a ghost.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ Steve burnt to death and became a ghost.",
+      "out": "null|false|null|null|true|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ Steve burnt to death and became a ghost.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve burnt to death and became a ghost.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve burnt to death and became a ghost.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve burnt to death and became a ghost.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve burnt to death and became a ghost.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ Steve suffocated and became a ghost.",
+      "out": "null|false|null|null|true|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ Steve suffocated and became a ghost.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve suffocated and became a ghost.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve suffocated and became a ghost.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve suffocated and became a ghost.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve suffocated and became a ghost.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ Steve was crushed and became a ghost.",
+      "out": "null|false|null|null|true|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ Steve was crushed and became a ghost.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was crushed and became a ghost.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was crushed and became a ghost.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was crushed and became a ghost.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was crushed and became a ghost.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|☠ Steve was killed and became a ghost.",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|☠ Steve was killed and became a ghost.|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|☠ Steve was killed and became a ghost.|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|☠ Steve was killed and became a ghost.|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|☠ Steve was killed and became a ghost.|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|☠ Steve was killed and became a ghost.|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ Steve was killed and became a ghost",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed and became a ghost|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed and became a ghost|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed and became a ghost|",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed and became a ghost|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed and became a ghost|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Healer Milestone ❷: You have healed 10,000 Health so far! 05m12s",
+      "out": "null|false|null|null|false|true|null|false"
+    },
+    {
+      "in": "copilot|Healer Milestone ❷: You have healed 10,000 Health so far! 05m12s|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Healer Milestone ❷: You have healed 10,000 Health so far! 05m12s|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Healer Milestone ❷: You have healed 10,000 Health so far! 05m12s|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Healer Milestone ❷: You have healed 10,000 Health so far! 05m12s|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Healer Milestone ❷: You have healed 10,000 Health so far! 05m12s|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Tank Milestone ❸: You have tanked and dealt 1,000 Total Damage so far! 03m",
+      "out": "null|false|null|null|false|true|null|false"
+    },
+    {
+      "in": "copilot|Tank Milestone ❸: You have tanked and dealt 1,000 Total Damage so far! 03m|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Tank Milestone ❸: You have tanked and dealt 1,000 Total Damage so far! 03m|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Tank Milestone ❸: You have tanked and dealt 1,000 Total Damage so far! 03m|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Tank Milestone ❸: You have tanked and dealt 1,000 Total Damage so far! 03m|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Tank Milestone ❸: You have tanked and dealt 1,000 Total Damage so far! 03m|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Milestone: You have dealt x so far! y",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Milestone: You have dealt x so far! y|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Milestone: You have dealt x so far! y|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Milestone: You have dealt x so far! y|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Milestone: You have dealt x so far! y|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Milestone: You have dealt x so far! y|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve entered The Catacombs, Floor VII!",
+      "out": "null|false|null|null|false|false|Steve|false"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Floor VII!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Floor VII!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Floor VII!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Floor VII!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Floor VII!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[MVP+] Steve entered MM The Catacombs, Floor III!",
+      "out": "null|false|null|null|false|false|Steve|false"
+    },
+    {
+      "in": "copilot|[MVP+] Steve entered MM The Catacombs, Floor III!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] Steve entered MM The Catacombs, Floor III!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] Steve entered MM The Catacombs, Floor III!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] Steve entered MM The Catacombs, Floor III!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] Steve entered MM The Catacombs, Floor III!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[MVP+] [x] Steve entered The Catacombs, Floor I!",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[MVP+] [x] Steve entered The Catacombs, Floor I!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] [x] Steve entered The Catacombs, Floor I!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] [x] Steve entered The Catacombs, Floor I!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] [x] Steve entered The Catacombs, Floor I!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] [x] Steve entered The Catacombs, Floor I!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|ThisNameIsTooLong12 entered The Catacombs, Floor I!",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|ThisNameIsTooLong12 entered The Catacombs, Floor I!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|ThisNameIsTooLong12 entered The Catacombs, Floor I!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|ThisNameIsTooLong12 entered The Catacombs, Floor I!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|ThisNameIsTooLong12 entered The Catacombs, Floor I!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|ThisNameIsTooLong12 entered The Catacombs, Floor I!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve entered The Catacombs, Entrance",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Entrance|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Entrance|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Entrance|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Entrance|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Entrance|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|The Catacombs - Floor VII",
+      "out": "null|false|null|null|false|false|null|true"
+    },
+    {
+      "in": "copilot|The Catacombs - Floor VII|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Catacombs - Floor VII|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Catacombs - Floor VII|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Catacombs - Floor VII|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Catacombs - Floor VII|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|   Master Mode The Catacombs - Floor III",
+      "out": "null|false|null|null|false|false|null|true"
+    },
+    {
+      "in": "copilot|   Master Mode The Catacombs - Floor III|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|   Master Mode The Catacombs - Floor III|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|   Master Mode The Catacombs - Floor III|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|   Master Mode The Catacombs - Floor III|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|   Master Mode The Catacombs - Floor III|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| The Catacombs - Entrance",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| The Catacombs - Entrance|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| The Catacombs - Entrance|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| The Catacombs - Entrance|",
+      "out": "null"
+    },
+    {
+      "in": "copilot| The Catacombs - Entrance|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| The Catacombs - Entrance|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Catacombs - Floor I",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Catacombs - Floor I|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Catacombs - Floor I|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Catacombs - Floor I|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Catacombs - Floor I|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Catacombs - Floor I|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot||null",
+      "out": "null"
+    },
+    {
+      "in": "copilot||Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot||",
+      "out": "null"
+    },
+    {
+      "in": "copilot||steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot||Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| |",
+      "out": "null"
+    },
+    {
+      "in": "copilot| |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] The Watcher: Things feel a little more roomy now, eh? ",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Things feel a little more roomy now, eh? |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Things feel a little more roomy now, eh? |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Things feel a little more roomy now, eh? |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Things feel a little more roomy now, eh? |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Things feel a little more roomy now, eh? |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] The Watcher: Let's see how you can handle this. ",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Let's see how you can handle this. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Let's see how you can handle this. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Let's see how you can handle this. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Let's see how you can handle this. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: Let's see how you can handle this. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] The Watcher: You have proven yourself. You may pass. ",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: You have proven yourself. You may pass. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: You have proven yourself. You may pass. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: You have proven yourself. You may pass. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: You have proven yourself. You may pass. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: You have proven yourself. You may pass. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] The Watcher: That will be enough for now. ",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: That will be enough for now. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: That will be enough for now. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: That will be enough for now. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: That will be enough for now. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] The Watcher: That will be enough for now. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|The Crystal withers your soul as you hold it in your hands! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|The Crystal withers your soul as you hold it in your hands! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Crystal withers your soul as you hold it in your hands! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Crystal withers your soul as you hold it in your hands! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Crystal withers your soul as you hold it in your hands! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Crystal withers your soul as you hold it in your hands! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|It doesn't seem like that is supposed to go there. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|It doesn't seem like that is supposed to go there. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|It doesn't seem like that is supposed to go there. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|It doesn't seem like that is supposed to go there. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|It doesn't seem like that is supposed to go there. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|It doesn't seem like that is supposed to go there. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] Bonzo: Gratz ",
+      "out": "null|true|Bonzo|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo: Gratz |null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo: Gratz |Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo: Gratz |",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo: Gratz |steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo: Gratz |Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Bonzo ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Bonzo |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] Livid: hi ",
+      "out": "null|true|Livid|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Livid: hi |null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Livid: hi |Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Livid: hi |",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Livid: hi |steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Livid: hi |Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Hungry Livid: hi ",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Hungry Livid: hi |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Hungry Livid: hi |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Hungry Livid: hi |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Hungry Livid: hi |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Hungry Livid: hi |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] Smart Livid: x:y ",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Smart Livid: x:y |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Smart Livid: x:y |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Smart Livid: x:y |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Smart Livid: x:y |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Smart Livid: x:y |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] Livids: hi ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Livids: hi |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Livids: hi |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Livids: hi |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Livids: hi |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] Livids: hi |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] Wither King: You... again? ",
+      "out": "null|true|Wither King|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Wither King: You... again? |null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Wither King: You... again? |Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Wither King: You... again? |",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Wither King: You... again? |steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Wither King: You... again? |Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] King: x ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] King: x |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] King: x |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] King: x |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] King: x |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] King: x |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] Sadan: ENOUGH! ",
+      "out": "null|true|Sadan|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Sadan: ENOUGH! |null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Sadan: ENOUGH! |Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Sadan: ENOUGH! |",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Sadan: ENOUGH! |steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Sadan: ENOUGH! |Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] The Professor: Oh? ",
+      "out": "null|true|The Professor|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] The Professor: Oh? |null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] The Professor: Oh? |Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] The Professor: Oh? |",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] The Professor: Oh? |steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] The Professor: Oh? |Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Enderman: x ",
+      "out": "null|true|Enderman|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Enderman: x |null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Enderman: x |Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Enderman: x |",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Enderman: x |steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Enderman: x |Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Thorn: x ",
+      "out": "null|true|Thorn|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Thorn: x |null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Thorn: x |Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Thorn: x |",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Thorn: x |steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Thorn: x |Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Maxor: x ",
+      "out": "null|true|Maxor|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Maxor: x |null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Maxor: x |Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Maxor: x |",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Maxor: x |steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Maxor: x |Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Storm: x ",
+      "out": "null|true|Storm|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Storm: x |null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Storm: x |Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Storm: x |",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Storm: x |steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Storm: x |Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Goldor: x ",
+      "out": "null|true|Goldor|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Goldor: x |null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Goldor: x |Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Goldor: x |",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Goldor: x |steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Goldor: x |Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Necron: x ",
+      "out": "null|true|Necron|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Necron: x |null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Necron: x |Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Necron: x |",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Necron: x |steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Necron: x |Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] Scarf: x ",
+      "out": "null|true|Scarf|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] Scarf: x |null",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Scarf: x |Steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Scarf: x |",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Scarf: x |steve",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "copilot|[BOSS] Scarf: x |Alex",
+      "out": "Defeat the boss! Good luck :)"
+    },
+    {
+      "in": "line|[BOSS] : x ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] : x |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] : x |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] : x |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] : x |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] : x |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS] ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS] |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS] |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[BOSS]  Bonzo: x ",
+      "out": "null|true|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[BOSS]  Bonzo: x |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS]  Bonzo: x |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS]  Bonzo: x |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS]  Bonzo: x |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[BOSS]  Bonzo: x |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[boss] Bonzo: x ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[boss] Bonzo: x |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[boss] Bonzo: x |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[boss] Bonzo: x |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[boss] Bonzo: x |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[boss] Bonzo: x |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| [BOSS] Bonzo: x ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| [BOSS] Bonzo: x |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| [BOSS] Bonzo: x |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| [BOSS] Bonzo: x |",
+      "out": "null"
+    },
+    {
+      "in": "copilot| [BOSS] Bonzo: x |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| [BOSS] Bonzo: x |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|PUZZLE FAIL! Steve killed a Blaze in the wrong order! Yikes! ",
+      "out": "Steve|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve killed a Blaze in the wrong order! Yikes! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve killed a Blaze in the wrong order! Yikes! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve killed a Blaze in the wrong order! Yikes! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve killed a Blaze in the wrong order! Yikes! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve killed a Blaze in the wrong order! Yikes! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|PUZZLE FAIL! Steve ",
+      "out": "Steve|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL! Steve |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|PUZZLE FAIL!  x y ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL!  x y |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL!  x y |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL!  x y |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL!  x y |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE FAIL!  x y |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[STATUE] Oruo the Omniscient: Alex chose the wrong answer! I shall never forget this moment of misrememberance. ",
+      "out": "Alex|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex chose the wrong answer! I shall never forget this moment of misrememberance. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex chose the wrong answer! I shall never forget this moment of misrememberance. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex chose the wrong answer! I shall never forget this moment of misrememberance. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex chose the wrong answer! I shall never forget this moment of misrememberance. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex chose the wrong answer! I shall never forget this moment of misrememberance. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[STATUE] Oruo the Omniscient: Alex answered Question #1 correctly! ",
+      "out": "null|false|null|PUZZLE|false|false|null|false"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex answered Question #1 correctly! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex answered Question #1 correctly! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex answered Question #1 correctly! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex answered Question #1 correctly! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient: Alex answered Question #1 correctly! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[STATUE] Oruo the Omniscient:  ",
+      "out": "null|false|null|PUZZLE|false|false|null|false"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient:  |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient:  |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient:  |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient:  |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[STATUE] Oruo the Omniscient:  |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|PUZZLE SOLVED! Steve wasn't fooled by Bob! Good job! ",
+      "out": "null|false|null|PUZZLE|false|false|null|false"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve wasn't fooled by Bob! Good job! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve wasn't fooled by Bob! Good job! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve wasn't fooled by Bob! Good job! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve wasn't fooled by Bob! Good job! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve wasn't fooled by Bob! Good job! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|PUZZLE SOLVED! Steve tied Tic Tac Toe! Good job! ",
+      "out": "null|false|null|PUZZLE|false|false|null|false"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve tied Tic Tac Toe! Good job! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve tied Tic Tac Toe! Good job! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve tied Tic Tac Toe! Good job! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve tied Tic Tac Toe! Good job! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|PUZZLE SOLVED! Steve tied Tic Tac Toe! Good job! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[NPC] Mort: Here, I found this map when I first entered the dungeon. ",
+      "out": "null|false|null|PREPARE|false|false|null|false"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Here, I found this map when I first entered the dungeon. |null",
+      "out": "Clear first room"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Here, I found this map when I first entered the dungeon. |Steve",
+      "out": "Clear first room"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Here, I found this map when I first entered the dungeon. |",
+      "out": "Clear first room"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Here, I found this map when I first entered the dungeon. |steve",
+      "out": "Clear first room"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Here, I found this map when I first entered the dungeon. |Alex",
+      "out": "Clear first room"
+    },
+    {
+      "in": "line|[NPC] Mort: Good luck. ",
+      "out": "null|false|null|PREPARE|false|false|null|false"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Good luck. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Good luck. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Good luck. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Good luck. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Good luck. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[NPC] Mort: Talk to me to change your class ",
+      "out": "null|false|null|PREPARE|false|false|null|false"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Talk to me to change your class |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Talk to me to change your class |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Talk to me to change your class |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Talk to me to change your class |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[NPC] Mort: Talk to me to change your class |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve is now ready! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve is now ready! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve is now ready! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve is now ready! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve is now ready! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve is now ready! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Dungeon starts in 1 second. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Dungeon starts in 1 second. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 1 second. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 1 second. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 1 second. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 1 second. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Dungeon starts in 5 seconds. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Dungeon starts in 5 seconds. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 5 seconds. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 5 seconds. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 5 seconds. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in 5 seconds. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Dungeon starts in seconds. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Dungeon starts in seconds. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in seconds. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in seconds. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in seconds. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Dungeon starts in seconds. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve has started the dungeon countdown. The dungeon will begin in 1 minute. ",
+      "out": "null|false|null|PREPARE|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve has started the dungeon countdown. The dungeon will begin in 1 minute. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has started the dungeon countdown. The dungeon will begin in 1 minute. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has started the dungeon countdown. The dungeon will begin in 1 minute. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has started the dungeon countdown. The dungeon will begin in 1 minute. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has started the dungeon countdown. The dungeon will begin in 1 minute. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Your active Potion Effects have been paused and stored. They will be restored when you leave Dungeons! ",
+      "out": "null|false|null|START|false|false|null|false"
+    },
+    {
+      "in": "copilot|Your active Potion Effects have been paused and stored. They will be restored when you leave Dungeons! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your active Potion Effects have been paused and stored. They will be restored when you leave Dungeons! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your active Potion Effects have been paused and stored. They will be restored when you leave Dungeons! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your active Potion Effects have been paused and stored. They will be restored when you leave Dungeons! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your active Potion Effects have been paused and stored. They will be restored when you leave Dungeons! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|You can no longer consume or splash any potions during the remainder of this Dungeon run! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|You can no longer consume or splash any potions during the remainder of this Dungeon run! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You can no longer consume or splash any potions during the remainder of this Dungeon run! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You can no longer consume or splash any potions during the remainder of this Dungeon run! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You can no longer consume or splash any potions during the remainder of this Dungeon run! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You can no longer consume or splash any potions during the remainder of this Dungeon run! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|A shiver runs down your spine... ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|A shiver runs down your spine... |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A shiver runs down your spine... |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A shiver runs down your spine... |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A shiver runs down your spine... |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A shiver runs down your spine... |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve has obtained Superboom TNT! ",
+      "out": "null|false|null|PICKUP|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve has obtained Superboom TNT! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Superboom TNT! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Superboom TNT! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Superboom TNT! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Superboom TNT! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve has obtained Blessing of Power! ",
+      "out": "null|false|null|PICKUP|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve has obtained Blessing of Power! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Blessing of Power! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Blessing of Power! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Blessing of Power! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve has obtained Blessing of Power! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve has obtained Wither Key! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key! |null",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key! |Steve",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key! |",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key! |steve",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key! |Alex",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "line|Steve has obtained Blood Key! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve has obtained Blood Key! |null",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Blood Key! |Steve",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Blood Key! |",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Blood Key! |steve",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Blood Key! |Alex",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "line|A Wither Key was picked up! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|A Wither Key was picked up! |null",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key was picked up! |Steve",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key was picked up! |",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key was picked up! |steve",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key was picked up! |Alex",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "line|A Blood Key was picked up! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|A Blood Key was picked up! |null",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|A Blood Key was picked up! |Steve",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|A Blood Key was picked up! |",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|A Blood Key was picked up! |steve",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "copilot|A Blood Key was picked up! |Alex",
+      "out": "Open Blood Door"
+    },
+    {
+      "in": "line|A Wither Key! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|A Wither Key! |null",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key! |Steve",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key! |",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key! |steve",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|A Wither Key! |Alex",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "line|Steve found a Wither Essence! Everyone gains an extra essence! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve found a Wither Essence! Everyone gains an extra essence! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve found a Wither Essence! Everyone gains an extra essence! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve found a Wither Essence! Everyone gains an extra essence! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve found a Wither Essence! Everyone gains an extra essence! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve found a Wither Essence! Everyone gains an extra essence! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Bob the Fairy: You killed me! Take this Revive Stone so that my death is not in vain! ",
+      "out": "null|false|null|PICKUP|false|false|null|false"
+    },
+    {
+      "in": "copilot|Bob the Fairy: You killed me! Take this Revive Stone so that my death is not in vain! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Bob the Fairy: You killed me! Take this Revive Stone so that my death is not in vain! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Bob the Fairy: You killed me! Take this Revive Stone so that my death is not in vain! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Bob the Fairy: You killed me! Take this Revive Stone so that my death is not in vain! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Bob the Fairy: You killed me! Take this Revive Stone so that my death is not in vain! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|A Blessing of Wisdom was picked up! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|A Blessing of Wisdom was picked up! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A Blessing of Wisdom was picked up! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A Blessing of Wisdom was picked up! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A Blessing of Wisdom was picked up! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A Blessing of Wisdom was picked up! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|RIGHT CLICK on a WITHER door to open it. This key can only be used to open 1 door! ",
+      "out": "null|false|null|REMINDER|false|false|null|false"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on a WITHER door to open it. This key can only be used to open 1 door! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on a WITHER door to open it. This key can only be used to open 1 door! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on a WITHER door to open it. This key can only be used to open 1 door! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on a WITHER door to open it. This key can only be used to open 1 door! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on a WITHER door to open it. This key can only be used to open 1 door! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|RIGHT CLICK on the BLOOD DOOR to open it. ",
+      "out": "null|false|null|REMINDER|false|false|null|false"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on the BLOOD DOOR to open it. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on the BLOOD DOOR to open it. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on the BLOOD DOOR to open it. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on the BLOOD DOOR to open it. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|RIGHT CLICK on the BLOOD DOOR to open it. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|DUNGEON BUFF! Steve found a Blessing of Life V! ",
+      "out": "null|false|null|BUFF|false|false|null|false"
+    },
+    {
+      "in": "copilot|DUNGEON BUFF! Steve found a Blessing of Life V! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|DUNGEON BUFF! Steve found a Blessing of Life V! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|DUNGEON BUFF! Steve found a Blessing of Life V! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|DUNGEON BUFF! Steve found a Blessing of Life V! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|DUNGEON BUFF! Steve found a Blessing of Life V! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|BUFF! You have gained Healing V! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|BUFF! You have gained Healing V! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|BUFF! You have gained Healing V! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|BUFF! You have gained Healing V! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|BUFF! You have gained Healing V! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|BUFF! You have gained Healing V! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|     Granted you +10 Strength. ",
+      "out": "null|false|null|BUFF|false|false|null|false"
+    },
+    {
+      "in": "copilot|     Granted you +10 Strength. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|     Granted you +10 Strength. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|     Granted you +10 Strength. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|     Granted you +10 Strength. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|     Granted you +10 Strength. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|    Granted you x ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|    Granted you x |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|    Granted you x |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|    Granted you x |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|    Granted you x |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|    Granted you x |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|You cannot hit the silverfish while it's moving! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|You cannot hit the silverfish while it's moving! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You cannot hit the silverfish while it's moving! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You cannot hit the silverfish while it's moving! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You cannot hit the silverfish while it's moving! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You cannot hit the silverfish while it's moving! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|There are blocks in the way! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|There are blocks in the way! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|There are blocks in the way! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|There are blocks in the way! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|There are blocks in the way! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|There are blocks in the way! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|This lever has already been used. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|This lever has already been used. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This lever has already been used. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This lever has already been used. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This lever has already been used. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This lever has already been used. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|A mystical force in this room prevents you from using that ability! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|A mystical force in this room prevents you from using that ability! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A mystical force in this room prevents you from using that ability! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A mystical force in this room prevents you from using that ability! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A mystical force in this room prevents you from using that ability! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|A mystical force in this room prevents you from using that ability! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|You do not have the key for this door! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|You do not have the key for this door! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You do not have the key for this door! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You do not have the key for this door! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You do not have the key for this door! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You do not have the key for this door! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|The Zombie struck you for 1,234 damage! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|The Zombie struck you for 1,234 damage! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Zombie struck you for 1,234 damage! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Zombie struck you for 1,234 damage! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Zombie struck you for 1,234 damage! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Zombie struck you for 1,234 damage! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Skeleton hit you for 5.5 true damage. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Skeleton hit you for 5.5 true damage. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Skeleton hit you for 5.5 true damage. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Skeleton hit you for 5.5 true damage. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Skeleton hit you for 5.5 true damage. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Skeleton hit you for 5.5 true damage. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Creeper exploded, hitting you for 100 damage. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Creeper exploded, hitting you for 100 damage. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Creeper exploded, hitting you for 100 damage. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Creeper exploded, hitting you for 100 damage. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Creeper exploded, hitting you for 100 damage. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Creeper exploded, hitting you for 100 damage. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Your Ice Spray hit 3 enemies for 1,000 damage. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Your Ice Spray hit 3 enemies for 1,000 damage. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Ice Spray hit 3 enemies for 1,000 damage. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Ice Spray hit 3 enemies for 1,000 damage. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Ice Spray hit 3 enemies for 1,000 damage. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Ice Spray hit 3 enemies for 1,000 damage. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|The Mage's Magma burnt you for 10 true damage. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|The Mage's Magma burnt you for 10 true damage. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Mage's Magma burnt you for 10 true damage. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Mage's Magma burnt you for 10 true damage. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Mage's Magma burnt you for 10 true damage. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Mage's Magma burnt you for 10 true damage. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve used Healing Circle on you! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve used Healing Circle on you! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve used Healing Circle on you! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve used Healing Circle on you! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve used Healing Circle on you! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve used Healing Circle on you! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Your Guided Sheep hit 2 enemies ",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|Your Guided Sheep hit 2 enemies |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Guided Sheep hit 2 enemies |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Guided Sheep hit 2 enemies |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Guided Sheep hit 2 enemies |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Guided Sheep hit 2 enemies |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|You were healed for 100 health by Steve's Wand ",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|You were healed for 100 health by Steve's Wand |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You were healed for 100 health by Steve's Wand |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You were healed for 100 health by Steve's Wand |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You were healed for 100 health by Steve's Wand |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You were healed for 100 health by Steve's Wand |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve picked up your Healing Orb! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve picked up your Healing Orb! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve picked up your Healing Orb! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve picked up your Healing Orb! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve picked up your Healing Orb! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve picked up your Healing Orb! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|This ability is on cooldown for 3s. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|This ability is on cooldown for 3s. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This ability is on cooldown for 3s. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This ability is on cooldown for 3s. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This ability is on cooldown for 3s. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|This ability is on cooldown for 3s. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve healed you for 50 health! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve healed you for 50 health! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve healed you for 50 health! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve healed you for 50 health! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve healed you for 50 health! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve healed you for 50 health! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve formed a tether with you! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve formed a tether with you! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve formed a tether with you! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve formed a tether with you! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve formed a tether with you! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve formed a tether with you! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Your Spirit Pet healed Steve ",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|Your Spirit Pet healed Steve |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Spirit Pet healed Steve |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Spirit Pet healed Steve |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Spirit Pet healed Steve |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your Spirit Pet healed Steve |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|You need at least 50 mana to activate this! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|You need at least 50 mana to activate this! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You need at least 50 mana to activate this! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You need at least 50 mana to activate this! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You need at least 50 mana to activate this! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|You need at least 50 mana to activate this! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Your fairy healed you ",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|Your fairy healed you |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your fairy healed you |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your fairy healed you |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your fairy healed you |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Your fairy healed you |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Ragnarok is now available! ",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|Ragnarok is now available! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Ragnarok is now available! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Ragnarok is now available! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Ragnarok is now available! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Ragnarok is now available! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Castle of Stone Activated! ",
+      "out": "null|false|null|ABILITY|false|false|null|false"
+    },
+    {
+      "in": "copilot|Castle of Stone Activated! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Castle of Stone Activated! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Castle of Stone Activated! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Castle of Stone Activated! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Castle of Stone Activated! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve opened a WITHER door! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve opened a WITHER door! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve opened a WITHER door! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve opened a WITHER door! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve opened a WITHER door! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve opened a WITHER door! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|The BLOOD DOOR has been opened! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|The BLOOD DOOR has been opened! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The BLOOD DOOR has been opened! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The BLOOD DOOR has been opened! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The BLOOD DOOR has been opened! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The BLOOD DOOR has been opened! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ Steve was killed by Zombie and became a ghost. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed by Zombie and became a ghost. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed by Zombie and became a ghost. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed by Zombie and became a ghost. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed by Zombie and became a ghost. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed by Zombie and became a ghost. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ You died and became a ghost. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ You died and became a ghost. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ You died and became a ghost. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ You died and became a ghost. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ You died and became a ghost. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ You died and became a ghost. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ Steve disconnected from the Dungeon and became a ghost. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ Steve disconnected from the Dungeon and became a ghost. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve disconnected from the Dungeon and became a ghost. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve disconnected from the Dungeon and became a ghost. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve disconnected from the Dungeon and became a ghost. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve disconnected from the Dungeon and became a ghost. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ Steve fell into the void and became a ghost. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ Steve fell into the void and became a ghost. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve fell into the void and became a ghost. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve fell into the void and became a ghost. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve fell into the void and became a ghost. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve fell into the void and became a ghost. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ Steve burnt to death and became a ghost. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ Steve burnt to death and became a ghost. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve burnt to death and became a ghost. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve burnt to death and became a ghost. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve burnt to death and became a ghost. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve burnt to death and became a ghost. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ Steve suffocated and became a ghost. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ Steve suffocated and became a ghost. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve suffocated and became a ghost. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve suffocated and became a ghost. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve suffocated and became a ghost. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve suffocated and became a ghost. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ Steve was crushed and became a ghost. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ Steve was crushed and became a ghost. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was crushed and became a ghost. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was crushed and became a ghost. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was crushed and became a ghost. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was crushed and became a ghost. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|☠ Steve was killed and became a ghost. ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|☠ Steve was killed and became a ghost. |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|☠ Steve was killed and became a ghost. |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|☠ Steve was killed and became a ghost. |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|☠ Steve was killed and became a ghost. |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|☠ Steve was killed and became a ghost. |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ☠ Steve was killed and became a ghost ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed and became a ghost |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed and became a ghost |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed and became a ghost |",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed and became a ghost |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| ☠ Steve was killed and became a ghost |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Healer Milestone ❷: You have healed 10,000 Health so far! 05m12s ",
+      "out": "null|false|null|null|false|true|null|false"
+    },
+    {
+      "in": "copilot|Healer Milestone ❷: You have healed 10,000 Health so far! 05m12s |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Healer Milestone ❷: You have healed 10,000 Health so far! 05m12s |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Healer Milestone ❷: You have healed 10,000 Health so far! 05m12s |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Healer Milestone ❷: You have healed 10,000 Health so far! 05m12s |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Healer Milestone ❷: You have healed 10,000 Health so far! 05m12s |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Tank Milestone ❸: You have tanked and dealt 1,000 Total Damage so far! 03m ",
+      "out": "null|false|null|null|false|true|null|false"
+    },
+    {
+      "in": "copilot|Tank Milestone ❸: You have tanked and dealt 1,000 Total Damage so far! 03m |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Tank Milestone ❸: You have tanked and dealt 1,000 Total Damage so far! 03m |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Tank Milestone ❸: You have tanked and dealt 1,000 Total Damage so far! 03m |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Tank Milestone ❸: You have tanked and dealt 1,000 Total Damage so far! 03m |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Tank Milestone ❸: You have tanked and dealt 1,000 Total Damage so far! 03m |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Milestone: You have dealt x so far! y ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Milestone: You have dealt x so far! y |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Milestone: You have dealt x so far! y |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Milestone: You have dealt x so far! y |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Milestone: You have dealt x so far! y |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Milestone: You have dealt x so far! y |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve entered The Catacombs, Floor VII! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Floor VII! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Floor VII! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Floor VII! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Floor VII! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Floor VII! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[MVP+] Steve entered MM The Catacombs, Floor III! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[MVP+] Steve entered MM The Catacombs, Floor III! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] Steve entered MM The Catacombs, Floor III! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] Steve entered MM The Catacombs, Floor III! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] Steve entered MM The Catacombs, Floor III! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] Steve entered MM The Catacombs, Floor III! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|[MVP+] [x] Steve entered The Catacombs, Floor I! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|[MVP+] [x] Steve entered The Catacombs, Floor I! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] [x] Steve entered The Catacombs, Floor I! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] [x] Steve entered The Catacombs, Floor I! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] [x] Steve entered The Catacombs, Floor I! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|[MVP+] [x] Steve entered The Catacombs, Floor I! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|ThisNameIsTooLong12 entered The Catacombs, Floor I! ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|ThisNameIsTooLong12 entered The Catacombs, Floor I! |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|ThisNameIsTooLong12 entered The Catacombs, Floor I! |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|ThisNameIsTooLong12 entered The Catacombs, Floor I! |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|ThisNameIsTooLong12 entered The Catacombs, Floor I! |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|ThisNameIsTooLong12 entered The Catacombs, Floor I! |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve entered The Catacombs, Entrance ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Entrance |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Entrance |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Entrance |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Entrance |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Steve entered The Catacombs, Entrance |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|The Catacombs - Floor VII ",
+      "out": "null|false|null|null|false|false|null|true"
+    },
+    {
+      "in": "copilot|The Catacombs - Floor VII |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Catacombs - Floor VII |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Catacombs - Floor VII |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Catacombs - Floor VII |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|The Catacombs - Floor VII |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|   Master Mode The Catacombs - Floor III ",
+      "out": "null|false|null|null|false|false|null|true"
+    },
+    {
+      "in": "copilot|   Master Mode The Catacombs - Floor III |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|   Master Mode The Catacombs - Floor III |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|   Master Mode The Catacombs - Floor III |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|   Master Mode The Catacombs - Floor III |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|   Master Mode The Catacombs - Floor III |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| The Catacombs - Entrance ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| The Catacombs - Entrance |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| The Catacombs - Entrance |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| The Catacombs - Entrance |",
+      "out": "null"
+    },
+    {
+      "in": "copilot| The Catacombs - Entrance |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| The Catacombs - Entrance |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Catacombs - Floor I ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Catacombs - Floor I |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Catacombs - Floor I |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Catacombs - Floor I |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Catacombs - Floor I |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|Catacombs - Floor I |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line| ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot| |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot| |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| |",
+      "out": "null"
+    },
+    {
+      "in": "copilot| |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot| |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|  ",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|  |null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|  |Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|  |",
+      "out": "null"
+    },
+    {
+      "in": "copilot|  |steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|  |Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|Steve has obtained Wither Key! extra",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key! extra|null",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key! extra|Steve",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key! extra|",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key! extra|steve",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "copilot|Steve has obtained Wither Key! extra|Alex",
+      "out": "Open Wither Door"
+    },
+    {
+      "in": "line|x A Wither Key!",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|x A Wither Key!|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|x A Wither Key!|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|x A Wither Key!|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|x A Wither Key!|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|x A Wither Key!|Alex",
+      "out": "null"
+    },
+    {
+      "in": "line|random text",
+      "out": "null|false|null|null|false|false|null|false"
+    },
+    {
+      "in": "copilot|random text|null",
+      "out": "null"
+    },
+    {
+      "in": "copilot|random text|Steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|random text|",
+      "out": "null"
+    },
+    {
+      "in": "copilot|random text|steve",
+      "out": "null"
+    },
+    {
+      "in": "copilot|random text|Alex",
+      "out": "null"
+    },
+    {
+      "in": "blood|-1000",
+      "out": "null"
+    },
+    {
+      "in": "blood|-1000|0",
+      "out": "null"
+    },
+    {
+      "in": "blood|-1000|250",
+      "out": "null"
+    },
+    {
+      "in": "blood|-1000|-100",
+      "out": "null"
+    },
+    {
+      "in": "blood|-1000|1500",
+      "out": "null"
+    },
+    {
+      "in": "blood|0",
+      "out": "null"
+    },
+    {
+      "in": "blood|0|0",
+      "out": "null"
+    },
+    {
+      "in": "blood|0|250",
+      "out": "null"
+    },
+    {
+      "in": "blood|0|-100",
+      "out": "null"
+    },
+    {
+      "in": "blood|0|1500",
+      "out": "null"
+    },
+    {
+      "in": "blood|999",
+      "out": "null"
+    },
+    {
+      "in": "blood|999|0",
+      "out": "null"
+    },
+    {
+      "in": "blood|999|250",
+      "out": "null"
+    },
+    {
+      "in": "blood|999|-100",
+      "out": "null"
+    },
+    {
+      "in": "blood|999|1500",
+      "out": "null"
+    },
+    {
+      "in": "blood|1000",
+      "out": "24s"
+    },
+    {
+      "in": "blood|1000|0",
+      "out": "24s"
+    },
+    {
+      "in": "blood|1000|250",
+      "out": "24.25s"
+    },
+    {
+      "in": "blood|1000|-100",
+      "out": "23.9s"
+    },
+    {
+      "in": "blood|1000|1500",
+      "out": "25.5s"
+    },
+    {
+      "in": "blood|1001",
+      "out": "24s"
+    },
+    {
+      "in": "blood|1001|0",
+      "out": "24s"
+    },
+    {
+      "in": "blood|1001|250",
+      "out": "24.25s"
+    },
+    {
+      "in": "blood|1001|-100",
+      "out": "23.9s"
+    },
+    {
+      "in": "blood|1001|1500",
+      "out": "25.5s"
+    },
+    {
+      "in": "blood|21999",
+      "out": "24s"
+    },
+    {
+      "in": "blood|21999|0",
+      "out": "24s"
+    },
+    {
+      "in": "blood|21999|250",
+      "out": "24.25s"
+    },
+    {
+      "in": "blood|21999|-100",
+      "out": "23.9s"
+    },
+    {
+      "in": "blood|21999|1500",
+      "out": "25.5s"
+    },
+    {
+      "in": "blood|22000",
+      "out": "27s"
+    },
+    {
+      "in": "blood|22000|0",
+      "out": "27s"
+    },
+    {
+      "in": "blood|22000|250",
+      "out": "27.25s"
+    },
+    {
+      "in": "blood|22000|-100",
+      "out": "26.9s"
+    },
+    {
+      "in": "blood|22000|1500",
+      "out": "28.5s"
+    },
+    {
+      "in": "blood|22001",
+      "out": "27s"
+    },
+    {
+      "in": "blood|22001|0",
+      "out": "27s"
+    },
+    {
+      "in": "blood|22001|250",
+      "out": "27.25s"
+    },
+    {
+      "in": "blood|22001|-100",
+      "out": "26.9s"
+    },
+    {
+      "in": "blood|22001|1500",
+      "out": "28.5s"
+    },
+    {
+      "in": "blood|24999",
+      "out": "27s"
+    },
+    {
+      "in": "blood|24999|0",
+      "out": "27s"
+    },
+    {
+      "in": "blood|24999|250",
+      "out": "27.25s"
+    },
+    {
+      "in": "blood|24999|-100",
+      "out": "26.9s"
+    },
+    {
+      "in": "blood|24999|1500",
+      "out": "28.5s"
+    },
+    {
+      "in": "blood|25000",
+      "out": "30s"
+    },
+    {
+      "in": "blood|25000|0",
+      "out": "30s"
+    },
+    {
+      "in": "blood|25000|250",
+      "out": "30.25s"
+    },
+    {
+      "in": "blood|25000|-100",
+      "out": "29.9s"
+    },
+    {
+      "in": "blood|25000|1500",
+      "out": "31.5s"
+    },
+    {
+      "in": "blood|27500",
+      "out": "30s"
+    },
+    {
+      "in": "blood|27500|0",
+      "out": "30s"
+    },
+    {
+      "in": "blood|27500|250",
+      "out": "30.25s"
+    },
+    {
+      "in": "blood|27500|-100",
+      "out": "29.9s"
+    },
+    {
+      "in": "blood|27500|1500",
+      "out": "31.5s"
+    },
+    {
+      "in": "blood|28000",
+      "out": "33s"
+    },
+    {
+      "in": "blood|28000|0",
+      "out": "33s"
+    },
+    {
+      "in": "blood|28000|250",
+      "out": "33.25s"
+    },
+    {
+      "in": "blood|28000|-100",
+      "out": "32.9s"
+    },
+    {
+      "in": "blood|28000|1500",
+      "out": "34.5s"
+    },
+    {
+      "in": "blood|30999",
+      "out": "33s"
+    },
+    {
+      "in": "blood|30999|0",
+      "out": "33s"
+    },
+    {
+      "in": "blood|30999|250",
+      "out": "33.25s"
+    },
+    {
+      "in": "blood|30999|-100",
+      "out": "32.9s"
+    },
+    {
+      "in": "blood|30999|1500",
+      "out": "34.5s"
+    },
+    {
+      "in": "blood|31000",
+      "out": "36s"
+    },
+    {
+      "in": "blood|31000|0",
+      "out": "36s"
+    },
+    {
+      "in": "blood|31000|250",
+      "out": "36.25s"
+    },
+    {
+      "in": "blood|31000|-100",
+      "out": "35.9s"
+    },
+    {
+      "in": "blood|31000|1500",
+      "out": "37.5s"
+    },
+    {
+      "in": "blood|33999",
+      "out": "36s"
+    },
+    {
+      "in": "blood|33999|0",
+      "out": "36s"
+    },
+    {
+      "in": "blood|33999|250",
+      "out": "36.25s"
+    },
+    {
+      "in": "blood|33999|-100",
+      "out": "35.9s"
+    },
+    {
+      "in": "blood|33999|1500",
+      "out": "37.5s"
+    },
+    {
+      "in": "blood|34000",
+      "out": "36s"
+    },
+    {
+      "in": "blood|34000|0",
+      "out": "36s"
+    },
+    {
+      "in": "blood|34000|250",
+      "out": "36.25s"
+    },
+    {
+      "in": "blood|34000|-100",
+      "out": "35.9s"
+    },
+    {
+      "in": "blood|34000|1500",
+      "out": "37.5s"
+    },
+    {
+      "in": "blood|34001",
+      "out": "null"
+    },
+    {
+      "in": "blood|34001|0",
+      "out": "null"
+    },
+    {
+      "in": "blood|34001|250",
+      "out": "null"
+    },
+    {
+      "in": "blood|34001|-100",
+      "out": "null"
+    },
+    {
+      "in": "blood|34001|1500",
+      "out": "null"
+    },
+    {
+      "in": "blood|40000",
+      "out": "null"
+    },
+    {
+      "in": "blood|40000|0",
+      "out": "null"
+    },
+    {
+      "in": "blood|40000|250",
+      "out": "null"
+    },
+    {
+      "in": "blood|40000|-100",
+      "out": "null"
+    },
+    {
+      "in": "blood|40000|1500",
+      "out": "null"
+    },
+    {
+      "in": "blood|500",
+      "out": "null"
+    },
+    {
+      "in": "blood|500|0",
+      "out": "null"
+    },
+    {
+      "in": "blood|500|250",
+      "out": "null"
+    },
+    {
+      "in": "blood|500|-100",
+      "out": "null"
+    },
+    {
+      "in": "blood|500|1500",
+      "out": "null"
+    },
+    {
+      "in": "blood|15000",
+      "out": "24s"
+    },
+    {
+      "in": "blood|15000|0",
+      "out": "24s"
+    },
+    {
+      "in": "blood|15000|250",
+      "out": "24.25s"
+    },
+    {
+      "in": "blood|15000|-100",
+      "out": "23.9s"
+    },
+    {
+      "in": "blood|15000|1500",
+      "out": "25.5s"
+    },
+    {
+      "in": "blood|2305843009213693951",
+      "out": "null"
+    },
+    {
+      "in": "blood|2305843009213693951|0",
+      "out": "null"
+    },
+    {
+      "in": "blood|2305843009213693951|250",
+      "out": "null"
+    },
+    {
+      "in": "blood|2305843009213693951|-100",
+      "out": "null"
+    },
+    {
+      "in": "blood|2305843009213693951|1500",
+      "out": "null"
+    },
+    {
+      "in": "mate|§e[H] §bFlameeke §c8,998§c❤",
+      "out": "Teammate(cls=H, name=Flameeke, colour=c, health=8,998) true"
+    },
+    {
+      "in": "mate|§e[H] §bFlameeke §a12,345§c❤",
+      "out": "Teammate(cls=H, name=Flameeke, colour=a, health=12,345) false"
+    },
+    {
+      "in": "mate|§e[M] §bSteve §cDEAD",
+      "out": "Teammate(cls=M, name=Steve, colour=c, health=DEAD) false"
+    },
+    {
+      "in": "mate|§e[M] §bSteve §7DEAD",
+      "out": "Teammate(cls=M, name=Steve, colour=7, health=DEAD) false"
+    },
+    {
+      "in": "mate|[A] Bob §e100",
+      "out": "Teammate(cls=A, name=Bob, colour=e, health=100) false"
+    },
+    {
+      "in": "mate|§e[h] §bSteve §c1",
+      "out": "null null"
+    },
+    {
+      "in": "mate|§e[T] §b§lSteve§r §c§l1,000",
+      "out": "Teammate(cls=T, name=Steve, colour=l, health=1,000) false"
+    },
+    {
+      "in": "mate|§e[B] §bA §c,",
+      "out": "Teammate(cls=B, name=A, colour=c, health=,) true"
+    },
+    {
+      "in": "mate|[B] ThisNameIsTooLong12 §c5",
+      "out": "null null"
+    },
+    {
+      "in": "mate|x§e[B] Bob §c5",
+      "out": "null null"
+    },
+    {
+      "in": "mate|§e[B]  Bob §c5",
+      "out": "null null"
+    },
+    {
+      "in": "mate|§e[B] Bob 100",
+      "out": "null null"
+    },
+    {
+      "in": "mate|§e[B] Bob §c",
+      "out": "null null"
+    },
+    {
+      "in": "mate|",
+      "out": "null null"
+    },
+    {
+      "in": "mate|§e[B] Bob §c5 extra §a7",
+      "out": "Teammate(cls=B, name=Bob, colour=c, health=5) true"
+    },
+    {
+      "in": "tab|[]",
+      "out": "null"
+    },
+    {
+      "in": "tab|[Puzzles: (3)]",
+      "out": "3"
+    },
+    {
+      "in": "tab|[x,  Puzzles: (12) y, Puzzles: (4)]",
+      "out": "12"
+    },
+    {
+      "in": "tab|[Puzzles: (), Puzzles: (2)]",
+      "out": "2"
+    },
+    {
+      "in": "tab|[Puzzles: (99999999999), Puzzles: (2)]",
+      "out": "null"
+    },
+    {
+      "in": "tab|[puzzles: (1)]",
+      "out": "null"
+    },
+    {
+      "in": "board|[]",
+      "out": "null"
+    },
+    {
+      "in": "board|[ ⏣ The Catacombs (M3)]",
+      "out": "M3"
+    },
+    {
+      "in": "board|[The Catacombs (E), The Catacombs (F7)]",
+      "out": "E"
+    },
+    {
+      "in": "board|[The Catacombs (F10)]",
+      "out": "null"
+    },
+    {
+      "in": "board|[The Catacombs (), x The Catacombs (F1)]",
+      "out": "F1"
+    },
+    {
+      "in": "board|[The Catacombs (X1)]",
+      "out": "null"
+    },
+    {
+      "in": "board|[The Catacombs (M)]",
+      "out": "M"
+    },
+    {
+      "in": "death|-2",
+      "out": "§4"
+    },
+    {
+      "in": "death|-1",
+      "out": "§4"
+    },
+    {
+      "in": "death|0",
+      "out": "§4"
+    },
+    {
+      "in": "death|1",
+      "out": "§e"
+    },
+    {
+      "in": "death|2",
+      "out": "§e"
+    },
+    {
+      "in": "death|3",
+      "out": "§c"
+    },
+    {
+      "in": "death|4",
+      "out": "§4"
+    },
+    {
+      "in": "death|5",
+      "out": "§4"
+    },
+    {
+      "in": "death|6",
+      "out": "§4"
+    }
+  ]
+}

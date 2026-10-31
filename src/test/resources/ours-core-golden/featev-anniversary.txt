@@ -1,0 +1,125 @@
+id anniversary dur=1m 30s pattern=SHINY! You extracted Shiny Shard and (?<reward>.*) from the piglet's orb!
+exp=\+(?<exp>[0-9]+(?:,[0-9]+)*(?:\.[0-9]+)?[kKmMbB]?) (?<kind>[^ ]+) XP coin=(?i)\+(?<amount>[0-9]+(?:,[0-9]+)*(?:\.[0-9]+)?[kKmMbB]?) Coins item=(?:(?<amount>[0-9]+)x )?(?<name>.*)
+pig SHINY! You extracted Shiny Shard and +500 Farming XP from the piglet's orb! -> reward=+500 Farming XP
+pig SHINY! You extracted Shiny Shard and 3x Enchanted Pork from the piglet's orb! -> reward=3x Enchanted Pork
+pig SHINY! nope -> nomatch
+r +500 Farming XP -> exp[exp=500,kind=Farming] coin[nomatch] item[amount=null,name=+500 Farming XP]
+r +1.5k Combat XP -> exp[exp=1.5k,kind=Combat] coin[nomatch] item[amount=null,name=+1.5k Combat XP]
+r +2M Coins -> exp[nomatch] coin[amount=2M] item[amount=null,name=+2M Coins]
+r +300 coins -> exp[nomatch] coin[amount=300] item[amount=null,name=+300 coins]
+r 3x Enchanted Pork -> exp[nomatch] coin[nomatch] item[amount=3,name=Enchanted Pork]
+r Enchanted Pork -> exp[nomatch] coin[nomatch] item[amount=null,name=Enchanted Pork]
+r + Coins -> exp[nomatch] coin[nomatch] item[amount=null,name=+ Coins]
+merge EXP(amount=10.0, skill=Farming) + EXP(amount=10.0, skill=Farming) = EXP(amount=20.0, skill=Farming)
+merge EXP(amount=10.0, skill=Farming) + EXP(amount=5.0, skill=Combat) = null
+merge EXP(amount=10.0, skill=Farming) + EXP(amount=2.5, skill=Farming) = EXP(amount=12.5, skill=Farming)
+merge EXP(amount=10.0, skill=Farming) + Coins(amount=100.0) = null
+merge EXP(amount=10.0, skill=Farming) + Coins(amount=50.0) = null
+merge EXP(amount=10.0, skill=Farming) + Items(amount=2, item=PORK) = null
+merge EXP(amount=10.0, skill=Farming) + Items(amount=3, item=PORK) = null
+merge EXP(amount=10.0, skill=Farming) + Items(amount=1, item=BEEF) = null
+merge EXP(amount=10.0, skill=Farming) + Unknown(text=x) = null
+merge EXP(amount=10.0, skill=Farming) + Unknown(text=x) = null
+merge EXP(amount=5.0, skill=Combat) + EXP(amount=10.0, skill=Farming) = null
+merge EXP(amount=5.0, skill=Combat) + EXP(amount=5.0, skill=Combat) = EXP(amount=10.0, skill=Combat)
+merge EXP(amount=5.0, skill=Combat) + EXP(amount=2.5, skill=Farming) = null
+merge EXP(amount=5.0, skill=Combat) + Coins(amount=100.0) = null
+merge EXP(amount=5.0, skill=Combat) + Coins(amount=50.0) = null
+merge EXP(amount=5.0, skill=Combat) + Items(amount=2, item=PORK) = null
+merge EXP(amount=5.0, skill=Combat) + Items(amount=3, item=PORK) = null
+merge EXP(amount=5.0, skill=Combat) + Items(amount=1, item=BEEF) = null
+merge EXP(amount=5.0, skill=Combat) + Unknown(text=x) = null
+merge EXP(amount=5.0, skill=Combat) + Unknown(text=x) = null
+merge EXP(amount=2.5, skill=Farming) + EXP(amount=10.0, skill=Farming) = EXP(amount=12.5, skill=Farming)
+merge EXP(amount=2.5, skill=Farming) + EXP(amount=5.0, skill=Combat) = null
+merge EXP(amount=2.5, skill=Farming) + EXP(amount=2.5, skill=Farming) = EXP(amount=5.0, skill=Farming)
+merge EXP(amount=2.5, skill=Farming) + Coins(amount=100.0) = null
+merge EXP(amount=2.5, skill=Farming) + Coins(amount=50.0) = null
+merge EXP(amount=2.5, skill=Farming) + Items(amount=2, item=PORK) = null
+merge EXP(amount=2.5, skill=Farming) + Items(amount=3, item=PORK) = null
+merge EXP(amount=2.5, skill=Farming) + Items(amount=1, item=BEEF) = null
+merge EXP(amount=2.5, skill=Farming) + Unknown(text=x) = null
+merge EXP(amount=2.5, skill=Farming) + Unknown(text=x) = null
+merge Coins(amount=100.0) + EXP(amount=10.0, skill=Farming) = null
+merge Coins(amount=100.0) + EXP(amount=5.0, skill=Combat) = null
+merge Coins(amount=100.0) + EXP(amount=2.5, skill=Farming) = null
+merge Coins(amount=100.0) + Coins(amount=100.0) = Coins(amount=200.0)
+merge Coins(amount=100.0) + Coins(amount=50.0) = Coins(amount=150.0)
+merge Coins(amount=100.0) + Items(amount=2, item=PORK) = null
+merge Coins(amount=100.0) + Items(amount=3, item=PORK) = null
+merge Coins(amount=100.0) + Items(amount=1, item=BEEF) = null
+merge Coins(amount=100.0) + Unknown(text=x) = null
+merge Coins(amount=100.0) + Unknown(text=x) = null
+merge Coins(amount=50.0) + EXP(amount=10.0, skill=Farming) = null
+merge Coins(amount=50.0) + EXP(amount=5.0, skill=Combat) = null
+merge Coins(amount=50.0) + EXP(amount=2.5, skill=Farming) = null
+merge Coins(amount=50.0) + Coins(amount=100.0) = Coins(amount=150.0)
+merge Coins(amount=50.0) + Coins(amount=50.0) = Coins(amount=100.0)
+merge Coins(amount=50.0) + Items(amount=2, item=PORK) = null
+merge Coins(amount=50.0) + Items(amount=3, item=PORK) = null
+merge Coins(amount=50.0) + Items(amount=1, item=BEEF) = null
+merge Coins(amount=50.0) + Unknown(text=x) = null
+merge Coins(amount=50.0) + Unknown(text=x) = null
+merge Items(amount=2, item=PORK) + EXP(amount=10.0, skill=Farming) = null
+merge Items(amount=2, item=PORK) + EXP(amount=5.0, skill=Combat) = null
+merge Items(amount=2, item=PORK) + EXP(amount=2.5, skill=Farming) = null
+merge Items(amount=2, item=PORK) + Coins(amount=100.0) = null
+merge Items(amount=2, item=PORK) + Coins(amount=50.0) = null
+merge Items(amount=2, item=PORK) + Items(amount=2, item=PORK) = Items(amount=4, item=PORK)
+merge Items(amount=2, item=PORK) + Items(amount=3, item=PORK) = Items(amount=5, item=PORK)
+merge Items(amount=2, item=PORK) + Items(amount=1, item=BEEF) = null
+merge Items(amount=2, item=PORK) + Unknown(text=x) = null
+merge Items(amount=2, item=PORK) + Unknown(text=x) = null
+merge Items(amount=3, item=PORK) + EXP(amount=10.0, skill=Farming) = null
+merge Items(amount=3, item=PORK) + EXP(amount=5.0, skill=Combat) = null
+merge Items(amount=3, item=PORK) + EXP(amount=2.5, skill=Farming) = null
+merge Items(amount=3, item=PORK) + Coins(amount=100.0) = null
+merge Items(amount=3, item=PORK) + Coins(amount=50.0) = null
+merge Items(amount=3, item=PORK) + Items(amount=2, item=PORK) = Items(amount=5, item=PORK)
+merge Items(amount=3, item=PORK) + Items(amount=3, item=PORK) = Items(amount=6, item=PORK)
+merge Items(amount=3, item=PORK) + Items(amount=1, item=BEEF) = null
+merge Items(amount=3, item=PORK) + Unknown(text=x) = null
+merge Items(amount=3, item=PORK) + Unknown(text=x) = null
+merge Items(amount=1, item=BEEF) + EXP(amount=10.0, skill=Farming) = null
+merge Items(amount=1, item=BEEF) + EXP(amount=5.0, skill=Combat) = null
+merge Items(amount=1, item=BEEF) + EXP(amount=2.5, skill=Farming) = null
+merge Items(amount=1, item=BEEF) + Coins(amount=100.0) = null
+merge Items(amount=1, item=BEEF) + Coins(amount=50.0) = null
+merge Items(amount=1, item=BEEF) + Items(amount=2, item=PORK) = null
+merge Items(amount=1, item=BEEF) + Items(amount=3, item=PORK) = null
+merge Items(amount=1, item=BEEF) + Items(amount=1, item=BEEF) = Items(amount=2, item=BEEF)
+merge Items(amount=1, item=BEEF) + Unknown(text=x) = null
+merge Items(amount=1, item=BEEF) + Unknown(text=x) = null
+merge Unknown(text=x) + EXP(amount=10.0, skill=Farming) = null
+merge Unknown(text=x) + EXP(amount=5.0, skill=Combat) = null
+merge Unknown(text=x) + EXP(amount=2.5, skill=Farming) = null
+merge Unknown(text=x) + Coins(amount=100.0) = null
+merge Unknown(text=x) + Coins(amount=50.0) = null
+merge Unknown(text=x) + Items(amount=2, item=PORK) = null
+merge Unknown(text=x) + Items(amount=3, item=PORK) = null
+merge Unknown(text=x) + Items(amount=1, item=BEEF) = null
+merge Unknown(text=x) + Unknown(text=x) = null
+merge Unknown(text=x) + Unknown(text=x) = null
+merge Unknown(text=x) + EXP(amount=10.0, skill=Farming) = null
+merge Unknown(text=x) + EXP(amount=5.0, skill=Combat) = null
+merge Unknown(text=x) + EXP(amount=2.5, skill=Farming) = null
+merge Unknown(text=x) + Coins(amount=100.0) = null
+merge Unknown(text=x) + Coins(amount=50.0) = null
+merge Unknown(text=x) + Items(amount=2, item=PORK) = null
+merge Unknown(text=x) + Items(amount=3, item=PORK) = null
+merge Unknown(text=x) + Items(amount=1, item=BEEF) = null
+merge Unknown(text=x) + Unknown(text=x) = null
+merge Unknown(text=x) + Unknown(text=x) = null
+add EXP(amount=10.0, skill=Farming) -> [EXP(amount=10.0, skill=Farming)]
+add EXP(amount=5.0, skill=Combat) -> [EXP(amount=10.0, skill=Farming), EXP(amount=5.0, skill=Combat)]
+add EXP(amount=2.5, skill=Farming) -> [EXP(amount=12.5, skill=Farming), EXP(amount=5.0, skill=Combat)]
+add Coins(amount=100.0) -> [EXP(amount=12.5, skill=Farming), EXP(amount=5.0, skill=Combat), Coins(amount=100.0)]
+add Coins(amount=50.0) -> [EXP(amount=12.5, skill=Farming), EXP(amount=5.0, skill=Combat), Coins(amount=150.0)]
+add Items(amount=2, item=PORK) -> [EXP(amount=12.5, skill=Farming), EXP(amount=5.0, skill=Combat), Coins(amount=150.0), Items(amount=2, item=PORK)]
+add Items(amount=3, item=PORK) -> [EXP(amount=12.5, skill=Farming), EXP(amount=5.0, skill=Combat), Coins(amount=150.0), Items(amount=5, item=PORK)]
+add Items(amount=1, item=BEEF) -> [EXP(amount=12.5, skill=Farming), EXP(amount=5.0, skill=Combat), Coins(amount=150.0), Items(amount=5, item=PORK), Items(amount=1, item=BEEF)]
+add Unknown(text=x) -> [EXP(amount=12.5, skill=Farming), EXP(amount=5.0, skill=Combat), Coins(amount=150.0), Items(amount=5, item=PORK), Items(amount=1, item=BEEF), Unknown(text=x)]
+add Unknown(text=x) -> [EXP(amount=12.5, skill=Farming), EXP(amount=5.0, skill=Combat), Coins(amount=150.0), Items(amount=5, item=PORK), Items(amount=1, item=BEEF), Unknown(text=x), Unknown(text=x)]
+inside observer=true
+atOnce list=ObservableList(delegate=[2, 3, 4], observer=dev.ashtonite365.apex.test.ours.featureevents.FeatureEventsEquivalenceTest$$Lambda/0x000000000dfc4c30@#) updates=1 observerBack=true
+pigs empty=true last=null

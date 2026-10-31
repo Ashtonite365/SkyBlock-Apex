@@ -1,0 +1,32 @@
+{
+	"box": "BOX_OF_JUNK",
+	"source": "https://hypixelskyblock.minecraft.wiki/w/Box_of_Junk",
+	"total_weight": null,
+	"drops": [
+		{
+			"type": "item",
+			"id": "RUSTY_COIN",
+			"min": 1,
+			"max": 1,
+			"weight": null,
+			"chance": 0.7
+		},
+		{
+			"type": "item",
+			"id": "BUSTED_BELT_BUCKLE",
+			"min": 1,
+			"max": 1,
+			"weight": null,
+			"chance": 0.25
+		},
+		{
+			"type": "item",
+			"id": "OLD_LEATHER_BOOT",
+			"min": 1,
+			"max": 1,
+			"weight": null,
+			"chance": 0.05
+		}
+	],
+	"note": "wiki column is \"chance per roll (estimated)\""
+}

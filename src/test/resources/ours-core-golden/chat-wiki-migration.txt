@@ -1,0 +1,12 @@
+{} -> kotlin.Unit {}
+{"auto-completions":{}} -> kotlin.Unit {"auto-completions":{}}
+{"auto-completions":{"wiki-key":5}} -> kotlin.Unit {"auto-completions":{"wiki-key":5}}
+{"auto-completions":{"wiki-key":{}}} -> kotlin.Unit {"auto-completions":{"wiki-key":{"button":{"keyCode":13}}}}
+{"auto-completions":{"wiki-key":{"button":null,"modifiers":{"modifiers":0}}}} -> kotlin.Unit {"auto-completions":{"wiki-key":{"button":{"keyCode":13},"modifiers":{"modifiers":0}}}}
+{"auto-completions":{"wiki-key":{"button":null,"modifiers":{"modifiers":3}}}} -> kotlin.Unit {"auto-completions":{"wiki-key":{"modifiers":{"modifiers":3}}}}
+{"auto-completions":{"wiki-key":{"button":{"keyCode":70},"modifiers":{"modifiers":0}}}} -> kotlin.Unit {"auto-completions":{"wiki-key":{"button":{"keyCode":70},"modifiers":{"modifiers":0}}}}
+{"auto-completions":{"wiki-key":{"modifiers":{"modifiers":"x"}}}} -> threw NumberFormatException {"auto-completions":{"wiki-key":{"modifiers":{"modifiers":"x"}}}}
+{"auto-completions":{"wiki-key":{"modifiers":{}}}} -> kotlin.Unit {"auto-completions":{"wiki-key":{"button":{"keyCode":13},"modifiers":{}}}}
+{"auto-completions":{"wiki-key":{"button":null,"modifiers":5}}} -> threw ClassCastException {"auto-completions":{"wiki-key":{"modifiers":5}}}
+{"auto-completions":5} -> threw ClassCastException {"auto-completions":5}
+identifier auto-completions chat-links copy-chat quick-commands

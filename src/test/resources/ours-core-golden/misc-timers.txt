@@ -1,0 +1,8 @@
+timer left~30s done=false eggs 7 1m
+past left=0s done=true
+far left=0s done=true
+equal=true copyId=1
+started [40:pie:10m, 41:toast:50ms] next=42
+clear missing [40, 41]
+clear 40 [41]
+tick ok []

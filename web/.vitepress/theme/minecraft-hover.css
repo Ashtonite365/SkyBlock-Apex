@@ -1,0 +1,35 @@
+/*
+ * SPDX-FileCopyrightText: 2025 Linnea Gräf <nea@nea.moe>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+@import 'tippy.js/dist/tippy.css';
+@import 'tippy.js/themes/translucent.css';
+
+:root {
+  --firm-ident-color: rgb(24, 121, 78);
+}
+
+.dark {
+  --firm-ident-color: #b3f6c0;
+}
+
+code[fqfi],
+code[ident],
+code[model] {
+  --vp-code-color: var(--firm-ident-color);
+
+  &::after {
+    margin-left: 0.25em;
+    font-size: 0.85em;
+    opacity: 0.7;
+  }
+}
+
+code[fqfi]::after {
+  content: "📄";
+}
+
+code[model]::after {
+  content: "📐";
+}

@@ -1,0 +1,185 @@
+{
+	"box": "WHITE_GIFT",
+	"source": "https://hypixelskyblock.minecraft.wiki/w/White_Gift",
+	"total_weight": 6649,
+	"drops": [
+		{
+			"type": "coins",
+			"min": 2000,
+			"max": 2000,
+			"weight": 2000,
+			"chance": 0.3008
+		},
+		{
+			"type": "coins",
+			"min": 5000,
+			"max": 5000,
+			"weight": 1000,
+			"chance": 0.1504
+		},
+		{
+			"type": "coins",
+			"min": 10000,
+			"max": 10000,
+			"weight": 500,
+			"chance": 0.0752
+		},
+		{
+			"type": "skill_xp",
+			"skill": null,
+			"min": 250,
+			"max": 250,
+			"note": "skill not specified on wiki",
+			"weight": 1500,
+			"chance": 0.2256
+		},
+		{
+			"type": "skill_xp",
+			"skill": null,
+			"min": 500,
+			"max": 500,
+			"note": "skill not specified on wiki",
+			"weight": 200,
+			"chance": 0.0301
+		},
+		{
+			"type": "item",
+			"id": null,
+			"min": 1,
+			"max": 1,
+			"note": "one random skill XP Boost potion of this tier (Farming XP Boost I Potion; Mining XP Boost I Potion; Combat XP Boost I Potion; Foraging XP Boost I Potion; Fishing XP Boost I Potion; Alchemy XP Boost I Potion; Enchanting XP Boost I Potion); potion ids are NBT variants, not repo items",
+			"weight": 500,
+			"chance": 0.0752
+		},
+		{
+			"type": "item",
+			"id": null,
+			"min": 1,
+			"max": 1,
+			"note": "one random skill XP Boost potion of this tier (Farming XP Boost II Potion; Mining XP Boost II Potion; Combat XP Boost II Potion; Foraging XP Boost II Potion; Fishing XP Boost II Potion; Alchemy XP Boost II Potion; Enchanting XP Boost II Potion); potion ids are NBT variants, not repo items",
+			"weight": 250,
+			"chance": 0.0376
+		},
+		{
+			"type": "item",
+			"id": null,
+			"min": 1,
+			"max": 1,
+			"note": "Ice Rune I (no rune item ids in Apex repo)",
+			"weight": 400,
+			"chance": 0.0602
+		},
+		{
+			"type": "item",
+			"id": "BATTLE_DISC",
+			"min": 1,
+			"max": 1,
+			"weight": 60,
+			"chance": 0.009
+		},
+		{
+			"type": "item",
+			"id": "WINTER_DISC",
+			"min": 1,
+			"max": 1,
+			"weight": 60,
+			"chance": 0.009
+		},
+		{
+			"type": "item",
+			"id": "SNOW_GENERATOR_1",
+			"min": 1,
+			"max": 1,
+			"weight": 30,
+			"chance": 0.0045
+		},
+		{
+			"type": "item",
+			"id": "GRINCH_PERSONALITY",
+			"min": 1,
+			"max": 1,
+			"weight": 25,
+			"chance": 0.0038
+		},
+		{
+			"type": "item",
+			"id": "GINGERBREAD_PERSONALITY",
+			"min": 1,
+			"max": 1,
+			"weight": 25,
+			"chance": 0.0038
+		},
+		{
+			"type": "item",
+			"id": "SANTA_PERSONALITY",
+			"min": 1,
+			"max": 1,
+			"weight": 25,
+			"chance": 0.0038
+		},
+		{
+			"type": "item",
+			"id": "NUTCRACKER",
+			"min": 1,
+			"max": 1,
+			"weight": 20,
+			"chance": 0.003
+		},
+		{
+			"type": "item",
+			"id": "PRESENTS",
+			"min": 1,
+			"max": 1,
+			"weight": 20,
+			"chance": 0.003
+		},
+		{
+			"type": "item",
+			"id": "BIG_XTREE",
+			"min": 1,
+			"max": 1,
+			"weight": 20,
+			"chance": 0.003
+		},
+		{
+			"type": "item",
+			"id": "GIFT_THE_FISH",
+			"min": 1,
+			"max": 1,
+			"weight": 4,
+			"chance": 0.0006
+		},
+		{
+			"type": "item",
+			"id": "SNOW_SUIT_HELMET",
+			"min": 1,
+			"max": 1,
+			"weight": 2,
+			"chance": 0.0003
+		},
+		{
+			"type": "item",
+			"id": "SNOW_SUIT_CHESTPLATE",
+			"min": 1,
+			"max": 1,
+			"weight": 3,
+			"chance": 0.0005
+		},
+		{
+			"type": "item",
+			"id": "SNOW_SUIT_LEGGINGS",
+			"min": 1,
+			"max": 1,
+			"weight": 3,
+			"chance": 0.0005
+		},
+		{
+			"type": "item",
+			"id": "SNOW_SUIT_BOOTS",
+			"min": 1,
+			"max": 1,
+			"weight": 2,
+			"chance": 0.0003
+		}
+	]
+}

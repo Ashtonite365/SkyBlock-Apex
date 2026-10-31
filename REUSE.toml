@@ -1,0 +1,162 @@
+#SPDX-FileCopyrightText: 2024 Linnea Gräf <nea@nea.moe>
+#SPDX-License-Identifier: CC0-1.0
+
+version = 1
+SPDX-PackageName = "Firmament"
+SPDX-PackageSupplier = "Linnea Gräf <nea@nea.moe>"
+SPDX-PackageDownloadLocation = "https://github.com/nea89o/Firmament"
+
+[[annotations]]
+path = ["**/*.kt", "**/*.java"]
+SPDX-License-Identifier = "GPL-3.0-or-later"
+SPDX-FileCopyrightText = ["Linnea Gräf <nea@nea.moe>", "Firmament Contributors"]
+
+[[annotations]]
+path = ["src/main/resources/**/*.png", "src/main/resources/**/*.mcmeta"]
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileCopyrightText = ["2026 Ashtonite365"]
+
+[[annotations]]
+path = ["**/assets/moulconfig/**"]
+precedence = "override"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+SPDX-FileCopyrightText = ["MoulConfig contributors (NotEnoughUpdates/MoulConfig)"]
+
+[[annotations]]
+path = ["src/main/resources/assets/apex/textures/gui/sprites/tooltip/rarity/**"]
+precedence = "override"
+SPDX-License-Identifier = "LicenseRef-Unverified"
+SPDX-FileCopyrightText = ["Unknown origin (unverified)"]
+
+[[annotations]]
+path = ["src/main/resources/assets/apex/shaders/**/*"]
+SPDX-License-Identifier = "GPL-3.0-or-later"
+SPDX-FileCopyrightText = ["Linnea Gräf <nea@nea.moe>", "Firmament Contributors"]
+
+[[annotations]]
+path = "translations/**/*.json"
+SPDX-License-Identifier = "CC0-1.0"
+SPDX-FileCopyrightText = ["Linnea Gräf <nea@nea.moe>", "Firmament Contributors"]
+
+[[annotations]]
+path = "**/fabric.mod.json"
+SPDX-License-Identifier = "CC0-1.0"
+SPDX-FileCopyrightText = ["Linnea Gräf <nea@nea.moe>", "Firmament Contributors"]
+
+[[annotations]]
+path = ["src/main/resources/assets/apex/gui/**/*.xml"]
+SPDX-License-Identifier = "CC0-1.0"
+SPDX-FileCopyrightText = ["Linnea Gräf <nea@nea.moe>", "Firmament Contributors"]
+
+[[annotations]]
+path = "**/*.gradle.kts"
+SPDX-License-Identifier = "CC0-1.0"
+SPDX-FileCopyrightText = ["Linnea Gräf <nea@nea.moe>", "Firmament Contributors"]
+
+[[annotations]]
+path = ["**/META-INF/services/*"]
+SPDX-License-Identifier = "CC0-1.0"
+SPDX-FileCopyrightText = ["Linnea Gräf <nea@nea.moe>", "Firmament Contributors"]
+
+[[annotations]]
+path = ["src/test/resources/testdata/**/*.snbt"]
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileCopyrightText = ["Linnea Gräf <nea@nea.moe>", "Firmament Contributors"]
+
+[[annotations]]
+path = ["src/main/resources/legacy_data/*.json"]
+SPDX-License-Identifier = "MIT"
+SPDX-FileCopyrightText = ["PrismarineJS Minecraft Data"]
+
+[[annotations]]
+path = ["flake.lock"]
+SPDX-License-Identifier = "CC0-1.0"
+SPDX-FileCopyrightText = ["Auto Generated"]
+
+[[annotations]]
+path = ["src/main/resources/assets/apex/textures/gui/storage_pane_ctm.png", "src/main/resources/assets/apex/textures/gui/sprites/storageoverlay/core_*/**"]
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+SPDX-FileCopyrightText = ["NotEnoughUpdates contributors"]
+
+[[annotations]]
+path = ["src/main/kotlin/features/chat/PartyCommands.kt"]
+SPDX-License-Identifier = "GPL-3.0-or-later AND BSD-3-Clause"
+SPDX-FileCopyrightText = ["Firmament Contributors", "2025 odtheking (Odin)"]
+
+[[annotations]]
+path = ["src/main/kotlin/features/dungeon/Boulder.kt", "src/main/resources/assets/apex/puzzles/boulder-solutions.json"]
+SPDX-License-Identifier = "GPL-3.0-or-later AND BSD-3-Clause"
+SPDX-FileCopyrightText = ["Firmament Contributors", "2025 odtheking (Odin)"]
+
+[[annotations]]
+path = ["src/main/kotlin/features/kit/**", "src/main/kotlin/util/kit/**", "src/main/java/dev/ashtonite365/apex/mixins/kit/**", "src/main/resources/assets/apex/kit/**", "src/main/kotlin/features/dungeon/DungeonSplits.kt", "src/main/kotlin/features/dungeon/PuzzleSolvers.kt", "src/main/kotlin/features/dungeon/SecretRooms.kt", "tools/secret-rooms-src/kit-rooms.json", "src/main/resources/assets/apex/dungeon-rooms/secret-rooms.json", "src/main/kotlin/util/skyblock/DungeonTabSecrets.kt"]
+SPDX-License-Identifier = "GPL-3.0-or-later AND BSD-3-Clause"
+SPDX-FileCopyrightText = ["Firmament Contributors", "2025 odtheking (Odin)"]
+
+[[annotations]]
+path = ["src/vendor/jarvis/**"]
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+SPDX-FileCopyrightText = ["2026 Linnea Gräf", "2026 Jarvis Contributors"]
+
+[[annotations]]
+path = ["src/main/resources/assets/apex/plus-repo/**"]
+precedence = "override"
+SPDX-License-Identifier = "MIT"
+SPDX-FileCopyrightText = ["hannibal2 and the SkyHanni-REPO contributors"]
+
+[[annotations]]
+path = ["src/main/kotlin/features/plus/**", "src/main/kotlin/util/plus/**"]
+SPDX-License-Identifier = "GPL-3.0-or-later"
+SPDX-FileCopyrightText = ["Firmament Contributors", "hannibal002 & SkyHanni contributors"]
+
+[[annotations]]
+path = ["src/main/resources/assets/apex/old_look/**"]
+SPDX-License-Identifier = "MIT AND BSD-3-Clause"
+SPDX-FileCopyrightText = ["2020 Moulberry (NotEnoughUpdates-REPO item data)", "2026 Starred (state rules)"]
+
+[[annotations]]
+path = ["src/main/resources/assets/apex/font/wiki/*.ttf"]
+SPDX-License-Identifier = "OFL-1.1"
+SPDX-FileCopyrightText = ["2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)"]
+
+[[annotations]]
+path = ["src/main/resources/assets/apex/font/*.json"]
+SPDX-License-Identifier = "CC0-1.0"
+SPDX-FileCopyrightText = ["Apex Contributors"]
+
+[[annotations]]
+path = ["third-party-licenses/LICENSE-SkyblockAddons.txt", "third-party-licenses/LICENSE-minecraft-data.txt", "third-party-licenses/LICENSE-MixinExtras.txt", "third-party-licenses/LICENSE-HypixelModAPI.txt"]
+SPDX-License-Identifier = "MIT"
+SPDX-FileCopyrightText = ["2021 Biscuit Development", "2015-present PrismarineJS contributors", "2022-present LlamaLad7", "2024 Hypixel Inc."]
+
+[[annotations]]
+path = ["third-party-licenses/LICENSE-LibNinePatch-MPL-2.0.txt", "third-party-licenses/LICENSE-ManninghamMills-MPL-2.0.txt"]
+SPDX-License-Identifier = "MPL-2.0"
+SPDX-FileCopyrightText = ["Juuxel", "Chocohead"]
+
+[[annotations]]
+path = ["third-party-licenses/LICENSE-RepoParser-BSD-2-Clause.txt"]
+SPDX-License-Identifier = "BSD-2-Clause"
+SPDX-FileCopyrightText = ["2023 Linnea Gräf"]
+
+[[annotations]]
+path = ["third-party-licenses/LICENSE-cloth-basic-math-Unlicense.txt"]
+SPDX-License-Identifier = "Unlicense"
+SPDX-FileCopyrightText = ["shedaniel"]
+
+[[annotations]]
+path = ["third-party-licenses/ATTRIBUTION-CC-BY-4.0.txt", "reference/README.md"]
+SPDX-License-Identifier = "CC0-1.0"
+SPDX-FileCopyrightText = ["Apex Contributors"]
+
+[[annotations]]
+path = ["reference/hypixel_skyblock-trimmed/**"]
+precedence = "override"
+SPDX-License-Identifier = "LicenseRef-Hypixel-SkyBlock-Pack"
+SPDX-FileCopyrightText = "2026 Hypixel Inc."
+
+[[annotations]]
+path = ["src/main/resources/assets/apex/textures/gui/apex/fast_travel_map.png"]
+precedence = "override"
+SPDX-License-Identifier = "CC-BY-4.0 AND LicenseRef-Unverified"
+SPDX-FileCopyrightText = ["2026 Ashtonite365 (Lotus Atoll region)", "Unconfirmed source (rest of the old map, supplied by Ashton)"]
